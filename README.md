@@ -124,7 +124,7 @@ To install and set up AcePlus, follow these steps:
 ### Environment Setup
 
 AcePlus uses environment variables to manage configuration. Here's how to set them up:
-  **Backend Environment:**
+1. **Backend Environment:**
 
     -   In the `backend` directory, locate the `.env.example` file
     -   Make a copy of `.env.example` and rename it to `.env`:
