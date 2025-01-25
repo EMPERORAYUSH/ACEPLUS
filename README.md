@@ -79,8 +79,8 @@ To install and set up AcePlus, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
-    cd <repository-name>
+    git clone https://github.com/EMPERORAYUSH/ACEPLUS.git
+    cd ACEPLUS
     ```
 
 2. **Setup backend & Install backend dependencies:**
