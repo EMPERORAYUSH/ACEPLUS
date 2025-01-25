@@ -77,6 +77,15 @@ AcePlus boasts a wide array of features designed to enhance the learning process
 
 ## Installation
 
+### Prerequisites
+
+Before installing AcePlus, ensure you have the following installed:
+
+- Python 3.8 or higher
+- Node.js 18.x or higher and npm
+
+### Setup Instructions
+
 To install and set up AcePlus, follow these steps:
 
 1. **Clone the repository:**
