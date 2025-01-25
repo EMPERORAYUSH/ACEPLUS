@@ -1,0 +1,607 @@
+[
+  {
+    "question": "Which of the following is NOT a function of the nervous system?",
+    "options": {
+      "a": "Controlling muscle movement",
+      "b": "Processing sensory information",
+      "c": "Producing hormones",
+      "d": "Regulating internal organ function"
+    },
+    "answer": "c",
+    "id": 1978
+  },
+  {
+    "question": "The specialized tips of nerve cells that detect information from the environment are called:",
+    "options": {
+      "a": "Axons",
+      "b": "Dendrites",
+      "c": "Synapses",
+      "d": "Receptors"
+    },
+    "answer": "d",
+    "id": 1979
+  },
+  {
+    "question": "The electrical impulse in a neuron travels from:",
+    "options": {
+      "a": "Axon to dendrite",
+      "b": "Synapse to axon",
+      "c": "Dendrite to axon",
+      "d": "Cell body to synapse"
+    },
+    "answer": "c",
+    "id": 1980
+  },
+  {
+    "question": "The chemical messengers that cross the synapse are called:",
+    "options": {
+      "a": "Hormones",
+      "b": "Neurotransmitters",
+      "c": "Enzymes",
+      "d": "Antibodies"
+    },
+    "answer": "b",
+    "id": 1981
+  },
+  {
+    "question": "A reflex arc involves:",
+    "options": {
+      "a": "Only the brain",
+      "b": "Only the spinal cord",
+      "c": "Both the brain and the spinal cord",
+      "d": "Neither the brain nor the spinal cord"
+    },
+    "answer": "b",
+    "id": 1982
+  },
+  {
+    "question": "The central nervous system consists of:",
+    "options": {
+      "a": "Brain and spinal cord",
+      "b": "Sensory and motor neurons",
+      "c": "Peripheral nerves",
+      "d": "All nerves in the body"
+    },
+    "answer": "a",
+    "id": 1983
+  },
+  {
+    "question": "Which part of the brain is responsible for complex thinking?",
+    "options": {
+      "a": "Cerebellum",
+      "b": "Medulla",
+      "c": "Cerebrum",
+      "d": "Spinal cord"
+    },
+    "answer": "c",
+    "id": 1984
+  },
+  {
+    "question": "Which part of the brain controls involuntary actions like breathing and heart rate?",
+    "options": {
+      "a": "Cerebellum",
+      "b": "Medulla",
+      "c": "Cerebrum",
+      "d": "Hypothalamus"
+    },
+    "answer": "b",
+    "id": 1985
+  },
+  {
+    "question": "Which of the following is NOT a plant hormone?",
+    "options": {
+      "a": "Auxin",
+      "b": "Gibberellin",
+      "c": "Cytokinin",
+      "d": "Adrenaline"
+    },
+    "answer": "d",
+    "id": 1986
+  },
+  {
+    "question": "Plant movements in response to stimuli like light and gravity are called:",
+    "options": {
+      "a": "Nastic movements",
+      "b": "Tropic movements",
+      "c": "Reflex actions",
+      "d": "Voluntary movements"
+    },
+    "answer": "b",
+    "id": 1987
+  },
+  {
+    "question": "Which plant hormone promotes cell division?",
+    "options": {
+      "a": "Auxin",
+      "b": "Gibberellin",
+      "c": "Cytokinin",
+      "d": "Abscisic acid"
+    },
+    "answer": "c",
+    "id": 1988
+  },
+  {
+    "question": "Which hormone inhibits plant growth?",
+    "options": {
+      "a": "Auxin",
+      "b": "Gibberellin",
+      "c": "Cytokinin",
+      "d": "Abscisic acid"
+    },
+    "answer": "d",
+    "id": 1989
+  },
+  {
+    "question": "Which hormone is responsible for the \"fight or flight\" response in animals?",
+    "options": {
+      "a": "Insulin",
+      "b": "Thyroxin",
+      "c": "Adrenaline",
+      "d": "Growth hormone"
+    },
+    "answer": "c",
+    "id": 1990
+  },
+  {
+    "question": "Which gland secretes insulin?",
+    "options": {
+      "a": "Pituitary",
+      "b": "Thyroid",
+      "c": "Adrenal",
+      "d": "Pancreas"
+    },
+    "answer": "d",
+    "id": 1991
+  },
+  {
+    "question": "Which hormone regulates growth and development in humans?",
+    "options": {
+      "a": "Insulin",
+      "b": "Thyroxin",
+      "c": "Adrenaline",
+      "d": "Growth hormone"
+    },
+    "answer": "d",
+    "id": 1992
+  },
+  {
+    "question": "Which hormone is responsible for changes during puberty?",
+    "options": {
+      "a": "Testosterone/Estrogen",
+      "b": "Thyroxin",
+      "c": "Adrenaline",
+      "d": "Growth hormone"
+    },
+    "answer": "a",
+    "id": 1993
+  },
+  {
+    "question": "The bony box that protects the brain is called the:",
+    "options": {
+      "a": "Rib cage",
+      "b": "Vertebral column",
+      "c": "Cranium",
+      "d": "Sternum"
+    },
+    "answer": "c",
+    "id": 1994
+  },
+  {
+    "question": "The fluid-filled balloon that provides shock absorption for the brain is called the:",
+    "options": {
+      "a": "Meninges",
+      "b": "Cerebrospinal fluid",
+      "c": "Blood-brain barrier",
+      "d": "Myelin sheath"
+    },
+    "answer": "b",
+    "id": 1995
+  },
+  {
+    "question": "What is the role of the myelin sheath?",
+    "options": {
+      "a": "Produces hormones",
+      "b": "Insulates axons and speeds up nerve impulse transmission",
+      "c": "Connects neurons",
+      "d": "Detects stimuli"
+    },
+    "answer": "b",
+    "id": 1996
+  },
+  {
+    "question": "What happens when bright light is focused on the eyes?",
+    "options": {
+      "a": "Pupils dilate",
+      "b": "Pupils constrict",
+      "c": "No change in pupil size",
+      "d": "Eyes close involuntarily"
+    },
+    "answer": "b",
+    "id": 1997
+  },
+  {
+    "question": "If a person touches a hot object, what is the sequence of events that occur in a reflex action?",
+    "options": {
+      "a": "Receptor → Sensory neuron → Motor Neuron → Effector Muscle",
+      "b": "Receptor → Motor Neuron → Spinal Cord → Effector Muscle",
+      "c": "Receptor → Sensory neuron → Spinal Cord → Motor Neuron → Effector Muscle",
+      "d": "Receptor → Spinal Cord → Sensory neuron → Motor Neuron → Effector Muscle"
+    },
+    "answer": "c",
+    "id": 1998
+  },
+  {
+    "question": "The main difference between a reflex action and walking is:",
+    "options": {
+      "a": "Reflex actions are voluntary, walking is involuntary",
+      "b": "Reflex actions are involuntary, walking is voluntary",
+      "c": "Both are involuntary actions",
+      "d": "Both are voluntary actions"
+    },
+    "answer": "b",
+    "id": 1999
+  },
+  {
+    "question": "Which type of plant movement is independent of growth?",
+    "options": {
+      "a": "Phototropism",
+      "b": "Geotropism",
+      "c": "Nastic movements",
+      "d": "Tendril movement"
+    },
+    "answer": "c",
+    "id": 2000
+  },
+  {
+    "question": "If the growth of a seedling is stopped, which of the following movements would NOT happen?",
+    "options": {
+      "a": "Pushing soil aside",
+      "b": "Bending towards light",
+      "c": "Folding of leaves in response to touch",
+      "d": "Growth of roots downwards"
+    },
+    "answer": "a",
+    "id": 2001
+  },
+  {
+    "question": "How do plant cells change shape to cause movement?",
+    "options": {
+      "a": "By changing the amount of water in them",
+      "b": "By contracting specialized proteins",
+      "c": "By using electrical impulses",
+      "d": "By releasing hormones"
+    },
+    "answer": "a",
+    "id": 2002
+  },
+  {
+    "question": "Which of the following is an example of chemotropism?",
+    "options": {
+      "a": "Growth of roots downwards",
+      "b": "Bending of stem towards light",
+      "c": "Growth of pollen tubes towards ovules",
+      "d": "Folding of leaves in response to touch"
+    },
+    "answer": "c",
+    "id": 2003
+  },
+  {
+    "question": "How do plant hormones reach their target cells?",
+    "options": {
+      "a": "Through specialized tissues",
+      "b": "Through electrical impulses",
+      "c": "By diffusion",
+      "d": "Through blood vessels"
+    },
+    "answer": "c",
+    "id": 2004
+  },
+  {
+    "question": "Which of the following statements about hormones is INCORRECT?",
+    "options": {
+      "a": "They are chemical messengers",
+      "b": "They act on specific target cells",
+      "c": "They are produced in large amounts",
+      "d": "They are involved in control and coordination"
+    },
+    "answer": "c",
+    "id": 2005
+  },
+  {
+    "question": "Which condition can result from iodine deficiency?",
+    "options": {
+      "a": "Diabetes",
+      "b": "Dwarfism",
+      "c": "Goitre",
+      "d": "Gigantism"
+    },
+    "answer": "c",
+    "id": 2007
+  },
+  {
+    "question": "A deficiency of which hormone during childhood can lead to dwarfism?",
+    "options": {
+      "a": "Growth Hormone",
+      "b": "Thyroxin",
+      "c": "Insulin",
+      "d": "Adrenaline"
+    },
+    "answer": "a",
+    "id": 2008
+  },
+  {
+    "question": "What type of feedback mechanism regulates hormone action?",
+    "options": {
+      "a": "Positive feedback",
+      "b": "Negative feedback",
+      "c": "Neutral feedback",
+      "d": "No feedback"
+    },
+    "answer": "b",
+    "id": 2009
+  },
+  {
+    "question": "Why is the vertebral column important?",
+    "options": {
+      "a": "It protects the brain",
+      "b": "It protects the spinal cord",
+      "c": "It produces hormones",
+      "d": "It helps in movement"
+    },
+    "answer": "b",
+    "id": 2010
+  },
+  {
+    "question": "The point where two neurons meet is called a:",
+    "options": {
+      "a": "Dendrite",
+      "b": "Axon",
+      "c": "Synapse",
+      "d": "Cell body"
+    },
+    "answer": "c",
+    "id": 2011
+  },
+  {
+    "question": "Nerves that carry information from the sense organs to the brain are called:",
+    "options": {
+      "a": "Motor neurons",
+      "b": "Sensory neurons",
+      "c": "Relay neurons",
+      "d": "Interneurons"
+    },
+    "answer": "b",
+    "id": 2012
+  },
+  {
+    "question": "Which part of the brain maintains posture and balance?",
+    "options": {
+      "a": "Cerebrum",
+      "b": "Cerebellum",
+      "c": "Medulla",
+      "d": "Hypothalamus"
+    },
+    "answer": "b",
+    "id": 2013
+  },
+  {
+    "question": "Which of the following is NOT controlled by the medulla?",
+    "options": {
+      "a": "Blood pressure",
+      "b": "Salivation",
+      "c": "Vomiting",
+      "d": "Balance"
+    },
+    "answer": "d",
+    "id": 2014
+  },
+  {
+    "question": "Which part of the neuron receives signals from other neurons?",
+    "options": {
+      "a": "Axon",
+      "b": "Dendrite",
+      "c": "Synapse",
+      "d": "Cell body"
+    },
+    "answer": "b",
+    "id": 2015
+  },
+  {
+    "question": "What is the role of the brain in a reflex action?",
+    "options": {
+      "a": "It initiates the reflex action",
+      "b": "It receives information about the reflex action",
+      "c": "It controls the reflex action",
+      "d": "It has no role in a reflex action"
+    },
+    "answer": "b",
+    "id": 2016
+  },
+  {
+    "question": "Which is an example of involuntary action in humans:",
+    "options": {
+      "a": "Clapping",
+      "b": "Talking",
+      "c": "Heart beating",
+      "d": "Walking"
+    },
+    "answer": "c",
+    "id": 2017
+  },
+  {
+    "question": "Why is iodised salt advisable?",
+    "options": {
+      "a": "It helps prevent goitre by providing iodine for thyroxin production",
+      "b": "It provides energy",
+      "c": "It regulates blood sugar",
+      "d": "It improves muscle function"
+    },
+    "answer": "a",
+    "id": 2018
+  },
+  {
+    "question": "How does the body respond when adrenaline is secreted into the blood?",
+    "options": {
+      "a": "Heart rate decreases, breathing rate decreases",
+      "b": "Heart rate increases, breathing rate increases, blood flow to muscles increases",
+      "c": "Digestion increases, blood flow to skin increases",
+      "d": "No change in body function"
+    },
+    "answer": "b",
+    "id": 2019
+  },
+  {
+    "question": "Why are some patients with diabetes treated with insulin injections?",
+    "options": {
+      "a": "Their pancreas produces too much insulin",
+      "b": "Their pancreas does not produce enough insulin",
+      "c": "Insulin increases blood sugar levels",
+      "d": "Insulin helps prevent goitre"
+    },
+    "answer": "b",
+    "id": 2020
+  },
+  {
+    "question": "Why is the movement of leaves in a sensitive plant different from the movement of a shoot towards light?",
+    "options": {
+      "a": "The sensitive plant movement is based on growth, while the shoot movement is not",
+      "b": "The sensitive plant movement is not based on growth, while the shoot movement is",
+      "c": "Both movements are based on growth",
+      "d": "Neither movement is based on growth"
+    },
+    "answer": "b",
+    "id": 2021
+  },
+  {
+    "question": "Auxins promote growth in plants by:",
+    "options": {
+      "a": "Promoting cell division",
+      "b": "Stimulating cell elongation",
+      "c": "Inhibiting growth",
+      "d": "Wilting leaves"
+    },
+    "answer": "b",
+    "id": 2022
+  },
+  {
+    "question": "A newly germinated bean seed is kept in a cardboard box with a hole on one side. What will be observed after a few days?",
+    "options": {
+      "a": "The shoot will bend away from the light",
+      "b": "The root will bend towards the light",
+      "c": "The shoot will bend towards the light and the root will bend away from the light",
+      "d": "No change in growth direction will be observed"
+    },
+    "answer": "c",
+    "id": 2023
+  },
+  {
+    "question": "Hydrotropism is the growth movement of a plant in response to:",
+    "options": {
+      "a": "Light",
+      "b": "Gravity",
+      "c": "Water",
+      "d": "Chemicals"
+    },
+    "answer": "c",
+    "id": 2024
+  },
+  {
+    "question": "Which is faster: transmission of information through electrical impulses or chemical messengers?",
+    "options": {
+      "a": "Chemical messengers",
+      "b": "Electrical impulses",
+      "c": "Both are equally fast",
+      "d": "It depends on the organism"
+    },
+    "answer": "b",
+    "id": 2025
+  },
+  {
+    "question": "The timing and amount of hormone release are regulated by:",
+    "options": {
+      "a": "Feedback mechanisms",
+      "b": "Nervous system",
+      "c": "Enzymes",
+      "d": "External stimuli"
+    },
+    "answer": "a",
+    "id": 2027
+  },
+  {
+    "question": "Assertion: Plant movements like phototropism are slower than animal movements.\nReason: Plant movements are based on growth while animal movements are based on muscle contraction.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true, but reason does not explain the assertion",
+      "c": "Assertion is false but reason is true",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2029
+  },
+  {
+    "question": "Assertion: Hormones can affect cells throughout the body.\nReason: Hormones travel through the bloodstream to reach target cells.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true, but reason does not explain the assertion",
+      "c": "Assertion is false but reason is true",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2030
+  },
+  {
+    "question": "Assertion: The myelin sheath is essential for rapid nerve impulse transmission.\nReason: Myelin sheath provides electrical insulation to the axon.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true, but reason does not explain the assertion",
+      "c": "Assertion is false but reason is true",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2031
+  },
+  {
+    "question": "Assertion: Diabetes patients need regular insulin injections.\nReason: Their pancreas produces excess insulin.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true, but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 2032
+  },
+  {
+    "question": "Assertion: The hypothalamus is called the master gland.\nReason: It controls the release of hormones from other endocrine glands.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true, but reason does not explain the assertion",
+      "c": "Assertion is false but reason is true",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2033
+  },
+  {
+    "question": "Assertion: Adrenaline is called the emergency hormone.\nReason: It prepares the body for 'fight or flight' response.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true, but reason does not explain the assertion",
+      "c": "Assertion is false but reason is true",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2035
+  },
+  {
+    "question": "Assertion: Auxins promote stem elongation.\nReason: Auxins inhibit cell division in plant stems.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true, but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 2037
+  }
+]

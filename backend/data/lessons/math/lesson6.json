@@ -1,0 +1,563 @@
+[
+  {
+    "question": "An angle is one-third of its supplement. What is its measure?",
+    "options": {
+      "a": "45°",
+      "b": "135°",
+      "c": "30°",
+      "d": "60°"
+    },
+    "answer": "a",
+    "id": 175
+  },
+  {
+    "question": "If two angles are complementary and one is acute, the other must be:",
+    "options": {
+      "a": "Obtuse",
+      "b": "Acute",
+      "c": "Right",
+      "d": "Reflex"
+    },
+    "answer": "b",
+    "id": 176
+  },
+  {
+    "question": "Two angles forming a linear pair are:",
+    "options": {
+      "a": "Complementary",
+      "b": "Supplementary",
+      "c": "Equal",
+      "d": "Vertically opposite"
+    },
+    "answer": "b",
+    "id": 177
+  },
+  {
+    "question": "The complement of 60° is:",
+    "options": {
+      "a": "30°",
+      "b": "120°",
+      "c": "90°",
+      "d": "150°"
+    },
+    "answer": "a",
+    "id": 178
+  },
+  {
+    "question": "If two lines intersect, the sum of adjacent angles is:",
+    "options": {
+      "a": "90°",
+      "b": "180°",
+      "c": "360°",
+      "d": "Variable"
+    },
+    "answer": "b",
+    "id": 179
+  },
+  {
+    "question": "An angle which measures more than 180° but less than 360° is called:",
+    "options": {
+      "a": "Acute",
+      "b": "Obtuse",
+      "c": "Reflex",
+      "d": "Straight"
+    },
+    "answer": "c",
+    "id": 180
+  },
+  {
+    "question": "The supplement of an obtuse angle is:",
+    "options": {
+      "a": "Acute",
+      "b": "Obtuse",
+      "c": "Right",
+      "d": "Reflex"
+    },
+    "answer": "a",
+    "id": 181
+  },
+  {
+    "question": "Two lines in a plane that never meet are called:",
+    "options": {
+      "a": "Intersecting",
+      "b": "Parallel",
+      "c": "Perpendicular",
+      "d": "Coincident"
+    },
+    "answer": "b",
+    "id": 182
+  },
+  {
+    "question": "An angle which measures 180° is called:",
+    "options": {
+      "a": "Acute",
+      "b": "Obtuse",
+      "c": "Straight",
+      "d": "Reflex"
+    },
+    "answer": "c",
+    "id": 183
+  },
+  {
+    "question": "If two complementary angles are in the ratio 4:5, find the smaller angle.",
+    "options": {
+      "a": "40°",
+      "b": "50°",
+      "c": "80°",
+      "d": "100°"
+    },
+    "answer": "a",
+    "id": 184
+  },
+  {
+    "question": "Two supplementary angles are (3x + 17)° and (2x - 5)°. Find x.",
+    "options": {
+      "a": "32",
+      "b": "34",
+      "c": "36",
+      "d": "38"
+    },
+    "answer": "b",
+    "id": 185
+  },
+  {
+    "question": "If two interior angles on the same side of a transversal intersecting two parallel lines are in the ratio 2:3, find the smaller angle.",
+    "options": {
+      "a": "72°",
+      "b": "108°",
+      "c": "36°",
+      "d": "54°"
+    },
+    "answer": "a",
+    "id": 186
+  },
+  {
+    "question": "If an angle is 20° more than its complement, find its measure.",
+    "options": {
+      "a": "35°",
+      "b": "55°",
+      "c": "70°",
+      "d": "125°"
+    },
+    "answer": "b",
+    "id": 187
+  },
+  {
+    "question": "The angles of a triangle are in the ratio 1:2:3.  Find the smallest angle.",
+    "options": {
+      "a": "30°",
+      "b": "60°",
+      "c": "90°",
+      "d": "120°"
+    },
+    "answer": "a",
+    "id": 188
+  },
+  {
+    "question": "The bisectors of two adjacent supplementary angles form an angle of:",
+    "options": {
+      "a": "45°",
+      "b": "90°",
+      "c": "135°",
+      "d": "180°"
+    },
+    "answer": "b",
+    "id": 189
+  },
+  {
+    "question": "In a triangle, two angles are 65° and 55°.  Find the third angle.",
+    "options": {
+      "a": "60°",
+      "b": "70°",
+      "c": "80°",
+      "d": "90°"
+    },
+    "answer": "a",
+    "id": 190
+  },
+  {
+    "question": "If one angle of a linear pair is twice the other, find the smaller angle.",
+    "options": {
+      "a": "30°",
+      "b": "60°",
+      "c": "90°",
+      "d": "120°"
+    },
+    "answer": "b",
+    "id": 191
+  },
+  {
+    "question": "If two lines are intersected by a transversal such that alternate interior angles are equal, then the lines are:",
+    "options": {
+      "a": "Perpendicular",
+      "b": "Parallel",
+      "c": "Intersecting",
+      "d": "Coincident"
+    },
+    "answer": "b",
+    "id": 192
+  },
+  {
+    "question": "A: Vertically opposite angles are equal. R:  If two lines intersect, then vertically opposite angles are equal.",
+    "options": {
+      "a": "A and R are true, R explains A.",
+      "b": "A and R are true, R doesn't explain A.",
+      "c": "A is true, R is false.",
+      "d": "A is false, R is true."
+    },
+    "answer": "a",
+    "id": 193
+  },
+  {
+    "question": "A: Co-interior angles are complementary. R: The sum of co-interior angles is 90°.",
+    "options": {
+      "a": "A and R are true, R explains A.",
+      "b": "A and R are true, R doesn't explain A.",
+      "c": "A is true, R is false.",
+      "d": "A is false, R is true."
+    },
+    "answer": "d",
+    "id": 194
+  },
+  {
+    "question": "A: Adjacent angles always form a linear pair. R: Adjacent angles share a common arm and vertex.",
+    "options": {
+      "a": "A and R are true, R explains A.",
+      "b": "A and R are true, R doesn't explain A.",
+      "c": "A is true, R is false.",
+      "d": "A is false, R is true."
+    },
+    "answer": "d",
+    "id": 195
+  },
+  {
+    "question": "A: If two parallel lines are cut by a transversal, corresponding angles are supplementary. R: If two parallel lines are cut by a transversal, corresponding angles are equal.",
+    "options": {
+      "a": "A and R are true, R explains A.",
+      "b": "A and R are true, R doesn't explain A.",
+      "c": "A is true, R is false.",
+      "d": "A is false, R is true."
+    },
+    "answer": "d",
+    "id": 196
+  },
+  {
+    "question": "A: The sum of angles of a triangle is 180°. R: The exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles.",
+    "options": {
+      "a": "A and R are true, R explains A.",
+      "b": "A and R are true, R doesn't explain A.",
+      "c": "A is true, R is false.",
+      "d": "A is false, R is true."
+    },
+    "answer": "b",
+    "id": 197
+  },
+  {
+    "question": "A ladder leans against a wall, making a 60° angle with the ground. What angle does it make with the wall?",
+    "options": {
+      "a": "30°",
+      "b": "60°",
+      "c": "90°",
+      "d": "120°"
+    },
+    "answer": "a",
+    "id": 198
+  },
+  {
+    "question": "The hands of a clock form an angle of 90° at:",
+    "options": {
+      "a": "3 o'clock",
+      "b": "6 o'clock",
+      "c": "9 o'clock",
+      "d": "All of these"
+    },
+    "answer": "d",
+    "id": 199
+  },
+  {
+    "question": "Two roads intersect, forming four angles. If one angle is 75°, what are the measures of the other three angles?",
+    "options": {
+      "a": "75°, 105°, 105°",
+      "b": "75°, 105°, 180°",
+      "c": "105°, 75°, 180°",
+      "d": "75°, 75°, 105°"
+    },
+    "answer": "a",
+    "id": 200
+  },
+  {
+    "question": "Is it possible for two angles to be both complementary and supplementary?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only if they are both 45°",
+      "d": "Only if they are both 90°"
+    },
+    "answer": "b",
+    "id": 201
+  },
+  {
+    "question": "Can two obtuse angles form a linear pair?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Sometimes",
+      "d": "Only if they are equal"
+    },
+    "answer": "b",
+    "id": 202
+  },
+  {
+    "question": "Can two acute angles form a linear pair?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Sometimes",
+      "d": "Only if they are equal"
+    },
+    "answer": "b",
+    "id": 203
+  },
+  {
+    "question": "Can a transversal intersect two lines at more than two points?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Depends on the lines",
+      "d": "Depends on the transversal"
+    },
+    "answer": "b",
+    "id": 204
+  },
+  {
+    "question": "If two lines are intersected by a transversal such that co-interior angles are supplementary, are alternate interior angles equal?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Not always",
+      "d": "Cannot be determined"
+    },
+    "answer": "a",
+    "id": 205
+  },
+  {
+    "question": "If two angles are complementary to the same angle, are they equal?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Sometimes",
+      "d": "Only if the original angle is 45°"
+    },
+    "answer": "a",
+    "id": 206
+  },
+  {
+    "question": "If two angles are supplementary to the same angle, are they equal?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Sometimes",
+      "d": "Only if the original angle is 90°"
+    },
+    "answer": "a",
+    "id": 207
+  },
+  {
+    "question": "Can the measure of an angle be 0 degrees? What type of angle would this be?",
+    "options": {
+      "a": "Yes, zero angle",
+      "b": "No",
+      "c": "Yes, acute angle",
+      "d": "Yes, obtuse angle"
+    },
+    "answer": "a",
+    "id": 208
+  },
+  {
+    "question": "Can two angles of a triangle be obtuse?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only in an obtuse triangle",
+      "d": "Only if the third angle is 0°"
+    },
+    "answer": "b",
+    "id": 209
+  },
+  {
+    "question": "If one angle of a triangle is equal to the sum of the other two, what type of triangle is it?",
+    "options": {
+      "a": "Acute",
+      "b": "Obtuse",
+      "c": "Right",
+      "d": "Equilateral"
+    },
+    "answer": "c",
+    "id": 210
+  },
+  {
+    "question": "If all the angles of a quadrilateral are equal, what is the measure of each angle?",
+    "options": {
+      "a": "45°",
+      "b": "60°",
+      "c": "90°",
+      "d": "120°"
+    },
+    "answer": "c",
+    "id": 211
+  },
+  {
+    "question": "If two adjacent angles are equal and form a linear pair, what type of angles are they?",
+    "options": {
+      "a": "Acute",
+      "b": "Obtuse",
+      "c": "Right",
+      "d": "Reflex"
+    },
+    "answer": "c",
+    "id": 212
+  },
+  {
+    "question": "If two lines are perpendicular to the same line, are they parallel to each other?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only in 3D space",
+      "d": "Only if they are the same line."
+    },
+    "answer": "a",
+    "id": 213
+  },
+  {
+    "question": "Is it possible for two intersecting lines to be perpendicular to a third line in the same plane?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only if the third line bisects the angle between them",
+      "d": "Only if all three lines intersect at one point."
+    },
+    "answer": "b",
+    "id": 214
+  },
+  {
+    "question": "Can the bisectors of two adjacent complementary angles be perpendicular to each other?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only if the complementary angles are equal",
+      "d": "Only if one of the complementary angles is 0°"
+    },
+    "answer": "a",
+    "id": 215
+  },
+  {
+    "question": "Line L and line M are parallel. A transversal T intersects them. If one pair of alternate interior angles is represented by (2x + 15)° and (3x - 5)°, find the value of x.",
+    "options": {
+      "a": "10",
+      "b": "20",
+      "c": "30",
+      "d": "40"
+    },
+    "answer": "b",
+    "id": 216
+  },
+  {
+    "question": "Ray OA and Ray OB are opposite rays. Ray OC bisects ∠AOD. Ray OE bisects ∠BOD. If ∠COD = 30°, find ∠COE.",
+    "options": {
+      "a": "30°",
+      "b": "60°",
+      "c": "90°",
+      "d": "150°"
+    },
+    "answer": "d",
+    "id": 217
+  },
+  {
+    "question": "Line P and line Q are intersected by a transversal R. If one pair of corresponding angles are (4y - 10)° and (2y + 30)°, find the value of y.",
+    "options": {
+      "a": "10",
+      "b": "20",
+      "c": "30",
+      "d": "40"
+    },
+    "answer": "b",
+    "id": 218
+  },
+  {
+    "question": "The angles of a triangle are in the ratio 2:3:4. Find the largest angle.",
+    "options": {
+      "a": "40°",
+      "b": "60°",
+      "c": "80°",
+      "d": "100°"
+    },
+    "answer": "c",
+    "id": 219
+  },
+  {
+    "question": "An exterior angle of a triangle is 120° and one of its interior opposite angles is 70°. Find the other interior opposite angle.",
+    "options": {
+      "a": "50°",
+      "b": "60°",
+      "c": "70°",
+      "d": "80°"
+    },
+    "answer": "a",
+    "id": 220
+  },
+  {
+    "question": "Two angles of a triangle are equal and the third angle is twice their sum.  Find the measure of the third angle.",
+    "options": {
+      "a": "30°",
+      "b": "60°",
+      "c": "90°",
+      "d": "120°"
+    },
+    "answer": "d",
+    "id": 221
+  },
+  {
+    "question": "If one angle of a linear pair is one-third of the other, find the measure of the larger angle.",
+    "options": {
+      "a": "45°",
+      "b": "90°",
+      "c": "135°",
+      "d": "180°"
+    },
+    "answer": "c",
+    "id": 222
+  },
+  {
+    "question": "Three lines intersect at a point forming six angles. If two adjacent angles are 35° and 55°, find the measure of the smallest angle formed.",
+    "options": {
+      "a": "35°",
+      "b": "55°",
+      "c": "70°",
+      "d": "90°"
+    },
+    "answer": "a",
+    "id": 223
+  },
+  {
+    "question": "Four lines intersect at a point. If three consecutive angles are 40°, 60°, and 80°, find the fourth angle.",
+    "options": {
+      "a": "80°",
+      "b": "100°",
+      "c": "180°",
+      "d": "120°"
+    },
+    "answer": "c",
+    "id": 224
+  },
+  {
+    "question": "Two angles are supplementary, and the larger angle is 30° less than twice the smaller angle. Find the smaller angle.",
+    "options": {
+      "a": "30°",
+      "b": "40°",
+      "c": "50°",
+      "d": "70°"
+    },
+    "answer": "d",
+    "id": 225
+  }
+]

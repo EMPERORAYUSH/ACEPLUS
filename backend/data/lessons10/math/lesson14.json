@@ -1,0 +1,563 @@
+[
+  {
+    "question": "The probability of an impossible event is:",
+    "options": {
+      "a": "0.5",
+      "b": "1",
+      "c": "0",
+      "d": "0.25"
+    },
+    "answer": "c",
+    "id": 1169
+  },
+  {
+    "question": "The probability of a sure event is:",
+    "options": {
+      "a": "0",
+      "b": "0.5",
+      "c": "1",
+      "d": "0.75"
+    },
+    "answer": "c",
+    "id": 1170
+  },
+  {
+    "question": "If P(E) is the probability of an event E, then:",
+    "options": {
+      "a": "0 < P(E) < 1",
+      "b": "-1 ≤ P(E) ≤ 1",
+      "c": "0 ≤ P(E) ≤ 1",
+      "d": "P(E) > 1"
+    },
+    "answer": "c",
+    "id": 1171
+  },
+  {
+    "question": "If P(E) = 0.6, then P(not E) is:",
+    "options": {
+      "a": "0.4",
+      "b": "0.6",
+      "c": "1",
+      "d": "0"
+    },
+    "answer": "a",
+    "id": 1172
+  },
+  {
+    "question": "When a coin is tossed, the probability of getting a head is:",
+    "options": {
+      "a": "1",
+      "b": "0",
+      "c": "1/2",
+      "d": "1/4"
+    },
+    "answer": "c",
+    "id": 1173
+  },
+  {
+    "question": "When a die is rolled, the probability of getting a number less than 7 is:",
+    "options": {
+      "a": "0",
+      "b": "1/2",
+      "c": "1/6",
+      "d": "1"
+    },
+    "answer": "d",
+    "id": 1174
+  },
+  {
+    "question": "Two coins are tossed simultaneously. The number of possible outcomes is:",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+    },
+    "answer": "b",
+    "id": 1175
+  },
+  {
+    "question": "A bag contains 3 red and 5 blue balls. A ball is drawn at random. The probability of getting a red ball is:",
+    "options": {
+      "a": "3/5",
+      "b": "5/8",
+      "c": "3/8",
+      "d": "5/3"
+    },
+    "answer": "c",
+    "id": 1176
+  },
+  {
+    "question": "If an event is certain to happen, its probability is:",
+    "options": {
+      "a": "0",
+      "b": "1/2",
+      "c": "1",
+      "d": "Cannot be determined"
+    },
+    "answer": "c",
+    "id": 1177
+  },
+  {
+    "question": "Which of the following can be the probability of an event?",
+    "options": {
+      "a": "-0.5",
+      "b": "1.5",
+      "c": "0.2",
+      "d": "2"
+    },
+    "answer": "c",
+    "id": 1178
+  },
+  {
+    "question": "The probability of getting a number greater than 6 when a die is rolled is:",
+    "options": {
+      "a": "1/6",
+      "b": "1/3",
+      "c": "1/2",
+      "d": "0"
+    },
+    "answer": "d",
+    "id": 1179
+  },
+  {
+    "question": "If two events A and B are such that P(A) = 0.3, P(B) = 0.4 and P(A or B) = 0.6, then P(A and B) is:",
+    "options": {
+      "a": "0.1",
+      "b": "0.7",
+      "c": "0.2",
+      "d": "0.5"
+    },
+    "answer": "a",
+    "id": 1180
+  },
+  {
+    "question": "A bag contains 4 red, 3 blue and 2 green balls. A ball is drawn at random. The probability of drawing a ball that is not blue is:",
+    "options": {
+      "a": "3/9",
+      "b": "6/9",
+      "c": "2/9",
+      "d": "4/9"
+    },
+    "answer": "b",
+    "id": 1181
+  },
+  {
+    "question": "A card is drawn from a well-shuffled deck of 52 cards. The probability of getting a king or a queen is:",
+    "options": {
+      "a": "1/13",
+      "b": "2/13",
+      "c": "4/13",
+      "d": "8/52"
+    },
+    "answer": "b",
+    "id": 1182
+  },
+  {
+    "question": "Two dice are thrown simultaneously. The probability of getting a sum of 7 is:",
+    "options": {
+      "a": "1/6",
+      "b": "5/36",
+      "c": "1/36",
+      "d": "7/36"
+    },
+    "answer": "a",
+    "id": 1183
+  },
+  {
+    "question": "A bag contains 5 red and 3 black balls. Two balls are drawn at random one after the other without replacement. The probability that both balls are red is:",
+    "options": {
+      "a": "5/14",
+      "b": "5/28",
+      "c": "3/28",
+      "d": "15/56"
+    },
+    "answer": "a",
+    "id": 1184
+  },
+  {
+    "question": "A number is selected at random from the numbers 1 to 20. The probability that the selected number is a multiple of 3 or 5 is:",
+    "options": {
+      "a": "2/5",
+      "b": "9/20",
+      "c": "1/2",
+      "d": "11/20"
+    },
+    "answer": "b",
+    "id": 1185
+  },
+  {
+    "question": "A card is drawn at random from a pack of 52 playing cards. The probability that it is neither a spade nor a king is:",
+    "options": {
+      "a": "9/13",
+      "b": "10/13",
+      "c": "4/13",
+      "d": "11/13"
+    },
+    "answer": "a",
+    "id": 1186
+  },
+  {
+    "question": "In a single throw of two dice, the probability of getting a total of 10 or 11 is:",
+    "options": {
+      "a": "5/36",
+      "b": "1/6",
+      "c": "7/36",
+      "d": "1/9"
+    },
+    "answer": "a",
+    "id": 1187
+  },
+  {
+    "question": "If three coins are tossed simultaneously, then the probability of getting at least two heads is:",
+    "options": {
+      "a": "1/2",
+      "b": "3/8",
+      "c": "1/4",
+      "d": "1/8"
+    },
+    "answer": "a",
+    "id": 1188
+  },
+  {
+    "question": "A box contains 20 electric bulbs, out of which 4 are defective. Two bulbs are chosen at random from this box. The probability that at least one of these is defective is:",
+    "options": {
+      "a": "4/19",
+      "b": "7/19",
+      "c": "12/19",
+      "d": "5/19"
+    },
+    "answer": "b",
+    "id": 1189
+  },
+  {
+    "question": "Cards marked with numbers 13, 14, 15, ...., 60 are placed in a box and mixed thoroughly. One card is drawn at random from the box. The probability that the number on the card drawn is divisible by 5 is:",
+    "options": {
+      "a": "1/6",
+      "b": "1/5",
+      "c": "1/3",
+      "d": "1/4"
+    },
+    "answer": "b",
+    "id": 1190
+  },
+  {
+    "question": "A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball is double that of a red ball, then the number of blue balls in the bag is:",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "15",
+      "d": "20"
+    },
+    "answer": "b",
+    "id": 1191
+  },
+  {
+    "question": "Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number which is a multiple of 3 or 5?",
+    "options": {
+      "a": "1/2",
+      "b": "2/5",
+      "c": "8/15",
+      "d": "9/20"
+    },
+    "answer": "d",
+    "id": 1192
+  },
+  {
+    "question": "In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize?",
+    "options": {
+      "a": "2/7",
+      "b": "5/7",
+      "c": "2/5",
+      "d": "5/8"
+    },
+    "answer": "a",
+    "id": 1193
+  },
+  {
+    "question": "A card is drawn at random from a pack of 52 cards. Find the probability that the card drawn is neither a red card nor a queen.",
+    "options": {
+      "a": "6/13",
+      "b": "7/13",
+      "c": "11/13",
+      "d": "9/13"
+    },
+    "answer": "a",
+    "id": 1194
+  },
+  {
+    "question": "A box contains 90 discs, numbered from 1 to 90. If one disc is drawn at random from the box, the probability that it bears a two-digit number is:",
+    "options": {
+      "a": "9/10",
+      "b": "1/10",
+      "c": "1/9",
+      "d": "81/90"
+    },
+    "answer": "a",
+    "id": 1195
+  },
+  {
+    "question": "A bag contains 3 red balls, 5 white balls and 7 black balls. What is the probability that a ball drawn from the bag at random will be neither red nor black?",
+    "options": {
+      "a": "1/3",
+      "b": "8/15",
+      "c": "7/15",
+      "d": "2/3"
+    },
+    "answer": "a",
+    "id": 1196
+  },
+  {
+    "question": "A box contains cards numbered 3, 5, 7, 9, ..., 35, 37. A card is drawn at random from the box. The probability that the number on the card is a prime number is:",
+    "options": {
+      "a": "1/6",
+      "b": "11/18",
+      "c": "7/18",
+      "d": "1/3"
+    },
+    "answer": "b",
+    "id": 1197
+  },
+  {
+    "question": "One card is drawn from a well-shuffled deck of 52 cards. The probability that the card will not be an ace is:",
+    "options": {
+      "a": "1/13",
+      "b": "12/13",
+      "c": "11/13",
+      "d": "3/13"
+    },
+    "answer": "b",
+    "id": 1198
+  },
+  {
+    "question": "A number is selected from the numbers 1, 2, 3, ..., 25. The probability that the selected number is a prime is:",
+    "options": {
+      "a": "9/25",
+      "b": "2/13",
+      "c": "1/5",
+      "d": "11/25"
+    },
+    "answer": "a",
+    "id": 1200
+  },
+  {
+    "question": "Two different dice are rolled together. Find the probability that the numbers obtained have a sum less than 7.",
+    "options": {
+      "a": "5/12",
+      "b": "7/12",
+      "c": "1/2",
+      "d": "1/6"
+    },
+    "answer": "a",
+    "id": 1201
+  },
+  {
+    "question": "A box contains cards bearing numbers from 6 to 70. If one card is drawn at random from the box, find the probability that it bears a one-digit number.",
+    "options": {
+      "a": "1/12",
+      "b": "4/65",
+      "c": "1/13",
+      "d": "5/65"
+    },
+    "answer": "b",
+    "id": 1202
+  },
+  {
+    "question": "Two dice are thrown at the same time and the product of numbers appearing on them is noted. Find the probability that the product is less than 9.",
+    "options": {
+      "a": "1/36",
+      "b": "5/18",
+      "c": "1/6",
+      "d": "5/36"
+    },
+    "answer": "b",
+    "id": 1203
+  },
+  {
+    "question": "A card is drawn at random from a well shuffled pack of 52 playing cards. Find the probability of getting neither a red card nor a queen.",
+    "options": {
+      "a": "6/13",
+      "b": "5/13",
+      "c": "7/13",
+      "d": "1/26"
+    },
+    "answer": "a",
+    "id": 1204
+  },
+  {
+    "question": "A bag contains tickets numbered from 1 to 20. A ticket is drawn at random, and then another ticket is drawn without replacing the first one. What is the probability that both tickets drawn show even numbers?",
+    "options": {
+      "a": "9/38",
+      "b": "1/4",
+      "c": "2/19",
+      "d": "1/2"
+    },
+    "answer": "a",
+    "id": 1206
+  },
+  {
+    "question": "A two-digit number is formed by randomly selecting digits, one after another, from the set {1, 2, 3}. What is the probability that the number formed is a multiple of 3? (Repetition of digits is allowed).",
+    "options": {
+      "a": "1/3",
+      "b": "2/3",
+      "c": "1/9",
+      "d": "1"
+    },
+    "answer": "a",
+    "id": 1207
+  },
+  {
+    "question": "There are 25 students in a class. What is the probability that at least two students have the same birthday? (Ignore leap years).",
+    "options": {
+      "a": "Close to 1",
+      "b": "Close to 0",
+      "c": "Exactly 1/2",
+      "d": "Exactly 1/365"
+    },
+    "answer": "a",
+    "id": 1208
+  },
+  {
+    "question": "From a group of 5 men and 4 women, 2 persons are selected at random to form a committee. What is the probability that the committee consists of 1 man and 1 woman?",
+    "options": {
+      "a": "20/36",
+      "b": "16/36",
+      "c": "5/9",
+      "d": "4/9"
+    },
+    "answer": "a",
+    "id": 1209
+  },
+  {
+    "question": "A card is drawn at random from a well-shuffled pack of 52 playing cards. What is the probability that it is neither a heart nor a king?",
+    "options": {
+      "a": "9/13",
+      "b": "10/13",
+      "c": "4/13",
+      "d": "1/4"
+    },
+    "answer": "a",
+    "id": 1211
+  },
+  {
+    "question": "In a class, there are 15 boys and 10 girls. Three students are selected at random. The probability that 1 girl and 2 boys are selected is:",
+    "options": {
+      "a": "21/46",
+      "b": "25/46",
+      "c": "1/50",
+      "d": "3/25"
+    },
+    "answer": "a",
+    "id": 1212
+  },
+  {
+    "question": "A bag contains 4 red balls and 5 black balls. Two balls are drawn at random one after the other with replacement. What is the probability that both balls drawn are black?",
+    "options": {
+      "a": "5/9",
+      "b": "25/81",
+      "c": "20/81",
+      "d": "4/9"
+    },
+    "answer": "b",
+    "id": 1213
+  },
+  {
+    "question": "A letter of English alphabet is chosen at random. Determine the probability that the chosen letter is a consonant.",
+    "options": {
+      "a": "21/26",
+      "b": "5/26",
+      "c": "1/26",
+      "d": "10/13"
+    },
+    "answer": "a",
+    "id": 1214
+  },
+  {
+    "question": "Three coins are tossed simultaneously. Find the probability of getting at most two tails.",
+    "options": {
+      "a": "3/8",
+      "b": "1/2",
+      "c": "7/8",
+      "d": "1/8"
+    },
+    "answer": "c",
+    "id": 1215
+  },
+  {
+    "question": "Two dice are thrown simultaneously. What is the probability that the sum of the numbers appearing on the dice is 7 or 11?",
+    "options": {
+      "a": "1/9",
+      "b": "2/9",
+      "c": "1/6",
+      "d": "1/18"
+    },
+    "answer": "b",
+    "id": 1216
+  },
+  {
+    "question": "A box contains 5 red, 4 green and 6 white marbles. Two marbles are drawn at random from the box, one after the other without replacement. What is the probability that both marbles drawn are red?",
+    "options": {
+      "a": "1/21",
+      "b": "2/21",
+      "c": "2/15",
+      "d": "1/7"
+    },
+    "answer": "b",
+    "id": 1217
+  },
+  {
+    "question": "A bag contains 6 red and 8 black balls. One ball is drawn at random from the bag. Find the probability that the ball drawn is not black.",
+    "options": {
+      "a": "3/7",
+      "b": "4/7",
+      "c": "1/14",
+      "d": "13/14"
+    },
+    "answer": "a",
+    "id": 1218
+  },
+  {
+    "question": "Assertion: The probability of an event can never be greater than 1.\nReason: Probability is defined as the ratio of favorable outcomes to total possible outcomes.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1219
+  },
+  {
+    "question": "Assertion: When drawing cards from a deck without replacement, subsequent probabilities remain unchanged.\nReason: The total number of possible outcomes decreases with each draw.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1222
+  },
+  {
+    "question": "Assertion: In a fair coin toss, getting five heads in a row increases the probability of getting tails on the next toss.\nReason: Previous outcomes affect the probability of future events.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1224
+  },
+  {
+    "question": "Assertion: The probability of getting at least one six when rolling three dice is 91/216.\nReason: It's easier to calculate the probability of not getting any sixes and subtract from 1.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1226
+  }
+]

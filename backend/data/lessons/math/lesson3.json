@@ -1,0 +1,167 @@
+[
+  {
+    "question": "A point lies on the y-axis. What can you say about its x-coordinate?",
+    "options": {
+      "a": "It is positive.",
+      "b": "It is negative.",
+      "c": "It is zero.",
+      "d": "It can be any number."
+    },
+    "answer": "c",
+    "id": 91
+  },
+  {
+    "question": "The point (-5, -2) lies in which quadrant?",
+    "options": {
+      "a": "Quadrant I",
+      "b": "Quadrant II",
+      "c": "Quadrant III",
+      "d": "Quadrant IV"
+    },
+    "answer": "c",
+    "id": 92
+  },
+  {
+    "question": "If the ordinate of a point is -3 and the abscissa is 2, then the coordinates of the point are:",
+    "options": {
+      "a": "(-3, 2)",
+      "b": "(2, -3)",
+      "c": "(3, -2)",
+      "d": "(-2, 3)"
+    },
+    "answer": "b",
+    "id": 93
+  },
+  {
+    "question": "Which of these points lies on the x-axis?",
+    "options": {
+      "a": "(0, 4)",
+      "b": "(-2, 0)",
+      "c": "(3, 3)",
+      "d": "(0, -1)"
+    },
+    "answer": "b",
+    "id": 94
+  },
+  {
+    "question": "The point (0, 0) is called the:",
+    "options": {
+      "a": "Abscissa",
+      "b": "Ordinate",
+      "c": "Origin",
+      "d": "Quadrant"
+    },
+    "answer": "c",
+    "id": 95
+  },
+  {
+    "question": "A point is at a distance of 4 units from the x-axis and 3 units from the y-axis. Which of these could be its coordinates?",
+    "options": {
+      "a": "(4, 3)",
+      "b": "(-4, 3)",
+      "c": "(3, -4)",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 96
+  },
+  {
+    "question": "What is the perpendicular distance of the point P (5, -2) from the x-axis?",
+    "options": {
+      "a": "5 units",
+      "b": "-2 units",
+      "c": "2 units",
+      "d": "-5 units"
+    },
+    "answer": "c",
+    "id": 97
+  },
+  {
+    "question": "If (a, -3) and (5, b) represent the same point, then the values of a and b are:",
+    "options": {
+      "a": "a = 5, b = -3",
+      "b": "a = -3, b = 5",
+      "c": "a = 5, b = 3",
+      "d": "a = -5, b = -3"
+    },
+    "answer": "a",
+    "id": 98
+  },
+  {
+    "question": "Assertion: The points (2, 3) and (3, 2) represent different locations in the Cartesian plane. Reason: Interchanging the x and y coordinates of a point does not change its position.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "c",
+    "id": 99
+  },
+  {
+    "question": "The point which lies on the line y = x is:",
+    "options": {
+      "a": "(2, -2)",
+      "b": "(-3, 3)",
+      "c": "(5, 5)",
+      "d": "(4, -3)"
+    },
+    "answer": "c",
+    "id": 100
+  },
+  {
+    "question": "Which of the following is true for a point lying in Quadrant IV?",
+    "options": {
+      "a": "x-coordinate is positive and y-coordinate is negative.",
+      "b": "x-coordinate is negative and y-coordinate is positive.",
+      "c": "Both x and y coordinates are positive.",
+      "d": "Both x and y coordinates are negative."
+    },
+    "answer": "a",
+    "id": 101
+  },
+  {
+    "question": "The abscissa of a point is twice its ordinate. If its ordinate is k, then its coordinates are:",
+    "options": {
+      "a": "(k, 2k)",
+      "b": "(2k, k)",
+      "c": "(k/2, k)",
+      "d": "(k, k/2)"
+    },
+    "answer": "b",
+    "id": 102
+  },
+  {
+    "question": "Assertion: All points with x-coordinate as -4 lie on a line parallel to the y-axis. Reason: A line parallel to the y-axis has a constant x-coordinate.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 103
+  },
+  {
+    "question": "A house is located 7 blocks north and 3 blocks east of a school. If the school is considered the origin, what is the ordered pair representing the house's location?",
+    "options": {
+      "a": "(7, 3)",
+      "b": "(3, 7)",
+      "c": "(-7, 3)",
+      "d": "(3, -7)"
+    },
+    "answer": "b",
+    "id": 104
+  },
+  {
+    "question": "If the points (p, q), (r, s) and (t, u) lie on a straight line, then which of the following is not possible?",
+    "options": {
+      "a": "p = r = t",
+      "b": "q = s = u",
+      "c": "p = q and r = s",
+      "d": "p + r = q + s"
+    },
+    "answer": "d",
+    "id": 105
+  }
+]

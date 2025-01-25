@@ -1,0 +1,409 @@
+[
+  {
+    "question": "The southernmost range of the Himalayas is known as:",
+    "options": {
+      "a": "Himadri",
+      "b": "Himachal",
+      "c": "Shiwaliks",
+      "d": "Purvanchal"
+    },
+    "answer": "c",
+    "id": 1
+  },
+  {
+    "question": "The formation of the Northern Plains is primarily attributed to the depositional work of:",
+    "options": {
+      "a": "Glaciers",
+      "b": "Wind",
+      "c": "Rivers",
+      "d": "Tectonic plates"
+    },
+    "answer": "c",
+    "id": 2
+  },
+  {
+    "question": "Which of these features is NOT characteristic of the Peninsular Plateau?",
+    "options": {
+      "a": "Rounded hills",
+      "b": "Shallow valleys",
+      "c": "Young fold mountains",
+      "d": "Black soil regions"
+    },
+    "answer": "c",
+    "id": 3
+  },
+  {
+    "question": "The Western Ghats are known for causing orographic rain by:",
+    "options": {
+      "a": "Blocking monsoon winds",
+      "b": "Forcing moist air to rise",
+      "c": "Creating low-pressure zones",
+      "d": "Increasing humidity levels"
+    },
+    "answer": "b",
+    "id": 4
+  },
+  {
+    "question": "Which river does NOT flow through the Deccan Plateau?",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Kaveri",
+      "d": "Ganga"
+    },
+    "answer": "d",
+    "id": 5
+  },
+  {
+    "question": "The Indian Desert is characterized by:",
+    "options": {
+      "a": "High rainfall and dense vegetation",
+      "b": "Low rainfall and sparse vegetation",
+      "c": "Moderate rainfall and deciduous forests",
+      "d": "Heavy snowfall and coniferous forests"
+    },
+    "answer": "b",
+    "id": 6
+  },
+  {
+    "question": "The term 'doab' refers to:",
+    "options": {
+      "a": "A narrow belt of pebbles",
+      "b": "A wet and marshy region",
+      "c": "An area between two rivers",
+      "d": "A terrace-like feature above floodplains"
+    },
+    "answer": "c",
+    "id": 7
+  },
+  {
+    "question": "Which statement about the Eastern and Western Ghats is true?",
+    "options": {
+      "a": "The Eastern Ghats are higher than the Western Ghats.",
+      "b": "The Western Ghats are continuous, while the Eastern Ghats are discontinuous.",
+      "c": "The Eastern Ghats receive more rainfall than the Western Ghats.",
+      "d": "The Western Ghats are older than the Eastern Ghats."
+    },
+    "answer": "b",
+    "id": 8
+  },
+  {
+    "question": "Which of these island groups is known for its coral origin?",
+    "options": {
+      "a": "Andaman Islands",
+      "b": "Nicobar Islands",
+      "c": "Lakshadweep Islands",
+      "d": "Maldives Islands"
+    },
+    "answer": "c",
+    "id": 9
+  },
+  {
+    "question": "The highest peak in the Eastern Ghats is:",
+    "options": {
+      "a": "Anai Mudi",
+      "b": "Doda Betta",
+      "c": "Mahendragiri",
+      "d": "Khasi Hills"
+    },
+    "answer": "c",
+    "id": 10
+  },
+  {
+    "question": "The Shiwaliks are the __________ range of the Himalayas.",
+    "options": {
+      "a": "Northernmost",
+      "b": "Southernmost",
+      "c": "Central",
+      "d": "Oldest"
+    },
+    "answer": "b",
+    "id": 11
+  },
+  {
+    "question": "Black soil, also known as Deccan Trap, is primarily found in the:",
+    "options": {
+      "a": "Northern Plains",
+      "b": "Himalayan region",
+      "c": "Peninsular Plateau",
+      "d": "Coastal Plains"
+    },
+    "answer": "c",
+    "id": 12
+  },
+  {
+    "question": "Which of the following is a major physiographic division of India?",
+    "options": {
+      "a": "Sahara Desert",
+      "b": "The Alps",
+      "c": "The Northern Plains",
+      "d": "Amazon Basin"
+    },
+    "answer": "c",
+    "id": 13
+  },
+  {
+    "question": "The only active volcano in India is located in:",
+    "options": {
+      "a": "Lakshadweep Islands",
+      "b": "Andaman and Nicobar Islands",
+      "c": "Daman and Diu",
+      "d": "Puducherry"
+    },
+    "answer": "b",
+    "id": 14
+  },
+  {
+    "question": "The bhabar is a narrow belt of:",
+    "options": {
+      "a": "Pebbles and gravel",
+      "b": "Fertile soil",
+      "c": "Marshy land",
+      "d": "Dense forests"
+    },
+    "answer": "a",
+    "id": 15
+  },
+  {
+    "question": "The Himalayas are a prime example of:",
+    "options": {
+      "a": "Volcanic mountains",
+      "b": "Fold mountains",
+      "c": "Block mountains",
+      "d": "Residual mountains"
+    },
+    "answer": "b",
+    "id": 16
+  },
+  {
+    "question": "Which of these rivers originates from the Himalayan glaciers?",
+    "options": {
+      "a": "Narmada",
+      "b": "Tapi",
+      "c": "Godavari",
+      "d": "Ganga"
+    },
+    "answer": "d",
+    "id": 17
+  },
+  {
+    "question": "Which region in India is known as the 'granary of the country' due to its fertile plains?",
+    "options": {
+      "a": "Himalayan region",
+      "b": "Northern Plains",
+      "c": "Peninsular Plateau",
+      "d": "Coastal Plains"
+    },
+    "answer": "b",
+    "id": 18
+  },
+  {
+    "question": "The Peninsular Plateau is rich in:",
+    "options": {
+      "a": "Forest resources",
+      "b": "Mineral resources",
+      "c": "Water resources",
+      "d": "Agricultural resources"
+    },
+    "answer": "b",
+    "id": 19
+  },
+  {
+    "question": "Which physical feature has played a significant role in the industrialization of India?",
+    "options": {
+      "a": "The Himalayas",
+      "b": "The Northern Plains",
+      "c": "The Peninsular Plateau",
+      "d": "The Coastal Plains"
+    },
+    "answer": "c",
+    "id": 20
+  },
+  {
+    "question": "The Lakshadweep Islands are located in the:",
+    "options": {
+      "a": "Bay of Bengal",
+      "b": "Arabian Sea",
+      "c": "Indian Ocean",
+      "d": "Andaman Sea"
+    },
+    "answer": "b",
+    "id": 21
+  },
+  {
+    "question": "The Andaman and Nicobar Islands are of strategic importance to India due to their:",
+    "options": {
+      "a": "Mineral deposits",
+      "b": "Tourist attractions",
+      "c": "Location in the Indian Ocean",
+      "d": "Unique flora and fauna"
+    },
+    "answer": "c",
+    "id": 22
+  },
+  {
+    "question": "The highest peak in India, Mt. Everest, is located in:",
+    "options": {
+      "a": "India",
+      "b": "Nepal",
+      "c": "China",
+      "d": "Pakistan"
+    },
+    "answer": "b",
+    "id": 23
+  },
+  {
+    "question": "The Deccan Plateau slopes gently towards the:",
+    "options": {
+      "a": "North",
+      "b": "South",
+      "c": "East",
+      "d": "West"
+    },
+    "answer": "c",
+    "id": 24
+  },
+  {
+    "question": "The largest river in the Indian Desert is:",
+    "options": {
+      "a": "Ghaggar",
+      "b": "Luni",
+      "c": "Sabarmati",
+      "d": "Mahi"
+    },
+    "answer": "b",
+    "id": 25
+  },
+  {
+    "question": "Which city is known as the 'Queen of Hill Stations' and is located in the Western Ghats?",
+    "options": {
+      "a": "Shimla",
+      "b": "Darjeeling",
+      "c": "Ooty",
+      "d": "Manali"
+    },
+    "answer": "c",
+    "id": 26
+  },
+  {
+    "question": "The older, elevated alluvium of the Northern Plains is called:",
+    "options": {
+      "a": "Bhabar",
+      "b": "Terai",
+      "c": "Bhangar",
+      "d": "Khadar"
+    },
+    "answer": "c",
+    "id": 27
+  },
+  {
+    "question": "Which range separates the Northern Plains from the Peninsular Plateau?",
+    "options": {
+      "a": "Vindhya Range",
+      "b": "Satpura Range",
+      "c": "Aravalli Range",
+      "d": "Himalayan Range"
+    },
+    "answer": "a",
+    "id": 28
+  },
+  {
+    "question": "The Konkan Coast is a part of the:",
+    "options": {
+      "a": "Eastern Coastal Plains",
+      "b": "Western Coastal Plains",
+      "c": "Lakshadweep Islands",
+      "d": "Andaman and Nicobar Islands"
+    },
+    "answer": "b",
+    "id": 29
+  },
+  {
+    "question": "Which of these is a characteristic feature of the Terai region?",
+    "options": {
+      "a": "Arid climate",
+      "b": "Dense forests",
+      "c": "Black soil",
+      "d": "Coral reefs"
+    },
+    "answer": "b",
+    "id": 30
+  },
+  {
+    "question": "The process by which the Himalayas were formed is known as:",
+    "options": {
+      "a": "Erosion",
+      "b": "Weathering",
+      "c": "Folding",
+      "d": "Volcanism"
+    },
+    "answer": "c",
+    "id": 31
+  },
+  {
+    "question": "The Garo, Khasi, and Jaintia Hills are located in the:",
+    "options": {
+      "a": "Himalayan region",
+      "b": "Northern Plains",
+      "c": "Peninsular Plateau",
+      "d": "Coastal Plains"
+    },
+    "answer": "c",
+    "id": 32
+  },
+  {
+    "question": "Which of these factors contributes to the diversity of flora and fauna in the Andaman and Nicobar Islands?",
+    "options": {
+      "a": "Equatorial climate",
+      "b": "Volcanic activity",
+      "c": "Desert conditions",
+      "d": "High altitude"
+    },
+    "answer": "a",
+    "id": 33
+  },
+  {
+    "question": "The term 'Khadar' refers to:",
+    "options": {
+      "a": "Old alluvium",
+      "b": "New alluvium",
+      "c": "Black soil",
+      "d": "Red soil"
+    },
+    "answer": "b",
+    "id": 34
+  },
+  {
+    "question": "Which of these rivers forms a delta on the eastern coast of India?",
+    "options": {
+      "a": "Narmada",
+      "b": "Mahanadi",
+      "c": "Tapi",
+      "d": "Sabarmati"
+    },
+    "answer": "b",
+    "id": 35
+  },
+  {
+    "question": "The largest inhabited riverine island in the world, Majuli, is located in the:",
+    "options": {
+      "a": "Ganga River",
+      "b": "Brahmaputra River",
+      "c": "Godavari River",
+      "d": "Krishna River"
+    },
+    "answer": "b",
+    "id": 36
+  },
+  {
+    "question": "The physiographic division of India that is characterized by its youthful topography with high peaks and deep valleys is the:",
+    "options": {
+      "a": "Himalayan Mountains",
+      "b": "Northern Plains",
+      "c": "Peninsular Plateau",
+      "d": "Indian Desert"
+    },
+    "answer": "a",
+    "id": 37
+  }
+]

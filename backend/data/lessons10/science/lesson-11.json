@@ -1,0 +1,728 @@
+[
+  {
+    "question": "A metallic wire carries a current of 2A for 30 minutes. The total charge that flows through the wire during this period is:",
+    "options": {
+      "a": "1800 C",
+      "b": "3600 C",
+      "c": "60 C",
+      "d": "120 C"
+    },
+    "answer": "b",
+    "id": 1699
+  },
+  {
+    "question": "A device that maintains a potential difference across a conductor is:",
+    "options": {
+      "a": "Ammeter",
+      "b": "Voltmeter",
+      "c": "Rheostat",
+      "d": "Battery"
+    },
+    "answer": "d",
+    "id": 1700
+  },
+  {
+    "question": "If 10 J of work is done in moving 2 C of charge from point A to point B, the potential difference between A and B is:",
+    "options": {
+      "a": "20 V",
+      "b": "0.2 V",
+      "c": "5 V",
+      "d": "12 V"
+    },
+    "answer": "c",
+    "id": 1701
+  },
+  {
+    "question": "According to Ohm’s law, the graph between V and I is a:",
+    "options": {
+      "a": "Parabola",
+      "b": "Straight line passing through origin",
+      "c": "Hyperbola",
+      "d": "Circle"
+    },
+    "answer": "b",
+    "id": 1702
+  },
+  {
+    "question": "The resistance of a conductor is directly proportional to:",
+    "options": {
+      "a": "Area of cross section",
+      "b": "Length",
+      "c": "Temperature",
+      "d": "Both b and c"
+    },
+    "answer": "d",
+    "id": 1703
+  },
+  {
+    "question": "The resistance of a wire of length 'l' and area of cross-section 'A' is 'R'. If the length is doubled and area is halved, the new resistance will be:",
+    "options": {
+      "a": "R/2",
+      "b": "2R",
+      "c": "R/4",
+      "d": "4R"
+    },
+    "answer": "d",
+    "id": 1704
+  },
+  {
+    "question": "Three resistors of 2Ω, 3Ω, and 6Ω are connected in series. The equivalent resistance is:",
+    "options": {
+      "a": "1Ω",
+      "b": "11Ω",
+      "c": "6Ω",
+      "d": "5.5Ω"
+    },
+    "answer": "b",
+    "id": 1705
+  },
+  {
+    "question": "Two resistors each of resistance 'R' are connected in parallel. Their equivalent resistance is:",
+    "options": {
+      "a": "2R",
+      "b": "R/2",
+      "c": "R",
+      "d": "4R"
+    },
+    "answer": "b",
+    "id": 1706
+  },
+  {
+    "question": "In a series circuit, the component that fails first if all are identical would most likely be the one with:",
+    "options": {
+      "a": "Lowest resistance",
+      "b": "Highest resistance",
+      "c": "Average resistance",
+      "d": "Any resistance randomly"
+    },
+    "answer": "b",
+    "id": 1707
+  },
+  {
+    "question": "The main advantage of connecting appliances in parallel in domestic circuits is:",
+    "options": {
+      "a": "Independent operation",
+      "b": "Less power consumption",
+      "c": "Increased resistance",
+      "d": "Equal current through all appliances"
+    },
+    "answer": "a",
+    "id": 1708
+  },
+  {
+    "question": "Joule’s law of heating states that heat produced in a resistor is directly proportional to:",
+    "options": {
+      "a": "Square of current",
+      "b": "Resistance",
+      "c": "Time",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1709
+  },
+  {
+    "question": "The filament of an electric bulb is made of tungsten because of its:",
+    "options": {
+      "a": "High melting point",
+      "b": "Low resistivity",
+      "c": "Ductility",
+      "d": "Malleability"
+    },
+    "answer": "a",
+    "id": 1710
+  },
+  {
+    "question": "A fuse wire is made of an alloy with a:",
+    "options": {
+      "a": "High melting point",
+      "b": "Low melting point",
+      "c": "High resistance",
+      "d": "Low resistance"
+    },
+    "answer": "b",
+    "id": 1711
+  },
+  {
+    "question": "The SI unit of electric power is:",
+    "options": {
+      "a": "Joule",
+      "b": "Watt",
+      "c": "Volt",
+      "d": "Ampere"
+    },
+    "answer": "b",
+    "id": 1712
+  },
+  {
+    "question": "One kilowatt-hour is equal to:",
+    "options": {
+      "a": "3.6 x 10^5 J",
+      "b": "3.6 x 10^6 J",
+      "c": "3.6 x 10^3 J",
+      "d": "3.6 x 10^4 J"
+    },
+    "answer": "b",
+    "id": 1713
+  },
+  {
+    "question": "If the potential difference across a resistor is doubled, keeping the resistance constant, the power dissipated will become:",
+    "options": {
+      "a": "Double",
+      "b": "Half",
+      "c": "Four times",
+      "d": "One-fourth"
+    },
+    "answer": "c",
+    "id": 1714
+  },
+  {
+    "question": "A wire of resistance 'R' is stretched to double its length. Its new resistance will be:",
+    "options": {
+      "a": "R/2",
+      "b": "R",
+      "c": "2R",
+      "d": "4R"
+    },
+    "answer": "d",
+    "id": 1715
+  },
+  {
+    "question": "An electric kettle is rated 220V, 2000W. The current flowing through it is:",
+    "options": {
+      "a": "4.4 A",
+      "b": "20 A",
+      "c": "9.09 A",
+      "d": "0.11 A"
+    },
+    "answer": "c",
+    "id": 1716
+  },
+  {
+    "question": "Two identical resistors are first connected in series and then in parallel to the same voltage source. The ratio of power dissipated in the two cases will be:",
+    "options": {
+      "a": "1:2",
+      "b": "2:1",
+      "c": "1:4",
+      "d": "4:1"
+    },
+    "answer": "c",
+    "id": 1717
+  },
+  {
+    "question": "Which material is the best conductor of electricity at room temperature?",
+    "options": {
+      "a": "Copper",
+      "b": "Silver",
+      "c": "Aluminium",
+      "d": "Tungsten"
+    },
+    "answer": "b",
+    "id": 1718
+  },
+  {
+    "question": "The resistivity of a material depends on:",
+    "options": {
+      "a": "Length",
+      "b": "Area of cross section",
+      "c": "Nature of the material",
+      "d": "Both length and area"
+    },
+    "answer": "c",
+    "id": 1719
+  },
+  {
+    "question": "The current through a 12Ω resistor connected to a 6V battery is:",
+    "options": {
+      "a": "2A",
+      "b": "0.5A",
+      "c": "72 A",
+      "d": "0.083A"
+    },
+    "answer": "b",
+    "id": 1720
+  },
+  {
+    "question": "Three resistors of 4Ω each are connected in parallel. The equivalent resistance is:",
+    "options": {
+      "a": "12Ω",
+      "b": "4/3Ω",
+      "c": "3/4 Ω",
+      "d": "4Ω"
+    },
+    "answer": "b",
+    "id": 1721
+  },
+  {
+    "question": "The heat produced in a conductor carrying current depends on:",
+    "options": {
+      "a": "Current",
+      "b": "Resistance",
+      "c": "Time",
+      "d": "All of these"
+    },
+    "answer": "d",
+    "id": 1722
+  },
+  {
+    "question": "Which of the following is not a unit of power?",
+    "options": {
+      "a": "Watt",
+      "b": "Joule/second",
+      "c": "Volt-Ampere",
+      "d": "Ohm"
+    },
+    "answer": "d",
+    "id": 1723
+  },
+  {
+    "question": "An electric heater draws a current of 5A when connected to a 220V supply. Its power rating is:",
+    "options": {
+      "a": "110 W",
+      "b": "44 W",
+      "c": "1100 W",
+      "d": "2200 W"
+    },
+    "answer": "c",
+    "id": 1725
+  },
+  {
+    "question": "The rate of flow of electric charge is called:",
+    "options": {
+      "a": "Potential difference",
+      "b": "Resistance",
+      "c": "Electric current",
+      "d": "Electric power"
+    },
+    "answer": "c",
+    "id": 1726
+  },
+  {
+    "question": "A 100W bulb is connected to a 200V supply. The current drawn by the bulb is:",
+    "options": {
+      "a": "2 A",
+      "b": "0.5 A",
+      "c": "20000 A",
+      "d": "0.005 A"
+    },
+    "answer": "b",
+    "id": 1727
+  },
+  {
+    "question": "Three resistors of 2Ω, 4Ω, and 6Ω are connected in series across a 12V battery. The current in the circuit is:",
+    "options": {
+      "a": "1 A",
+      "b": "2 A",
+      "c": "0.67A",
+      "d": "1/2 A"
+    },
+    "answer": "a",
+    "id": 1728
+  },
+  {
+    "question": "Which has more resistance, a thick wire or a thin wire of the same material and length?",
+    "options": {
+      "a": "Thick wire",
+      "b": "Thin wire",
+      "c": "Both have equal resistance",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "id": 1729
+  },
+  {
+    "question": "A 4Ω resistor and a 2Ω resistor are connected in parallel. The equivalent resistance is:",
+    "options": {
+      "a": "6Ω",
+      "b": "1.33 Ω",
+      "c": "8Ω",
+      "d": "0.75Ω"
+    },
+    "answer": "b",
+    "id": 1730
+  },
+  {
+    "question": "A device used to control the flow of current in a circuit without changing the voltage source is called a:",
+    "options": {
+      "a": "Voltmeter",
+      "b": "Ammeter",
+      "c": "Rheostat",
+      "d": "Galvanometer"
+    },
+    "answer": "c",
+    "id": 1731
+  },
+  {
+    "question": "Electric current flows from a region of:",
+    "options": {
+      "a": "Lower potential to higher potential",
+      "b": "Higher potential to lower potential",
+      "c": "Equal potential",
+      "d": "It can flow in any direction"
+    },
+    "answer": "b",
+    "id": 1732
+  },
+  {
+    "question": "The unit of resistivity is:",
+    "options": {
+      "a": "ohm",
+      "b": "ohm-meter",
+      "c": "ohm/meter",
+      "d": "mho"
+    },
+    "answer": "b",
+    "id": 1733
+  },
+  {
+    "question": "The commercial unit of electrical energy is:",
+    "options": {
+      "a": "Watt",
+      "b": "Joule",
+      "c": "Kilowatt-hour",
+      "d": "Kilowatt"
+    },
+    "answer": "c",
+    "id": 1734
+  },
+  {
+    "question": "Which of the following is not a factor affecting the resistance of a conductor?",
+    "options": {
+      "a": "Length",
+      "b": "Area of cross section",
+      "c": "Material",
+      "d": "Pressure"
+    },
+    "answer": "d",
+    "id": 1735
+  },
+  {
+    "question": "A wire of resistance 4Ω is bent into a circle. The equivalent resistance between two diametrically opposite points will be:",
+    "options": {
+      "a": "1Ω",
+      "b": "2Ω",
+      "c": "4Ω",
+      "d": "8Ω"
+    },
+    "answer": "a",
+    "id": 1736
+  },
+  {
+    "question": "The amount of heat produced in a resistor is directly proportional to the:",
+    "options": {
+      "a": "Current flowing through it",
+      "b": "Square of the current flowing through it",
+      "c": "Potential difference across it",
+      "d": "Square of the potential difference across it"
+    },
+    "answer": "b",
+    "id": 1737
+  },
+  {
+    "question": "Two resistors of 6Ω and 3Ω are connected in parallel. The equivalent resistance is:",
+    "options": {
+      "a": "9Ω",
+      "b": "2Ω",
+      "c": "1/2Ω",
+      "d": "18Ω"
+    },
+    "answer": "b",
+    "id": 1738
+  },
+  {
+    "question": "If the current through a resistor is I and the potential difference across it is V, the power dissipated in the resistor is given by:",
+    "options": {
+      "a": "V/I",
+      "b": "VI",
+      "c": "I/V",
+      "d": "V^2/I"
+    },
+    "answer": "b",
+    "id": 1739
+  },
+  {
+    "question": "Which of the following is true for a series combination of resistors?",
+    "options": {
+      "a": "The current is same in each resistor.",
+      "b": "The potential difference is same across each resistor.",
+      "c": "The equivalent resistance is less than the smallest resistance.",
+      "d": "The equivalent resistance is greater than the largest resistance."
+    },
+    "answer": "a",
+    "id": 1740
+  },
+  {
+    "question": "A 100W bulb and a 60W bulb are connected in parallel to a 220V supply. Which bulb will glow brighter?",
+    "options": {
+      "a": "100W bulb",
+      "b": "60W bulb",
+      "c": "Both will glow equally brightly",
+      "d": "None will glow"
+    },
+    "answer": "a",
+    "id": 1741
+  },
+  {
+    "question": "The resistivity of alloys is generally __________ than that of pure metals.",
+    "options": {
+      "a": "lower",
+      "b": "higher",
+      "c": "same",
+      "d": "zero"
+    },
+    "answer": "b",
+    "id": 1742
+  },
+  {
+    "question": "Fuse wire should have:",
+    "options": {
+      "a": "high melting point and low resistivity.",
+      "b": "low melting point and high resistivity.",
+      "c": "high melting point and high resistivity.",
+      "d": "low melting point and low resistivity."
+    },
+    "answer": "b",
+    "id": 1743
+  },
+  {
+    "question": "The resistance of a wire is inversely proportional to its:",
+    "options": {
+      "a": "length",
+      "b": "area of cross-section",
+      "c": "resistivity",
+      "d": "temperature"
+    },
+    "answer": "b",
+    "id": 1744
+  },
+  {
+    "question": "A 220 V, 1000 W bulb is connected across a 110 V supply. The power consumed will be:",
+    "options": {
+      "a": "1000 W",
+      "b": "500 W",
+      "c": "250 W",
+      "d": "125 W"
+    },
+    "answer": "c",
+    "id": 1745
+  },
+  {
+    "question": "The function of a fuse wire in an electric circuit is:",
+    "options": {
+      "a": "to increase the current",
+      "b": "to protect the appliances",
+      "c": "to stabilise the voltage",
+      "d": "to reduce the resistance"
+    },
+    "answer": "b",
+    "id": 1746
+  },
+  {
+    "question": "The equivalent resistance of three resistors of 2Ω, 3Ω and 6Ω connected in parallel is:",
+    "options": {
+      "a": "1Ω",
+      "b": "11Ω",
+      "c": "3.6Ω",
+      "d": "4Ω"
+    },
+    "answer": "a",
+    "id": 1747
+  },
+  {
+    "question": "Two identical bulbs are connected in series first and then in parallel across the same battery. In which combination will the bulbs glow brighter, and why?",
+    "options": {
+      "a": "Series, because the current is the same through both bulbs.",
+      "b": "Parallel, because the voltage across each bulb is the same as the battery voltage.",
+      "c": "Series, because the total resistance is higher.",
+      "d": "Parallel, because the total resistance is lower."
+    },
+    "answer": "b",
+    "id": 1748
+  },
+  {
+    "question": "A bird can sit on a high-voltage wire without getting electrocuted because:",
+    "options": {
+      "a": "The bird's feet are good insulators.",
+      "b": "There is no potential difference across the bird's body.",
+      "c": "The bird's body has high resistance.",
+      "d": "The bird does not complete a circuit."
+    },
+    "answer": "b",
+    "id": 1750
+  },
+  {
+    "question": "Why are electrical wires often covered with a layer of plastic or rubber?",
+    "options": {
+      "a": "To increase conductivity",
+      "b": "To prevent short circuits and electric shocks",
+      "c": "To make them look more attractive",
+      "d": "To reduce their resistance"
+    },
+    "answer": "b",
+    "id": 1751
+  },
+  {
+    "question": "Which of the following is a disadvantage of series circuits for household wiring?",
+    "options": {
+      "a": "If one appliance fails, all other appliances in the circuit stop working.",
+      "b": "The total resistance is low.",
+      "c": "Appliances receive a higher voltage.",
+      "d": "The current is the same in all parts of the circuit."
+    },
+    "answer": "a",
+    "id": 1752
+  },
+  {
+    "question": "You have two resistors, one with a high resistance and one with a low resistance. Which one dissipates more power when connected to the same voltage source?",
+    "options": {
+      "a": "The high resistance resistor",
+      "b": "The low resistance resistor",
+      "c": "Both dissipate the same power",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "id": 1753
+  },
+  {
+    "question": "A geyser is rated 1500W, 220V. How much energy does it consume in 2 hours?",
+    "options": {
+      "a": "3 kWh",
+      "b": "1.5 kWh",
+      "c": "3000 kWh",
+      "d": "750 kWh"
+    },
+    "answer": "a",
+    "id": 1754
+  },
+  {
+    "question": "A device rated 100 W, 220V and another device rated 150W, 220V. If both are used for 2 hours each, which consumes more energy?",
+    "options": {
+      "a": "The 100W device because it has higher resistance.",
+      "b": "The 150W device because it has higher power rating.",
+      "c": "Both consume the same energy as voltage is the same.",
+      "d": "Cannot be determined without knowing the current."
+    },
+    "answer": "b",
+    "id": 1755
+  },
+  {
+    "question": "Your house main supply is rated 220V and supports a maximum current of 5A without tripping the circuit breaker. Your friend brings a 2kW hair dryer, can you use it without tripping the breaker?",
+    "options": {
+      "a": "Yes, the hair dryer's current is below the limit.",
+      "b": "No, the hair dryer's current exceeds the limit.",
+      "c": "It depends on the resistance of the hairdryer.",
+      "d": "It depends on how many other appliances are running."
+    },
+    "answer": "b",
+    "id": 1756
+  },
+  {
+    "question": "A set of decorative lights consists of 20 bulbs connected in series. One bulb fuses. What happens to the rest of the bulbs?",
+    "options": {
+      "a": "The remaining bulbs glow brighter.",
+      "b": "The remaining bulbs glow dimmer.",
+      "c": "The remaining bulbs continue to glow as before.",
+      "d": "All bulbs go off."
+    },
+    "answer": "d",
+    "id": 1757
+  },
+  {
+    "question": "Assertion: When a conductor carrying current is placed in a magnetic field, it never experiences any force.\nReason: Magnetic fields have no effect on current-carrying conductors as they only interact with static charges.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1758
+  },
+  {
+    "question": "Assertion: The resistance of a conductor decreases with increase in temperature.\nReason: At higher temperatures, the atoms of the conductor become completely still, allowing electrons to flow freely.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1759
+  },
+  {
+    "question": "Assertion: LED bulbs consume more energy than traditional incandescent bulbs.\nReason: LEDs produce more heat energy than light energy compared to incandescent bulbs.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1760
+  },
+  {
+    "question": "Assertion: A fuse wire is always connected in series with the circuit.\nReason: The fuse wire has a very high resistance compared to other components in the circuit.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1761
+  },
+  {
+    "question": "Assertion: In a parallel circuit, if one component fails, the others continue to work.\nReason: In parallel circuits, the current has multiple paths to flow through.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1762
+  },
+  {
+    "question": "Assertion: Electric power transmission is done at high voltage and low current.\nReason: High voltage transmission allows for smaller diameter cables to be used.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "b",
+    "id": 1763
+  },
+  {
+    "question": "Assertion: Birds can safely sit on high-voltage power lines.\nReason: Birds have rubber-like feet that insulate them from electricity.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1765
+  },
+  {
+    "question": "Assertion: Solar cells convert solar energy directly into electrical energy.\nReason: Solar cells use the photoelectric effect to generate electricity.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1766
+  },
+  {
+    "question": "Assertion: An electric motor converts electrical energy into mechanical energy.\nReason: An electric motor works on the principle of electromagnetic induction.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1767
+  }
+]

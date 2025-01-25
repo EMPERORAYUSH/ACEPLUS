@@ -1,0 +1,574 @@
+[
+  {
+    "question": "The standard form of a quadratic equation is:",
+    "options": {
+      "a": "ax² + bx + c = 0, a ≠ 0",
+      "b": "ax² + bx + c = 0, a = 0",
+      "c": "ax³ + bx² + c = 0, a ≠ 0",
+      "d": "ax + b = 0, a ≠ 0"
+    },
+    "answer": "a",
+    "id": 1339
+  },
+  {
+    "question": "If b² - 4ac > 0, the roots of the quadratic equation are:",
+    "options": {
+      "a": "Real and equal",
+      "b": "Real and distinct",
+      "c": "Not real",
+      "d": "Imaginary"
+    },
+    "answer": "b",
+    "id": 1341
+  },
+  {
+    "question": "If b² - 4ac = 0, the roots of the quadratic equation are:",
+    "options": {
+      "a": "Real and unequal",
+      "b": "Real and equal",
+      "c": "Not real",
+      "d": "Rational and distinct"
+    },
+    "answer": "b",
+    "id": 1342
+  },
+  {
+    "question": "If b² - 4ac < 0, the roots of the quadratic equation are:",
+    "options": {
+      "a": "Real and distinct",
+      "b": "Real and equal",
+      "c": "Not real",
+      "d": "Irrational"
+    },
+    "answer": "c",
+    "id": 1343
+  },
+  {
+    "question": "The quadratic formula to find the roots of ax² + bx + c = 0 is:",
+    "options": {
+      "a": "x = (-b ± √(b² - 4ac)) / 2a",
+      "b": "x = (-b ± √(b² + 4ac)) / 2a",
+      "c": "x = (b ± √(b² - 4ac)) / 2a",
+      "d": "x = (-b ± √(4ac - b²)) / 2a"
+    },
+    "answer": "a",
+    "id": 1344
+  },
+  {
+    "question": "The sum of the roots of the quadratic equation ax² + bx + c = 0 is:",
+    "options": {
+      "a": "-b/a",
+      "b": "c/a",
+      "c": "b/a",
+      "d": "-c/a"
+    },
+    "answer": "a",
+    "id": 1345
+  },
+  {
+    "question": "The product of the roots of the quadratic equation ax² + bx + c = 0 is:",
+    "options": {
+      "a": "-b/a",
+      "b": "c/a",
+      "c": "b/a",
+      "d": "-c/a"
+    },
+    "answer": "b",
+    "id": 1346
+  },
+  {
+    "question": "A quadratic equation can have at most how many roots?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b",
+    "id": 1347
+  },
+  {
+    "question": "The discriminant of a quadratic equation is:",
+    "options": {
+      "a": "b² - 4ac",
+      "b": "√(b² - 4ac)",
+      "c": "b² + 4ac",
+      "d": "4ac - b²"
+    },
+    "answer": "a",
+    "id": 1348
+  },
+  {
+    "question": "If the roots of a quadratic equation are reciprocal of each other, then:",
+    "options": {
+      "a": "a = b",
+      "b": "b = c",
+      "c": "a = c",
+      "d": "a = 0"
+    },
+    "answer": "c",
+    "id": 1349
+  },
+  {
+    "question": "If one root of a quadratic equation is zero, then:",
+    "options": {
+      "a": "a = 0",
+      "b": "b = 0",
+      "c": "c = 0",
+      "d": "a = b = c = 0"
+    },
+    "answer": "c",
+    "id": 1350
+  },
+  {
+    "question": "Find the roots of x² - 5x + 6 = 0.",
+    "options": {
+      "a": "2, 3",
+      "b": "-2, -3",
+      "c": "2, -3",
+      "d": "-2, 3"
+    },
+    "answer": "a",
+    "id": 1351
+  },
+  {
+    "question": "Find the roots of 2x² + x - 6 = 0.",
+    "options": {
+      "a": "3/2, -2",
+      "b": "-3/2, 2",
+      "c": "3/2, 2",
+      "d": "-3/2, -2"
+    },
+    "answer": "a",
+    "id": 1352
+  },
+  {
+    "question": "Find the roots of √2x² + 7x + 5√2 = 0.",
+    "options": {
+      "a": "-√2, -5/√2",
+      "b": "√2, 5/√2",
+      "c": "-√2, 5/√2",
+      "d": "√2, -5/√2"
+    },
+    "answer": "a",
+    "id": 1353
+  },
+  {
+    "question": "The product of two consecutive positive integers is 306. Find the integers.",
+    "options": {
+      "a": "17, 18",
+      "b": "16, 17",
+      "c": "18, 19",
+      "d": "15, 16"
+    },
+    "answer": "a",
+    "id": 1354
+  },
+  {
+    "question": "Find the value of k for which the equation 2x² + kx + 3 = 0 has equal roots.",
+    "options": {
+      "a": "±2√6",
+      "b": "±√6",
+      "c": "±4√6",
+      "d": "±3√6"
+    },
+    "answer": "a",
+    "id": 1355
+  },
+  {
+    "question": "Find the value of k for which the equation kx(x - 2) + 6 = 0 has equal roots.",
+    "options": {
+      "a": "6",
+      "b": "-6",
+      "c": "12",
+      "d": "-12"
+    },
+    "answer": "a",
+    "id": 1356
+  },
+  {
+    "question": "The sum of the ages of two friends is 20 years. Four years ago, the product of their ages in years was 48. Find their present ages.",
+    "options": {
+      "a": "8, 12",
+      "b": "6, 14",
+      "c": "10, 10",
+      "d": "7, 13"
+    },
+    "answer": "a",
+    "id": 1357
+  },
+  {
+    "question": "Find the nature of the roots of 2x² - 3x + 5 = 0.",
+    "options": {
+      "a": "Real and distinct",
+      "b": "Real and equal",
+      "c": "No real roots",
+      "d": "Imaginary"
+    },
+    "answer": "c",
+    "id": 1358
+  },
+  {
+    "question": "Find the nature of the roots of 3x² - 4√3x + 4 = 0.",
+    "options": {
+      "a": "Real and distinct",
+      "b": "Real and equal",
+      "c": "No real roots",
+      "d": "Imaginary"
+    },
+    "answer": "b",
+    "id": 1359
+  },
+  {
+    "question": "Find the nature of the roots of 2x² - 6x + 3 = 0.",
+    "options": {
+      "a": "Real and distinct",
+      "b": "Real and equal",
+      "c": "No real roots",
+      "d": "Imaginary"
+    },
+    "answer": "a",
+    "id": 1360
+  },
+  {
+    "question": "A train travels a distance of 480 km at a uniform speed. If the speed had been 8 km/h less, then it would have taken 3 hours more to cover the same distance. Find the speed of the train.",
+    "options": {
+      "a": "40 km/h",
+      "b": "32 km/h",
+      "c": "48 km/h",
+      "d": "56 km/h"
+    },
+    "answer": "a",
+    "id": 1361
+  },
+  {
+    "question": "Find two numbers whose sum is 27 and product is 182.",
+    "options": {
+      "a": "13, 14",
+      "b": "12, 15",
+      "c": "11, 16",
+      "d": "10, 17"
+    },
+    "answer": "a",
+    "id": 1362
+  },
+  {
+    "question": "A rectangular field is 10m longer than it is wide. If its area is 875 m², what are its dimensions?",
+    "options": {
+      "a": "25m x 35m",
+      "b": "20m x 30m",
+      "c": "15m x 25m",
+      "d": "30m x 40m"
+    },
+    "answer": "a",
+    "id": 1363
+  },
+  {
+    "question": "The sum of two numbers is 15 and the sum of their reciprocals is 3/10. Find the numbers.",
+    "options": {
+      "a": "5, 10",
+      "b": "3, 12",
+      "c": "4, 11",
+      "d": "6, 9"
+    },
+    "answer": "a",
+    "id": 1364
+  },
+  {
+    "question": "Two pipes running together can fill a cistern in 3 1/13 minutes. If one pipe takes 3 minutes more than the other to fill it, find the time in which each pipe would fill the cistern.",
+    "options": {
+      "a": "5 min, 8 min",
+      "b": "4 min, 7 min",
+      "c": "6 min, 9 min",
+      "d": "3 min, 6 min"
+    },
+    "answer": "a",
+    "id": 1366
+  },
+  {
+    "question": "A dealer sells a toy for ₹24 and gains as much percent as the cost price of the toy. Find the cost price of the toy.",
+    "options": {
+      "a": "₹10",
+      "b": "₹20",
+      "c": "₹15",
+      "d": "₹12"
+    },
+    "answer": "b",
+    "id": 1368
+  },
+  {
+    "question": "The hypotenuse of a right triangle is 25 cm. The difference between the lengths of the other two sides is 5 cm. Find the lengths of these sides.",
+    "options": {
+      "a": "15 cm, 20 cm",
+      "b": "10 cm, 15 cm",
+      "c": "12 cm, 17 cm",
+      "d": "13 cm, 18 cm"
+    },
+    "answer": "a",
+    "id": 1369
+  },
+  {
+    "question": "The area of a right-angled triangle is 600 cm². If the base of the triangle exceeds the altitude by 10 cm, find the dimensions of the triangle.",
+    "options": {
+      "a": "30 cm, 40 cm",
+      "b": "25 cm, 35 cm",
+      "c": "20 cm, 30 cm",
+      "d": "35 cm, 45 cm"
+    },
+    "answer": "a",
+    "id": 1370
+  },
+  {
+    "question": "The sum of the areas of two squares is 640 m². If the difference of their perimeters is 64 m, find the sides of the two squares.",
+    "options": {
+      "a": "12m, 20m",
+      "b": "8m, 24m",
+      "c": "16m, 12m",
+      "d": "20m, 8m"
+    },
+    "answer": "b",
+    "id": 1371
+  },
+  {
+    "question": "If the list price of a book is reduced by ₹5, a person can buy 5 more books for ₹300. Find the original list price of the book.",
+    "options": {
+      "a": "₹20",
+      "b": "₹25",
+      "c": "₹15",
+      "d": "₹10"
+    },
+    "answer": "a",
+    "id": 1372
+  },
+  {
+    "question": "A takes 6 days less than B to finish a piece of work. If both A and B together can finish the work in 4 days, find the time taken by B to finish the work.",
+    "options": {
+      "a": "12 days",
+      "b": "6 days",
+      "c": "8 days",
+      "d": "10 days"
+    },
+    "answer": "a",
+    "id": 1373
+  },
+  {
+    "question": "A plane left 30 minutes later than the scheduled time and in order to reach its destination 1500 km away in time, it had to increase its speed by 250 km/hr from its usual speed. Find its usual speed.",
+    "options": {
+      "a": "500 km/hr",
+      "b": "750 km/hr",
+      "c": "1000 km/hr",
+      "d": "1250 km/hr"
+    },
+    "answer": "b",
+    "id": 1374
+  },
+  {
+    "question": "If one root of the equation 2x² + kx + 4 = 0 is 2, then the value of k is:",
+    "options": {
+      "a": "-6",
+      "b": "6",
+      "c": "8",
+      "d": "-8"
+    },
+    "answer": "a",
+    "id": 1375
+  },
+  {
+    "question": "If the roots of ax² + bx + c = 0 are equal, then c is equal to:",
+    "options": {
+      "a": "-b/2a",
+      "b": "b²/4a",
+      "c": "b²/4a²",
+      "d": "b²/4c"
+    },
+    "answer": "b",
+    "id": 1376
+  },
+  {
+    "question": "If the equation x² + 4x + k = 0 has real and distinct roots, then:",
+    "options": {
+      "a": "k < 4",
+      "b": "k > 4",
+      "c": "k ≤ 4",
+      "d": "k ≥ 4"
+    },
+    "answer": "a",
+    "id": 1377
+  },
+  {
+    "question": "If the equation kx² - 2kx + 6 = 0 has equal roots, then the value of k is:",
+    "options": {
+      "a": "0 or 6",
+      "b": "0 or 3/2",
+      "c": "0 or 2/3",
+      "d": "0 or 3"
+    },
+    "answer": "a",
+    "id": 1378
+  },
+  {
+    "question": "A quadratic equation whose one root is 2 + √5 is:",
+    "options": {
+      "a": "x² - 4x + 1 = 0",
+      "b": "x² + 4x + 1 = 0",
+      "c": "x² - 4x - 1 = 0",
+      "d": "x² + 4x - 1 = 0"
+    },
+    "answer": "c",
+    "id": 1379
+  },
+  {
+    "question": "If α and β are the roots of x² - px + q = 0, then the value of α² + β² is:",
+    "options": {
+      "a": "p² + 2q",
+      "b": "p² - 2q",
+      "c": "p² + q",
+      "d": "p² - q"
+    },
+    "answer": "b",
+    "id": 1380
+  },
+  {
+    "question": "If α and β are the roots of ax² + bx + c = 0, then the equation whose roots are 1/α and 1/β is:",
+    "options": {
+      "a": "ax² + bx + c = 0",
+      "b": "cx² + bx + a = 0",
+      "c": "bx² + ax + c = 0",
+      "d": "cx² + ax + b = 0"
+    },
+    "answer": "b",
+    "id": 1381
+  },
+  {
+    "question": "The value of k for which the equation x² + 5kx + 16 = 0 has no real roots is:",
+    "options": {
+      "a": "k > 8/5",
+      "b": "k < -8/5",
+      "c": "-8/5 < k < 8/5",
+      "d": "k > 8/5 or k < -8/5"
+    },
+    "answer": "c",
+    "id": 1382
+  },
+  {
+    "question": "If the roots of the equation (a - b)x² + (b - c)x + (c - a) = 0 are equal, then:",
+    "options": {
+      "a": "2a = b + c",
+      "b": "2b = a + c",
+      "c": "2c = a + b",
+      "d": "a = b = c"
+    },
+    "answer": "a",
+    "id": 1383
+  },
+  {
+    "question": "If the difference of the roots of x² - px + 8 = 0 is 2, then the value of p is:",
+    "options": {
+      "a": "±4",
+      "b": "±6",
+      "c": "±8",
+      "d": "±2"
+    },
+    "answer": "b",
+    "id": 1385
+  },
+  {
+    "question": "The value of k for which the roots of the equation x² + 4x + k = 0 are real is:",
+    "options": {
+      "a": "k ≥ 4",
+      "b": "k ≤ 4",
+      "c": "k > 4",
+      "d": "k < 4"
+    },
+    "answer": "b",
+    "id": 1386
+  },
+  {
+    "question": "Assertion: If the roots of a quadratic equation are reciprocals of each other, then the coefficient of x² equals the constant term.\nReason: For reciprocal roots, if α is a root, then 1/α is also a root.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1390
+  },
+  {
+    "question": "Assertion: A quadratic equation always has exactly two roots.\nReason: The degree of a quadratic equation is 2.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1391
+  },
+  {
+    "question": "Assertion: If one root of a quadratic equation is zero, then its constant term must be zero.\nReason: The product of roots of a quadratic equation ax² + bx + c = 0 is c/a.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1392
+  },
+  {
+    "question": "Assertion: For a quadratic equation ax² + bx + c = 0, if b² - 4ac = 0, then both roots are equal.\nReason: When b² - 4ac = 0, the quadratic formula gives only one value.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1393
+  },
+  {
+    "question": "Assertion: The sum of roots of a quadratic equation ax² + bx + c = 0 is always equal to -b/a.\nReason: This relationship is derived from Vieta's formulas.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1394
+  },
+  {
+    "question": "Assertion: If α and β are the roots of x² - px + q = 0, then α² + β² = p² - 2q.\nReason: This can be derived using the sum and product of roots.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1395
+  },
+  {
+    "question": "Assertion: A quadratic equation with real coefficients can have complex roots.\nReason: Complex roots always occur in conjugate pairs.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "b",
+    "id": 1396
+  },
+  {
+    "question": "Assertion: If the coefficient of x² in a quadratic equation is negative, the parabola opens downward.\nReason: The coefficient of x² determines the direction of the axis of symmetry.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1397
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "question": "Which of the following is NOT a biotic component of an ecosystem?",
+    "options": {
+      "a": "Producers",
+      "b": "Decomposers",
+      "c": "Rainfall",
+      "d": "Consumers"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the primary source of energy for most ecosystems?",
+    "options": {
+      "a": "Geothermal energy",
+      "b": "Sunlight",
+      "c": "Chemical energy",
+      "d": "Wind energy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Organisms that break down dead organic matter are called:",
+    "options": {
+      "a": "Producers",
+      "b": "Consumers",
+      "c": "Decomposers",
+      "d": "Herbivores"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is an example of a natural ecosystem?",
+    "options": {
+      "a": "Crop field",
+      "b": "Aquarium",
+      "c": "Garden",
+      "d": "Forest"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What percentage of energy is generally transferred from one trophic level to the next in a food chain?",
+    "options": {
+      "a": "1%",
+      "b": "10%",
+      "c": "50%",
+      "d": "90%"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a man-made ecosystem?",
+    "options": {
+      "a": "Pond",
+      "b": "Lake",
+      "c": "Crop field",
+      "d": "Forest"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The term 'biological magnification' refers to:",
+    "options": {
+      "a": "Increase in size of organisms",
+      "b": "Increase in population of organisms",
+      "c": "Increase in concentration of non-degradable pollutants through the food chain",
+      "d": "Increase in biodiversity"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is an example of a producer?",
+    "options": {
+      "a": "Fungi",
+      "b": "Green plants",
+      "c": "Animals",
+      "d": "Bacteria"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Ozone layer depletion is primarily caused by:",
+    "options": {
+      "a": "Carbon dioxide",
+      "b": "Chlorofluorocarbons (CFCs)",
+      "c": "Methane",
+      "d": "Nitrogen oxides"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a biodegradable material?",
+    "options": {
+      "a": "Paper",
+      "b": "Plastic",
+      "c": "Vegetable peels",
+      "d": "Cotton cloth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the function of the ozone layer?",
+    "options": {
+      "a": "Traps heat",
+      "b": "Filters ultraviolet radiation",
+      "c": "Produces oxygen",
+      "d": "Regulates rainfall"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which trophic level has the highest number of individuals in a typical ecosystem?",
+    "options": {
+      "a": "Tertiary consumers",
+      "b": "Secondary consumers",
+      "c": "Primary consumers",
+      "d": "Producers"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What is the chemical formula for ozone?",
+    "options": {
+      "a": "O2",
+      "b": "O3",
+      "c": "CO2",
+      "d": "H2O"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an omnivore?",
+    "options": {
+      "a": "Lion",
+      "b": "Human",
+      "c": "Cow",
+      "d": "Deer"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The flow of energy in an ecosystem is:",
+    "options": {
+      "a": "Bidirectional",
+      "b": "Multidirectional",
+      "c": "Unidirectional",
+      "d": "Circular"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If 10,000 units of energy are available at the producer level, how much energy will be available at the secondary consumer level?",
+    "options": {
+      "a": "10,000 units",
+      "b": "1,000 units",
+      "c": "100 units",
+      "d": "10 units"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In a food chain, if the producer level has 5000 J of energy, how much energy will be available to the tertiary consumer?",
+    "options": {
+      "a": "5000 J",
+      "b": "500 J",
+      "c": "50 J",
+      "d": "5 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "A food chain consists of grass, grasshopper, frog, and snake. If the grass has 20,000 J of energy, how much energy will the snake receive?",
+    "options": {
+      "a": "20,000 J",
+      "b": "2,000 J",
+      "c": "200 J",
+      "d": "20 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "If a harmful chemical enters a food chain at the producer level with a concentration of 2 ppm, and there is a 10x increase at each trophic level, what will be the concentration at the tertiary consumer level?",
+    "options": {
+      "a": "2 ppm",
+      "b": "20 ppm",
+      "c": "200 ppm",
+      "d": "2000 ppm"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "In a food chain of phytoplankton, zooplankton, small fish, and large fish, if the phytoplankton has 1000 kcal of energy, what energy will be available to the large fish?",
+    "options": {
+      "a": "1000 kcal",
+      "b": "100 kcal",
+      "c": "10 kcal",
+      "d": "1 kcal"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "If a pesticide enters a food chain at 0.5 ppm at the producer level, what is the concentration at the secondary consumer level, assuming 10x biomagnification at each level?",
+    "options": {
+      "a": "0.5 ppm",
+      "b": "5 ppm",
+      "c": "50 ppm",
+      "d": "500 ppm"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If the energy available to primary consumers is 4000 J, and the energy lost as heat at each trophic level is 90%, how much energy is available to the secondary consumers?",
+    "options": {
+      "a": "4000 J",
+      "b": "400 J",
+      "c": "40 J",
+      "d": "4 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A food chain has four trophic levels. If the producer level has 8000 J of energy, what is the energy available at the fourth trophic level?",
+    "options": {
+      "a": "8000 J",
+      "b": "800 J",
+      "c": "80 J",
+      "d": "8 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "If 1% of the sunlight energy falling on the leaves of green plants is converted into food energy, and the sunlight energy is 1,000,000 J, how much food energy is produced by the plants?",
+    "options": {
+      "a": "1,000,000 J",
+      "b": "100,000 J",
+      "c": "10,000 J",
+      "d": "1,000 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If the concentration of a toxin is 0.1 ppm at the producer level and increases by a factor of 10 at each trophic level, what will be the concentration at the tertiary consumer level in a four-level food chain?",
+    "options": {
+      "a": "0.1 ppm",
+      "b": "1 ppm",
+      "c": "10 ppm",
+      "d": "100 ppm"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "If the energy available at the secondary consumer level is 20 J, how much energy was likely present at the producer level?",
+    "options": {
+      "a": "20 J",
+      "b": "200 J",
+      "c": "2000 J",
+      "d": "20000 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In a food chain, if the tertiary consumer has 2 J of energy, what was the energy at the primary consumer level?",
+    "options": {
+      "a": "2 J",
+      "b": "20 J",
+      "c": "200 J",
+      "d": "2000 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a pollutant enters a food chain at 0.02 ppm at the producer level and magnifies 10 times at each trophic level, what is the concentration at the secondary consumer level?",
+    "options": {
+      "a": "0.02 ppm",
+      "b": "0.2 ppm",
+      "c": "2 ppm",
+      "d": "20 ppm"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If the energy at the producer level is 6000 J, and there are three levels of consumers, what is the energy available to the top consumer?",
+    "options": {
+      "a": "6000 J",
+      "b": "600 J",
+      "c": "60 J",
+      "d": "6 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "If the concentration of a non-degradable pollutant is 0.05 ppm at the producer level, and it increases 10-fold at each trophic level, what is the concentration at the fourth trophic level?",
+    "options": {
+      "a": "0.05 ppm",
+      "b": "0.5 ppm",
+      "c": "5 ppm",
+      "d": "50 ppm"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following actions would be most effective in reducing the problem of biomagnification?",
+    "options": {
+      "a": "Eating only plants",
+      "b": "Reducing the use of pesticides",
+      "c": "Eating only meat",
+      "d": "Increasing the use of fertilizers"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important to clean aquariums regularly, but not natural ponds?",
+    "options": {
+      "a": "Aquariums have more fish",
+      "b": "Ponds have natural decomposers",
+      "c": "Aquariums have less water",
+      "d": "Ponds are bigger"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the most likely consequence of a significant decrease in the ozone layer?",
+    "options": {
+      "a": "Increased global warming",
+      "b": "Increased cases of skin cancer",
+      "c": "Decreased rainfall",
+      "d": "Increased plant growth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why are disposable paper cups considered better than disposable plastic cups?",
+    "options": {
+      "a": "Paper cups are cheaper",
+      "b": "Paper cups are more hygienic",
+      "c": "Paper cups are biodegradable",
+      "d": "Paper cups are stronger"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How can individuals contribute to reducing the accumulation of non-biodegradable waste?",
+    "options": {
+      "a": "By burning waste",
+      "b": "By using more disposable products",
+      "c": "By practicing recycling and reducing consumption",
+      "d": "By burying waste in the ground"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is it important to segregate biodegradable and non-biodegradable waste?",
+    "options": {
+      "a": "To make waste collection easier",
+      "b": "To facilitate appropriate waste treatment and disposal",
+      "c": "To reduce the amount of waste generated",
+      "d": "To save space in landfills"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a sustainable practice for managing waste?",
+    "options": {
+      "a": "Using plastic bags for shopping",
+      "b": "Composting organic waste",
+      "c": "Burning garbage in open areas",
+      "d": "Disposing of waste in water bodies"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the use of CFCs affect the environment?",
+    "options": {
+      "a": "It increases air pollution",
+      "b": "It depletes the ozone layer",
+      "c": "It causes acid rain",
+      "d": "It leads to water pollution"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What would be the best way to create a self-sustaining aquarium?",
+    "options": {
+      "a": "Add only fish and water",
+      "b": "Add aquatic plants, fish, and an aerator",
+      "c": "Add only plants and water",
+      "d": "Add only fish and an aerator"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a new predator is introduced into an ecosystem, what is the most likely initial impact on the food web?",
+    "options": {
+      "a": "Increase in prey population",
+      "b": "Disruption of existing trophic levels",
+      "c": "Increase in producer population",
+      "d": "No impact on the food web"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is a food web a more realistic representation of feeding relationships than a food chain?",
+    "options": {
+      "a": "Food webs are simpler",
+      "b": "Food webs show energy flow",
+      "c": "Food webs depict multiple interconnected food chains",
+      "d": "Food chains are more accurate"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What would happen if all decomposers were removed from an ecosystem?",
+    "options": {
+      "a": "Increase in producer population",
+      "b": "Accumulation of dead organic matter and nutrient depletion",
+      "c": "Increase in consumer population",
+      "d": "No impact on the ecosystem"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the 10% rule important for understanding the structure of ecosystems?",
+    "options": {
+      "a": "It explains the distribution of biomes",
+      "b": "It limits the number of trophic levels",
+      "c": "It determines the amount of rainfall",
+      "d": "It regulates the temperature of the ecosystem"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why are humans considered to be at the top of many food chains?",
+    "options": {
+      "a": "Humans are the largest organisms",
+      "b": "Humans are primary producers",
+      "c": "Humans consume both plants and animals from various trophic levels",
+      "d": "Humans are decomposers"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a forest is cleared for agriculture, what is the most likely long-term impact on the local ecosystem?",
+    "options": {
+      "a": "Increased biodiversity",
+      "b": "Loss of habitat and decreased species diversity",
+      "c": "Improved soil quality",
+      "d": "Increased rainfall"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important to understand the concept of trophic levels when studying environmental issues?",
+    "options": {
+      "a": "To classify organisms based on their size",
+      "b": "To understand energy flow and pollutant transfer in ecosystems",
+      "c": "To determine the age of an ecosystem",
+      "d": "To predict weather patterns"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the likely consequence of a sudden increase in the population of a primary consumer in an ecosystem?",
+    "options": {
+      "a": "Decrease in producer population",
+      "b": "Increase in secondary consumer population",
+      "c": "Decrease in tertiary consumer population",
+      "d": "Both a and b"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Why might a vegetarian diet be considered more energy-efficient than a diet high in meat?",
+    "options": {
+      "a": "Plants are easier to digest",
+      "b": "Less energy is lost in the transfer between trophic levels",
+      "c": "Meat is more nutritious",
+      "d": "Vegetarians eat more food"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What would be the most effective strategy for long-term conservation of an endangered species?",
+    "options": {
+      "a": "Captive breeding programs",
+      "b": "Protecting and restoring its natural habitat",
+      "c": "Hunting its predators",
+      "d": "Introducing it to a new environment"
+    },
+    "answer": "b"
+  }
+]

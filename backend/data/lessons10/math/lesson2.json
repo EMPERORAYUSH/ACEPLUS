@@ -1,0 +1,552 @@
+[
+  {
+    "question": "The degree of the polynomial 7x⁵ - 4x³ + x - √2 is:",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "5",
+      "d": "6"
+    },
+    "answer": "c",
+    "id": 1229
+  },
+  {
+    "question": "Which of the following is a quadratic polynomial?",
+    "options": {
+      "a": "3x + 5",
+      "b": "x³ + 1",
+      "c": "2x² + 3x - 1/2",
+      "d": "√2x³"
+    },
+    "answer": "c",
+    "id": 1230
+  },
+  {
+    "question": "A polynomial of degree one is called:",
+    "options": {
+      "a": "Quadratic Polynomial",
+      "b": "Cubic Polynomial",
+      "c": "Linear Polynomial",
+      "d": "Biquadratic Polynomial"
+    },
+    "answer": "c",
+    "id": 1231
+  },
+  {
+    "question": "The name 'quadratic' has been derived from the word 'quadrate' which means:",
+    "options": {
+      "a": "Cube",
+      "b": "Square",
+      "c": "Variable",
+      "d": "Equation"
+    },
+    "answer": "b",
+    "id": 1232
+  },
+  {
+    "question": "If p(x) is a polynomial in x and k is any real number, then the value obtained by replacing x by k in p(x) is called the value of p(x) at:",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "k",
+      "d": "-k"
+    },
+    "answer": "c",
+    "id": 1233
+  },
+  {
+    "question": "If p(k) = 0, then k is a:",
+    "options": {
+      "a": "Coefficient",
+      "b": "Zero",
+      "c": "Variable",
+      "d": "Constant"
+    },
+    "answer": "b",
+    "id": 1234
+  },
+  {
+    "question": "The graph of a linear polynomial is a:",
+    "options": {
+      "a": "Parabola",
+      "b": "Straight line",
+      "c": "Curve",
+      "d": "Circle"
+    },
+    "answer": "b",
+    "id": 1235
+  },
+  {
+    "question": "The graph of a quadratic polynomial is a:",
+    "options": {
+      "a": "Straight Line",
+      "b": "Parabola",
+      "c": "Circle",
+      "d": "Ellipse"
+    },
+    "answer": "b",
+    "id": 1236
+  },
+  {
+    "question": "A cubic polynomial can have at most how many zeroes?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "c",
+    "id": 1237
+  },
+  {
+    "question": "If α and β are the zeroes of the quadratic polynomial ax² + bx + c, then α + β is equal to:",
+    "options": {
+      "a": "c/a",
+      "b": "-b/a",
+      "c": "b/a",
+      "d": "-c/a"
+    },
+    "answer": "b",
+    "id": 1238
+  },
+  {
+    "question": "If α and β are the zeroes of the quadratic polynomial ax² + bx + c, then αβ is equal to:",
+    "options": {
+      "a": "-b/a",
+      "b": "c/a",
+      "c": "-c/a",
+      "d": "b/a"
+    },
+    "answer": "b",
+    "id": 1239
+  },
+  {
+    "question": "Find the zeroes of the polynomial x² - 5x + 6.",
+    "options": {
+      "a": "2, 3",
+      "b": "-2, -3",
+      "c": "2, -3",
+      "d": "-2, 3"
+    },
+    "answer": "a",
+    "id": 1240
+  },
+  {
+    "question": "Find the zeroes of the polynomial 4x² - 8x.",
+    "options": {
+      "a": "0, 2",
+      "b": "0, -2",
+      "c": "2, -2",
+      "d": "0, 1/2"
+    },
+    "answer": "a",
+    "id": 1242
+  },
+  {
+    "question": "The sum and product of the zeroes of a quadratic polynomial are 3 and -10 respectively. Find the polynomial.",
+    "options": {
+      "a": "x² - 3x - 10",
+      "b": "x² + 3x - 10",
+      "c": "x² - 3x + 10",
+      "d": "x² + 3x + 10"
+    },
+    "answer": "a",
+    "id": 1243
+  },
+  {
+    "question": "If one zero of the polynomial 3x³ - x² - 3x + 1 is 1, find the other zeroes.",
+    "options": {
+      "a": "1/3, -1",
+      "b": "-1/3, 1",
+      "c": "1/3, 1",
+      "d": "-1/3, -1"
+    },
+    "answer": "a",
+    "id": 1245
+  },
+  {
+    "question": "If one of the zeroes of the quadratic polynomial (k-1)x² + kx + 1 is -3, then the value of k is:",
+    "options": {
+      "a": "4/3",
+      "b": "-4/3",
+      "c": "2/3",
+      "d": "-2/3"
+    },
+    "answer": "a",
+    "id": 1246
+  },
+  {
+    "question": "If the zeroes of the polynomial x³ – 3x² + x + 1 are a-b, a, a+b, find a.",
+    "options": {
+      "a": "1",
+      "b": "-1",
+      "c": "2",
+      "d": "-2"
+    },
+    "answer": "a",
+    "id": 1247
+  },
+  {
+    "question": "If α and β are the zeroes of x² + x - 2, then 1/α + 1/β is:",
+    "options": {
+      "a": "1/2",
+      "b": "-1/2",
+      "c": "2",
+      "d": "-2"
+    },
+    "answer": "a",
+    "id": 1248
+  },
+  {
+    "question": "If two zeroes of the polynomial x⁴ – 6x³ – 26x² + 138x – 35 are 2+√3 and 2-√3, find the other zeroes.",
+    "options": {
+      "a": "7, -5",
+      "b": "-7, 5",
+      "c": "7, 5",
+      "d": "-7, -5"
+    },
+    "answer": "a",
+    "id": 1249
+  },
+  {
+    "question": "Find all the zeroes of 2x⁴ – 3x³ – 3x² + 6x – 2, if you know that two of its zeroes are √2 and -√2.",
+    "options": {
+      "a": "1, ½",
+      "b": "-1, -½",
+      "c": "1, -½",
+      "d": "-1, ½"
+    },
+    "answer": "a",
+    "id": 1250
+  },
+  {
+    "question": "The area of a rectangular field is x² - 12x + 35. If the length is (x-5), find the breadth.",
+    "options": {
+      "a": "x-7",
+      "b": "x+7",
+      "c": "x-5",
+      "d": "x+5"
+    },
+    "answer": "a",
+    "id": 1251
+  },
+  {
+    "question": "The sum of the ages of two friends is x² - 10x + 21. If one friend is (x-7) years old, what is the age of the other friend?",
+    "options": {
+      "a": "x-3",
+      "b": "x+3",
+      "c": "x+7",
+      "d": "x-7"
+    },
+    "answer": "a",
+    "id": 1252
+  },
+  {
+    "question": "A ball is thrown vertically upwards. Its height 'h' after 't' seconds is given by h = 40t - 5t². After how many seconds will it return to the ground?",
+    "options": {
+      "a": "2 seconds",
+      "b": "4 seconds",
+      "c": "8 seconds",
+      "d": "10 seconds"
+    },
+    "answer": "c",
+    "id": 1253
+  },
+  {
+    "question": "If the graph of a polynomial intersects the x-axis at three distinct points, what can you conclude about its degree?",
+    "options": {
+      "a": "It must be 2",
+      "b": "It must be 3 or higher",
+      "c": "It must be 1",
+      "d": "It can be any degree."
+    },
+    "answer": "b",
+    "id": 1254
+  },
+  {
+    "question": "A quadratic polynomial has no real zeroes. What can you say about its graph?",
+    "options": {
+      "a": "It intersects the x-axis at two points.",
+      "b": "It intersects the x-axis at one point.",
+      "c": "It does not intersect the x-axis.",
+      "d": "It intersects the x-axis at three points."
+    },
+    "answer": "c",
+    "id": 1255
+  },
+  {
+    "question": "If α, β and γ are the zeroes of ax³ + bx² + cx + d, then what is the value of αβ + βγ + γα?",
+    "options": {
+      "a": "-b/a",
+      "b": "c/a",
+      "c": "-d/a",
+      "d": "d/a"
+    },
+    "answer": "b",
+    "id": 1256
+  },
+  {
+    "question": "If the sum of the zeroes of the quadratic polynomial kx² + 2x + 3k is equal to their product, then k = ?",
+    "options": {
+      "a": "2/3",
+      "b": "-2/3",
+      "c": "1/3",
+      "d": "-1/3"
+    },
+    "answer": "b",
+    "id": 1257
+  },
+  {
+    "question": "If one zero of the cubic polynomial x³ + ax² + bx + c is -1, then the product of the other two zeroes is:",
+    "options": {
+      "a": "b - a + 1",
+      "b": "b - a - 1",
+      "c": "a - b + 1",
+      "d": "a - b - 1"
+    },
+    "answer": "a",
+    "id": 1258
+  },
+  {
+    "question": "Find the remainder when x⁴ + x³ - 2x² + x + 1 is divided by x-1.",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "0",
+      "d": "-1"
+    },
+    "answer": "b",
+    "id": 1259
+  },
+  {
+    "question": "If α and β are the zeroes of the polynomial x² - 2x + 3, find α² + β².",
+    "options": {
+      "a": "-2",
+      "b": "2",
+      "c": "4",
+      "d": "-4"
+    },
+    "answer": "a",
+    "id": 1260
+  },
+  {
+    "question": "If two zeroes of the polynomial x⁴ - 6x³ - 26x² + 138x - 35 are 2 + √3 and 2 - √3, find the other zeroes.",
+    "options": {
+      "a": "7, -5",
+      "b": "-7, 5",
+      "c": "7, 5",
+      "d": "-7,-5"
+    },
+    "answer": "a",
+    "id": 1261
+  },
+  {
+    "question": "If the polynomial 6x⁴ + 8x³ + 17x² + 21x + 7 is divided by another polynomial 3x² + 4x + 1, the remainder comes out to be ax + b. Find a and b.",
+    "options": {
+      "a": "a = 1, b = 2",
+      "b": "a = 2, b = 1",
+      "c": "a = -1, b = -2",
+      "d": "a = -2, b = -1"
+    },
+    "answer": "a",
+    "id": 1264
+  },
+  {
+    "question": "Find a cubic polynomial with the sum, sum of the product of its zeroes taken two at a time, and the product of its zeroes as 2, -7, -14 respectively.",
+    "options": {
+      "a": "x³ - 2x² - 7x + 14",
+      "b": "x³ - 2x² - 7x - 14",
+      "c": "x³ + 2x² - 7x + 14",
+      "d": "x³ + 2x² + 7x + 14"
+    },
+    "answer": "a",
+    "id": 1265
+  },
+  {
+    "question": "If the zeroes of the polynomial x³ - 3x² + x + 1 are a-b, a, and a+b, find a and b.",
+    "options": {
+      "a": "a=1, b=√2",
+      "b": "a=1, b=-√2",
+      "c": "a=-1, b=√2",
+      "d": "a=-1, b=-√2"
+    },
+    "answer": "a",
+    "id": 1266
+  },
+  {
+    "question": "If α and β are the zeroes of the quadratic polynomial x² - p(x+1) - c, show that (α+1)(β+1) = 1-c",
+    "options": {
+      "a": "1-c",
+      "b": "1+c",
+      "c": "c-1",
+      "d": "-1-c"
+    },
+    "answer": "a",
+    "id": 1267
+  },
+  {
+    "question": "If α and β are the zeroes of the quadratic polynomial f(x) = x² - px + q, then find 1/α + 1/β.",
+    "options": {
+      "a": "p/q",
+      "b": "-p/q",
+      "c": "q/p",
+      "d": "-q/p"
+    },
+    "answer": "a",
+    "id": 1268
+  },
+  {
+    "question": "Find a quadratic polynomial whose zeroes are reciprocals of the zeroes of the polynomial f(x) = ax² + bx + c, a ≠ 0, c ≠ 0.",
+    "options": {
+      "a": "cx² + bx + a",
+      "b": "cx² - bx + a",
+      "c": "-cx² + bx - a",
+      "d": "-cx² - bx - a"
+    },
+    "answer": "a",
+    "id": 1269
+  },
+  {
+    "question": "If α and β are the zeroes of the quadratic polynomial f(t) = t² - p(t+1) - c, show that (α+1)(β+1) = ?",
+    "options": {
+      "a": "1 - c",
+      "b": "1 + c",
+      "c": "c - 1",
+      "d": "-1 - c"
+    },
+    "answer": "a",
+    "id": 1270
+  },
+  {
+    "question": "If the sum of the zeroes of the quadratic polynomial f(x) = kx² + 2x + 3k is equal to their product, then 'k' is:",
+    "options": {
+      "a": "2/3",
+      "b": "-2/3",
+      "c": "1/3",
+      "d": "-1/3"
+    },
+    "answer": "b",
+    "id": 1271
+  },
+  {
+    "question": "If one zero of the polynomial (a² + 9)x² + 13x + 6a is reciprocal of the other, find the value of 'a'.",
+    "options": {
+      "a": "3",
+      "b": "-3",
+      "c": "2",
+      "d": "-2"
+    },
+    "answer": "a",
+    "id": 1272
+  },
+  {
+    "question": "If α and β are the zeroes of the quadratic polynomial f(x) = x² - 1, find a quadratic polynomial whose zeroes are 2α/β and 2β/α.",
+    "options": {
+      "a": "x² - 2x + 4",
+      "b": "x² + 2x + 4",
+      "c": "x² - 2x - 4",
+      "d": "x² + 2x - 4"
+    },
+    "answer": "b",
+    "id": 1273
+  },
+  {
+    "question": "If α and β are the zeroes of the quadratic polynomial such that α + β = 24 and α - β = 8, find a quadratic polynomial having α and β as its zeroes.",
+    "options": {
+      "a": "x² - 24x + 128",
+      "b": "x² + 24x - 128",
+      "c": "x² - 24x - 128",
+      "d": "x² + 24x + 128"
+    },
+    "answer": "a",
+    "id": 1274
+  },
+  {
+    "question": "If sum of the squares of zeroes of the quadratic polynomial 6x² + x + k is 25/36, find the value of 'k'.",
+    "options": {
+      "a": "2",
+      "b": "-2",
+      "c": "1",
+      "d": "-1"
+    },
+    "answer": "b",
+    "id": 1275
+  },
+  {
+    "question": "If the zeroes of the polynomial x³ - 3x² + x + 1 are p-q, p, and p+q, find the value of p and q.",
+    "options": {
+      "a": "p = 1, q = √2",
+      "b": "p = -1, q = √2",
+      "c": "p = 1, q = -√2",
+      "d": "p = -1, q = -√2"
+    },
+    "answer": "a",
+    "id": 1276
+  },
+  {
+    "question": "If α and β are the zeroes of the polynomial f(x) = x² + px + q, form a polynomial whose zeroes are (α + β)² and (α - β)².",
+    "options": {
+      "a": "x² - 2(p² - 2q)x + (p² - 4q)²",
+      "b": "x² + 2(p² - 2q)x + (p² - 4q)²",
+      "c": "x² - 2(p² + 2q)x + (p² + 4q)²",
+      "d": "x² + 2(p² + 2q)x + (p² + 4q)²"
+    },
+    "answer": "a",
+    "id": 1278
+  },
+  {
+    "question": "Assertion: The degree of a polynomial is always equal to the highest power of the variable.\nReason: The coefficient of the highest power term determines the degree of the polynomial.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1279
+  },
+  {
+    "question": "Assertion: A quadratic polynomial can have at most two zeroes.\nReason: The graph of a quadratic polynomial is a parabola that can cut the x-axis at most twice.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1280
+  },
+  {
+    "question": "Assertion: If α and β are zeroes of a quadratic polynomial ax² + bx + c, then α + β = -b/a.\nReason: The sum of zeroes of a quadratic polynomial is always negative.",
+    "options": {
+      "d": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "c": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "b": "Assertion is true but reason is false",
+      "a": "Both assertion and reason are false"
+    },
+    "answer": "b",
+    "id": 1281
+  },
+  {
+    "question": "Assertion: Every polynomial of odd degree has at least one real zero.\nReason: Odd degree polynomials always cross the x-axis at some point.",
+    "options": {
+      "c": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "d": "Assertion is true but reason is false",
+      "a": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1282
+  },
+  {
+    "question": "Assertion: The remainder theorem can be used to find the value of a polynomial at any point.\nReason: When a polynomial p(x) is divided by (x - a), the remainder is equal to p(a).",
+    "options": {
+      "b": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "a": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "d": "Assertion is true but reason is false",
+      "c": "Both assertion and reason are false"
+    },
+    "answer": "b",
+    "id": 1283
+  }
+]

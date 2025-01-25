@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Which of these is NOT an undefined term in Euclidean geometry?",
+    "options": {
+      "a": "Point",
+      "b": "Line",
+      "c": "Plane",
+      "d": "Angle"
+    },
+    "answer": "d",
+    "id": 145
+  },
+  {
+    "question": "How many lines can be drawn through two distinct points?",
+    "options": {
+      "a": "None",
+      "b": "One",
+      "c": "Two",
+      "d": "Infinite"
+    },
+    "answer": "b",
+    "id": 146
+  },
+  {
+    "question": "Which of Euclid's postulates allows for extending a line segment indefinitely?",
+    "options": {
+      "a": "Postulate 1",
+      "b": "Postulate 2",
+      "c": "Postulate 3",
+      "d": "Postulate 4"
+    },
+    "answer": "b",
+    "id": 147
+  },
+  {
+    "question": "What is the name of the book written by Euclid that compiles geometrical knowledge?",
+    "options": {
+      "a": "Principia Mathematica",
+      "b": "Elements",
+      "c": "Geometry",
+      "d": "Arithmetica"
+    },
+    "answer": "b",
+    "id": 148
+  },
+  {
+    "question": "Euclid's axioms deal with:",
+    "options": {
+      "a": "Only geometric concepts",
+      "b": "Only algebraic concepts",
+      "c": "General mathematical truths",
+      "d": "Unprovable theories"
+    },
+    "answer": "a",
+    "id": 149
+  },
+  {
+    "question": "Which postulate is considered more complex and has led to the development of non-Euclidean geometries?",
+    "options": {
+      "a": "Postulate 1",
+      "b": "Postulate 2",
+      "c": "Postulate 4",
+      "d": "Postulate 5"
+    },
+    "answer": "d",
+    "id": 150
+  },
+  {
+    "question": "What do you call a statement that is proven using previously established axioms, definitions, and theorems?",
+    "options": {
+      "a": "Axiom",
+      "b": "Postulate",
+      "c": "Theorem",
+      "d": "Corollary"
+    },
+    "answer": "c",
+    "id": 151
+  },
+  {
+    "question": "Which of the following statements describes Playfair's Axiom?",
+    "options": {
+      "a": "A line can be drawn from any point to any other point.",
+      "b": "All right angles are equal to one another.",
+      "c": "A circle can be drawn with any center and any radius.",
+      "d": "Given a line and a point not on the line, there exists a unique line through the point parallel to the given line."
+    },
+    "answer": "d",
+    "id": 152
+  },
+  {
+    "question": "Why are some geometric terms left undefined?",
+    "options": {
+      "a": "Mathematicians couldn't agree on their definitions.",
+      "b": "They are self-evident and don't require definitions.",
+      "c": "Defining them would lead to circular reasoning.",
+      "d": "They are only relevant in advanced mathematics."
+    },
+    "answer": "c",
+    "id": 153
+  },
+  {
+    "question": "Which of these is NOT true about non-Euclidean geometries?",
+    "options": {
+      "a": "They developed from attempts to prove Euclid's fifth postulate.",
+      "b": "They contradict some of Euclid's postulates.",
+      "c": "Spherical geometry is a type of non-Euclidean geometry.",
+      "d": "They are less logical than Euclidean geometry."
+    },
+    "answer": "d",
+    "id": 154
+  },
+  {
+    "question": "Which axiom states that 'Things which coincide with one another are equal to one another'?",
+    "options": {
+      "a": "Axiom 1",
+      "b": "Axiom 3",
+      "c": "Axiom 4",
+      "d": "Axiom 5"
+    },
+    "answer": "c",
+    "id": 155
+  },
+  {
+    "question": "What can be said about two lines that are equidistant from each other at all points?",
+    "options": {
+      "a": "They are intersecting lines.",
+      "b": "They are perpendicular lines.",
+      "c": "They are parallel lines.",
+      "d": "They are coincident lines."
+    },
+    "answer": "c",
+    "id": 156
+  },
+  {
+    "question": "Which civilization used geometry primarily for practical purposes, such as measuring land and building pyramids?",
+    "options": {
+      "a": "Greeks",
+      "b": "Egyptians",
+      "c": "Babylonians",
+      "d": "Indians"
+    },
+    "answer": "b",
+    "id": 157
+  },
+  {
+    "question": "What were the Sulbasutras in ancient India?",
+    "options": {
+      "a": "Philosophical texts",
+      "b": "Mathematical treatises",
+      "c": "Manuals of geometric constructions",
+      "d": "Astronomical charts"
+    },
+    "answer": "c",
+    "id": 158
+  },
+  {
+    "question": "According to Euclid, a surface is defined as:",
+    "options": {
+      "a": "That which has length only",
+      "b": "That which has breadth only",
+      "c": "That which has length and breadth only",
+      "d": "That which has height, length, and breadth"
+    },
+    "answer": "c",
+    "id": 159
+  },
+  {
+    "question": "What is the significance of Euclid's first 28 theorems?",
+    "options": {
+      "a": "They form the basis of algebra.",
+      "b": "They are proven without using the fifth postulate.",
+      "c": "They are only applicable to triangles.",
+      "d": "They were later found to be incorrect."
+    },
+    "answer": "b",
+    "id": 160
+  },
+  {
+    "question": "Which of Euclid's axioms justifies the principle of superposition?",
+    "options": {
+      "a": "Axiom 1",
+      "b": "Axiom 2",
+      "c": "Axiom 4",
+      "d": "Axiom 5"
+    },
+    "answer": "c",
+    "id": 161
+  },
+  {
+    "question": "In which geometry are lines considered parts of great circles?",
+    "options": {
+      "a": "Euclidean geometry",
+      "b": "Spherical geometry",
+      "c": "Hyperbolic geometry",
+      "d": "Analytical geometry"
+    },
+    "answer": "b",
+    "id": 162
+  },
+  {
+    "question": "If a line PQ falls on lines AB and CD such that the interior angles on one side of PQ add up to 180°, what can be said about lines AB and CD?",
+    "options": {
+      "a": "They are parallel.",
+      "b": "They are perpendicular.",
+      "c": "They intersect on the same side where the angles add up to 180°.",
+      "d": "They intersect on the opposite side where the angles add up to 180°."
+    },
+    "answer": "a",
+    "id": 163
+  },
+  {
+    "question": "What does it mean for a system of axioms to be consistent?",
+    "options": {
+      "a": "They can be proven using empirical evidence.",
+      "b": "They apply to both Euclidean and non-Euclidean geometries.",
+      "c": "They do not lead to any contradictory statements.",
+      "d": "They are independent of each other."
+    },
+    "answer": "c",
+    "id": 164
+  },
+  {
+    "question": "In Euclidean geometry, the sum of the angles of a triangle is always:",
+    "options": {
+      "a": "Less than 180°",
+      "b": "Equal to 180°",
+      "c": "Greater than 180°",
+      "d": "Dependent on the size of the triangle"
+    },
+    "answer": "b",
+    "id": 165
+  },
+  {
+    "question": "Which of the following is NOT a valid definition for parallel lines?",
+    "options": {
+      "a": "Two lines in the same plane that never intersect.",
+      "b": "Two lines that are always the same distance apart.",
+      "c": "Two lines that have the same slope.",
+      "d": "Two lines that intersect at a right angle."
+    },
+    "answer": "d",
+    "id": 166
+  },
+  {
+    "question": "What is the difference between axioms and postulates in modern mathematics?",
+    "options": {
+      "a": "Axioms are specific to geometry, postulates are general.",
+      "b": "Postulates are specific to geometry, axioms are general.",
+      "c": "Axioms are proven, postulates are assumed.",
+      "d": "There is no significant difference, the terms are used interchangeably."
+    },
+    "answer": "d",
+    "id": 167
+  },
+  {
+    "question": "According to Euclid, what lies at the ends of a line?",
+    "options": {
+      "a": "Nothing",
+      "b": "Other lines",
+      "c": "Points",
+      "d": "Angles"
+    },
+    "answer": "c",
+    "id": 168
+  },
+  {
+    "question": "Why did ancient civilizations develop geometry?",
+    "options": {
+      "a": "To create complex artwork",
+      "b": "To study the stars and planets",
+      "c": "To solve practical problems like measuring land and constructing buildings",
+      "d": "To develop new philosophical theories"
+    },
+    "answer": "c",
+    "id": 169
+  },
+  {
+    "question": "What is the key characteristic of a straight line according to Euclid's definition?",
+    "options": {
+      "a": "It has no breadth.",
+      "b": "It can be extended infinitely.",
+      "c": "It lies evenly with the points on itself.",
+      "d": "It connects two distinct points."
+    },
+    "answer": "c",
+    "id": 170
+  },
+  {
+    "question": "Which of the following statements is NOT a direct consequence of Euclid's postulates?",
+    "options": {
+      "a": "A triangle can have at most one right angle.",
+      "b": "Two circles can intersect in at most two points.",
+      "c": "The sum of the angles of a quadrilateral is 360°.",
+      "d": "Parallel lines exist."
+    },
+    "answer": "d",
+    "id": 171
+  },
+  {
+    "question": "What is the modern term for what Euclid referred to as a 'terminated line'?",
+    "options": {
+      "a": "Ray",
+      "b": "Line segment",
+      "c": "Perpendicular",
+      "d": "Transversal"
+    },
+    "answer": "b",
+    "id": 172
+  },
+  {
+    "question": "Euclid's work was crucial in establishing which approach to geometry?",
+    "options": {
+      "a": "Empirical",
+      "b": "Deductive",
+      "c": "Inductive",
+      "d": "Probabilistic"
+    },
+    "answer": "b",
+    "id": 173
+  },
+  {
+    "question": "What can be said about two distinct lines that are both parallel to a third line?",
+    "options": {
+      "a": "They are parallel to each other.",
+      "b": "They intersect at a single point.",
+      "c": "They are perpendicular to each other.",
+      "d": "They are skew lines."
+    },
+    "answer": "a",
+    "id": 174
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "question": "The Nazi ideology was based on the concept of racial ________.",
+    "options": {
+      "a": "equality",
+      "b": "hierarchy",
+      "c": "harmony",
+      "d": "integration"
+    },
+    "answer": "b",
+    "id": 1004
+  },
+  {
+    "question": "According to Nazi ideology, who were considered to be at the top of the racial hierarchy?",
+    "options": {
+      "a": "Jews",
+      "b": "Gypsies",
+      "c": "Nordic German Aryans",
+      "d": "Slavs"
+    },
+    "answer": "c",
+    "id": 1005
+  },
+  {
+    "question": "The term used by the Nazis to refer to the mass murder of Jews was:",
+    "options": {
+      "a": "Special Treatment",
+      "b": "Final Solution",
+      "c": "Euthanasia",
+      "d": "Disinfection"
+    },
+    "answer": "b",
+    "id": 1006
+  },
+  {
+    "question": "The Nazi youth organization for boys aged 14 to 18 was known as:",
+    "options": {
+      "a": "Jungvolk",
+      "b": "Hitler Youth",
+      "c": "Labour Service",
+      "d": "Storm Troopers"
+    },
+    "answer": "b",
+    "id": 1007
+  },
+  {
+    "question": "The German Parliament was known as the ________.",
+    "options": {
+      "a": "Reichstag",
+      "b": "Bundestag",
+      "c": "Landtag",
+      "d": "Weimar"
+    },
+    "answer": "a",
+    "id": 1008
+  },
+  {
+    "question": "The Treaty of Versailles was signed in the year ________.",
+    "options": {
+      "a": "1914",
+      "b": "1918",
+      "c": "1919",
+      "d": "1933"
+    },
+    "answer": "c",
+    "id": 1009
+  },
+  {
+    "question": "The German Workers' Party was later renamed as the ________ Party.",
+    "options": {
+      "a": "Socialist",
+      "b": "Communist",
+      "c": "Nazi",
+      "d": "Democratic"
+    },
+    "answer": "c",
+    "id": 1010
+  },
+  {
+    "question": "Hitler became the Chancellor of Germany in the year ________.",
+    "options": {
+      "a": "1923",
+      "b": "1928",
+      "c": "1932",
+      "d": "1933"
+    },
+    "answer": "d",
+    "id": 1011
+  },
+  {
+    "question": "The Enabling Act, which established dictatorship in Germany, was passed in ________.",
+    "options": {
+      "a": "February 1933",
+      "b": "March 1933",
+      "c": "September 1939",
+      "d": "June 1941"
+    },
+    "answer": "b",
+    "id": 1012
+  },
+  {
+    "question": "The secret state police in Nazi Germany was known as the ________.",
+    "options": {
+      "a": "SA",
+      "b": "SS",
+      "c": "Gestapo",
+      "d": "SD"
+    },
+    "answer": "c",
+    "id": 1013
+  },
+  {
+    "question": "The economic crisis of 1923 in Germany is also known as ________.",
+    "options": {
+      "a": "Great Depression",
+      "b": "Hyperinflation",
+      "c": "Wall Street Crash",
+      "d": "Dawes Plan"
+    },
+    "answer": "b",
+    "id": 1014
+  },
+  {
+    "question": "The Nazi concept of living space was known as ________.",
+    "options": {
+      "a": "Lebensraum",
+      "b": "Blitzkrieg",
+      "c": "Anschluss",
+      "d": "Kristallnacht"
+    },
+    "answer": "a",
+    "id": 1015
+  },
+  {
+    "question": "The Nuremberg Laws of citizenship were passed in the year ________.",
+    "options": {
+      "a": "1933",
+      "b": "1935",
+      "c": "1938",
+      "d": "1941"
+    },
+    "answer": "b",
+    "id": 1016
+  },
+  {
+    "question": "The 'Night of Broken Glass' refers to the pogrom against Jews in ________.",
+    "options": {
+      "a": "1933",
+      "b": "1935",
+      "c": "1938",
+      "d": "1941"
+    },
+    "answer": "c",
+    "id": 1017
+  },
+  {
+    "question": "The ghettos in Nazi-occupied territories were primarily for the confinement of ________.",
+    "options": {
+      "a": "Jews",
+      "b": "Gypsies",
+      "c": "Communists",
+      "d": "Poles"
+    },
+    "answer": "a",
+    "id": 1018
+  },
+  {
+    "question": "The systematic mass murder of Jews by the Nazis is known as the ________.",
+    "options": {
+      "a": "Holocaust",
+      "b": "Kristallnacht",
+      "c": "Blitzkrieg",
+      "d": "Anschluss"
+    },
+    "answer": "a",
+    "id": 1019
+  },
+  {
+    "question": "Assertion: The Treaty of Versailles imposed harsh terms on Germany. \nReason: Germany was held responsible for the First World War.",
+    "options": {
+      "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true, but Reason is false",
+      "d": "Assertion is false, but Reason is true"
+    },
+    "answer": "a",
+    "id": 1020
+  },
+  {
+    "question": "Assertion: Hitler's rise to power was aided by the Great Depression. \nReason: The Depression created economic hardship and political instability in Germany.",
+    "options": {
+      "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true, but Reason is false",
+      "d": "Assertion is false, but Reason is true"
+    },
+    "answer": "a",
+    "id": 1021
+  },
+  {
+    "question": "Assertion: The Enabling Act gave Hitler dictatorial powers. \nReason: The Act allowed Hitler to bypass the German Parliament.",
+    "options": {
+      "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true, but Reason is false",
+      "d": "Assertion is false, but Reason is true"
+    },
+    "answer": "a",
+    "id": 1022
+  },
+  {
+    "question": "Assertion: Nazi ideology promoted the idea of racial purity. \nReason: Nazis believed that the Aryan race was superior to all others.",
+    "options": {
+      "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true, but Reason is false",
+      "d": "Assertion is false, but Reason is true"
+    },
+    "answer": "a",
+    "id": 1023
+  },
+  {
+    "question": "Assertion: The Nazis used propaganda to promote their ideology. \nReason: Propaganda helped the Nazis to control information and manipulate public opinion.",
+    "options": {
+      "a": "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true, but Reason is false",
+      "d": "Assertion is false, but Reason is true"
+    },
+    "answer": "a",
+    "id": 1024
+  },
+  {
+    "question": "The Weimar Republic faced numerous challenges, including economic hardship, political instability, and social unrest. This turbulent period in German history ultimately paved the way for the rise of ________.",
+    "options": {
+      "a": "Communism",
+      "b": "Nazism",
+      "c": "Democracy",
+      "d": "Socialism"
+    },
+    "answer": "b",
+    "id": 1025
+  },
+  {
+    "question": "The Nazi regime's persecution of Jews was rooted in a deep-seated ideology of racial hatred and anti-Semitism. This ideology, combined with the regime's totalitarian control over society, led to the systematic extermination of Jews during the ________.",
+    "options": {
+      "a": "First World War",
+      "b": "Second World War",
+      "c": "Cold War",
+      "d": "Russian Revolution"
+    },
+    "answer": "b",
+    "id": 1026
+  },
+  {
+    "question": "Hitler's vision for Germany involved territorial expansion and the establishment of a racially pure society. This vision, fueled by a potent mix of nationalism, militarism, and racial ideology, led to a devastating war that engulfed Europe and the world during the ________.",
+    "options": {
+      "a": "First World War",
+      "b": "Second World War",
+      "c": "Cold War",
+      "d": "Russian Revolution"
+    },
+    "answer": "b",
+    "id": 1027
+  },
+  {
+    "question": "The Holocaust, the systematic extermination of Jews by the Nazis, stands as a chilling reminder of the dangers of unchecked hatred and intolerance. This horrific event, which resulted in the deaths of millions of innocent people, remains a stark warning against the evils of ________.",
+    "options": {
+      "a": "Democracy",
+      "b": "Communism",
+      "c": "Socialism",
+      "d": "Fascism"
+    },
+    "answer": "d",
+    "id": 1028
+  },
+  {
+    "question": "The Weimar Republic, established after the First World War, was a fragile democracy plagued by numerous challenges. Despite its efforts to create a stable and democratic Germany, the Republic ultimately succumbed to the forces of ________.",
+    "options": {
+      "a": "Communism",
+      "b": "Nazism",
+      "c": "Socialism",
+      "d": "Liberalism"
+    },
+    "answer": "b",
+    "id": 1029
+  },
+  {
+    "question": "Hitler's propaganda machine skillfully manipulated public opinion and demonized minority groups, particularly Jews. This relentless campaign of hatred and disinformation played a crucial role in creating the conditions for the ________.",
+    "options": {
+      "a": "First World War",
+      "b": "Second World War",
+      "c": "Holocaust",
+      "d": "Russian Revolution"
+    },
+    "answer": "c",
+    "id": 1030
+  },
+  {
+    "question": "The Nazi regime's policies of racial segregation and discrimination were based on a pseudoscientific ideology that viewed the Aryan race as superior to all others. This ideology, which was deeply rooted in racism and anti-Semitism, ultimately led to the horrific atrocities of the ________.",
+    "options": {
+      "a": "First World War",
+      "b": "Second World War",
+      "c": "Holocaust",
+      "d": "Russian Revolution"
+    },
+    "answer": "c",
+    "id": 1031
+  },
+  {
+    "question": "The Nazi regime's indoctrination of youth was a key element of its totalitarian control over society. Through youth organizations like the Hitler Youth, the regime instilled its ideology of racial hatred, militarism, and unquestioning loyalty to the Fuhrer in the minds of young ________.",
+    "options": {
+      "a": "Americans",
+      "b": "Germans",
+      "c": "British",
+      "d": "Russians"
+    },
+    "answer": "b",
+    "id": 1032
+  },
+  {
+    "question": "The Nazi regime's policies and actions were met with varying degrees of resistance from individuals and groups within Germany. However, the regime's brutal repression of dissent and its pervasive control over society made it extremely difficult for opposition movements to ________.",
+    "options": {
+      "a": "flourish",
+      "b": "collaborate",
+      "c": "emigrate",
+      "d": "conform"
+    },
+    "answer": "a",
+    "id": 1033
+  },
+  {
+    "question": "The legacy of Nazism and the Holocaust continues to haunt the world today, serving as a stark reminder of the dangers of unchecked hatred and intolerance. This horrific chapter in human history compels us to confront the roots of prejudice and discrimination and to work tirelessly to promote ________.",
+    "options": {
+      "a": "authoritarianism",
+      "b": "totalitarianism",
+      "c": "human rights",
+      "d": "racial purity"
+    },
+    "answer": "c",
+    "id": 1034
+  },
+  {
+    "question": "The Nuremberg Trials, held after the Second World War, were a landmark event in international law and justice. These trials, which prosecuted Nazi war criminals for their crimes against humanity, established the principle that individuals can be held accountable for ________.",
+    "options": {
+      "a": "acts of war",
+      "b": "political dissent",
+      "c": "economic hardship",
+      "d": "atrocities committed during wartime"
+    },
+    "answer": "d",
+    "id": 1035
+  },
+  {
+    "question": "The Weimar Republic's inability to effectively address the economic and political crises of the 1920s and early 1930s created a fertile ground for the rise of extremist ideologies, including ________.",
+    "options": {
+      "a": "democracy",
+      "b": "Nazism",
+      "c": "liberalism",
+      "d": "socialism"
+    },
+    "answer": "b",
+    "id": 1036
+  },
+  {
+    "question": "The Nazi regime's use of propaganda and its control over the media were instrumental in shaping public opinion and creating a climate of fear and hatred. This manipulation of information and the suppression of dissent were hallmarks of the regime's ________ nature.",
+    "options": {
+      "a": "democratic",
+      "b": "totalitarian",
+      "c": "liberal",
+      "d": "socialist"
+    },
+    "answer": "b",
+    "id": 1037
+  },
+  {
+    "question": "The Nazi regime's persecution of Jews and other minority groups was a systematic and brutal campaign of violence and discrimination. This persecution, which culminated in the Holocaust, stands as a stark reminder of the dangers of ________.",
+    "options": {
+      "a": "tolerance",
+      "b": "racism",
+      "c": "diversity",
+      "d": "equality"
+    },
+    "answer": "b",
+    "id": 1038
+  },
+  {
+    "question": "The Nazi regime's indoctrination of youth was a key element of its totalitarian control over society. Through youth organizations like the Hitler Youth, the regime instilled its ideology of racial hatred, militarism, and unquestioning loyalty to the Fuhrer in the minds of young ________.",
+    "options": {
+      "a": "Americans",
+      "b": "Germans",
+      "c": "British",
+      "d": "Russians"
+    },
+    "answer": "b",
+    "id": 1039
+  },
+  {
+    "question": "The Nazi regime's policies and actions were met with varying degrees of resistance from individuals and groups within Germany. However, the regime's brutal repression of dissent and its pervasive control over society made it extremely difficult for opposition movements to flourish.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "answer": "a",
+    "id": 1040
+  },
+  {
+    "question": "The legacy of Nazism and the Holocaust continues to haunt the world today, serving as a stark reminder of the dangers of unchecked hatred and intolerance. This horrific chapter in human history compels us to confront the roots of prejudice and discrimination and to work tirelessly to promote human rights.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "answer": "a",
+    "id": 1041
+  },
+  {
+    "question": "The Nuremberg Trials, held after the Second World War, were a landmark event in international law and justice. These trials, which prosecuted Nazi war criminals for their crimes against humanity, established the principle that individuals can be held accountable for atrocities committed during wartime.",
+    "options": {
+      "a": "True",
+      "b": "False"
+    },
+    "answer": "a",
+    "id": 1042
+  },
+  {
+    "question": "Case Study: Imagine you are a historian studying the rise of Nazism in Germany. You are particularly interested in understanding the factors that contributed to Hitler's rise to power. Based on your research, you have identified several key factors, including the economic and political instability of the Weimar Republic, the widespread social unrest and discontent, and the skillful use of propaganda by the Nazi Party.",
+    "question_parts": [
+      {
+        "question": "Which of the following factors do you consider to be the most significant in explaining Hitler's rise to power?",
+        "options": {
+          "a": "The economic hardship caused by the Great Depression",
+          "b": "The political weakness of the Weimar Republic",
+          "c": "The Nazis' effective use of propaganda",
+          "d": "All of the above"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "How did the Nazis use propaganda to manipulate public opinion and gain support?",
+        "options": {
+          "a": "By demonizing minority groups, particularly Jews",
+          "b": "By promising to restore Germany's national pride and economic prosperity",
+          "c": "By creating a cult of personality around Hitler",
+          "d": "All of the above"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "What role did the social and political unrest of the Weimar Republic play in Hitler's rise to power?",
+        "options": {
+          "a": "It created an environment of fear and uncertainty, making people more receptive to extremist ideologies",
+          "b": "It weakened the democratic institutions of the Republic, making it easier for the Nazis to seize power",
+          "c": "It provided the Nazis with an opportunity to mobilize popular support for their cause",
+          "d": "All of the above"
+        },
+        "answer": "d"
+      }
+    ],
+    "id": 1043
+  },
+  {
+    "question": "Case Study: Imagine you are a student living in Nazi Germany in the 1930s. You are witnessing the rise of Nazism and the increasing persecution of Jews and other minority groups. You are also aware of the regime's efforts to indoctrinate youth through organizations like the Hitler Youth.",
+    "question_parts": [
+      {
+        "question": "How would you feel about the Nazi regime's policies and actions?",
+        "options": {
+          "a": "Supportive",
+          "b": "Opposed",
+          "c": "Indifferent",
+          "d": "Unsure"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Would you be willing to join the Hitler Youth?",
+        "options": {
+          "a": "Yes",
+          "b": "No",
+          "c": "Maybe",
+          "d": "Not applicable"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "How would you react to the persecution of Jews and other minority groups?",
+        "options": {
+          "a": "I would support it",
+          "b": "I would oppose it",
+          "c": "I would ignore it",
+          "d": "I would be unsure how to react"
+        },
+        "answer": "b"
+      }
+    ],
+    "id": 1044
+  },
+  {
+    "question": "The Nazi party's ideology was based on the idea of racial ________, with the Aryan race being considered superior.",
+    "options": {
+      "a": "equality",
+      "b": "hierarchy",
+      "c": "integration",
+      "d": "diversity"
+    },
+    "answer": "b",
+    "id": 1045
+  },
+  {
+    "question": "Hitler's concept of 'lebensraum' referred to the need for Germany to acquire more ________.",
+    "options": {
+      "a": "resources",
+      "b": "living space",
+      "c": "political power",
+      "d": "military strength"
+    },
+    "answer": "b",
+    "id": 1046
+  },
+  {
+    "question": "The Nuremberg Laws were a set of laws that deprived Jews of their German ________.",
+    "options": {
+      "a": "citizenship",
+      "b": "property",
+      "c": "freedom",
+      "d": "religion"
+    },
+    "answer": "a",
+    "id": 1047
+  },
+  {
+    "question": "The 'Night of Broken Glass' was a pogrom against Jews that took place in ________.",
+    "options": {
+      "a": "1933",
+      "b": "1935",
+      "c": "1938",
+      "d": "1941"
+    },
+    "answer": "c",
+    "id": 1048
+  },
+  {
+    "question": "The ghettos were enclosed areas where Jews were forced to live in ________ conditions.",
+    "options": {
+      "a": "luxurious",
+      "b": "comfortable",
+      "c": "overcrowded and unsanitary",
+      "d": "spacious and clean"
+    },
+    "answer": "c",
+    "id": 1049
+  },
+  {
+    "question": "The Holocaust was the systematic persecution and murder of ________ by the Nazi regime.",
+    "options": {
+      "a": "Jews",
+      "b": "Gypsies",
+      "c": "Communists",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1050
+  },
+  {
+    "question": "The Nazi regime used ________ to manipulate public opinion and promote its ideology.",
+    "options": {
+      "a": "education",
+      "b": "propaganda",
+      "c": "censorship",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1051
+  },
+  {
+    "question": "The Hitler Youth was a youth organization that aimed to indoctrinate young people with ________ ideology.",
+    "options": {
+      "a": "democratic",
+      "b": "communist",
+      "c": "Nazi",
+      "d": "socialist"
+    },
+    "answer": "c",
+    "id": 1052
+  },
+  {
+    "question": "The Nazi regime's policies and actions were met with varying degrees of ________ from the German people.",
+    "options": {
+      "a": "support",
+      "b": "resistance",
+      "c": "indifference",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1053
+  }
+]

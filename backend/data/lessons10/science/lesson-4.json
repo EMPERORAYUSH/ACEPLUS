@@ -1,0 +1,651 @@
+[
+  {
+    "question": "Which of the following statements is INCORRECT about covalent compounds?",
+    "options": {
+      "a": "They generally have low melting and boiling points.",
+      "b": "They are good conductors of electricity in molten state.",
+      "c": "They are formed by sharing of electrons.",
+      "d": "The forces of attraction between their molecules are weak."
+    },
+    "answer": "b",
+    "id": 1869
+  },
+  {
+    "question": "Which hydrocarbon exhibits a triple bond between carbon atoms?",
+    "options": {
+      "a": "Ethane",
+      "b": "Ethene",
+      "c": "Ethyne",
+      "d": "Methane"
+    },
+    "answer": "c",
+    "id": 1870
+  },
+  {
+    "question": "Which of the following is an unsaturated hydrocarbon?",
+    "options": {
+      "a": "C₃H₈",
+      "b": "C₄H₁₀",
+      "c": "C₂H₄",
+      "d": "CH₄"
+    },
+    "answer": "c",
+    "id": 1871
+  },
+  {
+    "question": "The process of converting vegetable oil into solid fat (vanaspati ghee) is called:",
+    "options": {
+      "a": "Substitution",
+      "b": "Addition",
+      "c": "Hydrogenation",
+      "d": "Oxidation"
+    },
+    "answer": "c",
+    "id": 1872
+  },
+  {
+    "question": "What is the functional group in propanone?",
+    "options": {
+      "a": "–CHO",
+      "b": "–COOH",
+      "c": "–OH",
+      "d": "–CO–"
+    },
+    "answer": "d",
+    "id": 1873
+  },
+  {
+    "question": "Which of these is a strong oxidizing agent?",
+    "options": {
+      "a": "Sodium Chloride",
+      "b": "Water",
+      "c": "Alkaline Potassium Permanganate",
+      "d": "Hydrogen"
+    },
+    "answer": "c",
+    "id": 1874
+  },
+  {
+    "question": "The property of carbon atoms to form bonds with other carbon atoms is called:",
+    "options": {
+      "a": "Isomerism",
+      "b": "Catenation",
+      "c": "Tetravalency",
+      "d": "Allotropy"
+    },
+    "answer": "b",
+    "id": 1875
+  },
+  {
+    "question": "The reaction of an ester with a base to produce an alcohol and carboxylate salt is called:",
+    "options": {
+      "a": "Esterification",
+      "b": "Saponification",
+      "c": "Hydrogenation",
+      "d": "Addition"
+    },
+    "answer": "b",
+    "id": 1876
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a homologous series?",
+    "options": {
+      "a": "Members have the same functional group.",
+      "b": "Members differ by a -CH₂ unit.",
+      "c": "Members have vastly different chemical properties.",
+      "d": "Members show a gradual change in physical properties."
+    },
+    "answer": "c",
+    "id": 1877
+  },
+  {
+    "question": "What is the name of the compound with the formula CH₃CH₂CHO?",
+    "options": {
+      "a": "Propanol",
+      "b": "Propanal",
+      "c": "Propanone",
+      "d": "Propanoic Acid"
+    },
+    "answer": "b",
+    "id": 1878
+  },
+  {
+    "question": "Which of these is NOT an allotrope of carbon?",
+    "options": {
+      "a": "Diamond",
+      "b": "Graphite",
+      "c": "Fullerene",
+      "d": "Methane"
+    },
+    "answer": "d",
+    "id": 1879
+  },
+  {
+    "question": "A saturated hydrocarbon undergoes which type of reaction primarily?",
+    "options": {
+      "a": "Addition",
+      "b": "Substitution",
+      "c": "Esterification",
+      "d": "Saponification"
+    },
+    "answer": "b",
+    "id": 1880
+  },
+  {
+    "question": "What is denatured alcohol?",
+    "options": {
+      "a": "Pure ethanol",
+      "b": "Ethanol mixed with methanol",
+      "c": "Ethanol mixed with water",
+      "d": "A mixture of ethanol and ethanoic acid"
+    },
+    "answer": "b",
+    "id": 1881
+  },
+  {
+    "question": "Which gas is released when ethanoic acid reacts with sodium carbonate?",
+    "options": {
+      "a": "Hydrogen",
+      "b": "Oxygen",
+      "c": "Carbon dioxide",
+      "d": "Methane"
+    },
+    "answer": "c",
+    "id": 1882
+  },
+  {
+    "question": "Soaps are sodium or potassium salts of:",
+    "options": {
+      "a": "Short-chain carboxylic acids",
+      "b": "Long-chain carboxylic acids",
+      "c": "Alcohols",
+      "d": "Aldehydes"
+    },
+    "answer": "b",
+    "id": 1883
+  },
+  {
+    "question": "The general formula for alkynes is:",
+    "options": {
+      "a": "CₙH₂ₙ₊₂",
+      "b": "CₙH₂ₙ",
+      "c": "CₙH₂ₙ₋₂",
+      "d": "CₙH₂ₙ₊₁"
+    },
+    "answer": "c",
+    "id": 1884
+  },
+  {
+    "question": "What happens when a small piece of sodium is dropped into ethanol?",
+    "options": {
+      "a": "No reaction occurs.",
+      "b": "Hydrogen gas is evolved.",
+      "c": "Oxygen gas is evolved.",
+      "d": "Carbon dioxide gas is evolved."
+    },
+    "answer": "b",
+    "id": 1885
+  },
+  {
+    "question": "Which of the following is a cleansing agent effective in hard water?",
+    "options": {
+      "a": "Soap",
+      "b": "Detergent",
+      "c": "Sodium carbonate",
+      "d": "Sodium chloride"
+    },
+    "answer": "b",
+    "id": 1886
+  },
+  {
+    "question": "Which compound is responsible for the sour taste of vinegar?",
+    "options": {
+      "a": "Methanol",
+      "b": "Ethanol",
+      "c": "Methanoic acid",
+      "d": "Ethanoic acid"
+    },
+    "answer": "d",
+    "id": 1887
+  },
+  {
+    "question": "The complete combustion of a hydrocarbon produces:",
+    "options": {
+      "a": "Carbon monoxide and water",
+      "b": "Carbon dioxide and water",
+      "c": "Carbon and water",
+      "d": "Carbon dioxide and hydrogen"
+    },
+    "answer": "b",
+    "id": 1888
+  },
+  {
+    "question": "Which functional group is present in alcohols?",
+    "options": {
+      "a": "–COOH",
+      "b": "–CHO",
+      "c": "–OH",
+      "d": "–CO–"
+    },
+    "answer": "c",
+    "id": 1889
+  },
+  {
+    "question": "Which of the following is a saturated hydrocarbon?",
+    "options": {
+      "a": "Propene",
+      "b": "Propyne",
+      "c": "Propane",
+      "d": "Propanol"
+    },
+    "answer": "c",
+    "id": 1890
+  },
+  {
+    "question": "Which element is referred to as a heteroatom when it replaces hydrogen in a hydrocarbon chain?",
+    "options": {
+      "a": "Carbon",
+      "b": "Hydrogen",
+      "c": "Oxygen",
+      "d": "Any element other than carbon and hydrogen"
+    },
+    "answer": "d",
+    "id": 1891
+  },
+  {
+    "question": "What is the IUPAC name of CH₃CH₂COCH₃?",
+    "options": {
+      "a": "Butanal",
+      "b": "Butanone",
+      "c": "Butanol",
+      "d": "Butanoic acid"
+    },
+    "answer": "b",
+    "id": 1892
+  },
+  {
+    "question": "Which of the following is NOT true about diamond?",
+    "options": {
+      "a": "It is an allotrope of carbon.",
+      "b": "It is a good conductor of electricity.",
+      "c": "Each carbon atom is bonded to four other carbon atoms.",
+      "d": "It is the hardest naturally occurring substance."
+    },
+    "answer": "b",
+    "id": 1893
+  },
+  {
+    "question": "The reaction between ethanoic acid and ethanol in the presence of concentrated sulphuric acid is called:",
+    "options": {
+      "a": "Saponification",
+      "b": "Esterification",
+      "c": "Hydrogenation",
+      "d": "Substitution"
+    },
+    "answer": "b",
+    "id": 1894
+  },
+  {
+    "question": "Which gas is produced when sodium reacts with ethanol?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Hydrogen",
+      "c": "Carbon dioxide",
+      "d": "Chlorine"
+    },
+    "answer": "b",
+    "id": 1895
+  },
+  {
+    "question": "Unsaturated hydrocarbons mainly undergo:",
+    "options": {
+      "a": "Substitution reactions",
+      "b": "Addition reactions",
+      "c": "Esterification reactions",
+      "d": "Saponification reactions"
+    },
+    "answer": "b",
+    "id": 1896
+  },
+  {
+    "question": "What is the name of the compound with the formula CH₃CH₂COOH?",
+    "options": {
+      "a": "Propanal",
+      "b": "Propanoic acid",
+      "c": "Propanone",
+      "d": "Propanol"
+    },
+    "answer": "b",
+    "id": 1897
+  },
+  {
+    "question": "What is the IUPAC name for a five-carbon chain with a triple bond?",
+    "options": {
+      "a": "Pentane",
+      "b": "Pentene",
+      "c": "Pentyne",
+      "d": "Pentanol"
+    },
+    "answer": "c",
+    "id": 1898
+  },
+  {
+    "question": "Which element is usually used as a catalyst in the hydrogenation of vegetable oils?",
+    "options": {
+      "a": "Iron",
+      "b": "Nickel",
+      "c": "Copper",
+      "d": "Zinc"
+    },
+    "answer": "b",
+    "id": 1899
+  },
+  {
+    "question": "What is formed when ethanol is heated with excess concentrated sulphuric acid at 443 K?",
+    "options": {
+      "a": "Ethene",
+      "b": "Ethanoic acid",
+      "c": "Ethanal",
+      "d": "Ethane"
+    },
+    "answer": "a",
+    "id": 1900
+  },
+  {
+    "question": "The structure formed when soap molecules surround oil droplets in water is called:",
+    "options": {
+      "a": "A crystal lattice",
+      "b": "A micelle",
+      "c": "An ion",
+      "d": "A molecule"
+    },
+    "answer": "b",
+    "id": 1901
+  },
+  {
+    "question": "Which of the following does NOT contribute to the hardness of water?",
+    "options": {
+      "a": "Calcium salts",
+      "b": "Magnesium salts",
+      "c": "Sodium salts",
+      "d": "Iron salts"
+    },
+    "answer": "c",
+    "id": 1902
+  },
+  {
+    "question": "What is the primary component of natural gas?",
+    "options": {
+      "a": "Ethane",
+      "b": "Propane",
+      "c": "Butane",
+      "d": "Methane"
+    },
+    "answer": "d",
+    "id": 1903
+  },
+  {
+    "question": "A bond formed by the sharing of electrons between two atoms is called a(n) ______ bond.",
+    "options": {
+      "a": "ionic",
+      "b": "covalent",
+      "c": "metallic",
+      "d": "hydrogen"
+    },
+    "answer": "b",
+    "id": 1904
+  },
+  {
+    "question": "Hydrocarbons containing double or triple bonds between carbon atoms are classified as:",
+    "options": {
+      "a": "Saturated",
+      "b": "Unsaturated",
+      "c": "Aromatic",
+      "d": "Aliphatic"
+    },
+    "answer": "b",
+    "id": 1905
+  },
+  {
+    "question": "The process of converting unsaturated hydrocarbons to saturated hydrocarbons by adding hydrogen is known as:",
+    "options": {
+      "a": "Dehydration",
+      "b": "Hydrogenation",
+      "c": "Hydrolysis",
+      "d": "Oxidation"
+    },
+    "answer": "b",
+    "id": 1906
+  },
+  {
+    "question": "The unique ability of carbon to form bonds with other carbon atoms is called:",
+    "options": {
+      "a": "Allotropy",
+      "b": "Isomerism",
+      "c": "Catenation",
+      "d": "Polymerization"
+    },
+    "answer": "c",
+    "id": 1907
+  },
+  {
+    "question": "Which functional group is characteristic of carboxylic acids?",
+    "options": {
+      "a": "-OH",
+      "b": "-CHO",
+      "c": "-CO-",
+      "d": "-COOH"
+    },
+    "answer": "d",
+    "id": 1908
+  },
+  {
+    "question": "A series of organic compounds having the same functional group and similar chemical properties, differing by a -CH₂ unit is known as a:",
+    "options": {
+      "a": "Periodic series",
+      "b": "Homologous series",
+      "c": "Functional group series",
+      "d": "Isomeric series"
+    },
+    "answer": "b",
+    "id": 1909
+  },
+  {
+    "question": "The common name for ethanoic acid is:",
+    "options": {
+      "a": "Formic acid",
+      "b": "Acetic acid",
+      "c": "Propionic acid",
+      "d": "Butyric acid"
+    },
+    "answer": "b",
+    "id": 1910
+  },
+  {
+    "question": "The reaction between an alcohol and a carboxylic acid yields:",
+    "options": {
+      "a": "An alkane and water",
+      "b": "An alkene and water",
+      "c": "An ester and water",
+      "d": "An aldehyde and water"
+    },
+    "answer": "c",
+    "id": 1911
+  },
+  {
+    "question": "What is the term for the reaction of an ester with a base?",
+    "options": {
+      "a": "Esterification",
+      "b": "Saponification",
+      "c": "Neutralization",
+      "d": "Hydrogenation"
+    },
+    "answer": "b",
+    "id": 1912
+  },
+  {
+    "question": "In water, soap molecules form spherical clusters called:",
+    "options": {
+      "a": "Ions",
+      "b": "Nuclei",
+      "c": "Micelles",
+      "d": "Cells"
+    },
+    "answer": "c",
+    "id": 1913
+  },
+  {
+    "question": "The reaction where a chlorine atom replaces a hydrogen atom in an alkane is a:",
+    "options": {
+      "a": "Addition reaction",
+      "b": "Elimination reaction",
+      "c": "Substitution reaction",
+      "d": "Combustion reaction"
+    },
+    "answer": "c",
+    "id": 1914
+  },
+  {
+    "question": "The primary component of natural gas is:",
+    "options": {
+      "a": "Methane",
+      "b": "Ethane",
+      "c": "Propane",
+      "d": "Butane"
+    },
+    "answer": "a",
+    "id": 1915
+  },
+  {
+    "question": "The common name for ethanol is:",
+    "options": {
+      "a": "Wood alcohol",
+      "b": "Grain alcohol",
+      "c": "Rubbing alcohol",
+      "d": "Methyl alcohol"
+    },
+    "answer": "b",
+    "id": 1916
+  },
+  {
+    "question": "Hard water contains significant amounts of dissolved salts of which elements?",
+    "options": {
+      "a": "Sodium and potassium",
+      "b": "Calcium and magnesium",
+      "c": "Iron and manganese",
+      "d": "Chlorine and bromine"
+    },
+    "answer": "b",
+    "id": 1917
+  },
+  {
+    "question": "Different forms of the same element, like diamond and graphite for carbon, are known as:",
+    "options": {
+      "a": "Isotopes",
+      "b": "Isomers",
+      "c": "Allotropes",
+      "d": "Polymers"
+    },
+    "answer": "c",
+    "id": 1918
+  },
+  {
+    "question": "Assertion: Soaps form a scum in hard water.\nReason: Hard water contains dissolved organic compounds.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1919
+  },
+  {
+    "question": "Assertion: Ethene undergoes polymerization reactions.\nReason: Ethene contains a carbon-carbon double bond.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1920
+  },
+  {
+    "question": "Assertion: Diamond is a poor conductor of electricity.\nReason: In diamond, each carbon atom is covalently bonded to four other carbon atoms in a tetrahedral arrangement.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1921
+  },
+  {
+    "question": "Assertion: Covalent compounds generally have low melting and boiling points.\nReason: The intermolecular forces between covalent molecules are weak.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1922
+  },
+  {
+    "question": "Assertion: Carbon can only form a limited number of compounds.\nReason: Carbon cannot form bonds with other elements.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1923
+  },
+  {
+    "question": "Assertion: Detergents are worse cleaning agents than soaps.\nReason: Detergents form insoluble calcium and magnesium salts.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1924
+  },
+  {
+    "question": "Assertion: Ethanoic acid turns blue litmus red.\nReason: Ethanoic acid is a base.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1925
+  },
+  {
+    "question": "Assertion: Graphite can conduct electricity.\nReason: Graphite has free electrons between its layers.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1927
+  },
+  {
+    "question": "Assertion: Hydrogenation of vegetable oils produces vanaspati ghee.\nReason: Hydrogenation removes all carbon-carbon bonds.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1928
+  }
+]

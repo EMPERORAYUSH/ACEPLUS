@@ -1,0 +1,562 @@
+[
+  {
+    "question": "The French Revolution transferred sovereignty from the monarchy to a body of French ______.",
+    "options": {
+      "a": "Aristocrats",
+      "b": "Clergy",
+      "c": "Citizens",
+      "d": "Nobles"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Frédéric Sorrieu visualized a world made up of “democratic and social ______”.",
+    "options": {
+      "a": "Empires",
+      "b": "Kingdoms",
+      "c": "Republics",
+      "d": "Colonies"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The _______ was a customs union formed in 1834 at the initiative of Prussia.",
+    "options": {
+      "a": "EEC",
+      "b": "EU",
+      "c": "Zollverein",
+      "d": "NATO"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Napoleonic Code established equality before the law and secured the right to ______.",
+    "options": {
+      "a": "Vote",
+      "b": "Property",
+      "c": "Education",
+      "d": "Free Speech"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Conservatives believed that traditional institutions like the ______ should be preserved.",
+    "options": {
+      "a": "Republic",
+      "b": "Democracy",
+      "c": "Monarchy",
+      "d": "Commune"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Congress of Vienna was hosted by the Austrian Chancellor Duke ______.",
+    "options": {
+      "a": "Bismarck",
+      "b": "Metternich",
+      "c": "Cavour",
+      "d": "Garibaldi"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The _______ Revolution of 1830 sparked an uprising in Brussels.",
+    "options": {
+      "a": "June",
+      "b": "July",
+      "c": "August",
+      "d": "September"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "_______ was a cultural movement which sought to develop a particular form of nationalist sentiment.",
+    "options": {
+      "a": "Realism",
+      "b": "Romanticism",
+      "c": "Impressionism",
+      "d": "Surrealism"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Act of Union (1707) resulted in the formation of the 'United Kingdom of Great ______'.",
+    "options": {
+      "a": "England",
+      "b": "Britain",
+      "c": "Scotland",
+      "d": "Ireland"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The _______ were a secret society founded by Giuseppe Mazzini.",
+    "options": {
+      "a": "Jacobins",
+      "b": "Carbonari",
+      "c": "Illuminati",
+      "d": "Freemasons"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "_______ became the allegory of the German nation.",
+    "options": {
+      "a": "Marianne",
+      "b": "Germania",
+      "c": "Italia",
+      "d": "Britannia"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The German oak stands for _______.",
+    "options": {
+      "a": "Peace",
+      "b": "Prosperity",
+      "c": "Heroism",
+      "d": "Unity"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The chief minister of Prussia, Otto von _______, was the architect of German unification.",
+    "options": {
+      "a": "Bismarck",
+      "b": "Metternich",
+      "c": "Cavour",
+      "d": "Garibaldi"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The _______ was proclaimed king of united Italy in 1861.",
+    "options": {
+      "a": "Victor Emmanuel II",
+      "b": "Giuseppe Garibaldi",
+      "c": "Duke Metternich",
+      "d": "Otto von Bismarck"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The Balkans was a region of geographical and ______ variation.",
+    "options": {
+      "a": "Political",
+      "b": "Economic",
+      "c": "Ethnic",
+      "d": "Social"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which French artist visualized a world made up of democratic and social republics?",
+    "options": {
+      "a": "Eugene Delacroix",
+      "b": "Frédéric Sorrieu",
+      "c": "Jean-Jacques Rousseau",
+      "d": "Jacques-Louis David"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What did liberalism stand for in the 19th century?",
+    "options": {
+      "a": "Unrestricted state power",
+      "b": "Freedom for the individual and equality before the law",
+      "c": "The divine right of kings",
+      "d": "Suppression of individual liberties"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the main aim of the Congress of Vienna (1815)?",
+    "options": {
+      "a": "To promote liberal revolutions",
+      "b": "To establish a unified German state",
+      "c": "To restore the monarchies overthrown by Napoleon",
+      "d": "To spread the ideals of the French Revolution"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which cultural movement emphasized emotions, intuition, and mystical feelings?",
+    "options": {
+      "a": "Enlightenment",
+      "b": "Realism",
+      "c": "Romanticism",
+      "d": "Modernism"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Who played a crucial role in the unification of Germany?",
+    "options": {
+      "a": "Giuseppe Mazzini",
+      "b": "Otto von Bismarck",
+      "c": "Count Camillo de Cavour",
+      "d": "Giuseppe Garibaldi"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who was known as the “most dangerous enemy of our social order” by Metternich?",
+    "options": {
+      "a": "Napoleon Bonaparte",
+      "b": "Giuseppe Mazzini",
+      "c": "Otto von Bismarck",
+      "d": "Victor Emmanuel II"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of these was NOT a major power involved in the rivalry over the Balkans?",
+    "options": {
+      "a": "Russia",
+      "b": "Germany",
+      "c": "United States",
+      "d": "Austro-Hungary"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Who led the Expedition of the Thousand to South Italy?",
+    "options": {
+      "a": "Victor Emmanuel II",
+      "b": "Giuseppe Mazzini",
+      "c": "Count Camillo de Cavour",
+      "d": "Giuseppe Garibaldi"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What was the symbol of the German Empire representing strength?",
+    "options": {
+      "a": "Broken Chains",
+      "b": "Breastplate with Eagle",
+      "c": "Crown of Oak Leaves",
+      "d": "Rays of the Rising Sun"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What did the broken chains symbolize in the context of German nationalism?",
+    "options": {
+      "a": "Being Freed",
+      "b": "Heroism",
+      "c": "Readiness to Fight",
+      "d": "Willingness to Make Peace"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What event is depicted in Delacroix's painting “The Massacre at Chios”?",
+    "options": {
+      "a": "The French Revolution",
+      "b": "The Greek War of Independence",
+      "c": "The Napoleonic Wars",
+      "d": "The Revolutions of 1848"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the name of the female allegory representing the French nation?",
+    "options": {
+      "a": "Germania",
+      "b": "Italia",
+      "c": "Marianne",
+      "d": "Britannia"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In Veit's earlier allegorical rendering of Germania, what was located where he later placed the broken chain?",
+    "options": {
+      "a": "Sword",
+      "b": "Crown of Oak Leaves",
+      "c": "Kaiser's crown",
+      "d": "Olive Branch"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The French Revolution significantly impacted the development of nationalism. Which concept emphasized the notion of a united community enjoying equal rights?",
+    "options": {
+      "a": "Absolutism",
+      "b": "Conservatism",
+      "c": "Le Citoyen",
+      "d": "Imperialism"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Napoleonic Code introduced several reforms across Europe. Which reform facilitated the movement and exchange of goods and capital between regions?",
+    "options": {
+      "a": "Restoration of feudal privileges",
+      "b": "Uniform laws, weights, and measures",
+      "c": "Censorship and suppression of dissent",
+      "d": "Reinstatement of guild restrictions"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Congress of Vienna aimed to restore stability after the Napoleonic Wars. Which political ideology emphasized the preservation of traditional institutions?",
+    "options": {
+      "a": "Liberalism",
+      "b": "Nationalism",
+      "c": "Conservatism",
+      "d": "Socialism"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Greek War of Independence inspired nationalist movements across Europe. Which famous English poet actively supported the Greek cause?",
+    "options": {
+      "a": "William Wordsworth",
+      "b": "John Keats",
+      "c": "Lord Byron",
+      "d": "Percy Bysshe Shelley"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Romantic movement played a significant role in shaping nationalist sentiments. Which Romantic artist depicted the suffering of Greek women and children in his painting “Massacre at Chios”?",
+    "options": {
+      "a": "Caspar David Friedrich",
+      "b": "Eugene Delacroix",
+      "c": "Francisco Goya",
+      "d": "J.M.W. Turner"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The unification of Germany was a pivotal moment in 19th-century Europe. Which Prussian figure orchestrated the process of unification through “blood and iron”?",
+    "options": {
+      "a": "Kaiser Wilhelm I",
+      "b": "Otto von Bismarck",
+      "c": "Helmuth von Moltke",
+      "d": "Friedrich List"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Giuseppe Mazzini played a key role in Italian nationalism. Which secret society did he found to promote a unified Italian republic?",
+    "options": {
+      "a": "Carbonari",
+      "b": "Young Italy",
+      "c": "Black Hand",
+      "d": "Red Shirts"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The unification of Italy was a complex process. Which Italian state led the charge for unification under its ruler King Victor Emmanuel II?",
+    "options": {
+      "a": "Kingdom of the Two Sicilies",
+      "b": "Papal States",
+      "c": "Sardinia-Piedmont",
+      "d": "Venetia"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The development of British nationalism followed a distinct path. Which act led to the formation of the United Kingdom of Great Britain?",
+    "options": {
+      "a": "Act of Supremacy",
+      "b": "Act of Settlement",
+      "c": "Act of Union",
+      "d": "Reform Act"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Balkans became a hotbed of nationalist tensions in the late 19th century. Which empire's decline exacerbated these tensions and fueled rivalries among European powers?",
+    "options": {
+      "a": "Russian Empire",
+      "b": "Austro-Hungarian Empire",
+      "c": "Ottoman Empire",
+      "d": "German Empire"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Imagine you are a French peasant in 1789. The revolutionary fervor has gripped the nation, and discussions about liberty, equality, and fraternity are everywhere. You hear about the formation of the National Assembly and the declaration of the Rights of Man and Citizen. How would the ideas of the French Revolution impact your life and aspirations?",
+    "options": {
+      "a": "You would resist the changes, preferring the old feudal system.",
+      "b": "You would be indifferent to the changes, focusing on your daily survival.",
+      "c": "You would embrace the changes, hoping for improved rights and opportunities.",
+      "d": "You would fear the changes, worrying about instability and violence."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "You are a German merchant traveling between various German states in 1833. You encounter numerous customs barriers and differing currencies, weights, and measures, hindering your trade. How would the existence of the Zollverein impact your business?",
+    "options": {
+      "a": "It would create more obstacles and complexities.",
+      "b": "It would have no significant impact.",
+      "c": "It would simplify trade and reduce costs.",
+      "d": "It would force you to find a new profession."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "You are a member of the educated middle class in the German Confederation in 1848. You are inspired by the liberal and nationalist ideas sweeping through Europe. What would be your primary political goal during this period?",
+    "options": {
+      "a": "Restoration of the old order.",
+      "b": "A unified German nation-state under a democratic constitution.",
+      "c": "Maintenance of the existing fragmented political structure.",
+      "d": "The establishment of an absolute monarchy."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "You are a Greek living under Ottoman rule in the early 19th century. You are exposed to the growing wave of romantic nationalism across Europe. How would these nationalist sentiments influence your perspective on Ottoman rule?",
+    "options": {
+      "a": "You would become more accepting of Ottoman rule.",
+      "b": "You would remain indifferent to Ottoman rule.",
+      "c": "You would strive for Greek independence from Ottoman rule.",
+      "d": "You would seek closer ties with the Ottoman Empire."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "You are a woman in 19th-century Europe actively participating in liberal political movements. You are aware of the debates surrounding women’s rights. What would be your primary demand in the context of the liberal nationalist movements?",
+    "options": {
+      "a": "The right to own property.",
+      "b": "The right to education.",
+      "c": "The right to vote and participate in political decision-making.",
+      "d": "The right to divorce."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "You are a Scottish Highlander in the aftermath of the Act of Union (1707). You witness the suppression of Scottish culture and traditions by the English. How would you react to the increasing English dominance over Scotland?",
+    "options": {
+      "a": "You would embrace English culture and traditions.",
+      "b": "You would remain indifferent to the changes.",
+      "c": "You would resent the loss of Scottish identity and resist English dominance.",
+      "d": "You would migrate to England seeking better opportunities."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "You are an Italian peasant in Southern Italy in 1860. Garibaldi and his Red Shirts arrive, promising liberation and unification. How would you perceive Garibaldi and his promises of a unified Italy?",
+    "options": {
+      "a": "With skepticism and distrust",
+      "b": "With indifference and apathy",
+      "c": "With hope and enthusiasm",
+      "d": "With fear and apprehension"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "You are a diplomat representing one of the major European powers during the late 19th century. You are tasked with navigating the complex political landscape of the Balkans. What would be your primary objective in the Balkans?",
+    "options": {
+      "a": "To promote peace and stability in the region.",
+      "b": "To advance your nation’s interests and influence in the region.",
+      "c": "To support the independence of all Balkan nationalities.",
+      "d": "To encourage the Ottoman Empire to reassert its control over the Balkans."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "You are an artist commissioned to create a visual representation of the German nation in 1848. You are inspired by the liberal and nationalist movements. How would you depict Germania, the allegory of the German nation?",
+    "options": {
+      "a": "As a submissive figure, bowing to authority.",
+      "b": "As a powerful and heroic figure, embodying strength and freedom.",
+      "c": "As a maternal figure, nurturing and caring.",
+      "d": "As a regal figure, representing traditional values."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the significance of the Charter of the Rights of Man in the context of the French Revolution?",
+    "options": {
+      "a": "It limited the power of the monarchy",
+      "b": "It abolished feudalism",
+      "c": "It established the principles of liberty and equality",
+      "d": "It granted universal suffrage"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What impact did Napoleon’s administrative reforms have on the regions under his control?",
+    "options": {
+      "a": "They strengthened feudal systems.",
+      "b": "They hindered economic development.",
+      "c": "They promoted the growth of nationalism.",
+      "d": "They led to the decline of trade."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the primary goal of the conservative regimes established after the Congress of Vienna?",
+    "options": {
+      "a": "To promote liberal revolutions.",
+      "b": "To maintain the balance of power in Europe.",
+      "c": "To suppress nationalist and liberal movements.",
+      "d": "To encourage the growth of nation-states."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How did the Grimm Brothers contribute to German nationalism?",
+    "options": {
+      "a": "By promoting French language and culture.",
+      "b": "By collecting and publishing German folktales.",
+      "c": "By advocating for the abolition of monarchy.",
+      "d": "By supporting the Austrian Habsburgs."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the significance of the year 1848 in European history?",
+    "options": {
+      "a": "It marked the end of the Napoleonic Wars.",
+      "b": "It saw widespread revolutions across Europe.",
+      "c": "It witnessed the unification of Germany.",
+      "d": "It led to the establishment of the Zollverein."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What were the “Red Shirts” in the context of Italian unification?",
+    "options": {
+      "a": "Members of the Papal army.",
+      "b": "Supporters of Austrian rule.",
+      "c": "Volunteers fighting for Italian unification under Garibaldi.",
+      "d": "Members of the Sardinian-Piedmontese army."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was a key factor in the development of British nationalism?",
+    "options": {
+      "a": "A sudden revolution.",
+      "b": "A long-drawn-out process.",
+      "c": "The influence of the French Revolution.",
+      "d": "The decline of the English monarchy."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the primary source of nationalist tension in Europe after 1871?",
+    "options": {
+      "a": "The Italian peninsula.",
+      "b": "The German Confederation.",
+      "c": "The Balkans.",
+      "d": "The Iberian Peninsula."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the purpose of allegorical representations of nations as female figures?",
+    "options": {
+      "a": "To depict real-life women.",
+      "b": "To give a concrete form to the abstract idea of a nation.",
+      "c": "To promote gender equality.",
+      "d": "To celebrate female rulers."
+    },
+    "answer": "b"
+  }
+]

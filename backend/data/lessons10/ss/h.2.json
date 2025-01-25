@@ -1,0 +1,562 @@
+[
+  {
+    "question": "The sense of being oppressed under ______ provided a shared bond that tied many different groups together.",
+    "options": {
+      "a": "Capitalism",
+      "b": "Colonialism",
+      "c": "Socialism",
+      "d": "Feudalism"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "______ cloth was often more expensive than mass-produced mill cloth.",
+    "options": {
+      "a": "Silk",
+      "b": "Khadi",
+      "c": "Cotton",
+      "d": "Jute"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The infamous ______ incident took place on 13 April.",
+    "options": {
+      "a": "Chauri Chaura",
+      "b": "Jallianwala Bagh",
+      "c": "Dandi March",
+      "d": "Kheda Satyagraha"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "______ was the spiritual head of the Islamic world.",
+    "options": {
+      "a": "Sultan",
+      "b": "Khalifa",
+      "c": "Nizam",
+      "d": "Shah"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Mahatma Gandhi successfully organised satyagraha movements in various places. In 1917 he travelled to ______ in Bihar to inspire the peasants to struggle against the oppressive plantation system.",
+    "options": {
+      "a": "Kheda",
+      "b": "Bardoli",
+      "c": "Champaran",
+      "d": "Ahmedabad"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which event marked the beginning of the Civil Disobedience Movement?",
+    "options": {
+      "a": "Dandi March",
+      "b": "Chauri Chaura incident",
+      "c": "Jallianwala Bagh Massacre",
+      "d": "Non-Cooperation Movement"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the main reason for the Rowlatt Satyagraha?",
+    "options": {
+      "a": "Salt tax",
+      "b": "Rowlatt Act",
+      "c": "Simon Commission",
+      "d": "Jallianwala Bagh massacre"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What did Gandhiji consider to be the most oppressive face of British rule?",
+    "options": {
+      "a": "Indigo tax",
+      "b": "Land revenue",
+      "c": "Salt tax",
+      "d": "Income tax"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which incident forced Gandhiji to call off the Non-Cooperation Movement?",
+    "options": {
+      "a": "Jallianwala Bagh Massacre",
+      "b": "Chauri Chaura incident",
+      "c": "Dandi March",
+      "d": "Formation of Swaraj Party"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the aim of the Khilafat Movement?",
+    "options": {
+      "a": "To restore the Turkish Caliph",
+      "b": "To gain complete independence",
+      "c": "To establish Hindu Raj",
+      "d": "To promote non-violence"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the significance of the Simon Commission?",
+    "options": {
+      "a": "To grant India dominion status",
+      "b": "To review the Indian Constitution",
+      "c": "To investigate the Jallianwala Bagh massacre",
+      "d": "To suppress the nationalist movement"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the main demand of the peasants in Awadh during the Non-Cooperation Movement?",
+    "options": {
+      "a": "Abolition of begar",
+      "b": "Reduction in land revenue",
+      "c": "End of oppressive plantation system",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What did swaraj mean to the plantation workers in Assam?",
+    "options": {
+      "a": "Freedom to move freely",
+      "b": "Ownership of land",
+      "c": "Higher wages",
+      "d": "Better working conditions"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Who painted the famous image of Bharat Mata?",
+    "options": {
+      "a": "Rabindranath Tagore",
+      "b": "Bankim Chandra Chattopadhyay",
+      "c": "Abanindranath Tagore",
+      "d": "Raja Ravi Varma"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the significance of the Lahore Congress session in 1929?",
+    "options": {
+      "a": "Demand for complete independence",
+      "b": "Launch of the Non-Cooperation Movement",
+      "c": "Formation of the Swaraj Party",
+      "d": "Decision to participate in the Round Table Conference"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which organization was formed by Dr. B.R. Ambedkar in 1930?",
+    "options": {
+      "a": "Depressed Classes Association",
+      "b": "All India Forward Bloc",
+      "c": "Muslim League",
+      "d": "Hindu Mahasabha"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the main issue of contention between Gandhiji and Dr. B.R. Ambedkar?",
+    "options": {
+      "a": "Separate electorates for dalits",
+      "b": "Abolition of untouchability",
+      "c": "Participation in the Round Table Conference",
+      "d": "Non-violent resistance"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the Poona Pact?",
+    "options": {
+      "a": "Agreement between Gandhi and Irwin",
+      "b": "Agreement between Gandhi and Ambedkar",
+      "c": "Agreement between Congress and Muslim League",
+      "d": "Agreement between British and Indian government"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the reason for the limited participation of Muslims in the Civil Disobedience Movement?",
+    "options": {
+      "a": "Alienation from Congress",
+      "b": "Fear of Hindu dominance",
+      "c": "Communal tensions",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which event led to Gandhiji launching the Quit India Movement?",
+    "options": {
+      "a": "Failure of the Cripps Mission",
+      "b": "World War II",
+      "c": "Jallianwala Bagh Massacre",
+      "d": "Chauri Chaura incident"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was Gandhiji's famous slogan during the Quit India Movement?",
+    "options": {
+      "a": "Do or Die",
+      "b": "Swaraj is my birthright",
+      "c": "Non-violence is our strength",
+      "d": "Vande Mataram"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the response of the British to the Quit India Movement?",
+    "options": {
+      "a": "Brutal repression",
+      "b": "Negotiations with Congress",
+      "c": "Granting independence",
+      "d": "Ignoring the movement"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the main reason for the failure of the Round Table Conferences?",
+    "options": {
+      "a": "Disagreement over representation",
+      "b": "Gandhi's refusal to participate",
+      "c": "British unwillingness to compromise",
+      "d": "Lack of support from Indian leaders"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "How did World War I contribute to the growth of nationalism in India?",
+    "options": {
+      "a": "Economic hardship",
+      "b": "Forced recruitment",
+      "c": "Rise in prices",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which leader formed the Swaraj Party within the Congress?",
+    "options": {
+      "a": "C.R. Das and Motilal Nehru",
+      "b": "Jawaharlal Nehru and Subhas Chandra Bose",
+      "c": "Mahatma Gandhi and Sardar Patel",
+      "d": "B.R. Ambedkar and Alluri Sitarama Raju"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The idea of satyagraha emphasized the power of what?",
+    "options": {
+      "a": "Violence",
+      "b": "Truth",
+      "c": "Aggression",
+      "d": "Revenge"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which movement preceded the Civil Disobedience Movement?",
+    "options": {
+      "a": "Quit India Movement",
+      "b": "Non-Cooperation Movement",
+      "c": "Rowlatt Satyagraha",
+      "d": "Khilafat Movement"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the name of the novel in which Bankim Chandra Chattopadhyay included \"Vande Mataram\"?",
+    "options": {
+      "a": "Gitanjali",
+      "b": "Godan",
+      "c": "Anandamath",
+      "d": "Devdas"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Where did Gandhiji organize a satyagraha to support peasants affected by crop failure and plague?",
+    "options": {
+      "a": "Champaran",
+      "b": "Kheda",
+      "c": "Ahmedabad",
+      "d": "Bardoli"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In which year did the Jallianwala Bagh massacre occur?",
+    "options": {
+      "a": "1919",
+      "b": "1920",
+      "c": "1921",
+      "d": "1922"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which leader led the peasant movement in Bardoli?",
+    "options": {
+      "a": "Jawaharlal Nehru",
+      "b": "Sardar Vallabhbhai Patel",
+      "c": "Mahatma Gandhi",
+      "d": "Subhas Chandra Bose"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who led the tribal revolt in the Gudem Hills of Andhra Pradesh?",
+    "options": {
+      "a": "Birsa Munda",
+      "b": "Alluri Sitarama Raju",
+      "c": "Tantia Tope",
+      "d": "Rani Lakshmibai"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Non-Cooperation Movement began in 1921. What event triggered its withdrawal in 1922?",
+    "options": {
+      "a": "Jallianwala Bagh Massacre",
+      "b": "Chauri Chaura Incident",
+      "c": "Simon Commission's arrival",
+      "d": "Gandhi's arrest"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Salt March began in 1930. What was the ultimate aim of this movement?",
+    "options": {
+      "a": "To gain complete independence",
+      "b": "To abolish the salt tax",
+      "c": "To protest against the Simon Commission",
+      "d": "To promote Hindu-Muslim unity"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The British government formed the Simon Commission. Why did Indians protest against it?",
+    "options": {
+      "a": "Lack of Indian representation",
+      "b": "Imposition of Rowlatt Act",
+      "c": "Jallianwala Bagh Massacre",
+      "d": "Salt tax"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Gandhiji launched the Non-Cooperation Movement. What method of protest did he advocate for?",
+    "options": {
+      "a": "Satyagraha",
+      "b": "Armed rebellion",
+      "c": "Terrorism",
+      "d": "Political lobbying"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The Round Table Conferences were held in London. What was the primary objective of these conferences?",
+    "options": {
+      "a": "To discuss constitutional reforms for India",
+      "b": "To grant India dominion status",
+      "c": "To address the grievances of the dalits",
+      "d": "To resolve the Khilafat issue"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The Gudem rebellion took place in Andhra Pradesh. What was the main reason behind this tribal uprising?",
+    "options": {
+      "a": "Restrictions on forest access",
+      "b": "Imposition of heavy taxes",
+      "c": "Forced recruitment into the army",
+      "d": "Oppressive plantation system"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The Congress formed the Swaraj Party. What was the main political objective of this party?",
+    "options": {
+      "a": "To participate in council elections",
+      "b": "To boycott the council elections",
+      "c": "To launch a civil disobedience movement",
+      "d": "To support the Khilafat Movement"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Dr. B.R. Ambedkar demanded separate electorates for dalits. What was Gandhiji's view on this demand?",
+    "options": {
+      "a": "He supported it",
+      "b": "He opposed it",
+      "c": "He was indifferent to it",
+      "d": "He initially opposed it, later supported"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Dandi March was a significant event. What law did Gandhiji break at Dandi?",
+    "options": {
+      "a": "Salt law",
+      "b": "Rowlatt Act",
+      "c": "Inland Emigration Act",
+      "d": "Government of India Act"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "\"The First World War created a new economic and political situation. It led to a huge increase in defence expenditure which was financed by war loans and increasing taxes. Through the war years prices increased – doubling between 1913 and 1918 – leading to extreme hardship for the common people.\" What was one of the primary economic impacts of World War I on India?",
+    "options": {
+      "a": "Decrease in taxes",
+      "b": "Increase in agricultural production",
+      "c": "Rise in prices",
+      "d": "Reduction in defence expenditure"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "\"Mahatma Gandhi wanted non-violent civil disobedience against unjust laws, which would start with a hartal on 6 April. Rallies were organised in various cities, workers went on strike in railway workshops, and shops closed down.\" What was the initial response of the Indian people to Gandhiji's call for a hartal on 6 April?",
+    "options": {
+      "a": "Violent protests",
+      "b": "Widespread strikes and closures",
+      "c": "Complete indifference",
+      "d": "Support for the British government"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"In many places local leaders told peasants that Gandhiji had declared that no taxes were to be paid and land was to be redistributed among the poor. The name of the Mahatma was being invoked to sanction all action and aspirations.\" How did some local leaders misinterpret Gandhiji's message during the peasant movements?",
+    "options": {
+      "a": "They advocated for violent protests",
+      "b": "They promised tax exemption and land redistribution",
+      "c": "They urged peasants to cooperate with the British",
+      "d": "They discouraged peasants from joining the movement"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Tribal peasants interpreted the message of Mahatma Gandhi and the idea of swaraj in yet another way. In the Gudem Hills of Andhra Pradesh, for instance, a militant guerrilla movement spread in the early 1920s – not a form of struggle that the Congress could approve.\" How did the tribal peasants in the Gudem Hills perceive the idea of swaraj?",
+    "options": {
+      "a": "Through non-violent resistance",
+      "b": "Through guerrilla warfare",
+      "c": "Through cooperation with the British",
+      "d": "Through constitutional means"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"During Gandhiji's salt march, thousands of women came out of their homes to listen to him. They participated in protest marches, manufactured salt, and picketed foreign cloth and liquor shops.\" What was the role of women in the Civil Disobedience Movement?",
+    "options": {
+      "a": "Active participation in protests",
+      "b": "Passive supporters",
+      "c": "No involvement",
+      "d": "Opposing the movement"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What does the term \"Swaraj\" mean?",
+    "options": {
+      "a": "Self-rule",
+      "b": "Home rule",
+      "c": "Dominion status",
+      "d": "Complete independence"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the main objective of the Civil Disobedience Movement?",
+    "options": {
+      "a": "To achieve Purna Swaraj",
+      "b": "To protest against the Rowlatt Act",
+      "c": "To support the Khilafat Movement",
+      "d": "To demand dominion status"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the name of Gandhi's ashram in Gujarat from where the Salt March began?",
+    "options": {
+      "a": "Sabarmati",
+      "b": "Sevagram",
+      "c": "Phoenix",
+      "d": "Tolstoy Farm"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the name of Gandhi's famous book where he declared that British rule was established with the cooperation of Indians?",
+    "options": {
+      "a": "Hind Swaraj",
+      "b": "My Experiments with Truth",
+      "c": "India Wins Freedom",
+      "d": "Discovery of India"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "In which city did General Dyer order the firing on the peaceful gathering at Jallianwala Bagh?",
+    "options": {
+      "a": "Amritsar",
+      "b": "Lahore",
+      "c": "Delhi",
+      "d": "Calcutta"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Who was the Viceroy of India during the Salt March?",
+    "options": {
+      "a": "Lord Irwin",
+      "b": "Lord Curzon",
+      "c": "Lord Dalhousie",
+      "d": "Lord Mountbatten"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which pact was signed between Gandhiji and Dr. B.R. Ambedkar?",
+    "options": {
+      "a": "Gandhi-Irwin Pact",
+      "b": "Poona Pact",
+      "c": "Lucknow Pact",
+      "d": "Delhi Pact"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who formed the Forward Bloc within the Congress?",
+    "options": {
+      "a": "Subhas Chandra Bose",
+      "b": "Jawaharlal Nehru",
+      "c": "Sardar Patel",
+      "d": "Mahatma Gandhi"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the name of the nationalist organization formed by Muslim leaders?",
+    "options": {
+      "a": "Muslim League",
+      "b": "Hindu Mahasabha",
+      "c": "Indian National Army",
+      "d": "Forward Bloc"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which leader is associated with the slogan \"Inquilab Zindabad\"?",
+    "options": {
+      "a": "Bhagat Singh",
+      "b": "Mahatma Gandhi",
+      "c": "Jawaharlal Nehru",
+      "d": "Subhas Chandra Bose"
+    },
+    "answer": "a"
+  }
+]

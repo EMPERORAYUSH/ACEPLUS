@@ -1,0 +1,492 @@
+[
+  {
+    "question": "What proportion of the Earth's surface is covered by water?",
+    "options": {
+      "a": "One-fourth",
+      "b": "Half",
+      "c": "Three-fourth",
+      "d": "Two-third"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is the primary source of freshwater?",
+    "options": {
+      "a": "Oceans",
+      "b": "Glaciers",
+      "c": "Precipitation",
+      "d": "Seas"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In which state is the Sardar Sarovar Dam located?",
+    "options": {
+      "a": "Maharashtra",
+      "b": "Gujarat",
+      "c": "Rajasthan",
+      "d": "Madhya Pradesh"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which ancient city had a sophisticated water harvesting system channeling the floodwater of the river Ganga?",
+    "options": {
+      "a": "Pataliputra",
+      "b": "Sringaverapura",
+      "c": "Ujjain",
+      "d": "Taxila"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "'Khadins' and 'Johads' are rainwater harvesting structures primarily found in:",
+    "options": {
+      "a": "Bengal",
+      "b": "Rajasthan",
+      "c": "Meghalaya",
+      "d": "Karnataka"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the name given to the traditional rainwater storage tanks in Rajasthan?",
+    "options": {
+      "a": "Kuls",
+      "b": "Guls",
+      "c": "Tankas",
+      "d": "Johads"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which river is associated with the Hirakud Dam?",
+    "options": {
+      "a": "Ganga",
+      "b": "Narmada",
+      "c": "Mahanadi",
+      "d": "Sutluj"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a purpose of multi-purpose river projects?",
+    "options": {
+      "a": "Irrigation",
+      "b": "Deforestation",
+      "c": "Flood control",
+      "d": "Electricity generation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Bhakra Nangal project is on which river basin?",
+    "options": {
+      "a": "Ganga-Yamuna",
+      "b": "Sutluj-Beas",
+      "c": "Narmada-Tapi",
+      "d": "Krishna-Godavari"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which Indian state has made rooftop rainwater harvesting compulsory?",
+    "options": {
+      "a": "Kerala",
+      "b": "Tamil Nadu",
+      "c": "Karnataka",
+      "d": "Maharashtra"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The \"river of sorrow\" mentioned in the text refers to which river?",
+    "options": {
+      "a": "Kosi",
+      "b": "Damodar",
+      "c": "Brahmaputra",
+      "d": "Hooghly"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Atal Bhujal Yojana (Atal Jal) is primarily focused on:",
+    "options": {
+      "a": "Interlinking of rivers",
+      "b": "Groundwater management",
+      "c": "Building large dams",
+      "d": "Promoting drip irrigation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary objective of the Jal Jeevan Mission (JJM)?",
+    "options": {
+      "a": "Building large dams.",
+      "b": "Providing piped water to every rural household.",
+      "c": "Interlinking rivers.",
+      "d": "Promoting rainwater harvesting in urban areas."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The ancient hydraulic structure, Hauz Khas, was built by which ruler?",
+    "options": {
+      "a": "Akbar",
+      "b": "Iltutmish",
+      "c": "Chandragupta",
+      "d": "Ashoka"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** In the flood plains of Bengal, people developed an ingenious method for irrigation. They constructed inundation channels that would carry the floodwaters to their agricultural fields, providing necessary moisture for cultivation. This system was particularly effective during the monsoon season when rivers would overflow.\n**Question:** What was the primary purpose of the inundation channels in Bengal?",
+    "options": {
+      "a": "To store drinking water",
+      "b": "To irrigate fields",
+      "c": "To generate electricity",
+      "d": "To control floods"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** The Sardar Sarovar Project is a large-scale water resource project that aims to provide irrigation and drinking water to the drought-prone areas of Gujarat, Rajasthan, Madhya Pradesh, and Maharashtra. The project involves the construction of a dam on the Narmada River and a network of canals.\n**Question:** Which of the following states is NOT a beneficiary of the Sardar Sarovar Project?",
+    "options": {
+      "a": "Gujarat",
+      "b": "Uttar Pradesh",
+      "c": "Rajasthan",
+      "d": "Maharashtra"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:**  During the time of Chandragupta Maurya, an extensive system of dams, lakes, and irrigation systems was developed throughout the empire. This infrastructure played a crucial role in supporting agriculture and ensuring food security for the population.\n**Question:** What was the primary purpose of the water management systems built during Chandragupta Maurya's reign?",
+    "options": {
+      "a": "To promote trade",
+      "b": "To support agriculture",
+      "c": "To beautify cities",
+      "d": "To generate power"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** Rooftop rainwater harvesting was a common practice in ancient India, especially in arid and semi-arid regions. This involved collecting rainwater from rooftops and storing it in underground tanks or 'tankas' for later use, primarily for drinking purposes.\n**Question:** What was the main reason for practicing rooftop rainwater harvesting in ancient India?",
+    "options": {
+      "a": "To recharge groundwater",
+      "b": "To store water for drinking",
+      "c": "To irrigate fields",
+      "d": "To prevent soil erosion"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** The increasing number of industries in India has put immense pressure on existing freshwater resources. Industries not only consume large quantities of water but also require electricity, often generated from hydroelectric power, further straining water availability.\n**Question:** How do industries contribute to water scarcity in India?",
+    "options": {
+      "a": "By promoting water conservation",
+      "b": "By consuming large amounts of water and requiring hydroelectric power",
+      "c": "By developing new irrigation techniques",
+      "d": "By building rainwater harvesting structures"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** The hydrological cycle ensures that water is a renewable resource. Water moves through this cycle via processes like evaporation, condensation, precipitation, and runoff, continuously replenishing freshwater sources.\n**Question:** Which process in the hydrological cycle is responsible for the formation of clouds?",
+    "options": {
+      "a": "Evaporation",
+      "b": "Condensation",
+      "c": "Precipitation",
+      "d": "Runoff"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:**  In Gendathur village, Karnataka, residents have successfully implemented a rooftop rainwater harvesting system. Each household collects rainwater, significantly reducing their dependence on external water sources.\n**Question:** What is the primary water source for the residents of Gendathur village?",
+    "options": {
+      "a": "Groundwater",
+      "b": "River water",
+      "c": "Canal water",
+      "d": "Rainwater"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "**Paragraph:** Multi-purpose river projects, while providing benefits like irrigation and electricity, can also have negative impacts. They can lead to the displacement of people, loss of livelihoods, and disruption of river ecosystems.\n**Question:** Which of the following is a potential negative consequence of multi-purpose river projects?",
+    "options": {
+      "a": "Increased agricultural productivity",
+      "b": "Generation of clean energy",
+      "c": "Displacement of local communities",
+      "d": "Improved flood control"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "**Paragraph:** The text mentions that by 2025, nearly two billion people will live in absolute water scarcity. This highlights the growing global concern about the availability of freshwater resources.\n**Question:** What is the projected number of people facing absolute water scarcity by 2025?",
+    "options": {
+      "a": "One billion",
+      "b": "Two billion",
+      "c": "Three billion",
+      "d": "Four billion"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** The construction of large dams can lead to excessive sedimentation at the bottom of reservoirs. This can result in rockier stream beds and negatively impact the habitats of aquatic life.\n**Question:** How does excessive sedimentation affect river ecosystems?",
+    "options": {
+      "a": "It improves water quality",
+      "b": "It creates better habitats for fish",
+      "c": "It leads to rockier stream beds and harms aquatic life",
+      "d": "It increases the flow of the river"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "**Paragraph:** In semi-arid regions of Rajasthan, farmers have traditionally used 'khadins' to harvest rainwater. These are earthen embankments built across the slope of the land to hold back rainwater, allowing it to percolate into the ground and recharge groundwater.\n**Question:** What is the purpose of 'khadins'?",
+    "options": {
+      "a": "To store drinking water.",
+      "b": "To provide water for livestock.",
+      "c": "To recharge groundwater.",
+      "d": "To generate electricity."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "**Paragraph:** The text mentions that the Krishna-Godavari water dispute is related to the diversion of water by the Maharashtra government for a multipurpose project. This has raised concerns about reduced water availability in downstream states.\n**Question:** What is the primary cause of the Krishna-Godavari water dispute?",
+    "options": {
+      "a": "Construction of a dam on the Krishna River.",
+      "b": "Diversion of water for a multipurpose project.",
+      "c": "Pollution of the Godavari River.",
+      "d": "Excessive use of groundwater in Andhra Pradesh."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** The text describes a 200-year-old system of tapping stream and spring water using bamboo pipes in Meghalaya. This system efficiently transports water over long distances using gravity.\n**Question:** What is the primary material used in the traditional water transportation system in Meghalaya?",
+    "options": {
+      "a": "Iron pipes",
+      "b": "Bamboo pipes",
+      "c": "PVC pipes",
+      "d": "Concrete channels"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "**Paragraph:** The text explains that dams are classified based on their structure, intended purpose, or height. Based on structure and materials used, dams can be classified as timber dams, embankment dams, or masonry dams.\n**Question:** Which of the following is NOT a classification of dams based on structure?",
+    "options": {
+      "a": "Timber dams",
+      "b": "Embankment dams",
+      "c": "Masonry dams",
+      "d": "Concrete dams"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "**Paragraph:** The Indira Gandhi Canal has significantly improved water availability in Rajasthan, leading to changes in agricultural practices. However, it has also led to a decline in the traditional practice of rooftop rainwater harvesting in some areas.\n**Question:** What is the primary reason for the decline in rooftop rainwater harvesting in some parts of Rajasthan?",
+    "options": {
+      "a": "Increased rainfall",
+      "b": "Availability of water from the Indira Gandhi Canal",
+      "c": "Lack of awareness",
+      "d": "Government regulations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer in a drought-prone area wants to adopt a water conservation technique. Which of the following would be the most suitable?",
+    "options": {
+      "a": "Building a large dam",
+      "b": "Installing a tube well",
+      "c": "Implementing rainwater harvesting",
+      "d": "Using flood irrigation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A city is facing severe water shortages. Which of the following measures would be the most effective in addressing the issue in the long term?",
+    "options": {
+      "a": "Rationing water supply",
+      "b": "Promoting water conservation and implementing rainwater harvesting",
+      "c": "Importing water from other regions",
+      "d": "Drilling more borewells"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A state government wants to improve the livelihoods of rural communities. Which of the following water management strategies would be most beneficial?",
+    "options": {
+      "a": "Building large dams for hydroelectric power",
+      "b": "Promoting the use of chemical fertilizers",
+      "c": "Implementing the Jal Jeevan Mission to provide piped water",
+      "d": "Encouraging the cultivation of water-intensive crops"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "An industry is looking for ways to reduce its water footprint. Which of the following would be the most effective approach?",
+    "options": {
+      "a": "Using more efficient water-saving technologies in their processes",
+      "b": "Relocating to a region with abundant water resources",
+      "c": "Lobbying for increased water allocation",
+      "d": "Ignoring the issue as it is not cost-effective"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A community is experiencing frequent floods. Which of the following measures would be the most effective in mitigating the impact of floods?",
+    "options": {
+      "a": "Building higher houses",
+      "b": "Planting more trees and improving watershed management",
+      "c": "Constructing more roads",
+      "d": "Relying solely on government relief efforts"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A region is experiencing declining groundwater levels. What is the most effective way to address this issue?",
+    "options": {
+      "a": "Digging deeper wells",
+      "b": "Implementing artificial groundwater recharge techniques",
+      "c": "Restricting water usage for agriculture",
+      "d": "Relying on rainfall alone"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A coastal city is facing the threat of saltwater intrusion into its freshwater sources. What is the most sustainable solution to this problem?",
+    "options": {
+      "a": "Building desalination plants",
+      "b": "Managing groundwater extraction and promoting rainwater harvesting",
+      "c": "Importing freshwater from inland areas",
+      "d": "Constructing embankments along the coast"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A village is dependent on a single well for its water needs. The well is drying up. What is the most appropriate immediate solution?",
+    "options": {
+      "a": "Rationing water and exploring alternative water sources like rainwater harvesting",
+      "b": "Digging a new well nearby",
+      "c": "Waiting for the next monsoon",
+      "d": "Migrating to another village"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A farmer wants to maximize crop yield while minimizing water usage. Which irrigation method should they adopt?",
+    "options": {
+      "a": "Flood irrigation",
+      "b": "Sprinkler irrigation",
+      "c": "Drip irrigation",
+      "d": "Furrow irrigation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A government wants to promote sustainable water management. Which policy would be most effective?",
+    "options": {
+      "a": "Subsidizing water-intensive crops",
+      "b": "Providing incentives for rainwater harvesting and water-efficient technologies",
+      "c": "Building more dams without environmental impact assessments",
+      "d": "Privatizing water resources without any regulations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is water scarcity a growing concern despite the abundance of water on Earth?",
+    "options": {
+      "a": "Because most of the water is saltwater and not usable",
+      "b": "Because of uneven distribution, pollution, and over-exploitation of freshwater resources",
+      "c": "Because the hydrological cycle is slowing down",
+      "d": "Because of climate change alone"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might building large dams be considered a controversial solution to water scarcity?",
+    "options": {
+      "a": "Because dams are ineffective in storing water",
+      "b": "Because dams can have negative social and environmental impacts",
+      "c": "Because dams are too expensive to build",
+      "d": "Because dams only benefit urban areas"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is community participation important for the success of water conservation efforts?",
+    "options": {
+      "a": "Because communities can build dams more efficiently than the government",
+      "b": "Because communities are the primary users of water and their involvement ensures ownership and sustainability",
+      "c": "Because communities can enforce water-saving regulations better than the authorities",
+      "d": "Because communities do not need government assistance in water management"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the integration of traditional water harvesting methods with modern techniques important for sustainable water management?",
+    "options": {
+      "a": "Because traditional methods are outdated and ineffective",
+      "b": "Because traditional methods are relevant, eco-friendly, and can complement modern technology",
+      "c": "Because modern techniques are too expensive to implement",
+      "d": "Because traditional methods can solve all water-related problems"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can urbanization contribute to both increased water demand and reduced water availability?",
+    "options": {
+      "a": "By promoting water conservation practices",
+      "b": "By increasing population density and impervious surfaces, leading to higher demand and reduced groundwater recharge",
+      "c": "By developing advanced water treatment technologies",
+      "d": "By reducing industrial water usage"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is equitable access to water resources essential for social and economic development?",
+    "options": {
+      "a": "Because water is a basic human right and unequal access can lead to conflicts and hinder development.",
+      "b": "Because water is only needed for agriculture.",
+      "c": "Because equitable access is not economically feasible.",
+      "d": "Because water scarcity only affects marginalized communities."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why are inter-state water disputes becoming increasingly common in India?",
+    "options": {
+      "a": "Because of a lack of cooperation between states.",
+      "b": "Because of increasing water scarcity and competing demands from different states.",
+      "c": "Because of the central government's interference in water allocation.",
+      "d": "Because of the construction of too many dams."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can the \"per drop more crop\" concept contribute to sustainable agriculture?",
+    "options": {
+      "a": "By encouraging the cultivation of water-intensive crops.",
+      "b": "By promoting the use of water-efficient irrigation techniques to maximize yield with minimal water input.",
+      "c": "By increasing the use of chemical fertilizers and pesticides.",
+      "d": "By relying solely on rainfall for irrigation."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important to consider the entire river basin while planning water resource management?",
+    "options": {
+      "a": "Because rivers do not flow beyond state boundaries.",
+      "b": "Because upstream activities can significantly impact downstream water availability and quality.",
+      "c": "Because dams can only be built at the source of a river.",
+      "d": "Because river water is not suitable for irrigation."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can awareness and education play a crucial role in promoting responsible water use?",
+    "options": {
+      "a": "By encouraging people to use more water.",
+      "b": "By informing people about the importance of water conservation and empowering them to adopt water-saving practices.",
+      "c": "By promoting the privatization of water resources.",
+      "d": "By discouraging the use of traditional water harvesting methods."
+    },
+    "answer": "b"
+  }
+]

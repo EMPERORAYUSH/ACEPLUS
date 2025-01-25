@@ -1,0 +1,519 @@
+[
+  {
+    "question": "A constant force acts on a 10 kg object for 5 seconds, changing its velocity from 5 m/s to 15 m/s. What is the magnitude of the force?",
+    "options": {
+      "a": "5 N",
+      "b": "10 N",
+      "c": "20 N",
+      "d": "50 N"
+    },
+    "answer": "c",
+    "id": 523
+  },
+  {
+    "question": "Which of the following statements is NOT true about inertia?",
+    "options": {
+      "a": "Inertia is the tendency of an object to resist a change in its state of motion.",
+      "b": "Inertia depends only on the mass of an object.",
+      "c": "A heavier object has more inertia than a lighter object.",
+      "d": "Inertia is a measure of how difficult it is to accelerate an object."
+    },
+    "answer": "b",
+    "id": 524
+  },
+  {
+    "question": "A passenger in a moving bus is thrown forward when the bus suddenly brakes. This is an example of:",
+    "options": {
+      "a": "Newton's First Law of Motion",
+      "b": "Newton's Second Law of Motion",
+      "c": "Newton's Third Law of Motion",
+      "d": "Law of Conservation of Momentum"
+    },
+    "answer": "a",
+    "id": 525
+  },
+  {
+    "question": "A force of 10 N acts on a 2 kg object. What is the acceleration produced?",
+    "options": {
+      "a": "0.2 m/s²",
+      "b": "2 m/s²",
+      "c": "5 m/s²",
+      "d": "20 m/s²"
+    },
+    "answer": "c",
+    "id": 526
+  },
+  {
+    "question": "A rocket propels itself forward by expelling hot gases backward. This is an example of:",
+    "options": {
+      "a": "Newton's First Law of Motion",
+      "b": "Newton's Second Law of Motion",
+      "c": "Newton's Third Law of Motion",
+      "d": "Law of Conservation of Energy"
+    },
+    "answer": "c",
+    "id": 527
+  },
+  {
+    "question": "Which of the following has the highest inertia?",
+    "options": {
+      "a": "A feather",
+      "b": "A tennis ball",
+      "c": "A cricket ball",
+      "d": "A bowling ball"
+    },
+    "answer": "d",
+    "id": 528
+  },
+  {
+    "question": "A car accelerates from rest to 20 m/s in 10 seconds. What is its acceleration?",
+    "options": {
+      "a": "0.5 m/s²",
+      "b": "1 m/s²",
+      "c": "2 m/s²",
+      "d": "4 m/s²"
+    },
+    "answer": "c",
+    "id": 529
+  },
+  {
+    "question": "A force of 50 N is applied to an object of mass 10 kg.  What is the change in momentum of the object if the force acts for 2 seconds?",
+    "options": {
+      "a": "25 kg m/s",
+      "b": "50 kg m/s",
+      "c": "100 kg m/s",
+      "d": "200 kg m/s"
+    },
+    "answer": "c",
+    "id": 530
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. What is its momentum?",
+    "options": {
+      "a": "0.5 kg m/s",
+      "b": "2 kg m/s",
+      "c": "50 kg m/s",
+      "d": "100 kg m/s"
+    },
+    "answer": "c",
+    "id": 531
+  },
+  {
+    "question": "Two objects of equal mass are moving with the same velocity. Which statement is true about their momentum?",
+    "options": {
+      "a": "The object with the larger surface area has more momentum.",
+      "b": "The object with the higher density has more momentum.",
+      "c": "Both objects have the same momentum.",
+      "d": "Momentum cannot be determined without knowing the shape of the objects."
+    },
+    "answer": "c",
+    "id": 532
+  },
+  {
+    "question": "A force of 20 N acts on a 5 kg object for 4 seconds. What is the change in velocity of the object?",
+    "options": {
+      "a": "4 m/s",
+      "b": "8 m/s",
+      "c": "16 m/s",
+      "d": "20 m/s"
+    },
+    "answer": "c",
+    "id": 533
+  },
+  {
+    "question": "When a bullet is fired from a gun, the gun recoils. This recoil is an example of:",
+    "options": {
+      "a": "Newton's First Law of Motion",
+      "b": "Newton's Second Law of Motion",
+      "c": "Newton's Third Law of Motion",
+      "d": "Law of Conservation of Momentum"
+    },
+    "answer": "c",
+    "id": 534
+  },
+  {
+    "question": "A car of mass 1000 kg is moving at a speed of 20 m/s. The brakes are applied, and the car comes to a stop in 5 seconds. What is the average braking force?",
+    "options": {
+      "a": "1000 N",
+      "b": "2000 N",
+      "c": "4000 N",
+      "d": "8000 N"
+    },
+    "answer": "c",
+    "id": 535
+  },
+  {
+    "question": "A 2 kg ball is dropped from a height of 10 meters. What is its velocity just before it hits the ground (neglecting air resistance)? Take g = 10 m/s².",
+    "options": {
+      "a": "10 m/s",
+      "b": "14.14 m/s",
+      "c": "20 m/s",
+      "d": "28.28 m/s"
+    },
+    "answer": "b",
+    "id": 536
+  },
+  {
+    "question": "A force of 10 N acts on a 2 kg object, initially at rest, for 5 seconds. What is the final velocity of the object?",
+    "options": {
+      "a": "10 m/s",
+      "b": "25 m/s",
+      "c": "50 m/s",
+      "d": "100 m/s"
+    },
+    "answer": "b",
+    "id": 537
+  },
+  {
+    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 20 m/s. What is its momentum at the highest point of its trajectory?",
+    "options": {
+      "a": "0 kg m/s",
+      "b": "5 kg m/s",
+      "c": "10 kg m/s",
+      "d": "20 kg m/s"
+    },
+    "answer": "a",
+    "id": 538
+  },
+  {
+    "question": "Which of the following is NOT a unit of force?",
+    "options": {
+      "a": "Newton (N)",
+      "b": "Kilogram-meter per second squared (kg m/s²)",
+      "c": "Dyne",
+      "d": "Joule (J)"
+    },
+    "answer": "d",
+    "id": 539
+  },
+  {
+    "question": "Two forces of 5 N and 10 N act on an object in the same direction. What is the net force acting on the object?",
+    "options": {
+      "a": "0 N",
+      "b": "5 N",
+      "c": "10 N",
+      "d": "15 N"
+    },
+    "answer": "d",
+    "id": 540
+  },
+  {
+    "question": "Two forces of 8 N and 6 N act on an object at an angle of 90 degrees to each other. What is the magnitude of the resultant force?",
+    "options": {
+      "a": "2 N",
+      "b": "10 N",
+      "c": "14 N",
+      "d": "48 N"
+    },
+    "answer": "b",
+    "id": 541
+  },
+  {
+    "question": "A 10 kg box is placed on a horizontal surface. The coefficient of friction between the box and the surface is 0.2. What is the minimum force required to move the box?",
+    "options": {
+      "a": "2 N",
+      "b": "10 N",
+      "c": "19.6 N",
+      "d": "98 N"
+    },
+    "answer": "c",
+    "id": 542
+  },
+  {
+    "question": "A car is moving with a velocity of 36 km/h. It is brought to rest in 5 seconds by applying brakes. What is the retardation produced?",
+    "options": {
+      "a": "1 m/s²",
+      "b": "2 m/s²",
+      "c": "3 m/s²",
+      "d": "4 m/s²"
+    },
+    "answer": "b",
+    "id": 543
+  },
+  {
+    "question": "A ball of mass 0.1 kg is thrown vertically upwards with an initial velocity of 20 m/s. What is the potential energy of the ball at its highest point?",
+    "options": {
+      "a": "0 J",
+      "b": "10 J",
+      "c": "20 J",
+      "d": "40 J"
+    },
+    "answer": "c",
+    "id": 544
+  },
+  {
+    "question": "A body of mass 5 kg is moving with a velocity of 10 m/s.  A force is applied to it for 2 seconds, and its velocity increases to 15 m/s. What is the magnitude of the applied force?",
+    "options": {
+      "a": "6.25 N",
+      "b": "12.5 N",
+      "c": "25 N",
+      "d": "50 N"
+    },
+    "answer": "b",
+    "id": 545
+  },
+  {
+    "question": "A force of 10 N is applied to a 2 kg object for 5 seconds. What is the work done by the force?",
+    "options": {
+      "a": "25 J",
+      "b": "50 J",
+      "c": "125 J",
+      "d": "625 J"
+    },
+    "answer": "d",
+    "id": 546
+  },
+  {
+    "question": "A 10 kg object is placed on a frictionless surface. A force of 5 N is applied to it for 10 seconds. What is the distance travelled by the object?",
+    "options": {
+      "a": "2.5 m",
+      "b": "12.5 m",
+      "c": "25 m",
+      "d": "125 m"
+    },
+    "answer": "b",
+    "id": 547
+  },
+  {
+    "question": "A 2 kg object is dropped from a height of 10 meters. What is its kinetic energy just before it hits the ground (neglecting air resistance)? Take g = 10 m/s².",
+    "options": {
+      "a": "10 J",
+      "b": "20 J",
+      "c": "100 J",
+      "d": "200 J"
+    },
+    "answer": "d",
+    "id": 548
+  },
+  {
+    "question": "A force of 10 N is applied to a 2 kg object, initially at rest, for 5 seconds. What is the impulse imparted to the object?",
+    "options": {
+      "a": "10 Ns",
+      "b": "20 Ns",
+      "c": "50 Ns",
+      "d": "100 Ns"
+    },
+    "answer": "c",
+    "id": 549
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides with a stationary 2 kg object, and they stick together after the collision. What is the velocity of the combined object after the collision?",
+    "options": {
+      "a": "2.86 m/s",
+      "b": "7.14 m/s",
+      "c": "10 m/s",
+      "d": "14.29 m/s"
+    },
+    "answer": "b",
+    "id": 550
+  },
+  {
+    "question": "A 10 kg object is placed on a frictionless inclined plane that makes an angle of 30 degrees with the horizontal. What is the component of the object's weight acting parallel to the plane?",
+    "options": {
+      "a": "49 N",
+      "b": "84.9 N",
+      "c": "98 N",
+      "d": "196 N"
+    },
+    "answer": "a",
+    "id": 551
+  },
+  {
+    "question": "A 2 kg object is attached to a spring with a spring constant of 100 N/m. The object is displaced by 0.1 m from its equilibrium position and released. What is the maximum velocity of the object?",
+    "options": {
+      "a": "0.5 m/s",
+      "b": "0.707 m/s",
+      "c": "1 m/s",
+      "d": "1.414 m/s"
+    },
+    "answer": "b",
+    "id": 552
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides elastically with a stationary 2 kg object. What is the velocity of the 2 kg object after the collision?",
+    "options": {
+      "a": "4.44 m/s",
+      "b": "8.89 m/s",
+      "c": "10 m/s",
+      "d": "17.78 m/s"
+    },
+    "answer": "d",
+    "id": 553
+  },
+  {
+    "question": "A 10 kg object is placed on a frictionless inclined plane that makes an angle of 30 degrees with the horizontal. What is the acceleration of the object down the plane?",
+    "options": {
+      "a": "2.45 m/s²",
+      "b": "4.9 m/s²",
+      "c": "9.8 m/s²",
+      "d": "19.6 m/s²"
+    },
+    "answer": "b",
+    "id": 554
+  },
+  {
+    "question": "A 2 kg object is attached to a string and swung in a horizontal circle of radius 1 meter. If the string breaks when the tension exceeds 50 N, what is the maximum speed the object can have?",
+    "options": {
+      "a": "2.5 m/s",
+      "b": "5 m/s",
+      "c": "7.07 m/s",
+      "d": "10 m/s"
+    },
+    "answer": "b",
+    "id": 555
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. It experiences a constant retarding force of 2 N for 10 seconds. What is its final velocity?",
+    "options": {
+      "a": "6 m/s",
+      "b": "8 m/s",
+      "c": "10 m/s",
+      "d": "12 m/s"
+    },
+    "answer": "a",
+    "id": 556
+  },
+  {
+    "question": "A 10 kg object is dropped from a height of 10 meters. What is its momentum just before it hits the ground (neglecting air resistance)? Take g = 10 m/s².",
+    "options": {
+      "a": "44.7 kg m/s",
+      "b": "100 kg m/s",
+      "c": "141.4 kg m/s",
+      "d": "200 kg m/s"
+    },
+    "answer": "c",
+    "id": 557
+  },
+  {
+    "question": "A 2 kg object is attached to a spring with a spring constant of 100 N/m. The object is displaced by 0.1 m from its equilibrium position and released. What is the period of oscillation?",
+    "options": {
+      "a": "0.28 s",
+      "b": "0.56 s",
+      "c": "0.89 s",
+      "d": "1.78 s"
+    },
+    "answer": "c",
+    "id": 558
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides inelastically with a stationary 2 kg object. What is the kinetic energy lost in the collision?",
+    "options": {
+      "a": "71.4 J",
+      "b": "142.9 J",
+      "c": "178.6 J",
+      "d": "250 J"
+    },
+    "answer": "c",
+    "id": 559
+  },
+  {
+    "question": "A 10 kg object is placed on a frictionless horizontal surface. A force of 5 N is applied to it at an angle of 30 degrees above the horizontal. What is the acceleration of the object?",
+    "options": {
+      "a": "0.25 m/s²",
+      "b": "0.43 m/s²",
+      "c": "0.5 m/s²",
+      "d": "0.87 m/s²"
+    },
+    "answer": "b",
+    "id": 560
+  },
+  {
+    "question": "A 2 kg object is attached to a string and swung in a vertical circle of radius 1 meter. What is the minimum speed the object must have at the top of the circle to prevent the string from going slack?",
+    "options": {
+      "a": "1 m/s",
+      "b": "3.13 m/s",
+      "c": "4.47 m/s",
+      "d": "9.8 m/s"
+    },
+    "answer": "b",
+    "id": 561
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. It experiences a constant retarding force of 2 N for 10 seconds. What is the distance travelled by the object during this time?",
+    "options": {
+      "a": "40 m",
+      "b": "60 m",
+      "c": "80 m",
+      "d": "100 m"
+    },
+    "answer": "c",
+    "id": 562
+  },
+  {
+    "question": "Which of the following statements is NOT correct according to Newton's third law of motion?",
+    "options": {
+      "a": "Action and reaction forces are always equal in magnitude.",
+      "b": "Action and reaction forces always act on different objects.",
+      "c": "Action and reaction forces always act in the same direction.",
+      "d": "Action and reaction forces always occur in pairs."
+    },
+    "answer": "c",
+    "id": 563
+  },
+  {
+    "question": "A 10 kg object is placed on a rough horizontal surface. The coefficient of static friction between the object and the surface is 0.5. What is the maximum force that can be applied horizontally to the object without it moving?",
+    "options": {
+      "a": "24.5 N",
+      "b": "49 N",
+      "c": "98 N",
+      "d": "196 N"
+    },
+    "answer": "b",
+    "id": 564
+  },
+  {
+    "question": "A 2 kg object is attached to a spring with a spring constant of 100 N/m. The object is displaced by 0.1 m from its equilibrium position and released. What is the total energy of the system?",
+    "options": {
+      "a": "0.1 J",
+      "b": "0.5 J",
+      "c": "1 J",
+      "d": "2 J"
+    },
+    "answer": "b",
+    "id": 565
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides perfectly inelastically with a stationary 2 kg object. What is the percentage loss of kinetic energy in the collision?",
+    "options": {
+      "a": "28.6%",
+      "b": "42.9%",
+      "c": "57.1%",
+      "d": "71.4%"
+    },
+    "answer": "a",
+    "id": 566
+  },
+  {
+    "question": "A 10 kg object is placed on a frictionless inclined plane that makes an angle of 30 degrees with the horizontal. A force of 20 N is applied to the object up the plane. What is the acceleration of the object?",
+    "options": {
+      "a": "-2.9 m/s²",
+      "b": "-0.9 m/s²",
+      "c": "0.9 m/s²",
+      "d": "2.9 m/s²"
+    },
+    "answer": "a",
+    "id": 567
+  },
+  {
+    "question": "A 2 kg object is attached to a string and swung in a vertical circle of radius 1 meter. What is the tension in the string at the bottom of the circle if the object is moving with a speed of 5 m/s?",
+    "options": {
+      "a": "29 N",
+      "b": "50 N",
+      "c": "69 N",
+      "d": "79 N"
+    },
+    "answer": "c",
+    "id": 568
+  },
+  {
+    "question": "A 5 kg object is moving with a velocity of 10 m/s. It experiences a constant retarding force of 2 N for 10 seconds. What is the average power dissipated by the retarding force?",
+    "options": {
+      "a": "-2 W",
+      "b": "-4 W",
+      "c": "-6 W",
+      "d": "-8 W"
+    },
+    "answer": "b",
+    "id": 569
+  }
+]

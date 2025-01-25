@@ -1,0 +1,41 @@
+{
+  "Math": [
+    "Lesson 1",
+    "Lesson 2",
+    "Lesson 3",
+    "Lesson 4",
+    "Lesson 5",
+    "Lesson 6",
+    "Lesson 7",
+    "Lesson 12",
+    "Lesson 14"
+  ],
+  "Science": [
+    "Lesson 1",
+    "Lesson 2",
+    "Lesson 3",
+    "Lesson 4",
+    "Lesson 5",
+    "Lesson 6",
+    "Lesson 7",
+    "Lesson 9",
+    "Lesson 10",
+    "Lesson 11",
+    "Lesson 13"
+  ],
+  "SS": [
+    "C: Lesson-1",
+    "C: Lesson-2",
+    "C: Lesson-3",
+    "C: Lesson-4",
+    "H: lesson-1",
+    "H: lesson-2",
+    "H: lesson-3",
+    "G: Lesson-1",
+    "G: Lesson-2", 
+    "G: Lesson-3",
+    "G: Lesson-4",
+    "G: Lesson-5",
+    "G: Lesson-6"
+  ]
+}

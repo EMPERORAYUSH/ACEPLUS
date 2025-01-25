@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which of the following statements about inertia is INCORRECT?",
+    "options": {
+      "a": "Inertia is the tendency of an object to resist changes in its state of motion.",
+      "b": "Inertia depends on the mass of the object.",
+      "c": "Inertia is a force that keeps objects at rest.",
+      "d": "Heavier objects have greater inertia than lighter objects."
+    },
+    "answer": "c",
+    "id": 570
+  },
+  {
+    "question": "A car is moving at a constant speed of 20 m/s. What is the net force acting on the car?",
+    "options": {
+      "a": "20 N",
+      "b": "0 N",
+      "c": "Cannot be determined without knowing the mass of the car.",
+      "d": "Depends on the direction of motion."
+    },
+    "answer": "b",
+    "id": 571
+  },
+  {
+    "question": "A force of 10 N is applied to a 2 kg object. What is the acceleration of the object?",
+    "options": {
+      "a": "20 m/s²",
+      "b": "5 m/s²",
+      "c": "0.2 m/s²",
+      "d": "10 m/s²"
+    },
+    "answer": "b",
+    "id": 572
+  },
+  {
+    "question": "A bullet is fired from a gun. Which of the following experiences a greater force?",
+    "options": {
+      "a": "The bullet",
+      "b": "The gun",
+      "c": "Both experience the same force.",
+      "d": "It depends on the mass of the bullet and gun."
+    },
+    "answer": "c",
+    "id": 573
+  },
+  {
+    "question": "Which of the following is an example of Newton's third law of motion?",
+    "options": {
+      "a": "A ball rolling down a hill.",
+      "b": "A rocket launching into space.",
+      "c": "A book resting on a table.",
+      "d": "A swimmer pushing off the wall of a pool."
+    },
+    "answer": "d",
+    "id": 574
+  },
+  {
+    "question": "A 5 kg object is moving with a momentum of 25 kg m/s. What is its velocity?",
+    "options": {
+      "a": "5 m/s",
+      "b": "125 m/s",
+      "c": "0.2 m/s",
+      "d": "25 m/s"
+    },
+    "answer": "a",
+    "id": 575
+  },
+  {
+    "question": "Two objects with equal masses collide and stick together. If the initial velocity of one object was 10 m/s and the other was at rest, what is the velocity of the combined object after the collision?",
+    "options": {
+      "a": "0 m/s",
+      "b": "5 m/s",
+      "c": "10 m/s",
+      "d": "20 m/s"
+    },
+    "answer": "b",
+    "id": 576
+  },
+  {
+    "question": "Which of the following situations demonstrates the principle of conservation of momentum?",
+    "options": {
+      "a": "A car accelerating from rest.",
+      "b": "A ball bouncing off a wall.",
+      "c": "A book falling from a table.",
+      "d": "A person walking on a frictionless surface."
+    },
+    "answer": "b",
+    "id": 577
+  },
+  {
+    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the final velocity of the object?",
+    "options": {
+      "a": "2 m/s",
+      "b": "0.5 m/s",
+      "c": "20 m/s",
+      "d": "50 m/s"
+    },
+    "answer": "a",
+    "id": 578
+  },
+  {
+    "question": "A 2 kg ball is dropped from a height of 10 meters. What is its momentum just before it hits the ground? (Assume g = 10 m/s²)",
+    "options": {
+      "a": "20 kg m/s",
+      "b": "200 kg m/s",
+      "c": "14.14 kg m/s",
+      "d": "28.28 kg m/s"
+    },
+    "answer": "d",
+    "id": 579
+  },
+  {
+    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 20 m/s. What is its momentum at the highest point of its trajectory?",
+    "options": {
+      "a": "0 kg m/s",
+      "b": "10 kg m/s",
+      "c": "20 kg m/s",
+      "d": "40 kg m/s"
+    },
+    "answer": "a",
+    "id": 580
+  },
+  {
+    "question": "A car of mass 1000 kg is moving at a speed of 20 m/s. It collides with a stationary truck of mass 2000 kg. If the two vehicles stick together after the collision, what is their combined velocity?",
+    "options": {
+      "a": "0 m/s",
+      "b": "6.67 m/s",
+      "c": "10 m/s",
+      "d": "20 m/s"
+    },
+    "answer": "b",
+    "id": 581
+  },
+  {
+    "question": "A force of 10 N acts on an object for 5 seconds. If the object's initial velocity was 2 m/s, what is its final velocity? (Assume the object has a mass of 2 kg)",
+    "options": {
+      "a": "27 m/s",
+      "b": "25 m/s",
+      "c": "12 m/s",
+      "d": "7 m/s"
+    },
+    "answer": "a",
+    "id": 582
+  },
+  {
+    "question": "A 1 kg ball is thrown horizontally with a velocity of 10 m/s from a height of 5 meters. What is its momentum just before it hits the ground? (Assume g = 10 m/s²)",
+    "options": {
+      "a": "10 kg m/s",
+      "b": "14.14 kg m/s",
+      "c": "17.32 kg m/s",
+      "d": "22.36 kg m/s"
+    },
+    "answer": "b",
+    "id": 583
+  },
+  {
+    "question": "A 50 kg person is standing on a frictionless surface. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the recoil velocity of the person?",
+    "options": {
+      "a": "0.4 m/s",
+      "b": "-0.4 m/s",
+      "c": "2.5 m/s",
+      "d": "-2.5 m/s"
+    },
+    "answer": "b",
+    "id": 584
+  },
+  {
+    "question": "Which of the following has the greatest momentum?",
+    "options": {
+      "a": "A 1000 kg car moving at 10 m/s",
+      "b": "A 100 kg motorcycle moving at 100 m/s",
+      "c": "A 10 kg bicycle moving at 1000 m/s",
+      "d": "All have the same momentum"
+    },
+    "answer": "d",
+    "id": 585
+  },
+  {
+    "question": "A 2 kg object is at rest on a frictionless surface. A force of 4 N is applied to it for 2 seconds. What is the change in momentum of the object?",
+    "options": {
+      "a": "2 kg m/s",
+      "b": "4 kg m/s",
+      "c": "8 kg m/s",
+      "d": "16 kg m/s"
+    },
+    "answer": "c",
+    "id": 586
+  },
+  {
+    "question": "A 10 kg object is moving with a velocity of 5 m/s. A force of -2 N is applied to it for 5 seconds. What is the final velocity of the object?",
+    "options": {
+      "a": "4 m/s",
+      "b": "5 m/s",
+      "c": "6 m/s",
+      "d": "7 m/s"
+    },
+    "answer": "a",
+    "id": 587
+  },
+  {
+    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is their combined velocity?",
+    "options": {
+      "a": "1.33 m/s",
+      "b": "2.67 m/s",
+      "c": "4 m/s",
+      "d": "8 m/s"
+    },
+    "answer": "b",
+    "id": 588
+  },
+  {
+    "question": "A 50 kg person is standing on a skateboard. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the recoil velocity of the person and skateboard?",
+    "options": {
+      "a": "-0.4 m/s",
+      "b": "0.4 m/s",
+      "c": "-2.5 m/s",
+      "d": "2.5 m/s"
+    },
+    "answer": "a",
+    "id": 589
+  },
+  {
+    "question": "A 0.1 kg bullet is fired from a rifle with a velocity of 500 m/s. If the rifle has a mass of 5 kg, what is the recoil velocity of the rifle?",
+    "options": {
+      "a": "-1 m/s",
+      "b": "1 m/s",
+      "c": "-10 m/s",
+      "d": "10 m/s"
+    },
+    "answer": "a",
+    "id": 590
+  },
+  {
+    "question": "A 1000 kg car is moving at a speed of 20 m/s. It brakes and comes to a stop in 5 seconds. What is the average braking force acting on the car?",
+    "options": {
+      "a": "-4000 N",
+      "b": "4000 N",
+      "c": "-8000 N",
+      "d": "8000 N"
+    },
+    "answer": "a",
+    "id": 591
+  },
+  {
+    "question": "A 2 kg object is moving with a velocity of 4 m/s. It experiences a constant force of -2 N for 2 seconds. What is the final velocity of the object?",
+    "options": {
+      "a": "2 m/s",
+      "b": "4 m/s",
+      "c": "6 m/s",
+      "d": "8 m/s"
+    },
+    "answer": "a",
+    "id": 592
+  },
+  {
+    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 10 m/s. What is its maximum height? (Assume g = 10 m/s²)",
+    "options": {
+      "a": "2.5 m",
+      "b": "5 m",
+      "c": "10 m",
+      "d": "20 m"
+    },
+    "answer": "b",
+    "id": 593
+  },
+  {
+    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the distance traveled by the object?",
+    "options": {
+      "a": "2 m",
+      "b": "4 m",
+      "c": "8 m",
+      "d": "10 m"
+    },
+    "answer": "b",
+    "id": 594
+  },
+  {
+    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is the kinetic energy lost in the collision?",
+    "options": {
+      "a": "2.67 J",
+      "b": "5.33 J",
+      "c": "8 J",
+      "d": "16 J"
+    },
+    "answer": "b",
+    "id": 595
+  },
+  {
+    "question": "A 50 kg person is standing on a skateboard. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the change in momentum of the person and skateboard?",
+    "options": {
+      "a": "-20 kg m/s",
+      "b": "20 kg m/s",
+      "c": "-100 kg m/s",
+      "d": "100 kg m/s"
+    },
+    "answer": "a",
+    "id": 596
+  },
+  {
+    "question": "A 0.1 kg bullet is fired from a rifle with a velocity of 500 m/s. If the rifle has a mass of 5 kg, what is the kinetic energy of the bullet?",
+    "options": {
+      "a": "1250 J",
+      "b": "2500 J",
+      "c": "6250 J",
+      "d": "12500 J"
+    },
+    "answer": "d",
+    "id": 597
+  },
+  {
+    "question": "A 1000 kg car is moving at a speed of 20 m/s. It brakes and comes to a stop in 5 seconds. What is the work done by the braking force?",
+    "options": {
+      "a": "-200000 J",
+      "b": "200000 J",
+      "c": "-400000 J",
+      "d": "400000 J"
+    },
+    "answer": "a",
+    "id": 598
+  },
+  {
+    "question": "A 2 kg object is moving with a velocity of 4 m/s. It experiences a constant force of -2 N for 2 seconds. What is the change in kinetic energy of the object?",
+    "options": {
+      "a": "-8 J",
+      "b": "8 J",
+      "c": "-12 J",
+      "d": "12 J"
+    },
+    "answer": "a",
+    "id": 599
+  },
+  {
+    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 10 m/s. What is its kinetic energy at the highest point of its trajectory?",
+    "options": {
+      "a": "0 J",
+      "b": "12.5 J",
+      "c": "25 J",
+      "d": "50 J"
+    },
+    "answer": "a",
+    "id": 600
+  },
+  {
+    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the work done by the force?",
+    "options": {
+      "a": "20 J",
+      "b": "40 J",
+      "c": "80 J",
+      "d": "100 J"
+    },
+    "answer": "b",
+    "id": 601
+  },
+  {
+    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is the kinetic energy of the combined object?",
+    "options": {
+      "a": "5.33 J",
+      "b": "10.67 J",
+      "c": "16 J",
+      "d": "32 J"
+    },
+    "answer": "a",
+    "id": 602
+  },
+  {
+    "question": "A 50 kg person is standing on a skateboard. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the work done by the person on the ball?",
+    "options": {
+      "a": "-100 J",
+      "b": "100 J",
+      "c": "-500 J",
+      "d": "500 J"
+    },
+    "answer": "b",
+    "id": 603
+  },
+  {
+    "question": "A 0.1 kg bullet is fired from a rifle with a velocity of 500 m/s. If the rifle has a mass of 5 kg, what is the kinetic energy of the rifle?",
+    "options": {
+      "a": "12.5 J",
+      "b": "25 J",
+      "c": "62.5 J",
+      "d": "125 J"
+    },
+    "answer": "a",
+    "id": 604
+  },
+  {
+    "question": "A 1000 kg car is moving at a speed of 20 m/s. It brakes and comes to a stop in 5 seconds. What is the power dissipated by the braking force?",
+    "options": {
+      "a": "-40000 W",
+      "b": "40000 W",
+      "c": "-80000 W",
+      "d": "80000 W"
+    },
+    "answer": "a",
+    "id": 605
+  },
+  {
+    "question": "A 2 kg object is moving with a velocity of 4 m/s. It experiences a constant force of -2 N for 2 seconds. What is the power delivered by the force?",
+    "options": {
+      "a": "-8 W",
+      "b": "8 W",
+      "c": "-16 W",
+      "d": "16 W"
+    },
+    "answer": "a",
+    "id": 606
+  },
+  {
+    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 10 m/s. What is its power at the highest point of its trajectory?",
+    "options": {
+      "a": "0 W",
+      "b": "25 W",
+      "c": "50 W",
+      "d": "100 W"
+    },
+    "answer": "a",
+    "id": 607
+  },
+  {
+    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the average power delivered by the force?",
+    "options": {
+      "a": "5 W",
+      "b": "10 W",
+      "c": "20 W",
+      "d": "25 W"
+    },
+    "answer": "b",
+    "id": 608
+  },
+  {
+    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is the power dissipated in the collision?",
+    "options": {
+      "a": "-5.33 W",
+      "b": "5.33 W",
+      "c": "-10.67 W",
+      "d": "10.67 W"
+    },
+    "answer": "a",
+    "id": 609
+  }
+]

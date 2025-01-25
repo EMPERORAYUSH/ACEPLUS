@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which of the following is an irrational number?",
+    "options": {
+      "a": "0.121212...",
+      "b": "2.5",
+      "c": "√9",
+      "d": "√2"
+    },
+    "answer": "d",
+    "id": 1
+  },
+  {
+    "question": "Express 0.666... in the form p/q, where p and q are integers and q ≠ 0.",
+    "options": {
+      "a": "1/3",
+      "b": "2/3",
+      "c": "1/6",
+      "d": "6/10"
+    },
+    "answer": "b",
+    "id": 2
+  },
+  {
+    "question": "If a is a rational number and b is an irrational number, then a*b is always:",
+    "options": {
+      "a": "Rational",
+      "b": "Irrational",
+      "c": "An integer",
+      "d": "A natural number"
+    },
+    "answer": "b",
+    "id": 3
+  },
+  {
+    "question": "The decimal representation of √7 will be:",
+    "options": {
+      "a": "Terminating",
+      "b": "Non-terminating recurring",
+      "c": "Non-terminating non-recurring",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "id": 4
+  },
+  {
+    "question": "The product of a non-zero rational number and an irrational number is always:",
+    "options": {
+      "a": "Rational",
+      "b": "Irrational",
+      "c": "An integer",
+      "d": "A whole number"
+    },
+    "answer": "b",
+    "id": 5
+  },
+  {
+    "question": "If x = 0.232323..., then 100x - x is equal to:",
+    "options": {
+      "a": "23",
+      "b": "23.23",
+      "c": "0.23",
+      "d": "2.3"
+    },
+    "answer": "a",
+    "id": 6
+  },
+  {
+    "question": "Rationalise the denominator of 1/(√3 - √2).",
+    "options": {
+      "a": "√3 + √2",
+      "b": "√3 - √2",
+      "c": "1/(√3 + √2)",
+      "d": "√2 - √3"
+    },
+    "answer": "a",
+    "id": 7
+  },
+  {
+    "question": "The sum of two irrational numbers is always:",
+    "options": {
+      "a": "Rational",
+      "b": "Irrational",
+      "c": "A natural number",
+      "d": "Sometimes rational, sometimes irrational"
+    },
+    "answer": "d",
+    "id": 8
+  },
+  {
+    "question": "Simplify (√3 + √2)(√3 - √2).",
+    "options": {
+      "a": "1",
+      "b": "√6",
+      "c": "5",
+      "d": "√5"
+    },
+    "answer": "a",
+    "id": 9
+  },
+  {
+    "question": "The value of (2√3)² is:",
+    "options": {
+      "a": "6",
+      "b": "9",
+      "c": "12",
+      "d": "36"
+    },
+    "answer": "c",
+    "id": 10
+  },
+  {
+    "question": "Which of the following is the correct representation of 1.272727... in p/q form?",
+    "options": {
+      "a": "127/100",
+      "b": "14/11",
+      "c": "126/99",
+      "d": "27/22"
+    },
+    "answer": "b",
+    "id": 11
+  },
+  {
+    "question": "Between two rational numbers, there exist:",
+    "options": {
+      "a": "No rational numbers",
+      "b": "Exactly one rational number",
+      "c": "Infinitely many rational numbers",
+      "d": "Only finitely many rational numbers"
+    },
+    "answer": "c",
+    "id": 12
+  },
+  {
+    "question": "Assertion: 0.1010010001... is an irrational number. Reason: Numbers with non-terminating and non-repeating decimal expansions are irrational.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 13
+  },
+  {
+    "question": "A student claims that the product of two irrational numbers is always irrational. Is the student correct? If not, provide a counterexample.",
+    "options": {
+      "a": "Yes, the student is correct.",
+      "b": "No, for example, √2 * √2 = 2, which is rational.",
+      "c": "No, for example, π * (1/π) = 1, which is rational.",
+      "d": "No, for example, √3 * √7 = √21, which is rational."
+    },
+    "answer": "b",
+    "id": 14
+  },
+  {
+    "question": "The side length of a square is √5 units. What is the area of the square?",
+    "options": {
+      "a": "2.5 square units",
+      "b": "5 square units",
+      "c": "10 square units",
+      "d": "25 square units"
+    },
+    "answer": "b",
+    "id": 15
+  },
+  {
+    "question": "Which of the following numbers lies between 2/3 and 3/4?",
+    "options": {
+      "a": "5/7",
+      "b": "11/16",
+      "c": "7/10",
+      "d": "4/5"
+    },
+    "answer": "b",
+    "id": 16
+  },
+  {
+    "question": "If √a is an irrational number, then 'a' cannot be a:",
+    "options": {
+      "a": "Prime number",
+      "b": "Composite number",
+      "c": "Perfect square",
+      "d": "Odd number"
+    },
+    "answer": "c",
+    "id": 17
+  },
+  {
+    "question": "The value of (5 + √3)(5 - √3) is:",
+    "options": {
+      "a": "22",
+      "b": "28",
+      "c": "16",
+      "d": "2√3"
+    },
+    "answer": "a",
+    "id": 18
+  },
+  {
+    "question": "The decimal expansion of 2/11 is:",
+    "options": {
+      "a": "0.18",
+      "b": "0.181818...",
+      "c": "0.090909...",
+      "d": "0.22"
+    },
+    "answer": "b",
+    "id": 19
+  },
+  {
+    "question": "The simplest form of √80 is:",
+    "options": {
+      "a": "5√4",
+      "b": "4√5",
+      "c": "10√2",
+      "d": "2√20"
+    },
+    "answer": "b",
+    "id": 20
+  },
+  {
+    "question": "The value of (√8)⁻² is:",
+    "options": {
+      "a": "1/2",
+      "b": "1/4",
+      "c": "1/8",
+      "d": "1/16"
+    },
+    "answer": "c",
+    "id": 21
+  },
+  {
+    "question": "If 2ⁿ = 1/8, then the value of n is:",
+    "options": {
+      "a": "3",
+      "b": "-3",
+      "c": "2",
+      "d": "-2"
+    },
+    "answer": "b",
+    "id": 22
+  },
+  {
+    "question": "Simplify: (2⁷ / 2⁵) * 2³",
+    "options": {
+      "a": "2⁴",
+      "b": "2⁵",
+      "c": "2⁸",
+      "d": "2⁹"
+    },
+    "answer": "b",
+    "id": 23
+  },
+  {
+    "question": "Express 0.125 in the form of p/q, where p and q are integers and q ≠ 0.",
+    "options": {
+      "a": "1/8",
+      "b": "125/100",
+      "c": "1/4",
+      "d": "5/4"
+    },
+    "answer": "a",
+    "id": 24
+  },
+  {
+    "question": "The product of √7 and its reciprocal is:",
+    "options": {
+      "a": "√7",
+      "b": "1/√7",
+      "c": "7",
+      "d": "1"
+    },
+    "answer": "d",
+    "id": 25
+  },
+  {
+    "question": "The number (√5 - √3)² is:",
+    "options": {
+      "a": "Rational",
+      "b": "Irrational",
+      "c": "An integer",
+      "d": "A whole number"
+    },
+    "answer": "b",
+    "id": 26
+  },
+  {
+    "question": "If √10 = 3.162, then the value of 1/√10 is approximately:",
+    "options": {
+      "a": "0.3162",
+      "b": "3.162",
+      "c": "0.1",
+      "d": "10"
+    },
+    "answer": "a",
+    "id": 27
+  },
+  {
+    "question": "Which of the following is not a rational number?",
+    "options": {
+      "a": "√(16/25)",
+      "b": "√12",
+      "c": "0",
+      "d": "-5"
+    },
+    "answer": "b",
+    "id": 28
+  },
+  {
+    "question": "Simplify: √(72/98)",
+    "options": {
+      "a": "6/7",
+      "b": "√6/√7",
+      "c": "7/6",
+      "d": "36/49"
+    },
+    "answer": "a",
+    "id": 29
+  },
+  {
+    "question": "Assertion: The number 1.414 is a rational approximation of √2. Reason: √2 is an irrational number and cannot be expressed as a terminating or repeating decimal.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 30
+  },
+  {
+    "question": "A ribbon is √27 cm long. It is cut into three equal pieces. What is the length of each piece?",
+    "options": {
+      "a": "3 cm",
+      "b": "√3 cm",
+      "c": "9 cm",
+      "d": "3√3 cm"
+    },
+    "answer": "b",
+    "id": 31
+  },
+  {
+    "question": "Which of the following lies between 0.7 and 0.8 on the number line?",
+    "options": {
+      "a": "√0.49",
+      "b": "√0.64",
+      "c": "√0.75",
+      "d": "√0.81"
+    },
+    "answer": "c",
+    "id": 32
+  },
+  {
+    "question": "If x = (√5 + 1)/(√5 - 1) and y = (√5 - 1)/(√5 + 1), then the value of x² + y² is:",
+    "options": {
+      "a": "14",
+      "b": "16",
+      "c": "7",
+      "d": "8"
+    },
+    "answer": "a",
+    "id": 33
+  },
+  {
+    "question": "Find the value of a and b if (3 + √7)/(3 - √7) = a + b√7.",
+    "options": {
+      "a": "a = 8, b = 3",
+      "b": "a = 3, b = 8",
+      "c": "a = 8/3, b = 1",
+      "d": "a = 1, b = 8/3"
+    },
+    "answer": "c",
+    "id": 34
+  },
+  {
+    "question": "The number obtained by dividing a rational number by a non-zero rational number is always a:",
+    "options": {
+      "a": "Natural Number",
+      "b": "Whole Number",
+      "c": "Integer",
+      "d": "Rational Number"
+    },
+    "answer": "d",
+    "id": 35
+  },
+  {
+    "question": "If x = (√13 + √11)/(√13 - √11), then the value of x² - (1/x²) is:",
+    "options": {
+      "a": "48√143",
+      "b": "96√143",
+      "c": "24√143",
+      "d": "√143"
+    },
+    "answer": "a",
+    "id": 36
+  },
+  {
+    "question": "Simplify: (√5 - 2)/(√5 + 2) - (√5 + 2)/(√5 - 2)",
+    "options": {
+      "a": "-8√5",
+      "b": "8√5",
+      "c": "-16",
+      "d": "16"
+    },
+    "answer": "a",
+    "id": 37
+  },
+  {
+    "question": "The value of (1/3)⁻² + (1/4)⁻² + (1/5)⁻² is equal to:",
+    "options": {
+      "a": "50",
+      "b": "1/50",
+      "c": "29",
+      "d": "1/29"
+    },
+    "answer": "a",
+    "id": 38
+  },
+  {
+    "question": "If 3¹⁻ˣ = 27, then the value of x is:",
+    "options": {
+      "a": "-2",
+      "b": "2",
+      "c": "3",
+      "d": "-3"
+    },
+    "answer": "a",
+    "id": 39
+  },
+  {
+    "question": "If a = √3 + 1/√3 and b = √3 - 1/√3, then the value of a² - b² is:",
+    "options": {
+      "a": "4",
+      "b": "√3",
+      "c": "1/√3",
+      "d": "2"
+    },
+    "answer": "a",
+    "id": 40
+  },
+  {
+    "question": "If x = 2 + √3, then the value of x + 1/x is:",
+    "options": {
+      "a": "2√3",
+      "b": "4",
+      "c": "2 - √3",
+      "d": "1"
+    },
+    "answer": "b",
+    "id": 41
+  },
+  {
+    "question": "The rationalizing factor of 1/(√7 - √2) is:",
+    "options": {
+      "a": "√7 + √2",
+      "b": "√7 - √2",
+      "c": "√7",
+      "d": "√2"
+    },
+    "answer": "a",
+    "id": 42
+  },
+  {
+    "question": "The value of (64)⁰·⁵ * (8)⁰·⁶⁶⁷ is:",
+    "options": {
+      "a": "8",
+      "b": "16",
+      "c": "32",
+      "d": "64"
+    },
+    "answer": "c",
+    "id": 43
+  },
+  {
+    "question": "The decimal representation of 7/125 will terminate after how many decimal places?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "c",
+    "id": 44
+  },
+  {
+    "question": "If (2/3)ˣ * (3/2)⁻⁴ = 27/8, then the value of x is:",
+    "options": {
+      "a": "1",
+      "b": "-1",
+      "c": "7",
+      "d": "-7"
+    },
+    "answer": "c",
+    "id": 45
+  },
+  {
+    "question": "Simplify: (√8 + √5)(√8 - √5)",
+    "options": {
+      "a": "3",
+      "b": "√13",
+      "c": "13",
+      "d": "√3"
+    },
+    "answer": "a",
+    "id": 46
+  },
+  {
+    "question": "Assertion: Every real number is either rational or irrational. Reason: There are no other types of numbers on the number line.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 47
+  },
+  {
+    "question": "The value of (256)⁰·¹⁶ * (256)⁰·⁰⁸ is equal to:",
+    "options": {
+      "a": "4",
+      "b": "8",
+      "c": "16",
+      "d": "256"
+    },
+    "answer": "c",
+    "id": 48
+  },
+  {
+    "question": "The number (√3 - √2)(√3 + √2) is:",
+    "options": {
+      "a": "A rational number",
+      "b": "An irrational number",
+      "c": "Zero",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "id": 49
+  }
+]

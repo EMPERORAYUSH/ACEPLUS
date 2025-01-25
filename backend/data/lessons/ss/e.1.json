@@ -1,0 +1,464 @@
+[
+  {
+    "question": "The standard unit of measuring land is _____, though in villages you might hear discussions about land area in local units like bigha or guintha.",
+    "options": {
+      "a": "acre",
+      "b": "hectare",
+      "c": "square kilometer",
+      "d": "mile"
+    },
+    "answer": "b",
+    "id": 731
+  },
+  {
+    "question": "What is the major constraint faced by farmers in Palampur when trying to increase farm production?",
+    "options": {
+      "a": "Lack of skilled labor",
+      "b": "Limited availability of water",
+      "c": "Fixed land area under cultivation",
+      "d": "High cost of fertilizers"
+    },
+    "answer": "c",
+    "id": 732
+  },
+  {
+    "question": "Which of the following is NOT a reason why farmers in Palampur are able to grow multiple crops in a year?",
+    "options": {
+      "a": "Well-developed system of irrigation",
+      "b": "Abundant rainfall throughout the year",
+      "c": "Use of electricity to power tubewells",
+      "d": "Favorable climate for different crops"
+    },
+    "answer": "b",
+    "id": 733
+  },
+  {
+    "question": "What is the practice of growing more than one crop on a piece of land during the year called?",
+    "options": {
+      "a": "Monoculture",
+      "b": "Mixed cropping",
+      "c": "Multiple cropping",
+      "d": "Crop rotation"
+    },
+    "answer": "c",
+    "id": 734
+  },
+  {
+    "question": "What was the major impact of the arrival of electricity in Palampur?",
+    "options": {
+      "a": "Improved transportation facilities",
+      "b": "Establishment of small-scale industries",
+      "c": "Transformation of the irrigation system",
+      "d": "Increased access to education"
+    },
+    "answer": "c",
+    "id": 735
+  },
+  {
+    "question": "Assertion: The Green Revolution introduced Indian farmers to high yielding varieties (HYV) of seeds. \nReason: HYV seeds require less water and chemical fertilizers compared to traditional seeds.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "c",
+    "id": 736
+  },
+  {
+    "question": "What is the term used to describe the amount of crop produced on a given piece of land during a single season?",
+    "options": {
+      "a": "Productivity",
+      "b": "Yield",
+      "c": "Output",
+      "d": "Harvest"
+    },
+    "answer": "b",
+    "id": 737
+  },
+  {
+    "question": "Which of the following is NOT a component of modern farming methods?",
+    "options": {
+      "a": "Use of HYV seeds",
+      "b": "Chemical fertilizers and pesticides",
+      "c": "Reliance on rainfall for irrigation",
+      "d": "Improved irrigation techniques"
+    },
+    "answer": "c",
+    "id": 738
+  },
+  {
+    "question": "In Palampur, approximately what percentage of the people working are dependent on farming for their livelihood?",
+    "options": {
+      "a": "25%",
+      "b": "50%",
+      "c": "75%",
+      "d": "90%"
+    },
+    "answer": "c",
+    "id": 739
+  },
+  {
+    "question": "Fill in the blanks:  Environmental resources like soil fertility and groundwater are built up over many years. Once destroyed, it is very _____ to restore them.",
+    "options": {
+      "a": "easy",
+      "b": "difficult",
+      "c": "cheap",
+      "d": "quick"
+    },
+    "answer": "b",
+    "id": 740
+  },
+  {
+    "question": "What is the approximate ratio of landless families to total families in Palampur?",
+    "options": {
+      "a": "1:4",
+      "b": "1:3",
+      "c": "1:2",
+      "d": "2:3"
+    },
+    "answer": "b",
+    "id": 741
+  },
+  {
+    "question": "Which of the following statements about land distribution in Palampur is true?",
+    "options": {
+      "a": "Land is equally distributed among all families.",
+      "b": "Most of the land is owned by a small number of upper caste families.",
+      "c": "Dalits own the majority of the land.",
+      "d": "Land ownership is not related to caste."
+    },
+    "answer": "b",
+    "id": 742
+  },
+  {
+    "question": "Assertion: Small farmers in Palampur often have to work as farm laborers on larger farms. \nReason: Small farmers do not have enough land to produce a surplus and earn a sufficient income.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 743
+  },
+  {
+    "question": "What is the main source of income for farm laborers in Palampur?",
+    "options": {
+      "a": "Profits from selling crops",
+      "b": "Renting out their land",
+      "c": "Wages earned from working on farms",
+      "d": "Government subsidies"
+    },
+    "answer": "c",
+    "id": 744
+  },
+  {
+    "question": "Which of the following is NOT a factor contributing to the poverty of farm laborers like Dala and Ramkali in Palampur?",
+    "options": {
+      "a": "Low wages",
+      "b": "Irregular employment",
+      "c": "Lack of access to education",
+      "d": "Ownership of small plots of land"
+    },
+    "answer": "d",
+    "id": 745
+  },
+  {
+    "question": "Fill in the blanks:  Modern farming methods require a great deal of _____, which small farmers often have to borrow at high interest rates.",
+    "options": {
+      "a": "labor",
+      "b": "land",
+      "c": "capital",
+      "d": "technology"
+    },
+    "answer": "c",
+    "id": 746
+  },
+  {
+    "question": "What is the main source of credit for small farmers like Savita in Palampur?",
+    "options": {
+      "a": "Banks",
+      "b": "Cooperatives",
+      "c": "Large farmers and moneylenders",
+      "d": "Government programs"
+    },
+    "answer": "c",
+    "id": 747
+  },
+  {
+    "question": "Which of the following is a key difference between land and capital as factors of production?",
+    "options": {
+      "a": "Land is a natural resource, while capital is man-made.",
+      "b": "Land is more abundant than capital.",
+      "c": "Land is easier to obtain than capital.",
+      "d": "Land is less important for farming than capital."
+    },
+    "answer": "a",
+    "id": 748
+  },
+  {
+    "question": "What do farmers in Palampur typically do with the surplus wheat they produce?",
+    "options": {
+      "a": "Store it for future consumption",
+      "b": "Give it away to the poor",
+      "c": "Sell it in the market",
+      "d": "Use it to feed their livestock"
+    },
+    "answer": "c",
+    "id": 749
+  },
+  {
+    "question": "Which of the following is NOT a non-farm activity found in Palampur?",
+    "options": {
+      "a": "Dairy",
+      "b": "Small-scale manufacturing",
+      "c": "Shopkeeping",
+      "d": "Large-scale industrial production"
+    },
+    "answer": "d",
+    "id": 750
+  },
+  {
+    "question": "What is the main source of fodder for the buffaloes in Palampur?",
+    "options": {
+      "a": "Wheat and rice straw",
+      "b": "Various kinds of grass and jowar/bajra",
+      "c": "Purchased cattle feed",
+      "d": "Leftover food from households"
+    },
+    "answer": "b",
+    "id": 751
+  },
+  {
+    "question": "Fill in the blanks:  Mishrilal's sugarcane crushing machine, which he uses to process sugarcane into jaggery, is an example of _____ capital.",
+    "options": {
+      "a": "working",
+      "b": "fixed",
+      "c": "human",
+      "d": "natural"
+    },
+    "answer": "b",
+    "id": 752
+  },
+  {
+    "question": "Assertion: Kareem's computer class centre requires less fixed capital compared to Mishrilal's jaggery manufacturing unit. \nReason: Kareem's business mainly relies on human capital, while Mishrilal's business requires investment in machinery.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 753
+  },
+  {
+    "question": "Which of the following statements about the transport sector in Palampur is NOT true?",
+    "options": {
+      "a": "It is a fast-developing sector.",
+      "b": "It provides employment to a significant portion of the population.",
+      "c": "It relies solely on modern vehicles like trucks and jeeps.",
+      "d": "It facilitates the movement of people and goods."
+    },
+    "answer": "c",
+    "id": 754
+  },
+  {
+    "question": "How did Kishora, a farm labourer, use the loan he received from the bank?",
+    "options": {
+      "a": "To buy land for cultivation",
+      "b": "To invest in a small shop",
+      "c": "To purchase a buffalo and cart for transport services",
+      "d": "To pay off his existing debts"
+    },
+    "answer": "c",
+    "id": 755
+  },
+  {
+    "question": "Fill in the blanks:  Kishora's buffalo and cart, which he uses for transportation services, are examples of his _____ capital.",
+    "options": {
+      "a": "working",
+      "b": "fixed",
+      "c": "human",
+      "d": "natural"
+    },
+    "answer": "b",
+    "id": 756
+  },
+  {
+    "question": "Which of the following is a potential benefit of improved roads in Palampur?",
+    "options": {
+      "a": "Increased opportunities for non-farm activities",
+      "b": "Reduced migration to cities",
+      "c": "Easier access to markets for farmers",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 757
+  },
+  {
+    "question": "What is the approximate percentage of the population in Palampur engaged in non-farm activities?",
+    "options": {
+      "a": "10%",
+      "b": "25%",
+      "c": "50%",
+      "d": "75%"
+    },
+    "answer": "b",
+    "id": 758
+  },
+  {
+    "question": "Which of the following is a challenge faced by small farmers in accessing credit for farming?",
+    "options": {
+      "a": "High interest rates charged by moneylenders",
+      "b": "Lack of collateral to secure loans from banks",
+      "c": "Difficulty in understanding loan terms and conditions",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 759
+  },
+  {
+    "question": "What is the main reason for the limited use of labor on farms in Palampur despite its abundance?",
+    "options": {
+      "a": "Farmers prefer to use machines instead of labor.",
+      "b": "Laborers are not willing to work on farms.",
+      "c": "The government restricts the use of labor in agriculture.",
+      "d": "There is a shortage of skilled labor in the village."
+    },
+    "answer": "a",
+    "id": 760
+  },
+  {
+    "question": "Which factor of production is considered fixed and scarce in Palampur?",
+    "options": {
+      "a": "Labour",
+      "b": "Capital",
+      "c": "Land",
+      "d": "Enterprise"
+    },
+    "answer": "c",
+    "id": 761
+  },
+  {
+    "question": "What is the term used for the variety of inputs required at every stage during production?",
+    "options": {
+      "a": "Human Capital",
+      "b": "Working Capital",
+      "c": "Physical Capital",
+      "d": "Fixed Capital"
+    },
+    "answer": "c",
+    "id": 762
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of the Green Revolution?",
+    "options": {
+      "a": "Introduction of HYV seeds",
+      "b": "Increased use of chemical fertilizers",
+      "c": "Decreased dependence on irrigation",
+      "d": "Higher yields of crops"
+    },
+    "answer": "c",
+    "id": 763
+  },
+  {
+    "question": "What is the main reason for the migration of people from villages like Gosaipur and Majauli in North Bihar to other states?",
+    "options": {
+      "a": "Better educational opportunities",
+      "b": "Search for better healthcare facilities",
+      "c": "Limited employment opportunities in their villages",
+      "d": "Attraction towards urban lifestyle"
+    },
+    "answer": "c",
+    "id": 764
+  },
+  {
+    "question": "Which of the following is an example of a fixed capital investment for a farmer?",
+    "options": {
+      "a": "Seeds and fertilizers",
+      "b": "Tractor and thresher",
+      "c": "Wages paid to labourers",
+      "d": "Money used to buy raw materials"
+    },
+    "answer": "b",
+    "id": 765
+  },
+  {
+    "question": "Why do small farmers like Savita often have to borrow money at high interest rates?",
+    "options": {
+      "a": "They have large landholdings and need capital for expansion.",
+      "b": "They lack access to formal sources of credit like banks.",
+      "c": "They prefer to borrow from moneylenders due to easy loan terms.",
+      "d": "They have a surplus of income and want to invest in other businesses."
+    },
+    "answer": "b",
+    "id": 766
+  },
+  {
+    "question": "Which of the following is a potential negative consequence of using chemical fertilizers excessively?",
+    "options": {
+      "a": "Increased soil fertility",
+      "b": "Reduced dependence on irrigation",
+      "c": "Loss of soil fertility",
+      "d": "Higher crop yields"
+    },
+    "answer": "c",
+    "id": 767
+  },
+  {
+    "question": "What is the main reason for the growth of the transport sector in Palampur?",
+    "options": {
+      "a": "Increased agricultural production",
+      "b": "Improved road connectivity",
+      "c": "Rise in non-farm activities",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 768
+  },
+  {
+    "question": "How has the availability of better roads in Palampur benefited Kishora?",
+    "options": {
+      "a": "He has been able to expand his farming activities.",
+      "b": "He has found more regular employment as a farm labourer.",
+      "c": "He has been able to diversify his income by providing transportation services.",
+      "d": "He has been able to access better education for his children."
+    },
+    "answer": "c",
+    "id": 769
+  },
+  {
+    "question": "What is the main reason for the limited growth of non-farm activities in villages like Palampur?",
+    "options": {
+      "a": "Lack of access to markets",
+      "b": "Shortage of skilled labour",
+      "c": "Lack of capital",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 770
+  },
+  {
+    "question": "Which of the following is a key factor that can contribute to the expansion of non-farm activities in villages?",
+    "options": {
+      "a": "Availability of credit at low interest rates",
+      "b": "Improved infrastructure like roads and transportation",
+      "c": "Access to markets for goods and services",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 771
+  },
+  {
+    "question": "What is the approximate percentage of workers engaged in non-farm activities in rural areas of India?",
+    "options": {
+      "a": "10%",
+      "b": "24%",
+      "c": "50%",
+      "d": "76%"
+    },
+    "answer": "b",
+    "id": 772
+  }
+]

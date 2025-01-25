@@ -1,0 +1,618 @@
+[
+  {
+    "question": "When magnesium is burnt in air, it produces a white powder called magnesium oxide. This reaction is an example of:",
+    "options": {
+      "a": "Decomposition reaction",
+      "b": "Combination reaction",
+      "c": "Displacement reaction",
+      "d": "Double displacement reaction"
+    },
+    "answer": "b",
+    "id": 1579
+  },
+  {
+    "question": "Iron reacts with copper sulphate to form iron sulphate and copper. In this reaction, which substance is oxidized?",
+    "options": {
+      "a": "Iron",
+      "b": "Copper sulphate",
+      "c": "Iron sulphate",
+      "d": "Copper"
+    },
+    "answer": "a",
+    "id": 1580
+  },
+  {
+    "question": "Silver chloride turns grey when exposed to sunlight. This reaction is an example of:",
+    "options": {
+      "a": "Thermal decomposition",
+      "b": "Electrolytic decomposition",
+      "c": "Photolytic decomposition",
+      "d": "Oxidation"
+    },
+    "answer": "c",
+    "id": 1581
+  },
+  {
+    "question": "Which of the following is not a characteristic of a chemical reaction?",
+    "options": {
+      "a": "Change in state",
+      "b": "Change in color",
+      "c": "Evolution of gas",
+      "d": "Change in shape"
+    },
+    "answer": "d",
+    "id": 1582
+  },
+  {
+    "question": "Lead nitrate on heating produces lead oxide, nitrogen dioxide and oxygen. This reaction is an example of:",
+    "options": {
+      "a": "Combination reaction",
+      "b": "Displacement reaction",
+      "c": "Decomposition reaction",
+      "d": "Double displacement reaction"
+    },
+    "answer": "c",
+    "id": 1583
+  },
+  {
+    "question": "What is the balanced chemical equation for the reaction between zinc and dilute hydrochloric acid?",
+    "options": {
+      "a": "Zn + HCl → ZnCl + H",
+      "b": "Zn + 2HCl → ZnCl2 + H2",
+      "c": "2Zn + HCl → 2ZnCl + H2",
+      "d": "Zn + HCl → ZnCl2 + 2H"
+    },
+    "answer": "b",
+    "id": 1584
+  },
+  {
+    "question": "A student adds a few drops of barium chloride solution to sodium sulphate solution. What observation can be expected?",
+    "options": {
+      "a": "Colorless solution is formed.",
+      "b": "White precipitate is formed.",
+      "c": "Brown fumes are evolved.",
+      "d": "No visible change is observed."
+    },
+    "answer": "b",
+    "id": 1585
+  },
+  {
+    "question": "When lead nitrate is heated, brown fumes are evolved. What is the chemical formula of the gas responsible for brown fumes?",
+    "options": {
+      "a": "N2O",
+      "b": "NO2",
+      "c": "N2O3",
+      "d": "NO"
+    },
+    "answer": "b",
+    "id": 1586
+  },
+  {
+    "question": "In the electrolysis of water, the ratio of the volumes of gases liberated at cathode and anode is:",
+    "options": {
+      "a": "1:1",
+      "b": "1:2",
+      "c": "2:1",
+      "d": "3:1"
+    },
+    "answer": "c",
+    "id": 1587
+  },
+  {
+    "question": "Which of the following is an exothermic reaction?",
+    "options": {
+      "a": "Dissolving ammonium chloride in water",
+      "b": "Burning of magnesium ribbon in air",
+      "c": "Photosynthesis",
+      "d": "Decomposition of silver chloride"
+    },
+    "answer": "b",
+    "id": 1588
+  },
+  {
+    "question": "The reaction between sodium hydroxide and hydrochloric acid is an example of:",
+    "options": {
+      "a": "Combination reaction",
+      "b": "Neutralization reaction",
+      "c": "Decomposition reaction",
+      "d": "Displacement reaction"
+    },
+    "answer": "b",
+    "id": 1589
+  },
+  {
+    "question": "Assertion: Rusting of iron is a slow process. Reason: Oxygen and moisture are required for rusting of iron.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are correct and Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is correct, but Reason is incorrect.",
+      "d": "Assertion is incorrect, but Reason is correct."
+    },
+    "answer": "a",
+    "id": 1590
+  },
+  {
+    "question": "Assertion: When quick lime is added to water, slaked lime is formed and heat is evolved. Reason: This reaction is a combination reaction.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is correct, but Reason is incorrect.",
+      "d": "Assertion is incorrect, but Reason is correct."
+    },
+    "answer": "b",
+    "id": 1591
+  },
+  {
+    "question": "Assertion: Magnesium displaces copper from copper sulphate solution. Reason: Magnesium is more reactive than copper.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are correct and Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is correct, but Reason is incorrect.",
+      "d": "Assertion is incorrect, but Reason is correct."
+    },
+    "answer": "a",
+    "id": 1592
+  },
+  {
+    "question": "Assertion: Respiration is an endothermic process. Reason: Energy is released during respiration.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are correct and Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is correct, but Reason is incorrect.",
+      "d": "Assertion is incorrect, but Reason is correct."
+    },
+    "answer": "d",
+    "id": 1593
+  },
+  {
+    "question": "When magnesium is burnt in air, it produces a white powder called magnesium oxide. This reaction is an example of:",
+    "options": {
+      "a": "Decomposition reaction",
+      "b": "Combination reaction",
+      "c": "Displacement reaction",
+      "d": "Double displacement reaction"
+    },
+    "answer": "b",
+    "id": 1595
+  },
+  {
+    "question": "Iron reacts with copper sulphate to form iron sulphate and copper. In this reaction, which substance is oxidized?",
+    "options": {
+      "a": "Iron",
+      "b": "Copper sulphate",
+      "c": "Iron sulphate",
+      "d": "Copper"
+    },
+    "answer": "a",
+    "id": 1596
+  },
+  {
+    "question": "Silver chloride turns grey when exposed to sunlight. This reaction is an example of:",
+    "options": {
+      "a": "Thermal decomposition",
+      "b": "Electrolytic decomposition",
+      "c": "Photolytic decomposition",
+      "d": "Oxidation"
+    },
+    "answer": "c",
+    "id": 1597
+  },
+  {
+    "question": "Which of the following is not a characteristic of a chemical reaction?",
+    "options": {
+      "a": "Change in state",
+      "b": "Change in color",
+      "c": "Evolution of gas",
+      "d": "Change in shape"
+    },
+    "answer": "d",
+    "id": 1598
+  },
+  {
+    "question": "Lead nitrate on heating produces lead oxide, nitrogen dioxide and oxygen. This reaction is an example of:",
+    "options": {
+      "a": "Combination reaction",
+      "b": "Displacement reaction",
+      "c": "Decomposition reaction",
+      "d": "Double displacement reaction"
+    },
+    "answer": "c",
+    "id": 1599
+  },
+  {
+    "question": "What is the balanced chemical equation for the reaction between zinc and dilute hydrochloric acid?",
+    "options": {
+      "a": "Zn + HCl → ZnCl + H",
+      "b": "Zn + 2HCl → ZnCl2 + H2",
+      "c": "2Zn + HCl → 2ZnCl + H2",
+      "d": "Zn + HCl → ZnCl2 + 2H"
+    },
+    "answer": "b",
+    "id": 1600
+  },
+  {
+    "question": "A student adds a few drops of barium chloride solution to sodium sulphate solution. What observation can be expected?",
+    "options": {
+      "a": "Colorless solution is formed.",
+      "b": "White precipitate is formed.",
+      "c": "Brown fumes are evolved.",
+      "d": "No visible change is observed."
+    },
+    "answer": "b",
+    "id": 1601
+  },
+  {
+    "question": "When lead nitrate is heated, brown fumes are evolved. What is the chemical formula of the gas responsible for brown fumes?",
+    "options": {
+      "a": "N2O",
+      "b": "NO2",
+      "c": "N2O3",
+      "d": "NO"
+    },
+    "answer": "b",
+    "id": 1602
+  },
+  {
+    "question": "In the electrolysis of water, the ratio of the volumes of gases liberated at cathode and anode is:",
+    "options": {
+      "a": "1:1",
+      "b": "1:2",
+      "c": "2:1",
+      "d": "3:1"
+    },
+    "answer": "c",
+    "id": 1603
+  },
+  {
+    "question": "Which of the following is an exothermic reaction?",
+    "options": {
+      "a": "Dissolving ammonium chloride in water",
+      "b": "Burning of magnesium ribbon in air",
+      "c": "Photosynthesis",
+      "d": "Decomposition of silver chloride"
+    },
+    "answer": "b",
+    "id": 1604
+  },
+  {
+    "question": "The reaction between sodium hydroxide and hydrochloric acid is an example of:",
+    "options": {
+      "a": "Combination reaction",
+      "b": "Neutralization reaction",
+      "c": "Decomposition reaction",
+      "d": "Displacement reaction"
+    },
+    "answer": "b",
+    "id": 1605
+  },
+  {
+    "question": "Assertion: Rusting of iron is a slow process. Reason: Oxygen and moisture are required for rusting of iron.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are correct and Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is correct, but Reason is incorrect.",
+      "d": "Assertion is incorrect, but Reason is correct."
+    },
+    "answer": "a",
+    "id": 1606
+  },
+  {
+    "question": "Assertion: Magnesium displaces copper from copper sulphate solution. Reason: Magnesium is more reactive than copper.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are correct and Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is correct, but Reason is incorrect.",
+      "d": "Assertion is incorrect, but Reason is correct."
+    },
+    "answer": "a",
+    "id": 1608
+  },
+  {
+    "question": "Assertion: Respiration is an endothermic process. Reason: Energy is released during respiration.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reason are correct and Reason is not the correct explanation for Assertion.",
+      "c": "Assertion is correct, but Reason is incorrect.",
+      "d": "Assertion is incorrect, but Reason is correct."
+    },
+    "answer": "d",
+    "id": 1609
+  },
+  {
+    "question": "What happens when a piece of magnesium ribbon is burnt in air?",
+    "options": {
+      "a": "It melts and forms a silvery liquid.",
+      "b": "It burns with a dazzling white flame and forms a white powder.",
+      "c": "It turns black and releases a pungent gas.",
+      "d": "It does not react with air."
+    },
+    "answer": "b",
+    "id": 1611
+  },
+  {
+    "question": "Which gas is evolved when zinc reacts with dilute sulphuric acid?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Hydrogen",
+      "c": "Carbon dioxide",
+      "d": "Nitrogen"
+    },
+    "answer": "b",
+    "id": 1612
+  },
+  {
+    "question": "What is the chemical formula of rust?",
+    "options": {
+      "a": "FeO",
+      "b": "Fe2O3",
+      "c": "Fe3O4",
+      "d": "Fe(OH)3"
+    },
+    "answer": "b",
+    "id": 1613
+  },
+  {
+    "question": "What is the colour of copper sulphate solution?",
+    "options": {
+      "a": "Green",
+      "b": "Blue",
+      "c": "Brown",
+      "d": "Colorless"
+    },
+    "answer": "b",
+    "id": 1614
+  },
+  {
+    "question": "What happens when iron nails are dipped in copper sulphate solution?",
+    "options": {
+      "a": "The solution turns green and a brown deposit is formed on the nails.",
+      "b": "The solution turns colorless and a black deposit is formed on the nails.",
+      "c": "The solution turns light blue and a grey deposit is formed on the nails.",
+      "d": "The solution turns colorless and a reddish-brown deposit is formed on the nails."
+    },
+    "answer": "d",
+    "id": 1615
+  },
+  {
+    "question": "Which of the following is a decomposition reaction?",
+    "options": {
+      "a": "CaO + H2O → Ca(OH)2",
+      "b": "2H2 + O2 → 2H2O",
+      "c": "2HgO → 2Hg + O2",
+      "d": "Fe + CuSO4 → FeSO4 + Cu"
+    },
+    "answer": "c",
+    "id": 1616
+  },
+  {
+    "question": "What is the chemical name of quick lime?",
+    "options": {
+      "a": "Calcium hydroxide",
+      "b": "Calcium carbonate",
+      "c": "Calcium oxide",
+      "d": "Calcium chloride"
+    },
+    "answer": "c",
+    "id": 1617
+  },
+  {
+    "question": "What is the chemical name of baking soda?",
+    "options": {
+      "a": "Sodium carbonate",
+      "b": "Sodium bicarbonate",
+      "c": "Sodium hydroxide",
+      "d": "Sodium chloride"
+    },
+    "answer": "b",
+    "id": 1618
+  },
+  {
+    "question": "Which gas is used to prevent rancidity in food items?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Nitrogen",
+      "c": "Carbon dioxide",
+      "d": "Hydrogen"
+    },
+    "answer": "b",
+    "id": 1619
+  },
+  {
+    "question": "Which of the following is a redox reaction?",
+    "options": {
+      "a": "NaOH + HCl → NaCl + H2O",
+      "b": "CuO + H2 → Cu + H2O",
+      "c": "AgNO3 + NaCl → AgCl + NaNO3",
+      "d": "CaCO3 → CaO + CO2"
+    },
+    "answer": "b",
+    "id": 1620
+  },
+  {
+    "question": "Which of the following is not an example of corrosion?",
+    "options": {
+      "a": "Rusting of iron",
+      "b": "Tarnishing of silver",
+      "c": "Burning of magnesium",
+      "d": "Green coating on copper"
+    },
+    "answer": "c",
+    "id": 1621
+  },
+  {
+    "question": "Why should a magnesium ribbon be cleaned before burning in air?",
+    "options": {
+      "a": "To remove the oxide layer which may prevent or slow down the reaction.",
+      "b": "To make it more shiny.",
+      "c": "To increase its weight.",
+      "d": "To make it more flexible."
+    },
+    "answer": "a",
+    "id": 1622
+  },
+  {
+    "question": "Balance the equation:  Fe + H2O → Fe3O4 + H2",
+    "options": {
+      "a": "Fe + 4H2O → Fe3O4 + 4H2",
+      "b": "2Fe + 3H2O → Fe3O4 + 3H2",
+      "c": "3Fe + 4H2O → Fe3O4 + 4H2",
+      "d": "Fe + 2H2O → Fe3O4 + 2H2"
+    },
+    "answer": "c",
+    "id": 1623
+  },
+  {
+    "question": "Which of the following is a double displacement reaction?",
+    "options": {
+      "a": "Zn + CuSO4 → ZnSO4 + Cu",
+      "b": "Na2SO4 + BaCl2 → BaSO4 + 2NaCl",
+      "c": "2Mg + O2 → 2MgO",
+      "d": "2H2O → 2H2 + O2"
+    },
+    "answer": "b",
+    "id": 1624
+  },
+  {
+    "question": "What is the colour of the precipitate formed when lead nitrate reacts with potassium iodide?",
+    "options": {
+      "a": "White",
+      "b": "Yellow",
+      "c": "Brown",
+      "d": "Black"
+    },
+    "answer": "b",
+    "id": 1625
+  },
+  {
+    "question": "Assertion: Burning of coal is an exothermic reaction. Reason: Heat is absorbed during burning of coal.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true, but reason is not the correct explanation of assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Both assertion and reason are false."
+    },
+    "answer": "c",
+    "id": 1626
+  },
+  {
+    "question": "Assertion: Electrolysis of water produces hydrogen and oxygen gas. Reason: Electrolysis is a decomposition reaction caused by the passage of electricity.",
+    "options": {
+      "a": "Both assertion and reason are true and the reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion.",
+      "c": "Assertion is true but reason is false.",
+      "d": "Both assertion and reason are false."
+    },
+    "answer": "a",
+    "id": 1627
+  },
+  {
+    "question": "Assertion: A balanced chemical equation follows the law of conservation of mass. Reason: Number of atoms of each element on reactant side and product side in a balanced equation are equal.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true, but reason is not the correct explanation of assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Both assertion and reason are false."
+    },
+    "answer": "a",
+    "id": 1628
+  },
+  {
+    "question": "What type of reaction is the rusting of iron?",
+    "options": {
+      "a": "Combination reaction",
+      "b": "Decomposition reaction",
+      "c": "Oxidation reaction",
+      "d": "Reduction reaction"
+    },
+    "answer": "c",
+    "id": 1629
+  },
+  {
+    "question": "What is produced when calcium oxide reacts with water?",
+    "options": {
+      "a": "Calcium hydroxide and hydrogen gas",
+      "b": "Calcium hydroxide and heat",
+      "c": "Calcium carbonate and heat",
+      "d": "Calcium chloride and hydrogen gas"
+    },
+    "answer": "b",
+    "id": 1631
+  },
+  {
+    "question": "In the reaction between zinc and silver nitrate, what is oxidized?",
+    "options": {
+      "a": "Zinc",
+      "b": "Silver nitrate",
+      "c": "Zinc nitrate",
+      "d": "Silver"
+    },
+    "answer": "a",
+    "id": 1632
+  },
+  {
+    "question": "What is the role of a catalyst in a chemical reaction?",
+    "options": {
+      "a": "It increases the rate of the reaction without being consumed itself.",
+      "b": "It participates in the reaction and is consumed.",
+      "c": "It decreases the rate of the reaction.",
+      "d": "It has no effect on the reaction."
+    },
+    "answer": "a",
+    "id": 1633
+  },
+  {
+    "question": "What is the colour of ferrous sulphate crystals?",
+    "options": {
+      "a": "Blue",
+      "b": "Green",
+      "c": "Brown",
+      "d": "White"
+    },
+    "answer": "b",
+    "id": 1634
+  },
+  {
+    "question": "What gas is produced when calcium carbonate is heated strongly?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Hydrogen",
+      "c": "Carbon dioxide",
+      "d": "Carbon monoxide"
+    },
+    "answer": "c",
+    "id": 1635
+  },
+  {
+    "question": "What type of reaction is represented by the following equation: AB + CD → AD + CB?",
+    "options": {
+      "a": "Combination reaction",
+      "b": "Decomposition reaction",
+      "c": "Displacement reaction",
+      "d": "Double displacement reaction"
+    },
+    "answer": "d",
+    "id": 1636
+  },
+  {
+    "question": "In which of the following is hydrogen getting oxidized?",
+    "options": {
+      "a": "H2 + Cl2 → 2HCl",
+      "b": "2Na + H2O → 2NaOH + H2",
+      "c": "CuO + H2 → Cu + H2O",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "id": 1637
+  },
+  {
+    "question": "Which of the following is an endothermic reaction?",
+    "options": {
+      "a": "Burning of magnesium ribbon",
+      "b": "Formation of water",
+      "c": "Decomposition of silver chloride by light",
+      "d": "Neutralization reaction"
+    },
+    "answer": "c",
+    "id": 1638
+  }
+]

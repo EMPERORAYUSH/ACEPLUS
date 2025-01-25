@@ -1,0 +1,695 @@
+[
+  {
+    "question": "Which of the following is NOT a characteristic of matter?",
+    "options": {
+      "a": "It occupies space.",
+      "b": "It can be perceived by our senses.",
+      "c": "It has mass.",
+      "d": "It is made up of tiny particles."
+    },
+    "answer": "b",
+    "id": 276
+  },
+  {
+    "question": "What happens to the particles of potassium permanganate when dissolved in water?",
+    "options": {
+      "a": "They disappear completely.",
+      "b": "They settle at the bottom.",
+      "c": "They spread throughout the water.",
+      "d": "They chemically react with water."
+    },
+    "answer": "c",
+    "id": 277
+  },
+  {
+    "question": "The smell of hot food reaches us faster than cold food because...",
+    "options": {
+      "a": "Hot food releases more aromatic particles.",
+      "b": "Heat makes the air thinner, allowing faster diffusion.",
+      "c": "Particles in hot food have higher kinetic energy and diffuse faster.",
+      "d": "Cold food particles are heavier and move slower."
+    },
+    "answer": "c",
+    "id": 278
+  },
+  {
+    "question": "Which activity demonstrates the high compressibility of gases?",
+    "options": {
+      "a": "Dissolving sugar in water.",
+      "b": "Filling a balloon with air.",
+      "c": "Melting ice into water.",
+      "d": "Stretching a rubber band."
+    },
+    "answer": "b",
+    "id": 279
+  },
+  {
+    "question": "The intermixing of particles of two different types of matter on their own is called...",
+    "options": {
+      "a": "Sublimation",
+      "b": "Evaporation",
+      "c": "Diffusion",
+      "d": "Condensation"
+    },
+    "answer": "c",
+    "id": 280
+  },
+  {
+    "question": "Which of the following has the strongest force of attraction between its particles?",
+    "options": {
+      "a": "Oxygen gas",
+      "b": "Water",
+      "c": "Iron nail",
+      "d": "Kerosene oil"
+    },
+    "answer": "c",
+    "id": 281
+  },
+  {
+    "question": "A substance has a definite volume but takes the shape of its container. This substance is a...",
+    "options": {
+      "a": "Solid",
+      "b": "Liquid",
+      "c": "Gas",
+      "d": "Plasma"
+    },
+    "answer": "b",
+    "id": 282
+  },
+  {
+    "question": "Why are gases easily compressible?",
+    "options": {
+      "a": "Their particles have strong forces of attraction.",
+      "b": "Their particles are closely packed together.",
+      "c": "Their particles have very high kinetic energy.",
+      "d": "There are large spaces between their particles."
+    },
+    "answer": "d",
+    "id": 283
+  },
+  {
+    "question": "The process of changing a liquid into a gas at any temperature below its boiling point is called...",
+    "options": {
+      "a": "Evaporation",
+      "b": "Boiling",
+      "c": "Sublimation",
+      "d": "Condensation"
+    },
+    "answer": "a",
+    "id": 284
+  },
+  {
+    "question": "Which of the following is an example of sublimation?",
+    "options": {
+      "a": "Ice melting into water",
+      "b": "Water boiling into steam",
+      "c": "Camphor disappearing when kept in open air",
+      "d": "Dew forming on grass at night"
+    },
+    "answer": "c",
+    "id": 285
+  },
+  {
+    "question": "What happens to the kinetic energy of particles when a solid is heated?",
+    "options": {
+      "a": "It remains the same.",
+      "b": "It decreases.",
+      "c": "It increases.",
+      "d": "It becomes zero."
+    },
+    "answer": "c",
+    "id": 286
+  },
+  {
+    "question": "The temperature at which a solid melts to become a liquid at atmospheric pressure is called its...",
+    "options": {
+      "a": "Boiling point",
+      "b": "Freezing point",
+      "c": "Melting point",
+      "d": "Condensation point"
+    },
+    "answer": "c",
+    "id": 287
+  },
+  {
+    "question": "During a change of state, the temperature of a substance...",
+    "options": {
+      "a": "Increases",
+      "b": "Decreases",
+      "c": "Remains constant",
+      "d": "Fluctuates randomly"
+    },
+    "answer": "c",
+    "id": 288
+  },
+  {
+    "question": "The amount of heat energy required to change 1 kg of a solid into liquid at atmospheric pressure at its melting point is known as...",
+    "options": {
+      "a": "Latent heat of fusion",
+      "b": "Latent heat of vaporisation",
+      "c": "Specific heat capacity",
+      "d": "Heat of combustion"
+    },
+    "answer": "a",
+    "id": 289
+  },
+  {
+    "question": "Why does our palm feel cold when we put some acetone on it?",
+    "options": {
+      "a": "Acetone has a low temperature.",
+      "b": "Acetone absorbs heat from our palm to evaporate.",
+      "c": "Acetone reacts chemically with our skin.",
+      "d": "Acetone is a good conductor of heat."
+    },
+    "answer": "b",
+    "id": 290
+  },
+  {
+    "question": "Which of the following factors does NOT affect the rate of evaporation?",
+    "options": {
+      "a": "Temperature",
+      "b": "Surface area",
+      "c": "Humidity",
+      "d": "Pressure"
+    },
+    "answer": "d",
+    "id": 291
+  },
+  {
+    "question": "Assertion: Wet clothes dry faster on a windy day. \nReason: Increased wind speed increases the rate of evaporation.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 292
+  },
+  {
+    "question": "Assertion: The temperature of water remains constant during boiling even though heat is being supplied. \nReason: The heat supplied is used to overcome the forces of attraction between the particles during the change of state.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 293
+  },
+  {
+    "question": "A student observes that solid carbon dioxide directly changes into a gas when kept at room temperature. This process is called:",
+    "options": {
+      "a": "Sublimation",
+      "b": "Evaporation",
+      "c": "Boiling",
+      "d": "Condensation"
+    },
+    "answer": "a",
+    "id": 294
+  },
+  {
+    "question": "A student is given two beakers, one containing 50ml of water and the other containing 50ml of honey. Which property of matter will be different for both?",
+    "options": {
+      "a": "Volume",
+      "b": "Mass",
+      "c": "Shape",
+      "d": "Compressibility"
+    },
+    "answer": "b",
+    "id": 295
+  },
+  {
+    "question": "A student wants to demonstrate that gases have no fixed shape. Which of the following activities would be most suitable?",
+    "options": {
+      "a": "Trying to compress air in a syringe.",
+      "b": "Observing the shape of an inflated balloon.",
+      "c": "Measuring the volume of water displaced by a stone.",
+      "d": "Adding sugar to water and observing its dissolution."
+    },
+    "answer": "b",
+    "id": 296
+  },
+  {
+    "question": "Why is it advisable to wear cotton clothes during summer?",
+    "options": {
+      "a": "Cotton is a good conductor of heat.",
+      "b": "Cotton allows easy evaporation of sweat, causing a cooling effect.",
+      "c": "Cotton prevents sweating.",
+      "d": "Cotton is waterproof and keeps the body dry."
+    },
+    "answer": "b",
+    "id": 297
+  },
+  {
+    "question": "Which of the following phenomena explains why we see water droplets on the outer surface of a glass containing ice-cold water?",
+    "options": {
+      "a": "Melting",
+      "b": "Evaporation",
+      "c": "Condensation",
+      "d": "Sublimation"
+    },
+    "answer": "c",
+    "id": 298
+  },
+  {
+    "question": "A student wants to compare the rates of diffusion of two gases, oxygen and carbon dioxide. Which of the following setups would be most appropriate?",
+    "options": {
+      "a": "Two identical balloons filled with the respective gases and released simultaneously.",
+      "b": "Two beakers, one containing water and the other containing oil, with each gas bubbled into them.",
+      "c": "Two jars, one containing each gas, connected by a tube with a porous partition in the middle.",
+      "d": "Two test tubes, one containing each gas, heated simultaneously."
+    },
+    "answer": "c",
+    "id": 299
+  },
+  {
+    "question": "A student is asked to determine the melting point of ice. What precaution should the student take while conducting the experiment?",
+    "options": {
+      "a": "The thermometer bulb should be dipped in the ice but not touch the container.",
+      "b": "The ice should be crushed into very fine pieces.",
+      "c": "The ice should be heated rapidly.",
+      "d": "The experiment should be conducted in direct sunlight."
+    },
+    "answer": "a",
+    "id": 300
+  },
+  {
+    "question": "A student performs an experiment to demonstrate the effect of temperature on the rate of evaporation. Which of the following would be the best way to increase the rate of evaporation?",
+    "options": {
+      "a": "Increasing the humidity of the surroundings.",
+      "b": "Decreasing the surface area of the liquid.",
+      "c": "Placing the liquid in a closed container.",
+      "d": "Increasing the air flow over the liquid."
+    },
+    "answer": "d",
+    "id": 301
+  },
+  {
+    "question": "Which of the following statements is NOT true about the particles of matter in the gaseous state?",
+    "options": {
+      "a": "They have high kinetic energy.",
+      "b": "They are constantly moving in random directions.",
+      "c": "They have strong forces of attraction between them.",
+      "d": "They are far apart from each other."
+    },
+    "answer": "c",
+    "id": 302
+  },
+  {
+    "question": "A student wants to demonstrate the process of deposition. Which of the following activities would be most suitable?",
+    "options": {
+      "a": "Heating iodine crystals and observing the formation of iodine vapor.",
+      "b": "Cooling water vapor in a closed container and observing the formation of water droplets.",
+      "c": "Placing a cold metal spoon near a steaming kettle and observing the formation of water droplets on the spoon.",
+      "d": "Melting ice cubes and observing the formation of liquid water."
+    },
+    "answer": "c",
+    "id": 303
+  },
+  {
+    "question": "A student is asked to explain why a gas fills the entire volume of its container. Which of the following statements provides the most accurate explanation?",
+    "options": {
+      "a": "Gas particles have a fixed shape and volume.",
+      "b": "Gas particles have negligible mass.",
+      "c": "Gas particles have high kinetic energy and weak forces of attraction, allowing them to move freely.",
+      "d": "Gas particles are very large and collide frequently with the walls of the container."
+    },
+    "answer": "c",
+    "id": 304
+  },
+  {
+    "question": "Which of the following processes requires the absorption of latent heat?",
+    "options": {
+      "a": "Freezing of water into ice.",
+      "b": "Condensation of water vapor into liquid water.",
+      "c": "Evaporation of liquid water into water vapor.",
+      "d": "Sublimation of dry ice into carbon dioxide gas."
+    },
+    "answer": "c",
+    "id": 305
+  },
+  {
+    "question": "A student wants to compare the densities of two liquids, oil and water. Which of the following methods would be most accurate?",
+    "options": {
+      "a": "Measuring equal volumes of both liquids and comparing their masses.",
+      "b": "Measuring equal masses of both liquids and comparing their volumes.",
+      "c": "Observing which liquid floats on top of the other.",
+      "d": "Mixing both liquids and observing if they form a homogeneous mixture."
+    },
+    "answer": "a",
+    "id": 306
+  },
+  {
+    "question": "A student is given a solid substance and asked to determine whether it is a pure substance or a mixture. Which of the following properties would NOT be useful for this purpose?",
+    "options": {
+      "a": "Melting point",
+      "b": "Boiling point",
+      "c": "Density",
+      "d": "Shape"
+    },
+    "answer": "d",
+    "id": 307
+  },
+  {
+    "question": "Which of the following statements is NOT true about diffusion?",
+    "options": {
+      "a": "It is the movement of particles from a region of higher concentration to a region of lower concentration.",
+      "b": "It occurs in solids, liquids, and gases.",
+      "c": "It is faster at higher temperatures.",
+      "d": "It requires an external force to occur."
+    },
+    "answer": "d",
+    "id": 308
+  },
+  {
+    "question": "Which of these is NOT an example of matter changing state due to pressure changes?",
+    "options": {
+      "a": "Liquefied Petroleum Gas (LPG) stored in a cylinder.",
+      "b": "Ice melting into water on a hot day.",
+      "c": "Compressed Natural Gas (CNG) used as fuel in vehicles.",
+      "d": "Dry ice (solid carbon dioxide) changing directly into gas."
+    },
+    "answer": "b",
+    "id": 309
+  },
+  {
+    "question": "Which of the following examples best illustrates that particles of matter have space between them?",
+    "options": {
+      "a": "A balloon bursting when filled with too much air.",
+      "b": "The smell of perfume spreading in a room.",
+      "c": "Iron filings getting attracted to a magnet.",
+      "d": "Water taking the shape of the container it is poured into."
+    },
+    "answer": "b",
+    "id": 310
+  },
+  {
+    "question": "Imagine a group of children holding hands in a line. If we consider each child as a particle, which state of matter does this line best represent?",
+    "options": {
+      "a": "Solid",
+      "b": "Liquid",
+      "c": "Gas",
+      "d": "Plasma"
+    },
+    "answer": "a",
+    "id": 311
+  },
+  {
+    "question": "On a humid day, why do wet clothes take a longer time to dry?",
+    "options": {
+      "a": "Water evaporates faster on humid days.",
+      "b": "The air on humid days can hold less water vapor, slowing down evaporation.",
+      "c": "Humidity has no effect on the rate of evaporation.",
+      "d": "High humidity increases the kinetic energy of water particles in the clothes."
+    },
+    "answer": "b",
+    "id": 312
+  },
+  {
+    "question": "A student observes that the level of water in a beaker decreases after a few days, even though the beaker was covered. What is the most likely explanation for this observation?",
+    "options": {
+      "a": "The water has undergone sublimation.",
+      "b": "The water has evaporated into the air inside the beaker, even though the beaker is covered.",
+      "c": "The water has seeped through the walls of the beaker.",
+      "d": "The water has reacted chemically with the air inside the beaker."
+    },
+    "answer": "b",
+    "id": 313
+  },
+  {
+    "question": "A student wants to demonstrate that the rate of evaporation increases with an increase in surface area. Which of the following activities would be most suitable?",
+    "options": {
+      "a": "Placing equal volumes of water in a beaker and a test tube and observing which one dries faster.",
+      "b": "Placing equal volumes of water in a wide, shallow dish and a narrow, deep beaker and observing which one dries faster.",
+      "c": "Heating equal volumes of water in a beaker and a test tube and observing which one boils faster.",
+      "d": "Freezing equal volumes of water in a beaker and a test tube and observing which one melts faster."
+    },
+    "answer": "b",
+    "id": 314
+  },
+  {
+    "question": "Why is it easier to compress a gas compared to a solid or a liquid?",
+    "options": {
+      "a": "The particles in a gas are much smaller than those in a solid or a liquid.",
+      "b": "The forces of attraction between particles are much stronger in a gas.",
+      "c": "The particles in a gas are much closer together than those in a solid or a liquid.",
+      "d": "The spaces between the particles are much larger in a gas compared to a solid or a liquid."
+    },
+    "answer": "d",
+    "id": 315
+  },
+  {
+    "question": "What happens to the temperature of a substance when it is undergoing a change of state, such as melting or boiling?",
+    "options": {
+      "a": "The temperature increases.",
+      "b": "The temperature decreases.",
+      "c": "The temperature remains constant.",
+      "d": "The temperature fluctuates."
+    },
+    "answer": "c",
+    "id": 316
+  },
+  {
+    "question": "What is the SI unit of measuring temperature?",
+    "options": {
+      "a": "Celsius (°C)",
+      "b": "Fahrenheit (°F)",
+      "c": "Kelvin (K)",
+      "d": "Joule (J)"
+    },
+    "answer": "c",
+    "id": 317
+  },
+  {
+    "question": "Which of the following statements is NOT true about the particles of matter in the solid state?",
+    "options": {
+      "a": "They are closely packed together.",
+      "b": "They have a fixed shape and volume.",
+      "c": "They are constantly moving in random directions.",
+      "d": "They have strong forces of attraction between them."
+    },
+    "answer": "c",
+    "id": 318
+  },
+  {
+    "question": "Which of the following is an example of a substance undergoing sublimation?",
+    "options": {
+      "a": "Ice melting into water.",
+      "b": "Water boiling into steam.",
+      "c": "Dry ice changing directly into carbon dioxide gas.",
+      "d": "Water vapor condensing into liquid water."
+    },
+    "answer": "c",
+    "id": 319
+  },
+  {
+    "question": "Why does a gas exert pressure on the walls of its container?",
+    "options": {
+      "a": "The gas particles are attracted to the walls of the container.",
+      "b": "The gas particles collide with each other and with the walls of the container.",
+      "c": "The gas particles have a fixed shape and volume.",
+      "d": "The gas particles are very heavy."
+    },
+    "answer": "b",
+    "id": 320
+  },
+  {
+    "question": "Which of the following factors affects the rate of diffusion of a gas?",
+    "options": {
+      "a": "Temperature of the gas",
+      "b": "Pressure of the gas",
+      "c": "Molecular mass of the gas",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 321
+  },
+  {
+    "question": "What is the difference between evaporation and boiling?",
+    "options": {
+      "a": "Evaporation occurs only at the surface of a liquid, while boiling occurs throughout the liquid.",
+      "b": "Evaporation occurs at a specific temperature, while boiling can occur at any temperature.",
+      "c": "Evaporation requires energy, while boiling releases energy.",
+      "d": "Evaporation is a physical change, while boiling is a chemical change."
+    },
+    "answer": "a",
+    "id": 322
+  },
+  {
+    "question": "Which of the following statements is true about latent heat?",
+    "options": {
+      "a": "It is the heat energy required to change the temperature of a substance.",
+      "b": "It is the heat energy released or absorbed during a change of state.",
+      "c": "It is the same for all substances.",
+      "d": "It is not affected by temperature."
+    },
+    "answer": "b",
+    "id": 323
+  },
+  {
+    "question": "Why do we feel cooler when we sprinkle water on our face on a hot day?",
+    "options": {
+      "a": "The water lowers the temperature of the air around us.",
+      "b": "The water absorbs heat from our skin to evaporate.",
+      "c": "The water is a good conductor of heat.",
+      "d": "The water reflects heat away from our skin."
+    },
+    "answer": "b",
+    "id": 324
+  },
+  {
+    "question": "Why do we use a pressure cooker to cook food at higher altitudes?",
+    "options": {
+      "a": "The atmospheric pressure is lower at higher altitudes, which lowers the boiling point of water.",
+      "b": "The atmospheric pressure is higher at higher altitudes, which raises the boiling point of water.",
+      "c": "The pressure cooker reduces the cooking time by increasing the surface area of the food.",
+      "d": "The pressure cooker prevents the food from burning."
+    },
+    "answer": "a",
+    "id": 325
+  },
+  {
+    "question": "Which of the following processes is used to separate a mixture of salt and water?",
+    "options": {
+      "a": "Filtration",
+      "b": "Evaporation",
+      "c": "Distillation",
+      "d": "Chromatography"
+    },
+    "answer": "c",
+    "id": 326
+  },
+  {
+    "question": "Why do gases diffuse faster at higher temperatures?",
+    "options": {
+      "a": "The particles in a gas have more kinetic energy at higher temperatures.",
+      "b": "The forces of attraction between particles are weaker at higher temperatures.",
+      "c": "The particles in a gas are closer together at higher temperatures.",
+      "d": "The pressure of a gas is lower at higher temperatures."
+    },
+    "answer": "a",
+    "id": 327
+  },
+  {
+    "question": "Why is it difficult to cut through a solid block of wood with our bare hands?",
+    "options": {
+      "a": "The particles in a solid are very far apart.",
+      "b": "The forces of attraction between particles are very weak in a solid.",
+      "c": "The particles in a solid are constantly moving in random directions.",
+      "d": "The particles in a solid are closely packed and have strong forces of attraction between them."
+    },
+    "answer": "d",
+    "id": 328
+  },
+  {
+    "question": "A student claims that all matter can be classified into five basic elements as per ancient Indian philosophy. How would you critically evaluate this claim in light of modern scientific understanding?",
+    "options": {
+      "a": "The claim is entirely correct as it aligns with modern scientific classification.",
+      "b": "The claim is partially correct as it represents a historical perspective but is not comprehensive in terms of modern science.",
+      "c": "The claim is incorrect as modern science has completely disproved the existence of these five elements.",
+      "d": "The claim is irrelevant to modern scientific understanding and should be disregarded entirely."
+    },
+    "answer": "b",
+    "id": 329
+  },
+  {
+    "question": "Consider the statement: 'The particles of matter are small beyond our imagination.' How might this concept challenge our everyday understanding of the physical world?",
+    "options": {
+      "a": "It doesn't challenge our understanding as we can easily see and manipulate individual particles.",
+      "b": "It challenges our understanding by suggesting that what we perceive as solid objects are mostly empty space.",
+      "c": "It only applies to certain types of matter and doesn't affect our general understanding.",
+      "d": "It's an exaggeration and doesn't actually impact our understanding of the physical world."
+    },
+    "answer": "b",
+    "id": 330
+  },
+  {
+    "question": "How might the concept of diffusion in gases be used to critically analyze the effectiveness of social distancing measures during a pandemic?",
+    "options": {
+      "a": "It's irrelevant as diffusion only applies to gases, not to viruses or bacteria.",
+      "b": "It supports the idea that greater distance reduces the concentration of potentially infectious particles in the air.",
+      "c": "It suggests that social distancing is ineffective because gases will diffuse regardless of distance.",
+      "d": "It implies that indoor spaces are always safer than outdoor spaces due to limited diffusion."
+    },
+    "answer": "b",
+    "id": 331
+  },
+  {
+    "question": "A student argues that since liquids take the shape of their container, they have no fixed shape and therefore no definite volume. Critically evaluate this argument.",
+    "options": {
+      "a": "The argument is correct as liquids indeed have no fixed shape.",
+      "b": "The argument is partially correct about shape but incorrectly concludes about volume.",
+      "c": "The argument is entirely incorrect as liquids have both fixed shape and volume.",
+      "d": "The argument is irrelevant as shape and volume are unrelated properties."
+    },
+    "answer": "b",
+    "id": 332
+  },
+  {
+    "question": "How might understanding the concept of latent heat impact our approach to global warming and climate change mitigation strategies?",
+    "options": {
+      "a": "It's irrelevant as latent heat only applies to individual substances, not global climate.",
+      "b": "It could help explain why melting ice caps don't immediately lead to temperature increases.",
+      "c": "It suggests that we should focus on increasing global temperatures to absorb more latent heat.",
+      "d": "It implies that climate change is a natural process that we can't influence."
+    },
+    "answer": "b",
+    "id": 333
+  },
+  {
+    "question": "Critically analyze the statement: 'Gases are highly compressible compared to solids and liquids.' How might this property be both advantageous and potentially dangerous in real-world applications?",
+    "options": {
+      "a": "It's only advantageous as it allows for efficient storage and transport of gases.",
+      "b": "It's only dangerous as it can lead to explosive decompression in pressurized containers.",
+      "c": "It's neither advantageous nor dangerous as it doesn't affect real-world applications.",
+      "d": "It can be both advantageous for storage and transport, and dangerous if not properly managed."
+    },
+    "answer": "d",
+    "id": 334
+  },
+  {
+    "question": "How might the concept of evaporative cooling challenge our intuitive understanding of the relationship between temperature and energy?",
+    "options": {
+      "a": "It doesn't challenge our understanding as higher temperatures always mean more energy.",
+      "b": "It suggests that cooling can occur without the removal of energy from a system.",
+      "c": "It implies that evaporation always leads to an increase in temperature.",
+      "d": "It shows that energy can be removed from a system without decreasing its temperature."
+    },
+    "answer": "d",
+    "id": 335
+  },
+  {
+    "question": "A student proposes that since particles in steam have more energy than particles in water at the same temperature, steam should always feel hotter than boiling water. Critically evaluate this proposal.",
+    "options": {
+      "a": "The proposal is correct as steam always contains more energy than boiling water.",
+      "b": "The proposal is incorrect as temperature, not energy content, determines how hot something feels.",
+      "c": "The proposal is partially correct but doesn't account for the energy released during condensation.",
+      "d": "The proposal is irrelevant as steam and boiling water can't exist at the same temperature."
+    },
+    "answer": "c",
+    "id": 336
+  },
+  {
+    "question": "How might the concept of sublimation challenge our common understanding of the states of matter and phase transitions?",
+    "options": {
+      "a": "It doesn't challenge our understanding as all substances can sublimate.",
+      "b": "It suggests that the solid-liquid-gas sequence is not the only possible phase transition pathway.",
+      "c": "It implies that there are more than three states of matter.",
+      "d": "It shows that phase transitions are not related to changes in energy or pressure."
+    },
+    "answer": "b",
+    "id": 337
+  },
+  {
+    "question": "Critically analyze the effectiveness of wearing cotton clothes in summer from a scientific perspective. What factors might limit its cooling effect?",
+    "options": {
+      "a": "It's always effective as cotton absorbs sweat and promotes evaporation.",
+      "b": "It's ineffective as synthetic materials are always cooler than natural fibers.",
+      "c": "Its effectiveness may be limited in high humidity environments where evaporation is slower.",
+      "d": "The type of fabric is irrelevant to body temperature regulation."
+    },
+    "answer": "c",
+    "id": 338
+  }
+]

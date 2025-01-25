@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Globalization is primarily characterized by which of the following?",
+    "options": {
+      "a": "Increased isolation of countries",
+      "b": "Decreased flow of goods and services",
+      "c": "Increased interconnectedness and interdependence",
+      "d": "Decreased cultural exchange"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a key aspect of globalization?",
+    "options": {
+      "a": "Integration of markets",
+      "b": "Increased trade barriers",
+      "c": "Flow of capital across borders",
+      "d": "Technological advancements"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "MNCs play a significant role in globalization by:",
+    "options": {
+      "a": "Restricting their operations to their home country",
+      "b": "Establishing production facilities in multiple countries",
+      "c": "Discouraging foreign investment",
+      "d": "Promoting local businesses exclusively"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The process of rapid integration or interconnection between countries is known as:",
+    "options": {
+      "a": "Localization",
+      "b": "Globalization",
+      "c": "Nationalization",
+      "d": "Privatization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following best describes the role of foreign trade in connecting markets?",
+    "options": {
+      "a": "It limits the choice of goods for consumers.",
+      "b": "It creates opportunities for producers to reach beyond domestic markets.",
+      "c": "It leads to segregation of markets.",
+      "d": "It increases the prices of goods in all markets."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Foreign investment by MNCs has been primarily directed towards:",
+    "options": {
+      "a": "Countries with high production costs",
+      "b": "Countries with limited market potential",
+      "c": "Countries offering cheap resources and labor",
+      "d": "Countries with stringent trade regulations"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a factor that has enabled globalization?",
+    "options": {
+      "a": "Improvements in transportation",
+      "b": "Advances in information technology",
+      "c": "Increased trade restrictions",
+      "d": "Rise of multinational corporations"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The internet has facilitated globalization by:",
+    "options": {
+      "a": "Slowing down communication",
+      "b": "Limiting access to information",
+      "c": "Enabling instant communication and information sharing",
+      "d": "Increasing the cost of international transactions"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Improvements in transportation technology have contributed to globalization by:",
+    "options": {
+      "a": "Making the movement of goods slower and more expensive",
+      "b": "Facilitating faster and cheaper delivery of goods",
+      "c": "Limiting the volume of goods that can be transported",
+      "d": "Increasing the complexity of logistics"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Containerization has revolutionized global trade by:",
+    "options": {
+      "a": "Increasing handling costs at ports",
+      "b": "Reducing the speed of shipping",
+      "c": "Standardizing cargo and reducing handling costs",
+      "d": "Making it difficult to transport goods by air"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The reduction in the cost of air transport has:",
+    "options": {
+      "a": "Decreased the volume of goods transported by air",
+      "b": "Made air transport less accessible for businesses",
+      "c": "Enabled greater volumes of goods to be transported by air",
+      "d": "Increased the time taken for air cargo delivery"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Telecommunication facilities such as telegraph, telephone, and mobile phones have:",
+    "options": {
+      "a": "Hindered global communication",
+      "b": "Made it difficult to access information instantly",
+      "c": "Facilitated instant communication across the world",
+      "d": "Increased the cost of communication significantly"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is a direct result of greater foreign investment and greater foreign trade?",
+    "options": {
+      "a": "Greater disintegration of production",
+      "b": "Greater disintegration of markets across countries",
+      "c": "Greater integration of production and markets across countries",
+      "d": "Lesser integration of production and markets across countries"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The movement of people between countries in search of better opportunities is primarily driven by:",
+    "options": {
+      "a": "Increased restrictions on migration",
+      "b": "The desire for better income, jobs, or education",
+      "c": "The lack of opportunities in their home countries",
+      "d": "The decrease in global interconnectedness"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary impact of globalization on the movement of people between countries?",
+    "options": {
+      "a": "It has significantly decreased migration.",
+      "b": "It has made migration more difficult due to increased restrictions.",
+      "c": "It has led to a moderate increase in the movement of people for better opportunities.",
+      "d": "It has not affected the movement of people between countries."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Historically, trade routes played a crucial role in connecting distant regions. For instance, the Silk Road facilitated the exchange of goods, ideas, and cultures between the East and the West. These trade routes were instrumental in fostering economic growth and cultural exchange among different civilizations.\n**Question:** How did historical trade routes, such as the Silk Road, contribute to early forms of globalization?",
+    "options": {
+      "a": "By isolating regions and limiting cultural exchange",
+      "b": "By facilitating the exchange of goods, ideas, and cultures between distant regions",
+      "c": "By promoting self-sufficiency and reducing the need for trade",
+      "d": "By increasing conflict and competition among civilizations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Multinational corporations often establish production facilities in countries with lower labor costs. This practice allows them to minimize production expenses and maximize profits. By taking advantage of lower wages and operating costs, MNCs can offer their products at competitive prices in the global market.\n**Question:** Why do MNCs often set up production in countries with lower labor costs?",
+    "options": {
+      "a": "To improve the working conditions in those countries",
+      "b": "To minimize production expenses and maximize profits",
+      "c": "To support the local economies of those countries",
+      "d": "To comply with international labor standards"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Advancements in information technology, particularly the internet, have revolutionized communication. The ability to send emails, make video calls, and access information instantly has connected people across the globe in unprecedented ways. This has facilitated business transactions, cultural exchange, and the spread of information.\n**Question:** How has the internet impacted global communication?",
+    "options": {
+      "a": "By making communication slower and more expensive",
+      "b": "By limiting access to information and hindering cultural exchange",
+      "c": "By enabling instant communication and facilitating the spread of information",
+      "d": "By increasing the complexity of international business transactions"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Improvements in transportation, such as containerization and faster ships, have significantly reduced the time and cost of shipping goods internationally. This has made it easier for businesses to transport products across borders and has contributed to the growth of global trade.\n**Question:** What impact have improvements in transportation had on global trade?",
+    "options": {
+      "a": "They have made shipping slower and more expensive.",
+      "b": "They have limited the volume of goods that can be transported.",
+      "c": "They have reduced the time and cost of shipping, facilitating global trade.",
+      "d": "They have increased the complexity of international logistics."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The rise of e-commerce platforms has enabled businesses to sell their products to consumers worldwide. These platforms provide a virtual marketplace where buyers and sellers from different countries can interact and conduct transactions, transcending geographical limitations.\n**Question:** How have e-commerce platforms contributed to globalization?",
+    "options": {
+      "a": "By restricting businesses to their local markets",
+      "b": "By increasing the cost of international transactions",
+      "c": "By enabling businesses to sell products globally and connecting buyers and sellers worldwide",
+      "d": "By making it more difficult for consumers to access foreign goods"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Globalization has led to an increased flow of capital across borders. Companies can now invest in foreign markets more easily, and investors can diversify their portfolios by investing in assets from different countries. This has contributed to the integration of financial markets.\n**Question:** What has been the impact of globalization on the flow of capital?",
+    "options": {
+      "a": "It has restricted the flow of capital across borders.",
+      "b": "It has made it more difficult for companies to invest in foreign markets.",
+      "c": "It has increased the flow of capital, leading to the integration of financial markets.",
+      "d": "It has reduced the opportunities for investors to diversify their portfolios."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The World Wide Web has made a vast amount of information accessible to people around the world. This has empowered individuals with knowledge, facilitated research and education, and contributed to a more informed global citizenry.\n**Question:** How has the World Wide Web impacted access to information?",
+    "options": {
+      "a": "It has limited access to information and restricted knowledge sharing.",
+      "b": "It has made information more difficult to find and understand.",
+      "c": "It has made a vast amount of information accessible globally, empowering individuals.",
+      "d": "It has increased the cost of accessing information."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The development of faster and more efficient airplanes has reduced the time and cost of air travel. This has made it easier for people to travel for business, tourism, or personal reasons, and has also facilitated the transportation of goods by air, particularly perishable items.\n**Question:** What impact has the development of faster airplanes had on global connectivity?",
+    "options": {
+      "a": "It has made air travel slower and more expensive.",
+      "b": "It has limited the number of people who can travel by air.",
+      "c": "It has reduced travel time and cost, increasing global connectivity.",
+      "d": "It has made it more difficult to transport goods by air."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Globalization has led to increased cultural exchange between countries. People are exposed to different cultures through media, travel, and interactions with people from other countries. This has led to a greater understanding and appreciation of cultural diversity.\n**Question:** What has been the impact of globalization on cultural exchange?",
+    "options": {
+      "a": "It has reduced cultural exchange and promoted cultural isolation.",
+      "b": "It has made it more difficult for people to understand different cultures.",
+      "c": "It has increased cultural exchange, leading to greater understanding of diversity.",
+      "d": "It has led to the homogenization of cultures, eliminating cultural differences."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The use of mobile phones has spread rapidly across the globe, connecting billions of people. Mobile phones have become essential tools for communication, accessing information, and conducting business, particularly in areas with limited infrastructure.\n**Question:** How have mobile phones contributed to global connectivity?",
+    "options": {
+      "a": "They have limited communication to areas with existing infrastructure.",
+      "b": "They have made it more difficult to access information.",
+      "c": "They have connected billions of people, facilitating communication and access to information.",
+      "d": "They have increased the cost of communication globally."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Globalization has led to the integration of markets, meaning that prices of similar goods in different countries tend to converge. This is because increased competition and the flow of goods across borders put pressure on prices to equalize.\n**Question:** What is the impact of globalization on the prices of similar goods in different countries?",
+    "options": {
+      "a": "Prices tend to diverge significantly.",
+      "b": "Prices remain unaffected by globalization.",
+      "c": "Prices tend to converge due to increased competition.",
+      "d": "Prices become more volatile and unpredictable."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Foreign trade allows producers to reach beyond their domestic markets and compete in international markets. This expands their potential customer base and creates opportunities for growth and expansion.\n**Question:** How does foreign trade benefit producers?",
+    "options": {
+      "a": "It limits producers to their domestic markets.",
+      "b": "It reduces their potential customer base.",
+      "c": "It allows them to reach beyond domestic markets and compete internationally.",
+      "d": "It increases competition within their domestic markets only."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The ability to outsource certain tasks or processes to companies in other countries has become a common practice in the globalized economy. This allows businesses to take advantage of lower costs and specialized skills in other parts of the world. For example, customer care services are often outsourced to call centers in India, where there is a large pool of English-speaking workers.\n**Question:** Why do businesses outsource tasks to companies in other countries?",
+    "options": {
+      "a": "To increase their operational costs",
+      "b": "To limit their access to specialized skills",
+      "c": "To take advantage of lower costs and specialized skills in other countries",
+      "d": "To reduce the quality of their services"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A news magazine published for London readers is designed and printed in Delhi. The text of the magazine is sent through the Internet to the Delhi office. The designers in the Delhi office get orders on how to design the magazine from the office in London using telecommunication facilities. The designing is done on a computer. After printing, the magazines are sent by air to London.\n**Question:** This scenario is an example of which aspect of globalization?",
+    "options": {
+      "a": "Increased barriers to trade",
+      "b": "The use of technology to spread out production of services across countries",
+      "c": "The localization of production processes",
+      "d": "The decline of international collaboration"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The advent of satellite communication devices has made it possible to communicate from remote areas where traditional telecommunication infrastructure is limited or unavailable. This has connected people in previously isolated regions to the rest of the world.\n**Question:** What has been the impact of satellite communication on global connectivity?",
+    "options": {
+      "a": "It has made communication from remote areas more difficult.",
+      "b": "It has limited connectivity to areas with existing infrastructure.",
+      "c": "It has connected people in remote areas to the rest of the world.",
+      "d": "It has increased the cost of communication in remote areas."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A company based in the United States decides to move its manufacturing operations to China. Which of the following is the most likely reason for this decision?",
+    "options": {
+      "a": "Higher labor costs in China",
+      "b": "Lower labor costs and potentially larger market access in China",
+      "c": "Stricter environmental regulations in China",
+      "d": "Desire to reduce the company's global presence"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An Indian software developer is working on a project for a company based in the United Kingdom, communicating primarily through email and video conferencing. This scenario best exemplifies which aspect of globalization?",
+    "options": {
+      "a": "The decline of information technology",
+      "b": "The use of technology to facilitate international collaboration",
+      "c": "The increasing difficulty of cross-border communication",
+      "d": "The decreasing importance of language skills in the global economy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A consumer in Brazil is able to purchase a smartphone designed in the United States, manufactured in China, and sold through an online retailer based in Europe. This illustrates which of the following?",
+    "options": {
+      "a": "The fragmentation of global markets",
+      "b": "The interconnectedness of the global economy",
+      "c": "The increasing difficulty of accessing foreign goods",
+      "d": "The decline of international trade"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer in a developing country is struggling to compete with cheaper agricultural imports from developed countries. This situation highlights which potential downside of globalization?",
+    "options": {
+      "a": "Increased access to global markets for all producers",
+      "b": "The potential for increased competition from foreign producers",
+      "c": "The benefits of lower prices for consumers",
+      "d": "The equal distribution of the benefits of globalization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A government decides to reduce tariffs on imported goods. This policy change is most likely intended to:",
+    "options": {
+      "a": "Increase barriers to trade",
+      "b": "Promote the integration of its economy with the global market",
+      "c": "Protect domestic industries from foreign competition",
+      "d": "Decrease the flow of goods and services across its borders"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A small business owner in Mexico starts selling handmade crafts through an online marketplace, reaching customers in the United States, Canada, and Europe. This is an example of how globalization can:",
+    "options": {
+      "a": "Limit market access for small businesses",
+      "b": "Enable small businesses to access global markets",
+      "c": "Increase the cost of doing business internationally",
+      "d": "Reduce the importance of online platforms for businesses"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A multinational corporation invests in a new factory in Vietnam, taking advantage of the country's skilled workforce and favorable investment policies. This investment is likely to:",
+    "options": {
+      "a": "Decrease the company's overall production capacity",
+      "b": "Contribute to economic growth in Vietnam",
+      "c": "Reduce the company's global competitiveness",
+      "d": "Have no impact on the Vietnamese economy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A consumer in India can choose from a wide variety of clothing brands from different countries, both online and in physical stores. This reflects which impact of globalization?",
+    "options": {
+      "a": "Decreased consumer choice",
+      "b": "Increased availability of goods from around the world",
+      "c": "Higher prices for imported goods",
+      "d": "Limited access to foreign brands"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A group of software engineers in India are working remotely for a tech company headquartered in Silicon Valley. They collaborate with their American counterparts through video conferencing and project management software. This scenario is an example of:",
+    "options": {
+      "a": "The decline of the IT sector in India.",
+      "b": "The increasing difficulty of finding skilled labor in developed countries.",
+      "c": "The globalization of the labor market, particularly in the IT sector.",
+      "d": "The decreasing importance of technology in facilitating global collaboration."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A company decides to source its raw materials from multiple countries to reduce its reliance on a single supplier and mitigate risks associated with supply chain disruptions. This strategy reflects which aspect of globalization?",
+    "options": {
+      "a": "The increasing isolation of businesses",
+      "b": "The development of globally integrated supply chains",
+      "c": "The decreasing importance of raw material sourcing",
+      "d": "The increasing reliance on domestic suppliers"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "While globalization has led to increased economic growth in many countries, it has also been criticized for contributing to income inequality. Which of the following best explains this criticism?",
+    "options": {
+      "a": "Globalization benefits all individuals and groups equally.",
+      "b": "The benefits of globalization are often concentrated among skilled workers and owners of capital, while unskilled workers may face job losses or stagnant wages.",
+      "c": "Globalization leads to a more equitable distribution of wealth.",
+      "d": "Globalization has no impact on income distribution."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Some argue that globalization leads to cultural homogenization, while others argue that it promotes cultural diversity. Which of the following statements best supports the argument for cultural diversity?",
+    "options": {
+      "a": "Globalization leads to the dominance of a single global culture.",
+      "b": "Globalization exposes people to different cultures, leading to a greater understanding and appreciation of diversity.",
+      "c": "Globalization eliminates cultural differences.",
+      "d": "Globalization has no impact on culture."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The rise of multinational corporations has been a key feature of globalization. Which of the following is a potential concern regarding the power of MNCs?",
+    "options": {
+      "a": "MNCs have limited influence on national economies.",
+      "b": "MNCs may prioritize profits over social and environmental concerns.",
+      "c": "MNCs always comply with local laws and regulations.",
+      "d": "MNCs are primarily focused on promoting local businesses."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Globalization has led to increased competition among businesses. Which of the following is a potential benefit of this increased competition?",
+    "options": {
+      "a": "Higher prices for consumers",
+      "b": "Lower quality products and services",
+      "c": "Increased innovation and efficiency",
+      "d": "Reduced consumer choice"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Some countries have implemented policies to protect their domestic industries from foreign competition. Which of the following is the most likely rationale for such policies?",
+    "options": {
+      "a": "To promote the integration of their economies with the global market",
+      "b": "To shield domestic industries from competition, potentially preserving jobs in the short term",
+      "c": "To increase the flow of goods and services across their borders",
+      "d": "To encourage foreign investment"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The impact of globalization on the environment is a complex issue. Which of the following statements best reflects this complexity?",
+    "options": {
+      "a": "Globalization has no impact on the environment.",
+      "b": "Globalization leads to improved environmental outcomes in all countries.",
+      "c": "Globalization can lead to both positive and negative environmental outcomes, depending on various factors.",
+      "d": "Globalization always results in environmental degradation."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Globalization has facilitated the spread of information and ideas across borders. Which of the following is a potential consequence of this increased flow of information?",
+    "options": {
+      "a": "Decreased awareness of global issues",
+      "b": "Increased opportunities for cross-cultural understanding and collaboration",
+      "c": "Reduced access to diverse perspectives",
+      "d": "Greater isolation of individuals and communities"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The relationship between globalization and national sovereignty is a subject of debate. Which of the following statements best captures this debate?",
+    "options": {
+      "a": "Globalization has no impact on national sovereignty.",
+      "b": "Globalization strengthens national sovereignty.",
+      "c": "Globalization can be seen as both a challenge and an opportunity for national sovereignty.",
+      "d": "Globalization always undermines national sovereignty."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Globalization has been linked to the growth of global supply chains. Which of the following is a potential vulnerability associated with these complex supply chains?",
+    "options": {
+      "a": "Increased resilience to disruptions",
+      "b": "Greater transparency and accountability",
+      "c": "Increased susceptibility to disruptions from natural disasters, political instability, or pandemics",
+      "d": "Reduced reliance on transportation and logistics"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The impact of globalization on labor markets is multifaceted. Which of the following statements best reflects this complexity?",
+    "options": {
+      "a": "Globalization always leads to job creation in all sectors.",
+      "b": "Globalization always leads to job losses in all sectors.",
+      "c": "Globalization can lead to both job creation and job losses, depending on factors such as industry, skill level, and government policies.",
+      "d": "Globalization has no impact on labor markets."
+    },
+    "answer": "c"
+  }
+]

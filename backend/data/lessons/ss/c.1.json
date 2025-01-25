@@ -1,0 +1,431 @@
+[
+  {
+    "question": "Which of the following is NOT a way in which democracy enhances the dignity of citizens?",
+    "options": {
+      "a": "It recognizes the poorest and least educated as equal to the rich and educated.",
+      "b": "It allows citizens to hold their leaders accountable for their actions.",
+      "c": "It enforces strict social hierarchies and limits individual freedom.",
+      "d": "It promotes a sense of ownership and responsibility towards the governance of the country."
+    },
+    "answer": "c",
+    "id": 610
+  },
+  {
+    "question": "How does a democracy allow for the correction of its own mistakes?",
+    "options": {
+      "a": "Mistakes are never made in a democracy.",
+      "b": "The ruling party has the power to suppress any criticism and remain in power indefinitely.",
+      "c": "It provides a space for public discussion, criticism, and the potential for change in leadership or policies.",
+      "d": "The military has the authority to remove elected officials and govern the country."
+    },
+    "answer": "c",
+    "id": 611
+  },
+  {
+    "question": "Why is a free and independent media important in a democracy?",
+    "options": {
+      "a": "To control the flow of information and promote a specific agenda.",
+      "b": "To provide entertainment and distract citizens from real issues.",
+      "c": "To hold the government accountable and inform citizens about important events and policies.",
+      "d": "To spread propaganda and influence public opinion in favor of the ruling party."
+    },
+    "answer": "c",
+    "id": 612
+  },
+  {
+    "question": "In a democracy, what is the role of the judiciary?",
+    "options": {
+      "a": "To act as a puppet of the ruling party and support their decisions.",
+      "b": "To interpret laws, protect citizens' rights, and ensure the government functions within the constitution.",
+      "c": "To control the media and limit freedom of speech.",
+      "d": "To suppress any opposition to the government and maintain order through force."
+    },
+    "answer": "b",
+    "id": 613
+  },
+  {
+    "question": "What does 'universal adult franchise' mean?",
+    "options": {
+      "a": "Only wealthy citizens have the right to vote.",
+      "b": "Only those with a certain level of education can vote.",
+      "c": "All adult citizens, regardless of background, have the right to vote.",
+      "d": "The government chooses who has the right to vote."
+    },
+    "answer": "c",
+    "id": 614
+  },
+  {
+    "question": "Why is an independent election commission essential for democratic elections?",
+    "options": {
+      "a": "To ensure fair elections and prevent manipulation by the ruling party.",
+      "b": "To manipulate election results in favor of the ruling party.",
+      "c": "To limit the choices available to voters and control the outcome of elections.",
+      "d": "To discourage people from voting and reduce voter turnout."
+    },
+    "answer": "a",
+    "id": 615
+  },
+  {
+    "question": "Which of the following is an example of a democratic decision-making process in a classroom setting?",
+    "options": {
+      "a": "The teacher makes all the decisions without any student input.",
+      "b": "The students vote on class rules and activities, with everyone's opinion considered equally.",
+      "c": "Only the smartest students get to make decisions for the class.",
+      "d": "The class monitor dictates all the rules and punishments."
+    },
+    "answer": "b",
+    "id": 616
+  },
+  {
+    "question": "Why is it important to have a constitution in a democracy?",
+    "options": {
+      "a": "To provide a framework for government, outlining the distribution of power and citizens' rights.",
+      "b": "To give absolute power to the ruling party.",
+      "c": "To restrict individual freedoms and limit citizen participation in government.",
+      "d": "To create a system where the government is above the law."
+    },
+    "answer": "a",
+    "id": 617
+  },
+  {
+    "question": "How can citizens hold their elected representatives accountable in a democracy?",
+    "options": {
+      "a": "By remaining silent and not questioning their actions.",
+      "b": "By engaging in peaceful protests, contacting their representatives, and voting in elections.",
+      "c": "By resorting to violence and overthrowing the government.",
+      "d": "By ignoring political issues and not participating in the democratic process."
+    },
+    "answer": "b",
+    "id": 618
+  },
+  {
+    "question": "Which of the following is a characteristic of a non-democratic government?",
+    "options": {
+      "a": "Free and fair elections with multiple political parties.",
+      "b": "Suppression of dissent and limitations on freedom of speech and assembly.",
+      "c": "Independent judiciary that upholds the rule of law.",
+      "d": "Protection of minority rights and equal treatment under the law."
+    },
+    "answer": "b",
+    "id": 619
+  },
+  {
+    "question": "Why is it important for citizens to be informed about political issues in a democracy?",
+    "options": {
+      "a": "To make informed decisions when voting and hold their leaders accountable.",
+      "b": "To avoid engaging in political discussions and debates.",
+      "c": "To blindly trust the government and accept their decisions without question.",
+      "d": "To avoid taking responsibility for the well-being of their community and country."
+    },
+    "answer": "a",
+    "id": 620
+  },
+  {
+    "question": "Which of the following is an example of how democracy can be applied in a family setting?",
+    "options": {
+      "a": "The parents make all the decisions without consulting their children.",
+      "b": "The family members discuss and negotiate household rules and decisions, considering everyone's needs and opinions.",
+      "c": "The eldest child has absolute authority over their siblings.",
+      "d": "Decisions are made based on who can shout the loudest."
+    },
+    "answer": "b",
+    "id": 621
+  },
+  {
+    "question": "How can a democratic government ensure equal opportunities for all citizens?",
+    "options": {
+      "a": "By favoring certain groups and discriminating against others.",
+      "b": "By providing access to quality education, healthcare, and economic opportunities for all, regardless of background.",
+      "c": "By limiting individual freedoms and controlling every aspect of citizens' lives.",
+      "d": "By creating a system where only the wealthy and powerful have access to resources."
+    },
+    "answer": "b",
+    "id": 622
+  },
+  {
+    "question": "What is the role of political parties in a democracy?",
+    "options": {
+      "a": "To suppress opposition and maintain a one-party state.",
+      "b": "To represent different viewpoints, contest elections, and form governments based on democratic principles.",
+      "c": "To control the media and spread propaganda.",
+      "d": "To discourage citizen participation in the political process."
+    },
+    "answer": "b",
+    "id": 623
+  },
+  {
+    "question": "Why is it crucial for a democracy to protect the rights of minorities?",
+    "options": {
+      "a": "To create a society where all citizens feel safe, respected, and have a voice, regardless of their background.",
+      "b": "To silence dissenting voices and suppress minority groups.",
+      "c": "To create divisions and conflicts within society.",
+      "d": "To maintain the dominance of the majority group and ignore the needs of minorities."
+    },
+    "answer": "a",
+    "id": 624
+  },
+  {
+    "question": "How does democracy contribute to peaceful conflict resolution between different groups in society?",
+    "options": {
+      "a": "By encouraging violence and suppressing dissent.",
+      "b": "By providing a platform for dialogue, negotiation, and compromise between different groups.",
+      "c": "By ignoring the concerns of minority groups and imposing the will of the majority.",
+      "d": "By creating a system where power is concentrated in the hands of a select few."
+    },
+    "answer": "b",
+    "id": 625
+  },
+  {
+    "question": "Which of the following is an example of how a government can limit freedom of speech?",
+    "options": {
+      "a": "Allowing citizens to express their opinions freely, even if they are critical of the government.",
+      "b": "Censoring media outlets and punishing journalists for criticizing the government.",
+      "c": "Encouraging open and transparent dialogue about government policies.",
+      "d": "Protecting the right to peaceful assembly and protest."
+    },
+    "answer": "b",
+    "id": 626
+  },
+  {
+    "question": "Why is it important for a democracy to have a system of checks and balances between different branches of government?",
+    "options": {
+      "a": "To prevent any one branch from becoming too powerful and abusing its authority.",
+      "b": "To create a chaotic and inefficient government.",
+      "c": "To allow the executive branch to have absolute power.",
+      "d": "To eliminate the need for citizen participation in government."
+    },
+    "answer": "a",
+    "id": 627
+  },
+  {
+    "question": "How can education contribute to the strengthening of democracy?",
+    "options": {
+      "a": "By promoting critical thinking, civic engagement, and an understanding of democratic values and principles.",
+      "b": "By limiting access to information and controlling what students learn.",
+      "c": "By discouraging questioning and promoting blind obedience to authority.",
+      "d": "By creating a society where only the elite have access to education."
+    },
+    "answer": "a",
+    "id": 628
+  },
+  {
+    "question": "Whose definition of democracy is ‘government of the people, by the people and for the people’?",
+    "options": {
+      "a": "Abraham Lincoln",
+      "b": "Mahatma Gandhi",
+      "c": "Nelson Mandela",
+      "d": "Plato"
+    },
+    "answer": "a",
+    "id": 629
+  },
+  {
+    "question": "Which of the following is NOT a feature of democracy?",
+    "options": {
+      "a": "Rulers elected by the people take all the major decisions.",
+      "b": "The exercise of choice by the people leads to a government limited by basic rules of the constitution.",
+      "c": "The military holds the ultimate power and can override the decisions made by elected representatives.",
+      "d": "Elections offer a fair opportunity to the people to change the current rulers."
+    },
+    "answer": "c",
+    "id": 630
+  },
+  {
+    "question": "Until 2015, which country did not grant women the right to vote?",
+    "options": {
+      "a": "India",
+      "b": "Saudi Arabia",
+      "c": "Pakistan",
+      "d": "Afghanistan"
+    },
+    "answer": "b",
+    "id": 631
+  },
+  {
+    "question": "Which country's electoral system gives more value to the vote of an indigenous Fijian than an Indian-Fijian?",
+    "options": {
+      "a": "Sri Lanka",
+      "b": "Nepal",
+      "c": "Fiji",
+      "d": "Myanmar"
+    },
+    "answer": "c",
+    "id": 632
+  },
+  {
+    "question": "Which of these is NOT a common argument against democracy?",
+    "options": {
+      "a": "Democracy leads to corruption.",
+      "b": "Democracy promotes equality and dignity for all citizens.",
+      "c": "Democracy is all about political competition and power play.",
+      "d": "Democracy leads to delays in decision making."
+    },
+    "answer": "b",
+    "id": 633
+  },
+  {
+    "question": "What is a key difference between a democracy and other forms of government like monarchy or dictatorship?",
+    "options": {
+      "a": "Democracies do not have a constitution.",
+      "b": "Democracies encourage active political participation of all citizens.",
+      "c": "Democracies do not hold elections.",
+      "d": "Democracies do not have a judiciary."
+    },
+    "answer": "b",
+    "id": 634
+  },
+  {
+    "question": "What was the worst recorded famine in world history, and which country experienced it?",
+    "options": {
+      "a": "Bengal Famine, India",
+      "b": "Great Famine, Ireland",
+      "c": "Famine of 1958-1961, China",
+      "d": "Russian Famine, Russia"
+    },
+    "answer": "c",
+    "id": 635
+  },
+  {
+    "question": "Why is a democratic government considered more accountable?",
+    "options": {
+      "a": "They are not accountable to the people.",
+      "b": "They are chosen by a select few and represent their interests.",
+      "c": "They are obligated to address the needs of the people to stay in power.",
+      "d": "They have absolute power and are not answerable for their actions."
+    },
+    "answer": "c",
+    "id": 636
+  },
+  {
+    "question": "What is the primary responsibility of citizens in a democracy?",
+    "options": {
+      "a": "To remain silent and not question the government.",
+      "b": "To actively participate in the political processes.",
+      "c": "To blindly follow the dictates of the ruling party.",
+      "d": "To avoid any involvement in political discussions or debates."
+    },
+    "answer": "b",
+    "id": 637
+  },
+  {
+    "question": "How does democracy provide a peaceful solution to conflicts and differences of opinion?",
+    "options": {
+      "a": "By suppressing dissenting voices and promoting a single ideology.",
+      "b": "By establishing a system where power rotates and no one is a permanent winner or loser.",
+      "c": "By giving ultimate power to the military to enforce peace.",
+      "d": "By ignoring the needs and demands of minority groups."
+    },
+    "answer": "b",
+    "id": 638
+  },
+  {
+    "question": "What is the meaning of the Greek word 'demos'?",
+    "options": {
+      "a": "Rule",
+      "b": "People",
+      "c": "Government",
+      "d": "Power"
+    },
+    "answer": "b",
+    "id": 639
+  },
+  {
+    "question": "Which of the following is NOT a reason why representative democracy is the most common form of democracy today?",
+    "options": {
+      "a": "Large populations make it impractical for everyone to participate directly in every decision.",
+      "b": "Citizens may lack the time, desire, or expertise to be involved in every political issue.",
+      "c": "Direct democracy is always more efficient and effective than representative democracy.",
+      "d": "Elected representatives can specialize in certain areas and make more informed decisions."
+    },
+    "answer": "c",
+    "id": 640
+  },
+  {
+    "question": "How does democracy differ from a system where the most powerful group always gets their way?",
+    "options": {
+      "a": "In a democracy, power rotates and no group is permanently dominant.",
+      "b": "Democracy ensures that only the wealthy and powerful have a say in government.",
+      "c": "Democracy relies on force and coercion to maintain order.",
+      "d": "There is no difference; democracy is just another form of majority rule."
+    },
+    "answer": "a",
+    "id": 641
+  },
+  {
+    "question": "How can social movements and activism contribute to a more democratic society?",
+    "options": {
+      "a": "By creating chaos and instability.",
+      "b": "By giving voice to marginalized groups and holding the government accountable for its actions.",
+      "c": "By undermining the rule of law and promoting anarchy.",
+      "d": "By supporting authoritarian leaders and policies."
+    },
+    "answer": "b",
+    "id": 642
+  },
+  {
+    "question": "Why is it essential for a democracy to have a strong and independent civil society?",
+    "options": {
+      "a": "To monitor the government, advocate for citizens' rights, and promote transparency and accountability.",
+      "b": "To blindly support the government and its policies.",
+      "c": "To create divisions and conflicts within society.",
+      "d": "To suppress dissenting voices and maintain the status quo."
+    },
+    "answer": "a",
+    "id": 643
+  },
+  {
+    "question": "What is the significance of the right to freedom of information in a democracy?",
+    "options": {
+      "a": "It allows citizens to access information about government activities and hold their leaders accountable.",
+      "b": "It allows the government to control the flow of information and manipulate public opinion.",
+      "c": "It is irrelevant in a democracy; only the government needs access to information.",
+      "d": "It undermines national security and should be restricted."
+    },
+    "answer": "a",
+    "id": 644
+  },
+  {
+    "question": "How does democracy encourage economic growth and prosperity?",
+    "options": {
+      "a": "By concentrating wealth in the hands of a select few.",
+      "b": "By creating a level playing field for businesses, promoting innovation, and protecting property rights.",
+      "c": "By stifling competition and discouraging entrepreneurship.",
+      "d": "There is no correlation between democracy and economic prosperity."
+    },
+    "answer": "b",
+    "id": 645
+  },
+  {
+    "question": "Why is it important for a democratic government to be transparent in its decision-making processes?",
+    "options": {
+      "a": "Transparency builds trust between the government and the people, allowing citizens to understand how decisions are made and hold their leaders accountable.",
+      "b": "Transparency allows the government to hide its mistakes and avoid scrutiny.",
+      "c": "Transparency is not important; only the government needs to know how decisions are made.",
+      "d": "Transparency undermines national security and should be avoided."
+    },
+    "answer": "a",
+    "id": 646
+  },
+  {
+    "question": "What role can international organizations play in promoting and supporting democracy around the world?",
+    "options": {
+      "a": "By imposing democracy on other countries through force.",
+      "b": "By providing financial assistance, technical expertise, and election monitoring to support democratic transitions and institutions.",
+      "c": "By remaining neutral and not interfering in the internal affairs of other countries.",
+      "d": "International organizations have no role to play in promoting democracy."
+    },
+    "answer": "b",
+    "id": 647
+  },
+  {
+    "question": "How can technology be used to strengthen democracy and citizen participation?",
+    "options": {
+      "a": "To spread misinformation and manipulate public opinion.",
+      "b": "To facilitate online voting, connect citizens with their representatives, and provide platforms for political discourse and activism.",
+      "c": "To increase government surveillance and control over citizens' lives.",
+      "d": "Technology has no impact on democracy; it is a neutral tool."
+    },
+    "answer": "b",
+    "id": 648
+  }
+]

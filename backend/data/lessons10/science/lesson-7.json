@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which of the following is NOT a reason why organisms reproduce?",
+    "options": {
+      "a": "To maintain individual life",
+      "b": "To create new individuals",
+      "c": "To ensure species survival",
+      "d": "To pass on genetic information"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "DNA in a cell's nucleus is the information source for making:",
+    "options": {
+      "a": "Lipids",
+      "b": "Proteins",
+      "c": "Carbohydrates",
+      "d": "Vitamins"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The process of DNA copying during reproduction is crucial for:",
+    "options": {
+      "a": "Generating energy",
+      "b": "Maintaining variation",
+      "c": "Eliminating mutations",
+      "d": "Cellular respiration"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Variation during reproduction is the basis for:",
+    "options": {
+      "a": "Cloning",
+      "b": "Evolution",
+      "c": "Hybridization",
+      "d": "Mutation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In binary fission, Amoeba divides in:",
+    "options": {
+      "a": "A fixed plane",
+      "b": "Any plane",
+      "c": "Two unequal halves",
+      "d": "Multiple planes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Multiple fission is observed in:",
+    "options": {
+      "a": "Yeast",
+      "b": "Plasmodium",
+      "c": "Hydra",
+      "d": "Planaria"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Fragmentation is a mode of reproduction seen in:",
+    "options": {
+      "a": "Amoeba",
+      "b": "Spirogyra",
+      "c": "Leishmania",
+      "d": "Rhizopus"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Regeneration is the ability to regrow lost body parts, observed in:",
+    "options": {
+      "a": "Hydra",
+      "b": "Yeast",
+      "c": "Amoeba",
+      "d": "Bacteria"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which plant part is NOT typically involved in vegetative propagation?",
+    "options": {
+      "a": "Root",
+      "b": "Flower",
+      "c": "Stem",
+      "d": "Leaf"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Spores in Rhizopus are contained within structures called:",
+    "options": {
+      "a": "Hyphae",
+      "b": "Sporangia",
+      "c": "Mycelia",
+      "d": "Conidia"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The fusion of male and female gametes is called:",
+    "options": {
+      "a": "Pollination",
+      "b": "Fertilization",
+      "c": "Germination",
+      "d": "Dispersal"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The transfer of pollen from anther to stigma within the same flower is known as:",
+    "options": {
+      "a": "Cross-pollination",
+      "b": "Self-pollination",
+      "c": "Hybridization",
+      "d": "Fertilization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a cell divides by binary fission every 20 minutes, how many cells will be produced after 2 hours?",
+    "options": {
+      "a": "8",
+      "b": "16",
+      "c": "32",
+      "d": "64"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "A bacterial population doubles every 30 minutes. If you start with 100 bacteria, how many will there be after 3 hours?",
+    "options": {
+      "a": "800",
+      "b": "1600",
+      "c": "3200",
+      "d": "6400"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "In a Spirogyra filament with 10 cells, if each cell fragments into two, how many new filaments will be formed?",
+    "options": {
+      "a": "10",
+      "b": "20",
+      "c": "5",
+      "d": "15"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a Planaria is cut into 3 pieces, and each piece regenerates, how many Planaria will result?",
+    "options": {
+      "a": "1",
+      "b": "3",
+      "c": "6",
+      "d": "9"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A yeast cell produces a bud every hour. If you start with 5 yeast cells, how many will there be after 4 hours, assuming each bud detaches and forms a new cell?",
+    "options": {
+      "a": "20",
+      "b": "40",
+      "c": "80",
+      "d": "10"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In a population of 500 bacteria, 10% are resistant to heat. If the temperature rises drastically, and only the resistant bacteria survive, how many bacteria will remain?",
+    "options": {
+      "a": "10",
+      "b": "50",
+      "c": "100",
+      "d": "450"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A cell with 20 chromosomes undergoes meiosis. How many chromosomes will each daughter cell have?",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "20",
+      "d": "40"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If the ovary of a flower contains 8 ovules, and each ovule produces one egg cell, how many seeds can potentially be formed after fertilization?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "8",
+      "d": "16"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A pollen grain contains 12 chromosomes. How many chromosomes will be present in the zygote after fertilization?",
+    "options": {
+      "a": "6",
+      "b": "12",
+      "c": "24",
+      "d": "48"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "During puberty, if a boy's height increases by 5% each year for 3 years, what is the total percentage increase in height?",
+    "options": {
+      "a": "5%",
+      "b": "10%",
+      "c": "15.76%",
+      "d": "20%"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a contraceptive method is 99% effective, out of 1000 couples using it, how many pregnancies are expected?",
+    "options": {
+      "a": "1",
+      "b": "10",
+      "c": "99",
+      "d": "100"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a population of 10,000 individuals, the birth rate is 20 per 1000 and the death rate is 10 per 1000. What is the population size after one year?",
+    "options": {
+      "a": "10,010",
+      "b": "10,100",
+      "c": "10,200",
+      "d": "11,000"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a woman's menstrual cycle lasts 28 days, and menstruation occurs for 5 days, on which day is ovulation most likely to occur?",
+    "options": {
+      "a": "Day 5",
+      "b": "Day 14",
+      "c": "Day 21",
+      "d": "Day 28"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which reproductive strategy would be most advantageous for a plant species living in a rapidly changing environment?",
+    "options": {
+      "a": "Binary fission",
+      "b": "Sexual reproduction",
+      "c": "Fragmentation",
+      "d": "Budding"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer wants to propagate a large number of banana plants quickly. Which method should he use?",
+    "options": {
+      "a": "Seed planting",
+      "b": "Vegetative propagation",
+      "c": "Cross-pollination",
+      "d": "Grafting"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A population of bacteria is exposed to an antibiotic. Which scenario is most likely to occur?",
+    "options": {
+      "a": "All bacteria will die",
+      "b": "Bacteria with resistance will survive",
+      "c": "All bacteria will mutate",
+      "d": "Bacteria will reproduce asexually"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the use of condoms recommended during sexual intercourse?",
+    "options": {
+      "a": "To enhance fertility",
+      "b": "To prevent sexually transmitted infections",
+      "c": "To increase sperm count",
+      "d": "To regulate menstrual cycles"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A couple wants to have a child but is facing fertility issues. Which medical procedure might be recommended?",
+    "options": {
+      "a": "Vasectomy",
+      "b": "In vitro fertilization (IVF)",
+      "c": "Tubectomy",
+      "d": "Abortion"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a hormonal contraceptive method?",
+    "options": {
+      "a": "Condom",
+      "b": "Oral pill",
+      "c": "Copper-T",
+      "d": "Vasectomy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might a government implement policies to control population growth?",
+    "options": {
+      "a": "To increase genetic diversity",
+      "b": "To improve living standards and resource management",
+      "c": "To promote asexual reproduction",
+      "d": "To encourage early marriages"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A plant species produces brightly colored flowers with a strong scent. What is the most likely mode of pollination?",
+    "options": {
+      "a": "Wind",
+      "b": "Insects",
+      "c": "Water",
+      "d": "Self-pollination"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a hospital, which method would be used to sterilize surgical instruments?",
+    "options": {
+      "a": "Applying a condom",
+      "b": "Autoclaving (heat sterilization)",
+      "c": "Using oral pills",
+      "d": "Cryopreservation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is sexual reproduction considered more complex than asexual reproduction?",
+    "options": {
+      "a": "It requires less energy",
+      "b": "It involves two individuals and genetic recombination",
+      "c": "It produces identical offspring",
+      "d": "It occurs only in single-celled organisms"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the significance of meiosis in sexual reproduction?",
+    "options": {
+      "a": "It produces identical cells",
+      "b": "It reduces the chromosome number by half",
+      "c": "It increases the chromosome number",
+      "d": "It is a form of asexual reproduction"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does genetic variation contribute to the survival of a species?",
+    "options": {
+      "a": "It makes all individuals identical",
+      "b": "It allows for adaptation to changing environments",
+      "c": "It reduces the rate of reproduction",
+      "d": "It increases the risk of extinction"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important for DNA copying to be accurate but not perfectly accurate during reproduction?",
+    "options": {
+      "a": "To eliminate all variations",
+      "b": "To allow for some variation while maintaining essential traits",
+      "c": "To prevent any changes in the offspring",
+      "d": "To increase the rate of mutations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What are the potential consequences of uncontrolled population growth?",
+    "options": {
+      "a": "Increased resources and improved living standards",
+      "b": "Strain on resources, environmental degradation, and social issues",
+      "c": "Enhanced genetic diversity",
+      "d": "Decreased competition among individuals"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can the knowledge of reproductive processes be used to improve agricultural practices?",
+    "options": {
+      "a": "By promoting asexual reproduction in all crops",
+      "b": "By developing new plant varieties through selective breeding and genetic engineering",
+      "c": "By preventing pollination in all plants",
+      "d": "By eliminating the need for fertilization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What ethical considerations are associated with reproductive technologies like IVF and contraception?",
+    "options": {
+      "a": "They have no ethical implications",
+      "b": "Issues related to access, affordability, and potential misuse",
+      "c": "They are only relevant to religious beliefs",
+      "d": "They are solely medical procedures with no social impact"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the process of sexual maturation during puberty prepare individuals for reproduction?",
+    "options": {
+      "a": "It causes rapid growth in height and weight",
+      "b": "It leads to the development of secondary sexual characteristics and functional reproductive organs",
+      "c": "It eliminates the need for sexual reproduction",
+      "d": "It prevents the formation of gametes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important to understand the different modes of reproduction in organisms?",
+    "options": {
+      "a": "To prevent any form of reproduction",
+      "b": "To gain insights into evolution, adaptation, and biodiversity",
+      "c": "To promote asexual reproduction in all species",
+      "d": "To eliminate the need for sexual reproduction"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the relationship between the stability of a population and the reproductive strategies of its individuals?",
+    "options": {
+      "a": "Stable populations always reproduce asexually",
+      "b": "Reproductive strategies influence population dynamics and adaptation to the environment",
+      "c": "Unstable populations always reproduce sexually",
+      "d": "There is no relationship between population stability and reproduction"
+    },
+    "answer": "b"
+  }
+]

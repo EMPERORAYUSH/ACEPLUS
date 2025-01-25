@@ -1,0 +1,522 @@
+[
+  {
+    "question": "In Belgium, _______% of the population lives in the Flemish region and speaks Dutch.",
+    "options": {
+      "a": "40%",
+      "b": "59%",
+      "c": "80%",
+      "d": "1%"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In Sri Lanka, Sinhala-speakers make up _______% of the population.",
+    "options": {
+      "a": "18%",
+      "b": "74%",
+      "c": "13%",
+      "d": "7%"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The capital of Belgium is _______.",
+    "options": {
+      "a": "Wallonia",
+      "b": "Brussels",
+      "c": "Flemish",
+      "d": "Antwerp"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Sri Lanka gained independence in the year _______.",
+    "options": {
+      "a": "1956",
+      "b": "1948",
+      "c": "1980",
+      "d": "1993"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The community government in Belgium is elected by the _______ community.",
+    "options": {
+      "a": "Religious",
+      "b": "linguistic",
+      "c": "social",
+      "d": "Ethnic"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which one of the following is NOT a form of power-sharing?",
+    "options": {
+      "a": "Horizontal division of power",
+      "b": "Vertical division of power",
+      "c": "Community government",
+      "d": "Power concentration"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which country is used as an example of accommodating diversity through power-sharing?",
+    "options": {
+      "a": "Sri Lanka",
+      "b": "Belgium",
+      "c": "India",
+      "d": "Germany"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which community is the majority in Sri Lanka?",
+    "options": {
+      "a": "Tamil",
+      "b": "Sinhala",
+      "c": "Muslim",
+      "d": "Christian"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the major cause of conflict in Sri Lanka?",
+    "options": {
+      "a": "Economic disparity",
+      "b": "Religious differences",
+      "c": "Majoritarianism",
+      "d": "Border disputes"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which form of government did Belgium adopt to resolve its ethnic tensions?",
+    "options": {
+      "a": "Unitary",
+      "b": "Federal",
+      "c": "Monarchy",
+      "d": "Dictatorship"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the official language of Sri Lanka as per the 1956 act?",
+    "options": {
+      "a": "Tamil",
+      "b": "Sinhala",
+      "c": "English",
+      "d": "Both Tamil and Sinhala"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which city in Belgium presented a unique problem in terms of linguistic demographics?",
+    "options": {
+      "a": "Wallonia",
+      "b": "Brussels",
+      "c": "Antwerp",
+      "d": "Ghent"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is horizontal power sharing?",
+    "options": {
+      "a": "Power sharing among different organs of the government",
+      "b": "Power sharing among governments at different levels",
+      "c": "Power sharing among different social groups",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is vertical power sharing?",
+    "options": {
+      "a": "Power sharing among different organs of the government",
+      "b": "Power sharing among governments at different levels",
+      "c": "Power sharing among different social groups",
+      "d": "None of the above"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is community government?",
+    "options": {
+      "a": "Power sharing among different organs of the government",
+      "b": "Power sharing among governments at different levels",
+      "c": "Power sharing among different social groups",
+      "d": "None of the above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What kind of government is there in Belgium?",
+    "options": {
+      "a": "Unitary Government",
+      "b": "Federal Government",
+      "c": "Monarchy",
+      "d": "Presidential Government"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which one of the following is a form of power sharing?",
+    "options": {
+      "a": "Among different social groups",
+      "b": "Among political parties, pressure groups and movements",
+      "c": "Both (a) and (b)",
+      "d": "None of the above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are prudential reasons?",
+    "options": {
+      "a": "Based on careful calculations of gains and losses",
+      "b": "Decisions based purely on moral consideration",
+      "c": "Based on traditions of the society",
+      "d": "None of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Who are Sri Lankan Tamils?",
+    "options": {
+      "a": "Whose forefathers came from India as plantation workers",
+      "b": "Tamil natives of the country",
+      "c": "Both (a) and (b)",
+      "d": "None of these"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is majoritarianism?",
+    "options": {
+      "a": "Belief that the majority community should be able to rule a country in whichever way it wants",
+      "b": "Belief that the minority community should be able to rule a country in whichever way it wants",
+      "c": "Equal share of power among majority and minority",
+      "d": "None of these"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the religion of Sinhala speaking people?",
+    "options": {
+      "a": "Buddhist",
+      "b": "Hindu",
+      "c": "Muslim",
+      "d": "Christian"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "How many times did Belgium amend its Constitution between 1970 and 1993?",
+    "options": {
+      "a": "Two",
+      "b": "Three",
+      "c": "Four",
+      "d": "Five"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which one of the following is true about Belgium?",
+    "options": {
+      "a": "Equal number of Dutch and French speaking ministers shall be there in central government",
+      "b": "Many powers of central government have been given to state governments",
+      "c": "Brussels has a separate government",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What kind of power sharing is found in modern democracies?",
+    "options": {
+      "a": "Power is shared among different organs of the government",
+      "b": "Power is shared among government at different levels",
+      "c": "Power may also be shared among different social groups",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Belgium is a small country in Europe. It has a complex ethnic composition. Which of the following is true about its ethnic composition?",
+    "options": {
+      "a": "59% Dutch-speaking, 40% French-speaking, 1% German-speaking",
+      "b": "40% Dutch-speaking, 59% French-speaking, 1% German-speaking",
+      "c": "80% Dutch-speaking, 20% French-speaking",
+      "d": "50% Dutch-speaking, 50% French-speaking"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Sri Lanka is an island nation. The majority community is Sinhala-speaking. Which religion is predominantly followed by the Sinhalese community?",
+    "options": {
+      "a": "Hinduism",
+      "b": "Buddhism",
+      "c": "Islam",
+      "d": "Christianity"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Belgium successfully accommodated its linguistic diversity. Sri Lanka, on the other hand, faced ethnic conflict. What was the primary reason for this difference?",
+    "options": {
+      "a": "Belgium is a larger country than Sri Lanka",
+      "b": "Belgium adopted power-sharing, while Sri Lanka pursued majoritarian policies",
+      "c": "Sri Lanka has more languages than Belgium",
+      "d": "Belgium is wealthier than Sri Lanka"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Federalism is a system of power-sharing. It involves different levels of government. Which levels of government are typically involved in a federal system?",
+    "options": {
+      "a": "Central and state governments",
+      "b": "Local and community governments",
+      "c": "Legislative and judicial branches",
+      "d": "Executive and administrative branches"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "In a democracy, people are the source of all power. Institutions of self-government are crucial. Which principle of democracy does this highlight?",
+    "options": {
+      "a": "Rule of law",
+      "b": "Separation of powers",
+      "c": "Popular sovereignty",
+      "d": "Judicial review"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Community government is a unique form of power-sharing. It exists in Belgium. Which of the following communities have their own community government in Belgium?",
+    "options": {
+      "a": "Dutch, French, and German-speaking",
+      "b": "Flemish, Walloon, and Brussels-Capital",
+      "c": "Sinhala, Tamil, and Muslim",
+      "d": "Hindu, Buddhist, and Christian"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Majoritarianism is a belief system. It can undermine the unity of a country. Which country serves as an example of the negative impact of majoritarianism?",
+    "options": {
+      "a": "Belgium",
+      "b": "Sri Lanka",
+      "c": "India",
+      "d": "Switzerland"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Power sharing is desirable for maintaining political stability. It helps to reduce the possibility of conflict between social groups. Which country's experience demonstrates this effectively?",
+    "options": {
+      "a": "Sri Lanka",
+      "b": "Belgium",
+      "c": "Yugoslavia",
+      "d": "Rwanda"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Horizontal division of power leads to a system of checks and balances. This prevents any one organ of the government from exercising unlimited power. Which countries practice horizontal division of power?",
+    "options": {
+      "a": "India and the United States",
+      "b": "China and North Korea",
+      "c": "Belgium and Sri Lanka",
+      "d": "Saudi Arabia and Iran"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Case 1: Belgium is a small European country with a complex ethnic composition. 59% of its population lives in the Flemish region and speaks Dutch, while 40% resides in Wallonia and speaks French. The remaining 1% speaks German. Brussels, the capital, presents a unique linguistic challenge, with 80% French speakers and 20% Dutch speakers. This diversity led to tensions in the mid-20th century. What was the main issue that caused tensions between the Dutch and French-speaking communities in Belgium?",
+    "options": {
+      "a": "Religious differences",
+      "b": "Economic disparity",
+      "c": "Cultural clashes",
+      "d": "Linguistic dominance and resentment"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Case 2: Sri Lanka, an island nation, gained independence in 1948. The Sinhala community, forming the majority, implemented a series of majoritarian policies, including recognizing Sinhala as the only official language in 1956. This disregard for the Tamil language and culture fueled resentment among the Tamil population, leading to demands for regional autonomy and equality. What was the immediate consequence of the 1956 act recognizing Sinhala as the only official language in Sri Lanka?",
+    "options": {
+      "a": "Increased representation of Tamils in government",
+      "b": "Peaceful coexistence between Sinhalese and Tamils",
+      "c": "Heightened sense of alienation among Sri Lankan Tamils",
+      "d": "Economic growth and prosperity for all"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Case 3: In Lebanon, a complex power-sharing agreement was established after a civil war. The President must be a Maronite Christian, the Prime Minister a Sunni Muslim, the Deputy Prime Minister an Orthodox Christian, and the Speaker a Shia Muslim. This system, although ensuring representation for different communities, restricts the highest office to specific religious groups. Khalil, a citizen of Lebanon, argues for a \"normal\" democracy where anyone can contest elections and the winner becomes president, regardless of their community. What is the main argument against Khalil's view in the context of Lebanon's history?",
+    "options": {
+      "a": "It would promote corruption",
+      "b": "It would be too expensive",
+      "c": "It might reignite sectarian conflict",
+      "d": "It would be unconstitutional"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Case 4: India's system of Panchayati Raj is a form of power-sharing that extends power to the local level. It empowers villages to participate in the planning and implementation of development schemes, increasing administrative efficiency and reducing corruption by eliminating middlemen. How does Panchayati Raj help in reducing corruption?",
+    "options": {
+      "a": "By centralizing power",
+      "b": "By increasing bureaucratic control",
+      "c": "By empowering local communities and increasing transparency",
+      "d": "By implementing strict laws and punishments"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Case 5: Annette studies in a Dutch-medium school in Belgium, where some French-speaking students want French as the medium of instruction. Selvi studies in a Tamil-medium school in Sri Lanka, where all students are Tamil-speaking. Both groups of students want their respective governments to change the medium of instruction. Considering the power-sharing arrangements in both countries, who is more likely to succeed in their request, and why?",
+    "options": {
+      "a": "Annette, because Belgium has a system of community government that caters to linguistic groups.",
+      "b": "Selvi, because all students in her school are Tamil-speaking.",
+      "c": "Both are equally likely to succeed, as both countries are democracies.",
+      "d": "Neither is likely to succeed, as governments rarely change the medium of instruction."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is NOT a feature of federalism?",
+    "options": {
+      "a": "Division of powers between different levels of government.",
+      "b": "A written constitution.",
+      "c": "Concentration of power in the central government.",
+      "d": "An independent judiciary."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which form of power-sharing is best exemplified by the reservation of seats for women in local government bodies in India?",
+    "options": {
+      "a": "Horizontal power-sharing",
+      "b": "Vertical power-sharing",
+      "c": "Power-sharing among social groups",
+      "d": "Power-sharing among political parties"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is a coalition government?",
+    "options": {
+      "a": "A government formed by a single political party.",
+      "b": "A government formed by two or more political parties.",
+      "c": "A government ruled by the military.",
+      "d": "A government ruled by a king or queen."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a key feature of horizontal power-sharing?",
+    "options": {
+      "a": "Independent judiciary",
+      "b": "Bicameral legislature",
+      "c": "Checks and balances",
+      "d": "Federal structure"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is an example of a \"check\" in the system of checks and balances?",
+    "options": {
+      "a": "The President appointing judges.",
+      "b": "The Parliament passing a law.",
+      "c": "The Supreme Court declaring a law unconstitutional.",
+      "d": "The Prime Minister addressing the nation."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is power-sharing considered \"prudential\"?",
+    "options": {
+      "a": "It upholds moral values.",
+      "b": "It promotes social harmony and reduces conflict.",
+      "c": "It is the very spirit of democracy.",
+      "d": "It ensures the dominance of the majority community."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following best describes the concept of \"tyranny of the majority\"?",
+    "options": {
+      "a": "When the majority respects the rights of the minority.",
+      "b": "When the minority dictates terms to the majority.",
+      "c": "When the majority imposes its will on the minority, disregarding their rights.",
+      "d": "When there is a balance of power between different groups."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the main demand of the Sri Lankan Tamils?",
+    "options": {
+      "a": "Recognition of Tamil as an official language.",
+      "b": "Regional autonomy.",
+      "c": "Equal opportunity in education and jobs.",
+      "d": "All of the above."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which country is considered a successful example of power-sharing among different linguistic groups?",
+    "options": {
+      "a": "Sri Lanka",
+      "b": "Belgium",
+      "c": "Rwanda",
+      "d": "Yugoslavia"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the main purpose of \"community government\" in Belgium?",
+    "options": {
+      "a": "To manage national defense.",
+      "b": "To control the economy.",
+      "c": "To address cultural, educational, and language-related issues of specific linguistic communities.",
+      "d": "To promote tourism."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which type of power-sharing is exemplified by the relationship between the central and state governments in India?",
+    "options": {
+      "a": "Horizontal power-sharing",
+      "b": "Vertical power-sharing",
+      "c": "Power-sharing among social groups",
+      "d": "Power-sharing among political parties"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the significance of Brussels in the context of power-sharing in Belgium?",
+    "options": {
+      "a": "It is the capital city and has a unique linguistic balance.",
+      "b": "It is located in the Flemish region.",
+      "c": "It is the headquarters of the European Union.",
+      "d": "Both (a) and (c)"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What is the main difference in how Belgium and Sri Lanka dealt with the issue of power-sharing?",
+    "options": {
+      "a": "Belgium adopted power-sharing, while Sri Lanka followed majoritarian policies.",
+      "b": "Belgium is a smaller country than Sri Lanka.",
+      "c": "Sri Lanka has a more diverse population than Belgium.",
+      "d": "Belgium is a monarchy, while Sri Lanka is a republic."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is civil war?",
+    "options": {
+      "a": "A violent conflict within a country between opposing groups",
+      "b": "A war between two different countries",
+      "c": "A war for civil rights",
+      "d": "A war against terrorism"
+    },
+    "answer": "a"
+  }
+]

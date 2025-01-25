@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Which property is NOT generally associated with metals?",
+    "options": {
+      "a": "Ductility",
+      "b": "Brittleness",
+      "c": "Malleability",
+      "d": "Thermal conductivity"
+    },
+    "answer": "b",
+    "id": 1819
+  },
+  {
+    "question": "Which non-metal exists as a liquid at room temperature?",
+    "options": {
+      "a": "Iodine",
+      "b": "Bromine",
+      "c": "Sulphur",
+      "d": "Phosphorus"
+    },
+    "answer": "b",
+    "id": 1820
+  },
+  {
+    "question": "Which metal reacts violently with cold water, producing a fire?",
+    "options": {
+      "a": "Magnesium",
+      "b": "Calcium",
+      "c": "Potassium",
+      "d": "Aluminium"
+    },
+    "answer": "c",
+    "id": 1821
+  },
+  {
+    "question": "Which metal oxide is amphoteric?",
+    "options": {
+      "a": "Copper(II) oxide",
+      "b": "Magnesium oxide",
+      "c": "Zinc oxide",
+      "d": "Sodium oxide"
+    },
+    "answer": "c",
+    "id": 1822
+  },
+  {
+    "question": "Which process is used to prevent the rusting of iron by coating it with zinc?",
+    "options": {
+      "a": "Anodising",
+      "b": "Galvanisation",
+      "c": "Alloying",
+      "d": "Chrome plating"
+    },
+    "answer": "b",
+    "id": 1823
+  },
+  {
+    "question": "Which metal is found in a free state in nature?",
+    "options": {
+      "a": "Sodium",
+      "b": "Aluminium",
+      "c": "Gold",
+      "d": "Magnesium"
+    },
+    "answer": "c",
+    "id": 1824
+  },
+  {
+    "question": "The process of heating a sulphide ore in the presence of excess air is called:",
+    "options": {
+      "a": "Calcination",
+      "b": "Roasting",
+      "c": "Reduction",
+      "d": "Electrolysis"
+    },
+    "answer": "b",
+    "id": 1825
+  },
+  {
+    "question": "Which metal is extracted by the electrolysis of its molten chloride?",
+    "options": {
+      "a": "Iron",
+      "b": "Zinc",
+      "c": "Sodium",
+      "d": "Copper"
+    },
+    "answer": "c",
+    "id": 1826
+  },
+  {
+    "question": "Which non-metal is a good conductor of electricity?",
+    "options": {
+      "a": "Sulphur",
+      "b": "Phosphorus",
+      "c": "Graphite",
+      "d": "Diamond"
+    },
+    "answer": "c",
+    "id": 1827
+  },
+  {
+    "question": "The impurities present in an ore are collectively known as:",
+    "options": {
+      "a": "Slag",
+      "b": "Gangue",
+      "c": "Flux",
+      "d": "Alloy"
+    },
+    "answer": "b",
+    "id": 1829
+  },
+  {
+    "question": "Which of these is NOT a method to prevent corrosion?",
+    "options": {
+      "a": "Painting",
+      "b": "Alloying",
+      "c": "Calcination",
+      "d": "Galvanisation"
+    },
+    "answer": "c",
+    "id": 1830
+  },
+  {
+    "question": "The reaction of iron(III) oxide with aluminum is known as:",
+    "options": {
+      "a": "Haber process",
+      "b": "Thermit reaction",
+      "c": "Hall-Héroult process",
+      "d": "Contact process"
+    },
+    "answer": "b",
+    "id": 1831
+  },
+  {
+    "question": "Which metal will displace copper from copper sulphate solution?",
+    "options": {
+      "a": "Silver",
+      "b": "Gold",
+      "c": "Iron",
+      "d": "Mercury"
+    },
+    "answer": "c",
+    "id": 1832
+  },
+  {
+    "question": "The process of heating a carbonate ore in limited air is called:",
+    "options": {
+      "a": "Roasting",
+      "b": "Calcination",
+      "c": "Reduction",
+      "d": "Electrolysis"
+    },
+    "answer": "b",
+    "id": 1833
+  },
+  {
+    "question": "Assertion: Sodium is stored under kerosene. Reason: Sodium reacts violently with air.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "a",
+    "id": 1834
+  },
+  {
+    "question": "Assertion: Diamond is a good conductor of electricity. Reason: Diamond has a giant covalent structure with delocalized electrons.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "d",
+    "id": 1835
+  },
+  {
+    "question": "Assertion: Metals are generally malleable. Reason: Metals have strong interatomic forces.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "c",
+    "id": 1836
+  },
+  {
+    "question": "Assertion: Gold occurs in a free state in nature. Reason: Gold is a very reactive metal.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "c",
+    "id": 1837
+  },
+  {
+    "question": "Assertion: Aluminum oxide is amphoteric. Reason: It reacts with both acids and bases.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "a",
+    "id": 1838
+  },
+  {
+    "question": "Assertion: Iron rusts in the presence of moist air. Reason: Rusting is a physical change.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "c",
+    "id": 1839
+  },
+  {
+    "question": "Assertion: Calcination is the process of heating an ore in limited air. Reason: Calcination converts carbonate ores to oxides.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "a",
+    "id": 1840
+  },
+  {
+    "question": "Assertion: Zinc is used to galvanize iron. Reason: Zinc is more reactive than iron and sacrifices itself to protect the iron from corrosion.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "a",
+    "id": 1841
+  },
+  {
+    "question": "Assertion: Electrolytic refining is used to purify impure metals. Reason: Impure metal is made the cathode in this process.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "c",
+    "id": 1842
+  },
+  {
+    "question": "Assertion: Non-metals generally form acidic oxides. Reason: Non-metals gain electrons when they react with oxygen.",
+    "options": {
+      "a": "Both Assertion and Reason are correct and Reason is the correct explanation for Assertion",
+      "b": "Both Assertion and Reason are correct but Reason is not the correct explanation for Assertion",
+      "c": "Assertion is correct but Reason is incorrect",
+      "d": "Assertion is incorrect but Reason is correct"
+    },
+    "answer": "a",
+    "id": 1843
+  },
+  {
+    "question": "Why are cooking utensils made of aluminum?",
+    "options": {
+      "a": "It is a good conductor of heat",
+      "b": "It is a poor conductor of heat",
+      "c": "It is a non-metal",
+      "d": "It is highly reactive"
+    },
+    "answer": "a",
+    "id": 1844
+  },
+  {
+    "question": "Why are electrical wires coated with PVC?",
+    "options": {
+      "a": "To make them look attractive",
+      "b": "To prevent electric shocks",
+      "c": "To make them stronger",
+      "d": "To improve conductivity"
+    },
+    "answer": "b",
+    "id": 1845
+  },
+  {
+    "question": "Why is gold used to make jewelry?",
+    "options": {
+      "a": "It is highly reactive",
+      "b": "It is lustrous and malleable",
+      "c": "It is a poor conductor of heat",
+      "d": "It is brittle"
+    },
+    "answer": "b",
+    "id": 1846
+  },
+  {
+    "question": "Why is mercury used in thermometers?",
+    "options": {
+      "a": "It is a solid at room temperature",
+      "b": "It is a liquid metal that expands uniformly with temperature",
+      "c": "It is a non-metal",
+      "d": "It has a high melting point"
+    },
+    "answer": "b",
+    "id": 1847
+  },
+  {
+    "question": "A metal 'X' reacts readily with cold water to form a basic oxide and a gas which burns with a 'pop' sound. Identify 'X'.",
+    "options": {
+      "a": "Magnesium",
+      "b": "Calcium",
+      "c": "Sodium",
+      "d": "Iron"
+    },
+    "answer": "c",
+    "id": 1848
+  },
+  {
+    "question": "Which metal would be most suitable for making a strong and corrosion-resistant container for storing acids?",
+    "options": {
+      "a": "Iron",
+      "b": "Zinc",
+      "c": "Stainless steel",
+      "d": "Copper"
+    },
+    "answer": "c",
+    "id": 1849
+  },
+  {
+    "question": "A metal 'M' does not react with cold or hot water but reacts with steam to liberate hydrogen gas. 'M' could be:",
+    "options": {
+      "a": "Sodium",
+      "b": "Calcium",
+      "c": "Iron",
+      "d": "Copper"
+    },
+    "answer": "c",
+    "id": 1850
+  },
+  {
+    "question": "A non-metal 'X' is lustrous and can be cut with a knife. 'X' is most likely:",
+    "options": {
+      "a": "Sulphur",
+      "b": "Phosphorus",
+      "c": "Iodine",
+      "d": "Carbon"
+    },
+    "answer": "c",
+    "id": 1851
+  },
+  {
+    "question": "A metal 'Y' reacts with dilute hydrochloric acid to form hydrogen gas and a salt. When a burning splinter is brought near the mouth of the test tube, the gas burns with a 'pop' sound. 'Y' could be:",
+    "options": {
+      "a": "Copper",
+      "b": "Gold",
+      "c": "Zinc",
+      "d": "Mercury"
+    },
+    "answer": "c",
+    "id": 1852
+  },
+  {
+    "question": "A metal 'Z' is found in a free state in nature and is used in electrical wiring. 'Z' is most likely:",
+    "options": {
+      "a": "Sodium",
+      "b": "Aluminum",
+      "c": "Copper",
+      "d": "Gold"
+    },
+    "answer": "c",
+    "id": 1853
+  },
+  {
+    "question": "A metal 'A' is soft enough to be cut with a knife and reacts vigorously with water. 'A' is most likely:",
+    "options": {
+      "a": "Iron",
+      "b": "Aluminum",
+      "c": "Sodium",
+      "d": "Zinc"
+    },
+    "answer": "c",
+    "id": 1854
+  },
+  {
+    "question": "A shiny brown coloured element 'X' on heating in air turns black. What is element 'X'?",
+    "options": {
+      "a": "Copper",
+      "b": "Magnesium",
+      "c": "Zinc",
+      "d": "Iron"
+    },
+    "answer": "a",
+    "id": 1856
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of ionic compounds?",
+    "options": {
+      "a": "High melting points",
+      "b": "Solubility in organic solvents",
+      "c": "Brittleness",
+      "d": "Conduct electricity in molten state"
+    },
+    "answer": "b",
+    "id": 1857
+  },
+  {
+    "question": "The process of depositing a thin layer of zinc on iron is called:",
+    "options": {
+      "a": "Alloying",
+      "b": "Galvanization",
+      "c": "Anodising",
+      "d": "Electroplating"
+    },
+    "answer": "b",
+    "id": 1858
+  },
+  {
+    "question": "The most abundant metal in the earth's crust is:",
+    "options": {
+      "a": "Iron",
+      "b": "Aluminum",
+      "c": "Copper",
+      "d": "Zinc"
+    },
+    "answer": "b",
+    "id": 1859
+  },
+  {
+    "question": "Which metal is used in the thermite reaction to join railway tracks?",
+    "options": {
+      "a": "Magnesium",
+      "b": "Aluminum",
+      "c": "Zinc",
+      "d": "Iron"
+    },
+    "answer": "b",
+    "id": 1860
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": {
+      "a": "Bromine",
+      "b": "Mercury",
+      "c": "Gallium",
+      "d": "Caesium"
+    },
+    "answer": "b",
+    "id": 1861
+  },
+  {
+    "question": "Which non-metal is used in water purification?",
+    "options": {
+      "a": "Nitrogen",
+      "b": "Chlorine",
+      "c": "Sulphur",
+      "d": "Phosphorus"
+    },
+    "answer": "b",
+    "id": 1862
+  },
+  {
+    "question": "Which of the following is an alloy of copper and zinc?",
+    "options": {
+      "a": "Bronze",
+      "b": "Brass",
+      "c": "Solder",
+      "d": "Steel"
+    },
+    "answer": "b",
+    "id": 1863
+  },
+  {
+    "question": "Which gas is produced when magnesium reacts with dilute hydrochloric acid?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Chlorine",
+      "c": "Hydrogen",
+      "d": "Carbon dioxide"
+    },
+    "answer": "c",
+    "id": 1864
+  },
+  {
+    "question": "Which of the following is NOT an allotrope of carbon?",
+    "options": {
+      "a": "Diamond",
+      "b": "Graphite",
+      "c": "Fullerene",
+      "d": "Ozone"
+    },
+    "answer": "d",
+    "id": 1865
+  },
+  {
+    "question": "Which metal is used in making aircraft due to its low density and high strength?",
+    "options": {
+      "a": "Iron",
+      "b": "Aluminum",
+      "c": "Copper",
+      "d": "Lead"
+    },
+    "answer": "b",
+    "id": 1866
+  },
+  {
+    "question": "The green coating that forms on copper when exposed to moist air is:",
+    "options": {
+      "a": "Copper oxide",
+      "b": "Copper carbonate",
+      "c": "Copper sulphide",
+      "d": "Copper chloride"
+    },
+    "answer": "b",
+    "id": 1867
+  },
+  {
+    "question": "A metal 'X' burns in air with a dazzling white flame, leaving behind a white powder. 'X' is most likely:",
+    "options": {
+      "a": "Iron",
+      "b": "Magnesium",
+      "c": "Zinc",
+      "d": "Copper"
+    },
+    "answer": "b",
+    "id": 1868
+  }
+]

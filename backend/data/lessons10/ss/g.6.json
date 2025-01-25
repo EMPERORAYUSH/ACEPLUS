@@ -1,0 +1,472 @@
+[
+  {
+    "question": "Which of the following is an example of a small-scale industry?",
+    "options": {
+      "a": "Iron and Steel Industry",
+      "b": "Automobile Industry",
+      "c": "Handloom weaving",
+      "d": "Cement Industry"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Manufacturing industries are generally considered the backbone of development because they:",
+    "options": {
+      "a": "Reduce dependence on agriculture",
+      "b": "Promote traditional handicrafts",
+      "c": "Increase rural employment only",
+      "d": "Decrease foreign exchange"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which sector do manufacturing industries fall under?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Quaternary"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Agro-based industries are primarily dependent on:",
+    "options": {
+      "a": "Minerals",
+      "b": "Agricultural raw materials",
+      "c": "Chemicals",
+      "d": "Forest products"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is a mineral-based industry?",
+    "options": {
+      "a": "Sugar",
+      "b": "Cotton textile",
+      "c": "Cement",
+      "d": "Jute"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The first successful textile mill in India was established in:",
+    "options": {
+      "a": "Kolkata",
+      "b": "Ahmedabad",
+      "c": "Mumbai",
+      "d": "Kanpur"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which industry occupies a unique position in the Indian economy due to its contribution to industrial production, employment, and foreign exchange?",
+    "options": {
+      "a": "IT Industry",
+      "b": "Textile Industry",
+      "c": "Automobile Industry",
+      "d": "Chemical Industry"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The first jute mill in India was set up in:",
+    "options": {
+      "a": "Rishra",
+      "b": "Howrah",
+      "c": "Titagarh",
+      "d": "Bhatpara"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "India stands second in the world as a producer of:",
+    "options": {
+      "a": "Steel",
+      "b": "Sugar",
+      "c": "Cement",
+      "d": "Automobiles"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which raw material used in the sugar industry is bulky and its sucrose content reduces during haulage?",
+    "options": {
+      "a": "Sugarcane",
+      "b": "Sugar beet",
+      "c": "Molasses",
+      "d": "Bagasse"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which industry is often regarded as the index of a country's development?",
+    "options": {
+      "a": "Textile",
+      "b": "Sugar",
+      "c": "Iron and Steel",
+      "d": "Automobile"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a major industrial region mentioned in the text?",
+    "options": {
+      "a": "Mumbai-Pune",
+      "b": "Hugli",
+      "c": "Chhotanagpur",
+      "d": "Hyderabad-Secunderabad"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which city has emerged as the electronic capital of India?",
+    "options": {
+      "a": "Mumbai",
+      "b": "Delhi",
+      "c": "Bengaluru",
+      "d": "Chennai"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is the development of manufacturing industries considered crucial for a country's economic strength?",
+    "options": {
+      "a": "It increases dependence on agriculture",
+      "b": "It provides jobs outside the agricultural sector",
+      "c": "It promotes traditional farming practices",
+      "d": "It focuses solely on the primary sector"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the primary goal behind the establishment of public and joint sector industries in India?",
+    "options": {
+      "a": "To increase regional disparities",
+      "b": "To eradicate unemployment and poverty",
+      "c": "To focus solely on urban development",
+      "d": "To discourage industrial growth in backward areas"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the export of manufactured goods benefit a country?",
+    "options": {
+      "a": "It decreases trade and commerce",
+      "b": "It brings in foreign exchange",
+      "c": "It reduces the value of raw materials",
+      "d": "It leads to economic stagnation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the relationship between agriculture and industry as described in the paragraph?",
+    "options": {
+      "a": "They are independent of each other",
+      "b": "They are mutually beneficial and interdependent",
+      "c": "Industry harms agricultural productivity",
+      "d": "Agriculture does not rely on industrial products"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is required for the Indian industry to succeed in the globalized world?",
+    "options": {
+      "a": "Self-sufficiency alone",
+      "b": "Efficiency and competitiveness",
+      "c": "Lower quality of goods",
+      "d": "Isolation from the international market"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How are industries classified based on the source of their raw materials?",
+    "options": {
+      "a": "Heavy and light industries",
+      "b": "Agro-based and mineral-based industries",
+      "c": "Public and private sector industries",
+      "d": "Consumer and basic industries"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the difference between basic and consumer industries?",
+    "options": {
+      "a": "Basic industries produce goods for direct consumption, while consumer industries supply raw materials.",
+      "b": "Basic industries supply raw materials, while consumer industries produce goods for direct consumption.",
+      "c": "Both basic and consumer industries produce goods only for direct consumption.",
+      "d": "Both basic and consumer industries supply only raw materials."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How is a small-scale industry defined?",
+    "options": {
+      "a": "Based on the number of employees",
+      "b": "Based on the maximum investment allowed on assets",
+      "c": "Based on the type of products manufactured",
+      "d": "Based on the location of the industry"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What distinguishes public sector industries from private sector industries?",
+    "options": {
+      "a": "Public sector industries are owned by individuals, while private sector industries are owned by the government.",
+      "b": "Public sector industries are owned by the government, while private sector industries are owned by individuals.",
+      "c": "Both public and private sector industries are owned only by individuals.",
+      "d": "Both public and private sector industries are owned only by the government."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who owns and operates cooperative sector industries?",
+    "options": {
+      "a": "Government agencies",
+      "b": "Producers or suppliers of raw materials, workers, or both",
+      "c": "A single individual or a group of individuals",
+      "d": "Foreign investors"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why did traditional Indian textile industries suffer during the colonial period?",
+    "options": {
+      "a": "They adopted power-looms",
+      "b": "They could not compete with mill-made cloth from England",
+      "c": "They stopped using hand spinning techniques",
+      "d": "They focused on exporting raw cotton"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why did Mahatma Gandhi lay emphasis on spinning yarn and weaving khadi?",
+    "options": {
+      "a": "To compete with British textile mills",
+      "b": "To promote self-reliance and provide employment",
+      "c": "To discourage the use of power looms",
+      "d": "To increase dependence on foreign goods"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the sugar industry considered seasonal?",
+    "options": {
+      "a": "Because sugar mills operate year-round",
+      "b": "Because sugarcane is a seasonal crop",
+      "c": "Because sugar is consumed only during specific seasons",
+      "d": "Because the industry is not suited to the cooperative sector"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the iron and steel industry classified as a heavy industry?",
+    "options": {
+      "a": "Because it produces lightweight products",
+      "b": "Because it uses light raw materials",
+      "c": "Because its raw materials and finished goods are heavy and bulky",
+      "d": "Because it requires minimal transportation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are the properties of aluminium that make it suitable for various applications?",
+    "options": {
+      "a": "Heavy, non-conductive, and brittle",
+      "b": "Light, corrosion-resistant, and a good conductor of heat",
+      "c": "Opaque, non-malleable, and weak",
+      "d": "Non-resistant to corrosion and a poor conductor of heat"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a new steel plant is to be set up, which location would be most ideal based on the information provided in the text?",
+    "options": {
+      "a": "Near a major city center with high population density",
+      "b": "Near sources of iron ore, coking coal, and limestone with good transport facilities",
+      "c": "In a coastal area far from raw material sources",
+      "d": "In a region with limited access to water and electricity"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A company wants to set up a new textile mill. Which of the following factors should be its primary consideration for location?",
+    "options": {
+      "a": "Proximity to a desert region",
+      "b": "Availability of raw cotton and skilled labor",
+      "c": "Distance from a major port",
+      "d": "Proximity to an IT park"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If the government wants to reduce the country's dependence on agricultural income, what should it promote?",
+    "options": {
+      "a": "Increased cultivation of cash crops",
+      "b": "Development of manufacturing industries",
+      "c": "Expansion of traditional farming practices",
+      "d": "Increased export of raw agricultural products"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A region has abundant sugarcane production. What type of industry would be most suitable to establish there?",
+    "options": {
+      "a": "Iron and Steel",
+      "b": "Sugar",
+      "c": "Aluminium",
+      "d": "Electronics"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A country wants to attract foreign investment. What type of industries should it focus on developing?",
+    "options": {
+      "a": "Industries that export raw materials",
+      "b": "Industries that produce high-value finished goods",
+      "c": "Industries that rely on outdated technology",
+      "d": "Industries that are not competitive in the global market"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A new fertilizer plant needs to be established. Which of the following locations would be most suitable?",
+    "options": {
+      "a": "Near a major city with high demand for fertilizers",
+      "b": "Near a region with access to natural gas or other raw materials for fertilizer production",
+      "c": "In a remote area with limited transportation facilities",
+      "d": "Near an aluminium smelting plant"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A company wants to produce goods for direct use by consumers. What type of industry should it establish?",
+    "options": {
+      "a": "Basic industry",
+      "b": "Consumer industry",
+      "c": "Heavy industry",
+      "d": "Mineral-based industry"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A region has a large number of unemployed youth. What type of industry would be most beneficial for generating employment?",
+    "options": {
+      "a": "Capital-intensive industry",
+      "b": "Labor-intensive industry",
+      "c": "Industries that require highly specialized skills",
+      "d": "Industries that rely on automation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A company is looking for a location to establish a new automobile manufacturing plant. Which of the following factors should be considered?",
+    "options": {
+      "a": "Proximity to raw material sources like steel and rubber, along with good transportation links.",
+      "b": "Availability of cheap land in a remote, undeveloped area.",
+      "c": "Presence of a large pool of unskilled labor.",
+      "d": "Proximity to a major agricultural region"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why might a country prioritize the development of its manufacturing sector over other sectors?",
+    "options": {
+      "a": "To increase reliance on imports",
+      "b": "To achieve economic growth and reduce dependence on primary sectors",
+      "c": "To promote traditional handicrafts and cottage industries",
+      "d": "To limit industrial pollution"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What could be the potential negative consequences of rapid industrialization without proper planning and environmental regulations?",
+    "options": {
+      "a": "Increased employment opportunities",
+      "b": "Environmental degradation and pollution",
+      "c": "Improved standard of living",
+      "d": "Enhanced economic growth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can the government promote the growth of small-scale industries in a country?",
+    "options": {
+      "a": "By imposing high taxes on small businesses",
+      "b": "By providing financial assistance, training, and infrastructure support",
+      "c": "By encouraging monopolies and large corporations",
+      "d": "By limiting access to credit and loans"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important for industries to be located near their raw material sources and markets?",
+    "options": {
+      "a": "To increase transportation costs",
+      "b": "To reduce efficiency and productivity",
+      "c": "To minimize production costs and ensure timely delivery of goods",
+      "d": "To promote regional disparities"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What role does technological advancement play in the growth and competitiveness of manufacturing industries?",
+    "options": {
+      "a": "It hinders innovation and efficiency",
+      "b": "It increases production costs and reduces quality",
+      "c": "It improves productivity, efficiency, and the quality of goods",
+      "d": "It has no impact on the manufacturing sector"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why are cooperative sector industries considered beneficial for farmers and workers in agro-based industries?",
+    "options": {
+      "a": "They exploit farmers and workers for maximum profit",
+      "b": "They ensure fair prices for produce and equitable distribution of profits",
+      "c": "They are controlled solely by the government",
+      "d": "They discourage collective ownership and operation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What could be the reasons for the concentration of the cotton textile industry in Maharashtra and Gujarat in the early years?",
+    "options": {
+      "a": "Availability of cheap labor from other states",
+      "b": "Favorable climatic conditions, access to raw cotton, and well-developed transport facilities",
+      "c": "Government policies that discouraged the industry in other regions",
+      "d": "Lack of demand for cotton textiles in other parts of India"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why has there been a tendency for sugar mills to shift and concentrate in the southern and western states of India in recent years?",
+    "options": {
+      "a": "Higher sugarcane prices in the north",
+      "b": "Higher sucrose content in sugarcane and a longer crushing season in the south and west",
+      "c": "Lack of cooperative societies in the south and west",
+      "d": "Government regulations favoring northern states"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What are the potential challenges faced by the jute industry in India, despite being the largest producer of raw jute?",
+    "options": {
+      "a": "Competition from synthetic fibers and other jute-producing countries",
+      "b": "Lack of demand for jute products",
+      "c": "Overproduction of raw jute",
+      "d": "High prices of raw jute in the international market"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "How does industrial pollution affect human health and the environment?",
+    "options": {
+      "a": "It improves air and water quality",
+      "b": "It leads to respiratory problems, water contamination, and soil degradation",
+      "c": "It enhances biodiversity and ecological balance",
+      "d": "It has no significant impact on human health or the environment"
+    },
+    "answer": "b"
+  }
+]

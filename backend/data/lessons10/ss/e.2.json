@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Which sector includes activities like agriculture, dairy, and fishing?",
+    "options": {
+      "a": "Secondary",
+      "b": "Primary",
+      "c": "Tertiary",
+      "d": "Quaternary"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Converting raw materials into finished goods is a characteristic of which sector?",
+    "options": {
+      "a": "Primary",
+      "b": "Tertiary",
+      "c": "Secondary",
+      "d": "Unorganized"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which sector is also known as the service sector?",
+    "options": {
+      "a": "Primary",
+      "b": "Industrial",
+      "c": "Tertiary",
+      "d": "Agricultural"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What does GDP stand for in the context of the Indian economy?",
+    "options": {
+      "a": "General Domestic Production",
+      "b": "Gross Domestic Product",
+      "c": "Government Development Plan",
+      "d": "Gross Development Potential"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which organization is responsible for conducting surveys on employment in India?",
+    "options": {
+      "a": "Reserve Bank of India (RBI)",
+      "b": "National Sample Survey Organisation (NSSO)",
+      "c": "Planning Commission",
+      "d": "Ministry of Commerce"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The value of all final goods and services produced within a country in a year is called:",
+    "options": {
+      "a": "Net Domestic Product",
+      "b": "Gross National Product",
+      "c": "Gross Domestic Product",
+      "d": "Per Capita Income"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is an example of an intermediate good?",
+    "options": {
+      "a": "A car sold to a customer",
+      "b": "Wheat flour used to make bread",
+      "c": "A mobile phone",
+      "d": "A finished textile product"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which sector has historically been the most important in the initial stages of development?",
+    "options": {
+      "a": "Secondary",
+      "b": "Tertiary",
+      "c": "Primary",
+      "d": "Quaternary"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In developed countries, which sector tends to employ the majority of the workforce?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Service",
+      "d": "Industrial"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "MGNREGA guarantees how many days of employment in a year?",
+    "options": {
+      "a": "50",
+      "b": "100",
+      "c": "200",
+      "d": "365"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of the organized sector?",
+    "options": {
+      "a": "Job security",
+      "b": "Regular wages",
+      "c": "Paid leave",
+      "d": "Employment is not secure"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which act guarantees the 'Right to Work' in India?",
+    "options": {
+      "a": "Minimum Wages Act",
+      "b": "Factories Act",
+      "c": "MGNREGA",
+      "d": "Payment of Gratuity Act"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which sector generally offers better job security and benefits?",
+    "options": {
+      "a": "Unorganized",
+      "b": "Organized",
+      "c": "Primary",
+      "d": "Agricultural"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of the unorganized sector?",
+    "options": {
+      "a": "Small and scattered units",
+      "b": "Jobs are low-paid",
+      "c": "Regular employment",
+      "d": "No job security"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is an example of the public sector?",
+    "options": {
+      "a": "Reliance Industries",
+      "b": "Tata Consultancy Services",
+      "c": "Indian Railways",
+      "d": "Infosys"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The primary sector, often referred to as the backbone of an economy, involves the extraction and harvesting of natural resources. This includes activities such as agriculture, fishing, forestry, and mining. In many developing countries, a significant portion of the population is engaged in this sector, contributing substantially to the nation's GDP.\nQuestion: Which activity is NOT considered a part of the primary sector?",
+    "options": {
+      "a": "Coal mining",
+      "b": "Wheat farming",
+      "c": "Textile manufacturing",
+      "d": "Deep-sea fishing"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The secondary sector plays a crucial role in transforming raw materials into finished goods. This sector encompasses manufacturing, construction, and processing industries. For example, cotton from the primary sector is processed into textiles, and iron ore is used to manufacture steel. The growth of this sector is often seen as a sign of industrialization.\nQuestion: What is the primary function of the secondary sector?",
+    "options": {
+      "a": "Extracting natural resources",
+      "b": "Providing services",
+      "c": "Transforming raw materials into finished goods",
+      "d": "Providing education and healthcare"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The tertiary sector, also known as the service sector, provides various services to both businesses and consumers. This includes transportation, communication, banking, healthcare, education, and tourism. In many developed economies, the tertiary sector constitutes the largest portion of the GDP and employs the majority of the workforce.\nQuestion: Which of the following is a key characteristic of the tertiary sector?",
+    "options": {
+      "a": "Production of raw materials",
+      "b": "Manufacturing of goods",
+      "c": "Provision of services",
+      "d": "Cultivation of crops"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Gross Domestic Product (GDP) is a monetary measure of the market value of all the final goods and services produced in a specific time period within a country. It is a broad measurement of a nation's overall economic activity. GDP is commonly used by economists to gauge the economic health of a country.\nQuestion: What does GDP primarily measure?",
+    "options": {
+      "a": "Total population of a country",
+      "b": "Total value of exports",
+      "c": "Total value of final goods and services produced",
+      "d": "Total government spending"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Intermediate goods are products used in the production process to create final goods. They are not sold directly to consumers but are essential components of other products. For instance, flour is an intermediate good used in making bread, which is a final good. The value of intermediate goods is not directly counted in GDP to avoid double-counting.\nQuestion: Why is the value of intermediate goods NOT directly included in GDP calculation?",
+    "options": {
+      "a": "They are not important",
+      "b": "To avoid double-counting",
+      "c": "They are difficult to measure",
+      "d": "They are only used in the primary sector"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The organized sector is characterized by formal employment structures, regulated working conditions, and job security. Employees in this sector often enjoy benefits such as paid leave, health insurance, and provident funds. Examples include government jobs, large corporations, and registered enterprises that adhere to labor laws.\nQuestion: Which benefit is typically associated with employment in the organized sector?",
+    "options": {
+      "a": "Unpredictable working hours",
+      "b": "Lack of job security",
+      "c": "Paid leave and health insurance",
+      "d": "No formal employment contract"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The unorganized sector comprises small-scale, unregistered enterprises with informal working arrangements. Workers in this sector often face low wages, lack of job security, and no social security benefits. Examples include street vendors, domestic workers, and small farmers. This sector constitutes a significant portion of the workforce in developing countries.\nQuestion: What is a common characteristic of the unorganized sector?",
+    "options": {
+      "a": "Formal employment contracts",
+      "b": "High job security",
+      "c": "Lack of social security benefits",
+      "d": "Regulated working conditions"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) aims to enhance livelihood security in rural areas by providing at least 100 days of guaranteed wage employment in a financial year to every household whose adult members volunteer to do unskilled manual work. This act is a significant step towards ensuring the 'Right to Work'.\nQuestion: What is the primary objective of MGNREGA?",
+    "options": {
+      "a": "To promote industrialization",
+      "b": "To enhance urban employment",
+      "c": "To provide guaranteed wage employment in rural areas",
+      "d": "To improve agricultural productivity"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The public sector includes enterprises owned and operated by the government. These entities provide essential services such as healthcare, education, public transportation, and utilities. The primary goal of the public sector is to serve the public interest rather than to maximize profits.\nQuestion: What is the main objective of enterprises in the public sector?",
+    "options": {
+      "a": "To maximize profits",
+      "b": "To serve the public interest",
+      "c": "To compete with private companies",
+      "d": "To reduce government intervention"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The private sector consists of businesses owned and operated by private individuals or corporations. These entities aim to generate profits and are driven by market competition. Examples include privately owned factories, retail stores, and service providers. The private sector plays a vital role in economic growth and innovation.\nQuestion: What is the primary driving force behind businesses in the private sector?",
+    "options": {
+      "a": "Public service",
+      "b": "Profit generation",
+      "c": "Social welfare",
+      "d": "Government regulation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Historically, the primary sector was the dominant sector in most economies during the early stages of development. As economies evolved, there was a shift towards the secondary sector with the advent of industrialization. In recent times, developed countries have seen a significant rise in the tertiary sector, which now contributes the most to their GDP and employment.\nQuestion: In the historical context of economic development, which sector typically dominates in the initial stages?",
+    "options": {
+      "a": "Tertiary",
+      "b": "Secondary",
+      "c": "Primary",
+      "d": "Quaternary"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Disguised unemployment occurs when more people are employed in an activity than are actually needed. This is particularly common in agriculture in developing countries, where additional workers do not significantly increase output. Removing these extra workers would not reduce the total production, indicating their marginal productivity is close to zero.\nQuestion: What is the defining feature of disguised unemployment?",
+    "options": {
+      "a": "Workers are highly productive",
+      "b": "More workers are employed than needed, with marginal productivity near zero",
+      "c": "Workers are employed in high-tech industries",
+      "d": "There is a shortage of labor"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Underemployment is a situation where individuals are working in jobs that do not fully utilize their skills, education, or availability. This can include part-time workers who desire full-time employment or highly skilled workers performing low-skill jobs. Underemployment represents a loss of potential economic output for the economy.\nQuestion: Which scenario best describes underemployment?",
+    "options": {
+      "a": "A worker is employed in a job matching their skill level",
+      "b": "A worker is employed in a job that does not fully utilize their skills or availability",
+      "c": "A worker is unemployed and actively seeking a job",
+      "d": "A worker is employed in multiple full-time jobs"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The shift from the primary to the secondary and tertiary sectors is a common pattern observed in the economic development of many countries. This transition is often accompanied by urbanization, technological advancements, and improvements in living standards. The service sector, in particular, tends to grow rapidly in the later stages of development.\nQuestion: What typically accompanies the shift from the primary to the secondary and tertiary sectors?",
+    "options": {
+      "a": "A decrease in technological advancements",
+      "b": "Urbanization and improvements in living standards",
+      "c": "A decline in the service sector",
+      "d": "An increase in agricultural employment"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Economic activities can be classified based on various criteria, such as the nature of the activity, working conditions, and ownership of enterprises. Understanding these classifications helps in analyzing economic structures, employment patterns, and policy-making. For instance, classifying activities into primary, secondary, and tertiary sectors helps in understanding the sectoral composition of an economy.\nQuestion: Why is it useful to classify economic activities based on different criteria?",
+    "options": {
+      "a": "To confuse economists",
+      "b": "To analyze economic structures and employment patterns",
+      "c": "To increase the complexity of economic models",
+      "d": "To reduce the importance of certain sectors"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Suppose the government invests in building new roads and improving public transportation. Which sector is most directly benefited by this investment?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Quaternary"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a country's workforce is shifting from agricultural jobs to jobs in factories and industries, this economy is likely transitioning from reliance on which sector to another?",
+    "options": {
+      "a": "From Tertiary to Secondary",
+      "b": "From Primary to Secondary",
+      "c": "From Secondary to Primary",
+      "d": "From Primary to Tertiary"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a large number of workers in a country are engaged in informal activities like street vending and construction work with no job security, which sector are they primarily part of?",
+    "options": {
+      "a": "Organized",
+      "b": "Unorganized",
+      "c": "Public",
+      "d": "Formal"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a scenario where a new dam is constructed, leading to better irrigation and increased agricultural output, which sector is directly impacted?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Industrial"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "If a government decides to increase funding for healthcare and education, which sector will experience growth as a result of this policy?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Agricultural"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A self-employed tailor who makes clothes at home and sells them directly to customers is part of which sector?",
+    "options": {
+      "a": "Organized",
+      "b": "Unorganized",
+      "c": "Public",
+      "d": "Formal"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Suppose a country is experiencing a boom in its tourism industry. Which sector is primarily driving this growth?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Industrial"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a company decides to outsource its customer service operations to a call center in another country, which sector is being utilized in the outsourcing country?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Manufacturing"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why might a government choose to invest heavily in the public sector even if it is less profitable than the private sector?",
+    "options": {
+      "a": "To reduce competition",
+      "b": "To ensure essential services are accessible to all",
+      "c": "To discourage private enterprise",
+      "d": "To increase unemployment"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the presence of a large unorganized sector affect a country's ability to collect taxes and enforce labor laws?",
+    "options": {
+      "a": "It enhances tax collection",
+      "b": "It makes enforcement easier",
+      "c": "It complicates tax collection and law enforcement",
+      "d": "It has no impact"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What could be the potential long-term consequences for an economy that is overly reliant on the primary sector?",
+    "options": {
+      "a": "Rapid industrial growth",
+      "b": "Slower economic development and vulnerability to commodity price fluctuations",
+      "c": "Increased urbanization",
+      "d": "Higher employment rates"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the tertiary sector often considered an indicator of a developed economy?",
+    "options": {
+      "a": "It relies heavily on natural resources",
+      "b": "It indicates a high level of industrialization",
+      "c": "It reflects a shift towards knowledge-based and service-oriented activities",
+      "d": "It is characterized by low wages"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How might rapid technological advancements impact employment in the secondary sector?",
+    "options": {
+      "a": "Increase employment due to higher production",
+      "b": "Decrease employment due to automation",
+      "c": "No impact on employment",
+      "d": "Shift employment to the primary sector"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important to consider both GDP and employment data when analyzing the economic health of a country?",
+    "options": {
+      "a": "GDP alone is sufficient",
+      "b": "Employment data alone is sufficient",
+      "c": "Both provide a comprehensive view of economic activity and social well-being",
+      "d": "Neither is important"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How can a government effectively address the issue of disguised unemployment in the agricultural sector?",
+    "options": {
+      "a": "By increasing agricultural subsidies",
+      "b": "By creating alternative employment opportunities in other sectors",
+      "c": "By enforcing stricter labor laws in agriculture",
+      "d": "By promoting larger farm sizes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What are the potential benefits of shifting from an unorganized to an organized sector for workers?",
+    "options": {
+      "a": "Lower wages and job insecurity",
+      "b": "Better job security, higher wages, and social security benefits",
+      "c": "Longer working hours",
+      "d": "Fewer employment opportunities"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might a developing country prioritize investment in education and healthcare even during periods of economic hardship?",
+    "options": {
+      "a": "To reduce the population",
+      "b": "To improve the human capital and long-term economic prospects",
+      "c": "To decrease employment in the short term",
+      "d": "To attract foreign investment immediately"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the growth of the service sector contribute to environmental sustainability compared to the growth of the manufacturing sector?",
+    "options": {
+      "a": "The service sector has a higher environmental impact",
+      "b": "The service sector generally has a lower environmental impact due to less resource-intensive activities",
+      "c": "Both have the same environmental impact",
+      "d": "The service sector increases pollution levels"
+    },
+    "answer": "b"
+  }
+]

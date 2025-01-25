@@ -1,0 +1,541 @@
+[
+  {
+    "question": "Which of these is NOT a characteristic of living organisms?",
+    "options": {
+      "a": "Growth and development",
+      "b": "Response to stimuli",
+      "c": "Crystallization",
+      "d": "Reproduction"
+    },
+    "answer": "c",
+    "id": 1929
+  },
+  {
+    "question": "Which life process is responsible for the breakdown of complex food into simpler substances?",
+    "options": {
+      "a": "Respiration",
+      "b": "Transportation",
+      "c": "Nutrition",
+      "d": "Excretion"
+    },
+    "answer": "c",
+    "id": 1930
+  },
+  {
+    "question": "Which of these is an autotrophic organism?",
+    "options": {
+      "a": "Mushroom",
+      "b": "Algae",
+      "c": "Amoeba",
+      "d": "Lion"
+    },
+    "answer": "b",
+    "id": 1931
+  },
+  {
+    "question": "The site for complete digestion of carbohydrates, proteins, and fats is:",
+    "options": {
+      "a": "Stomach",
+      "b": "Small intestine",
+      "c": "Large intestine",
+      "d": "Mouth"
+    },
+    "answer": "b",
+    "id": 1932
+  },
+  {
+    "question": "Which gas is released during photosynthesis?",
+    "options": {
+      "a": "Carbon dioxide",
+      "b": "Oxygen",
+      "c": "Nitrogen",
+      "d": "Hydrogen"
+    },
+    "answer": "b",
+    "id": 1933
+  },
+  {
+    "question": "The function of the villi in the small intestine is to:",
+    "options": {
+      "a": "Increase surface area for absorption",
+      "b": "Produce digestive enzymes",
+      "c": "Store digested food",
+      "d": "Digest cellulose"
+    },
+    "answer": "a",
+    "id": 1934
+  },
+  {
+    "question": "The pigment responsible for trapping light energy during photosynthesis is:",
+    "options": {
+      "a": "Chlorophyll",
+      "b": "Haemoglobin",
+      "c": "Melanin",
+      "d": "Carotene"
+    },
+    "answer": "a",
+    "id": 1935
+  },
+  {
+    "question": "Which of these is NOT a component of the human circulatory system?",
+    "options": {
+      "a": "Heart",
+      "b": "Lungs",
+      "c": "Blood vessels",
+      "d": "Blood"
+    },
+    "answer": "b",
+    "id": 1936
+  },
+  {
+    "question": "The main function of platelets in the blood is:",
+    "options": {
+      "a": "Transporting oxygen",
+      "b": "Fighting infections",
+      "c": "Blood clotting",
+      "d": "Carrying nutrients"
+    },
+    "answer": "c",
+    "id": 1937
+  },
+  {
+    "question": "The process of removing metabolic waste from the body is called:",
+    "options": {
+      "a": "Nutrition",
+      "b": "Respiration",
+      "c": "Transportation",
+      "d": "Excretion"
+    },
+    "answer": "d",
+    "id": 1938
+  },
+  {
+    "question": "The basic filtration unit in the human kidney is:",
+    "options": {
+      "a": "Neuron",
+      "b": "Nephron",
+      "c": "Alveolus",
+      "d": "Villi"
+    },
+    "answer": "b",
+    "id": 1939
+  },
+  {
+    "question": "Which process transports products of photosynthesis from leaves to other plant parts?",
+    "options": {
+      "a": "Transpiration",
+      "b": "Translocation",
+      "c": "Respiration",
+      "d": "Absorption"
+    },
+    "answer": "b",
+    "id": 1940
+  },
+  {
+    "question": "What is the function of bile juice?",
+    "options": {
+      "a": "Breaks down proteins",
+      "b": "Emulsifies fats",
+      "c": "Digests carbohydrates",
+      "d": "Creates an acidic environment in the stomach"
+    },
+    "answer": "b",
+    "id": 1941
+  },
+  {
+    "question": "Which of the following is NOT a function of transpiration?",
+    "options": {
+      "a": "Absorption of water",
+      "b": "Upward movement of minerals",
+      "c": "Temperature regulation",
+      "d": "Food transport"
+    },
+    "answer": "d",
+    "id": 1942
+  },
+  {
+    "question": "Yeast carries out which type of respiration?",
+    "options": {
+      "a": "Aerobic",
+      "b": "Anaerobic",
+      "c": "Both aerobic and anaerobic",
+      "d": "Neither aerobic nor anaerobic"
+    },
+    "answer": "c",
+    "id": 1943
+  },
+  {
+    "question": "Which of these is a product of anaerobic respiration in human muscle cells?",
+    "options": {
+      "a": "Ethanol",
+      "b": "Lactic acid",
+      "c": "Carbon dioxide",
+      "d": "Water"
+    },
+    "answer": "b",
+    "id": 1944
+  },
+  {
+    "question": "What is the role of hydrochloric acid in the stomach?",
+    "options": {
+      "a": "Neutralize the food",
+      "b": "Activate pepsin",
+      "c": "Emulsify fats",
+      "d": "Digest carbohydrates"
+    },
+    "answer": "b",
+    "id": 1945
+  },
+  {
+    "question": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+    "options": {
+      "a": "Pulmonary artery",
+      "b": "Pulmonary vein",
+      "c": "Vena cava",
+      "d": "Aorta"
+    },
+    "answer": "b",
+    "id": 1946
+  },
+  {
+    "question": "During inhalation, the diaphragm:",
+    "options": {
+      "a": "Relaxes and moves upwards",
+      "b": "Contracts and moves downwards",
+      "c": "Remains stationary",
+      "d": "Contracts and moves upwards"
+    },
+    "answer": "b",
+    "id": 1947
+  },
+  {
+    "question": "Which of these is NOT a method of excretion in plants?",
+    "options": {
+      "a": "Storing waste in vacuoles",
+      "b": "Releasing waste through stomata",
+      "c": "Shedding leaves",
+      "d": "Excreting through kidneys"
+    },
+    "answer": "d",
+    "id": 1948
+  },
+  {
+    "question": "The energy currency of the cell is:",
+    "options": {
+      "a": "Glucose",
+      "b": "ATP",
+      "c": "ADP",
+      "d": "Starch"
+    },
+    "answer": "b",
+    "id": 1949
+  },
+  {
+    "question": "Which part of the plant absorbs water and minerals from the soil?",
+    "options": {
+      "a": "Stem",
+      "b": "Leaves",
+      "c": "Roots",
+      "d": "Flowers"
+    },
+    "answer": "c",
+    "id": 1950
+  },
+  {
+    "question": "Which process is responsible for the upward movement of water in tall trees?",
+    "options": {
+      "a": "Diffusion",
+      "b": "Transpiration pull",
+      "c": "Osmosis",
+      "d": "Active transport"
+    },
+    "answer": "b",
+    "id": 1951
+  },
+  {
+    "question": "The small intestine is adapted for absorption due to the presence of:",
+    "options": {
+      "a": "Villi",
+      "b": "Alveoli",
+      "c": "Nephrons",
+      "d": "Stomata"
+    },
+    "answer": "a",
+    "id": 1952
+  },
+  {
+    "question": "Which of these is an example of a parasitic plant?",
+    "options": {
+      "a": "Rose",
+      "b": "Cuscuta",
+      "c": "Sunflower",
+      "d": "Algae"
+    },
+    "answer": "b",
+    "id": 1953
+  },
+  {
+    "question": "Which of the following is NOT a part of a nephron?",
+    "options": {
+      "a": "Glomerulus",
+      "b": "Bowman's capsule",
+      "c": "Alveoli",
+      "d": "Tubular part"
+    },
+    "answer": "c",
+    "id": 1954
+  },
+  {
+    "question": "The purpose of sweating in humans is to:",
+    "options": {
+      "a": "Regulate body temperature",
+      "b": "Get rid of excess water",
+      "c": "Remove metabolic wastes",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1955
+  },
+  {
+    "question": "Gaseous exchange in the lungs occur in:",
+    "options": {
+      "a": "Bronchi",
+      "b": "Trachea",
+      "c": "Alveoli",
+      "d": "Diaphragm"
+    },
+    "answer": "c",
+    "id": 1956
+  },
+  {
+    "question": "Pepsin is an enzyme that digests:",
+    "options": {
+      "a": "Carbohydrates",
+      "b": "Proteins",
+      "c": "Fats",
+      "d": "Nucleic acids"
+    },
+    "answer": "b",
+    "id": 1957
+  },
+  {
+    "question": "The movement of food in the alimentary canal is facilitated by:",
+    "options": {
+      "a": "Peristalsis",
+      "b": "Diffusion",
+      "c": "Osmosis",
+      "d": "Active transport"
+    },
+    "answer": "a",
+    "id": 1958
+  },
+  {
+    "question": "Which of the following is NOT a nitrogenous waste product?",
+    "options": {
+      "a": "Urea",
+      "b": "Uric acid",
+      "c": "Ammonia",
+      "d": "Carbon dioxide"
+    },
+    "answer": "d",
+    "id": 1959
+  },
+  {
+    "question": "The main function of xylem in plants is to transport:",
+    "options": {
+      "a": "Food",
+      "b": "Water and minerals",
+      "c": "Oxygen",
+      "d": "Carbon dioxide"
+    },
+    "answer": "b",
+    "id": 1960
+  },
+  {
+    "question": "The process by which plants convert light energy into chemical energy is called:",
+    "options": {
+      "a": "Respiration",
+      "b": "Photosynthesis",
+      "c": "Transpiration",
+      "d": "Translocation"
+    },
+    "answer": "b",
+    "id": 1961
+  },
+  {
+    "question": "Which of the following is an example of a heterotrophic organism?",
+    "options": {
+      "a": "Grass",
+      "b": "Algae",
+      "c": "Fungi",
+      "d": "Tree"
+    },
+    "answer": "c",
+    "id": 1962
+  },
+  {
+    "question": "What structure prevents the backflow of blood in the heart?",
+    "options": {
+      "a": "Arteries",
+      "b": "Veins",
+      "c": "Valves",
+      "d": "Capillaries"
+    },
+    "answer": "c",
+    "id": 1963
+  },
+  {
+    "question": "What is the role of mucus in the respiratory system?",
+    "options": {
+      "a": "Traps dust and germs",
+      "b": "Helps in gas exchange",
+      "c": "Carries oxygen to the cells",
+      "d": "Moistens the air"
+    },
+    "answer": "a",
+    "id": 1964
+  },
+  {
+    "question": "What is the main waste product formed during aerobic respiration?",
+    "options": {
+      "a": "Lactic Acid",
+      "b": "Ethanol",
+      "c": "Carbon dioxide",
+      "d": "Oxygen"
+    },
+    "answer": "c",
+    "id": 1965
+  },
+  {
+    "question": "What is the function of the gall bladder?",
+    "options": {
+      "a": "Stores Bile",
+      "b": "Produces pancreatic juice",
+      "c": "Absorbs nutrients",
+      "d": "Secretes insulin"
+    },
+    "answer": "a",
+    "id": 1966
+  },
+  {
+    "question": "A potted plant is kept in a dark room for a few days. Then, a part of one of its leaves is covered with black paper, and the plant is placed in sunlight. After a few hours, a starch test is performed on the leaf. What would be the expected results, and why?",
+    "options": {
+      "a": "The entire leaf will turn blue-black indicating the presence of starch.",
+      "b": "Only the part of the leaf covered with black paper will turn blue-black.",
+      "c": "Only the part of the leaf exposed to sunlight will turn blue-black.",
+      "d": "The entire leaf will remain colourless, indicating the absence of starch."
+    },
+    "answer": "c",
+    "id": 1967
+  },
+  {
+    "question": "If you compare the blood entering the kidney and the blood leaving the kidney, what key differences would you expect to find, and why?",
+    "options": {
+      "a": "Higher concentration of oxygen in the blood leaving the kidney.",
+      "b": "Lower concentration of urea and other nitrogenous wastes in the blood leaving the kidney.",
+      "c": "Higher concentration of glucose and amino acids in the blood leaving the kidney.",
+      "d": "Higher concentration of carbon dioxide in the blood leaving the kidney."
+    },
+    "answer": "b",
+    "id": 1968
+  },
+  {
+    "question": "Imagine a person is exercising vigorously. How would their breathing rate and heart rate change, and why?",
+    "options": {
+      "a": "Both breathing and heart rate will decrease to conserve energy.",
+      "b": "Breathing rate will decrease, and heart rate will increase.",
+      "c": "Both breathing and heart rate will increase to supply more oxygen to the muscles.",
+      "d": "Breathing rate will increase, and heart rate will decrease."
+    },
+    "answer": "c",
+    "id": 1969
+  },
+  {
+    "question": "Why is diffusion alone sufficient for gas exchange in single-celled organisms but not in multicellular organisms like humans?",
+    "options": {
+      "a": "Single-celled organisms have a lower metabolic rate than humans.",
+      "b": "Single-celled organisms have a larger surface area to volume ratio, allowing for efficient diffusion.",
+      "c": "Multicellular organisms have specialized respiratory systems.",
+      "d": "Single-celled organisms do not require oxygen for respiration."
+    },
+    "answer": "b",
+    "id": 1970
+  },
+  {
+    "question": "A student observed a white, thread-like structure growing on a piece of bread. The student concluded that it was a fungus. Which characteristic of the organism supports this conclusion?",
+    "options": {
+      "a": "Its ability to move freely.",
+      "b": "Its green colour due to chlorophyll.",
+      "c": "Its heterotrophic mode of nutrition.",
+      "d": "Its ability to perform photosynthesis."
+    },
+    "answer": "c",
+    "id": 1971
+  },
+  {
+    "question": "A patient experiencing kidney failure is undergoing dialysis. What is the primary function of dialysis in this case?",
+    "options": {
+      "a": "Increase red blood cell production.",
+      "b": "Filter nitrogenous waste from the blood.",
+      "c": "Stimulate the production of urine.",
+      "d": "Oxygenate the blood."
+    },
+    "answer": "b",
+    "id": 1972
+  },
+  {
+    "question": "A marathon runner experiences muscle cramps towards the end of the race. This is most likely due to the build-up of which substance in the muscles?",
+    "options": {
+      "a": "Ethanol",
+      "b": "Lactic acid",
+      "c": "Carbon dioxide",
+      "d": "Oxygen"
+    },
+    "answer": "b",
+    "id": 1973
+  },
+  {
+    "question": "A plant with variegated leaves (green and white patches) is placed in sunlight. After a few hours, a starch test is performed. Which areas of the leaf would you expect to test positive for starch?",
+    "options": {
+      "a": "Only the white patches",
+      "b": "Only the green patches",
+      "c": "Both the green and white patches equally",
+      "d": "Neither the green nor the white patches"
+    },
+    "answer": "b",
+    "id": 1974
+  },
+  {
+    "question": "A farmer notices that his crops are wilting even though the soil is moist. He suspects a problem with the plants' transport system. Which tissue is most likely affected?",
+    "options": {
+      "a": "Phloem",
+      "b": "Xylem",
+      "c": "Cambium",
+      "d": "Epidermis"
+    },
+    "answer": "b",
+    "id": 1975
+  },
+  {
+    "question": "A person's blood pressure reading is 140/90 mmHg. Which number represents the systolic pressure, and what does it indicate?",
+    "options": {
+      "a": "90 mmHg; pressure during heart relaxation",
+      "b": "140 mmHg; pressure during heart contraction",
+      "c": "90 mmHg; pressure during heart contraction",
+      "d": "140 mmHg; pressure during heart relaxation"
+    },
+    "answer": "b",
+    "id": 1976
+  },
+  {
+    "question": "A scientist is studying the process of translocation in plants. She introduces a radioactive tracer into the phloem of a leaf. Where would she most likely detect the tracer after a few hours?",
+    "options": {
+      "a": "Only in the leaf where it was introduced.",
+      "b": "In the roots and other growing parts of the plant.",
+      "c": "Only in the xylem tissue.",
+      "d": "Only in the stomata of the leaves."
+    },
+    "answer": "b",
+    "id": 1977
+  }
+]

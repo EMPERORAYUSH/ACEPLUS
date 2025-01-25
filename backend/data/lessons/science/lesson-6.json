@@ -1,0 +1,497 @@
+[
+  {
+    "question": "Which of the following is NOT a characteristic of meristematic tissue?",
+    "options": {
+      "a": "Dense cytoplasm",
+      "b": "Thin cellulose walls",
+      "c": "Large vacuoles",
+      "d": "Prominent nuclei"
+    },
+    "answer": "c",
+    "id": 440
+  },
+  {
+    "question": "A student observes a plant tissue under a microscope and finds that the cells are loosely arranged with large intercellular spaces. The tissue most likely is:",
+    "options": {
+      "a": "Collenchyma",
+      "b": "Sclerenchyma",
+      "c": "Parenchyma",
+      "d": "Xylem"
+    },
+    "answer": "c",
+    "id": 441
+  },
+  {
+    "question": "Which type of tissue provides flexibility to plants, allowing them to bend without breaking?",
+    "options": {
+      "a": "Parenchyma",
+      "b": "Sclerenchyma",
+      "c": "Collenchyma",
+      "d": "Xylem"
+    },
+    "answer": "c",
+    "id": 442
+  },
+  {
+    "question": "The husk of a coconut is made up of which type of tissue?",
+    "options": {
+      "a": "Parenchyma",
+      "b": "Collenchyma",
+      "c": "Sclerenchyma",
+      "d": "Phloem"
+    },
+    "answer": "c",
+    "id": 443
+  },
+  {
+    "question": "Which of the following is NOT a component of xylem?",
+    "options": {
+      "a": "Tracheids",
+      "b": "Vessels",
+      "c": "Sieve tubes",
+      "d": "Xylem parenchyma"
+    },
+    "answer": "c",
+    "id": 444
+  },
+  {
+    "question": "Which tissue is responsible for transporting food from leaves to other parts of the plant?",
+    "options": {
+      "a": "Xylem",
+      "b": "Phloem",
+      "c": "Parenchyma",
+      "d": "Collenchyma"
+    },
+    "answer": "b",
+    "id": 445
+  },
+  {
+    "question": "Which of the following is a characteristic of the epidermis in desert plants?",
+    "options": {
+      "a": "Thin cell walls",
+      "b": "Large intercellular spaces",
+      "c": "Thick waxy coating",
+      "d": "Presence of chloroplasts"
+    },
+    "answer": "c",
+    "id": 446
+  },
+  {
+    "question": "Stomata are enclosed by two kidney-shaped cells called:",
+    "options": {
+      "a": "Epidermal cells",
+      "b": "Guard cells",
+      "c": "Companion cells",
+      "d": "Palisade cells"
+    },
+    "answer": "b",
+    "id": 447
+  },
+  {
+    "question": "Which of the following is NOT a function of stomata?",
+    "options": {
+      "a": "Gas exchange",
+      "b": "Transpiration",
+      "c": "Food transport",
+      "d": "Water absorption"
+    },
+    "answer": "c",
+    "id": 448
+  },
+  {
+    "question": "Cork cells are impervious to gases and water due to the presence of:",
+    "options": {
+      "a": "Lignin",
+      "b": "Suberin",
+      "c": "Cutin",
+      "d": "Cellulose"
+    },
+    "answer": "b",
+    "id": 449
+  },
+  {
+    "question": "Which type of animal tissue forms a barrier to keep different body systems separate?",
+    "options": {
+      "a": "Connective tissue",
+      "b": "Muscular tissue",
+      "c": "Nervous tissue",
+      "d": "Epithelial tissue"
+    },
+    "answer": "d",
+    "id": 450
+  },
+  {
+    "question": "The lining of the mouth and oesophagus is made up of which type of epithelium?",
+    "options": {
+      "a": "Cuboidal epithelium",
+      "b": "Columnar epithelium",
+      "c": "Squamous epithelium",
+      "d": "Ciliated epithelium"
+    },
+    "answer": "c",
+    "id": 451
+  },
+  {
+    "question": "Which type of epithelium facilitates movement across the epithelial barrier and is found in the inner lining of the intestine?",
+    "options": {
+      "a": "Squamous epithelium",
+      "b": "Cuboidal epithelium",
+      "c": "Columnar epithelium",
+      "d": "Ciliated epithelium"
+    },
+    "answer": "c",
+    "id": 452
+  },
+  {
+    "question": "Which type of epithelium has hair-like projections called cilia that help in clearing mucus?",
+    "options": {
+      "a": "Squamous epithelium",
+      "b": "Cuboidal epithelium",
+      "c": "Columnar epithelium",
+      "d": "Ciliated epithelium"
+    },
+    "answer": "d",
+    "id": 453
+  },
+  {
+    "question": "Which type of epithelium forms the lining of kidney tubules and provides mechanical support?",
+    "options": {
+      "a": "Squamous epithelium",
+      "b": "Cuboidal epithelium",
+      "c": "Columnar epithelium",
+      "d": "Ciliated epithelium"
+    },
+    "answer": "b",
+    "id": 454
+  },
+  {
+    "question": "Which of the following is NOT a function of connective tissue?",
+    "options": {
+      "a": "Binding and support",
+      "b": "Protection",
+      "c": "Transportation",
+      "d": "Movement"
+    },
+    "answer": "d",
+    "id": 455
+  },
+  {
+    "question": "Which type of connective tissue has a fluid matrix called plasma?",
+    "options": {
+      "a": "Blood",
+      "b": "Bone",
+      "c": "Cartilage",
+      "d": "Areolar tissue"
+    },
+    "answer": "a",
+    "id": 456
+  },
+  {
+    "question": "Which type of connective tissue is strong and non-flexible, forming the framework of the body?",
+    "options": {
+      "a": "Blood",
+      "b": "Bone",
+      "c": "Cartilage",
+      "d": "Areolar tissue"
+    },
+    "answer": "b",
+    "id": 457
+  },
+  {
+    "question": "Which type of connective tissue connects bones to each other and is very elastic?",
+    "options": {
+      "a": "Tendon",
+      "b": "Ligament",
+      "c": "Cartilage",
+      "d": "Areolar tissue"
+    },
+    "answer": "b",
+    "id": 458
+  },
+  {
+    "question": "Which type of connective tissue connects muscles to bones and has great strength but limited flexibility?",
+    "options": {
+      "a": "Tendon",
+      "b": "Ligament",
+      "c": "Cartilage",
+      "d": "Areolar tissue"
+    },
+    "answer": "a",
+    "id": 459
+  },
+  {
+    "question": "Which type of connective tissue smoothens bone surfaces at joints and is also present in the nose and ear?",
+    "options": {
+      "a": "Tendon",
+      "b": "Ligament",
+      "c": "Cartilage",
+      "d": "Areolar tissue"
+    },
+    "answer": "c",
+    "id": 460
+  },
+  {
+    "question": "Which type of connective tissue fills the space inside organs, supports internal organs, and helps in tissue repair?",
+    "options": {
+      "a": "Tendon",
+      "b": "Ligament",
+      "c": "Cartilage",
+      "d": "Areolar tissue"
+    },
+    "answer": "d",
+    "id": 461
+  },
+  {
+    "question": "Which type of connective tissue stores fat and acts as an insulator?",
+    "options": {
+      "a": "Adipose tissue",
+      "b": "Bone",
+      "c": "Cartilage",
+      "d": "Areolar tissue"
+    },
+    "answer": "a",
+    "id": 462
+  },
+  {
+    "question": "Which type of muscle tissue is responsible for voluntary movements like walking and running?",
+    "options": {
+      "a": "Striated muscle",
+      "b": "Smooth muscle",
+      "c": "Cardiac muscle",
+      "d": "Skeletal muscle"
+    },
+    "answer": "a",
+    "id": 463
+  },
+  {
+    "question": "Which type of muscle tissue is responsible for involuntary movements like the movement of food in the alimentary canal?",
+    "options": {
+      "a": "Striated muscle",
+      "b": "Smooth muscle",
+      "c": "Cardiac muscle",
+      "d": "Skeletal muscle"
+    },
+    "answer": "b",
+    "id": 464
+  },
+  {
+    "question": "Which type of muscle tissue is found in the heart and shows rhythmic contraction and relaxation throughout life?",
+    "options": {
+      "a": "Striated muscle",
+      "b": "Smooth muscle",
+      "c": "Cardiac muscle",
+      "d": "Skeletal muscle"
+    },
+    "answer": "c",
+    "id": 465
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of striated muscle?",
+    "options": {
+      "a": "Long, cylindrical cells",
+      "b": "Unbranched cells",
+      "c": "Multinucleate cells",
+      "d": "Uninucleate cells"
+    },
+    "answer": "d",
+    "id": 466
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of smooth muscle?",
+    "options": {
+      "a": "Spindle-shaped cells",
+      "b": "Uninucleate cells",
+      "c": "Striated appearance",
+      "d": "Involuntary control"
+    },
+    "answer": "c",
+    "id": 467
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of cardiac muscle?",
+    "options": {
+      "a": "Cylindrical cells",
+      "b": "Branched cells",
+      "c": "Uninucleate cells",
+      "d": "Multinucleate cells"
+    },
+    "answer": "d",
+    "id": 468
+  },
+  {
+    "question": "Which type of tissue is highly specialized for being stimulated and transmitting stimuli rapidly within the body?",
+    "options": {
+      "a": "Epithelial tissue",
+      "b": "Connective tissue",
+      "c": "Muscular tissue",
+      "d": "Nervous tissue"
+    },
+    "answer": "d",
+    "id": 469
+  },
+  {
+    "question": "The basic unit of nervous tissue is called:",
+    "options": {
+      "a": "Neuron",
+      "b": "Nephron",
+      "c": "Nerve",
+      "d": "Ganglion"
+    },
+    "answer": "a",
+    "id": 470
+  },
+  {
+    "question": "Which part of a neuron is a long, thin process that carries nerve impulses away from the cell body?",
+    "options": {
+      "a": "Dendrite",
+      "b": "Axon",
+      "c": "Synapse",
+      "d": "Myelin sheath"
+    },
+    "answer": "b",
+    "id": 471
+  },
+  {
+    "question": "Which part of a neuron receives signals from other neurons?",
+    "options": {
+      "a": "Dendrite",
+      "b": "Axon",
+      "c": "Synapse",
+      "d": "Myelin sheath"
+    },
+    "answer": "a",
+    "id": 472
+  },
+  {
+    "question": "The signal that passes along a nerve fiber is called:",
+    "options": {
+      "a": "Action potential",
+      "b": "Nerve impulse",
+      "c": "Synaptic transmission",
+      "d": "Neurotransmitter"
+    },
+    "answer": "b",
+    "id": 473
+  },
+  {
+    "question": "The functional combination of nerve and muscle tissue enables animals to:",
+    "options": {
+      "a": "Digest food",
+      "b": "Breathe efficiently",
+      "c": "Move rapidly in response to stimuli",
+      "d": "Reproduce effectively"
+    },
+    "answer": "c",
+    "id": 474
+  },
+  {
+    "question": "Which of the following is a function of the epithelial tissue in the respiratory tract?",
+    "options": {
+      "a": "Absorption of nutrients",
+      "b": "Secretion of hormones",
+      "c": "Movement of mucus",
+      "d": "Contraction of muscles"
+    },
+    "answer": "c",
+    "id": 475
+  },
+  {
+    "question": "Which type of connective tissue is responsible for the storage of minerals like calcium and phosphorus?",
+    "options": {
+      "a": "Bone",
+      "b": "Cartilage",
+      "c": "Adipose tissue",
+      "d": "Blood"
+    },
+    "answer": "a",
+    "id": 476
+  },
+  {
+    "question": "Which type of muscle tissue is responsible for the movement of the iris in the eye?",
+    "options": {
+      "a": "Striated muscle",
+      "b": "Smooth muscle",
+      "c": "Cardiac muscle",
+      "d": "Skeletal muscle"
+    },
+    "answer": "b",
+    "id": 477
+  },
+  {
+    "question": "Which type of tissue is responsible for the transmission of nerve impulses from the brain to the muscles?",
+    "options": {
+      "a": "Epithelial tissue",
+      "b": "Connective tissue",
+      "c": "Muscular tissue",
+      "d": "Nervous tissue"
+    },
+    "answer": "d",
+    "id": 478
+  },
+  {
+    "question": "Which type of cell in nervous tissue is responsible for receiving signals from other neurons?",
+    "options": {
+      "a": "Neuron",
+      "b": "Glial cell",
+      "c": "Schwann cell",
+      "d": "Astrocyte"
+    },
+    "answer": "a",
+    "id": 479
+  },
+  {
+    "question": "Which type of connective tissue is found in the bone marrow and helps in the production of blood cells?",
+    "options": {
+      "a": "Areolar tissue",
+      "b": "Adipose tissue",
+      "c": "Bone",
+      "d": "Cartilage"
+    },
+    "answer": "a",
+    "id": 480
+  },
+  {
+    "question": "Which of the following is NOT a type of epithelial tissue?",
+    "options": {
+      "a": "Squamous epithelium",
+      "b": "Cuboidal epithelium",
+      "c": "Columnar epithelium",
+      "d": "Connective epithelium"
+    },
+    "answer": "d",
+    "id": 481
+  },
+  {
+    "question": "Which type of muscle tissue is responsible for the peristaltic movement of food in the digestive system?",
+    "options": {
+      "a": "Striated muscle",
+      "b": "Smooth muscle",
+      "c": "Cardiac muscle",
+      "d": "Skeletal muscle"
+    },
+    "answer": "b",
+    "id": 482
+  },
+  {
+    "question": "Which of the following is a function of the epidermis in plants?",
+    "options": {
+      "a": "Photosynthesis",
+      "b": "Water transport",
+      "c": "Protection against water loss",
+      "d": "Food storage"
+    },
+    "answer": "c",
+    "id": 483
+  },
+  {
+    "question": "Which type of connective tissue forms the tendons that connect muscles to bones?",
+    "options": {
+      "a": "Dense regular connective tissue",
+      "b": "Dense irregular connective tissue",
+      "c": "Elastic connective tissue",
+      "d": "Reticular connective tissue"
+    },
+    "answer": "a",
+    "id": 484
+  }
+]

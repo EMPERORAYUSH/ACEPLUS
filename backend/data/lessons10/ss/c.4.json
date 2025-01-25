@@ -1,0 +1,582 @@
+[
+  {
+    "question": "A political party is a group of people who come together to contest elections and hold power in the __________.",
+    "options": {
+      "a": "Society",
+      "b": "Government",
+      "c": "Legislature",
+      "d": "Judiciary"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Parties reflect fundamental _______________ divisions in society.",
+    "options": {
+      "a": "Economic",
+      "b": "Social",
+      "c": "Political",
+      "d": "Religious"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Parties involve _______________ , which means taking a side.",
+    "options": {
+      "a": "Bipartisanship",
+      "b": "Multi-partisanship",
+      "c": "Partisanship",
+      "d": "Non-partisanship"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Election Commission offers some special facilities to large and established parties like a unique _______________.",
+    "options": {
+      "a": "Name",
+      "b": "Symbol",
+      "c": "Ideology",
+      "d": "Leader"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The _______________ party is the political party that runs the government.",
+    "options": {
+      "a": "Opposition",
+      "b": "Regional",
+      "c": "Ruling",
+      "d": "National"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the primary function of a political party?",
+    "options": {
+      "a": "To contest elections",
+      "b": "To criticize the government",
+      "c": "To form pressure groups",
+      "d": "To provide welfare schemes"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is NOT a component of a political party?",
+    "options": {
+      "a": "Leaders",
+      "b": "Active members",
+      "c": "Election Commission",
+      "d": "Followers"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the role of opposition parties in a democracy?",
+    "options": {
+      "a": "To support the ruling party",
+      "b": "To criticize the government's policies",
+      "c": "To disrupt parliamentary proceedings",
+      "d": "To form a parallel government"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How do political parties shape public opinion?",
+    "options": {
+      "a": "By suppressing dissent",
+      "b": "By controlling the media",
+      "c": "By raising and highlighting issues",
+      "d": "By imposing their ideology on the public"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is a coalition government?",
+    "options": {
+      "a": "A government formed by one party",
+      "b": "A government formed by two parties",
+      "c": "A government formed by multiple parties working together",
+      "d": "A government formed by the military"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the main reason for the evolution of a multi-party system in India?",
+    "options": {
+      "a": "Lack of education among voters",
+      "b": "Social and geographical diversity",
+      "c": "Influence of foreign powers",
+      "d": "Weakness of the Election Commission"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is NOT a challenge faced by political parties?",
+    "options": {
+      "a": "Lack of internal democracy",
+      "b": "Dynastic succession",
+      "c": "Increasing voter turnout",
+      "d": "Influence of money and muscle power"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is defection?",
+    "options": {
+      "a": "Joining a political party",
+      "b": "Leaving a political party",
+      "c": "Changing party allegiance after being elected",
+      "d": "Criticizing a political party"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is an affidavit?",
+    "options": {
+      "a": "A sworn statement regarding personal information",
+      "b": "A party manifesto",
+      "c": "A voting ballot",
+      "d": "A political speech"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a way to reform political parties?",
+    "options": {
+      "a": "Banning all political parties",
+      "b": "Reducing voter turnout",
+      "c": "Encouraging dynastic succession",
+      "d": "Regulating their internal affairs"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which party is associated with the ideology of \"Integral Humanism\"?",
+    "options": {
+      "a": "Congress",
+      "b": "BJP",
+      "c": "CPI-M",
+      "d": "AAP"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which party emerged from the 2011 anti-corruption movement?",
+    "options": {
+      "a": "AAP",
+      "b": "BJP",
+      "c": "Congress",
+      "d": "BSP"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which party draws inspiration from Kanshi Ram?",
+    "options": {
+      "a": "AAP",
+      "b": "BJP",
+      "c": "Congress",
+      "d": "BSP"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which party has a strong base in West Bengal, Kerala, and Tripura?",
+    "options": {
+      "a": "Congress",
+      "b": "BJP",
+      "c": "CPI-M",
+      "d": "AAP"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which party is considered one of the oldest in the world?",
+    "options": {
+      "a": "AAP",
+      "b": "BJP",
+      "c": "Congress",
+      "d": "BSP"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is a recognised national party in India as of the information provided in the text?",
+    "options": {
+      "a": "BJP",
+      "b": "Samajwadi Party",
+      "c": "Dravida Munnetra Kazhagam",
+      "d": "All India Trinamool Congress"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is meant by 'dynastic succession' in politics?",
+    "options": {
+      "a": "Leadership passing from one generation of a family to the next",
+      "b": "Leaders being elected based on merit",
+      "c": "Leaders being chosen randomly",
+      "d": "Leaders stepping down after a fixed term"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is a concern related to money and muscle power in politics?",
+    "options": {
+      "a": "It encourages healthy competition",
+      "b": "It leads to voter awareness",
+      "c": "It can undermine fair elections",
+      "d": "It strengthens democracy"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is one way suggested to reduce the influence of money in elections?",
+    "options": {
+      "a": "State funding of elections",
+      "b": "Allowing unlimited corporate donations",
+      "c": "Deregulating campaign finance",
+      "d": "Encouraging private donations"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is a major criticism of political parties regarding their policies?",
+    "options": {
+      "a": "They offer diverse policy options",
+      "b": "They often lack ideological differences",
+      "c": "They clearly communicate their policies to voters",
+      "d": "They prioritize public interest over party interests"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is one way citizens can hold political parties accountable?",
+    "options": {
+      "a": "By ignoring elections",
+      "b": "By participating in protests and petitions",
+      "c": "By blindly supporting a single party",
+      "d": "By relying solely on social media for information"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does the text suggest is necessary for improving the quality of democracy?",
+    "options": {
+      "a": "Greater public participation",
+      "b": "Less public participation",
+      "c": "Centralized control of political parties",
+      "d": "Stricter regulations on protests"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is a \"two-party system\"?",
+    "options": {
+      "a": "A system where only two parties exist.",
+      "b": "A system where only two parties have a realistic chance of forming a government.",
+      "c": "A system where two parties always form a coalition government.",
+      "d": "A system where two parties are funded by the state."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Political parties are crucial for the functioning of democracy. Which statement best explains this importance?",
+    "options": {
+      "a": "They control the media and manipulate public opinion.",
+      "b": "They aggregate diverse interests and provide a platform for public participation.",
+      "c": "They eliminate the need for elections and simplify the political process.",
+      "d": "They ensure only one ideology dominates the political landscape."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Many people are critical of political parties. What is a common criticism?",
+    "options": {
+      "a": "They promote internal democracy and accountability.",
+      "b": "They often prioritize winning elections over public service.",
+      "c": "They focus on long-term policy goals rather than short-term gains.",
+      "d": "They represent a narrow range of interests and exclude marginalized groups."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Political parties contest elections. Why is this a vital function?",
+    "options": {
+      "a": "It allows citizens to choose their representatives and hold them accountable.",
+      "b": "It ensures that only wealthy and influential individuals can hold office.",
+      "c": "It eliminates the need for political debate and discussion.",
+      "d": "It creates a one-party system that simplifies decision-making."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Opposition parties play a crucial role. How do they contribute to democracy?",
+    "options": {
+      "a": "By obstructing government functioning and creating political instability.",
+      "b": "By providing alternative perspectives and holding the ruling party accountable.",
+      "c": "By suppressing dissent and limiting freedom of expression.",
+      "d": "By forming a shadow government that duplicates the ruling party's functions."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Dynastic succession is a challenge to political parties. Why is this considered problematic?",
+    "options": {
+      "a": "It promotes meritocracy and encourages fresh leadership within the party.",
+      "b": "It can concentrate power within families and limit opportunities for others.",
+      "c": "It strengthens inner-party democracy and fosters open discussions.",
+      "d": "It ensures that experienced and qualified individuals always hold leadership positions."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Money and muscle power are growing influences in politics. What negative impact can this have?",
+    "options": {
+      "a": "It promotes fair elections and ensures equal opportunities for all candidates.",
+      "b": "It can lead to criminalization of politics and undermine democratic processes.",
+      "c": "It reduces voter turnout and discourages public participation.",
+      "d": "It strengthens the rule of law and promotes accountability among politicians."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Some argue for state funding of elections. What is the rationale behind this proposal?",
+    "options": {
+      "a": "To increase the reliance of political parties on corporate donations.",
+      "b": "To reduce the influence of money and create a more level playing field for candidates.",
+      "c": "To make elections more expensive and discourage smaller parties from participating.",
+      "d": "To give greater control over election funding to private donors."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Political parties sometimes offer limited choices to voters. Why is this a concern?",
+    "options": {
+      "a": "It can lead to voter apathy and disengagement with the political process.",
+      "b": "It encourages healthy debate and discussion among citizens.",
+      "c": "It provides a wide range of policy options that cater to diverse needs.",
+      "d": "It strengthens the representative nature of democracy."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Public pressure can push parties towards reform. How can citizens exert this pressure?",
+    "options": {
+      "a": "By remaining silent and accepting the status quo.",
+      "b": "By organizing protests, petitions, and using media platforms to voice their demands.",
+      "c": "By ignoring political issues and focusing on personal matters.",
+      "d": "By supporting political parties that resist reforms."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Greater public participation in political parties is essential. Why is this important for a healthy democracy?",
+    "options": {
+      "a": "It allows a small elite to control political decisions.",
+      "b": "It can improve the quality of democracy by bringing diverse voices into the political process.",
+      "c": "It reduces the accountability of political parties to the public.",
+      "d": "It weakens democratic institutions and creates political instability."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a small town, the local elections saw the emergence of three main candidates. Candidate A belonged to a well-established national party, Candidate B represented a regional party focused on local issues, and Candidate C was an independent candidate with no party affiliation. The national party candidate, Candidate A, had access to significant funding and media coverage, while the other two candidates struggled with limited resources.\n\nWhat challenge to democratic elections does this case highlight?",
+    "options": {
+      "a": "Lack of internal party democracy.",
+      "b": "Dynastic succession.",
+      "c": "Influence of money and media in elections.",
+      "d": "Lack of voter interest in local elections."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A political party, once known for its strong ideological stance and grassroots activism, has recently seen a shift in leadership. The new party president, who is the son of the previous president, has focused more on building alliances with other parties for political gain rather than upholding the party's core principles. This has led to disillusionment among many long-time party members.\n\nWhich challenge to political parties does this scenario exemplify?",
+    "options": {
+      "a": "Lack of internal democracy",
+      "b": "Dynastic succession and shift from core ideologies",
+      "c": "Influence of money and muscle power",
+      "d": "Lack of meaningful choice for voters"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A prominent political leader, known for his charismatic personality and populist rhetoric, recently switched from one political party to another. This move was seen as opportunistic as it allowed him to gain a powerful position in the new party, despite having previously criticized its policies. Voters expressed frustration at the lack of consistent political ideology among leaders.\n\nWhat challenge does this case underscore regarding political parties and leadership?",
+    "options": {
+      "a": "Lack of internal party democracy",
+      "b": "Dynastic succession",
+      "c": "Influence of money and muscle power",
+      "d": "Lack of consistent ideology and opportunistic party-switching"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The upcoming elections in a state have seen a proliferation of candidates with criminal records. These candidates, often backed by powerful political parties, use intimidation and vote-buying tactics to influence voters. Despite public outrage and media attention, the Election Commission has struggled to effectively address this issue.\n\nWhat is the primary challenge to free and fair elections highlighted in this case?",
+    "options": {
+      "a": "Dynastic Politics",
+      "b": "Influence of Money and Muscle Power",
+      "c": "Lack of Internal Party Democracy",
+      "d": "Decline in Ideological Differences"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A study on voter participation reveals a growing trend of political apathy among young citizens. Many feel disillusioned with the existing political parties, viewing them as corrupt and unresponsive to their concerns. They believe that no matter which party comes to power, their lives will remain largely unaffected.\n\nWhat challenge to democratic governance does this case illustrate?",
+    "options": {
+      "a": "Growing criminalization of politics",
+      "b": "Decline in voter turnout and political apathy",
+      "c": "Increasing influence of money in elections",
+      "d": "Lack of effective opposition parties"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary purpose of political parties holding organizational elections?",
+    "options": {
+      "a": "To select candidates for public office",
+      "b": "To raise funds for election campaigns",
+      "c": "To promote internal democracy and accountability",
+      "d": "To influence government policies"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is it essential for political parties to maintain a register of their members?",
+    "options": {
+      "a": "To track campaign donations",
+      "b": "To monitor voter turnout",
+      "c": "To ensure transparency and accountability within the party",
+      "d": "To identify potential candidates for public office"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the purpose of an independent authority to judge party disputes?",
+    "options": {
+      "a": "To favor the ruling party",
+      "b": "To ensure fair resolution of internal conflicts",
+      "c": "To suppress dissent within the party",
+      "d": "To control the party's ideology"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the main objective of quotas for women in party decision-making bodies?",
+    "options": {
+      "a": "To limit women's participation in politics",
+      "b": "To ensure greater representation and participation of women",
+      "c": "To comply with international regulations",
+      "d": "To promote tokenism rather than genuine empowerment"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary goal of state funding of elections?",
+    "options": {
+      "a": "To increase the influence of money in politics",
+      "b": "To reduce the dependence of parties on private donations, potentially minimizing corruption",
+      "c": "To make elections more expensive and exclusive",
+      "d": "To give more power to the state over political parties"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is over-regulation of political parties considered counterproductive?",
+    "options": {
+      "a": "It strengthens inner-party democracy",
+      "b": "It can stifle political activity and encourage parties to find ways around the law",
+      "c": "It promotes transparency and accountability",
+      "d": "It makes it easier for parties to comply with regulations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Apart from legal reforms, what is another way to bring about positive change in political parties?",
+    "options": {
+      "a": "Public pressure and increased participation",
+      "b": "Reducing public awareness of political issues",
+      "c": "Limiting voter participation in elections",
+      "d": "Giving more power to the Election Commission"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which political party advocates for the cause of the \"Bahujan Samaj\"?",
+    "options": {
+      "a": "Bhartiya Janata Party",
+      "b": "Bahujan Samaj Party",
+      "c": "Communist Party of India (Marxist)",
+      "d": "Indian National Congress"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who is considered the founder of the Bahujan Samaj Party?",
+    "options": {
+      "a": "Mayawati",
+      "b": "Kanshi Ram",
+      "c": "B.R. Ambedkar",
+      "d": "Sahu Maharaj"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is meant by a \"one-party system\"?",
+    "options": {
+      "a": "A system where only one political party is legally allowed to exist and hold power.",
+      "b": "A system where multiple parties compete for power, but one party usually dominates.",
+      "c": "A system where the government is formed by a coalition of multiple parties.",
+      "d": "A system where there are no political parties, and candidates run as independents."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the role of the Election Commission in regulating political parties?",
+    "options": {
+      "a": "It forms political parties.",
+      "b": "It decides party policies.",
+      "c": "It registers and offers recognition to political parties.",
+      "d": "It elects party leaders."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What does the term \"partisan\" mean in the context of political parties?",
+    "options": {
+      "a": "Someone who is neutral and objective",
+      "b": "Someone strongly committed to a particular party",
+      "c": "Someone who opposes all political parties",
+      "d": "Someone who frequently switches party allegiance"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is meant by the term \"ruling party\"?",
+    "options": {
+      "a": "The party that receives the most votes in an election but does not form the government.",
+      "b": "The party that forms the government.",
+      "c": "The main opposition party in the legislature.",
+      "d": "A newly formed political party."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why do some people argue for a quota for women in political parties?",
+    "options": {
+      "a": "To increase diversity and representation",
+      "b": "To limit the number of women in politics",
+      "c": "To fulfill international treaty obligations",
+      "d": "To create an artificial balance"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why do some suggest state funding of political parties?",
+    "options": {
+      "a": "To increase the influence of wealthy donors.",
+      "b": "To make parties more dependent on the government.",
+      "c": "To potentially reduce corruption by limiting the impact of private money.",
+      "d": "To discourage new parties from forming."
+    },
+    "answer": "c"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Which of the following is NOT a characteristic of the \"double coincidence of wants\"?",
+    "options": {
+      "a": "Both parties agree to sell and buy each other's commodities.",
+      "b": "It is a prerequisite for a barter system.",
+      "c": "Money acts as an intermediate.",
+      "d": "It is an essential feature of a barter economy."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Modern forms of money include:",
+    "options": {
+      "a": "Gold and silver coins",
+      "b": "Cattle and grains",
+      "c": "Paper currency and demand deposits",
+      "d": "Promissory notes and barter exchange"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The value of money in a modern economy is primarily derived from:",
+    "options": {
+      "a": "Its intrinsic value as a commodity.",
+      "b": "Its acceptance as a medium of exchange.",
+      "c": "The value of gold reserves held by the central bank.",
+      "d": "The material it is made from."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which institution issues currency notes in India?",
+    "options": {
+      "a": "Ministry of Finance",
+      "b": "State Bank of India",
+      "c": "Reserve Bank of India",
+      "d": "National Bank for Agriculture and Rural Development"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Demand deposits are:",
+    "options": {
+      "a": "Fixed deposits that can be withdrawn after a specific period.",
+      "b": "Deposits that can be withdrawn on demand.",
+      "c": "Deposits that do not earn any interest.",
+      "d": "Deposits made by the government."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A cheque is:",
+    "options": {
+      "a": "A form of currency note.",
+      "b": "A paper instructing the bank to pay a specific amount.",
+      "c": "A loan provided by the bank.",
+      "d": "A form of digital currency."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a function of a commercial bank?",
+    "options": {
+      "a": "Accepting deposits",
+      "b": "Providing loans",
+      "c": "Issuing currency",
+      "d": "Facilitating payments"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Collateral is:",
+    "options": {
+      "a": "A type of loan",
+      "b": "An asset pledged as security for a loan",
+      "c": "The interest rate charged on a loan",
+      "d": "A form of informal credit"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "'Debt-trap' refers to a situation where:",
+    "options": {
+      "a": "A borrower is unable to repay a loan and falls into a cycle of debt.",
+      "b": "A lender charges a very low interest rate.",
+      "c": "A borrower repays a loan ahead of schedule.",
+      "d": "A lender refuses to provide a loan."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Informal sources of credit typically:",
+    "options": {
+      "a": "Charge lower interest rates than formal sources.",
+      "b": "Have less paperwork and are more accessible to the poor.",
+      "c": "Are regulated by the Reserve Bank of India.",
+      "d": "Provide loans only for productive purposes."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Self-Help Groups (SHGs) are:",
+    "options": {
+      "a": "Government agencies that provide loans to the poor.",
+      "b": "Small groups of individuals who pool their savings and provide loans to members.",
+      "c": "Large corporations that engage in microfinance.",
+      "d": "Banks that specialize in lending to rural areas."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of SHGs?",
+    "options": {
+      "a": "Provide access to credit without collateral",
+      "b": "Promote financial independence among women",
+      "c": "Guarantee high returns on savings",
+      "d": "Offer a platform for social empowerment"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The main source of income for banks is:",
+    "options": {
+      "a": "The difference between interest charged on loans and interest paid on deposits.",
+      "b": "Government subsidies",
+      "c": "Fees charged for issuing currency",
+      "d": "Donations from international organizations"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "In a barter system, which of the following would most likely occur?",
+    "options": {
+      "a": "Use of currency notes",
+      "b": "Double coincidence of wants",
+      "c": "Use of demand deposits",
+      "d": "Transactions through cheques"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Money acts as a medium of exchange because:",
+    "options": {
+      "a": "It has intrinsic value",
+      "b": "It is made of precious metals",
+      "c": "It is generally accepted in transactions",
+      "d": "It is issued by cooperative societies"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Ramesh, a farmer, needs a loan to buy seeds and fertilizers for the upcoming season. He approaches a local moneylender who agrees to provide the loan at a high interest rate and demands Ramesh's land as collateral. Which term best describes the asset pledged by Ramesh?",
+    "options": {
+      "a": "Liability",
+      "b": "Collateral",
+      "c": "Equity",
+      "d": "Dividend"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A group of women in a village form a Self-Help Group (SHG). They pool their savings and provide small loans to each other for various needs, such as starting a small business or meeting emergency expenses. What is the primary advantage of this arrangement for the members?",
+    "options": {
+      "a": "Access to large loans from commercial banks",
+      "b": "Exemption from paying taxes",
+      "c": "Access to credit without collateral",
+      "d": "Guaranteed high returns on their savings"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Reserve Bank of India (RBI) mandates that all commercial banks maintain a certain percentage of their deposits as cash reserves. This is done to ensure that banks have sufficient funds to meet the withdrawal demands of their depositors. What is this requirement called?",
+    "options": {
+      "a": "Statutory Liquidity Ratio (SLR)",
+      "b": "Cash Reserve Ratio (CRR)",
+      "c": "Repo Rate",
+      "d": "Reverse Repo Rate"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Salim, a shoe manufacturer, receives an order to deliver a large quantity of shoes within a month. He takes a loan from a bank to purchase raw materials and hire additional workers. What type of credit does Salim utilize in this scenario?",
+    "options": {
+      "a": "Personal loan",
+      "b": "Working capital loan",
+      "c": "Mortgage loan",
+      "d": "Educational loan"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Meera wants to withdraw money from her bank account but instead of going to the bank, she uses a cheque to make a payment to a supplier. What is the primary function of a cheque in this transaction?",
+    "options": {
+      "a": "It serves as a form of currency.",
+      "b": "It instructs the bank to transfer funds.",
+      "c": "It provides a loan to Meera.",
+      "d": "It acts as collateral."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A bank offers an interest rate of 4% per annum on savings deposits and charges an interest rate of 10% per annum on loans. What is the primary source of the bank's profit in this scenario?",
+    "options": {
+      "a": "Fees charged on cheque transactions",
+      "b": "The difference between the lending and deposit rates",
+      "c": "Government subsidies",
+      "d": "Donations from international organizations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In rural areas, many farmers rely on informal sources of credit, such as moneylenders, who often charge exorbitant interest rates. This can lead to a situation where farmers are unable to repay their loans and fall into a cycle of debt. What term best describes this situation?",
+    "options": {
+      "a": "Credit boom",
+      "b": "Debt trap",
+      "c": "Financial inclusion",
+      "d": "Microfinance"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The government of India promotes the use of digital payments to reduce reliance on cash transactions. Which of the following is NOT a method of digital payment?",
+    "options": {
+      "a": "Mobile wallets",
+      "b": "Barter exchange",
+      "c": "Debit cards",
+      "d": "Internet banking"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A cooperative society in a village collects deposits from its members and provides them with loans at a reasonable interest rate. What is the primary objective of such a cooperative society?",
+    "options": {
+      "a": "To maximize profits for its shareholders",
+      "b": "To provide financial assistance to its members",
+      "c": "To compete with commercial banks",
+      "d": "To issue currency notes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Sunita, a small farmer, takes a loan from a moneylender to cultivate her land. Due to a poor harvest, she is unable to repay the loan on time, and the moneylender seizes her land. Which aspect of informal credit is highlighted in this scenario?",
+    "options": {
+      "a": "Low interest rates",
+      "b": "Flexible repayment terms",
+      "c": "Risk of losing collateral",
+      "d": "Easy accessibility"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The formal sector of credit in India includes institutions like banks and cooperatives, which are regulated by the Reserve Bank of India (RBI). Which of the following is a characteristic of the formal credit sector?",
+    "options": {
+      "a": "High interest rates",
+      "b": "Lack of transparency",
+      "c": "Standardized terms and conditions",
+      "d": "No requirement for collateral"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Mohan wants to buy a house and takes a loan from a bank. The bank keeps the property papers as security until the loan is fully repaid. What is this type of loan called?",
+    "options": {
+      "a": "Personal loan",
+      "b": "Mortgage loan",
+      "c": "Business loan",
+      "d": "Overdraft facility"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Grameen Bank of Bangladesh is known for providing microcredit to poor borrowers, especially women, to help them start small businesses. What is the primary aim of this initiative?",
+    "options": {
+      "a": "To promote large-scale industrialization",
+      "b": "To empower the poor and alleviate poverty",
+      "c": "To provide loans for higher education",
+      "d": "To finance government projects"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The double coincidence of wants is a fundamental requirement for a barter system to function effectively. Why is this requirement difficult to meet in a complex economy?",
+    "options": {
+      "a": "People have diverse needs and may not find someone with a matching need to trade with.",
+      "b": "Barter systems are illegal in most countries.",
+      "c": "People prefer to use money instead of bartering.",
+      "d": "Governments do not allow barter transactions."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A government report reveals that a significant portion of the rural population in India still relies on informal sources of credit. What is the most likely reason for this dependence?",
+    "options": {
+      "a": "Informal sources offer higher interest rates on savings.",
+      "b": "Formal credit institutions are not easily accessible in rural areas.",
+      "c": "Informal sources provide loans without any collateral.",
+      "d": "Formal credit institutions charge exorbitant interest rates."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If you were a farmer needing a loan for agricultural purposes, which of these would likely be your LEAST preferred source of credit and why?",
+    "options": {
+      "a": "A commercial bank, due to complex procedures.",
+      "b": "A cooperative society, due to limited loan amounts.",
+      "c": "A moneylender, due to high interest rates and risk of losing collateral.",
+      "d": "A Self-Help Group, due to restrictions on loan usage."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "You are a member of an SHG. Your group decides to take a bank loan. Which factor is most crucial for the bank to consider before approving the loan?",
+    "options": {
+      "a": "The group's political affiliations",
+      "b": "The group's saving regularity and internal lending history",
+      "c": "The individual credit scores of each member",
+      "d": "The group's ability to provide high-value collateral"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If the RBI wants to increase the money supply in the economy, it might:",
+    "options": {
+      "a": "Increase the Cash Reserve Ratio (CRR)",
+      "b": "Decrease the Statutory Liquidity Ratio (SLR)",
+      "c": "Sell government securities in the open market",
+      "d": "Increase the interest rates on loans"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A government decides to promote cashless transactions. Which of the following measures would be LEAST effective in achieving this goal?",
+    "options": {
+      "a": "Providing incentives for using digital payment methods",
+      "b": "Increasing the availability of ATMs in rural areas",
+      "c": "Launching awareness campaigns about the benefits of digital payments",
+      "d": "Improving internet connectivity and mobile network coverage"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Suppose you have to choose between these two options, which one would you choose and why? Option A: Borrow from a moneylender at 5% interest per month. Option B: Borrow from a bank at 12% interest per annum.",
+    "options": {
+      "a": "Option A, because the interest rate is lower.",
+      "b": "Option B, because the annual interest rate is effectively lower.",
+      "c": "Option A, because moneylenders are more easily accessible.",
+      "d": "Option B, because banks do not require collateral."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "As a policy maker, you want to promote financial inclusion. Which of these steps would be most effective?",
+    "options": {
+      "a": "Encouraging the establishment of more SHGs",
+      "b": "Increasing the interest rates on savings accounts",
+      "c": "Limiting the number of bank branches in rural areas",
+      "d": "Promoting the use of informal credit sources"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "If you are saving money for a future goal, which of these would be your most preferred option?",
+    "options": {
+      "a": "Keeping cash at home",
+      "b": "Depositing in a savings bank account",
+      "c": "Lending to a friend at a high interest rate",
+      "d": "Investing in a high-risk business venture"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "You need to make an urgent payment to someone in a different city. Which of these methods would be the quickest and most convenient?",
+    "options": {
+      "a": "Sending a cheque by mail",
+      "b": "Making an online bank transfer",
+      "c": "Withdrawing cash from an ATM and sending it through a courier",
+      "d": "Asking a friend to deliver the cash in person"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If you are a small business owner, what would be your primary consideration when choosing between a formal and an informal source of credit?",
+    "options": {
+      "a": "The prestige of the lending institution",
+      "b": "The interest rate and repayment terms",
+      "c": "The political influence of the lender",
+      "d": "The lender's social status"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "You are advising a friend on how to avoid falling into a debt trap. Which of these suggestions would be most appropriate?",
+    "options": {
+      "a": "Borrow from multiple moneylenders to get better interest rates.",
+      "b": "Ensure that loan repayments do not exceed a reasonable portion of income.",
+      "c": "Always pledge collateral to secure loans quickly.",
+      "d": "Prioritize loan repayment over essential expenses like food and healthcare."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the existence of a well-functioning banking system crucial for the economic development of a country?",
+    "options": {
+      "a": "It provides employment opportunities.",
+      "b": "It facilitates the flow of credit, promotes investment, and supports economic growth.",
+      "c": "It helps in controlling inflation.",
+      "d": "It ensures equitable distribution of wealth."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the presence of informal credit markets alongside formal ones impact the effectiveness of monetary policy?",
+    "options": {
+      "a": "It enhances the effectiveness of monetary policy.",
+      "b": "It has no impact on monetary policy.",
+      "c": "It can complicate the transmission of monetary policy as informal markets are less responsive to policy changes.",
+      "d": "It makes monetary policy more predictable."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are the potential social and economic consequences of a large section of the population being excluded from the formal banking system?",
+    "options": {
+      "a": "Increased economic growth",
+      "b": "Reduced income inequality",
+      "c": "Greater reliance on informal credit, leading to exploitation and debt traps",
+      "d": "Improved access to education and healthcare"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How can the government effectively regulate the informal credit sector to protect borrowers from exploitation without stifling access to credit?",
+    "options": {
+      "a": "By banning all informal lending activities",
+      "b": "By imposing strict interest rate caps and promoting financial literacy",
+      "c": "By providing subsidies to moneylenders",
+      "d": "By encouraging people to rely solely on formal credit sources"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the concept of 'moral hazard' apply to the lending practices of banks and the potential for financial crises?",
+    "options": {
+      "a": "It encourages banks to lend responsibly.",
+      "b": "It has no relevance to the banking sector.",
+      "c": "Banks might take excessive risks if they believe they will be bailed out by the government, leading to financial instability.",
+      "d": "It ensures that borrowers always repay their loans."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are the limitations of using microfinance as a tool for poverty alleviation, and how can these limitations be addressed?",
+    "options": {
+      "a": "Microfinance is always effective in reducing poverty.",
+      "b": "Microfinance can lead to over-indebtedness if not accompanied by financial literacy and other support services.",
+      "c": "Microfinance is only suitable for urban areas.",
+      "d": "Microfinance institutions are always profitable."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might a government choose to implement policies that promote financial inclusion, even if it means incurring some costs?",
+    "options": {
+      "a": "To increase tax revenue",
+      "b": "To reduce the political influence of banks",
+      "c": "To foster economic growth, reduce poverty, and improve social welfare",
+      "d": "To promote the use of informal credit sources"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How can technological advancements, such as mobile banking and digital currencies, contribute to greater financial inclusion in developing countries?",
+    "options": {
+      "a": "By making banking services more expensive and inaccessible",
+      "b": "By increasing the reliance on cash transactions",
+      "c": "By providing access to financial services in remote areas and reducing transaction costs",
+      "d": "By promoting the use of informal credit sources"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are the ethical considerations surrounding the practice of charging high interest rates to poor borrowers in informal credit markets?",
+    "options": {
+      "a": "High interest rates are always justified as they reflect the risk involved.",
+      "b": "Poor borrowers should not be allowed to take loans.",
+      "c": "Charging exorbitant interest rates can be exploitative and trap borrowers in a cycle of debt.",
+      "d": "There are no ethical considerations involved in informal lending."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How does demonetization, the sudden withdrawal of certain currency notes from circulation, impact the economy, particularly the informal sector?",
+    "options": {
+      "a": "It has no impact on the economy.",
+      "b": "It can disrupt economic activity, especially in the cash-reliant informal sector, and lead to a temporary slowdown.",
+      "c": "It always leads to a significant increase in economic growth.",
+      "d": "It only affects the formal sector of the economy."
+    },
+    "answer": "b"
+  }
+]

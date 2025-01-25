@@ -1,0 +1,378 @@
+[
+  {
+    "question": "What is the reference point for describing the location of an object?",
+    "options": {
+      "a": "The starting point of the object's motion",
+      "b": "Any point on the object's path of motion",
+      "c": "A fixed point with respect to which the object's position is measured",
+      "d": "The final point of the object's motion"
+    },
+    "answer": "c",
+    "id": 485
+  },
+  {
+    "question": "A car travels 400 km in 8 hours. What is its average speed?",
+    "options": {
+      "a": "40 km/h",
+      "b": "50 km/h",
+      "c": "60 km/h",
+      "d": "80 km/h"
+    },
+    "answer": "b",
+    "id": 486
+  },
+  {
+    "question": "Assertion: An object moving in a circular path with constant speed is accelerating. \nReason: Its direction of motion is changing continuously.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "a",
+    "id": 487
+  },
+  {
+    "question": "A bus traveling at 20 m/s applies its brakes and comes to a stop in 5 seconds. What is the acceleration of the bus?",
+    "options": {
+      "a": "4 m/s²",
+      "b": "-4 m/s²",
+      "c": "2 m/s²",
+      "d": "-2 m/s²"
+    },
+    "answer": "b",
+    "id": 488
+  },
+  {
+    "question": "Explain how the distance-time graph can be used to determine the speed of an object.",
+    "answer": "The speed of an object can be determined from its distance-time graph by calculating the slope of the graph. The slope is equal to the change in distance divided by the change in time, which is the definition of speed.",
+    "id": 489
+  },
+  {
+    "question": "A train travels from city A to city B with a speed of 60 km/h and returns to city A with a speed of 80 km/h. What is the average speed of the train for the entire journey?",
+    "options": {
+      "a": "70 km/h",
+      "b": "68.57 km/h",
+      "c": "75 km/h",
+      "d": "Cannot be determined without knowing the distance between A and B"
+    },
+    "answer": "d",
+    "id": 490
+  },
+  {
+    "question": "Assertion: The displacement of an object can be equal to or less than the distance traveled by the object.\nReason: Displacement is the shortest distance between the initial and final positions of an object, while distance is the actual path length covered.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "a",
+    "id": 491
+  },
+  {
+    "question": "A cyclist travels a distance of 10 km in the first hour, 8 km in the second hour, and 6 km in the third hour. Calculate the average speed of the cyclist.",
+    "options": {
+      "a": "6 km/h",
+      "b": "8 km/h",
+      "c": "10 km/h",
+      "d": "24 km/h"
+    },
+    "answer": "b",
+    "id": 492
+  },
+  {
+    "question": "Analyze the following scenarios and determine if they describe uniform or non-uniform motion:\n(a) A car moving at a constant speed on a straight road.\n(b) A ball rolling down an inclined plane.\n(c) A pendulum swinging back and forth.",
+    "answer": "(a) Uniform motion\n(b) Non-uniform motion\n(c) Non-uniform motion",
+    "id": 493
+  },
+  {
+    "question": "The velocity-time graph of a car is a straight line inclined to the time axis. What can you conclude about the motion of the car?",
+    "options": {
+      "a": "The car is at rest.",
+      "b": "The car is moving with uniform velocity.",
+      "c": "The car is moving with uniform acceleration.",
+      "d": "The car is moving with non-uniform acceleration."
+    },
+    "answer": "c",
+    "id": 494
+  },
+  {
+    "question": "A ball is thrown vertically upwards with an initial velocity of 20 m/s. Take g = 10 m/s². Calculate:\n(a) the maximum height reached by the ball.\n(b) the time taken to reach the maximum height.",
+    "answer": "(a) 20 m\n(b) 2 s",
+    "id": 495
+  },
+  {
+    "question": "Assertion: The average speed of an object in a journey can never be zero.\nReason: The average speed is the total distance traveled divided by the total time taken.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "c",
+    "id": 496
+  },
+  {
+    "question": "Explain why the motion of a freely falling body is considered uniformly accelerated motion.",
+    "answer": "The motion of a freely falling body is considered uniformly accelerated motion because the acceleration due to gravity is constant near the Earth's surface. This means that the velocity of a freely falling body increases at a constant rate.",
+    "id": 497
+  },
+  {
+    "question": "A car starts from rest and accelerates uniformly at 2 m/s² for 10 seconds. Calculate the distance covered by the car during this time.",
+    "options": {
+      "a": "50 m",
+      "b": "100 m",
+      "c": "200 m",
+      "d": "400 m"
+    },
+    "answer": "b",
+    "id": 498
+  },
+  {
+    "question": "The distance-time graph of an object is a curved line. What can you infer about the motion of the object?",
+    "options": {
+      "a": "The object is at rest.",
+      "b": "The object is moving with uniform velocity.",
+      "c": "The object is moving with uniform acceleration.",
+      "d": "The object is moving with non-uniform velocity."
+    },
+    "answer": "d",
+    "id": 499
+  },
+  {
+    "question": "Explain with an example how the controlled motion of objects can be beneficial to human beings.",
+    "answer": "The controlled motion of water in hydroelectric power plants is an example of how controlled motion can be beneficial to human beings. The water is allowed to flow through turbines, which rotate and generate electricity.",
+    "id": 500
+  },
+  {
+    "question": "A train is moving with a velocity of 36 km/h. It is accelerated to a velocity of 54 km/h in 10 seconds. Calculate the acceleration of the train.",
+    "options": {
+      "a": "0.5 m/s²",
+      "b": "1 m/s²",
+      "c": "1.5 m/s²",
+      "d": "2 m/s²"
+    },
+    "answer": "a",
+    "id": 501
+  },
+  {
+    "question": "Assertion: The velocity of an object can be negative.\nReason: Velocity is a vector quantity and has both magnitude and direction.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "a",
+    "id": 502
+  },
+  {
+    "question": "A stone is dropped from a height of 100 m. Calculate the time taken by the stone to reach the ground. (Take g = 10 m/s²).",
+    "options": {
+      "a": "2 s",
+      "b": "4.5 s",
+      "c": "10 s",
+      "d": "20 s"
+    },
+    "answer": "b",
+    "id": 503
+  },
+  {
+    "question": "The velocity-time graph of an object is a straight line parallel to the time axis. What does this indicate about the acceleration of the object?",
+    "options": {
+      "a": "The object has zero acceleration.",
+      "b": "The object has uniform acceleration.",
+      "c": "The object has non-uniform acceleration.",
+      "d": "The acceleration of the object cannot be determined from the graph."
+    },
+    "answer": "a",
+    "id": 504
+  },
+  {
+    "question": "Describe how you would use a stopwatch and a measuring tape to measure the average speed of a car moving along a straight road.",
+    "answer": "To measure the average speed of a car, you would first need to mark out a known distance along the straight road. Then, using the stopwatch, measure the time it takes for the car to travel that distance. Finally, divide the distance by the time to get the average speed.",
+    "id": 505
+  },
+  {
+    "question": "A car is traveling at a speed of 72 km/h. The driver applies the brakes and the car comes to rest in 20 seconds. Calculate the retardation of the car.",
+    "options": {
+      "a": "-1 m/s²",
+      "b": "-2 m/s²",
+      "c": "-3 m/s²",
+      "d": "-4 m/s²"
+    },
+    "answer": "a",
+    "id": 506
+  },
+  {
+    "question": "Assertion: The displacement of an object can be zero even if the distance traveled by the object is not zero.\nReason: Displacement is a vector quantity, while distance is a scalar quantity.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "a",
+    "id": 507
+  },
+  {
+    "question": "A ball is thrown vertically upwards. What is its velocity at the highest point?",
+    "options": {
+      "a": "Maximum",
+      "b": "Zero",
+      "c": "Equal to the initial velocity",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "id": 508
+  },
+  {
+    "question": "The distance-time graph of a body is parallel to the distance axis. What is the speed of the body?",
+    "options": {
+      "a": "Zero",
+      "b": "Constant",
+      "c": "Infinite",
+      "d": "Cannot be determined"
+    },
+    "answer": "c",
+    "id": 509
+  },
+  {
+    "question": "The velocity-time graph of a body is a straight line passing through the origin. What does this indicate about the motion of the body?",
+    "options": {
+      "a": "The body is at rest.",
+      "b": "The body is moving with uniform velocity.",
+      "c": "The body is moving with uniform acceleration.",
+      "d": "The body is moving with non-uniform acceleration."
+    },
+    "answer": "c",
+    "id": 510
+  },
+  {
+    "question": "A car is moving with a velocity of 10 m/s. It accelerates at a rate of 2 m/s² for 5 seconds. Calculate the final velocity of the car.",
+    "options": {
+      "a": "10 m/s",
+      "b": "15 m/s",
+      "c": "20 m/s",
+      "d": "25 m/s"
+    },
+    "answer": "c",
+    "id": 511
+  },
+  {
+    "question": "Assertion: A body can have zero velocity and still be accelerating.\nReason: Acceleration is the rate of change of velocity.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "a",
+    "id": 512
+  },
+  {
+    "question": "A body is thrown vertically upwards with a velocity of 20 m/s. Calculate the maximum height reached by the body. (Take g = 10 m/s²)",
+    "options": {
+      "a": "10 m",
+      "b": "20 m",
+      "c": "30 m",
+      "d": "40 m"
+    },
+    "answer": "b",
+    "id": 513
+  },
+  {
+    "question": "The distance-time graph of a body is a curve. What can you say about the velocity of the body?",
+    "options": {
+      "a": "The velocity is zero.",
+      "b": "The velocity is constant.",
+      "c": "The velocity is increasing.",
+      "d": "The velocity is decreasing."
+    },
+    "answer": "c",
+    "id": 514
+  },
+  {
+    "question": "A car is moving with a velocity of 20 m/s. It decelerates at a rate of 2 m/s² for 5 seconds. Calculate the final velocity of the car.",
+    "options": {
+      "a": "0 m/s",
+      "b": "5 m/s",
+      "c": "10 m/s",
+      "d": "15 m/s"
+    },
+    "answer": "c",
+    "id": 515
+  },
+  {
+    "question": "Assertion: The area under the velocity-time graph gives the displacement of the body.\nReason: The slope of the velocity-time graph gives the acceleration of the body.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "b",
+    "id": 516
+  },
+  {
+    "question": "A ball is thrown vertically upwards and it reaches a height of 45 m. Calculate the velocity with which it was thrown. (Take g = 10 m/s²)",
+    "options": {
+      "a": "15 m/s",
+      "b": "30 m/s",
+      "c": "45 m/s",
+      "d": "90 m/s"
+    },
+    "answer": "b",
+    "id": 517
+  },
+  {
+    "question": "What is the difference between uniform and non-uniform circular motion?",
+    "answer": "In uniform circular motion, the speed of the object remains constant while its direction changes continuously. In non-uniform circular motion, both the speed and direction of the object change continuously.",
+    "id": 518
+  },
+  {
+    "question": "A body is moving in a circular path of radius 10 m. If it completes one revolution in 5 seconds, calculate its speed.",
+    "options": {
+      "a": "2π m/s",
+      "b": "4π m/s",
+      "c": "6π m/s",
+      "d": "8π m/s"
+    },
+    "answer": "b",
+    "id": 519
+  },
+  {
+    "question": "Assertion: The velocity of a body moving in a circular path is constantly changing.\nReason: The direction of motion of the body is constantly changing.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
+      "c": "Assertion is true but Reason is false",
+      "d": "Assertion is false but Reason is true"
+    },
+    "answer": "a",
+    "id": 520
+  },
+  {
+    "question": "A car is moving with a velocity of 10 m/s. It accelerates uniformly at a rate of 2 m/s² for 5 seconds. Calculate the distance covered by the car during this time.",
+    "options": {
+      "a": "25 m",
+      "b": "50 m",
+      "c": "75 m",
+      "d": "100 m"
+    },
+    "answer": "c",
+    "id": 521
+  },
+  {
+    "question": "A body is moving in a circular path of radius 5 m. If its speed is 10 m/s, calculate its centripetal acceleration.",
+    "options": {
+      "a": "10 m/s²",
+      "b": "20 m/s²",
+      "c": "30 m/s²",
+      "d": "40 m/s²"
+    },
+    "answer": "b",
+    "id": 522
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Where was the earliest kind of print technology developed?",
+    "options": {
+      "a": "Egypt",
+      "b": "Mesopotamia",
+      "c": "China",
+      "d": "India"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Who was the major producer of printed material in China for a long time?",
+    "options": {
+      "a": "Merchants",
+      "b": "Buddhist monks",
+      "c": "Imperial state",
+      "d": "Private individuals"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What primarily drove the increased volume of print in 16th century China?",
+    "options": {
+      "a": "Rise of merchant class",
+      "b": "Increased demand for fiction",
+      "c": "Rise in examination candidates",
+      "d": "Religious texts"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the oldest Japanese book?",
+    "options": {
+      "a": "The Tale of Genji",
+      "b": "The Diamond Sutra",
+      "c": "Kojiki",
+      "d": "Nihon Shoki"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does Ukiyo mean?",
+    "options": {
+      "a": "Pictures of nature",
+      "b": "Pictures of the floating world",
+      "c": "Calligraphy",
+      "d": "Woodblock printing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who brought knowledge of woodblock printing to Europe from China?",
+    "options": {
+      "a": "Vasco da Gama",
+      "b": "Christopher Columbus",
+      "c": "Marco Polo",
+      "d": "Ibn Battuta"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is vellum?",
+    "options": {
+      "a": "A type of paper",
+      "b": "A printing technique",
+      "c": "Parchment from animal skin",
+      "d": "A kind of ink"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Where did Johann Gutenberg develop the printing press?",
+    "options": {
+      "a": "Venice",
+      "b": "Paris",
+      "c": "Strasbourg",
+      "d": "London"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the first book Gutenberg printed?",
+    "options": {
+      "a": "The Canterbury Tales",
+      "b": "The Divine Comedy",
+      "c": "The Bible",
+      "d": "Utopia"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is a platen in a printing press?",
+    "options": {
+      "a": "The handle",
+      "b": "The ink roller",
+      "c": "The metal type",
+      "d": "The press board"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What was the impact of the printing press on book production?",
+    "options": {
+      "a": "Decreased production",
+      "b": "Increased cost",
+      "c": "Slower production",
+      "d": "Faster production"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What contributed to the rise of a new reading public?",
+    "options": {
+      "a": "Higher book prices",
+      "b": "Reduced book cost",
+      "c": "Limited availability of books",
+      "d": "Control over print"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What were ballads?",
+    "options": {
+      "a": "Prose narratives",
+      "b": "Religious texts",
+      "c": "Scientific treatises",
+      "d": "Verses sung or recited"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What was the Protestant Reformation?",
+    "options": {
+      "a": "A scientific revolution",
+      "b": "A peasant uprising",
+      "c": "A religious movement",
+      "d": "An artistic movement"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is meant by ‘heretical’?",
+    "options": {
+      "a": "Conforming to established religious doctrine",
+      "b": "Beliefs opposing church teachings",
+      "c": "Supporting the monarch",
+      "d": "Promoting scientific ideas"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is meant by ‘Inquisition’?",
+    "options": {
+      "a": "Scientific inquiry",
+      "b": "Religious tolerance",
+      "c": "Court to punish heretics",
+      "d": "Artistic expression"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The printing press reached India with Portuguese missionaries. Initially, they focused on printing religious tracts.  What is the best summary of this?",
+    "options": {
+      "a": "The first printing press in India was set up by the British.",
+      "b": "Early Indian printing focused on scientific texts.",
+      "c": "The Portuguese missionaries introduced the printing press to India and printed religious material.",
+      "d": "The Portuguese established printing presses to promote trade."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The arrival of print led to new forms of literary expression. Novels became increasingly popular. What is the best inference from this?",
+    "options": {
+      "a": "Print culture discouraged new writing.",
+      "b": "Novels were already a popular form before the printing press.",
+      "c": "The printing press facilitated the rise of the novel.",
+      "d": "Print culture primarily focused on religious texts."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Raja Ravi Varma's paintings were reproduced for mass circulation. This contributed to a new visual culture. What is the main point?",
+    "options": {
+      "a": "Ravi Varma’s work was exclusive to the elite.",
+      "b": "Print technology allowed Ravi Varma’s art to reach a wider audience.",
+      "c": "Ravi Varma opposed using print technology.",
+      "d": "Ravi Varma’s paintings depicted rural life."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Women's literacy increased with the spread of print culture. Many journals began catering specifically to women readers. What is the relationship between print and women's literacy?",
+    "options": {
+      "a": "Print culture had a negative impact on women's literacy.",
+      "b": "Women’s journals discouraged education.",
+      "c": "Print culture and journals played a positive role in women’s education.",
+      "d": "Women were not allowed access to printed materials."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Battala area of Calcutta became a hub for printing. It offered a variety of cheap books. What characterized Battala's publications?",
+    "options": {
+      "a": "Battala publications were very expensive.",
+      "b": "Battala catered mainly to the elite.",
+      "c": "Battala was a center for expensive religious texts.",
+      "d": "Battala provided affordable books accessible to a wider audience."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The Vernacular Press Act was passed in 1878. It gave the government greater control over the press. What was the main effect of the Vernacular Press Act?",
+    "options": {
+      "a": "The Vernacular Press Act promoted press freedom.",
+      "b": "The act aimed to restrict nationalist publications.",
+      "c": "The act was passed to encourage vernacular newspapers.",
+      "d": "The British supported the nationalist press."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Balgangadhar Tilak wrote sympathetically about the deported revolutionaries. This resulted in his imprisonment. What was the consequence of Tilak's writings?",
+    "options": {
+      "a": "Tilak’s writings supported the British government.",
+      "b": "Tilak’s imprisonment sparked protests.",
+      "c": "Tilak opposed the revolutionaries.",
+      "d": "Tilak’s writings were not influential."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Cheap books were sold at marketplaces in Madras. This made books accessible to poorer people. What impact did this have on book access?",
+    "options": {
+      "a": "Only expensive books were available to the poor.",
+      "b": "Access to books was restricted to the elite.",
+      "c": "Print culture made books more accessible to the lower classes.",
+      "d": "Printed materials were not available in marketplaces."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Jyotiba Phule wrote about caste discrimination. His Gulamgiri became an important text. What was the significance of Phule's work?",
+    "options": {
+      "a": "Phule supported the caste system.",
+      "b": "Phule's work contributed to anti-caste movements.",
+      "c": "Phule’s writings were ignored by the public.",
+      "d": "Gulamgiri supported caste hierarchy."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Kashibaba, a Kanpur millworker, published Chhote Aur Bade Ka Sawal. It highlighted the link between caste and class exploitation.  What did Kashibaba's publication achieve?",
+    "options": {
+      "a": "Kashibaba’s work ignored social issues.",
+      "b": "Kashibaba’s writings supported factory owners.",
+      "c": "Kashibaba used print to express the workers' perspective.",
+      "d": "Kashibaba’s work was not about social inequalities."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In the sixteenth century, Menocchio, a miller in Italy, engaged with printed books in his local area. He developed his own interpretations of religious texts, forming unique views on God and creation. These views clashed with the doctrines of the Roman Catholic Church. What was the consequence of Menocchio's independent interpretation of religious texts?",
+    "options": {
+      "a": "He was praised by the Church.",
+      "b": "He was appointed a religious leader.",
+      "c": "He was executed by the Church.",
+      "d": "His ideas were adopted by the Church."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Printing in the late nineteenth century saw the rise of penny magazines. These magazines were specifically targeted towards women readers. They provided content on household management, appropriate conduct, and other information deemed relevant for women at the time. What was the primary target audience of penny magazines in the late 19th century?",
+    "options": {
+      "a": "Children",
+      "b": "Elite men",
+      "c": "Women",
+      "d": "Working-class men"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Vernacular Press Act of 1878 was modeled on the Irish Press Laws. It empowered the British colonial government to censor reports and editorials in vernacular publications. This act granted the government broad authority to restrict content deemed seditious or harmful to its interests. What was the primary purpose of the Vernacular Press Act of 1878?",
+    "options": {
+      "a": "Promote press freedom",
+      "b": "Support nationalist sentiments",
+      "c": "Control the vernacular press",
+      "d": "Encourage independent journalism"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In the nineteenth century, public libraries began to appear in greater numbers across India. While primarily located in cities and towns, some wealthier villages also gained access to these libraries. Establishing a library was often seen as a status symbol for wealthy patrons in local communities. What motivated wealthy patrons to establish libraries in nineteenth-century India?",
+    "options": {
+      "a": "To promote literacy among the poor",
+      "b": "To challenge British rule",
+      "c": "To enhance their social standing",
+      "d": "To spread religious teachings"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In the bustling Battala area of Calcutta, a vibrant print culture flourished. A diverse range of publications was readily available, from religious texts and scriptures to literature considered scandalous and obscene by some. This area offered a mix of content for various tastes and interests. What kind of literature could be found in Calcutta’s Battala area?",
+    "options": {
+      "a": "Only scholarly works",
+      "b": "Primarily British propaganda",
+      "c": "A mix of religious and scandalous literature",
+      "d": "Only expensive, imported books"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Balgangadhar Tilak, a prominent nationalist leader, expressed his support for the deported revolutionaries through his writings in Kesari. This act of defiance led to his imprisonment in 1908. His imprisonment, in turn, sparked widespread protests across India. What was the direct consequence of Tilak writing sympathetically about the revolutionaries in Kesari?",
+    "options": {
+      "a": "He was awarded by the British government.",
+      "b": "His writings were banned.",
+      "c": "He was imprisoned.",
+      "d": "He became a British supporter."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The ______ was the first book printed by Gutenberg.",
+    "options": {
+      "a": "Diamond Sutra",
+      "b": "Bible",
+      "c": "Utopia",
+      "d": "The Prince"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The art of beautiful and stylized writing is called ______.",
+    "options": {
+      "a": "Ukiyo",
+      "b": "Calligraphy",
+      "c": "Printing",
+      "d": "Illustration"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "_____ was a major center for printing in Calcutta.",
+    "options": {
+      "a": "Battala",
+      "b": "Bombay",
+      "c": "Madras",
+      "d": "Delhi"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "______ invented the printing press.",
+    "options": {
+      "a": "Marco Polo",
+      "b": "James Augustus Hickey",
+      "c": "Johann Gutenberg",
+      "d": "Raja Ravi Varma"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How did print influence the spread of new ideas during the Reformation?",
+    "options": {
+      "a": "It slowed the spread of new ideas",
+      "b": "It allowed faster and wider dissemination of ideas",
+      "c": "It had no impact on the spread of ideas",
+      "d": "It limited the spread of ideas to the elite"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why was the shift from hand printing to mechanical printing revolutionary?",
+    "options": {
+      "a": "It made books more expensive",
+      "b": "It slowed down the production of books",
+      "c": "It made books more accessible",
+      "d": "It reduced the demand for books"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What role did print play in the development of public opinion?",
+    "options": {
+      "a": "It suppressed public debate",
+      "b": "It facilitated discussions and debates on various issues",
+      "c": "It had no impact on public discourse",
+      "d": "It limited public opinion to the elite"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How did print impact the relationship between people and authorities?",
+    "options": {
+      "a": "It strengthened the authority of rulers",
+      "b": "It allowed people to challenge existing power structures",
+      "c": "It had no effect on power dynamics",
+      "d": "It suppressed dissent and criticism"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why were some people apprehensive about the spread of printed books?",
+    "options": {
+      "a": "They feared it would limit access to knowledge",
+      "b": "They worried about the spread of dissenting ideas",
+      "c": "They believed it would increase the power of the church",
+      "d": "They thought it would promote illiteracy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How did printers encourage a wider readership among common people?",
+    "options": {
+      "a": "By publishing only expensive religious texts",
+      "b": "By printing popular ballads and folk tales",
+      "c": "By limiting access to printed materials",
+      "d": "By focusing solely on scholarly works"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why were illustrations important in early printed books for the common people?",
+    "options": {
+      "a": "They made books more expensive",
+      "b": "They made the stories more accessible to those who couldn't read easily",
+      "c": "They were only meant for the elite",
+      "d": "They had no significance"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the impact of print culture on scientific development?",
+    "options": {
+      "a": "It limited the spread of scientific knowledge",
+      "b": "It made scientific ideas more accessible",
+      "c": "It had no effect on scientific advancements",
+      "d": "It discouraged scientific inquiry"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How did print culture contribute to the French Revolution?",
+    "options": {
+      "a": "It suppressed revolutionary ideas",
+      "b": "It promoted the authority of the monarchy",
+      "c": "It popularized Enlightenment ideas and fueled debate",
+      "d": "It had no impact on the revolution"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is meant by \"chapbooks\"?",
+    "options": {
+      "a": "Expensive, leather-bound books",
+      "b": "Small, affordable books sold by peddlers",
+      "c": "Scientific treatises",
+      "d": "Religious scriptures"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How did print affect the lives of women in the 19th century?",
+    "options": {
+      "a": "It restricted their access to education",
+      "b": "It provided new opportunities for learning and expression",
+      "c": "It had no impact on their lives",
+      "d": "It reinforced traditional gender roles"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What were the \"Ninety-Five Theses\"?",
+    "options": {
+      "a": "A scientific treatise",
+      "b": "A collection of poems",
+      "c": "Luther's criticisms of the Catholic Church",
+      "d": "A defense of the Catholic Church"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the purpose of the \"Index of Prohibited Books\"?",
+    "options": {
+      "a": "To promote the spread of new ideas",
+      "b": "To encourage religious debate",
+      "c": "To suppress heretical texts",
+      "d": "To celebrate the printing press"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What kind of content did early newspapers and journals publish?",
+    "options": {
+      "a": "Only religious articles",
+      "b": "News about wars, trade, and other developments",
+      "c": "Exclusively literary pieces",
+      "d": "Only government propaganda"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why did lending libraries become popular in the 19th century?",
+    "options": {
+      "a": "They were only accessible to the elite",
+      "b": "They provided access to books for a wider range of people",
+      "c": "They discouraged self-education",
+      "d": "They were mainly used for religious instruction"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What kind of writings by women became popular in the 19th century?",
+    "options": {
+      "a": "Scientific papers",
+      "b": "Political treatises",
+      "c": "Novels and autobiographies",
+      "d": "Religious sermons"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What issues did women's journals discuss in the early 20th century?",
+    "options": {
+      "a": "Fashion and cooking exclusively",
+      "b": "Women's education, widowhood, and social reform",
+      "c": "Primarily scientific discoveries",
+      "d": "Only religious matters"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How did print contribute to the growth of nationalism in India?",
+    "options": {
+      "a": "By suppressing nationalist ideas",
+      "b": "By promoting British rule",
+      "c": "By enabling the spread of nationalist sentiment and creating a shared identity",
+      "d": "By discouraging political discussions"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In the early 20th century, a unique form of popular literature emerged in Punjab. Publishers like Ram Chaddha and organizations like the Khalsa Tract Society produced numerous cheap booklets and pamphlets. These often took the form of dialogues and aimed to teach women the ideal qualities of a good wife and emphasized obedience. What was the main message conveyed in the cheap booklets published for women in early 20th-century Punjab?",
+    "options": {
+      "a": "Encouraging women's education and independence",
+      "b": "Promoting women's involvement in the nationalist movement",
+      "c": "Reinforcing traditional gender roles and obedience",
+      "d": "Emphasizing religious tolerance and harmony"
+    },
+    "answer": "c"
+  }
+]

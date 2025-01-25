@@ -1,0 +1,464 @@
+[
+  {
+    "question": "In a democracy, people rule through their representatives because:",
+    "options": {
+      "a": "Direct participation is always feasible.",
+      "b": "It promotes political competition among citizens.",
+      "c": "Large-scale societies require efficient decision-making.",
+      "d": "It ensures everyone has equal time and knowledge."
+    },
+    "answer": "c",
+    "id": 689
+  },
+  {
+    "question": "The minimum age to become a candidate in elections in India is:",
+    "options": {
+      "a": "18 years",
+      "b": "21 years",
+      "c": "25 years",
+      "d": "30 years"
+    },
+    "answer": "c",
+    "id": 690
+  },
+  {
+    "question": "Which of the following is NOT a condition for a democratic election?",
+    "options": {
+      "a": "Equal value of votes",
+      "b": "Regular intervals between elections",
+      "c": "Compulsory voting for all citizens",
+      "d": "Free and fair conduct of elections"
+    },
+    "answer": "c",
+    "id": 691
+  },
+  {
+    "question": "The 'Nyaya Yudh' movement was led by:",
+    "options": {
+      "a": "Indira Gandhi",
+      "b": "Jayaprakash Narayan",
+      "c": "Devi Lal",
+      "d": "N.T. Rama Rao"
+    },
+    "answer": "c",
+    "id": 692
+  },
+  {
+    "question": "The electoral roll is commonly known as:",
+    "options": {
+      "a": "Voter ID card",
+      "b": "Nomination form",
+      "c": "Voters' list",
+      "d": "Ballot paper"
+    },
+    "answer": "c",
+    "id": 693
+  },
+  {
+    "question": "The main purpose of an election campaign is to:",
+    "options": {
+      "a": "Increase voter turnout",
+      "b": "Ensure a level playing field for all candidates",
+      "c": "Allow voters to make informed choices",
+      "d": "Promote political competition among parties"
+    },
+    "answer": "c",
+    "id": 694
+  },
+  {
+    "question": "Which of the following is NOT a responsibility of the Election Commission?",
+    "options": {
+      "a": "Implementing the Model Code of Conduct",
+      "b": "Announcing election dates",
+      "c": "Formulating government policies",
+      "d": "Declaring election results"
+    },
+    "answer": "c",
+    "id": 695
+  },
+  {
+    "question": "Reserved constituencies are meant for:",
+    "options": {
+      "a": "Politically influential groups",
+      "b": "Economically disadvantaged sections",
+      "c": "Socially weaker sections",
+      "d": "Educated and resourceful individuals"
+    },
+    "answer": "c",
+    "id": 696
+  },
+  {
+    "question": "The system of 'one person, one vote' ensures:",
+    "options": {
+      "a": "Political equality among citizens",
+      "b": "Economic equality among citizens",
+      "c": "Social equality among citizens",
+      "d": "Educational equality among citizens"
+    },
+    "answer": "a",
+    "id": 697
+  },
+  {
+    "question": "Voter turnout refers to:",
+    "options": {
+      "a": "The number of eligible voters",
+      "b": "The percentage of voters who cast their votes",
+      "c": "The number of candidates contesting an election",
+      "d": "The number of polling booths in a constituency"
+    },
+    "answer": "b",
+    "id": 698
+  },
+  {
+    "question": "Which of the following is NOT a challenge to free and fair elections?",
+    "options": {
+      "a": "Influence of money and muscle power",
+      "b": "Independent Election Commission",
+      "c": "Lack of meaningful choice for voters",
+      "d": "Domination of political parties by certain families"
+    },
+    "answer": "b",
+    "id": 699
+  },
+  {
+    "question": "The term 'incumbent' refers to:",
+    "options": {
+      "a": "A newly elected representative",
+      "b": "The current holder of a political office",
+      "c": "A candidate contesting an election",
+      "d": "A voter who casts their vote"
+    },
+    "answer": "b",
+    "id": 700
+  },
+  {
+    "question": "Which of the following slogans is associated with the Janata Party?",
+    "options": {
+      "a": "Garibi Hatao",
+      "b": "Land to the Tiller",
+      "c": "Save Democracy",
+      "d": "Protect the Self-Respect of the Telugus"
+    },
+    "answer": "c",
+    "id": 701
+  },
+  {
+    "question": "Assertion: Elections are a crucial feature of any representative democracy. \nReason: Elections provide a mechanism for citizens to choose their representatives and hold them accountable.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 702
+  },
+  {
+    "question": "Assertion: The Election Commission is an independent body. \nReason: The Election Commission is appointed by the President and is answerable to the government.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "c",
+    "id": 703
+  },
+  {
+    "question": "Fill in the blanks: The Election Commission can order the government to follow certain ____ during the election period.",
+    "options": {
+      "a": "policies",
+      "b": "guidelines",
+      "c": "laws",
+      "d": "regulations"
+    },
+    "answer": "b",
+    "id": 704
+  },
+  {
+    "question": "Fill in the blanks: The candidate who secures the ______ number of votes from a constituency is declared elected.",
+    "options": {
+      "a": "lowest",
+      "b": "average",
+      "c": "highest",
+      "d": "required"
+    },
+    "answer": "c",
+    "id": 705
+  },
+  {
+    "question": "Which of the following is NOT a function of the Election Commission?",
+    "options": {
+      "a": "Preparing the electoral roll",
+      "b": "Implementing the Model Code of Conduct",
+      "c": "Formulating government policies",
+      "d": "Conducting and controlling elections"
+    },
+    "answer": "c",
+    "id": 706
+  },
+  {
+    "question": "Which of the following is a feature of a democratic election?",
+    "options": {
+      "a": "Limited choice for voters",
+      "b": "Influence of money and muscle power",
+      "c": "Independent Election Commission",
+      "d": "Domination of political parties by certain families"
+    },
+    "answer": "c",
+    "id": 707
+  },
+  {
+    "question": "The term 'level playing field' in the context of elections implies:",
+    "options": {
+      "a": "Equal opportunities for all contestants",
+      "b": "Favourable conditions for the ruling party",
+      "c": "Restricted participation of smaller parties",
+      "d": "Domination of elections by wealthy candidates"
+    },
+    "answer": "a",
+    "id": 708
+  },
+  {
+    "question": "Which of the following is NOT a form of electoral malpractice?",
+    "options": {
+      "a": "Stuffing ballot boxes",
+      "b": "Intimidation of voters",
+      "c": "Bribing polling officers",
+      "d": "Conducting exit polls"
+    },
+    "answer": "d",
+    "id": 709
+  },
+  {
+    "question": "Which of the following is an argument against having political competition?",
+    "options": {
+      "a": "It promotes accountability among leaders",
+      "b": "It can lead to disunity and factionalism",
+      "c": "It provides a choice to voters",
+      "d": "It allows for a change in government"
+    },
+    "answer": "b",
+    "id": 710
+  },
+  {
+    "question": "Which of the following is a reason why political competition is considered beneficial?",
+    "options": {
+      "a": "It eliminates all forms of corruption",
+      "b": "It ensures that all leaders are motivated solely by public service",
+      "c": "It forces parties and leaders to be responsive to the people's needs",
+      "d": "It prevents any form of disagreement or debate in society"
+    },
+    "answer": "c",
+    "id": 711
+  },
+  {
+    "question": "The slogan 'Garibi Hatao' was associated with which political party?",
+    "options": {
+      "a": "Janata Party",
+      "b": "Congress Party",
+      "c": "Left Front",
+      "d": "Telugu Desam Party"
+    },
+    "answer": "b",
+    "id": 712
+  },
+  {
+    "question": "Which of the following is NOT a part of the Model Code of Conduct?",
+    "options": {
+      "a": "Avoiding the use of government resources for campaigning",
+      "b": "Refraining from bribing or threatening voters",
+      "c": "Restricting the use of places of worship for propaganda",
+      "d": "Mandating a minimum educational qualification for candidates"
+    },
+    "answer": "d",
+    "id": 713
+  },
+  {
+    "question": "Which of the following is NOT a reason for reserving constituencies for certain social groups?",
+    "options": {
+      "a": "To ensure representation of weaker sections",
+      "b": "To promote social equality",
+      "c": "To increase voter turnout among specific communities",
+      "d": "To prevent marginalization of certain groups in the political process"
+    },
+    "answer": "c",
+    "id": 714
+  },
+  {
+    "question": "Which of the following statements about voter turnout in India is correct?",
+    "options": {
+      "a": "Voter turnout has consistently declined over the years",
+      "b": "Voter turnout is higher among the rich and privileged sections",
+      "c": "Voter turnout has remained stable or increased in recent decades",
+      "d": "Voter turnout is significantly lower than in Western democracies"
+    },
+    "answer": "c",
+    "id": 715
+  },
+  {
+    "question": "What is the significance of the Election Photo Identity Card (EPIC)?",
+    "options": {
+      "a": "It is mandatory for all citizens to possess an EPIC",
+      "b": "It helps prevent impersonation and ensures fair voting",
+      "c": "It is a proof of citizenship and can be used for various purposes",
+      "d": "It allows citizens to vote from any constituency in the country"
+    },
+    "answer": "b",
+    "id": 716
+  },
+  {
+    "question": "Which of the following is NOT a challenge faced by smaller parties and independent candidates in elections?",
+    "options": {
+      "a": "Limited financial resources",
+      "b": "Lack of media coverage",
+      "c": "Support from influential families",
+      "d": "Difficulty in mobilizing voters"
+    },
+    "answer": "c",
+    "id": 717
+  },
+  {
+    "question": "What does the term 'NOTA' stand for in the context of elections?",
+    "options": {
+      "a": "None of the Above",
+      "b": "Notice of Temporary Absence",
+      "c": "National Organisation for Transparency in Administration",
+      "d": "Not Officially Tallied As"
+    },
+    "answer": "a",
+    "id": 718
+  },
+  {
+    "question": "Which of the following statements about the outcome of elections in India is generally true?",
+    "options": {
+      "a": "Ruling parties rarely lose elections",
+      "b": "Candidates with criminal connections always win",
+      "c": "Electoral outcomes are usually accepted as the people's verdict",
+      "d": "Defeated parties always challenge the election results"
+    },
+    "answer": "c",
+    "id": 719
+  },
+  {
+    "question": "Which of the following is a potential consequence of not having political competition?",
+    "options": {
+      "a": "Increased accountability of leaders",
+      "b": "Greater responsiveness to people's needs",
+      "c": "Lack of alternative policies and perspectives",
+      "d": "Improved efficiency in decision-making"
+    },
+    "answer": "c",
+    "id": 720
+  },
+  {
+    "question": "What is the main reason for having a Model Code of Conduct during elections?",
+    "options": {
+      "a": "To promote fair and ethical campaigning",
+      "b": "To increase voter turnout",
+      "c": "To ensure the victory of the ruling party",
+      "d": "To limit the influence of the media on elections"
+    },
+    "answer": "a",
+    "id": 721
+  },
+  {
+    "question": "Which of the following is a potential benefit of reserving constituencies for weaker sections?",
+    "options": {
+      "a": "It can lead to token representation without meaningful participation",
+      "b": "It can create divisions and tensions within society",
+      "c": "It can empower marginalized groups and give them a voice in politics",
+      "d": "It can reduce the importance of merit and qualifications in elections"
+    },
+    "answer": "c",
+    "id": 722
+  },
+  {
+    "question": "Which of the following factors can influence voter turnout in elections?",
+    "options": {
+      "a": "Level of education and awareness",
+      "b": "Perceived importance of the election",
+      "c": "Ease of access to polling booths",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 723
+  },
+  {
+    "question": "Which of the following is a potential consequence of electoral malpractices?",
+    "options": {
+      "a": "Erosion of public trust in the electoral process",
+      "b": "Increased legitimacy of the elected government",
+      "c": "Strengthening of democratic institutions",
+      "d": "Promotion of political stability and peace"
+    },
+    "answer": "a",
+    "id": 724
+  },
+  {
+    "question": "What is the role of party agents in the polling booth?",
+    "options": {
+      "a": "To cast votes on behalf of party members",
+      "b": "To ensure that the voting process is fair and transparent",
+      "c": "To influence voters to vote for their party",
+      "d": "To count the votes and declare the results"
+    },
+    "answer": "b",
+    "id": 725
+  },
+  {
+    "question": "What is the significance of the 'people's verdict' in a democratic election?",
+    "options": {
+      "a": "It reflects the collective will of the citizens",
+      "b": "It is always binding on the Election Commission",
+      "c": "It can be easily manipulated through rigging",
+      "d": "It is irrelevant in determining the formation of government"
+    },
+    "answer": "a",
+    "id": 726
+  },
+  {
+    "question": "Case Study: In a recent election, a candidate was accused of using a place of worship for election propaganda. The Election Commission took cognizance of the matter and issued a notice to the candidate. What does this incident highlight?",
+    "options": {
+      "a": "The limitations of the Election Commission's powers",
+      "b": "The importance of religious institutions in elections",
+      "c": "The need for stricter enforcement of the Model Code of Conduct",
+      "d": "The lack of awareness among candidates about electoral rules"
+    },
+    "answer": "c",
+    "id": 727
+  },
+  {
+    "question": "Case Study: In a particular constituency, the voter turnout was significantly lower than the national average. Upon investigation, it was found that many eligible voters were not included in the electoral roll, and several polling booths were inaccessible to people with disabilities. What does this case illustrate?",
+    "options": {
+      "a": "The effectiveness of the Election Commission in ensuring fair elections",
+      "b": "The challenges in ensuring equal participation of all citizens in elections",
+      "c": "The lack of interest among voters in the electoral process",
+      "d": "The need to increase the number of political parties contesting elections"
+    },
+    "answer": "b",
+    "id": 728
+  },
+  {
+    "question": "Two-sentence MCQ: Statement 1: Elections are essential for ensuring accountability and responsiveness of the government. \nStatement 2: Elections provide an opportunity for citizens to choose their leaders and express their preferences.",
+    "options": {
+      "a": "Both statements are true and statement 2 is the correct explanation of statement 1.",
+      "b": "Both statements are true but statement 2 is not the correct explanation of statement 1.",
+      "c": "Statement 1 is true but statement 2 is false.",
+      "d": "Statement 1 is false but statement 2 is true."
+    },
+    "answer": "a",
+    "id": 729
+  },
+  {
+    "question": "Two-sentence MCQ: Statement 1: The Election Commission has the power to disqualify candidates who violate the Model Code of Conduct. \nStatement 2: The Election Commission can also order re-polling in booths where irregularities have been reported.",
+    "options": {
+      "a": "Both statements are true and statement 2 is the correct explanation of statement 1.",
+      "b": "Both statements are true but statement 2 is not the correct explanation of statement 1.",
+      "c": "Statement 1 is true but statement 2 is false.",
+      "d": "Statement 1 is false but statement 2 is true."
+    },
+    "answer": "b",
+    "id": 730
+  }
+]

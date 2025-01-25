@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Nelson Mandela spent ____ years in Robben Island prison.",
+    "options": {
+      "a": "17",
+      "b": "27",
+      "c": "37",
+      "d": "47"
+    },
+    "answer": "b",
+    "id": 649
+  },
+  {
+    "question": "Apartheid was a system of racial discrimination unique to ______.",
+    "options": {
+      "a": "India",
+      "b": "South Africa",
+      "c": "Brazil",
+      "d": "United States"
+    },
+    "answer": "b",
+    "id": 650
+  },
+  {
+    "question": "The African National Congress (ANC) led the struggle against ______.",
+    "options": {
+      "a": "Colonialism",
+      "b": "Apartheid",
+      "c": "Poverty",
+      "d": "Unemployment"
+    },
+    "answer": "b",
+    "id": 651
+  },
+  {
+    "question": "The new South African flag was unfurled on ______ marking the newly born democracy.",
+    "options": {
+      "a": "26 April 1994",
+      "b": "15 August 1947",
+      "c": "26 January 1950",
+      "d": "10 December 1948"
+    },
+    "answer": "a",
+    "id": 652
+  },
+  {
+    "question": "Who was the first president of democratic South Africa?",
+    "options": {
+      "a": "F.W. de Klerk",
+      "b": "Nelson Mandela",
+      "c": "Thabo Mbeki",
+      "d": "Jacob Zuma"
+    },
+    "answer": "b",
+    "id": 653
+  },
+  {
+    "question": "Assertion: The South African constitution is considered one of the finest in the world. \nReason: It guarantees extensive rights to its citizens.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a",
+    "id": 654
+  },
+  {
+    "question": "The Indian constitution was drawn up under ______ circumstances.",
+    "options": {
+      "a": "Favorable",
+      "b": "Difficult",
+      "c": "Peaceful",
+      "d": "Prosperous"
+    },
+    "answer": "b",
+    "id": 655
+  },
+  {
+    "question": "India's independence was accompanied by ______.",
+    "options": {
+      "a": "Unification",
+      "b": "Partition",
+      "c": "Industrialization",
+      "d": "Modernization"
+    },
+    "answer": "b",
+    "id": 656
+  },
+  {
+    "question": "Who drafted a constitution for India in 1928?",
+    "options": {
+      "a": "Mahatma Gandhi",
+      "b": "Jawaharlal Nehru",
+      "c": "Motilal Nehru",
+      "d": "B.R. Ambedkar"
+    },
+    "answer": "c",
+    "id": 657
+  },
+  {
+    "question": "The Karachi session of the Indian National Congress in 1931 advocated for ______ in independent India's constitution.",
+    "options": {
+      "a": "Limited franchise",
+      "b": "Universal adult franchise",
+      "c": "Separate electorates",
+      "d": "Dominion status"
+    },
+    "answer": "b",
+    "id": 658
+  },
+  {
+    "question": "Assertion: The Indian Constitution adopted many institutional details from the Government of India Act, 1935. \nReason: Indian leaders had experience working with similar institutions under British rule.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a",
+    "id": 659
+  },
+  {
+    "question": "The Indian Constitution was adopted on ______.",
+    "options": {
+      "a": "15 August 1947",
+      "b": "26 January 1950",
+      "c": "26 November 1949",
+      "d": "2 October 1950"
+    },
+    "answer": "c",
+    "id": 660
+  },
+  {
+    "question": "India celebrates ______ as Republic Day.",
+    "options": {
+      "a": "15 August",
+      "b": "26 January",
+      "c": "2 October",
+      "d": "26 November"
+    },
+    "answer": "b",
+    "id": 661
+  },
+  {
+    "question": "The Constituent Assembly that drafted the Indian Constitution had ______ members.",
+    "options": {
+      "a": "199",
+      "b": "299",
+      "c": "399",
+      "d": "499"
+    },
+    "answer": "b",
+    "id": 662
+  },
+  {
+    "question": "Who chaired the Drafting Committee of the Constituent Assembly?",
+    "options": {
+      "a": "Jawaharlal Nehru",
+      "b": "Rajendra Prasad",
+      "c": "B.R. Ambedkar",
+      "d": "Sardar Vallabhbhai Patel"
+    },
+    "answer": "c",
+    "id": 663
+  },
+  {
+    "question": "The recordings and preserved documents of the discussions in the Constituent Assembly are called ______.",
+    "options": {
+      "a": "Constitutional Records",
+      "b": "Assembly Debates",
+      "c": "Constituent Assembly Debates",
+      "d": "Drafting Committee Minutes"
+    },
+    "answer": "c",
+    "id": 664
+  },
+  {
+    "question": "Assertion: The Indian Constitution is a static and unalterable document. \nReason: It does not allow for any amendments.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d",
+    "id": 665
+  },
+  {
+    "question": "Changes made to the Constitution from time to time are called ______.",
+    "options": {
+      "a": "Constitutional revisions",
+      "b": "Constitutional amendments",
+      "c": "Constitutional alterations",
+      "d": "Constitutional modifications"
+    },
+    "answer": "b",
+    "id": 666
+  },
+  {
+    "question": "The Preamble to the Indian Constitution is a ______.",
+    "options": {
+      "a": "Detailed legal document",
+      "b": "Short statement of basic values",
+      "c": "List of fundamental rights",
+      "d": "Description of institutional arrangements"
+    },
+    "answer": "b",
+    "id": 667
+  },
+  {
+    "question": "The Preamble of the Indian Constitution was inspired by the ______ model.",
+    "options": {
+      "a": "British",
+      "b": "French",
+      "c": "American",
+      "d": "Soviet"
+    },
+    "answer": "c",
+    "id": 668
+  },
+  {
+    "question": "The Indian Constitution declares India to be a ______.",
+    "options": {
+      "a": "Monarchy",
+      "b": "Republic",
+      "c": "Theocracy",
+      "d": "Dictatorship"
+    },
+    "answer": "b",
+    "id": 669
+  },
+  {
+    "question": "The terms 'Socialist' and 'Secular' were added to the Preamble through the ______ Constitutional Amendment.",
+    "options": {
+      "a": "42nd",
+      "b": "44th",
+      "c": "73rd",
+      "d": "74th"
+    },
+    "answer": "a",
+    "id": 670
+  },
+  {
+    "question": "Assertion: India is a secular state. \nReason: The government treats all religious beliefs and practices with equal respect.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a",
+    "id": 671
+  },
+  {
+    "question": "The concept of 'Justice' in the Preamble emphasizes reducing ______.",
+    "options": {
+      "a": "Political differences",
+      "b": "Religious tensions",
+      "c": "Social inequalities",
+      "d": "Economic disparities"
+    },
+    "answer": "c",
+    "id": 672
+  },
+  {
+    "question": "Which term in the Preamble signifies that there are no unreasonable restrictions on citizens' thoughts and actions?",
+    "options": {
+      "a": "Justice",
+      "b": "Liberty",
+      "c": "Equality",
+      "d": "Fraternity"
+    },
+    "answer": "b",
+    "id": 673
+  },
+  {
+    "question": "The term 'Equality' in the Preamble highlights that all are ______ before the law.",
+    "options": {
+      "a": "Different",
+      "b": "Equal",
+      "c": "Superior",
+      "d": "Inferior"
+    },
+    "answer": "b",
+    "id": 674
+  },
+  {
+    "question": "Which term in the Preamble promotes the idea of treating all fellow citizens as members of the same family?",
+    "options": {
+      "a": "Justice",
+      "b": "Liberty",
+      "c": "Equality",
+      "d": "Fraternity"
+    },
+    "answer": "d",
+    "id": 675
+  },
+  {
+    "question": "Who delivered the famous “Tryst with Destiny” speech?",
+    "options": {
+      "a": "Mahatma Gandhi",
+      "b": "Jawaharlal Nehru",
+      "c": "Sardar Vallabhbhai Patel",
+      "d": "B.R. Ambedkar"
+    },
+    "answer": "b",
+    "id": 676
+  },
+  {
+    "question": "In his “Tryst with Destiny” speech, Nehru spoke about India’s pledge to the service of ______.",
+    "options": {
+      "a": "India and its people only",
+      "b": "India and the larger cause of humanity",
+      "c": "Asia and its developing nations",
+      "d": "The world and its superpowers"
+    },
+    "answer": "b",
+    "id": 677
+  },
+  {
+    "question": "According to Nehru, the service of India means the service of the ______.",
+    "options": {
+      "a": "Elite and powerful",
+      "b": "Millions who suffer",
+      "c": "Industrialists and businessmen",
+      "d": "Educated and privileged"
+    },
+    "answer": "b",
+    "id": 678
+  },
+  {
+    "question": "Nehru believed that India’s future was about ______ striving to fulfill its pledges.",
+    "options": {
+      "a": "Ease and resting",
+      "b": "Incessant",
+      "c": "Sporadic and infrequent",
+      "d": "Delayed and gradual"
+    },
+    "answer": "b",
+    "id": 679
+  },
+  {
+    "question": "Who expressed the anxiety about the “life of contradictions” that India might enter after independence?",
+    "options": {
+      "a": "Jawaharlal Nehru",
+      "b": "Mahatma Gandhi",
+      "c": "B.R. Ambedkar",
+      "d": "Sardar Vallabhbhai Patel"
+    },
+    "answer": "c",
+    "id": 680
+  },
+  {
+    "question": "B.R. Ambedkar believed that while India would have political equality, it might continue to deny ______ equality.",
+    "options": {
+      "a": "Religious",
+      "b": "Social and economic",
+      "c": "Gender",
+      "d": "Caste-based"
+    },
+    "answer": "b",
+    "id": 681
+  },
+  {
+    "question": "According to B.R. Ambedkar, denying social and economic equality for too long could put India’s ______ in peril.",
+    "options": {
+      "a": "Economic growth",
+      "b": "International relations",
+      "c": "Political democracy",
+      "d": "Social harmony"
+    },
+    "answer": "c",
+    "id": 682
+  },
+  {
+    "question": "Mahatma Gandhi envisioned an India where the poorest shall feel that it is ______.",
+    "options": {
+      "a": "Their duty to serve the nation",
+      "b": "Their responsibility to pay taxes",
+      "c": "Their country in whose making they have an effective voice",
+      "d": "Their obligation to follow the leaders"
+    },
+    "answer": "c",
+    "id": 683
+  },
+  {
+    "question": "Gandhi dreamt of an India where there would be no ______ of people.",
+    "options": {
+      "a": "Diversity",
+      "b": "Harmony",
+      "c": "High class and low class",
+      "d": "Different religions"
+    },
+    "answer": "c",
+    "id": 684
+  },
+  {
+    "question": "Gandhi's vision included an India where all communities shall live in perfect ______.",
+    "options": {
+      "a": "Competition",
+      "b": "Harmony",
+      "c": "Isolation",
+      "d": "Hierarchy"
+    },
+    "answer": "b",
+    "id": 685
+  },
+  {
+    "question": "In Gandhi's dream India, women would enjoy the same rights as ______.",
+    "options": {
+      "a": "Children",
+      "b": "Men",
+      "c": "Elders",
+      "d": "Religious leaders"
+    },
+    "answer": "b",
+    "id": 686
+  },
+  {
+    "question": "Which of these was NOT a social evil that Gandhi wanted to eradicate from India?",
+    "options": {
+      "a": "Untouchability",
+      "b": "Intoxicating drinks and drugs",
+      "c": "Illiteracy",
+      "d": "Gender inequality"
+    },
+    "answer": "c",
+    "id": 687
+  },
+  {
+    "question": "What is the meaning of 'Sovereign' in the Indian context, as stated in the Preamble?",
+    "options": {
+      "a": "India is ruled by a monarch.",
+      "b": "India is under the control of a foreign power.",
+      "c": "People have the supreme right to make decisions on internal and external matters.",
+      "d": "India has a strong military force."
+    },
+    "answer": "c",
+    "id": 688
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "question": "The climate of India is described as the ___________ type.",
+    "options": {
+      "a": "Mediterranean",
+      "b": "Tropical",
+      "c": "Monsoon",
+      "d": "Continental"
+    },
+    "answer": "c",
+    "id": 878
+  },
+  {
+    "question": "The word 'monsoon' is derived from the Arabic word 'mausim', which means ___________.",
+    "options": {
+      "a": "Rain",
+      "b": "Wind",
+      "c": "Season",
+      "d": "Heat"
+    },
+    "answer": "c",
+    "id": 879
+  },
+  {
+    "question": "___________ refers to the sum total of weather conditions and variations over a large area for a long period of time.",
+    "options": {
+      "a": "Weather",
+      "b": "Climate",
+      "c": "Atmosphere",
+      "d": "Temperature"
+    },
+    "answer": "b",
+    "id": 880
+  },
+  {
+    "question": "___________ refers to the state of the atmosphere over an area at any point of time.",
+    "options": {
+      "a": "Weather",
+      "b": "Climate",
+      "c": "Atmosphere",
+      "d": "Temperature"
+    },
+    "answer": "a",
+    "id": 881
+  },
+  {
+    "question": "The elements of weather and climate are ___________.",
+    "options": {
+      "a": "Different",
+      "b": "The same",
+      "c": "Partially similar",
+      "d": "Unrelated"
+    },
+    "answer": "b",
+    "id": 882
+  },
+  {
+    "question": "The Tropic of Cancer passes through the middle of India from ___________ in the west to Mizoram in the east.",
+    "options": {
+      "a": "Gujarat",
+      "b": "Rann of Kuchchh",
+      "c": "Rajasthan",
+      "d": "Maharashtra"
+    },
+    "answer": "b",
+    "id": 883
+  },
+  {
+    "question": "The Himalayas prevent the ___________ winds from Central Asia from entering the subcontinent.",
+    "options": {
+      "a": "Warm",
+      "b": "Humid",
+      "c": "Cold",
+      "d": "Dry"
+    },
+    "answer": "c",
+    "id": 884
+  },
+  {
+    "question": "India lies in the region of ___________ winds.",
+    "options": {
+      "a": "North easterly",
+      "b": "South westerly",
+      "c": "North westerly",
+      "d": "South easterly"
+    },
+    "answer": "a",
+    "id": 885
+  },
+  {
+    "question": "The hot weather season in India is from ___________ to May.",
+    "options": {
+      "a": "January",
+      "b": "February",
+      "c": "March",
+      "d": "April"
+    },
+    "answer": "c",
+    "id": 886
+  },
+  {
+    "question": "A striking feature of the hot weather season is the ___________.",
+    "options": {
+      "a": "Monsoon",
+      "b": "Loo",
+      "c": "Cyclone",
+      "d": "Thunderstorm"
+    },
+    "answer": "b",
+    "id": 887
+  },
+  {
+    "question": "By early June, the ___________ condition over the northern plains intensifies.",
+    "options": {
+      "a": "High-pressure",
+      "b": "Low-pressure",
+      "c": "Moderate-pressure",
+      "d": "Neutral-pressure"
+    },
+    "answer": "b",
+    "id": 888
+  },
+  {
+    "question": "The south-west monsoon winds bring ___________ moisture to the subcontinent.",
+    "options": {
+      "a": "Little",
+      "b": "Moderate",
+      "c": "Abundant",
+      "d": "No"
+    },
+    "answer": "c",
+    "id": 889
+  },
+  {
+    "question": "___________ in the southern ranges of the Khasi Hills receives the highest average rainfall in the world.",
+    "options": {
+      "a": "Cherrapunji",
+      "b": "Shillong",
+      "c": "Mawsynram",
+      "d": "Guwahati"
+    },
+    "answer": "c",
+    "id": 890
+  },
+  {
+    "question": "Another phenomenon associated with the monsoon is its tendency to have ‘___________’ in rainfall.",
+    "options": {
+      "a": "Breaks",
+      "b": "Pauses",
+      "c": "Interruptions",
+      "d": "Gaps"
+    },
+    "answer": "a",
+    "id": 891
+  },
+  {
+    "question": "During October-November, the monsoon trough or the low-pressure trough over the northern plains becomes ___________.",
+    "options": {
+      "a": "Stronger",
+      "b": "Weaker",
+      "c": "Stable",
+      "d": "Unpredictable"
+    },
+    "answer": "b",
+    "id": 892
+  },
+  {
+    "question": "The months of October-November form a period of ___________ from hot rainy season to dry winter conditions.",
+    "options": {
+      "a": "Transition",
+      "b": "Transformation",
+      "c": "Change",
+      "d": "Shift"
+    },
+    "answer": "a",
+    "id": 893
+  },
+  {
+    "question": "The retreat of the monsoon is marked by clear skies and ___________ in temperature.",
+    "options": {
+      "a": "Fall",
+      "b": "Rise",
+      "c": "Stability",
+      "d": "Fluctuation"
+    },
+    "answer": "b",
+    "id": 894
+  },
+  {
+    "question": "The low-pressure conditions, over north-western India, get transferred to the ___________ by early November.",
+    "options": {
+      "a": "Arabian Sea",
+      "b": "Bay of Bengal",
+      "c": "Indian Ocean",
+      "d": "Mediterranean Sea"
+    },
+    "answer": "b",
+    "id": 895
+  },
+  {
+    "question": "Cyclonic depressions, which originate over the ___________, generally cross the eastern coasts of India.",
+    "options": {
+      "a": "Arabian Sea",
+      "b": "Bay of Bengal",
+      "c": "Andaman Sea",
+      "d": "Mediterranean Sea"
+    },
+    "answer": "c",
+    "id": 896
+  },
+  {
+    "question": "The thickly populated deltas of the Godavari, the Krishna and the ___________ are frequently struck by cyclones.",
+    "options": {
+      "a": "Ganges",
+      "b": "Yamuna",
+      "c": "Kaveri",
+      "d": "Brahmaputra"
+    },
+    "answer": "c",
+    "id": 897
+  },
+  {
+    "question": "The bulk of the rainfall of the ___________ Coast is derived from depressions and cyclones.",
+    "options": {
+      "a": "Konkan",
+      "b": "Malabar",
+      "c": "Coromandel",
+      "d": "Canara"
+    },
+    "answer": "c",
+    "id": 898
+  },
+  {
+    "question": "Parts of western coast and northeastern India receive over about ___________ cm of rainfall annually.",
+    "options": {
+      "a": "200",
+      "b": "300",
+      "c": "400",
+      "d": "500"
+    },
+    "answer": "c",
+    "id": 899
+  },
+  {
+    "question": "Rainfall is equally low in the interior of the ___________ plateau, and east of the Sahyadris.",
+    "options": {
+      "a": "Malwa",
+      "b": "Chota Nagpur",
+      "c": "Deccan",
+      "d": "Bundelkhand"
+    },
+    "answer": "c",
+    "id": 900
+  },
+  {
+    "question": "A third area of low precipitation is around ___________ in Jammu and Kashmir.",
+    "options": {
+      "a": "Srinagar",
+      "b": "Leh",
+      "c": "Gulmarg",
+      "d": "Pahalgam"
+    },
+    "answer": "b",
+    "id": 901
+  },
+  {
+    "question": "Snowfall is restricted to the ___________ region.",
+    "options": {
+      "a": "Himalayan",
+      "b": "Western Ghats",
+      "c": "Eastern Ghats",
+      "d": "Vindhyan"
+    },
+    "answer": "a",
+    "id": 902
+  },
+  {
+    "question": "Owing to the nature of monsoons, the annual rainfall is highly ___________ from year to year.",
+    "options": {
+      "a": "Predictable",
+      "b": "Stable",
+      "c": "Variable",
+      "d": "Consistent"
+    },
+    "answer": "c",
+    "id": 903
+  },
+  {
+    "question": "Variability is high in the regions of low rainfall, such as parts of Rajasthan, Gujarat and the ___________ side of the Western Ghats.",
+    "options": {
+      "a": "Windward",
+      "b": "Leeward",
+      "c": "Coastal",
+      "d": "Interior"
+    },
+    "answer": "b",
+    "id": 904
+  },
+  {
+    "question": "Areas of high rainfall are liable to be affected by ___________, areas of low rainfall are drought-prone.",
+    "options": {
+      "a": "Landslides",
+      "b": "Earthquakes",
+      "c": "Floods",
+      "d": "Cyclones"
+    },
+    "answer": "c",
+    "id": 905
+  },
+  {
+    "question": "The Himalayas protect the subcontinent from extremely cold winds from ___________.",
+    "options": {
+      "a": "Siberia",
+      "b": "Central Asia",
+      "c": "Europe",
+      "d": "Arctic region"
+    },
+    "answer": "b",
+    "id": 906
+  },
+  {
+    "question": "This enables northern India to have uniformly ___________ temperatures compared to other areas on the same latitudes.",
+    "options": {
+      "a": "Lower",
+      "b": "Higher",
+      "c": "Fluctuating",
+      "d": "Extreme"
+    },
+    "answer": "b",
+    "id": 907
+  },
+  {
+    "question": "Similarly, the Peninsular plateau, under the influence of the sea from three sides, has ___________ temperatures.",
+    "options": {
+      "a": "Extreme",
+      "b": "Moderate",
+      "c": "Fluctuating",
+      "d": "Low"
+    },
+    "answer": "b",
+    "id": 908
+  },
+  {
+    "question": "The seasonal alteration of the wind systems and the associated weather conditions provide a ___________ cycle of seasons.",
+    "options": {
+      "a": "Rhythmic",
+      "b": "Chaotic",
+      "c": "Unpredictable",
+      "d": "Erratic"
+    },
+    "answer": "a",
+    "id": 909
+  },
+  {
+    "question": "The Indian landscape, its animal and plant life, its entire ___________ calendar and the life of the people, including their festivities, revolve around this phenomenon.",
+    "options": {
+      "a": "Agricultural",
+      "b": "Social",
+      "c": "Religious",
+      "d": "Cultural"
+    },
+    "answer": "a",
+    "id": 910
+  },
+  {
+    "question": "Year after year, people of India from north to south and from east to west, eagerly await the arrival of the ___________.",
+    "options": {
+      "a": "Summer",
+      "b": "Winter",
+      "c": "Monsoon",
+      "d": "Spring"
+    },
+    "answer": "c",
+    "id": 911
+  },
+  {
+    "question": "These monsoon winds bind the whole country by providing ___________ to set the agricultural activities in motion.",
+    "options": {
+      "a": "Sunlight",
+      "b": "Heat",
+      "c": "Water",
+      "d": "Nutrients"
+    },
+    "answer": "c",
+    "id": 912
+  },
+  {
+    "question": "The river valleys which carry this water also unite as a single ___________ unit.",
+    "options": {
+      "a": "River valley",
+      "b": "Geographical",
+      "c": "Ecological",
+      "d": "Hydrological"
+    },
+    "answer": "a",
+    "id": 913
+  },
+  {
+    "question": "Assertion: The climate of India is described as the 'monsoon' type. \nReason: Monsoon refers to the seasonal reversal in the wind direction during a year.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason is the correct explanation of assertion.",
+      "b": "Both assertion and reason are true, but reason is not the correct explanation of assertion.",
+      "c": "Assertion is true, but reason is false.",
+      "d": "Assertion is false, but reason is true."
+    },
+    "answer": "b",
+    "id": 914
+  },
+  {
+    "question": "Assertion: The Himalayas prevent the cold winds from Central Asia from entering the subcontinent. \nReason: The Himalayas act as a barrier to the cold winds.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason is the correct explanation of assertion.",
+      "b": "Both assertion and reason are true, but reason is not the correct explanation of assertion.",
+      "c": "Assertion is true, but reason is false.",
+      "d": "Assertion is false, but reason is true."
+    },
+    "answer": "a",
+    "id": 915
+  },
+  {
+    "question": "Case Study: Chennai experienced severe floods in 2005 due to heavy rainfall. The city's infrastructure was crippled, and many people lost their lives. \nQuestion: What were the primary causes of the Chennai floods in 2005?",
+    "options": {
+      "a": "Inadequate drainage system and unplanned urbanization.",
+      "b": "Heavy rainfall and cyclones.",
+      "c": "Deforestation and encroachment of water bodies.",
+      "d": "All of the above."
+    },
+    "answer": "d",
+    "id": 916
+  },
+  {
+    "question": "Case Study: Mumbai experienced unprecedented rainfall on July 26, 2005, leading to widespread flooding and loss of life. \nQuestion: What lessons can be learned from the Mumbai floods of 2005?",
+    "options": {
+      "a": "The importance of disaster preparedness and early warning systems.",
+      "b": "The need for better urban planning and infrastructure development.",
+      "c": "The significance of environmental conservation and sustainable development.",
+      "d": "All of the above."
+    },
+    "answer": "d",
+    "id": 917
+  }
+]

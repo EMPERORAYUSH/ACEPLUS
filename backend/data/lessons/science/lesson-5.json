@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Who made the first observation of cells and what did he observe?",
+    "options": {
+      "a": "Robert Hooke observed the nucleus in cork cells.",
+      "b": "Leeuwenhoek observed free-living cells in pond water.",
+      "c": "Robert Brown observed cells in a thin slice of cork.",
+      "d": "Robert Hooke observed box-like compartments in a thin slice of cork."
+    },
+    "answer": "d",
+    "id": 400
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a prokaryotic cell?",
+    "options": {
+      "a": "Absence of a nuclear membrane.",
+      "b": "Presence of ribosomes.",
+      "c": "Presence of membrane-bound organelles.",
+      "d": "Presence of a nucleoid."
+    },
+    "answer": "c",
+    "id": 401
+  },
+  {
+    "question": "Which of the following statements is TRUE about the cell wall?",
+    "options": {
+      "a": "It is present in all living cells.",
+      "b": "It provides flexibility to the cell.",
+      "c": "It is mainly composed of proteins.",
+      "d": "It is present in plant cells, fungi, and bacteria."
+    },
+    "answer": "d",
+    "id": 402
+  },
+  {
+    "question": "What is the function of the Golgi apparatus?",
+    "options": {
+      "a": "Synthesis of proteins.",
+      "b": "Cellular respiration.",
+      "c": "Packaging and modification of cellular products.",
+      "d": "Storage of genetic material."
+    },
+    "answer": "c",
+    "id": 403
+  },
+  {
+    "question": "Which organelle is responsible for photosynthesis in plant cells?",
+    "options": {
+      "a": "Mitochondria.",
+      "b": "Chloroplasts.",
+      "c": "Vacuoles.",
+      "d": "Lysosomes."
+    },
+    "answer": "b",
+    "id": 404
+  },
+  {
+    "question": "What happens to a plant cell when placed in a hypertonic solution?",
+    "options": {
+      "a": "The cell swells up due to water intake.",
+      "b": "The cell remains unchanged.",
+      "c": "The cell shrinks due to water loss.",
+      "d": "The cell bursts due to excessive water intake."
+    },
+    "answer": "c",
+    "id": 405
+  },
+  {
+    "question": "Which of the following is NOT a function of the endoplasmic reticulum (ER)?",
+    "options": {
+      "a": "Synthesis of lipids.",
+      "b": "Transport of proteins.",
+      "c": "Cellular respiration.",
+      "d": "Providing a framework for the cytoplasm."
+    },
+    "answer": "c",
+    "id": 406
+  },
+  {
+    "question": "What is the main difference between mitosis and meiosis?",
+    "options": {
+      "a": "Mitosis produces four daughter cells, while meiosis produces two.",
+      "b": "Mitosis occurs in reproductive cells, while meiosis occurs in somatic cells.",
+      "c": "Mitosis reduces the chromosome number by half, while meiosis maintains it.",
+      "d": "Mitosis produces genetically identical daughter cells, while meiosis produces genetically diverse daughter cells."
+    },
+    "answer": "d",
+    "id": 407
+  },
+  {
+    "question": "Assertion: Lysosomes are called ‘suicide bags’ of the cell. Reasoning: Lysosomes contain enzymes that can digest cellular components.",
+    "options": {
+      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
+      "c": "Assertion is true but Reasoning is false.",
+      "d": "Assertion is false but Reasoning is true."
+    },
+    "answer": "a",
+    "id": 408
+  },
+  {
+    "question": "Problem-solving: A cell is placed in a solution with a higher concentration of solute than the cell's cytoplasm. What will happen to the cell?",
+    "options": {
+      "a": "The cell will gain water and swell.",
+      "b": "The cell will lose water and shrink.",
+      "c": "The cell will remain unchanged.",
+      "d": "The cell will burst due to excessive water intake."
+    },
+    "answer": "b",
+    "id": 409
+  },
+  {
+    "question": "Application-based: Explain how the structure of the plasma membrane is related to its function as a selectively permeable membrane.",
+    "options": {
+      "a": "The plasma membrane is composed of lipids and proteins, which allow for the transport of only certain molecules.",
+      "b": "The plasma membrane is a rigid structure, which prevents the entry and exit of all molecules.",
+      "c": "The plasma membrane is a thin layer, which allows all molecules to pass through easily.",
+      "d": "The plasma membrane is composed of carbohydrates, which allow for the selective transport of molecules."
+    },
+    "answer": "a",
+    "id": 410
+  },
+  {
+    "question": "Critical thinking: Why is it important for cells to have a division of labor? Explain using an example.",
+    "options": {
+      "a": "Division of labor is not important for cells, as they can perform all functions independently.",
+      "b": "Division of labor allows cells to specialize and become more efficient in performing specific functions, like the mitochondria for energy production.",
+      "c": "Division of labor is only important for multicellular organisms, not for single-celled organisms.",
+      "d": "Division of labor is a result of random mutations and does not contribute to the efficiency of cells."
+    },
+    "answer": "b",
+    "id": 411
+  },
+  {
+    "question": "What is the name of the fluid substance found inside the cell?",
+    "options": {
+      "a": "Protoplasm",
+      "b": "Cytoplasm",
+      "c": "Nucleoplasm",
+      "d": "Cell sap"
+    },
+    "answer": "b",
+    "id": 412
+  },
+  {
+    "question": "Which of the following statements is TRUE about the nucleus?",
+    "options": {
+      "a": "It is the control center of the cell.",
+      "b": "It is the site of protein synthesis.",
+      "c": "It is responsible for cellular respiration.",
+      "d": "It is the smallest organelle in the cell."
+    },
+    "answer": "a",
+    "id": 413
+  },
+  {
+    "question": "What is the function of the ribosomes?",
+    "options": {
+      "a": "Synthesis of lipids.",
+      "b": "Synthesis of proteins.",
+      "c": "Packaging and modification of cellular products.",
+      "d": "Storage of genetic material."
+    },
+    "answer": "b",
+    "id": 414
+  },
+  {
+    "question": "Which of the following is NOT a type of plastid?",
+    "options": {
+      "a": "Chromoplasts",
+      "b": "Leucoplasts",
+      "c": "Chloroplasts",
+      "d": "Mitochondria"
+    },
+    "answer": "d",
+    "id": 415
+  },
+  {
+    "question": "Which of the following is an example of a unicellular organism?",
+    "options": {
+      "a": "Onion",
+      "b": "Human",
+      "c": "Amoeba",
+      "d": "Rose"
+    },
+    "answer": "c",
+    "id": 416
+  },
+  {
+    "question": "What is the process called by which a cell divides into two identical daughter cells?",
+    "options": {
+      "a": "Meiosis",
+      "b": "Mitosis",
+      "c": "Fertilization",
+      "d": "Binary fission"
+    },
+    "answer": "b",
+    "id": 417
+  },
+  {
+    "question": "What is the main difference between a hypotonic solution and a hypertonic solution?",
+    "options": {
+      "a": "Hypotonic solutions have a higher water concentration, while hypertonic solutions have a lower water concentration.",
+      "b": "Hypotonic solutions have a lower water concentration, while hypertonic solutions have a higher water concentration.",
+      "c": "Hypotonic solutions have a higher solute concentration, while hypertonic solutions have a lower solute concentration.",
+      "d": "Hypotonic solutions have a lower solute concentration, while hypertonic solutions have a higher solute concentration."
+    },
+    "answer": "a",
+    "id": 418
+  },
+  {
+    "question": "Assertion: The cell wall is a rigid structure that provides support to plant cells. Reasoning: The cell wall is composed mainly of cellulose.",
+    "options": {
+      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
+      "c": "Assertion is true but Reasoning is false.",
+      "d": "Assertion is false but Reasoning is true."
+    },
+    "answer": "a",
+    "id": 419
+  },
+  {
+    "question": "Problem-solving: A cell is placed in a solution with the same concentration of solute as the cell's cytoplasm. What will happen to the cell?",
+    "options": {
+      "a": "The cell will gain water and swell.",
+      "b": "The cell will lose water and shrink.",
+      "c": "The cell will remain unchanged.",
+      "d": "The cell will burst due to excessive water intake."
+    },
+    "answer": "c",
+    "id": 420
+  },
+  {
+    "question": "Application-based: Explain how the process of osmosis is important for the survival of a plant.",
+    "options": {
+      "a": "Osmosis is not important for plants, as they obtain water through their roots.",
+      "b": "Osmosis allows plants to absorb water and nutrients from the soil, which is essential for their growth and survival.",
+      "c": "Osmosis only plays a role in the transportation of water within the plant, not in its absorption.",
+      "d": "Osmosis is a process that only occurs in animal cells, not in plant cells."
+    },
+    "answer": "b",
+    "id": 421
+  },
+  {
+    "question": "Critical thinking: Explain how the structure of a mitochondrion is related to its function as the powerhouse of the cell.",
+    "options": {
+      "a": "Mitochondria have a simple structure, which allows them to efficiently produce energy.",
+      "b": "Mitochondria have a double membrane structure with folds, which increase the surface area for energy production.",
+      "c": "Mitochondria have a large central vacuole, which stores energy in the form of ATP.",
+      "d": "Mitochondria have a rigid cell wall, which protects them from damage during energy production."
+    },
+    "answer": "b",
+    "id": 422
+  },
+  {
+    "question": "What is the name of the process by which a cell takes in food or other materials from its surroundings?",
+    "options": {
+      "a": "Osmosis",
+      "b": "Diffusion",
+      "c": "Endocytosis",
+      "d": "Exocytosis"
+    },
+    "answer": "c",
+    "id": 423
+  },
+  {
+    "question": "Which of the following statements is TRUE about vacuoles?",
+    "options": {
+      "a": "Vacuoles are only present in animal cells.",
+      "b": "Vacuoles are the smallest organelle in the cell.",
+      "c": "Vacuoles are storage sacs for solid or liquid contents.",
+      "d": "Vacuoles are responsible for protein synthesis."
+    },
+    "answer": "c",
+    "id": 424
+  },
+  {
+    "question": "What is the name of the genetic material found in chromosomes?",
+    "options": {
+      "a": "RNA",
+      "b": "DNA",
+      "c": "Proteins",
+      "d": "Lipids"
+    },
+    "answer": "b",
+    "id": 425
+  },
+  {
+    "question": "Which of the following statements is TRUE about the cell membrane?",
+    "options": {
+      "a": "It is a rigid structure that surrounds the cell.",
+      "b": "It is a selectively permeable membrane that controls the movement of substances in and out of the cell.",
+      "c": "It is composed of only lipids.",
+      "d": "It is responsible for photosynthesis."
+    },
+    "answer": "b",
+    "id": 426
+  },
+  {
+    "question": "Assertion: The ER is a network of interconnected membranes. Reasoning: The ER helps in the transport of materials within the cell.",
+    "options": {
+      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
+      "c": "Assertion is true but Reasoning is false.",
+      "d": "Assertion is false but Reasoning is true."
+    },
+    "answer": "a",
+    "id": 427
+  },
+  {
+    "question": "Problem-solving: A cell is placed in a solution with a lower concentration of solute than the cell's cytoplasm. What will happen to the cell?",
+    "options": {
+      "a": "The cell will gain water and swell.",
+      "b": "The cell will lose water and shrink.",
+      "c": "The cell will remain unchanged.",
+      "d": "The cell will burst due to excessive water intake."
+    },
+    "answer": "a",
+    "id": 428
+  },
+  {
+    "question": "Application-based: Explain how the process of diffusion is important for the survival of a cell.",
+    "options": {
+      "a": "Diffusion is not important for cells, as they obtain all their needs through active transport.",
+      "b": "Diffusion allows cells to exchange gases, like oxygen and carbon dioxide, with their surroundings, which is essential for respiration.",
+      "c": "Diffusion only plays a role in the movement of water within the cell, not in the exchange of gases.",
+      "d": "Diffusion is a process that only occurs in plant cells, not in animal cells."
+    },
+    "answer": "b",
+    "id": 429
+  },
+  {
+    "question": "Critical thinking: Explain how the presence of a nucleus distinguishes eukaryotic cells from prokaryotic cells.",
+    "options": {
+      "a": "The nucleus is not a significant difference between eukaryotic and prokaryotic cells.",
+      "b": "Prokaryotic cells have a more complex nucleus than eukaryotic cells.",
+      "c": "The presence of a nucleus allows eukaryotic cells to perform more complex functions, such as organizing genetic material and controlling cellular activities.",
+      "d": "The nucleus is only present in plant cells, not in animal cells."
+    },
+    "answer": "c",
+    "id": 430
+  },
+  {
+    "question": "What is the name of the process by which a cell releases waste products or other materials into its surroundings?",
+    "options": {
+      "a": "Osmosis",
+      "b": "Diffusion",
+      "c": "Endocytosis",
+      "d": "Exocytosis"
+    },
+    "answer": "d",
+    "id": 431
+  },
+  {
+    "question": "Which of the following statements is TRUE about the cell wall?",
+    "options": {
+      "a": "It is present in all living cells.",
+      "b": "It provides flexibility to the cell.",
+      "c": "It is mainly composed of proteins.",
+      "d": "It is present in plant cells, fungi, and bacteria."
+    },
+    "answer": "d",
+    "id": 432
+  },
+  {
+    "question": "What is the name of the organelle that contains digestive enzymes and is responsible for breaking down cellular waste products?",
+    "options": {
+      "a": "Mitochondria",
+      "b": "Lysosomes",
+      "c": "Vacuoles",
+      "d": "Golgi apparatus"
+    },
+    "answer": "b",
+    "id": 433
+  },
+  {
+    "question": "What is the name of the green pigment found in chloroplasts that is essential for photosynthesis?",
+    "options": {
+      "a": "Carotene",
+      "b": "Xanthophyll",
+      "c": "Chlorophyll",
+      "d": "Melanin"
+    },
+    "answer": "c",
+    "id": 434
+  },
+  {
+    "question": "Which of the following statements is TRUE about the cell membrane?",
+    "options": {
+      "a": "It is a rigid structure that surrounds the cell.",
+      "b": "It is a selectively permeable membrane that controls the movement of substances in and out of the cell.",
+      "c": "It is composed of only lipids.",
+      "d": "It is responsible for photosynthesis."
+    },
+    "answer": "b",
+    "id": 435
+  },
+  {
+    "question": "Assertion: The Golgi apparatus is involved in the packaging and modification of cellular products. Reasoning: The Golgi apparatus consists of stacks of membrane-bound vesicles.",
+    "options": {
+      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
+      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
+      "c": "Assertion is true but Reasoning is false.",
+      "d": "Assertion is false but Reasoning is true."
+    },
+    "answer": "a",
+    "id": 436
+  },
+  {
+    "question": "Problem-solving: A cell is placed in a solution with a higher concentration of solute than the cell's cytoplasm. What will happen to the cell?",
+    "options": {
+      "a": "The cell will gain water and swell.",
+      "b": "The cell will lose water and shrink.",
+      "c": "The cell will remain unchanged.",
+      "d": "The cell will burst due to excessive water intake."
+    },
+    "answer": "b",
+    "id": 437
+  },
+  {
+    "question": "Application-based: Explain how the process of diffusion is important for the survival of a cell.",
+    "options": {
+      "a": "Diffusion is not important for cells, as they obtain all their needs through active transport.",
+      "b": "Diffusion allows cells to exchange gases, like oxygen and carbon dioxide, with their surroundings, which is essential for respiration.",
+      "c": "Diffusion only plays a role in the movement of water within the cell, not in the exchange of gases.",
+      "d": "Diffusion is a process that only occurs in plant cells, not in animal cells."
+    },
+    "answer": "b",
+    "id": 438
+  },
+  {
+    "question": "Critical thinking: Explain how the presence of a nucleus distinguishes eukaryotic cells from prokaryotic cells.",
+    "options": {
+      "a": "The nucleus is not a significant difference between eukaryotic and prokaryotic cells.",
+      "b": "Prokaryotic cells have a more complex nucleus than eukaryotic cells.",
+      "c": "The presence of a nucleus allows eukaryotic cells to perform more complex functions, such as organizing genetic material and controlling cellular activities.",
+      "d": "The nucleus is only present in plant cells, not in animal cells."
+    },
+    "answer": "c",
+    "id": 439
+  }
+]

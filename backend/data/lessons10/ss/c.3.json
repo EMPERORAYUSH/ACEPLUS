@@ -1,0 +1,572 @@
+[
+  {
+    "question": "The gender division tends to be understood as ______ and unchangeable.",
+    "options": {
+      "a": "social",
+      "b": "natural",
+      "c": "political",
+      "d": "economic"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "______ women work as domestic helpers in middle-class homes.",
+    "options": {
+      "a": "Rich",
+      "b": "Poor",
+      "c": "Upper caste",
+      "d": "Educated"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Earlier, only ______ were allowed to participate in public affairs, vote, and contest for public offices.",
+    "options": {
+      "a": "women",
+      "b": "men",
+      "c": "children",
+      "d": "foreigners"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Movements aimed at equality in personal and family life are called ______ movements.",
+    "options": {
+      "a": "Feminist",
+      "b": "Socialist",
+      "c": "Communist",
+      "d": "Capitalist"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "______ refers to a system that values men more and gives them power over women.",
+    "options": {
+      "a": "Matriarchy",
+      "b": "Patriarchy",
+      "c": "Monarchy",
+      "d": "Oligarchy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The literacy rate among women is ______ compared to 76 percent among men.",
+    "options": {
+      "a": "70 percent",
+      "b": "65 percent",
+      "c": "54 percent",
+      "d": "82 percent"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Equal Remuneration Act, 1976, provides that equal wages should be paid for ______ work.",
+    "options": {
+      "a": "unequal",
+      "b": "equal",
+      "c": "less",
+      "d": "more"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In many parts of India, parents prefer to have ______.",
+    "options": {
+      "a": "daughters",
+      "b": "sons",
+      "c": "equal number of sons and daughters",
+      "d": "no children"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Sex-selective abortion has led to a decline in child sex ______ in the country.",
+    "options": {
+      "a": "ratio",
+      "b": "difference",
+      "c": "birth",
+      "d": "death"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Unless women control power, their problems will not get adequate ______.",
+    "options": {
+      "a": "ignorance",
+      "b": "attention",
+      "c": "power",
+      "d": "neglect"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the sexual division of labor?",
+    "options": {
+      "a": "Equal work distribution between men and women.",
+      "b": "Women doing all work inside and men outside the home.",
+      "c": "Men doing all the work.",
+      "d": "Women working only outside the home."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is one main demand of feminist movements?",
+    "options": {
+      "a": "Limiting women's role in public life.",
+      "b": "Equality in personal and family life.",
+      "c": "Restricting women's education.",
+      "d": "Promoting traditional gender roles."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does patriarchy mean?",
+    "options": {
+      "a": "Rule by women.",
+      "b": "A system that values men more.",
+      "c": "Equal rights for all genders.",
+      "d": "A society where women dominate."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which form of government did India adopt to address the challenge of communalism?",
+    "options": {
+      "a": "Theocratic",
+      "b": "Secular",
+      "c": "Communist",
+      "d": "Dictatorship"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the basis of communal politics?",
+    "options": {
+      "a": "Economic equality.",
+      "b": "Religion as the principal basis of social community.",
+      "c": "Gender equality.",
+      "d": "Caste-based hierarchy."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which is NOT a characteristic of the caste system?",
+    "options": {
+      "a": "Hereditary occupational division",
+      "b": "Social mobility encouraged",
+      "c": "Marriage within the caste group",
+      "d": "Exclusion of outcaste groups"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What has challenged the traditional caste hierarchy in modern India?",
+    "options": {
+      "a": "Strengthening of the position of landlords",
+      "b": "Economic development and urbanization",
+      "c": "Decline in literacy and education",
+      "d": "Increased adherence to traditional rituals"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is occupational mobility?",
+    "options": {
+      "a": "Staying in the same occupation as ancestors.",
+      "b": "Shifting from one occupation to another.",
+      "c": "Migration from rural to urban areas.",
+      "d": "Immobility in terms of occupation."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does the term \"vote bank\" imply?",
+    "options": {
+      "a": "A bank account for political parties.",
+      "b": "A large proportion of voters from a particular caste voting for a specific party.",
+      "c": "All voters of a caste voting for one party.",
+      "d": "Parties storing money received from voters."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary basis of caste inequalities?",
+    "options": {
+      "a": "Meritocracy",
+      "b": "Birth",
+      "c": "Education",
+      "d": "Economic status"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the current status of untouchability in India?",
+    "options": {
+      "a": "Completely eradicated.",
+      "b": "Still prevalent despite constitutional prohibition.",
+      "c": "Officially encouraged.",
+      "d": "Practiced only in rural areas."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the trend observed in the population proportion of different religious communities in India since independence?",
+    "options": {
+      "a": "Drastic changes",
+      "b": "Not much change",
+      "c": "Complete homogenization",
+      "d": "Rapid decline in all communities"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which communities are referred to as \"Adivasis\"?",
+    "options": {
+      "a": "Scheduled Castes",
+      "b": "Scheduled Tribes",
+      "c": "Other Backward Classes",
+      "d": "Upper Castes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who were considered \"outcastes\" in the traditional Hindu social order?",
+    "options": {
+      "a": "Upper Castes",
+      "b": "Scheduled Tribes",
+      "c": "Scheduled Castes",
+      "d": "Other Backward Classes"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What does the term \"Dalit\" refer to?",
+    "options": {
+      "a": "Scheduled Tribes",
+      "b": "Scheduled Castes",
+      "c": "Upper Castes",
+      "d": "Other Backward Classes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What led to the decline in the child sex ratio in India?",
+    "options": {
+      "a": "Natural causes",
+      "b": "Sex-selective abortion",
+      "c": "Female infanticide",
+      "d": "Both b and c"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What was one of the major aims of women's movements?",
+    "options": {
+      "a": "To restrict women's education",
+      "b": "To promote traditional gender roles",
+      "c": "To enhance the political and legal status of women",
+      "d": "To confine women to domestic roles"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Women often perform domestic labor, which is largely unpaid. What is a consequence of this situation?",
+    "options": {
+      "a": "Their work is highly valued.",
+      "b": "Their work is often not recognized or valued.",
+      "c": "They gain significant economic power.",
+      "d": "They have more leisure time than men."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Gender division is a form of social hierarchy. Is it based on biology?",
+    "options": {
+      "a": "Yes, it is purely biological.",
+      "b": "No, it is based on social expectations and stereotypes.",
+      "c": "Partially, it's a mix of biology and social factors.",
+      "d": "It's unrelated to both biology and social factors."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Gandhiji believed that politics and religion were interconnected. What kind of religion did he advocate in politics?",
+    "options": {
+      "a": "A specific religion like Hinduism or Islam.",
+      "b": "Moral values that inform all religions.",
+      "c": "Separation of religion from politics.",
+      "d": "Using religion to create divisions."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Communalism can lead to violence and conflict. What is it based on?",
+    "options": {
+      "a": "Peaceful co-existence.",
+      "b": "The idea that religion is the primary basis of social community.",
+      "c": "Respect for all religions.",
+      "d": "Promoting secular values."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Indian Constitution prohibits discrimination based on religion. Does it allow state intervention in religious matters?",
+    "options": {
+      "a": "No, it strictly prohibits any state intervention.",
+      "b": "Yes, to ensure equality within religious communities.",
+      "c": "Only in cases of violent conflict.",
+      "d": "Only to promote one specific religion."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Caste inequalities affect access to resources. How does this relate to the traditional caste system?",
+    "options": {
+      "a": "Lower castes had equal access to resources.",
+      "b": "Upper castes were denied access to resources.",
+      "c": "Access to resources was based on merit.",
+      "d": "Lower castes were often denied resources like land and education."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Occupational mobility is increasing in modern India. What is contributing to this change?",
+    "options": {
+      "a": "Strengthening of caste hierarchy.",
+      "b": "Economic development and urbanization.",
+      "c": "Strict adherence to traditional occupations.",
+      "d": "Decline in education and literacy."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Political parties consider caste composition during elections. What does this practice indicate about the relationship between caste and politics?",
+    "options": {
+      "a": "Caste has no influence on politics.",
+      "b": "Caste plays a significant role in electoral politics.",
+      "c": "Politicians ignore caste completely.",
+      "d": "Only upper castes participate in politics."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Caste can create vote banks for political parties. Do all members of a caste vote for the same party?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, there are diverse factors influencing voting behavior within a caste.",
+      "c": "Only in rural areas.",
+      "d": "Only during national elections."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The existence of social diversity can lead to expressions of differences in politics. Does this diversity always threaten democracy?",
+    "options": {
+      "a": "Yes, it always leads to instability.",
+      "b": "No, political expression of social differences can be healthy in a democracy.",
+      "c": "It only threatens democracies with weak institutions.",
+      "d": "It is irrelevant to the functioning of a democracy."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Paragraph: In a village, women are primarily responsible for household chores and childcare, while men work in the fields. The men's work is seen as more valuable because it generates income, even though women spend several hours daily on domestic labor. This work is often invisible and unpaid.\n\nQuestion: What concept does this paragraph illustrate?",
+    "options": {
+      "a": "Gender equality",
+      "b": "Sexual division of labor",
+      "c": "Occupational mobility",
+      "d": "Caste hierarchy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Paragraph: During an election campaign, a political party emphasized the importance of protecting the interests of a particular religious community. They used religious symbols and slogans to appeal to voters and warned against the influence of other religions.\n\nQuestion: What is this an example of?",
+    "options": {
+      "a": "Secularism",
+      "b": "Communal politics",
+      "c": "Feminist movement",
+      "d": "Caste-based mobilization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Paragraph: A family belongs to a traditionally marginalized caste group. They face discrimination in their village and have limited access to education and employment opportunities. However, the reservation policy for Scheduled Castes allows their children to access higher education and government jobs.\n\nQuestion: How has the state intervened in this case to promote equality?",
+    "options": {
+      "a": "By promoting communalism",
+      "b": "By enforcing caste hierarchy",
+      "c": "Through affirmative action policies like reservations",
+      "d": "By ignoring caste inequalities"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Paragraph: A woman belonging to an upper caste and a woman belonging to a lower caste both work as agricultural laborers on the same farm. They perform the same tasks, but the upper-caste woman is paid more than the lower-caste woman.\n\nQuestion: What form of inequality does this illustrate?",
+    "options": {
+      "a": "Gender inequality",
+      "b": "Religious discrimination",
+      "c": "Intersection of caste and economic inequality",
+      "d": "Urban-rural divide"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Paragraph: A village panchayat has one-third of its seats reserved for women. This ensures that women have a voice in local governance and participate in decision-making processes related to their community.\n\nQuestion: What is the significance of this reservation policy?",
+    "options": {
+      "a": "It limits women's political participation.",
+      "b": "It promotes women's political representation.",
+      "c": "It reinforces patriarchal norms.",
+      "d": "It has no impact on gender equality."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is an example of a feminist demand?",
+    "options": {
+      "a": "Restricting women's access to education.",
+      "b": "Promoting equal pay for equal work.",
+      "c": "Enforcing traditional gender roles.",
+      "d": "Limiting women's participation in politics."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which statement best describes secularism as practiced in India?",
+    "options": {
+      "a": "The state promotes one specific religion.",
+      "b": "The state favors certain religious communities.",
+      "c": "The state does not have an official religion and protects the freedom to practice any religion.",
+      "d": "The state discourages religious practices."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is a consequence of communal politics?",
+    "options": {
+      "a": "Social harmony and integration",
+      "b": "Increased tolerance and respect between religious communities",
+      "c": "Violence, riots, and social divisions",
+      "d": "Strengthening of democratic values"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which factor has significantly contributed to the weakening of the traditional caste hierarchy?",
+    "options": {
+      "a": "Increased concentration of land ownership",
+      "b": "Decline in urbanisation",
+      "c": "Growth of literacy and education",
+      "d": "Strict adherence to caste-based occupations"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which term describes the shift of population from rural to urban areas?",
+    "options": {
+      "a": "Occupational mobility",
+      "b": "Urbanisation",
+      "c": "Caste hierarchy",
+      "d": "Secularism"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the meaning of \"caste\"?",
+    "options": {
+      "a": "A social group based on occupation and descent.",
+      "b": "A religious community.",
+      "c": "A political party.",
+      "d": "An economic class."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which statement about the relationship between caste and politics is accurate?",
+    "options": {
+      "a": "Caste has no impact on politics.",
+      "b": "Politicians completely ignore caste.",
+      "c": "Caste can influence voting behavior and candidate selection.",
+      "d": "Only upper castes are involved in politics."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is meant by \"political mobilisation on religious lines\"?",
+    "options": {
+      "a": "Appealing to voters based on their religious identity.",
+      "b": "Promoting secular values during elections.",
+      "c": "Ignoring religion in political campaigns.",
+      "d": "Encouraging interfaith dialogue during elections."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which statement best describes the status of women's representation in Indian legislative bodies?",
+    "options": {
+      "a": "Women have equal representation.",
+      "b": "Women are significantly underrepresented.",
+      "c": "Women are overrepresented.",
+      "d": "Women are not allowed to participate in politics."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the purpose of the Equal Remuneration Act, 1976?",
+    "options": {
+      "a": "To promote gender-based wage discrimination.",
+      "b": "To ensure equal pay for equal work for both men and women.",
+      "c": "To restrict women's employment opportunities.",
+      "d": "To enforce traditional gender roles in the workplace."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which concept is used to describe a system that values men more and gives them power over women?",
+    "options": {
+      "a": "Matriarchy",
+      "b": "Patriarchy",
+      "c": "Equality",
+      "d": "Feminism"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What are Family Laws?",
+    "options": {
+      "a": "Laws related to business.",
+      "b": "Laws related to family matters like marriage and divorce.",
+      "c": "Criminal laws.",
+      "d": "Constitutional laws."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the significance of the Women's Reservation Bill?",
+    "options": {
+      "a": "It reserves seats for women in educational institutions.",
+      "b": "It reserves seats for women in legislative bodies.",
+      "c": "It restricts women's entry into politics.",
+      "d": "It has no impact on women's political participation."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a form of communalism in everyday life?",
+    "options": {
+      "a": "Having negative stereotypes about a particular religion.",
+      "b": "Respecting and accepting all religions.",
+      "c": "Believing that one's religion is superior to others.",
+      "d": "Making jokes based on stereotypes about a religion"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does it mean when a caste is referred to as a \"vote bank\" of a political party?",
+    "options": {
+      "a": "All members of that caste are registered members of the party.",
+      "b": "A significant portion of that caste votes for the party.",
+      "c": "The party provides financial assistance to members of that caste.",
+      "d": "The party has no influence on voters of that caste."
+    },
+    "answer": "b"
+  }
+]

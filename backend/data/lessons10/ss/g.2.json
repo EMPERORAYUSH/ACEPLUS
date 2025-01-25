@@ -1,0 +1,612 @@
+[
+  {
+    "question": "What is the central theme of the Lepcha folk song?",
+    "options": {
+      "a": "Celebration of human achievements",
+      "b": "Dedication of music to nature",
+      "c": "Lament for lost traditions",
+      "d": "Description of tribal warfare"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is NOT mentioned as a primary producer in the ecosystem?",
+    "options": {
+      "a": "Forests",
+      "b": "Animals",
+      "c": "Plants",
+      "d": "Micro-organisms"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Biodiversity is characterized by:",
+    "options": {
+      "a": "Uniformity in species",
+      "b": "Richness and variety of life forms",
+      "c": "Limited interaction between species",
+      "d": "Absence of ecological systems"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The primary reason for the stress on flora and fauna is:",
+    "options": {
+      "a": "Natural calamities",
+      "b": "Insensitivity to the environment",
+      "c": "Overpopulation of certain species",
+      "d": "Lack of scientific research"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Conservation of forests and wildlife preserves:",
+    "options": {
+      "a": "Only aesthetic beauty",
+      "b": "Ecological diversity and life support systems",
+      "c": "Exclusively genetic diversity",
+      "d": "Solely traditional crop varieties"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Indian Wildlife (Protection) Act was implemented in:",
+    "options": {
+      "a": "1960",
+      "b": "1970",
+      "c": "1972",
+      "d": "1986"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "'Project Tiger' was launched in which year?",
+    "options": {
+      "a": "1972",
+      "b": "1973",
+      "c": "1980",
+      "d": "1986"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is NOT a major threat to tiger populations?",
+    "options": {
+      "a": "Poaching",
+      "b": "Habitat loss",
+      "c": "Disease outbreaks",
+      "d": "Depletion of prey"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which national park is NOT mentioned as a tiger reserve?",
+    "options": {
+      "a": "Corbett",
+      "b": "Kaziranga",
+      "c": "Sunderbans",
+      "d": "Bandhavgarh"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Reserved Forests are:",
+    "options": {
+      "a": "Open for public use",
+      "b": "The most valuable for conservation",
+      "c": "Under private ownership",
+      "d": "Exclusively for timber production"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Sacred Groves are:",
+    "options": {
+      "a": "Areas designated for scientific study",
+      "b": "Forests preserved due to religious beliefs",
+      "c": "Regions with high agricultural productivity",
+      "d": "Zones marked for industrial development"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Beej Bachao Andolan promotes:",
+    "options": {
+      "a": "Afforestation with exotic species",
+      "b": "Use of synthetic chemicals in farming",
+      "c": "Traditional and diversified crop production",
+      "d": "Large-scale industrial agriculture"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Chipko movement, originating in the Himalayan region, became a symbol of community resistance against deforestation. Local women embraced trees to prevent them from being felled, highlighting the interconnectedness between their livelihoods and the forest.\"\n    Which aspect of conservation does the Chipko movement primarily emphasize?",
+    "options": {
+      "a": "Government regulation",
+      "b": "Community participation",
+      "c": "Scientific management",
+      "d": "Industrial development"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Project Tiger, initiated in 1973, aimed not only at saving the tiger but also at preserving its habitat. This involved creating protected areas, reducing human-wildlife conflict, and combating poaching.\"\n    What was the broader objective of Project Tiger beyond saving the species?",
+    "options": {
+      "a": "Promoting ecotourism",
+      "b": "Habitat preservation",
+      "c": "Advancing scientific research",
+      "d": "Increasing tiger population for zoos"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"The Indian Wildlife (Protection) Act of 1972 provided a legal framework for safeguarding endangered species. It banned hunting, protected habitats, and regulated trade in wildlife products.\"\n    What was the primary legal mechanism introduced by the Act to protect wildlife?",
+    "options": {
+      "a": "Promotion of wildlife tourism",
+      "b": "Ban on hunting",
+      "c": "Establishment of wildlife resorts",
+      "d": "Encouragement of wildlife trade"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"In the 1960s and 1970s, conservationists in India raised concerns about the rapid decline in wildlife populations. They advocated for a national program to protect endangered species and their habitats.\"\n    What was the primary driving force behind the demand for a national wildlife protection program?",
+    "options": {
+      "a": "Aesthetic appreciation of wildlife",
+      "b": "Decline in wildlife populations",
+      "c": "Promotion of international tourism",
+      "d": "Development of wildlife sanctuaries for recreation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Biodiversity, or biological diversity, encompasses the variety of life on Earth. It includes the diversity of genes, species, and ecosystems, all interconnected through complex ecological processes.\"\n    What are the three levels of diversity encompassed within the concept of biodiversity?",
+    "options": {
+      "a": "Regional, national, and global",
+      "b": "Genes, species, and ecosystems",
+      "c": "Flora, fauna, and microorganisms",
+      "d": "Terrestrial, aquatic, and aerial"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Reserved forests are considered the most valuable from a conservation perspective. They are legally protected areas where human activities are strictly regulated to maintain ecological integrity.\"\n    Why are Reserved Forests considered highly valuable for conservation?",
+    "options": {
+      "a": "They allow for sustainable resource extraction",
+      "b": "They are under strict legal protection",
+      "c": "They are open for recreational activities",
+      "d": "They are managed by local communities"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Protected Forests constitute about one-third of India's total forest area. These areas are safeguarded from further depletion, although some regulated resource use may be permitted.\"\n    What is the primary management objective for Protected Forests?",
+    "options": {
+      "a": "Complete prohibition of human activity",
+      "b": "Prevention of further depletion",
+      "c": "Promotion of large-scale timber extraction",
+      "d": "Conversion into agricultural land"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Unclassed Forests include forests and wastelands that belong to both the government and private individuals or communities. These areas are not subject to the same level of protection as Reserved or Protected Forests.\"\n    Who primarily owns Unclassed Forests?",
+    "options": {
+      "a": "Exclusively the government",
+      "b": "Both government and private entities",
+      "c": "Solely private individuals",
+      "d": "Foreign investors"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"The Bishnoi community in Rajasthan has a long tradition of protecting wildlife. Their villages are known for the presence of blackbuck, nilgai, and peacocks, which are considered integral to their community.\"\n    What unique aspect of the Bishnoi community contributes to wildlife conservation?",
+    "options": {
+      "a": "Their expertise in wildlife photography",
+      "b": "Their integration of wildlife into their community",
+      "c": "Their promotion of wildlife hunting",
+      "d": "Their establishment of wildlife sanctuaries"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"The Joint Forest Management (JFM) program involves local communities in the management and restoration of degraded forests. In return, they receive benefits like non-timber forest products.\"\n    What is the key incentive for local communities to participate in JFM?",
+    "options": {
+      "a": "Ownership of forest land",
+      "b": "Access to non-timber forest products",
+      "c": "Employment in the Forest Department",
+      "d": "Control over timber harvesting"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Sacred groves are patches of forests that are protected due to religious or cultural beliefs. These areas are often left untouched, and any interference is considered taboo.\"\n    What is the primary reason for the protection of Sacred Groves?",
+    "options": {
+      "a": "Scientific research",
+      "b": "Religious or cultural beliefs",
+      "c": "Economic exploitation",
+      "d": "Ecotourism potential"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"The Narmada Bachao Andolan was a social movement that opposed the construction of large dams on the Narmada River. The movement highlighted the potential environmental and social impacts of the project.\"\n    What was the main concern raised by the Narmada Bachao Andolan regarding the dam project?",
+    "options": {
+      "a": "Promotion of tourism",
+      "b": "Environmental and social impacts",
+      "c": "Enhancement of irrigation facilities",
+      "d": "Generation of hydroelectric power"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"In Sariska Tiger Reserve, villagers opposed mining activities by invoking the Wildlife Protection Act. They argued that mining would destroy the habitat of tigers and other wildlife.\"\n    What legal instrument did the villagers use to oppose mining in Sariska?",
+    "options": {
+      "a": "The Forest Rights Act",
+      "b": "The Wildlife Protection Act",
+      "c": "The Environmental Protection Act",
+      "d": "The Mines and Minerals Act"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"The Wildlife Act of 1980 and 1986 included provisions for the protection of not just mammals and birds, but also insects like butterflies, moths, and beetles.\"\n    What was the significant expansion in the scope of the Wildlife Act of 1980 and 1986?",
+    "options": {
+      "a": "Inclusion of marine animals",
+      "b": "Protection of insects",
+      "c": "Focus on endangered plants",
+      "d": "Emphasis on domestic animals"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"Farmers' groups like Navdanya have demonstrated that sustainable agriculture is possible without the use of synthetic chemicals. They promote biodiversity and traditional farming practices.\"\n    What is the core principle advocated by groups like Navdanya?",
+    "options": {
+      "a": "Large-scale monoculture",
+      "b": "Sustainable agriculture without synthetic chemicals",
+      "c": "Use of genetically modified crops",
+      "d": "Mechanization of all farming processes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a new dam project is proposed in a forested area, which of these would be the LEAST effective strategy for local communities to protect their environment?",
+    "options": {
+      "a": "Citing the Wildlife Protection Act",
+      "b": "Organizing peaceful protests",
+      "c": "Seeking support from national conservation organizations",
+      "d": "Accepting the project without resistance"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "A region experiences a sudden increase in poaching of an endangered species. Which immediate action would be most effective in addressing this issue?",
+    "options": {
+      "a": "Launching a long-term ecological study",
+      "b": "Increasing patrolling and enforcement against poaching",
+      "c": "Promoting ecotourism in the area",
+      "d": "Starting an awareness campaign about the species' diet"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A community wants to restore a degraded forest area. Which approach would be most aligned with the principles of Joint Forest Management?",
+    "options": {
+      "a": "Planting fast-growing exotic tree species",
+      "b": "Collaborating with the Forest Department and using local species",
+      "c": "Clearing the area for agricultural use",
+      "d": "Leaving the area untouched to regenerate naturally"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A state government plans to convert a large tract of Unclassed Forest into an industrial zone. What would be the most appropriate response from an environmental conservation perspective?",
+    "options": {
+      "a": "Supporting the project for economic development",
+      "b": "Assessing the ecological value of the forest and advocating for its protection if necessary",
+      "c": "Ignoring the project as it doesn't concern Reserved Forests",
+      "d": "Promoting the industrial zone for job creation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A village is located near a Protected Forest and faces water scarcity. Which action would be most sustainable in the long term?",
+    "options": {
+      "a": "Extracting groundwater from the Protected Forest",
+      "b": "Implementing rainwater harvesting and water conservation measures in the village",
+      "c": "Diverting a river flowing through the Protected Forest",
+      "d": "Relocating the village to an area with abundant water"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A species of deer is found to be overgrazing in a national park, impacting the vegetation. What management strategy would be most appropriate?",
+    "options": {
+      "a": "Introducing a new predator species without studying its ecological impact",
+      "b": "Assessing the deer population and implementing measures like relocation if necessary",
+      "c": "Fencing off the entire national park to prevent deer movement",
+      "d": "Ignoring the issue as it is a natural process"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A company proposes to set up a new mine near a known elephant habitat. Which factor should be given the highest priority in the environmental impact assessment?",
+    "options": {
+      "a": "The potential for job creation in the region",
+      "b": "The impact on elephant migration routes and habitat",
+      "c": "The company's past record of environmental compliance in other regions",
+      "d": "The economic benefits to the state government"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A local community depends on a forest for their livelihood but faces restrictions due to its designation as a Protected Forest. What would be the most effective way to balance conservation and community needs?",
+    "options": {
+      "a": "Relocating the community outside the forest area",
+      "b": "Exploring sustainable livelihood options within the framework of JFM",
+      "c": "Allowing unrestricted access to the forest for the community",
+      "d": "Converting the Protected Forest into an Unclassed Forest"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Due to climate change, a particular tree species is experiencing a decline in a specific region. What would be the most appropriate conservation response?",
+    "options": {
+      "a": "Introducing a non-native tree species that is more resilient to climate change",
+      "b": "Researching the causes of the decline and implementing measures to support the species' natural regeneration",
+      "c": "Ignoring the decline as it is a natural consequence of climate change",
+      "d": "Converting the affected area into a plantation of a commercially valuable tree species"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might a purely scientific approach to conservation, without community involvement, be less effective in the long run?",
+    "options": {
+      "a": "Scientific research is often too expensive",
+      "b": "Local communities may lack understanding of scientific principles",
+      "c": "Conservation efforts may lack local support and sustainability without community buy-in",
+      "d": "Scientists may not be aware of the specific needs of a particular ecosystem"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How does the concept of Sacred Groves challenge the notion that conservation is solely a modern, scientific concept?",
+    "options": {
+      "a": "It demonstrates that conservation can be rooted in religious and cultural beliefs",
+      "b": "It proves that scientific methods are ineffective in conservation",
+      "c": "It shows that conservation is only necessary in areas with high biodiversity",
+      "d": "It highlights the conflict between traditional practices and modern conservation"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why is the preservation of biodiversity considered crucial not just for ecological balance but also for human well-being?",
+    "options": {
+      "a": "Biodiversity provides aesthetic and recreational value only",
+      "b": "Humans are entirely independent of other species for survival",
+      "c": "Biodiversity is essential for ecosystem services that support human life, such as clean air and water",
+      "d": "Preserving biodiversity is solely a moral obligation with no practical benefits for humans"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are the potential limitations of relying solely on legal instruments like the Wildlife Protection Act for effective conservation?",
+    "options": {
+      "a": "Laws are always effectively enforced",
+      "b": "Laws alone may not address the underlying socio-economic drivers of environmental degradation",
+      "c": "Laws are sufficient to ensure the long-term survival of all species",
+      "d": "Laws do not require public awareness or support to be effective"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does the existence of different categories of forests (Reserved, Protected, Unclassed) reflect the complex challenges of balancing conservation with human needs?",
+    "options": {
+      "a": "It demonstrates a one-size-fits-all approach to forest management",
+      "b": "It shows that conservation is only possible in areas with no human presence",
+      "c": "It reflects the need for varying levels of protection and management based on ecological and social factors",
+      "d": "It indicates that conservation is primarily the responsibility of the government, not local communities"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why might \"Project Tiger\" be considered a flagship program for broader conservation efforts in India?",
+    "options": {
+      "a": "Tigers are the only endangered species in India",
+      "b": "The project focuses solely on increasing tiger numbers without considering habitat",
+      "c": "Protecting tigers as an umbrella species indirectly benefits other species and their habitats",
+      "d": "The project has eliminated all threats to tigers in India"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How do the activities of groups like Beej Bachao Andolan and Navdanya contribute to both environmental conservation and social justice?",
+    "options": {
+      "a": "They promote industrial agriculture, which creates jobs",
+      "b": "They advocate for the displacement of rural communities to protect biodiversity",
+      "c": "They empower local farmers and promote sustainable practices that benefit both people and the environment",
+      "d": "They focus solely on environmental issues without considering social impacts"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are the potential ethical dilemmas associated with prioritizing the conservation of a particular species, like the tiger, over others?",
+    "options": {
+      "a": "There are no ethical dilemmas as all species should be treated equally",
+      "b": "Focusing on charismatic species may divert resources from other equally important but less popular species",
+      "c": "Prioritizing certain species is always justified based on their ecological role",
+      "d": "Conservation efforts should only focus on species that have direct economic value"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can ecotourism, if not managed properly, potentially harm the very environment it aims to showcase?",
+    "options": {
+      "a": "Ecotourism always benefits local communities and the environment",
+      "b": "Uncontrolled tourism can lead to habitat degradation, pollution, and disturbance to wildlife",
+      "c": "Ecotourism has no impact on the environment as it is a sustainable activity",
+      "d": "Ecotourism is only harmful if it involves hunting or other extractive activities"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the significance of the statement, \"Accept only those economic or developmental activities, that are people centric, environment-friendly and economically rewarding\"?",
+    "options": {
+      "a": "Economic development should always be prioritized over environmental concerns",
+      "b": "Development should be pursued regardless of its impact on people or the environment",
+      "c": "Sustainable development requires balancing economic, social, and environmental considerations",
+      "d": "Only projects that generate large profits should be considered for implementation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A local community notices a decline in the fish population of a river flowing through their village, which is adjacent to a Reserved Forest. Which initial action would be the most logical step towards identifying the cause?",
+    "options": {
+      "a": "Immediately petitioning the government to declare the river a protected area",
+      "b": "Conducting a community-led investigation into potential pollution sources or changes in river flow",
+      "c": "Stocking the river with fish from a different region without assessing the cause of the decline",
+      "d": "Assuming the decline is due to natural fluctuations and taking no immediate action"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A wildlife sanctuary is experiencing increased human-wildlife conflict, with animals frequently entering nearby villages. What would be the most sustainable solution to mitigate this conflict?",
+    "options": {
+      "a": "Building a high fence around the entire sanctuary to prevent animal movement",
+      "b": "Relocating all the villagers to a different area to eliminate the conflict",
+      "c": "Creating buffer zones with sustainable resource use for villagers and improving habitat connectivity within the sanctuary",
+      "d": "Implementing a program to cull the animal population to reduce their numbers"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A region heavily reliant on traditional agriculture is facing declining crop yields due to soil degradation. Which approach would best promote long-term agricultural sustainability?",
+    "options": {
+      "a": "Encouraging farmers to switch to large-scale monoculture using chemical fertilizers",
+      "b": "Providing training and support for adopting agroecological practices, such as intercropping and organic farming",
+      "c": "Subsidizing the use of heavy machinery to increase agricultural output in the short term",
+      "d": "Ignoring the issue as soil degradation is an inevitable consequence of agriculture"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A state government plans to build a road through a Protected Forest to improve connectivity. What would be the most crucial aspect to consider during the environmental impact assessment?",
+    "options": {
+      "a": "The potential for increased tourism revenue due to improved access",
+      "b": "The impact of the road on wildlife movement, habitat fragmentation, and potential for roadkill",
+      "c": "The cost-effectiveness of different road construction materials",
+      "d": "The number of jobs that will be created during the road construction phase"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A coastal community is experiencing increased erosion due to rising sea levels. Which adaptation strategy would be the most effective and sustainable in the long run?",
+    "options": {
+      "a": "Building a large seawall along the entire coastline to prevent erosion",
+      "b": "Implementing a combination of measures, such as mangrove restoration, beach nourishment, and planned retreat from vulnerable areas",
+      "c": "Relocating the entire community to an inland area",
+      "d": "Ignoring the issue as coastal erosion is a natural process"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A mining company discovers a valuable mineral deposit within an Unclassed Forest area. What should be the primary consideration before granting a mining permit?",
+    "options": {
+      "a": "The potential for the mining company to generate significant tax revenue for the government",
+      "b": "A thorough assessment of the ecological value of the forest, potential impacts on biodiversity, and consultation with local communities",
+      "c": "The company's commitment to employing a certain number of local residents",
+      "d": "The speed at which the mining company can begin operations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A national park is facing a decline in the population of a particular herbivore species due to overhunting. What would be the most effective strategy to restore the population?",
+    "options": {
+      "a": "Introducing a new predator species to control the herbivore population",
+      "b": "Implementing a strict ban on hunting, coupled with habitat restoration and monitoring of the herbivore population",
+      "c": "Allowing limited hunting to generate revenue for the national park",
+      "d": "Ignoring the issue as overhunting is a natural form of population control"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A community-managed forest is facing pressure from illegal logging. What would be the most effective way to combat this problem?",
+    "options": {
+      "a": "Granting logging permits to private companies to regulate the activity",
+      "b": "Strengthening community patrolling and monitoring, coupled with legal action against illegal loggers and awareness campaigns",
+      "c": "Converting the community-managed forest into a Reserved Forest under government control",
+      "d": "Ignoring the issue as illegal logging is difficult to prevent"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A researcher discovers a new plant species in a remote forest area. What would be the most important next step from a conservation perspective?",
+    "options": {
+      "a": "Immediately collecting a large number of specimens for scientific study and potential commercial use",
+      "b": "Assessing the species' distribution, population size, potential threats, and ecological role before taking any further action",
+      "c": "Publicizing the discovery to attract funding for further research",
+      "d": "Keeping the discovery secret to prevent exploitation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A city is experiencing increasing air pollution due to vehicular emissions. What would be the most comprehensive approach to address this problem?",
+    "options": {
+      "a": "Building more roads to reduce traffic congestion",
+      "b": "Promoting the use of public transportation, cycling, and walking, coupled with stricter emission standards for vehicles and green spaces development",
+      "c": "Encouraging people to drive more fuel-efficient cars",
+      "d": "Relocating industries to the outskirts of the city"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An area known for its rich biodiversity is being considered for development as a tourist resort. How can the principles of ecotourism be best applied to minimize the negative impacts?",
+    "options": {
+      "a": "Constructing large hotels and infrastructure to accommodate a high volume of tourists.",
+      "b": "Developing low-impact accommodations, promoting local culture, involving local communities, and educating tourists about responsible behavior.",
+      "c": "Clearing large areas of forest to create scenic viewpoints and recreational facilities.",
+      "d": "Introducing non-native species to enhance the aesthetic appeal of the area."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A drought-prone region is facing severe water shortages. What would be the most sustainable long-term solution for water management?",
+    "options": {
+      "a": "Building large dams to store water during the rainy season.",
+      "b": "Implementing a combination of water conservation measures, rainwater harvesting, and promoting drought-resistant crops.",
+      "c": "Extracting groundwater at an increased rate to meet the immediate water demand.",
+      "d": "Diverting water from a neighboring region with abundant water resources."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An indigenous community living in a forested area is facing challenges to their traditional land rights due to a proposed development project. What would be the most appropriate way to address their concerns?",
+    "options": {
+      "a": "Relocating the community to a different area with better economic opportunities.",
+      "b": "Ensuring their free, prior, and informed consent is obtained before proceeding with the project, and recognizing their customary land rights.",
+      "c": "Providing them with financial compensation for the loss of their land.",
+      "d": "Ignoring their concerns as the development project is in the national interest."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A species of migratory bird is experiencing a decline in population due to the loss of stopover habitats along its migration route. What would be the most effective conservation strategy?",
+    "options": {
+      "a": "Establishing captive breeding programs for the species.",
+      "b": "Protecting and restoring key stopover habitats in collaboration with countries along the migration route.",
+      "c": "Providing supplementary food for the birds during their migration.",
+      "d": "Focusing conservation efforts solely on the species' breeding grounds."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A local government is considering implementing a ban on single-use plastics. What would be the most effective way to ensure the success of this policy?",
+    "options": {
+      "a": "Implementing the ban without any public awareness or alternative options.",
+      "b": "Combining the ban with public awareness campaigns, promoting reusable alternatives, and providing support for businesses to transition away from single-use plastics.",
+      "c": "Delaying the ban indefinitely to avoid any economic disruption.",
+      "d": "Focusing solely on recycling as a solution to plastic pollution."
+    },
+    "answer": "b"
+  }
+]

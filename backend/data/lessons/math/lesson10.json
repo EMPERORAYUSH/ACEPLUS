@@ -1,0 +1,453 @@
+[
+  {
+    "question": "Heron's formula is used to find the area of a triangle when we know:",
+    "options": {
+      "a": "Base and height",
+      "b": "Two sides and included angle",
+      "c": "Three sides",
+      "d": "Two angles and a side"
+    },
+    "answer": "c",
+    "id": 50
+  },
+  {
+    "question": "The semi-perimeter of a triangle with sides a, b, and c is given by:",
+    "options": {
+      "a": "a+b+c",
+      "b": "(a+b+c)/2",
+      "c": "2(a+b+c)",
+      "d": "√(a+b+c)"
+    },
+    "answer": "b",
+    "id": 51
+  },
+  {
+    "question": "If the sides of a triangle are 13cm, 14cm and 15cm, the value of 's' is?",
+    "options": {
+      "a": "20cm",
+      "b": "21cm",
+      "c": "22cm",
+      "d": "24cm"
+    },
+    "answer": "b",
+    "id": 52
+  },
+  {
+    "question": "Heron's formula is also known as:",
+    "options": {
+      "a": "Pythagoras theorem",
+      "b": "Hero's formula",
+      "c": "Euclid's formula",
+      "d": "Area formula"
+    },
+    "answer": "b",
+    "id": 53
+  },
+  {
+    "question": "Heron was born in:",
+    "options": {
+      "a": "India",
+      "b": "Greece",
+      "c": "Egypt",
+      "d": "Babylon"
+    },
+    "answer": "b",
+    "id": 54
+  },
+  {
+    "question": "Which of the following is NOT required to calculate the area using Heron's formula?",
+    "options": {
+      "a": "Length of sides",
+      "b": "Semi-perimeter",
+      "c": "Height",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "id": 55
+  },
+  {
+    "question": "The unit of area calculated using Heron's formula is:",
+    "options": {
+      "a": "Units",
+      "b": "Square units",
+      "c": "Cubic units",
+      "d": "Units/2"
+    },
+    "answer": "b",
+    "id": 56
+  },
+  {
+    "question": "If the semi perimeter of a triangle is 's' and sides a, b, and c, which part represents one of the factors in Heron's Formula?",
+    "options": {
+      "a": "s + a",
+      "b": "s x a",
+      "c": "s - a",
+      "d": "s / a"
+    },
+    "answer": "c",
+    "id": 57
+  },
+  {
+    "question": "Which of these is a necessary condition for using Heron's formula?",
+    "options": {
+      "a": "The triangle must be equilateral.",
+      "b": "The height of the triangle must be known.",
+      "c": "The lengths of all three sides must be known.",
+      "d": "The triangle must be a right-angled triangle."
+    },
+    "answer": "c",
+    "id": 58
+  },
+  {
+    "question": "Heron mostly worked in the field of:",
+    "options": {
+      "a": "Pure Mathematics",
+      "b": "Applied Mathematics",
+      "c": "Astronomy",
+      "d": "Philosophy"
+    },
+    "answer": "b",
+    "id": 59
+  },
+  {
+    "question": "The sides of a triangle are 5cm, 12cm and 13cm. Its area is:",
+    "options": {
+      "a": "25 cm²",
+      "b": "30 cm²",
+      "c": "32.5 cm²",
+      "d": "60 cm²"
+    },
+    "answer": "b",
+    "id": 60
+  },
+  {
+    "question": "A triangular plot has sides of 28m, 35m and 50m. The cost of levelling it at ₹5 per m² is:",
+    "options": {
+      "a": "₹2000",
+      "b": "₹2378",
+      "c": "₹2300",
+      "d": "₹1890"
+    },
+    "answer": "b",
+    "id": 61
+  },
+  {
+    "question": "Two sides of a triangle are 8cm and 11cm. If its perimeter is 32cm, find its area.",
+    "options": {
+      "a": "8√30 cm²",
+      "b": "16√30 cm²",
+      "c": "8√15 cm²",
+      "d": "4√30 cm²"
+    },
+    "answer": "a",
+    "id": 62
+  },
+  {
+    "question": "An isosceles triangle has a perimeter of 42cm and equal sides of 15cm each. Its area is:",
+    "options": {
+      "a": "21√11 cm²",
+      "b": "42 cm²",
+      "c": "21√22 cm²",
+      "d": "21 cm²"
+    },
+    "answer": "a",
+    "id": 63
+  },
+  {
+    "question": "Find the area of a triangle whose sides are in the ratio 5:12:13 and perimeter is 60cm.",
+    "options": {
+      "a": "150cm²",
+      "b": "120cm²",
+      "c": "100cm²",
+      "d": "75 cm²"
+    },
+    "answer": "b",
+    "id": 64
+  },
+  {
+    "question": "A triangle has sides 17m, 25m and 26m. Its semi-perimeter is:",
+    "options": {
+      "a": "68 m",
+      "b": "34 m",
+      "c": "85 m",
+      "d": "17 m"
+    },
+    "answer": "b",
+    "id": 65
+  },
+  {
+    "question": "An equilateral triangle has a perimeter of 36 cm. Its area is:",
+    "options": {
+      "a": "36√3 cm²",
+      "b": "18√3 cm²",
+      "c": "12√3 cm²",
+      "d": "27√3 cm²"
+    },
+    "answer": "a",
+    "id": 66
+  },
+  {
+    "question": "The area of a triangle with sides 20cm, 20cm and 10cm is:",
+    "options": {
+      "a": "25√15 cm²",
+      "b": "50√15 cm²",
+      "c": "25√3 cm²",
+      "d": "50√3 cm²"
+    },
+    "answer": "a",
+    "id": 67
+  },
+  {
+    "question": "The lengths of sides of a triangle are consecutive even numbers with perimeter 48cm, the area of triangle is",
+    "options": {
+      "a": "96 sq.cm",
+      "b": "48√5 sq. cm",
+      "c": "48√3 sq. cm",
+      "d": "96√3 sq.cm"
+    },
+    "answer": "b",
+    "id": 68
+  },
+  {
+    "question": "If each side of an equilateral triangle is doubled then its area becomes _______ times.",
+    "options": {
+      "a": "2 times",
+      "b": "3 times",
+      "c": "4 times",
+      "d": "√3 times"
+    },
+    "answer": "c",
+    "id": 69
+  },
+  {
+    "question": "If every side of a triangle is halved then its area becomes ________ times.",
+    "options": {
+      "a": "2 times",
+      "b": "1/2 times",
+      "c": "4 times",
+      "d": "1/4 times"
+    },
+    "answer": "d",
+    "id": 70
+  },
+  {
+    "question": "Find the area of a triangle, two sides of which are 8cm and 11cm and the perimeter is 32cm.",
+    "options": {
+      "a": "8√30 cm²",
+      "b": "8√15 cm²",
+      "c": "4√30 cm²",
+      "d": "16√15 cm²"
+    },
+    "answer": "a",
+    "id": 71
+  },
+  {
+    "question": "The sides of a triangle are 35cm, 54cm and 61cm long. Find its area.",
+    "options": {
+      "a": "900 cm²",
+      "b": "936 cm²",
+      "c": "940 cm²",
+      "d": "956 cm²"
+    },
+    "answer": "c",
+    "id": 72
+  },
+  {
+    "question": "A park is in the shape of a quadrilateral. Three of its sides are 17 m, 18 m, and 20 m. If the area of the quadrilateral park is 540 m² and the length of the diagonal, which also forms a triangle with the given sides, is 26 m. What is the perimeter of the triangle?",
+    "options": {
+      "a": "72",
+      "b": "71",
+      "c": "73",
+      "d": "75"
+    },
+    "answer": "a",
+    "id": 73
+  },
+  {
+    "question": "The area of an isosceles triangle having base 2 cm and the length of one of the equal sides 4 cm is",
+    "options": {
+      "a": "√15 cm²",
+      "b": "2√15 cm²",
+      "c": "√5/2 cm²",
+      "d": "√15/2 cm²"
+    },
+    "answer": "a",
+    "id": 74
+  },
+  {
+    "question": "Assertion: Heron's formula can be used to calculate the area of any triangle.\nReason: Heron's formula requires the lengths of all three sides of the triangle.",
+    "options": {
+      "a": "Both A and R are true, and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a",
+    "id": 75
+  },
+  {
+    "question": "Assertion: The semi-perimeter of a triangle is half of its perimeter.\nReason: Heron's formula uses the semi-perimeter to calculate the area.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a",
+    "id": 76
+  },
+  {
+    "question": "Assertion: Heron's formula is applicable to equilateral triangles.\nReason: All sides of an equilateral triangle are equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b",
+    "id": 77
+  },
+  {
+    "question": "Assertion: If the sides of a triangle are 12cm, 16cm and 20cm, its area is 96cm².\nReason: Heron's formula can be used to find the area of right angled triangles.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b",
+    "id": 78
+  },
+  {
+    "question": "Assertion: A triangle with sides 5cm, 6cm and 7cm has an area of 6√6 cm²\nReason: Heron's formula can be applied to scalene triangles",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "id": 79
+  },
+  {
+    "question": "Assertion: The area of an equilateral triangle with side 'a' can be calculated using Heron's formula.\nReason: The semi-perimeter of an equilateral triangle with side 'a' is 3a/2.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "id": 80
+  },
+  {
+    "question": "Assertion: The area of a triangle with sides 3 cm, 4 cm, and 5 cm is 6 cm².\nReason: Heron's formula can be used to find the area of a right-angled triangle.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b",
+    "id": 81
+  },
+  {
+    "question": "Assertion: The area of a triangle can be calculated if the base and height are known.\nReason: Heron's formula can only be applied if all three sides of the triangle are known.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true."
+    },
+    "answer": "b",
+    "id": 82
+  },
+  {
+    "question": "Assertion (A): The sides of a triangle are 3 cm, 4 cm and 5 cm. Its area is 6 cm².\nReason (R): If a, b, c are the sides of a triangle, then its area = √[s(s - a)(s - b)(s - c)] where s = (a+b+c)/2",
+    "options": {
+      "a": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)",
+      "b": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)",
+      "c": "Assertion (A) is true but reason (R) is false.",
+      "d": "Assertion (A) is false but reason (R) is true."
+    },
+    "answer": "a",
+    "id": 83
+  },
+  {
+    "question": "Assertion (A): The area of triangle with sides 10 cm, 10 cm, and 16 cm is 48 cm²\nReason (R): If perimeter of triangle is 'P' then area = √[p/2(p/2-a)(p/2-b)(p/2-c)] where a,b and c are the lengths of the sides of a triangle",
+    "options": {
+      "a": "Both assertion (A) and reason (R) are true and reason (R) is the correct explanation of assertion (A)",
+      "b": "Both assertion (A) and reason (R) are true but reason (R) is not the correct explanation of assertion (A)",
+      "c": "Assertion (A) is true but reason (R) is false.",
+      "d": "Assertion (A) is false but reason (R) is true."
+    },
+    "answer": "a",
+    "id": 84
+  },
+  {
+    "question": "A triangular park has sides doubled while maintaining its triangular shape. Its new area will be:",
+    "options": {
+      "a": "Double the original area",
+      "b": "Four times the original area",
+      "c": "Half the original area",
+      "d": "One-fourth the original area"
+    },
+    "answer": "b",
+    "id": 85
+  },
+  {
+    "question": "Can you use Heron's formula if you only know the base and height of a triangle?",
+    "options": {
+      "a": "Yes, you can directly apply Heron's formula.",
+      "b": "No, you need to find all three sides first.",
+      "c": "Yes, by calculating the perimeter with base and height.",
+      "d": "No, Heron's formula is only applicable for equilateral triangles."
+    },
+    "answer": "b",
+    "id": 86
+  },
+  {
+    "question": "When is Heron's formula particularly useful for finding the area of a triangle?",
+    "options": {
+      "a": "When the base and height are easily measurable.",
+      "b": "When all three sides are known but the height is not easily determined.",
+      "c": "When the triangle is a right-angled triangle.",
+      "d": "When the triangle is an equilateral triangle."
+    },
+    "answer": "b",
+    "id": 87
+  },
+  {
+    "question": "Two triangles have the same area. Must they have the same perimeter?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Depends on the type of triangle",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "id": 88
+  },
+  {
+    "question": "If two sides of a triangle are fixed, and the third side varies while the perimeter remains constant, when is the area of the triangle maximum?",
+    "options": {
+      "a": "When the third side is the longest.",
+      "b": "When the triangle is isosceles with the two fixed sides as the equal sides.",
+      "c": "When the triangle is a right triangle.",
+      "d": "The area is always the same since the perimeter is constant."
+    },
+    "answer": "b",
+    "id": 89
+  },
+  {
+    "question": "Two triangles are constructed with sides (5, 12, 13) and (6, 8, 10) respectively. Which of the following statements regarding the areas of these triangles is true?",
+    "options": {
+      "a": "Both triangles have equal areas",
+      "b": "The (5,12,13) triangle has a greater area",
+      "c": "The (6,8,10) triangle has a greater area",
+      "d": "The areas cannot be determined without further information."
+    },
+    "answer": "b",
+    "id": 90
+  }
+]

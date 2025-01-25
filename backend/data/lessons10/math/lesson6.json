@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Two figures are said to be similar if they have:",
+    "options": {
+      "a": "Same shape and same size",
+      "b": "Same shape but different sizes",
+      "c": "Different shape and different sizes",
+      "d": "Different shape but same size"
+    },
+    "answer": "b",
+    "id": 1459
+  },
+  {
+    "question": "All _______ triangles are similar.",
+    "options": {
+      "a": "Isosceles",
+      "b": "Scalene",
+      "c": "Equilateral",
+      "d": "Right-angled"
+    },
+    "answer": "c",
+    "id": 1460
+  },
+  {
+    "question": "If two polygons have the same number of sides and their corresponding angles are equal, are they necessarily similar?",
+    "options": {
+      "a": "Yes",
+      "b": "No, corresponding sides must also be proportional.",
+      "c": "Only if they are congruent",
+      "d": "Only if they are quadrilaterals"
+    },
+    "answer": "b",
+    "id": 1461
+  },
+  {
+    "question": "The scale factor for two similar polygons is the ratio of:",
+    "options": {
+      "a": "Corresponding angles",
+      "b": "Corresponding sides",
+      "c": "Areas",
+      "d": "Perimeters"
+    },
+    "answer": "b",
+    "id": 1462
+  },
+  {
+    "question": "If two triangles are congruent, they are also:",
+    "options": {
+      "a": "Similar",
+      "b": "Not similar",
+      "c": "Sometimes similar",
+      "d": "None of these"
+    },
+    "answer": "a",
+    "id": 1463
+  },
+  {
+    "question": "If a line is drawn parallel to one side of a triangle intersecting the other two sides, it divides those sides in the:",
+    "options": {
+      "a": "Same ratio",
+      "b": "Different ratio",
+      "c": "Ratio of 1:2",
+      "d": "Ratio of 2:1"
+    },
+    "answer": "a",
+    "id": 1464
+  },
+  {
+    "question": "If a line divides two sides of a triangle in the same ratio, then the line is ____ to the third side.",
+    "options": {
+      "a": "Parallel",
+      "b": "Perpendicular",
+      "c": "Equal",
+      "d": "Intersecting"
+    },
+    "answer": "a",
+    "id": 1465
+  },
+  {
+    "question": "The SAS similarity criterion involves:",
+    "options": {
+      "a": "Three sides",
+      "b": "Two sides and any angle",
+      "c": "Two sides and the included angle",
+      "d": "Two angles and any side"
+    },
+    "answer": "c",
+    "id": 1467
+  },
+  {
+    "question": "The SSS similarity criterion involves:",
+    "options": {
+      "a": "Three angles",
+      "b": "Three sides",
+      "c": "Two sides and one angle",
+      "d": "Two angles and one side"
+    },
+    "answer": "b",
+    "id": 1468
+  },
+  {
+    "question": "The sides of two similar triangles are in the ratio 2:3. The ratio of their areas is:",
+    "options": {
+      "a": "2:3",
+      "b": "4:9",
+      "c": "3:2",
+      "d": "9:4"
+    },
+    "answer": "b",
+    "id": 1469
+  },
+  {
+    "question": "If the ratio of the areas of two similar triangles is 16:25, the ratio of their corresponding sides is:",
+    "options": {
+      "a": "4:5",
+      "b": "16:25",
+      "c": "5:4",
+      "d": "25:16"
+    },
+    "answer": "a",
+    "id": 1470
+  },
+  {
+    "question": "In triangle ABC, DE is parallel to BC and AD/DB = 3/5. If AC = 4.8 cm, find AE.",
+    "options": {
+      "a": "1.8 cm",
+      "b": "3 cm",
+      "c": "2.88 cm",
+      "d": "1.2 cm"
+    },
+    "answer": "a",
+    "id": 1471
+  },
+  {
+    "question": "In a triangle PQR, ST is parallel to QR. PS = 2 cm, SQ = 3 cm, PT = x cm and TR = 4.5 cm. Find x.",
+    "options": {
+      "a": "3 cm",
+      "b": "2.5 cm",
+      "c": "3.5 cm",
+      "d": "4 cm"
+    },
+    "answer": "a",
+    "id": 1472
+  },
+  {
+    "question": "ABC is a triangle with ∠B = 90°. BD is perpendicular to AC. If AD = 4 cm and CD = 5 cm, find BD.",
+    "options": {
+      "a": "2√5 cm",
+      "b": "3√5 cm",
+      "c": "20 cm",
+      "d": "9 cm"
+    },
+    "answer": "a",
+    "id": 1473
+  },
+  {
+    "question": "Two poles of heights 10 m and 15 m stand vertically on level ground. If the distance between their feet is 12 m, find the distance between their tops.",
+    "options": {
+      "a": "13 m",
+      "b": "12 m",
+      "c": "10 m",
+      "d": "15 m"
+    },
+    "answer": "a",
+    "id": 1474
+  },
+  {
+    "question": "A ladder 17 m long reaches a window 8 m above the ground. Find the distance of the foot of the ladder from the base of the wall.",
+    "options": {
+      "a": "15 m",
+      "b": "9 m",
+      "c": "12 m",
+      "d": "10 m"
+    },
+    "answer": "a",
+    "id": 1475
+  },
+  {
+    "question": "The lengths of the diagonals of a rhombus are 16 cm and 12 cm. Find the side of the rhombus.",
+    "options": {
+      "a": "10 cm",
+      "b": "8 cm",
+      "c": "12 cm",
+      "d": "6 cm"
+    },
+    "answer": "a",
+    "id": 1476
+  },
+  {
+    "question": "If the altitudes of two similar triangles are in the ratio 2:3, the ratio of their areas is:",
+    "options": {
+      "a": "2:3",
+      "b": "3:2",
+      "c": "4:9",
+      "d": "9:4"
+    },
+    "answer": "c",
+    "id": 1477
+  },
+  {
+    "question": "The perimeters of two similar triangles are 25 cm and 15 cm. If one side of the first triangle is 9 cm, the corresponding side of the second triangle is:",
+    "options": {
+      "a": "5.4 cm",
+      "b": "6.2 cm",
+      "c": "4.8 cm",
+      "d": "5 cm"
+    },
+    "answer": "a",
+    "id": 1478
+  },
+  {
+    "question": "A tree casts a shadow 18 m long. At the same time, a pole 6 m high casts a shadow 9 m long. Find the height of the tree.",
+    "options": {
+      "a": "9 m",
+      "b": "12 m",
+      "c": "15 m",
+      "d": "18 m"
+    },
+    "answer": "b",
+    "id": 1479
+  },
+  {
+    "question": "A map is drawn to a scale of 1:200000. If the distance between two cities on the map is 5 cm, the actual distance between the cities is:",
+    "options": {
+      "a": "1 km",
+      "b": "10 km",
+      "c": "100 km",
+      "d": "1000 km"
+    },
+    "answer": "b",
+    "id": 1481
+  },
+  {
+    "question": "A model of a ship is made to a scale of 1:200. If the length of the model is 4 m, the length of the ship is:",
+    "options": {
+      "a": "80 m",
+      "b": "800 m",
+      "c": "400 m",
+      "d": "200 m"
+    },
+    "answer": "b",
+    "id": 1482
+  },
+  {
+    "question": "A vertical stick 12 m long casts a shadow 8 m long on the ground. At the same time, a tower casts a shadow 40 m long on the ground. Find the height of the tower.",
+    "options": {
+      "a": "48 m",
+      "b": "60 m",
+      "c": "56 m",
+      "d": "72 m"
+    },
+    "answer": "b",
+    "id": 1484
+  },
+  {
+    "question": "The height of an equilateral triangle of side 6 cm is:",
+    "options": {
+      "a": "3 cm",
+      "b": "3√3 cm",
+      "c": "6 cm",
+      "d": "6√3 cm"
+    },
+    "answer": "b",
+    "id": 1485
+  },
+  {
+    "question": "The sides of a triangle are 5 cm, 12 cm and 13 cm. Is it a right-angled triangle?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Cannot be determined",
+      "d": "Depends on the angles"
+    },
+    "answer": "a",
+    "id": 1486
+  },
+  {
+    "question": "A man goes 15 m due west and then 8 m due north. How far is he from the starting point?",
+    "options": {
+      "a": "17 m",
+      "b": "23 m",
+      "c": "7 m",
+      "d": "16 m"
+    },
+    "answer": "a",
+    "id": 1487
+  },
+  {
+    "question": "Two similar triangles have areas in the ratio 9:16. If the altitude of the smaller triangle is 6 cm, the altitude of the larger triangle is:",
+    "options": {
+      "a": "8 cm",
+      "b": "9 cm",
+      "c": "10 cm",
+      "d": "12 cm"
+    },
+    "answer": "a",
+    "id": 1490
+  },
+  {
+    "question": "If two triangles are similar, which of the following is NOT necessarily true?",
+    "options": {
+      "a": "Corresponding angles are equal",
+      "b": "Corresponding sides are proportional",
+      "c": "Corresponding medians are proportional",
+      "d": "Corresponding altitudes are proportional to the squares of corresponding sides"
+    },
+    "answer": "d",
+    "id": 1491
+  },
+  {
+    "question": "In triangle ABC, DE is parallel to BC. If AD = 2 cm, DB = 3 cm and AE = 2.4 cm, then EC is:",
+    "options": {
+      "a": "3.6 cm",
+      "b": "1.2 cm",
+      "c": "4.8 cm",
+      "d": "0.8 cm"
+    },
+    "answer": "a",
+    "id": 1492
+  },
+  {
+    "question": "In a right triangle, the square of the hypotenuse is equal to twice the product of the other two sides. One of the acute angles of the triangle is:",
+    "options": {
+      "a": "30°",
+      "b": "45°",
+      "c": "60°",
+      "d": "75°"
+    },
+    "answer": "b",
+    "id": 1493
+  },
+  {
+    "question": "If the sides of a triangle are 3 cm, 4 cm and 6 cm, the triangle is:",
+    "options": {
+      "a": "Acute angled",
+      "b": "Obtuse angled",
+      "c": "Right angled",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "id": 1494
+  },
+  {
+    "question": "If the areas of two similar triangles are equal, the triangles are:",
+    "options": {
+      "a": "Similar",
+      "b": "Congruent",
+      "c": "Equilateral",
+      "d": "Isosceles"
+    },
+    "answer": "b",
+    "id": 1496
+  },
+  {
+    "question": "A triangle with sides 3 cm, 4 cm and 5 cm is similar to a triangle with sides:",
+    "options": {
+      "a": "6 cm, 8 cm and 10 cm",
+      "b": "9 cm, 12 cm and 15 cm",
+      "c": "1.5 cm, 2 cm and 2.5 cm",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1497
+  },
+  {
+    "question": "In a right triangle ABC, right-angled at B, if P and Q are points on the sides AB and AC respectively, such that PQ is parallel to BC, which of the following is always true?",
+    "options": {
+      "a": "AP × AB = AQ × AC",
+      "b": "AP × AC = AQ × AB",
+      "c": "AB² = AP × PB",
+      "d": "AC² = AQ × QC"
+    },
+    "answer": "b",
+    "id": 1498
+  },
+  {
+    "question": "The ratio of the areas of two similar triangles is 4:9. The ratio of their corresponding medians is:",
+    "options": {
+      "a": "2:3",
+      "b": "4:9",
+      "c": "16:81",
+      "d": "3:2"
+    },
+    "answer": "a",
+    "id": 1499
+  },
+  {
+    "question": "In two triangles ABC and PQR, AB/QR = BC/PR = CA/PQ, then:",
+    "options": {
+      "a": "Δ ABC ~ Δ PQR",
+      "b": "Δ ABC ~ Δ QRP",
+      "c": "Δ CBA ~ Δ PQR",
+      "d": "Δ BCA ~ Δ QRP"
+    },
+    "answer": "b",
+    "id": 1500
+  },
+  {
+    "question": "In a triangle ABC, AD is the bisector of ∠BAC, meeting BC at D. If BD = 2 cm and CD = 3 cm, and AB = 4 cm, then AC is:",
+    "options": {
+      "a": "5 cm",
+      "b": "6 cm",
+      "c": "7 cm",
+      "d": "8 cm"
+    },
+    "answer": "b",
+    "id": 1501
+  },
+  {
+    "question": "If the sides of a triangle are in the ratio 3:4:5, the triangle is:",
+    "options": {
+      "a": "Acute-angled",
+      "b": "Obtuse-angled",
+      "c": "Right-angled",
+      "d": "Equilateral"
+    },
+    "answer": "c",
+    "id": 1502
+  },
+  {
+    "question": "The lengths of three sides of a triangle are 6 cm, 8 cm and 10 cm. The area of the triangle is:",
+    "options": {
+      "a": "24 cm²",
+      "b": "30 cm²",
+      "c": "40 cm²",
+      "d": "48 cm²"
+    },
+    "answer": "a",
+    "id": 1504
+  },
+  {
+    "question": "If in two right triangles, one of the acute angles of one triangle is equal to an acute angle of the other triangle, then the two triangles are:",
+    "options": {
+      "a": "Always similar",
+      "b": "Similar only if the hypotenuses are proportional",
+      "c": "Similar only if corresponding sides are proportional",
+      "d": "Not necessarily similar"
+    },
+    "answer": "a",
+    "id": 1505
+  },
+  {
+    "question": "If a line is parallel to a side of a triangle, it divides the other two sides proportionally. This is known as:",
+    "options": {
+      "a": "Basic Proportionality Theorem",
+      "b": "Pythagoras Theorem",
+      "c": "Angle Bisector Theorem",
+      "d": "Converse of Pythagoras Theorem"
+    },
+    "answer": "a",
+    "id": 1506
+  },
+  {
+    "question": "Two isosceles triangles with equal vertical angles are:",
+    "options": {
+      "a": "Always similar",
+      "b": "Similar only if corresponding sides are proportional",
+      "c": "Similar only if the base angles are equal",
+      "d": "Not necessarily similar"
+    },
+    "answer": "a",
+    "id": 1507
+  },
+  {
+    "question": "If the ratio of corresponding sides of two similar triangles is 1:1, then the triangles are:",
+    "options": {
+      "a": "Similar",
+      "b": "Congruent",
+      "c": "Both (a) and (b)",
+      "d": "Neither (a) nor (b)"
+    },
+    "answer": "c",
+    "id": 1508
+  },
+  {
+    "question": "Assertion: All equilateral triangles are similar.\nReason: All equilateral triangles have all angles equal to 60°.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1509
+  },
+  {
+    "question": "Assertion: If two triangles are similar, their areas are always equal.\nReason: Similar triangles have corresponding angles equal.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1510
+  },
+  {
+    "question": "Assertion: The ratio of areas of two similar triangles is equal to the square of the ratio of their corresponding sides.\nReason: The ratio of perimeters of similar triangles is equal to the ratio of their corresponding sides.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "b",
+    "id": 1511
+  },
+  {
+    "question": "Assertion: Two triangles with equal corresponding angles are always similar.\nReason: The sides of such triangles need not be proportional.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1512
+  },
+  {
+    "question": "Assertion: SSA is a valid criterion for similarity of triangles.\nReason: Two triangles having two sides proportional and one angle equal are always similar.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1514
+  }
+]

@@ -1,0 +1,508 @@
+[
+  {
+    "question": "The area drained by a single river system is called a:",
+    "options": {
+      "a": "Water divide",
+      "b": "Drainage basin",
+      "c": "Catchment area",
+      "d": "River delta"
+    },
+    "answer": "b",
+    "id": 832
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of Himalayan rivers?",
+    "options": {
+      "a": "Perennial flow",
+      "b": "Short courses",
+      "c": "Intensive erosional activity",
+      "d": "Formation of meanders and oxbow lakes"
+    },
+    "answer": "b",
+    "id": 833
+  },
+  {
+    "question": "The Indus Water Treaty primarily regulates the sharing of water between:",
+    "options": {
+      "a": "India and Bangladesh",
+      "b": "India and Pakistan",
+      "c": "India and Nepal",
+      "d": "India and China"
+    },
+    "answer": "b",
+    "id": 834
+  },
+  {
+    "question": "The Ganga emerges from the mountains onto the plains at:",
+    "options": {
+      "a": "Devaprayag",
+      "b": "Allahabad",
+      "c": "Haridwar",
+      "d": "Farakka"
+    },
+    "answer": "c",
+    "id": 835
+  },
+  {
+    "question": "The Sunderban delta is formed by the confluence of:",
+    "options": {
+      "a": "Indus and Ganga",
+      "b": "Ganga and Brahmaputra",
+      "c": "Brahmaputra and Yamuna",
+      "d": "Yamuna and Chambal"
+    },
+    "answer": "b",
+    "id": 836
+  },
+  {
+    "question": "The Brahmaputra enters India in the state of:",
+    "options": {
+      "a": "Assam",
+      "b": "Arunachal Pradesh",
+      "c": "West Bengal",
+      "d": "Sikkim"
+    },
+    "answer": "b",
+    "id": 837
+  },
+  {
+    "question": "Which of the following Peninsular rivers flows westward?",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Narmada"
+    },
+    "answer": "d",
+    "id": 838
+  },
+  {
+    "question": "The largest Peninsular river is the:",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Kaveri"
+    },
+    "answer": "a",
+    "id": 839
+  },
+  {
+    "question": "The largest freshwater lake in India is:",
+    "options": {
+      "a": "Wular Lake",
+      "b": "Dal Lake",
+      "c": "Chilika Lake",
+      "d": "Sambhar Lake"
+    },
+    "answer": "a",
+    "id": 840
+  },
+  {
+    "question": "Which of the following is a salt water lake?",
+    "options": {
+      "a": "Wular Lake",
+      "b": "Dal Lake",
+      "c": "Chilika Lake",
+      "d": "Sambhar Lake"
+    },
+    "answer": "d",
+    "id": 841
+  },
+  {
+    "question": "Assertion: Rivers are important for a country's economy. \nReason: Rivers provide resources for irrigation, navigation, and hydropower generation.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 842
+  },
+  {
+    "question": "A drainage pattern where the river channel follows the slope of the terrain, resembling the branches of a tree, is called:",
+    "options": {
+      "a": "Radial",
+      "b": "Trellis",
+      "c": "Rectangular",
+      "d": "Dendritic"
+    },
+    "answer": "d",
+    "id": 843
+  },
+  {
+    "question": "The main water divide in Peninsular India is formed by the:",
+    "options": {
+      "a": "Himalayas",
+      "b": "Aravalli Range",
+      "c": "Western Ghats",
+      "d": "Eastern Ghats"
+    },
+    "answer": "c",
+    "id": 844
+  },
+  {
+    "question": "The river that is known as Tsang Po in Tibet and Jamuna in Bangladesh is the:",
+    "options": {
+      "a": "Indus",
+      "b": "Ganga",
+      "c": "Brahmaputra",
+      "d": "Yamuna"
+    },
+    "answer": "c",
+    "id": 845
+  },
+  {
+    "question": "The river on which the reservoir for the Indira Gandhi Canal has been built is the:",
+    "options": {
+      "a": "Satluj",
+      "b": "Beas",
+      "c": "Ravi",
+      "d": "Chenab"
+    },
+    "answer": "a",
+    "id": 846
+  },
+  {
+    "question": "Fill in the blank: The river _______ rises in the Amarkantak hills and flows towards the west in a rift valley.",
+    "options": {
+      "a": "Tapi",
+      "b": "Narmada",
+      "c": "Mahanadi",
+      "d": "Godavari"
+    },
+    "answer": "b",
+    "id": 847
+  },
+  {
+    "question": "Which of the following rivers is NOT a tributary of the Ganga?",
+    "options": {
+      "a": "Yamuna",
+      "b": "Ghaghara",
+      "c": "Gandak",
+      "d": "Tungabhadra"
+    },
+    "answer": "d",
+    "id": 848
+  },
+  {
+    "question": "The 'Marble Rocks', a picturesque gorge carved by a river, are located near:",
+    "options": {
+      "a": "Jabalpur",
+      "b": "Allahabad",
+      "c": "Haridwar",
+      "d": "Farakka"
+    },
+    "answer": "a",
+    "id": 849
+  },
+  {
+    "question": "The river known as the 'Dakshin Ganga' due to its length and the area it covers is the:",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Kaveri"
+    },
+    "answer": "a",
+    "id": 850
+  },
+  {
+    "question": "The river that rises near Mahabaleshwar and flows for about 1400 km to reach the Bay of Bengal is the:",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Kaveri"
+    },
+    "answer": "b",
+    "id": 851
+  },
+  {
+    "question": "The river that rises in the Brahmagri range of the Western Ghats and flows through Karnataka, Kerala, and Tamil Nadu is the:",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Kaveri"
+    },
+    "answer": "d",
+    "id": 852
+  },
+  {
+    "question": "Assertion: The Brahmaputra carries a smaller volume of water and less silt in its Tibetan part. \nReason: The Tibetan region is cold and dry with less rainfall.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 853
+  },
+  {
+    "question": "Which of the following is NOT a major cause of river pollution?",
+    "options": {
+      "a": "Domestic sewage",
+      "b": "Industrial effluents",
+      "c": "Agricultural runoff",
+      "d": "Excessive fishing"
+    },
+    "answer": "d",
+    "id": 854
+  },
+  {
+    "question": "The National River Conservation Plan (NRCP) primarily aims to:",
+    "options": {
+      "a": "Construct dams for irrigation",
+      "b": "Develop hydropower projects",
+      "c": "Control pollution in rivers",
+      "d": "Promote tourism along riverbanks"
+    },
+    "answer": "c",
+    "id": 855
+  },
+  {
+    "question": "Fill in the blank: The _______ lake in Manipur is the largest freshwater lake in Northeast India.",
+    "options": {
+      "a": "Wular",
+      "b": "Dal",
+      "c": "Loktak",
+      "d": "Chilika"
+    },
+    "answer": "c",
+    "id": 856
+  },
+  {
+    "question": "Which of the following is NOT a benefit of lakes?",
+    "options": {
+      "a": "Regulating river flow",
+      "b": "Preventing floods",
+      "c": "Developing hydel power",
+      "d": "Increasing soil erosion"
+    },
+    "answer": "d",
+    "id": 857
+  },
+  {
+    "question": "The river that flows through a rift valley and is known for the 'Marble Rocks' and 'Dhuadhar Falls' is the:",
+    "options": {
+      "a": "Narmada",
+      "b": "Tapi",
+      "c": "Mahanadi",
+      "d": "Godavari"
+    },
+    "answer": "a",
+    "id": 858
+  },
+  {
+    "question": "The river that rises in the Satpura ranges and flows parallel to the Narmada is the:",
+    "options": {
+      "a": "Narmada",
+      "b": "Tapi",
+      "c": "Mahanadi",
+      "d": "Godavari"
+    },
+    "answer": "b",
+    "id": 859
+  },
+  {
+    "question": "The river that rises in the highlands of Chhattisgarh and flows through Odisha is the:",
+    "options": {
+      "a": "Narmada",
+      "b": "Tapi",
+      "c": "Mahanadi",
+      "d": "Godavari"
+    },
+    "answer": "c",
+    "id": 860
+  },
+  {
+    "question": "The river whose basin is shared by Maharashtra, Karnataka, and Andhra Pradesh is the:",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Kaveri"
+    },
+    "answer": "b",
+    "id": 861
+  },
+  {
+    "question": "The second biggest waterfall in India, Sivasamudram, is formed by the river:",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Kaveri"
+    },
+    "answer": "d",
+    "id": 862
+  },
+  {
+    "question": "Which of the following rivers is NOT a west-flowing river of the Peninsular plateau?",
+    "options": {
+      "a": "Narmada",
+      "b": "Tapi",
+      "c": "Sabarmati",
+      "d": "Mahanadi"
+    },
+    "answer": "d",
+    "id": 863
+  },
+  {
+    "question": "Which of the following is NOT a major tributary of the Indus?",
+    "options": {
+      "a": "Jhelum",
+      "b": "Chenab",
+      "c": "Ravi",
+      "d": "Betwa"
+    },
+    "answer": "d",
+    "id": 864
+  },
+  {
+    "question": "The confluence of the Bhagirathi and Alaknanda rivers, forming the Ganga, takes place at:",
+    "options": {
+      "a": "Haridwar",
+      "b": "Allahabad",
+      "c": "Devaprayag",
+      "d": "Rishikesh"
+    },
+    "answer": "c",
+    "id": 865
+  },
+  {
+    "question": "The river that originates from the Yamunotri Glacier in the Himalayas and flows parallel to the Ganga is the:",
+    "options": {
+      "a": "Yamuna",
+      "b": "Ghaghara",
+      "c": "Gandak",
+      "d": "Kosi"
+    },
+    "answer": "a",
+    "id": 866
+  },
+  {
+    "question": "The longest river in the world is the:",
+    "options": {
+      "a": "Nile",
+      "b": "Amazon",
+      "c": "Yangtze",
+      "d": "Mississippi"
+    },
+    "answer": "a",
+    "id": 867
+  },
+  {
+    "question": "The river that forms a delta known for its mangrove forests and Royal Bengal tigers is the:",
+    "options": {
+      "a": "Indus",
+      "b": "Ganga",
+      "c": "Brahmaputra",
+      "d": "Godavari"
+    },
+    "answer": "c",
+    "id": 868
+  },
+  {
+    "question": "The Hirakud Dam is built on the river:",
+    "options": {
+      "a": "Mahanadi",
+      "b": "Godavari",
+      "c": "Krishna",
+      "d": "Kaveri"
+    },
+    "answer": "a",
+    "id": 869
+  },
+  {
+    "question": "The Nagarjuna Sagar Dam is built on the river:",
+    "options": {
+      "a": "Mahanadi",
+      "b": "Godavari",
+      "c": "Krishna",
+      "d": "Kaveri"
+    },
+    "answer": "c",
+    "id": 870
+  },
+  {
+    "question": "The Bhakra Nangal Dam is built on the river:",
+    "options": {
+      "a": "Indus",
+      "b": "Satluj",
+      "c": "Beas",
+      "d": "Ravi"
+    },
+    "answer": "b",
+    "id": 871
+  },
+  {
+    "question": "The Tehri Dam is built on the river:",
+    "options": {
+      "a": "Ganga",
+      "b": "Yamuna",
+      "c": "Bhagirathi",
+      "d": "Alaknanda"
+    },
+    "answer": "c",
+    "id": 872
+  },
+  {
+    "question": "The Sardar Sarovar Dam is built on the river:",
+    "options": {
+      "a": "Narmada",
+      "b": "Tapi",
+      "c": "Mahanadi",
+      "d": "Godavari"
+    },
+    "answer": "a",
+    "id": 873
+  },
+  {
+    "question": "The Mettur Dam is built on the river:",
+    "options": {
+      "a": "Godavari",
+      "b": "Krishna",
+      "c": "Mahanadi",
+      "d": "Kaveri"
+    },
+    "answer": "d",
+    "id": 874
+  },
+  {
+    "question": "Case Study: \nA village located in the delta region of a major river experiences frequent floods during the monsoon season. The floods cause damage to crops, houses, and infrastructure. The villagers rely heavily on agriculture for their livelihood. \n \nWhich of the following is NOT a likely consequence of the frequent floods?",
+    "options": {
+      "a": "Loss of agricultural productivity",
+      "b": "Displacement of people from their homes",
+      "c": "Increased soil fertility due to deposition of silt",
+      "d": "Spread of waterborne diseases"
+    },
+    "answer": "c",
+    "id": 875
+  },
+  {
+    "question": "Case Study: \nA city located on the banks of a river faces severe water pollution due to discharge of untreated sewage and industrial effluents. The river water is no longer suitable for drinking or even for bathing. The city's population is growing rapidly, putting further strain on the river's resources.\n\nWhich of the following is the most sustainable solution to address the city's water pollution problem?",
+    "options": {
+      "a": "Relocate industries away from the river",
+      "b": "Treat sewage and industrial effluents before discharging them into the river",
+      "c": "Restrict the city's population growth",
+      "d": "Import water from other sources"
+    },
+    "answer": "b",
+    "id": 876
+  },
+  {
+    "question": "Two Sentence MCQ: \nStatement 1: The Himalayas are a major source of rivers in India.\nStatement 2: The Peninsular rivers are mostly seasonal and depend on rainfall for their flow.\n\nWhich of the following options is correct?",
+    "options": {
+      "a": "Both statements are true and statement 2 is a correct explanation of statement 1.",
+      "b": "Both statements are true but statement 2 is not a correct explanation of statement 1.",
+      "c": "Statement 1 is true and statement 2 is false.",
+      "d": "Statement 1 is false and statement 2 is true."
+    },
+    "answer": "b",
+    "id": 877
+  }
+]

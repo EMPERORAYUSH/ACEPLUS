@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which of these is NOT a congruence criterion?",
+    "options": {
+      "a": "SAS",
+      "b": "ASA",
+      "c": "AAA",
+      "d": "SSS"
+    },
+    "answer": "c",
+    "id": 226
+  },
+  {
+    "question": "CPCT stands for:",
+    "options": {
+      "a": "Corresponding Parts of Congruent Triangles",
+      "b": "Congruent Parts of Corresponding Triangles",
+      "c": "Corresponding Parts of Congruent Trapeziums",
+      "d": "Congruent Pairs of Corresponding Triangles"
+    },
+    "answer": "a",
+    "id": 227
+  },
+  {
+    "question": "In ≅ ∆s, corresponding angles are:",
+    "options": {
+      "a": "equal",
+      "b": "supplementary",
+      "c": "complementary",
+      "d": "unequal"
+    },
+    "answer": "a",
+    "id": 228
+  },
+  {
+    "question": "If ∆ABC ≅ ∆PQR, then BC corresponds to:",
+    "options": {
+      "a": "PQ",
+      "b": "QR",
+      "c": "PR",
+      "d": "None"
+    },
+    "answer": "b",
+    "id": 229
+  },
+  {
+    "question": "The RHS criterion applies to:",
+    "options": {
+      "a": "all ∆s",
+      "b": "isosceles ∆s",
+      "c": "right ∆s",
+      "d": "equilateral ∆s"
+    },
+    "answer": "c",
+    "id": 230
+  },
+  {
+    "question": "Which criterion requires two sides and an included angle?",
+    "options": {
+      "a": "SSS",
+      "b": "SAS",
+      "c": "ASA",
+      "d": "RHS"
+    },
+    "answer": "b",
+    "id": 231
+  },
+  {
+    "question": "Which criterion requires all three sides of the triangle to be congruent?",
+    "options": {
+      "a": "SAS",
+      "b": "SSS",
+      "c": "RHS",
+      "d": "ASA"
+    },
+    "answer": "b",
+    "id": 232
+  },
+  {
+    "question": "If two triangles are congruent, their corresponding altitudes are:",
+    "options": {
+      "a": "congruent",
+      "b": "similar",
+      "c": "unequal",
+      "d": "parallel"
+    },
+    "answer": "a",
+    "id": 233
+  },
+  {
+    "question": "If two triangles are congruent, are their perimeters equal?",
+    "options": {
+      "a": "Always",
+      "b": "Sometimes",
+      "c": "Never",
+      "d": "Cannot determine"
+    },
+    "answer": "a",
+    "id": 234
+  },
+  {
+    "question": "Two congruent triangles are also:",
+    "options": {
+      "a": "similar",
+      "b": "equal in area",
+      "c": "Both",
+      "d": "Neither"
+    },
+    "answer": "c",
+    "id": 235
+  },
+  {
+    "question": "∆ABC has AB=5, BC=7, ∠B=60°. ∆DEF has DE=5, EF=7, ∠E=60°. Are they congruent?",
+    "options": {
+      "a": "Yes, SAS",
+      "b": "No",
+      "c": "Yes, ASA",
+      "d": "Yes, SSS"
+    },
+    "answer": "a",
+    "id": 236
+  },
+  {
+    "question": "If ∆XYZ ≅ ∆RST, XY=8, YZ=6, XZ=10, find RT.",
+    "options": {
+      "a": "6",
+      "b": "8",
+      "c": "10",
+      "d": "None"
+    },
+    "answer": "c",
+    "id": 237
+  },
+  {
+    "question": "In ∆ABC, AB=AC, ∠B=50°. Find ∠C.",
+    "options": {
+      "a": "50°",
+      "b": "80°",
+      "c": "60°",
+      "d": "70°"
+    },
+    "answer": "a",
+    "id": 238
+  },
+  {
+    "question": "∆PQR has PQ=5, QR=5, PR=8. Is it congruent to ∆LMN with LM=8, MN=5, LN=5?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Maybe",
+      "d": "Not enough info"
+    },
+    "answer": "a",
+    "id": 239
+  },
+  {
+    "question": "If two sides of a ∆ are 6 and 8, the third side CANNOT be:",
+    "options": {
+      "a": "10",
+      "b": "13",
+      "c": "2",
+      "d": "7"
+    },
+    "answer": "b",
+    "id": 240
+  },
+  {
+    "question": "In ∆ABC, AD bisects ∠A and AD⊥BC. Then ∆ABC is:",
+    "options": {
+      "a": "equilateral",
+      "b": "scalene",
+      "c": "isosceles",
+      "d": "right-angled"
+    },
+    "answer": "c",
+    "id": 241
+  },
+  {
+    "question": "In ∆PQR, PQ = PR. QS bisects ∠Q and meets PR at S. If PS=4, then PR:",
+    "options": {
+      "a": "4",
+      "b": "8",
+      "c": "2",
+      "d": "1"
+    },
+    "answer": "b",
+    "id": 242
+  },
+  {
+    "question": "Two sides of a triangle are 5cm and 9cm. The third side's length must be between:",
+    "options": {
+      "a": "4 and 14",
+      "b": "0 and 14",
+      "c": "Greater than 4",
+      "d": "Less than 14"
+    },
+    "answer": "a",
+    "id": 243
+  },
+  {
+    "question": "If two angles of a triangle are 40° and 70°, the third angle is:",
+    "options": {
+      "a": "70°",
+      "b": "40°",
+      "c": "90°",
+      "d": "None"
+    },
+    "answer": "a",
+    "id": 244
+  },
+  {
+    "question": "The sides of a triangle are 5, 12, and 13. Is it a right triangle?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Maybe",
+      "d": "Insufficient info"
+    },
+    "answer": "a",
+    "id": 245
+  },
+  {
+    "question": "A ladder 17ft long leans against a wall, its base 8ft from the wall. How high does it reach?",
+    "options": {
+      "a": "12ft",
+      "b": "15ft",
+      "c": "17ft",
+      "d": "20ft"
+    },
+    "answer": "b",
+    "id": 246
+  },
+  {
+    "question": "Two sides of a triangle are 7 and 10. Can the third side be 20?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Sometimes",
+      "d": "Not enough info"
+    },
+    "answer": "b",
+    "id": 247
+  },
+  {
+    "question": "In an isosceles triangle with equal sides of 8cm and a base of 6cm, the altitude to the base is:",
+    "options": {
+      "a": "6cm",
+      "b": "8cm",
+      "c": "less than 8cm",
+      "d": "cannot be determined"
+    },
+    "answer": "c",
+    "id": 248
+  },
+  {
+    "question": "If two angles of a triangle are 30° and 60°, what type of triangle is it?",
+    "options": {
+      "a": "Acute",
+      "b": "Obtuse",
+      "c": "Right",
+      "d": "Cannot determine"
+    },
+    "answer": "c",
+    "id": 249
+  },
+  {
+    "question": "If two sides of a triangle are 3 and 4, and the included angle is 60°, another triangle with sides 3 and 4 and a *non-included* angle of 60°:",
+    "options": {
+      "a": "Must be congruent",
+      "b": "Cannot be congruent",
+      "c": "Might be congruent",
+      "d": "Not enough information"
+    },
+    "answer": "c",
+    "id": 250
+  },
+  {
+    "question": "Assertion: If two triangles have the same area, they are congruent.",
+    "options": {
+      "a": "Both A and R are true, and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d",
+    "id": 251
+  },
+  {
+    "question": "Assertion: In an isosceles triangle, the altitude to the base bisects the base.",
+    "options": {
+      "a": "Both A and R are true, and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a",
+    "id": 252
+  },
+  {
+    "question": "Assertion: If two triangles have two sides and a non-included angle equal, they are congruent.",
+    "options": {
+      "a": "Both A and R are true, and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d",
+    "id": 253
+  },
+  {
+    "question": "Assertion: Two right-angled triangles are congruent if their hypotenuses and one leg are equal.",
+    "options": {
+      "a": "Both A and R are true, and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c",
+    "id": 254
+  },
+  {
+    "question": "Assertion: If two triangles have all three angles equal, they are congruent.",
+    "options": {
+      "a": "Both A and R are true, and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d",
+    "id": 255
+  },
+  {
+    "question": "A bridge is supported by congruent triangular structures. If one triangle has sides 5m, 5m, and 6m, what type of triangle is it?",
+    "options": {
+      "a": "Equilateral",
+      "b": "Scalene",
+      "c": "Isosceles",
+      "d": "Right-angled"
+    },
+    "answer": "c",
+    "id": 256
+  },
+  {
+    "question": "A designer wants to create identical tiles in the shape of triangles. Which congruence criterion should the designer ensure for all the tiles?",
+    "options": {
+      "a": "Just equal angles",
+      "b": "One equal side",
+      "c": "SAS, ASA, or SSS",
+      "d": "None of these"
+    },
+    "answer": "c",
+    "id": 257
+  },
+  {
+    "question": "A carpenter needs to cut two congruent triangular pieces of wood. Which tool would be MOST useful for ensuring the angles are equal?",
+    "options": {
+      "a": "Ruler",
+      "b": "Protractor",
+      "c": "Compass",
+      "d": "Measuring Tape"
+    },
+    "answer": "b",
+    "id": 258
+  },
+  {
+    "question": "Two triangular sails are congruent. If one has angles of 30°, 60°, and 90°, what type of triangle is the other sail?",
+    "options": {
+      "a": "Acute",
+      "b": "Obtuse",
+      "c": "Right-angled",
+      "d": "Isosceles"
+    },
+    "answer": "c",
+    "id": 259
+  },
+  {
+    "question": "A triangular piece of fabric is to be sewn onto a rectangular quilt. If two sides of the triangle are 4 inches and 6 inches, and the included angle is 45 degrees, can another triangular piece with sides 4 inches and 6 inches and a non-included angle of 45 degrees be congruent?",
+    "options": {
+      "a": "Yes, always",
+      "b": "No, never",
+      "c": "Sometimes",
+      "d": "Depends on the other angles"
+    },
+    "answer": "c",
+    "id": 260
+  },
+  {
+    "question": "A surveyor is mapping a triangular plot of land. If two sides of the plot are 100m and 150m, and the included angle is 60°, can another triangular plot with sides 100m and 150m and a non-included angle of 60° be congruent to the first plot?",
+    "options": {
+      "a": "Yes, always",
+      "b": "No, never",
+      "c": "Sometimes",
+      "d": "Depends on the type of land"
+    },
+    "answer": "c",
+    "id": 261
+  },
+  {
+    "question": "An architect is designing a roof in the shape of an isosceles triangle. If two sides of the roof are 12ft long, and the angle between them is 40°, what is the length of the base of the triangle?",
+    "options": {
+      "a": "12ft",
+      "b": "Cannot be determined",
+      "c": "Less than 12ft",
+      "d": "Greater than 12ft"
+    },
+    "answer": "c",
+    "id": 262
+  },
+  {
+    "question": "A boat is sailing from point A to point B across a lake. If the boat sails 5km due east and then 3km due north, what is the shortest distance between points A and B?",
+    "options": {
+      "a": "8km",
+      "b": "4km",
+      "c": "5.83km",
+      "d": "Cannot be determined"
+    },
+    "answer": "c",
+    "id": 263
+  },
+  {
+    "question": "A gardener is planting a triangular flower bed. If two sides of the flower bed are 4ft and 7ft long, and the included angle is 30°, can another triangular flower bed with sides 4ft and 7ft and a non-included angle of 30° be congruent to the first?",
+    "options": {
+      "a": "Yes, always",
+      "b": "No, never",
+      "c": "Sometimes",
+      "d": "Depends on the type of flowers"
+    },
+    "answer": "c",
+    "id": 264
+  },
+  {
+    "question": "A flagpole is supported by two wires that form congruent triangles with the ground. If one wire is 10m long and makes a 45° angle with the ground, and the other wire is also 10m long, what angle must it make with the ground for the triangles to be congruent?",
+    "options": {
+      "a": "30°",
+      "b": "45°",
+      "c": "60°",
+      "d": "90°"
+    },
+    "answer": "b",
+    "id": 265
+  },
+  {
+    "question": "Two triangles are congruent by ASA. Can they also be congruent by SAS?",
+    "options": {
+      "a": "Always",
+      "b": "Never",
+      "c": "Sometimes",
+      "d": "Not enough info"
+    },
+    "answer": "c",
+    "id": 266
+  },
+  {
+    "question": "Can two scalene ∆s be congruent?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only if right ∆s",
+      "d": "Only if obtuse ∆s"
+    },
+    "answer": "a",
+    "id": 267
+  },
+  {
+    "question": "If ∆ABC ≅ ∆DEF and ∆DEF ≅ ∆GHI, then ∆ABC and ∆GHI are:",
+    "options": {
+      "a": "Similar",
+      "b": "Congruent",
+      "c": "Equal in area",
+      "d": "All the above"
+    },
+    "answer": "b",
+    "id": 268
+  },
+  {
+    "question": "Are two triangles congruent if two angles and a non-included side of one are equal to the corresponding parts of the other?",
+    "options": {
+      "a": "Always",
+      "b": "Never",
+      "c": "Sometimes",
+      "d": "Only in right triangles"
+    },
+    "answer": "a",
+    "id": 269
+  },
+  {
+    "question": "Are two triangles congruent if two sides and a non-included angle of one triangle are congruent to two sides and the corresponding non-included angle of the other?",
+    "options": {
+      "a": "Always",
+      "b": "Never",
+      "c": "Sometimes",
+      "d": "Only for right triangles"
+    },
+    "answer": "c",
+    "id": 270
+  },
+  {
+    "question": "If ∆ABC is isosceles with AB=AC, and D is any point on BC, must AD be perpendicular to BC?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only if D is the midpoint",
+      "d": "Depends on the angle at A"
+    },
+    "answer": "c",
+    "id": 271
+  },
+  {
+    "question": "Can an isosceles ∆ be a right ∆?",
+    "options": {
+      "a": "Yes",
+      "b": "No",
+      "c": "Only if equilateral",
+      "d": "Never"
+    },
+    "answer": "a",
+    "id": 272
+  },
+  {
+    "question": "Two triangles with all angles equal are always:",
+    "options": {
+      "a": "Congruent",
+      "b": "Similar",
+      "c": "Equal in area",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "id": 273
+  },
+  {
+    "question": "Which congruence rule can NEVER prove two triangles are NOT congruent?",
+    "options": {
+      "a": "SAS",
+      "b": "ASA",
+      "c": "SSS",
+      "d": "AAA"
+    },
+    "answer": "d",
+    "id": 274
+  },
+  {
+    "question": "If a triangle has sides 3, 4, and 5, and another triangle has sides 5, 12, and 13, are they congruent?",
+    "options": {
+      "a": "Yes, both are right triangles",
+      "b": "No",
+      "c": "Yes, by SSS",
+      "d": "Not enough information"
+    },
+    "answer": "b",
+    "id": 275
+  }
+]

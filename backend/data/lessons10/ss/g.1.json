@@ -1,0 +1,482 @@
+[
+  {
+    "question": "What is the term for everything available in our environment which can be used to satisfy our needs, provided it is technologically accessible, economically feasible, and culturally acceptable?",
+    "options": {
+      "a": "Commodity",
+      "b": "Resource",
+      "c": "Asset",
+      "d": "Utility"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a basis for classifying resources?",
+    "options": {
+      "a": "Origin",
+      "b": "Exhaustibility",
+      "c": "Demand",
+      "d": "Ownership"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which type of resource is coal and petroleum?",
+    "options": {
+      "a": "Renewable",
+      "b": "Non-Recyclable",
+      "c": "Biotic",
+      "d": "Continuous"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a renewable resource?",
+    "options": {
+      "a": "Fossil Fuels",
+      "b": "Metals",
+      "c": "Wind Energy",
+      "d": "Minerals"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What does sustainable development mean?",
+    "options": {
+      "a": "Development without damaging the environment",
+      "b": "Development that compromises the needs of future generations",
+      "c": "Development that stops all usage of resources",
+      "d": "Development that ignores environmental concerns"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "In which year was the Rio de Janeiro Earth Summit held?",
+    "options": {
+      "a": "1982",
+      "b": "1992",
+      "c": "2002",
+      "d": "2012"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which international document outlined 'Agenda 21'?",
+    "options": {
+      "a": "Kyoto Protocol",
+      "b": "Montreal Protocol",
+      "c": "Rio Declaration",
+      "d": "Paris Agreement"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which state in India is rich in minerals and coal deposits but lacks adequate infrastructure?",
+    "options": {
+      "a": "Rajasthan",
+      "b": "Jharkhand",
+      "c": "Arunachal Pradesh",
+      "d": "Madhya Pradesh"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the approximate percentage of plain area in India's total land area?",
+    "options": {
+      "a": "27%",
+      "b": "30%",
+      "c": "43%",
+      "d": "54%"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which soil type is also known as 'Regur' soil?",
+    "options": {
+      "a": "Alluvial Soil",
+      "b": "Black Soil",
+      "c": "Red Soil",
+      "d": "Laterite Soil"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which soil type is ideal for growing cotton?",
+    "options": {
+      "a": "Red Soil",
+      "b": "Laterite Soil",
+      "c": "Black Soil",
+      "d": "Arid Soil"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which soil is formed by intense leaching due to heavy rainfall?",
+    "options": {
+      "a": "Black Soil",
+      "b": "Red Soil",
+      "c": "Alluvial Soil",
+      "d": "Laterite Soil"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following is NOT a method of soil conservation?",
+    "options": {
+      "a": "Strip Cropping",
+      "b": "Shelter Belts",
+      "c": "Deforestation",
+      "d": "Contour Ploughing"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The running water cuts through the clayey soils and makes deep channels. What are these channels called?",
+    "options": {
+      "a": "Ravines",
+      "b": "Gullies",
+      "c": "Valleys",
+      "d": "Canyons"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Resources are a function of human activities. Human beings themselves are essential components of resources. They transform material available in our environment into resources and use them.\n        Which of these best describes the above statement?",
+    "options": {
+      "a": "Resources are naturally occurring and do not require human intervention",
+      "b": "Human beings are solely responsible for resource depletion",
+      "c": "Human beings play a crucial role in transforming materials into usable resources",
+      "d": "Resources are unlimited and do not require management"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The process of transformation of things available in our environment involves an interactive relationship between nature, technology, and institutions. Human beings interact with nature through technology and create institutions to accelerate their economic development.\n        What is the primary role of institutions in resource development?",
+    "options": {
+      "a": "To hinder technological advancements",
+      "b": "To exploit natural resources indiscriminately",
+      "c": "To accelerate economic development through resource utilization",
+      "d": "To preserve nature in its pristine form"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Resource planning is a complex process which involves identification and inventory of resources across the regions of the country. This involves surveying, mapping, and qualitative and quantitative estimation and measurement of the resources.\n        What is the primary purpose of resource planning?",
+    "options": {
+      "a": "To deplete resources at a faster rate",
+      "b": "To ensure judicious use of resources",
+      "c": "To accumulate resources in a few hands",
+      "d": "To create an imbalance in resource distribution"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Indiscriminate exploitation of resources has led to global ecological crises such as global warming, ozone layer depletion, environmental pollution, and land degradation.\n        Which of the following is the most direct consequence of indiscriminate resource exploitation?",
+    "options": {
+      "a": "Equitable distribution of resources",
+      "b": "Enhanced economic growth",
+      "c": "Global ecological crises",
+      "d": "Sustainable development"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Sustainable economic development means development should take place without damaging the environment, and development in the present should not compromise with the needs of the future generations.\n        Which principle is central to the concept of sustainable development?",
+    "options": {
+      "a": "Rapid economic growth at all costs",
+      "b": "Meeting present needs without compromising future needs",
+      "c": "Exploiting resources for maximum immediate benefit",
+      "d": "Ignoring environmental concerns for economic progress"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Agenda 21 is a declaration signed by world leaders in 1992 at the United Nations Conference on Environment and Development (UNCED). It aims at achieving global sustainable development.\n        What is the primary objective of Agenda 21?",
+    "options": {
+      "a": "To promote unsustainable practices",
+      "b": "To achieve global sustainable development",
+      "c": "To encourage resource depletion",
+      "d": "To widen the gap between rich and poor nations"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "India has made concerted efforts for achieving the goals of resource planning right from the First Five Year Plan launched after Independence.\n        What was the primary focus of India's initial resource planning efforts?",
+    "options": {
+      "a": "To prioritize resource exploitation over conservation",
+      "b": "To achieve self-sufficiency and balanced development",
+      "c": "To depend on foreign aid for resource management",
+      "d": "To promote rapid industrialization without resource planning"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The land under permanent pasture has also decreased. Most of the other than the current fallow lands are either of poor quality or the cost of cultivation of such land is very high.\n        What is a likely consequence of the decrease in land under permanent pasture?",
+    "options": {
+      "a": "Increased availability of land for agriculture",
+      "b": "Reduced pressure on existing grazing lands",
+      "c": "Challenges for livestock rearing and potential land degradation",
+      "d": "Improved soil fertility and reduced cultivation costs"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Forest area in the country is far lower than the desired 33 percent of the geographical area, as it was outlined in the National Forest Policy (1952). It was considered essential for the maintenance of the ecological balance.\n        What is the primary reason for maintaining the desired forest cover?",
+    "options": {
+      "a": "To increase timber production",
+      "b": "To create more land for agriculture",
+      "c": "To maintain ecological balance",
+      "d": "To promote urbanization"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Continuous use of land over a long period of time without taking appropriate measures to conserve and manage it has resulted in land degradation.\n        What is the primary outcome of continuous land use without conservation?",
+    "options": {
+      "a": "Increased land productivity",
+      "b": "Improved soil fertility",
+      "c": "Land degradation",
+      "d": "Sustainable land management"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Mining sites are abandoned after excavation work is complete, leaving deep scars and traces of over-burdening. In several states, deforestation due to mining has caused severe land degradation.\n        What is a major environmental impact of mining activities?",
+    "options": {
+      "a": "Afforestation",
+      "b": "Land degradation",
+      "c": "Soil enrichment",
+      "d": "Increased biodiversity"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Alluvial soil is the most widely spread and important soil. In fact, the entire northern plains are made of alluvial soil. These have been deposited by three important Himalayan river systems - the Indus, the Ganga, and the Brahmaputra.\n        What is the primary source of alluvial soil in the northern plains of India?",
+    "options": {
+      "a": "Weathering of rocks",
+      "b": "Volcanic eruptions",
+      "c": "Deposition by Himalayan rivers",
+      "d": "Deforestation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Black soils are made up of extremely fine, i.e., clayey material. They are well-known for their capacity to hold moisture. In addition, they are rich in soil nutrients, such as calcium carbonate, magnesium, potash, and lime.\n        What characteristic of black soil makes it suitable for agriculture?",
+    "options": {
+      "a": "Low moisture retention capacity",
+      "b": "High sand content",
+      "c": "High moisture retention capacity",
+      "d": "Low nutrient content"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Laterite has been derived from the Latin word 'later' which means brick. The laterite soil develops under tropical and subtropical climates with alternate wet and dry seasons. This soil is the result of intense leaching due to heavy rain.\n        Under which climatic conditions does laterite soil typically develop?",
+    "options": {
+      "a": "Arid and semi-arid climates",
+      "b": "Temperate climates with low rainfall",
+      "c": "Tropical and subtropical climates with alternate wet and dry seasons",
+      "d": "Cold climates with high snowfall"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a region has abundant water resources but lacks the infrastructure for its efficient utilization, which resource classification principle is most applicable here?",
+    "options": {
+      "a": "Origin",
+      "b": "Exhaustibility",
+      "c": "Status of Development",
+      "d": "Ownership"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer wants to practice sustainable agriculture. Which of the following methods should he prioritize?",
+    "options": {
+      "a": "Excessive use of chemical fertilizers",
+      "b": "Monoculture farming",
+      "c": "Crop rotation and organic farming",
+      "d": "Over-irrigation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a country is facing severe land degradation due to overgrazing, which conservation measure would be most effective?",
+    "options": {
+      "a": "Promoting deforestation",
+      "b": "Implementing controlled grazing and afforestation",
+      "c": "Increasing mining activities",
+      "d": "Encouraging urbanization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A region is experiencing rapid industrial growth, leading to increased pollution. What strategy should the local government adopt to ensure sustainable development?",
+    "options": {
+      "a": "Ignore environmental concerns to boost economic growth",
+      "b": "Implement strict environmental regulations and promote green technologies",
+      "c": "Encourage further industrial expansion without any restrictions",
+      "d": "Relocate the polluting industries to other regions"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a coastal area, over-extraction of groundwater is leading to saltwater intrusion. Which resource management principle is most relevant here?",
+    "options": {
+      "a": "Exhaustibility",
+      "b": "Origin",
+      "c": "Ownership",
+      "d": "Status of Development"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A community wants to improve its local environment. Which of the following actions aligns with the principles of Agenda 21?",
+    "options": {
+      "a": "Clearing forests for development projects",
+      "b": "Promoting local participation in environmental conservation",
+      "c": "Increasing the use of non-renewable resources",
+      "d": "Ignoring waste management practices"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A state government is planning to develop a new industrial zone. What should be a key consideration to ensure sustainable development?",
+    "options": {
+      "a": "Prioritizing economic benefits over environmental impacts",
+      "b": "Conducting environmental impact assessments and implementing mitigation measures",
+      "c": "Ignoring local community concerns to expedite project completion",
+      "d": "Focusing solely on attracting foreign investments"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A region is rich in mineral resources but is economically backward. What is the most likely reason for this situation?",
+    "options": {
+      "a": "Lack of demand for the minerals",
+      "b": "Lack of technology and institutions for resource extraction and utilization",
+      "c": "Overexploitation of the mineral resources",
+      "d": "Equitable distribution of resource benefits"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A country is experiencing rapid population growth. What resource management strategy should it adopt to ensure long-term sustainability?",
+    "options": {
+      "a": "Promote overconsumption of resources",
+      "b": "Invest in education, technology, and sustainable resource use practices",
+      "c": "Ignore the environmental consequences of population growth",
+      "d": "Encourage rapid depletion of natural resources"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A hilly area is prone to soil erosion. Which agricultural practice would be most suitable for this region?",
+    "options": {
+      "a": "Intensive ploughing",
+      "b": "Terrace farming",
+      "c": "Monoculture farming",
+      "d": "Overgrazing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the classification of resources essential for their effective management?",
+    "options": {
+      "a": "Classification helps in understanding the origin and usage of resources.",
+      "b": "Classification is irrelevant to resource management.",
+      "c": "Classification leads to resource depletion.",
+      "d": "Classification increases the demand for resources."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "How does technological development influence the utilization of resources?",
+    "options": {
+      "a": "Technology has no impact on resource utilization",
+      "b": "Technology can both enhance and hinder sustainable resource utilization",
+      "c": "Technology always leads to resource depletion",
+      "d": "Technology only benefits developed countries"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is equitable distribution of resources considered crucial for global peace and sustainable development?",
+    "options": {
+      "a": "Equitable distribution leads to resource scarcity",
+      "b": "Equitable distribution reduces conflicts and promotes cooperation",
+      "c": "Equitable distribution is detrimental to economic growth",
+      "d": "Equitable distribution is irrelevant to global peace"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the most significant challenge in implementing Agenda 21 at the local level?",
+    "options": {
+      "a": "Lack of awareness and participation among local communities",
+      "b": "Overemphasis on environmental protection",
+      "c": "Excessive funding for sustainable development projects",
+      "d": "Lack of international cooperation"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "How can resource planning contribute to mitigating the effects of climate change?",
+    "options": {
+      "a": "By promoting the use of fossil fuels",
+      "b": "By encouraging deforestation",
+      "c": "By promoting sustainable resource use and reducing greenhouse gas emissions",
+      "d": "By ignoring the impacts of climate change"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is it important to consider the needs of future generations in resource management?",
+    "options": {
+      "a": "Future generations have no claim on resources",
+      "b": "Present needs are more important than future needs",
+      "c": "Sustainable resource use ensures resources are available for future generations",
+      "d": "Future generations can develop technologies to overcome resource scarcity"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How does over-utilization of resources contribute to socio-economic problems?",
+    "options": {
+      "a": "Over-utilization leads to equitable resource distribution",
+      "b": "Over-utilization creates resource scarcity, conflicts, and environmental degradation",
+      "c": "Over-utilization boosts economic growth",
+      "d": "Over-utilization has no impact on society or the economy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is public awareness and participation crucial for effective resource conservation?",
+    "options": {
+      "a": "Public awareness is irrelevant to resource conservation",
+      "b": "Public participation hinders resource management",
+      "c": "Informed and engaged citizens can contribute to sustainable resource use",
+      "d": "Resource conservation is solely the responsibility of the government"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How does the concept of 'carrying capacity' relate to sustainable development?",
+    "options": {
+      "a": "Carrying capacity is irrelevant to sustainable development",
+      "b": "Sustainable development requires exceeding the carrying capacity of the environment",
+      "c": "Sustainable development requires living within the carrying capacity of the environment",
+      "d": "Carrying capacity limits economic growth"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the most significant long-term consequence of ignoring the principles of sustainable development?",
+    "options": {
+      "a": "Enhanced economic prosperity",
+      "b": "Irreversible environmental damage and resource depletion",
+      "c": "Equitable distribution of wealth",
+      "d": "Technological advancements"
+    },
+    "answer": "b"
+  }
+]

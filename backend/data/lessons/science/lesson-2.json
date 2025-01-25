@@ -1,0 +1,673 @@
+[
+  {
+    "question": "Which of the following is NOT a characteristic property of a pure substance?",
+    "options": {
+      "a": "It has a fixed composition throughout.",
+      "b": "It can be separated into simpler substances by physical processes.",
+      "c": "It has a definite melting and boiling point.",
+      "d": "It exhibits the same characteristic properties regardless of its source."
+    },
+    "answer": "b",
+    "id": 339
+  },
+  {
+    "question": "A student prepares a mixture by adding sugar to water. This mixture can be classified as:",
+    "options": {
+      "a": "A heterogeneous mixture",
+      "b": "A homogeneous mixture",
+      "c": "A compound",
+      "d": "An element"
+    },
+    "answer": "b",
+    "id": 340
+  },
+  {
+    "question": "Which of the following separation techniques is most suitable for separating a mixture of sand and iron filings?",
+    "options": {
+      "a": "Evaporation",
+      "b": "Filtration",
+      "c": "Magnetic separation",
+      "d": "Distillation"
+    },
+    "answer": "c",
+    "id": 341
+  },
+  {
+    "question": "Assertion: A solution is always a homogeneous mixture.\nReason: The particles in a solution are uniformly distributed and cannot be seen with the naked eye.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 342
+  },
+  {
+    "question": "A solution is prepared by dissolving 20g of salt in 180g of water. Calculate the mass percentage of the solution.",
+    "options": {
+      "a": "10%",
+      "b": "11.11%",
+      "c": "20%",
+      "d": "90%"
+    },
+    "answer": "a",
+    "id": 343
+  },
+  {
+    "question": "Which of the following mixtures exhibits the Tyndall effect?",
+    "options": {
+      "a": "Salt solution",
+      "b": "Sugar solution",
+      "c": "Milk",
+      "d": "Air"
+    },
+    "answer": "c",
+    "id": 344
+  },
+  {
+    "question": "The process of separating cream from milk is based on the principle of:",
+    "options": {
+      "a": "Evaporation",
+      "b": "Centrifugation",
+      "c": "Filtration",
+      "d": "Sublimation"
+    },
+    "answer": "b",
+    "id": 345
+  },
+  {
+    "question": "Which of the following is NOT a suitable method for separating a mixture of two miscible liquids?",
+    "options": {
+      "a": "Fractional distillation",
+      "b": "Simple distillation",
+      "c": "Separating funnel",
+      "d": "Chromatography"
+    },
+    "answer": "c",
+    "id": 346
+  },
+  {
+    "question": "Assertion: Chromatography can be used to separate the components of black ink.\nReason: The different components of ink have different solubilities in the solvent.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 347
+  },
+  {
+    "question": "Which of the following is a chemical change?",
+    "options": {
+      "a": "Melting of ice",
+      "b": "Boiling of water",
+      "c": "Dissolving sugar in water",
+      "d": "Burning of wood"
+    },
+    "answer": "d",
+    "id": 348
+  },
+  {
+    "question": "Which of the following is NOT a characteristic property of metals?",
+    "options": {
+      "a": "Lustre",
+      "b": "Malleability",
+      "c": "Ductility",
+      "d": "Poor conductivity of heat and electricity"
+    },
+    "answer": "d",
+    "id": 349
+  },
+  {
+    "question": "Assertion: Air is a mixture.\nReason: Air can be separated into its components by fractional distillation.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 350
+  },
+  {
+    "question": "Which of the following is a compound?",
+    "options": {
+      "a": "Iron",
+      "b": "Water",
+      "c": "Oxygen",
+      "d": "Nitrogen"
+    },
+    "answer": "b",
+    "id": 351
+  },
+  {
+    "question": "The process of crystallization is used to:",
+    "options": {
+      "a": "Separate a mixture of immiscible liquids",
+      "b": "Obtain a pure solid from its solution",
+      "c": "Separate a mixture of miscible liquids",
+      "d": "Separate a mixture of a solid and a liquid"
+    },
+    "answer": "b",
+    "id": 352
+  },
+  {
+    "question": "A student adds 10g of sugar to 100ml of water at 25°C. After stirring, some sugar remains undissolved. The solution is:",
+    "options": {
+      "a": "Dilute",
+      "b": "Concentrated",
+      "c": "Saturated",
+      "d": "Unsaturated"
+    },
+    "answer": "c",
+    "id": 353
+  },
+  {
+    "question": "Which of the following is NOT a colloid?",
+    "options": {
+      "a": "Milk",
+      "b": "Fog",
+      "c": "Shaving cream",
+      "d": "Salt solution"
+    },
+    "answer": "d",
+    "id": 354
+  },
+  {
+    "question": "Assertion: When a mixture of iron filings and sulfur powder is heated strongly, a new substance with different properties is formed.\nReason: This is a physical change.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "c",
+    "id": 355
+  },
+  {
+    "question": "A mixture of sand and salt can be separated by:",
+    "options": {
+      "a": "Dissolving the mixture in water, filtering, and then evaporating the filtrate.",
+      "b": "Heating the mixture to sublime the salt.",
+      "c": "Using a magnet to separate the sand.",
+      "d": "Adding water to the mixture and then decanting the salt solution."
+    },
+    "answer": "a",
+    "id": 356
+  },
+  {
+    "question": "Which of the following statements about a suspension is NOT true?",
+    "options": {
+      "a": "The particles are visible to the naked eye.",
+      "b": "The particles settle down when left undisturbed.",
+      "c": "The particles can be separated by filtration.",
+      "d": "The particles scatter a beam of light passing through it."
+    },
+    "answer": "d",
+    "id": 357
+  },
+  {
+    "question": "Which of the following is NOT a method for separating the components of a mixture?",
+    "options": {
+      "a": "Evaporation",
+      "b": "Distillation",
+      "c": "Chromatography",
+      "d": "Condensation"
+    },
+    "answer": "d",
+    "id": 358
+  },
+  {
+    "question": "Which of the following is a metalloid?",
+    "options": {
+      "a": "Iron",
+      "b": "Silicon",
+      "c": "Oxygen",
+      "d": "Chlorine"
+    },
+    "answer": "b",
+    "id": 359
+  },
+  {
+    "question": "Assertion: Water is a compound.\nReason: Water can be broken down into hydrogen and oxygen by electrolysis.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 360
+  },
+  {
+    "question": "Which of the following is an example of a homogeneous mixture?",
+    "options": {
+      "a": "Sand and water",
+      "b": "Oil and water",
+      "c": "Salt and water",
+      "d": "Iron filings and sulfur powder"
+    },
+    "answer": "c",
+    "id": 361
+  },
+  {
+    "question": "Which of the following is a property of a colloid?",
+    "options": {
+      "a": "It exhibits the Tyndall effect.",
+      "b": "Its particles settle down when left undisturbed.",
+      "c": "Its particles can be separated by filtration.",
+      "d": "It is a homogeneous mixture."
+    },
+    "answer": "a",
+    "id": 362
+  },
+  {
+    "question": "Which of the following separation techniques is based on the difference in the boiling points of the components of a mixture?",
+    "options": {
+      "a": "Evaporation",
+      "b": "Distillation",
+      "c": "Chromatography",
+      "d": "Centrifugation"
+    },
+    "answer": "b",
+    "id": 363
+  },
+  {
+    "question": "Which of the following is a physical change?",
+    "options": {
+      "a": "Burning of paper",
+      "b": "Rusting of iron",
+      "c": "Melting of ice",
+      "d": "Digestion of food"
+    },
+    "answer": "c",
+    "id": 364
+  },
+  {
+    "question": "Which of the following is NOT a method for purifying a solid?",
+    "options": {
+      "a": "Crystallization",
+      "b": "Sublimation",
+      "c": "Distillation",
+      "d": "Filtration"
+    },
+    "answer": "c",
+    "id": 365
+  },
+  {
+    "question": "A mixture of oil and water can be separated by using a:",
+    "options": {
+      "a": "Filter paper",
+      "b": "Separating funnel",
+      "c": "Centrifuge",
+      "d": "Distillation flask"
+    },
+    "answer": "b",
+    "id": 366
+  },
+  {
+    "question": "Which of the following is NOT an application of centrifugation?",
+    "options": {
+      "a": "Separating cream from milk",
+      "b": "Separating blood components",
+      "c": "Separating oil from water",
+      "d": "Squeezing out water from wet clothes in washing machines"
+    },
+    "answer": "c",
+    "id": 367
+  },
+  {
+    "question": "Assertion: When a beam of light is passed through a colloidal solution, its path becomes visible.\nReason: The particles in a colloidal solution are large enough to scatter light.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 368
+  },
+  {
+    "question": "Which of the following is a characteristic property of elements?",
+    "options": {
+      "a": "They can be broken down into simpler substances by chemical reactions.",
+      "b": "They have a fixed composition.",
+      "c": "They can be separated into their components by physical methods.",
+      "d": "They are the simplest forms of matter that cannot be broken down into simpler substances by chemical reactions."
+    },
+    "answer": "d",
+    "id": 369
+  },
+  {
+    "question": "Which of the following is NOT a pure substance?",
+    "options": {
+      "a": "Gold",
+      "b": "Water",
+      "c": "Air",
+      "d": "Sugar"
+    },
+    "answer": "c",
+    "id": 370
+  },
+  {
+    "question": "Which of the following is a heterogeneous mixture?",
+    "options": {
+      "a": "Salt solution",
+      "b": "Sugar solution",
+      "c": "Milk",
+      "d": "Sand and water"
+    },
+    "answer": "d",
+    "id": 371
+  },
+  {
+    "question": "Which of the following is a method for separating a mixture of a solid and a liquid?",
+    "options": {
+      "a": "Evaporation",
+      "b": "Distillation",
+      "c": "Chromatography",
+      "d": "Filtration"
+    },
+    "answer": "d",
+    "id": 372
+  },
+  {
+    "question": "Which of the following is a chemical change?",
+    "options": {
+      "a": "Melting of wax",
+      "b": "Boiling of water",
+      "c": "Burning of wood",
+      "d": "Dissolving sugar in water"
+    },
+    "answer": "c",
+    "id": 373
+  },
+  {
+    "question": "Which of the following is NOT a characteristic property of non-metals?",
+    "options": {
+      "a": "They are poor conductors of heat and electricity.",
+      "b": "They are not lustrous.",
+      "c": "They are malleable.",
+      "d": "They are not sonorous."
+    },
+    "answer": "c",
+    "id": 374
+  },
+  {
+    "question": "Assertion: A solution of copper sulfate in water is a homogeneous mixture.\nReason: The copper sulfate particles are uniformly distributed in the water.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 375
+  },
+  {
+    "question": "Which of the following is a compound?",
+    "options": {
+      "a": "Carbon",
+      "b": "Carbon dioxide",
+      "c": "Oxygen",
+      "d": "Hydrogen"
+    },
+    "answer": "b",
+    "id": 376
+  },
+  {
+    "question": "The process of sublimation is used to separate a mixture of:",
+    "options": {
+      "a": "Two miscible liquids",
+      "b": "Two immiscible liquids",
+      "c": "A solid and a liquid",
+      "d": "A sublimable solid and a non-sublimable solid"
+    },
+    "answer": "d",
+    "id": 377
+  },
+  {
+    "question": "A student dissolves 50g of sugar in 200ml of water at 25°C. The solution is:",
+    "options": {
+      "a": "Dilute",
+      "b": "Concentrated",
+      "c": "Saturated",
+      "d": "Unsaturated"
+    },
+    "answer": "d",
+    "id": 378
+  },
+  {
+    "question": "A student is tasked with separating a mixture of iron filings and sand. Which method would be most effective?",
+    "options": {
+      "a": "Evaporation",
+      "b": "Filtration",
+      "c": "Magnetic Separation",
+      "d": "Distillation"
+    },
+    "answer": "c",
+    "id": 379
+  },
+  {
+    "question": "Salt is obtained from seawater through the process of:",
+    "options": {
+      "a": "Distillation",
+      "b": "Evaporation",
+      "c": "Filtration",
+      "d": "Sublimation"
+    },
+    "answer": "b",
+    "id": 380
+  },
+  {
+    "question": "A colloid is a mixture in which the dispersed phase is:",
+    "options": {
+      "a": "Completely dissolved in the dispersion medium",
+      "b": "Finely divided and suspended in the dispersion medium",
+      "c": "Settled at the bottom of the container",
+      "d": "Separated into distinct layers"
+    },
+    "answer": "b",
+    "id": 381
+  },
+  {
+    "question": "Which of the following is NOT a method used in the purification of water at a waterworks?",
+    "options": {
+      "a": "Sedimentation",
+      "b": "Filtration",
+      "c": "Chlorination",
+      "d": "Distillation"
+    },
+    "answer": "d",
+    "id": 382
+  },
+  {
+    "question": "Which of the following is an example of a chemical change?",
+    "options": {
+      "a": "Ice melting into water",
+      "b": "Iron rusting",
+      "c": "Water boiling into steam",
+      "d": "Sugar dissolving in water"
+    },
+    "answer": "b",
+    "id": 383
+  },
+  {
+    "question": "An alloy is a:",
+    "options": {
+      "a": "Compound of two or more metals",
+      "b": "Mixture of two or more metals",
+      "c": "Pure metal",
+      "d": "Non-metal"
+    },
+    "answer": "b",
+    "id": 384
+  },
+  {
+    "question": "The Tyndall effect is the scattering of light by:",
+    "options": {
+      "a": "Solutions",
+      "b": "Suspensions",
+      "c": "Colloids",
+      "d": "Compounds"
+    },
+    "answer": "c",
+    "id": 385
+  },
+  {
+    "question": "Which of the following is a true solution?",
+    "options": {
+      "a": "Milk",
+      "b": "Muddy water",
+      "c": "Sugar in water",
+      "d": "Fog"
+    },
+    "answer": "c",
+    "id": 386
+  },
+  {
+    "question": "Rahul wants to separate a mixture of salt and sand. He dissolves the mixture in water and then filters it. What does the filtrate contain?",
+    "options": {
+      "a": "Sand",
+      "b": "Salt",
+      "c": "Both sand and salt",
+      "d": "Neither sand nor salt"
+    },
+    "answer": "b",
+    "id": 387
+  },
+  {
+    "question": "Which of the following is a characteristic of a compound?",
+    "options": {
+      "a": "It can be separated into its components by physical methods.",
+      "b": "It has a variable composition.",
+      "c": "It has properties different from its constituent elements.",
+      "d": "It can be found in nature in its elemental form."
+    },
+    "answer": "c",
+    "id": 388
+  },
+  {
+    "question": "Which of the following is an example of a heterogeneous mixture?",
+    "options": {
+      "a": "Saltwater",
+      "b": "Air",
+      "c": "Brass",
+      "d": "Concrete"
+    },
+    "answer": "d",
+    "id": 389
+  },
+  {
+    "question": "A student mixes iron filings and sulfur powder, then heats the mixture strongly. She observes that a new substance is formed with properties different from both iron and sulfur. However, she claims this is a physical change. Evaluate this claim and explain the actual process occurring.",
+    "options": {
+      "a": "The student is correct; this is a physical change as the original substances can be recovered.",
+      "b": "The student is incorrect; this is a chemical change resulting in the formation of iron sulfide compound.",
+      "c": "The student is partially correct; it's a physical change at first but becomes a chemical change upon heating.",
+      "d": "The student is incorrect; this is a colloidal mixture formation, not a change."
+    },
+    "answer": "b",
+    "id": 390
+  },
+  {
+    "question": "In a water purification plant, multiple processes are used. Which combination of separation techniques would be most effective for removing suspended particles, dissolved salts, and microorganisms from river water?",
+    "options": {
+      "a": "Sedimentation, distillation, and chlorination",
+      "b": "Centrifugation, fractional distillation, and boiling",
+      "c": "Filtration, reverse osmosis, and UV treatment",
+      "d": "Decantation, evaporation, and addition of alum"
+    },
+    "answer": "c",
+    "id": 391
+  },
+  {
+    "question": "A chemist claims to have developed a new element that conducts electricity poorly, has a dull appearance, and is malleable. Based on your understanding of element properties, critically analyze this claim.",
+    "options": {
+      "a": "The claim is valid; the chemist has likely discovered a new metalloid.",
+      "b": "The claim is questionable; the described properties are contradictory for a single element.",
+      "c": "The claim is valid; the chemist has discovered a new type of metal with unique properties.",
+      "d": "The claim is partially valid; it could be a new non-metal with some metallic properties."
+    },
+    "answer": "b",
+    "id": 392
+  },
+  {
+    "question": "In an experiment to separate a mixture of sand, salt, and ammonium chloride, a student proposes the following steps: 1) Add water 2) Filter 3) Heat the filtrate 4) Sublime the residue. Evaluate the effectiveness of this method and suggest improvements if necessary.",
+    "options": {
+      "a": "The method is correct and will effectively separate all components.",
+      "b": "The method is incomplete; an additional step of distillation is needed after filtration.",
+      "c": "The method is flawed; step 3 should be replaced with evaporation to recover salt.",
+      "d": "The method is inefficient; sublimation should be done before adding water."
+    },
+    "answer": "c",
+    "id": 393
+  },
+  {
+    "question": "A solution is prepared by dissolving 20g of a solute in 180g of water. If this solution is saturated at room temperature, what can you infer about the solubility of the solute? How would increasing the temperature likely affect the solution?",
+    "options": {
+      "a": "Solubility is 11.11%; increasing temperature would likely allow more solute to dissolve.",
+      "b": "Solubility is 10%; increasing temperature would have no effect as it's already saturated.",
+      "c": "Solubility is 20%; increasing temperature would cause precipitation of excess solute.",
+      "d": "Solubility cannot be determined; temperature increase would always decrease solubility."
+    },
+    "answer": "a",
+    "id": 394
+  },
+  {
+    "question": "Consider a mixture of oil and water. A student suggests using a separating funnel to separate them, while another proposes using fractional distillation. Critically evaluate both methods and explain which would be more appropriate and why.",
+    "options": {
+      "a": "Separating funnel is better as it's simpler and exploits the immiscibility of the liquids.",
+      "b": "Fractional distillation is better as it can separate the mixture more purely.",
+      "c": "Both methods are equally effective and can be used interchangeably.",
+      "d": "Neither method is appropriate; centrifugation should be used instead."
+    },
+    "answer": "a",
+    "id": 395
+  },
+  {
+    "question": "A student observes that when a beam of light is passed through a sample of milk, its path becomes visible, but this doesn't happen with a salt solution. Explain this phenomenon and discuss what it reveals about the nature of these substances.",
+    "options": {
+      "a": "Milk is a suspension while salt solution is a colloid; suspensions scatter light more.",
+      "b": "Milk is a colloid while salt solution is a true solution; colloids exhibit the Tyndall effect.",
+      "c": "Both are colloids, but milk has larger particles that scatter light more effectively.",
+      "d": "The observation is incorrect; both should scatter light equally."
+    },
+    "answer": "b",
+    "id": 396
+  },
+  {
+    "question": "In chromatography of black ink, different components travel different distances. Explain the principle behind this separation and discuss how factors like solvent polarity and stationary phase composition might affect the results.",
+    "options": {
+      "a": "Separation is based on particle size; solvent polarity and stationary phase have no effect.",
+      "b": "Separation is based on color; changing solvent or stationary phase would not affect results.",
+      "c": "Separation is based on different solubilities and attractions; changing solvent or stationary phase would alter separation.",
+      "d": "Separation is random; results would be different each time regardless of conditions."
+    },
+    "answer": "c",
+    "id": 397
+  },
+  {
+    "question": "A mixture contains a magnetic substance, a water-soluble substance, and a sublimable substance. Design a sequence of separation methods to isolate each component, explaining your rationale for each step.",
+    "options": {
+      "a": "Magnetic separation, then dissolution in water, then sublimation of the residue.",
+      "b": "Sublimation first, then magnetic separation, then dissolution in water.",
+      "c": "Dissolution in water first, then magnetic separation of the residue, then sublimation.",
+      "d": "Centrifugation to separate all components simultaneously."
+    },
+    "answer": "a",
+    "id": 398
+  },
+  {
+    "question": "A student claims that all mixtures can be separated into pure substances by physical methods alone. Critically evaluate this statement, providing examples to support your argument.",
+    "options": {
+      "a": "The statement is correct; all mixtures can be separated physically given the right method.",
+      "b": "The statement is incorrect; separation always involves both physical and chemical methods.",
+      "c": "The statement is partially correct; it applies to heterogeneous mixtures but not homogeneous ones.",
+      "d": "The statement is incorrect; some mixtures, like alloys, cannot be separated by physical methods alone."
+    },
+    "answer": "d",
+    "id": 399
+  }
+]

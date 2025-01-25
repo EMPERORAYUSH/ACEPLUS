@@ -1,0 +1,431 @@
+[
+  {
+    "question": "If the cost of a pen is represented by 'x' and the cost of an eraser is represented by 'y', which equation represents the statement 'A pen costs 3 rupees more than an eraser'?",
+    "options": {
+      "a": "x + 3 = y",
+      "b": "x = y + 3",
+      "c": "x - y = -3",
+      "d": "y = 3x"
+    },
+    "answer": "b",
+    "id": 106
+  },
+  {
+    "question": "Which of the following is NOT a linear equation in two variables?",
+    "options": {
+      "a": "2x + y = 5",
+      "b": "x = 3y - 1",
+      "c": "x² + y = 7",
+      "d": "5x - 2y + 3 = 0"
+    },
+    "answer": "c",
+    "id": 107
+  },
+  {
+    "question": "The equation 3x = 5 can be written in the form ax + by + c = 0 as:",
+    "options": {
+      "a": "3x + 0y + 5 = 0",
+      "b": "3x + y - 5 = 0",
+      "c": "3x + 0y - 5 = 0",
+      "d": "3x - y + 5 = 0"
+    },
+    "answer": "c",
+    "id": 108
+  },
+  {
+    "question": "If (1, -2) is a solution of the equation 2x - ky = 6, then the value of k is:",
+    "options": {
+      "a": "-2",
+      "b": "2",
+      "c": "-1",
+      "d": "1"
+    },
+    "answer": "b",
+    "id": 109
+  },
+  {
+    "question": "Which of the following points lies on the x-axis?",
+    "options": {
+      "a": "(0, 5)",
+      "b": "(-3, 0)",
+      "c": "(2, 2)",
+      "d": "(0, -4)"
+    },
+    "answer": "b",
+    "id": 110
+  },
+  {
+    "question": "The point (-4, 3) lies in which quadrant of the Cartesian plane?",
+    "options": {
+      "a": "Quadrant I",
+      "b": "Quadrant II",
+      "c": "Quadrant III",
+      "d": "Quadrant IV"
+    },
+    "answer": "b",
+    "id": 111
+  },
+  {
+    "question": "The point whose ordinate is 4 and which lies on the y-axis is:",
+    "options": {
+      "a": "(4, 0)",
+      "b": "(0, 4)",
+      "c": "(0, -4)",
+      "d": "(-4, 0)"
+    },
+    "answer": "b",
+    "id": 112
+  },
+  {
+    "question": "How many solutions does a linear equation in two variables have?",
+    "options": {
+      "a": "Only one",
+      "b": "Two",
+      "c": "Finite but more than two",
+      "d": "Infinitely many"
+    },
+    "answer": "d",
+    "id": 113
+  },
+  {
+    "question": "If x = 2 and y = -1 is a solution of the equation px + 3y = 5, then the value of p is:",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "d",
+    "id": 114
+  },
+  {
+    "question": "The equation representing the y-axis is:",
+    "options": {
+      "a": "x = 0",
+      "b": "y = 0",
+      "c": "x = y",
+      "d": "x = -y"
+    },
+    "answer": "a",
+    "id": 115
+  },
+  {
+    "question": "If (a, 4) lies on the graph of 3x + y = 10, then the value of a is:",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b",
+    "id": 116
+  },
+  {
+    "question": "Which of the following is a solution of the equation 2x + 3y = 12?",
+    "options": {
+      "a": "(1, 3)",
+      "b": "(3, 2)",
+      "c": "(2, 3)",
+      "d": "(4, 1)"
+    },
+    "answer": "b",
+    "id": 117
+  },
+  {
+    "question": "Assertion: The points (2, 0), (5, 0), and (-3, 0) lie on a straight line. \nReason: All points having y-coordinate as 0 lie on the x-axis.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 118
+  },
+  {
+    "question": "Assertion: The point (-5, 0) lies in the second quadrant. \nReason: In the second quadrant, the x-coordinate is negative and the y-coordinate is positive.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "d",
+    "id": 119
+  },
+  {
+    "question": "A point lies on the y-axis. Can you find the x-coordinate of the point?",
+    "options": {
+      "a": "Yes, it depends on the equation of the line.",
+      "b": "No, we need more information to find it.",
+      "c": "Yes, it will always be 0.",
+      "d": "No, because it can be any real number."
+    },
+    "answer": "c",
+    "id": 120
+  },
+  {
+    "question": "Ram plotted the point (3, 4) on the Cartesian plane, but he mistakenly marked the y-coordinate on the x-axis and the x-coordinate on the y-axis. In which quadrant does the actual point (3, 4) lie?",
+    "options": {
+      "a": "Quadrant I",
+      "b": "Quadrant II",
+      "c": "Quadrant III",
+      "d": "Quadrant IV"
+    },
+    "answer": "a",
+    "id": 121
+  },
+  {
+    "question": "The sum of two numbers is 15. If one number is represented by 'x', which equation represents the other number?",
+    "options": {
+      "a": "15 - x",
+      "b": "x - 15",
+      "c": "15x",
+      "d": "x/15"
+    },
+    "answer": "a",
+    "id": 122
+  },
+  {
+    "question": "A rectangle has a perimeter of 24 units. If its length is 'l' units and breadth is 'b' units, which equation represents the perimeter?",
+    "options": {
+      "a": "l + b = 24",
+      "b": "2l + b = 24",
+      "c": "2(l + b) = 24",
+      "d": "l * b = 24"
+    },
+    "answer": "c",
+    "id": 123
+  },
+  {
+    "question": "The cost of 2 kg of apples and 3 kg of oranges is Rs. 120. If the cost of 1 kg of apples is Rs. x and 1 kg of oranges is Rs. y, which linear equation represents this situation?",
+    "options": {
+      "a": "2x + y = 120",
+      "b": "x + 3y = 120",
+      "c": "2x + 3y = 120",
+      "d": "3x + 2y = 120"
+    },
+    "answer": "c",
+    "id": 124
+  },
+  {
+    "question": "A taxi charges Rs. 10 per km and a fixed charge of Rs. 20. If 'x' represents the distance travelled in km and 'y' represents the total fare, find the linear equation representing this situation.",
+    "options": {
+      "a": "y = 10x",
+      "b": "y = 10x + 20",
+      "c": "y = 20x + 10",
+      "d": "y = x + 30"
+    },
+    "answer": "b",
+    "id": 125
+  },
+  {
+    "question": "In a school, the number of girls is twice the number of boys. If the total number of students is 150, form a linear equation to represent this situation. (Let 'x' be the number of boys and 'y' be the number of girls)",
+    "options": {
+      "a": "x + 2y = 150",
+      "b": "2x = y",
+      "c": "x + y = 150",
+      "d": "2x + y = 150"
+    },
+    "answer": "a",
+    "id": 126
+  },
+  {
+    "question": "The point (0, -3) lies:",
+    "options": {
+      "a": "on the x-axis",
+      "b": "in the second quadrant",
+      "c": "on the y-axis",
+      "d": "in the fourth quadrant"
+    },
+    "answer": "c",
+    "id": 127
+  },
+  {
+    "question": "The graph of the linear equation y = 4 is a line which is:",
+    "options": {
+      "a": "parallel to y-axis",
+      "b": "passing through origin",
+      "c": "parallel to x-axis",
+      "d": "making an angle of 45° with x-axis"
+    },
+    "answer": "c",
+    "id": 128
+  },
+  {
+    "question": "Which of these equations will have (1, 1) as a solution?",
+    "options": {
+      "a": "x - y = 1",
+      "b": "2x + y = 1",
+      "c": "x + y = 2",
+      "d": "x = 2y"
+    },
+    "answer": "c",
+    "id": 129
+  },
+  {
+    "question": "The cost of a pencil is Rs. 2 less than twice the cost of an eraser. Express this statement as a linear equation in two variables. (Take the cost of a pencil to be Rs. x and that of an eraser to be Rs. y)",
+    "options": {
+      "a": "x = 2y - 2",
+      "b": "x - 2y = -2",
+      "c": "x + 2 = 2y",
+      "d": "2x = y - 2"
+    },
+    "answer": "a",
+    "id": 130
+  },
+  {
+    "question": "Five years ago, Salman was thrice as old as his son. Ten years later, Salman will be twice as old as his son. Let Salman's present age be 'x' years and his son's age be 'y' years. Which of the following linear equations represents the situation ten years later?",
+    "options": {
+      "a": "x + 10 = 2(y + 10)",
+      "b": "x + 5 = 2(y + 15)",
+      "c": "x - 5 = 3(y - 5)",
+      "d": "x = 2y"
+    },
+    "answer": "a",
+    "id": 131
+  },
+  {
+    "question": "The sum of the abscissa and ordinate of a point is 5. If the abscissa is represented by 'x' and the ordinate by 'y', what is the linear equation representing this statement?",
+    "options": {
+      "a": "x - y = 5",
+      "b": "x * y = 5",
+      "c": "x / y = 5",
+      "d": "x + y = 5"
+    },
+    "answer": "d",
+    "id": 132
+  },
+  {
+    "question": "Points (1, -2), (2, -3), (3, -4) lie on the graph of:",
+    "options": {
+      "a": "x + y = 1",
+      "b": "x - y = 3",
+      "c": "y = x - 3",
+      "d": "y = 2x"
+    },
+    "answer": "c",
+    "id": 133
+  },
+  {
+    "question": "The taxi fare in a city is Rs. 8 for the first kilometer and Rs. 5 for each additional kilometer. Taking the distance covered as 'x' km and total fare as Rs. 'y', write a linear equation for this information.",
+    "options": {
+      "a": "y = 8 + 5x",
+      "b": "y = 8 + 5(x-1)",
+      "c": "y = 8x + 5",
+      "d": "y = 5x + 8(x-1)"
+    },
+    "answer": "b",
+    "id": 134
+  },
+  {
+    "question": "If the point (3, 4) lies on the graph of the equation 3y = ax + 7, find the value of 'a'.",
+    "options": {
+      "a": "2/3",
+      "b": "5/3",
+      "c": "7/3",
+      "d": "11/3"
+    },
+    "answer": "b",
+    "id": 135
+  },
+  {
+    "question": "The point where the line 2x - 3y = 6 intersects the x-axis is:",
+    "options": {
+      "a": "(0, -2)",
+      "b": "(3, 0)",
+      "c": "(0, 3)",
+      "d": "(-2, 0)"
+    },
+    "answer": "b",
+    "id": 136
+  },
+  {
+    "question": "For what value of k, the linear equation 2x + ky = 8 has (0, 4) as a solution?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "4",
+      "d": "8"
+    },
+    "answer": "b",
+    "id": 137
+  },
+  {
+    "question": "If the points (k, 3) and (2, -5) lie on a line parallel to the x-axis, then the value of k is:",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "-5",
+      "d": "Any real number"
+    },
+    "answer": "d",
+    "id": 138
+  },
+  {
+    "question": "The linear equation 3x - 5y = 15 has:",
+    "options": {
+      "a": "a unique solution",
+      "b": "exactly two solutions",
+      "c": "infinitely many solutions",
+      "d": "no solution"
+    },
+    "answer": "c",
+    "id": 139
+  },
+  {
+    "question": "Which of the following is true for the graph of the equation x = -3?",
+    "options": {
+      "a": "It is a line parallel to the x-axis.",
+      "b": "It is a line passing through the origin.",
+      "c": "It is a line parallel to the y-axis.",
+      "d": "It is a line making an angle of 45° with the x-axis."
+    },
+    "answer": "c",
+    "id": 140
+  },
+  {
+    "question": "The age of a father is twice the sum of the ages of his two children. If the present age of the father is 48 years and the age of one child is 'x' years, then the age of the other child is:",
+    "options": {
+      "a": "(24 - x) years",
+      "b": "(x - 24) years",
+      "c": "(48 - x) years",
+      "d": "(x/2) years"
+    },
+    "answer": "a",
+    "id": 141
+  },
+  {
+    "question": "If we add 1 to the numerator and subtract 1 from the denominator, a fraction reduces to 1. It becomes 1/2 if we only add 1 to the denominator. The fraction is:",
+    "options": {
+      "a": "2/3",
+      "b": "3/4",
+      "c": "4/5",
+      "d": "5/6"
+    },
+    "answer": "c",
+    "id": 142
+  },
+  {
+    "question": "The cost of a table is 3 times the cost of a chair. Write a linear equation in two variables to represent this statement. (Take the cost of a table to be Rs. 't' and that of a chair to be Rs. 'c')",
+    "options": {
+      "a": "t = 3c",
+      "b": "c = 3t",
+      "c": "t + c = 3",
+      "d": "t - c = 3"
+    },
+    "answer": "a",
+    "id": 143
+  },
+  {
+    "question": "The sum of the digits of a two-digit number is 8. If the digits are reversed, the number is decreased by 18. Find the number.",
+    "options": {
+      "a": "35",
+      "b": "53",
+      "c": "44",
+      "d": "62"
+    },
+    "answer": "b",
+    "id": 144
+  }
+]

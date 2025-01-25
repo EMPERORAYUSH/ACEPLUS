@@ -1,0 +1,684 @@
+[
+  {
+    "question": "Which of the following is the Fundamental Theorem of Arithmetic?",
+    "options": {
+      "a": "Every composite number can be expressed as a sum of primes.",
+      "b": "Every composite number can be expressed as a product of primes, and this factorization is unique except for the order of primes.",
+      "c": "Every prime number can be expressed as a product of composite numbers.",
+      "d": "Every even number can be expressed as a sum of two primes."
+    },
+    "answer": "b",
+    "id": 1054
+  },
+  {
+    "question": "If 'p' is a prime number and 'p' divides 'a²', where 'a' is a positive integer, then:",
+    "options": {
+      "a": "'p' divides 'a³'",
+      "b": "'p' divides 'a'",
+      "c": "'p²' divides 'a'",
+      "d": "'p' divides '2a'"
+    },
+    "answer": "b",
+    "id": 1055
+  },
+  {
+    "question": "A number is rational if it can be expressed in the form p/q where:",
+    "options": {
+      "a": "p and q are integers, q≠0",
+      "b": "p and q are real numbers, q≠0",
+      "c": "p and q are integers",
+      "d": "p and q are natural numbers, q≠0"
+    },
+    "answer": "a",
+    "id": 1056
+  },
+  {
+    "question": "Which of the following is an irrational number?",
+    "options": {
+      "a": "√4",
+      "b": "√9/4",
+      "c": "√3",
+      "d": "1/7"
+    },
+    "answer": "c",
+    "id": 1057
+  },
+  {
+    "question": "The decimal expansion of a rational number is:",
+    "options": {
+      "a": "Always terminating.",
+      "b": "Always non-terminating.",
+      "c": "Either terminating or non-terminating repeating.",
+      "d": "Either terminating or non-terminating non-repeating."
+    },
+    "answer": "c",
+    "id": 1058
+  },
+  {
+    "question": "What is the prime factorization of 72?",
+    "options": {
+      "a": "2² x 3³",
+      "b": "2³ x 3²",
+      "c": "2 x 3⁵",
+      "d": "2⁴ x 3"
+    },
+    "answer": "b",
+    "id": 1059
+  },
+  {
+    "question": "The HCF of two co-prime numbers is always:",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "Product of the numbers",
+      "d": "Sum of the numbers"
+    },
+    "answer": "b",
+    "id": 1060
+  },
+  {
+    "question": "If two numbers 'a' and 'b' are such that HCF(a,b) = 1, then they are called:",
+    "options": {
+      "a": "Twin primes",
+      "b": "Co-primes",
+      "c": "Composite",
+      "d": "Rational"
+    },
+    "answer": "b",
+    "id": 1061
+  },
+  {
+    "question": "The LCM of two numbers is 120 and their HCF is 12. If one number is 24, then the other number is:",
+    "options": {
+      "a": "36",
+      "b": "60",
+      "c": "48",
+      "d": "72"
+    },
+    "answer": "b",
+    "id": 1062
+  },
+  {
+    "question": "If a number ends in zero, it must be divisible by:",
+    "options": {
+      "a": "2 only",
+      "b": "5 only",
+      "c": "2 and 5",
+      "d": "Neither 2 nor 5"
+    },
+    "answer": "c",
+    "id": 1063
+  },
+  {
+    "question": "The LCM of 48, 72, and 108 is:",
+    "options": {
+      "a": "216",
+      "b": "432",
+      "c": "504",
+      "d": "144"
+    },
+    "answer": "b",
+    "id": 1064
+  },
+  {
+    "question": "Find the HCF of 135 and 225.",
+    "options": {
+      "a": "15",
+      "b": "45",
+      "c": "25",
+      "d": "75"
+    },
+    "answer": "b",
+    "id": 1065
+  },
+  {
+    "question": "The product of two numbers is 720 and their HCF is 6. Find their LCM.",
+    "options": {
+      "a": "60",
+      "b": "120",
+      "c": "180",
+      "d": "240"
+    },
+    "answer": "b",
+    "id": 1066
+  },
+  {
+    "question": "Find the largest number which divides 245 and 1029 leaving a remainder of 5 in each case.",
+    "options": {
+      "a": "15",
+      "b": "16",
+      "c": "20",
+      "d": "24"
+    },
+    "answer": "b",
+    "id": 1067
+  },
+  {
+    "question": "Three bells ring at intervals of 12, 15, and 18 minutes respectively. If they start ringing together, after how many minutes will they next ring together?",
+    "options": {
+      "a": "90 minutes",
+      "b": "120 minutes",
+      "c": "150 minutes",
+      "d": "180 minutes"
+    },
+    "answer": "d",
+    "id": 1068
+  },
+  {
+    "question": "Express 156 as a product of its prime factors.",
+    "options": {
+      "a": "2 x 3 x 13",
+      "b": "2² x 3 x 13",
+      "c": "2 x 3 x 26",
+      "d": "2³ x 3 x 7"
+    },
+    "answer": "b",
+    "id": 1069
+  },
+  {
+    "question": "What is the HCF of the smallest prime number and the smallest composite number?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b",
+    "id": 1070
+  },
+  {
+    "question": "Find the LCM of 2³, 3², and 5.",
+    "options": {
+      "a": "90",
+      "b": "180",
+      "c": "270",
+      "d": "360"
+    },
+    "answer": "d",
+    "id": 1071
+  },
+  {
+    "question": "The decimal expansion of 17/8 is:",
+    "options": {
+      "a": "2.125",
+      "b": "2.25",
+      "c": "2.1",
+      "d": "2.5"
+    },
+    "answer": "a",
+    "id": 1072
+  },
+  {
+    "question": "If the HCF of 65 and 117 is expressible in the form 65m – 117, then the value of m is:",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b",
+    "id": 1073
+  },
+  {
+    "question": "Two containers contain 850 liters and 680 liters of petrol respectively. Find the maximum capacity of a container which can measure the petrol of either container in exact number of times.",
+    "options": {
+      "a": "150 liters",
+      "b": "160 liters",
+      "c": "170 liters",
+      "d": "180 liters"
+    },
+    "answer": "c",
+    "id": 1074
+  },
+  {
+    "question": "A sweetseller has 420 kaju barfis and 130 badam barfis. She wants to stack them in such a way that each stack has the same number, and they take up the least area of the tray. What is the maximum number of barfis that can be placed in each stack for this purpose?",
+    "options": {
+      "a": "10",
+      "b": "15",
+      "c": "20",
+      "d": "25"
+    },
+    "answer": "a",
+    "id": 1075
+  },
+  {
+    "question": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10, and 12 seconds respectively. In 30 minutes, how many times do they toll together?",
+    "options": {
+      "a": "15",
+      "b": "16",
+      "c": "30",
+      "d": "31"
+    },
+    "answer": "b",
+    "id": 1077
+  },
+  {
+    "question": "Two tankers contain 850 liters and 680 liters of kerosene oil respectively. Find the maximum capacity of a container which can measure the kerosene oil of both the tankers when used an exact number of times.",
+    "options": {
+      "a": "150 liters",
+      "b": "170 liters",
+      "c": "190 liters",
+      "d": "210 liters"
+    },
+    "answer": "b",
+    "id": 1078
+  },
+  {
+    "question": "Find the greatest number of 6 digits exactly divisible by 24, 15, and 36.",
+    "options": {
+      "a": "999720",
+      "b": "999600",
+      "c": "999960",
+      "d": "999840"
+    },
+    "answer": "a",
+    "id": 1079
+  },
+  {
+    "question": "The traffic lights at three different road crossings change after 48 seconds, 72 seconds, and 108 seconds respectively. If they change simultaneously at 7 a.m., at what time will they change simultaneously again?",
+    "options": {
+      "a": "7:07:12 am",
+      "b": "7:07:24 am",
+      "c": "7:07:36 am",
+      "d": "7:07:48 am"
+    },
+    "answer": "a",
+    "id": 1080
+  },
+  {
+    "question": "The length, breadth, and height of a room are 8 m 25 cm, 6 m 75 cm, and 4 m 50 cm respectively. Determine the longest rod which can measure the three dimensions of the room exactly.",
+    "options": {
+      "a": "25 cm",
+      "b": "50 cm",
+      "c": "75 cm",
+      "d": "100 cm"
+    },
+    "answer": "c",
+    "id": 1081
+  },
+  {
+    "question": "Find the least number which when increased by 17 is exactly divisible by both 520 and 468.",
+    "options": {
+      "a": "4663",
+      "b": "4680",
+      "c": "4697",
+      "d": "4704"
+    },
+    "answer": "a",
+    "id": 1082
+  },
+  {
+    "question": "Find the HCF and LCM of 306 and 657.",
+    "options": {
+      "a": "HCF = 9, LCM = 22338",
+      "b": "HCF = 18, LCM = 11169",
+      "c": "HCF = 27, LCM = 7797",
+      "d": "HCF = 36, LCM = 5584.5"
+    },
+    "answer": "a",
+    "id": 1083
+  },
+  {
+    "question": "Can two numbers have 18 as their HCF and 380 as their LCM? Give reason.",
+    "options": {
+      "a": "Yes",
+      "b": "No, because HCF must divide LCM, and 18 does not divide 380.",
+      "c": "No, because LCM must divide HCF.",
+      "d": "Yes, because HCF and LCM are always co-prime."
+    },
+    "answer": "b",
+    "id": 1084
+  },
+  {
+    "question": "Is √7 a rational number?",
+    "options": {
+      "a": "Yes",
+      "b": "No, because it cannot be expressed as p/q where p and q are integers and q ≠ 0.",
+      "c": "No, because it is a perfect square.",
+      "d": "Yes, because it is a real number."
+    },
+    "answer": "b",
+    "id": 1085
+  },
+  {
+    "question": "Without actually performing the long division, state whether 39/343 will have a terminating or non-terminating repeating decimal expansion.",
+    "options": {
+      "a": "Terminating",
+      "b": "Non-terminating repeating",
+      "c": "Cannot be determined",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "id": 1086
+  },
+  {
+    "question": "If two positive integers a and b are written as a = x³y² and b = xy³, where x, y are prime numbers, then HCF (a, b) is:",
+    "options": {
+      "a": "xy",
+      "b": "xy²",
+      "c": "x³y²",
+      "d": "x²y²"
+    },
+    "answer": "b",
+    "id": 1087
+  },
+  {
+    "question": "The largest number which divides 70 and 125, leaving remainders 5 and 8, respectively, is:",
+    "options": {
+      "a": "13",
+      "b": "65",
+      "c": "875",
+      "d": "1750"
+    },
+    "answer": "a",
+    "id": 1088
+  },
+  {
+    "question": "If the prime factorisation of a natural number n is 2³ x 3² x 5 x 7, then the number of consecutive zeros in n, where n is a natural number, is:",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+    },
+    "answer": "b",
+    "id": 1089
+  },
+  {
+    "question": "The decimal expansion of the rational number 14587/1250 will terminate after:",
+    "options": {
+      "a": "one decimal place",
+      "b": "two decimal places",
+      "c": "three decimal places",
+      "d": "four decimal places"
+    },
+    "answer": "d",
+    "id": 1090
+  },
+  {
+    "question": "If two numbers do not have any common factor other than 1, then their LCM is:",
+    "options": {
+      "a": "Product of the numbers",
+      "b": "HCF of the numbers",
+      "c": "Sum of the numbers",
+      "d": "Difference of the numbers"
+    },
+    "answer": "a",
+    "id": 1091
+  },
+  {
+    "question": "n² - 1 is divisible by 8, if n is:",
+    "options": {
+      "a": "an integer",
+      "b": "a natural number",
+      "c": "an odd integer",
+      "d": "an even integer"
+    },
+    "answer": "c",
+    "id": 1092
+  },
+  {
+    "question": "The smallest number by which √27 should be multiplied so as to get a rational number is:",
+    "options": {
+      "a": "√27",
+      "b": "3√3",
+      "c": "√3",
+      "d": "3"
+    },
+    "answer": "c",
+    "id": 1093
+  },
+  {
+    "question": "Find the HCF of 96 and 404 by the prime factorization method.",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "8",
+      "d": "16"
+    },
+    "answer": "b",
+    "id": 1094
+  },
+  {
+    "question": "Given that HCF (306, 657) = 9, find LCM (306, 657).",
+    "options": {
+      "a": "22338",
+      "b": "11169",
+      "c": "729",
+      "d": "34"
+    },
+    "answer": "a",
+    "id": 1095
+  },
+  {
+    "question": "What is the HCF of 4, 6, and 8?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "4",
+      "d": "24"
+    },
+    "answer": "b",
+    "id": 1096
+  },
+  {
+    "question": "What is the LCM of 12, 15, and 21?",
+    "options": {
+      "a": "210",
+      "b": "420",
+      "c": "630",
+      "d": "840"
+    },
+    "answer": "b",
+    "id": 1097
+  },
+  {
+    "question": "Express 3825 as a product of its prime factors.",
+    "options": {
+      "a": "3 x 5² x 51",
+      "b": "3² x 5² x 17",
+      "c": "3 x 5 x 17²",
+      "d": "3² x 5 x 17"
+    },
+    "answer": "b",
+    "id": 1098
+  },
+  {
+    "question": "Find the LCM and HCF of 26 and 91.",
+    "options": {
+      "a": "LCM=182, HCF=13",
+      "b": "LCM=182, HCF=26",
+      "c": "LCM=13, HCF=91",
+      "d": "LCM=2366, HCF=1"
+    },
+    "answer": "a",
+    "id": 1099
+  },
+  {
+    "question": "Find the LCM and HCF of 510 and 92.",
+    "options": {
+      "a": "LCM = 23460, HCF = 2",
+      "b": "LCM = 11730, HCF = 1",
+      "c": "LCM = 46920, HCF = 4",
+      "d": "LCM = 2346, HCF = 2346"
+    },
+    "answer": "a",
+    "id": 1100
+  },
+  {
+    "question": "Find the LCM and HCF of 336 and 54.",
+    "options": {
+      "a": "LCM = 3024, HCF = 6",
+      "b": "LCM = 1512, HCF = 12",
+      "c": "LCM = 6048, HCF = 3",
+      "d": "LCM = 1008, HCF = 18"
+    },
+    "answer": "a",
+    "id": 1101
+  },
+  {
+    "question": "Find the LCM of 8, 9, and 25.",
+    "options": {
+      "a": "1800",
+      "b": "900",
+      "c": "450",
+      "d": "225"
+    },
+    "answer": "a",
+    "id": 1102
+  },
+  {
+    "question": "Find the HCF of 17, 23, and 29.",
+    "options": {
+      "a": "1",
+      "b": "17",
+      "c": "23",
+      "d": "29"
+    },
+    "answer": "a",
+    "id": 1103
+  },
+  {
+    "question": "Can the HCF and LCM of two numbers be 9 and 54 respectively?",
+    "options": {
+      "a": "Yes",
+      "b": "No, because the HCF must always be a factor of the LCM, and 9 is not a factor of 54.",
+      "c": "No, because the LCM must always be a factor of the HCF.",
+      "d": "Yes, because the HCF and LCM are always co-prime."
+    },
+    "answer": "a",
+    "id": 1105
+  },
+  {
+    "question": "A terminating decimal can always be expressed as a fraction p/q where q is of the form:",
+    "options": {
+      "a": "2^m3^n (where m and n are non-negative integers)",
+      "b": "2^m5^n (where m and n are non-negative integers)",
+      "c": "3^m5^n (where m and n are non-negative integers)",
+      "d": "Any prime number raised to any power."
+    },
+    "answer": "b",
+    "id": 1106
+  },
+  {
+    "question": "If the sum of two irrational numbers is rational, which of the following must be true?",
+    "options": {
+      "a": "The two irrational numbers must be additive inverses of each other.",
+      "b": "The two irrational numbers must be equal.",
+      "c": "The two irrational numbers must be multiples of each other.",
+      "d": "None of the above."
+    },
+    "answer": "a",
+    "id": 1107
+  },
+  {
+    "question": "Is it possible for the product of two irrational numbers to be rational?",
+    "options": {
+      "a": "No, never.",
+      "b": "Yes, always.",
+      "c": "Sometimes, for example √2 * √2 = 2",
+      "d": "Only if the two numbers are the same."
+    },
+    "answer": "c",
+    "id": 1108
+  },
+  {
+    "question": "A rectangular courtyard 4.55 meters long and 3.74 meters wide is to be paved exactly with square tiles of the same size. Find the largest size of the tile that can be used.",
+    "options": {
+      "a": "1 cm x 1 cm",
+      "b": "11 cm x 11 cm",
+      "c": "37 cm x 37 cm",
+      "d": "1 cm x 37 cm"
+    },
+    "answer": "b",
+    "id": 1109
+  },
+  {
+    "question": "A merchant has 120 liters of and 180 liters of two kinds of oil. He wants to store them in tins of equal capacity so that each tin contains the same type of oil. What should be the greatest capacity of such a tin?",
+    "options": {
+      "a": "10 liters",
+      "b": "30 liters",
+      "c": "60 liters",
+      "d": "120 liters"
+    },
+    "answer": "c",
+    "id": 1110
+  },
+  {
+    "question": "Two runners are running on a circular track. One completes a round in 12 minutes, and the other completes a round in 18 minutes. If they both start from the same point at the same time and go in the same direction, after how many minutes will they meet again at the starting point?",
+    "options": {
+      "a": "12 minutes",
+      "b": "18 minutes",
+      "c": "36 minutes",
+      "d": "72 minutes"
+    },
+    "answer": "c",
+    "id": 1111
+  },
+  {
+    "question": "Four bells toll at intervals of 8, 12, 18, and 20 minutes respectively. If they toll together at 12 noon, when will they next toll together?",
+    "options": {
+      "a": "3:00 PM",
+      "b": "4:00 PM",
+      "c": "5:00 PM",
+      "d": "6:00 PM"
+    },
+    "answer": "d",
+    "id": 1112
+  },
+  {
+    "question": "Find the smallest number which leaves remainders 8 and 12 when divided by 28 and 32 respectively.",
+    "options": {
+      "a": "204",
+      "b": "216",
+      "c": "228",
+      "d": "240"
+    },
+    "answer": "a",
+    "id": 1113
+  },
+  {
+    "question": "Assertion: If two numbers are co-prime, their HCF is always 1.\nReason: Co-prime numbers have no common factors except 1.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1115
+  },
+  {
+    "question": "Assertion: The product of two irrational numbers is always irrational.\nReason: Irrational numbers cannot be expressed as a ratio of two integers.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1116
+  },
+  {
+    "question": "Assertion: A terminating decimal can always be expressed as p/q where q has factors of only 2 and 5.\nReason: 2 and 5 are the prime factors of 10, and powers of 10 are used in decimal representation.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1117
+  },
+  {
+    "question": "Assertion: The HCF of three numbers will always be less than or equal to the smallest number among them.\nReason: HCF is the largest number that divides all the given numbers.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1118
+  }
+]

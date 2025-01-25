@@ -1,0 +1,475 @@
+[
+  {
+    "question": "The distance of the point (a, b) from the origin is:",
+    "options": {
+      "a": "a + b",
+      "b": "√(a + b)",
+      "c": "√(a² + b²)",
+      "d": "a² + b²"
+    },
+    "answer": "c",
+    "id": 1519
+  },
+  {
+    "question": "If a point lies on the x-axis, its y-coordinate is:",
+    "options": {
+      "a": "1",
+      "b": "Any number",
+      "c": "0",
+      "d": "-1"
+    },
+    "answer": "c",
+    "id": 1520
+  },
+  {
+    "question": "The midpoint of the line segment joining (x₁, y₁) and (x₂, y₂) is:",
+    "options": {
+      "a": "((x₁+x₂)/2, (y₁+y₂)/2)",
+      "b": "(x₁+x₂, y₁+y₂)",
+      "c": "((x₁-x₂)/2, (y₁-y₂)/2)",
+      "d": "(x₁-x₂, y₁-y₂)"
+    },
+    "answer": "a",
+    "id": 1521
+  },
+  {
+    "question": "The distance formula is derived from:",
+    "options": {
+      "a": "Midpoint Formula",
+      "b": "Section Formula",
+      "c": "Pythagoras Theorem",
+      "d": "Area of Triangle Formula"
+    },
+    "answer": "c",
+    "id": 1523
+  },
+  {
+    "question": "A point equidistant from (x₁, y₁) and (x₂, y₂) lies on:",
+    "options": {
+      "a": "The line joining (x₁, y₁) and (x₂, y₂)",
+      "b": "The perpendicular bisector of the line segment joining (x₁, y₁) and (x₂, y₂)",
+      "c": "A circle with (x₁, y₁) as center",
+      "d": "A circle with (x₂, y₂) as center"
+    },
+    "answer": "b",
+    "id": 1524
+  },
+  {
+    "question": "The coordinates of a point on the y-axis are of the form:",
+    "options": {
+      "a": "(x, 0)",
+      "b": "(0, y)",
+      "c": "(x, y)",
+      "d": "(0, 0)"
+    },
+    "answer": "b",
+    "id": 1525
+  },
+  {
+    "question": "The distance between (2,3) and (2,7) is:",
+    "options": {
+      "a": "5",
+      "b": "4",
+      "c": "10",
+      "d": "√10"
+    },
+    "answer": "b",
+    "id": 1526
+  },
+  {
+    "question": "If three points are collinear, the area of the triangle formed by them is:",
+    "options": {
+      "a": "1",
+      "b": "0",
+      "c": "-1",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "id": 1527
+  },
+  {
+    "question": "The points (0,0), (3,0), and (0,4) form a:",
+    "options": {
+      "a": "Equilateral triangle",
+      "b": "Isosceles triangle",
+      "c": "Right-angled triangle",
+      "d": "Scalene triangle"
+    },
+    "answer": "c",
+    "id": 1528
+  },
+  {
+    "question": "If a line segment is trisected, it is divided into how many equal parts?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "4",
+      "d": "5"
+    },
+    "answer": "b",
+    "id": 1529
+  },
+  {
+    "question": "The point which divides a line segment in the ratio 1:1 is called the:",
+    "options": {
+      "a": "Trisection point",
+      "b": "Midpoint",
+      "c": "Origin",
+      "d": "Section point"
+    },
+    "answer": "b",
+    "id": 1530
+  },
+  {
+    "question": "Find the distance between (-5, 7) and (-1, 3).",
+    "options": {
+      "a": "2√5",
+      "b": "4√2",
+      "c": "8",
+      "d": "4"
+    },
+    "answer": "b",
+    "id": 1531
+  },
+  {
+    "question": "If P(2, -1) is the midpoint of the line segment joining A(x, 2) and B(-3, y), find x and y.",
+    "options": {
+      "a": "x=1, y=0",
+      "b": "x=7, y=-4",
+      "c": "x=-7, y=4",
+      "d": "x=0, y=1"
+    },
+    "answer": "b",
+    "id": 1533
+  },
+  {
+    "question": "Find the point on the x-axis equidistant from (2, -5) and (-2, 9).",
+    "options": {
+      "a": "(-7, 0)",
+      "b": "(7, 0)",
+      "c": "(0, -7)",
+      "d": "(0, 7)"
+    },
+    "answer": "a",
+    "id": 1534
+  },
+  {
+    "question": "Find the ratio in which the line segment joining (1, -5) and (-4, 5) is divided by the x-axis.",
+    "options": {
+      "a": "1:2",
+      "b": "1:1",
+      "c": "2:1",
+      "d": "3:1"
+    },
+    "answer": "b",
+    "id": 1535
+  },
+  {
+    "question": "If the vertices of a parallelogram are (1, 2), (4, y), (x, 6), and (3, 5), find x and y.",
+    "options": {
+      "a": "x=2, y=3",
+      "b": "x=6, y=3",
+      "c": "x=3, y=6",
+      "d": "x=6, y=6"
+    },
+    "answer": "b",
+    "id": 1536
+  },
+  {
+    "question": "Find the values of y for which the distance between P(2, -3) and Q(10, y) is 10 units.",
+    "options": {
+      "a": "y=3 and y=9",
+      "b": "y=-3 and y=-9",
+      "c": "y=3 and y=-9",
+      "d": "y=-3 and y=9"
+    },
+    "answer": "c",
+    "id": 1539
+  },
+  {
+    "question": "If Q(0, 1) is equidistant from P(5, -3) and R(x, 6), find the values of x.",
+    "options": {
+      "a": "x=4",
+      "b": "x=-4",
+      "c": "x=4 and x=-4",
+      "d": "x=5"
+    },
+    "answer": "c",
+    "id": 1540
+  },
+  {
+    "question": "Find a relation between x and y such that the point (x, y) is equidistant from the points (3, 6) and (-3, 4).",
+    "options": {
+      "a": "3x-y=-5",
+      "b": "3x+y=5",
+      "c": "x+3y=5",
+      "d": "x-3y=-5"
+    },
+    "answer": "b",
+    "id": 1541
+  },
+  {
+    "question": "Find the coordinates of the points of trisection of the line segment joining (4, -1) and (-2, -3).",
+    "options": {
+      "a": "(2, -5/3) and (0, -7/3)",
+      "b": "(2, -5/3) and (0, -1/3)",
+      "c": "(0, -7/3) and (-2, -11/3)",
+      "d": "(2, -1/3) and (0, -7/3)"
+    },
+    "answer": "a",
+    "id": 1542
+  },
+  {
+    "question": "Three vertices of a parallelogram ABCD are A(1,2), B(4,3), and C(6,6). Find the coordinates of vertex D.",
+    "options": {
+      "a": "(3, 5)",
+      "b": "(5, 3)",
+      "c": "(7, 7)",
+      "d": "(9, 8)"
+    },
+    "answer": "a",
+    "id": 1545
+  },
+  {
+    "question": "Find a point on the y-axis which is equidistant from the points A(6, 5) and B(-4, 3).",
+    "options": {
+      "a": "(9, 0)",
+      "b": "(0, 9)",
+      "c": "(0, -9)",
+      "d": "(-9, 0)"
+    },
+    "answer": "b",
+    "id": 1546
+  },
+  {
+    "question": "The centroid of a triangle with vertices (x₁, y₁), (x₂, y₂), and (x₃, y₃) divides each median in the ratio:",
+    "options": {
+      "a": "1:1",
+      "b": "2:1",
+      "c": "1:2",
+      "d": "3:1"
+    },
+    "answer": "b",
+    "id": 1547
+  },
+  {
+    "question": "The coordinates of the vertices of a rectangle are (1,2), (4,2), (4,5), and (1,5). Find the length of its diagonal.",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "answer": "c",
+    "id": 1549
+  },
+  {
+    "question": "Three consecutive vertices of a parallelogram are (1,2), (1,0), and (4,0). Find the fourth vertex.",
+    "options": {
+      "a": "(4,2)",
+      "b": "(2,4)",
+      "c": "(0,2)",
+      "d": "(4,-2)"
+    },
+    "answer": "a",
+    "id": 1551
+  },
+  {
+    "question": "A line segment has endpoints (3, -2) and (-1, 4). Find the coordinates of the point that divides the segment in the ratio 1:3.",
+    "options": {
+      "a": "(2, 0)",
+      "b": "(1, 1)",
+      "c": "(0, 2)",
+      "d": "(1/2, 5/2)"
+    },
+    "answer": "d",
+    "id": 1552
+  },
+  {
+    "question": "A square has vertices at (0,0), (a,0), (0,a), and (a,a). Find the length of its diagonal.",
+    "options": {
+      "a": "a",
+      "b": "2a",
+      "c": "a√2",
+      "d": "a/√2"
+    },
+    "answer": "c",
+    "id": 1553
+  },
+  {
+    "question": "The line segment joining A(2,3) and B(6,-5) is intersected by the x-axis at a point P. Find the ratio in which P divides AB.",
+    "options": {
+      "a": "5:3",
+      "b": "3:5",
+      "c": "2:3",
+      "d": "3:2"
+    },
+    "answer": "b",
+    "id": 1554
+  },
+  {
+    "question": "If the points A(4,3) and B(x,5) are on a circle with centre O(2,3), find the value of x.",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+    },
+    "answer": "c",
+    "id": 1556
+  },
+  {
+    "question": "If the distance between (p, 3) and (5, 7) is 5 units, find the values of p.",
+    "options": {
+      "a": "p=2",
+      "b": "p=8",
+      "c": "p=2 and p=8",
+      "d": "p=1"
+    },
+    "answer": "c",
+    "id": 1557
+  },
+  {
+    "question": "If the points (a, 0), (0, b), and (1, 1) are collinear, which equation is true?",
+    "options": {
+      "a": "1/a - 1/b = 1",
+      "b": "1/a + 1/b = 1",
+      "c": "a + b = 1",
+      "d": "a - b = 1"
+    },
+    "answer": "b",
+    "id": 1559
+  },
+  {
+    "question": "The coordinates of the midpoints of the sides of a triangle are (1,2), (0,-1), and (2,-1). Find the coordinates of its vertices.",
+    "options": {
+      "a": "(1,-4), (3,4), (-1,4)",
+      "b": "(1,4), (3,4), (-1,4)",
+      "c": "(1,-4), (3,-4), (-1,4)",
+      "d": "(1,-4), (3,4), (-1,-4)"
+    },
+    "answer": "a",
+    "id": 1560
+  },
+  {
+    "question": "If two vertices of an equilateral triangle are (0,0) and (3,√3), find the third vertex.",
+    "options": {
+      "a": "(1.5, √3/2)",
+      "b": "(0, 2√3)",
+      "c": "(3, -√3)",
+      "d": "(b) or (c)"
+    },
+    "answer": "d",
+    "id": 1561
+  },
+  {
+    "question": "The coordinates of the vertices of a rhombus are (3, 0), (4, 5), (-1, 4) and (-2,-1). Find its area.",
+    "options": {
+      "a": "12 sq. units",
+      "b": "24 sq. units",
+      "c": "36 sq. units",
+      "d": "48 sq. units"
+    },
+    "answer": "b",
+    "id": 1562
+  },
+  {
+    "question": "Find the coordinates of the points which divide the line segment joining (-4, 0) and (0, 6) into four equal parts.",
+    "options": {
+      "a": "(-3, 1.5), (-2, 3), (-1, 4.5)",
+      "b": "(-3, 2), (-2, 3), (-1, 4)",
+      "c": "(-2, 1.5), (-1, 3), (0, 4.5)",
+      "d": "(-3, 1), (-2, 2), (-1, 3)"
+    },
+    "answer": "a",
+    "id": 1565
+  },
+  {
+    "question": "A circle drawn with origin as the centre passes through (13/2, 0). Find the point on the circle whose x-coordinate is 5.",
+    "options": {
+      "a": "(5, 6)",
+      "b": "(5, -6)",
+      "c": "Both (a) and (b)",
+      "d": "(6, 5)"
+    },
+    "answer": "c",
+    "id": 1566
+  },
+  {
+    "question": "A line segment PQ is divided into five equal parts at A, B, C and D. If A is (3,-2) and C is (1,2), find the coordinates of P, B, D and Q.",
+    "options": {
+      "a": "P(4,-4), B(2.5,-1), D(1.5,1), Q(1,4)",
+      "b": "P(4,-4), B(2.5,-1), D(0.5,1), Q(-1,4)",
+      "c": "P(4,-4), B(3.5,0), D(0.5,1), Q(-1,4)",
+      "d": "P(4,-4), B(2.5,-1), D(0.5,1), Q(0,2)"
+    },
+    "answer": "b",
+    "id": 1567
+  },
+  {
+    "question": "Find the ratio in which the line x - 3y = 0 divides the line segment joining the points (-2, -5) and (6, 3).",
+    "options": {
+      "a": "7:40",
+      "b": "40:7",
+      "c": "1:2",
+      "d": "2:1"
+    },
+    "answer": "a",
+    "id": 1568
+  },
+  {
+    "question": "Assertion: The distance between any point and itself is always zero.\nReason: The distance formula √(x₂-x₁)² + (y₂-y₁)² gives zero when the points are same.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1569
+  },
+  {
+    "question": "Assertion: A point lying on the y-axis must have its x-coordinate as zero.\nReason: The y-axis is the line parallel to the x-axis passing through the origin.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1570
+  },
+  {
+    "question": "Assertion: The centroid of a triangle always lies inside the triangle.\nReason: The centroid divides each median in the ratio 2:1.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "b",
+    "id": 1573
+  },
+  {
+    "question": "Assertion: If a point is equidistant from two fixed points, it must lie on the perpendicular bisector of the line segment joining these points.\nReason: The perpendicular bisector is the locus of points equidistant from two fixed points.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1574
+  },
+  {
+    "question": "Assertion: Points dividing a line segment internally and externally in the same ratio are always different.\nReason: Internal division gives a point between the endpoints while external division gives a point outside the line segment.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1576
+  }
+]

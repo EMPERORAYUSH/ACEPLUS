@@ -1,0 +1,464 @@
+[
+  {
+    "question": "India's Green Revolution primarily focused on increasing the productivity of which scarce resource?",
+    "options": {
+      "a": "Water resources",
+      "b": "Mineral resources",
+      "c": "Land resources",
+      "d": "Human resources"
+    },
+    "answer": "c",
+    "id": 773
+  },
+  {
+    "question": "Investment in human capital, such as education and training, is similar to investment in physical capital because it:",
+    "options": {
+      "a": "Depletes natural resources",
+      "b": "Guarantees immediate profits",
+      "c": "Yields a return in the future",
+      "d": "Requires no initial investment"
+    },
+    "answer": "c",
+    "id": 774
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of human capital?",
+    "options": {
+      "a": "It is acquired through education and training.",
+      "b": "It depreciates over time with lack of use.",
+      "c": "It can be enhanced through healthcare.",
+      "d": "It is a tangible asset like machinery."
+    },
+    "answer": "d",
+    "id": 775
+  },
+  {
+    "question": "Sakal's story highlights the importance of __________ in transforming human capital into a productive asset.",
+    "options": {
+      "a": "Physical strength",
+      "b": "Family support",
+      "c": "Vocational training",
+      "d": "Agricultural labor"
+    },
+    "answer": "c",
+    "id": 776
+  },
+  {
+    "question": "Vilas's story exemplifies how lack of access to ________ can hinder human capital development.",
+    "options": {
+      "a": "Employment opportunities",
+      "b": "Social networks",
+      "c": "Education and healthcare",
+      "d": "Family inheritance"
+    },
+    "answer": "c",
+    "id": 777
+  },
+  {
+    "question": "The economic activities that involve remuneration and are performed for pay or profit are known as:",
+    "options": {
+      "a": "Non-market activities",
+      "b": "Informal activities",
+      "c": "Market activities",
+      "d": "Subsistence activities"
+    },
+    "answer": "c",
+    "id": 778
+  },
+  {
+    "question": "Which sector of the economy includes activities like agriculture, forestry, and fishing?",
+    "options": {
+      "a": "Primary sector",
+      "b": "Secondary sector",
+      "c": "Tertiary sector",
+      "d": "Quaternary sector"
+    },
+    "answer": "a",
+    "id": 779
+  },
+  {
+    "question": "The division of labor between men and women, where women primarily handle domestic chores, is often influenced by:",
+    "options": {
+      "a": "Economic factors only",
+      "b": "Biological factors only",
+      "c": "Historical and cultural factors",
+      "d": "Individual preferences only"
+    },
+    "answer": "c",
+    "id": 780
+  },
+  {
+    "question": "Which of the following is NOT a key indicator of the quality of population?",
+    "options": {
+      "a": "Literacy rate",
+      "b": "Life expectancy",
+      "c": "Skill formation",
+      "d": "Population density"
+    },
+    "answer": "d",
+    "id": 781
+  },
+  {
+    "question": "The Sarva Siksha Abhiyan initiative aimed to achieve universalization of elementary education for children in the age group of:",
+    "options": {
+      "a": "3-8 years",
+      "b": "5-10 years",
+      "c": "6-14 years",
+      "d": "8-16 years"
+    },
+    "answer": "c",
+    "id": 782
+  },
+  {
+    "question": "The Gross Enrolment Ratio (GER) in higher education is an indicator of:",
+    "options": {
+      "a": "The quality of higher education",
+      "b": "The access to higher education",
+      "c": "The employment rate of graduates",
+      "d": "The gender disparity in higher education"
+    },
+    "answer": "b",
+    "id": 783
+  },
+  {
+    "question": "A firm is less likely to employ an unhealthy worker because:",
+    "options": {
+      "a": "It is discriminatory to do so",
+      "b": "It may affect the firm's productivity",
+      "c": "It increases healthcare costs for the firm",
+      "d": "It is against labor laws"
+    },
+    "answer": "b",
+    "id": 784
+  },
+  {
+    "question": "Which of the following is NOT a positive outcome of improved health status in a population?",
+    "options": {
+      "a": "Increased life expectancy",
+      "b": "Reduced infant mortality rate",
+      "c": "Higher fertility rate",
+      "d": "Improved quality of life"
+    },
+    "answer": "c",
+    "id": 785
+  },
+  {
+    "question": "The Infant Mortality Rate (IMR) is calculated as the number of deaths of children below one year of age per ________ live births.",
+    "options": {
+      "a": "100",
+      "b": "1,000",
+      "c": "10,000",
+      "d": "100,000"
+    },
+    "answer": "b",
+    "id": 786
+  },
+  {
+    "question": "Unemployment exists when people who are willing to work at the going wages:",
+    "options": {
+      "a": "Are unable to find jobs",
+      "b": "Choose not to work",
+      "c": "Are engaged in unpaid work",
+      "d": "Are underemployed"
+    },
+    "answer": "a",
+    "id": 787
+  },
+  {
+    "question": "Sakal's mother, Sheela, who primarily performs domestic chores, is considered:",
+    "options": {
+      "a": "Unemployed",
+      "b": "Employed",
+      "c": "Underemployed",
+      "d": "Not in the labor force"
+    },
+    "answer": "d",
+    "id": 788
+  },
+  {
+    "question": "Which type of unemployment is prevalent in rural areas where people are unable to find jobs during certain months of the year?",
+    "options": {
+      "a": "Disguised unemployment",
+      "b": "Seasonal unemployment",
+      "c": "Educated unemployment",
+      "d": "Structural unemployment"
+    },
+    "answer": "b",
+    "id": 789
+  },
+  {
+    "question": "Disguised unemployment occurs when:",
+    "options": {
+      "a": "People are visibly unemployed",
+      "b": "People are working below their skill level",
+      "c": "People appear to be employed but their marginal productivity is zero",
+      "d": "People are seasonally unemployed"
+    },
+    "answer": "c",
+    "id": 790
+  },
+  {
+    "question": "Educated unemployment is a phenomenon where:",
+    "options": {
+      "a": "Illiterate people cannot find jobs",
+      "b": "People with formal education cannot find suitable jobs",
+      "c": "People in rural areas are unemployed",
+      "d": "People are seasonally unemployed"
+    },
+    "answer": "b",
+    "id": 791
+  },
+  {
+    "question": "Which of the following is NOT a consequence of unemployment?",
+    "options": {
+      "a": "Wastage of manpower resources",
+      "b": "Increased economic growth",
+      "c": "Social unrest and frustration",
+      "d": "Decline in the quality of life"
+    },
+    "answer": "b",
+    "id": 792
+  },
+  {
+    "question": "In the story of the village, the introduction of education and skill development led to:",
+    "options": {
+      "a": "Increased poverty and unemployment",
+      "b": "Economic growth and diversification of jobs",
+      "c": "Depletion of natural resources",
+      "d": "Migration of people to urban areas"
+    },
+    "answer": "b",
+    "id": 793
+  },
+  {
+    "question": "The chapter 'People as Resource' emphasizes that population should be viewed as a(n) _____ rather than a(n) _____ for the economy.",
+    "options": {
+      "a": "asset, liability",
+      "b": "liability, asset",
+      "c": "expense, investment",
+      "d": "burden, opportunity"
+    },
+    "answer": "a",
+    "id": 794
+  },
+  {
+    "question": "When the existing human resource is further developed by becoming more educated and healthy, it is referred to as:",
+    "options": {
+      "a": "Human resource planning",
+      "b": "Human capital formation",
+      "c": "Skill development",
+      "d": "Population growth"
+    },
+    "answer": "b",
+    "id": 795
+  },
+  {
+    "question": "According to the chapter, human capital is in one way superior to other resources like land and physical capital because:",
+    "options": {
+      "a": "It is more abundant",
+      "b": "It is cheaper to acquire",
+      "c": "It can make use of land and capital",
+      "d": "It is less prone to depletion"
+    },
+    "answer": "c",
+    "id": 796
+  },
+  {
+    "question": "The story of Sakal and Vilas illustrates how investment in _______ can lead to significant differences in their future outcomes.",
+    "options": {
+      "a": "Physical infrastructure",
+      "b": "Agriculture",
+      "c": "Human capital",
+      "d": "Natural resources"
+    },
+    "answer": "c",
+    "id": 797
+  },
+  {
+    "question": "Which of the following is NOT an example of an economic activity?",
+    "options": {
+      "a": "A farmer cultivating crops",
+      "b": "A teacher teaching in a school",
+      "c": "A homemaker cooking for her family",
+      "d": "A doctor treating patients in a hospital"
+    },
+    "answer": "c",
+    "id": 798
+  },
+  {
+    "question": "The National Income does not recognize the household work done by women because it is considered:",
+    "options": {
+      "a": "Unproductive",
+      "b": "Non-market activity",
+      "c": "Low-skilled work",
+      "d": "Informal sector work"
+    },
+    "answer": "b",
+    "id": 799
+  },
+  {
+    "question": "The quality of population is ultimately determined by factors such as:",
+    "options": {
+      "a": "Population size and density",
+      "b": "Literacy rate, health, and skill formation",
+      "c": "Geographic location and climate",
+      "d": "Availability of natural resources"
+    },
+    "answer": "b",
+    "id": 800
+  },
+  {
+    "question": "The expenditure on education as a percentage of GDP in India has:",
+    "options": {
+      "a": "Increased significantly over the years",
+      "b": "Remained stagnant over the years",
+      "c": "Decreased significantly over the years",
+      "d": "Fluctuated widely over the years"
+    },
+    "answer": "a",
+    "id": 801
+  },
+  {
+    "question": "The Gross Enrolment Ratio (GER) in higher education in India is:",
+    "options": {
+      "a": "Much higher than the world average",
+      "b": "Broadly in line with the world average",
+      "c": "Much lower than the world average",
+      "d": "Not comparable to the world average"
+    },
+    "answer": "b",
+    "id": 802
+  },
+  {
+    "question": "Improved health status of the population is a priority for the country because it:",
+    "options": {
+      "a": "Reduces the burden on the healthcare system",
+      "b": "Is an indispensable basis for realizing one's well-being",
+      "c": "Increases the life expectancy of the population",
+      "d": "Helps in controlling population growth"
+    },
+    "answer": "b",
+    "id": 803
+  },
+  {
+    "question": "The Crude Birth Rate is calculated as the number of live births per _____ people during a particular period of time.",
+    "options": {
+      "a": "100",
+      "b": "1,000",
+      "c": "10,000",
+      "d": "100,000"
+    },
+    "answer": "b",
+    "id": 804
+  },
+  {
+    "question": "Unemployment leads to wastage of manpower resources because:",
+    "options": {
+      "a": "People who are willing to work cannot find jobs",
+      "b": "People are not skilled enough to find jobs",
+      "c": "People are not interested in working",
+      "d": "People are migrating to other countries"
+    },
+    "answer": "a",
+    "id": 805
+  },
+  {
+    "question": "Disguised unemployment is a characteristic of the ______ sector of the economy.",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Quaternary"
+    },
+    "answer": "a",
+    "id": 806
+  },
+  {
+    "question": "Educated unemployment is a serious issue in India because:",
+    "options": {
+      "a": "There are not enough jobs for educated people",
+      "b": "Educated people are not willing to work",
+      "c": "The education system is not relevant to the job market",
+      "d": "Both a and c"
+    },
+    "answer": "d",
+    "id": 807
+  },
+  {
+    "question": "In the story of the village, the initial lack of job opportunities was overcome by:",
+    "options": {
+      "a": "Government intervention",
+      "b": "Investment in education and skill development",
+      "c": "Migration of people to urban areas",
+      "d": "Discovery of natural resources"
+    },
+    "answer": "b",
+    "id": 808
+  },
+  {
+    "question": "The chapter suggests that the most important form of capital for a country's development is:",
+    "options": {
+      "a": "Land",
+      "b": "Labour",
+      "c": "Physical capital",
+      "d": "Human capital"
+    },
+    "answer": "d",
+    "id": 809
+  },
+  {
+    "question": "Fill in the blanks: When people are willing to work at the going wages but cannot find jobs, it is referred to as ______.",
+    "options": {
+      "a": "Unemployment",
+      "b": "Underemployment",
+      "c": "Full employment",
+      "d": "Overemployment"
+    },
+    "answer": "a",
+    "id": 810
+  },
+  {
+    "question": "Fill in the blanks: The process of adding to the productive power of the country by investing in education, training, and medical care is known as ______.",
+    "options": {
+      "a": "Human resource development",
+      "b": "Human capital formation",
+      "c": "Skill enhancement",
+      "d": "Population control"
+    },
+    "answer": "b",
+    "id": 811
+  },
+  {
+    "question": "Fill in the blanks: The ______ sector of the economy includes activities like manufacturing and construction.",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Quaternary"
+    },
+    "answer": "b",
+    "id": 812
+  },
+  {
+    "question": "Fill in the blanks: ______ unemployment occurs when people appear to be employed but their marginal productivity is zero.",
+    "options": {
+      "a": "Seasonal",
+      "b": "Disguised",
+      "c": "Educated",
+      "d": "Structural"
+    },
+    "answer": "b",
+    "id": 813
+  },
+  {
+    "question": "Fill in the blanks: The ______ is a time-bound initiative of the Central government aimed at achieving universalization of elementary education.",
+    "options": {
+      "a": "Mid-day meal scheme",
+      "b": "Sarva Siksha Abhiyan",
+      "c": "National Education Policy",
+      "d": "Right to Education Act"
+    },
+    "answer": "b",
+    "id": 814
+  }
+]

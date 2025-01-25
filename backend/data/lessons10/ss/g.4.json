@@ -1,0 +1,462 @@
+[
+  {
+    "question": "What is the etymological origin of the word \"agriculture\"?",
+    "options": {
+      "a": "Greek words \"agros\" and \"cultura\"",
+      "b": "Latin words \"ager\" and \"cultura\"",
+      "c": "French words \"agri\" and \"culture\"",
+      "d": "English words \"soil\" and \"cultivation\""
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is NOT a type of economic activity associated with agriculture?",
+    "options": {
+      "a": "Primary",
+      "b": "Secondary",
+      "c": "Tertiary",
+      "d": "Quaternary"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which activity is considered a primary activity?",
+    "options": {
+      "a": "Manufacturing of steel",
+      "b": "Banking",
+      "c": "Fishing",
+      "d": "Weaving of cloth"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the land on which crops are grown known as?",
+    "options": {
+      "a": "Cultivable land",
+      "b": "Arable land",
+      "c": "Fertile land",
+      "d": "Agricultural land"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a type of farming mentioned in the text?",
+    "options": {
+      "a": "Subsistence farming",
+      "b": "Commercial farming",
+      "c": "Industrial farming",
+      "d": "Shifting cultivation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which farming type is characterized by low levels of technology and household labor?",
+    "options": {
+      "a": "Commercial farming",
+      "b": "Subsistence farming",
+      "c": "Plantation agriculture",
+      "d": "Mixed farming"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "'Slash and burn' agriculture is also known as:",
+    "options": {
+      "a": "Nomadic herding",
+      "b": "Intensive subsistence",
+      "c": "Shifting cultivation",
+      "d": "Commercial farming"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which country leads in rice production?",
+    "options": {
+      "a": "India",
+      "b": "China",
+      "c": "USA",
+      "d": "Brazil"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the other name for Maize?",
+    "options": {
+      "a": "Millet",
+      "b": "Corn",
+      "c": "Sorghum",
+      "d": "Barley"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the 'Golden Fibre'?",
+    "options": {
+      "a": "Cotton",
+      "b": "Silk",
+      "c": "Jute",
+      "d": "Wool"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which country is the leading producer of coffee?",
+    "options": {
+      "a": "India",
+      "b": "Brazil",
+      "c": "Sri Lanka",
+      "d": "Kenya"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary aim of agricultural development?",
+    "options": {
+      "a": "Increase exports",
+      "b": "Increase food security",
+      "c": "Increase farmer income",
+      "d": "Increase land under cultivation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the average farm size in the USA?",
+    "options": {
+      "a": "1.5 hectares",
+      "b": "100 hectares",
+      "c": "250 hectares",
+      "d": "500 hectares"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Gurpreet, Madho, and Tina were walking through a village when they encountered a farmer. The farmer explained he was growing wheat and had recently enriched the soil with manure. He intended to sell the wheat at the mandi, from where it would be transported to factories for processing into bread and biscuits. What type of economic activity is the farmer primarily engaged in?",
+    "options": {
+      "a": "Secondary",
+      "b": "Primary",
+      "c": "Tertiary",
+      "d": "Manufacturing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Primary activities involve the extraction and production of natural resources. Examples include agriculture, fishing, and gathering. These activities form the foundation of the economic system, providing raw materials for other sectors. Which of the following best exemplifies a primary activity?",
+    "options": {
+      "a": "Baking bread in a factory",
+      "b": "Transporting goods via truck",
+      "c": "Harvesting wheat from a field",
+      "d": "Selling insurance policies"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Secondary activities are concerned with the processing of natural resources obtained from primary activities. This includes manufacturing, construction, and refining. Manufacturing of steel, baking bread, and weaving cloth are examples of secondary activities. Which of the following is NOT a secondary activity?",
+    "options": {
+      "a": "Mining for coal",
+      "b": "Assembling automobiles",
+      "c": "Constructing a bridge",
+      "d": "Refining crude oil"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Tertiary activities provide essential support to both primary and secondary sectors. They encompass services such as transport, trade, banking, insurance, and advertising. These activities facilitate the smooth functioning of the economy. Which of the following best represents a tertiary activity?",
+    "options": {
+      "a": "Growing rice in a paddy field",
+      "b": "Operating a call center for customer support",
+      "c": "Extracting iron ore from a mine",
+      "d": "Processing raw cotton into fabric"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Agriculture, a primary activity, involves growing crops, fruits, vegetables, flowers, and rearing livestock. It plays a crucial role in the global economy, with 50% of the world's population engaged in it. In India, two-thirds of the population still depends on agriculture. Which statement about agriculture is incorrect?",
+    "options": {
+      "a": "It is a tertiary activity",
+      "b": "It involves rearing livestock",
+      "c": "It includes growing crops",
+      "d": "It is a primary activity"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Arable land refers to the land suitable for growing crops. The distribution of arable land across the globe is influenced by factors such as topography, soil quality, and climate. Agricultural activity tends to concentrate in regions with favorable conditions for crop growth. Which factor is least likely to influence the distribution of arable land?",
+    "options": {
+      "a": "Proximity to urban centers",
+      "b": "Soil fertility",
+      "c": "Availability of water",
+      "d": "Climate conditions"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Sericulture involves the commercial rearing of silkworms to produce silk. This practice can supplement the income of farmers. It is a specialized form of agriculture that requires specific knowledge and techniques. Which of the following best describes sericulture?",
+    "options": {
+      "a": "Breeding of fish in ponds",
+      "b": "Cultivation of grapes",
+      "c": "Rearing of silkworms",
+      "d": "Growing vegetables for commercial use"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Pisciculture is the controlled breeding of fish in specially constructed tanks and ponds. It is a form of aquaculture that contributes to food production and can provide economic benefits to farmers. Which of the following statements about pisciculture is accurate?",
+    "options": {
+      "a": "It involves the cultivation of grapes",
+      "b": "It is the practice of rearing silkworms",
+      "c": "It is the breeding of fish in controlled environments",
+      "d": "It involves growing flowers for commercial purposes"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Viticulture is the specialized cultivation of grapes, primarily for wine production. It requires specific climatic conditions and careful management practices to ensure high-quality grape yields. Which of the following is the primary focus of viticulture?",
+    "options": {
+      "a": "Growing vegetables",
+      "b": "Cultivating grapes",
+      "c": "Rearing livestock",
+      "d": "Breeding fish"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Horticulture involves the cultivation of vegetables, flowers, and fruits, often for commercial purposes. It is a branch of agriculture that focuses on high-value crops and requires specialized knowledge and techniques. Which of the following best defines horticulture?",
+    "options": {
+      "a": "Rearing of silkworms",
+      "b": "Breeding of fish",
+      "c": "Growing vegetables, flowers, and fruits",
+      "d": "Cultivation of grapes"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Subsistence farming is a type of agriculture where farmers focus on growing enough food to meet the needs of their families. It typically involves low levels of technology and household labor, resulting in small outputs. Which of the following is NOT a characteristic of subsistence farming?",
+    "options": {
+      "a": "High levels of technology",
+      "b": "Production primarily for family consumption",
+      "c": "Use of household labor",
+      "d": "Small output"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Shifting cultivation, also known as 'slash and burn' agriculture, is practiced in forested areas. It involves clearing a plot of land, burning the vegetation, and cultivating crops for a few years before moving to a new plot. This practice is common in regions with heavy rainfall and rapid vegetation regeneration. Which of the following is a characteristic of shifting cultivation?",
+    "options": {
+      "a": "Permanent land use",
+      "b": "High crop yields",
+      "c": "Movement to new plots after soil fertility declines",
+      "d": "Use of advanced machinery"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Nomadic herding is a type of farming where herdsmen move with their animals from place to place in search of fodder and water. This practice is common in arid and semi-arid regions, such as parts of Sahara and Central Asia. Which of the following best describes nomadic herding?",
+    "options": {
+      "a": "Cultivation of crops on a fixed plot of land",
+      "b": "Movement of herdsmen and animals in search of resources",
+      "c": "Use of advanced irrigation techniques",
+      "d": "Production of crops for commercial sale"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Commercial farming is characterized by the production of crops and the rearing of animals for sale in the market. It typically involves large areas of land, significant capital investment, and the use of machinery. Which of the following is a key feature of commercial farming?",
+    "options": {
+      "a": "Production primarily for family consumption",
+      "b": "Low levels of technology",
+      "c": "Production for sale in the market",
+      "d": "Use of household labor"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Agricultural development refers to efforts aimed at increasing farm production to meet the growing demands of an expanding population. This can be achieved through various means, such as increasing the cropped area, improving irrigation, using fertilizers, and adopting high-yielding variety seeds. What is the ultimate goal of agricultural development?",
+    "options": {
+      "a": "Maximizing farmer profits",
+      "b": "Enhancing food security",
+      "c": "Expanding agricultural exports",
+      "d": "Promoting industrial growth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer in a tropical region wants to cultivate a crop that requires high temperatures, high humidity, and can grow in alluvial clayey soil. Which crop is most suitable?",
+    "options": {
+      "a": "Wheat",
+      "b": "Rice",
+      "c": "Maize",
+      "d": "Cotton"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer wants to practice a method of farming that involves clearing land by felling and burning trees, then mixing the ashes with the soil to grow crops. What is this method called?",
+    "options": {
+      "a": "Crop rotation",
+      "b": "Shifting cultivation",
+      "c": "Terrace farming",
+      "d": "Contour plowing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A region experiences severe winters that restrict the growing season. Which type of commercial farming is most likely to be practiced there?",
+    "options": {
+      "a": "Plantation agriculture",
+      "b": "Grain farming",
+      "c": "Mixed farming",
+      "d": "Dairy farming"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer wants to grow a crop known as the \"Golden Fibre\" that thrives in tropical areas with high temperatures and heavy rainfall. Which crop is he planning to cultivate?",
+    "options": {
+      "a": "Cotton",
+      "b": "Jute",
+      "c": "Silk",
+      "d": "Wool"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a farmer wants to cultivate a crop that is also known as corn and requires well-drained fertile soils and a lot of sunshine, which crop should he choose?",
+    "options": {
+      "a": "Rice",
+      "b": "Wheat",
+      "c": "Maize",
+      "d": "Millets"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer is looking for a crop that requires cool climate, well-distributed high rainfall throughout the year, and is grown on plantations. Which crop fits this description?",
+    "options": {
+      "a": "Coffee",
+      "b": "Tea",
+      "c": "Rubber",
+      "d": "Cotton"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer wants to adopt a farming system where he can grow food and fodder crops and also rear livestock on the same land. What type of farming should he practice?",
+    "options": {
+      "a": "Shifting cultivation",
+      "b": "Mixed farming",
+      "c": "Plantation agriculture",
+      "d": "Intensive subsistence"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A government wants to improve food security by increasing the cropped area, improving irrigation, and promoting the use of high-yielding variety seeds. What is this process called?",
+    "options": {
+      "a": "Industrialization",
+      "b": "Agricultural development",
+      "c": "Urbanization",
+      "d": "Commercialization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is agriculture considered a primary activity, while baking bread is considered a secondary activity?",
+    "options": {
+      "a": "Agriculture involves less manual labor",
+      "b": "Agriculture deals with natural resources directly",
+      "c": "Baking bread requires more advanced technology",
+      "d": "Baking bread is more profitable"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is shifting cultivation considered unsustainable in the long run?",
+    "options": {
+      "a": "It leads to deforestation and soil degradation",
+      "b": "It requires a large amount of labor",
+      "c": "It is not profitable",
+      "d": "It is only suitable for certain climates"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why is nomadic herding more prevalent in arid and semi-arid regions?",
+    "options": {
+      "a": "These regions have fertile soil",
+      "b": "These regions have abundant rainfall",
+      "c": "These regions have limited vegetation and water resources",
+      "d": "These regions have advanced infrastructure"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why are commercial grain farms typically large and mechanized?",
+    "options": {
+      "a": "To maximize profits and efficiency",
+      "b": "To provide employment to a large workforce",
+      "c": "To minimize environmental impact",
+      "d": "To produce a wide variety of crops"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why is plantation agriculture often associated with colonial history?",
+    "options": {
+      "a": "Plantations were established by indigenous populations",
+      "b": "Plantations were used to grow subsistence crops",
+      "c": "Plantations were established by colonial powers to produce cash crops",
+      "d": "Plantations were environmentally friendly"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why does rice cultivation require a significant amount of water?",
+    "options": {
+      "a": "Rice plants have deep roots",
+      "b": "Rice plants need water for photosynthesis",
+      "c": "Rice is grown in flooded fields to control weeds and pests",
+      "d": "Rice is a tropical crop that needs high humidity"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is wheat considered a temperate crop, while rice is considered a tropical crop?",
+    "options": {
+      "a": "Wheat requires less water than rice",
+      "b": "Wheat has a shorter growing season than rice",
+      "c": "Wheat thrives in moderate temperatures, while rice requires high temperatures",
+      "d": "Wheat is grown for commercial purposes, while rice is grown for subsistence"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is crop rotation important for maintaining soil fertility?",
+    "options": {
+      "a": "It increases the use of chemical fertilizers",
+      "b": "It helps to break pest and disease cycles and improves soil structure",
+      "c": "It allows farmers to grow the same crop continuously",
+      "d": "It reduces the need for irrigation"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why do farmers in the USA generally have larger farms compared to farmers in India?",
+    "options": {
+      "a": "Farmers in the USA are wealthier",
+      "b": "The USA has a larger population",
+      "c": "The USA has more arable land and a lower population density",
+      "d": "Farmers in India prefer smaller farms"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is food security a critical issue for developing countries with large populations?",
+    "options": {
+      "a": "Developing countries have advanced agricultural technology",
+      "b": "Developing countries often face challenges in ensuring adequate food supply for their growing populations",
+      "c": "Developing countries have surplus food production",
+      "d": "Developing countries have small populations"
+    },
+    "answer": "b"
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "question": "The French society, before 1789, is often referred to as the...",
+    "options": {
+      "a": "Medieval Era",
+      "b": "Renaissance Period",
+      "c": "Old Regime",
+      "d": "Enlightenment Age"
+    },
+    "answer": "c",
+    "id": 918
+  },
+  {
+    "question": "What was the name of the tax levied by the Church in France during the Old Regime?",
+    "options": {
+      "a": "Taille",
+      "b": "Tithe",
+      "c": "Livre",
+      "d": "Subsistence"
+    },
+    "answer": "b",
+    "id": 919
+  },
+  {
+    "question": "Which of these was NOT a factor contributing to the French Revolution?",
+    "options": {
+      "a": "Empty treasury",
+      "b": "Extravagant court",
+      "c": "American Revolution",
+      "d": "Industrial Revolution"
+    },
+    "answer": "d",
+    "id": 920
+  },
+  {
+    "question": "The event where angry women stormed shops demanding bread is an example of...",
+    "options": {
+      "a": "Political uprising",
+      "b": "Subsistence crisis",
+      "c": "Class struggle",
+      "d": "Gender inequality"
+    },
+    "answer": "b",
+    "id": 921
+  },
+  {
+    "question": "The French philosophers drew inspiration for revolution from...",
+    "options": {
+      "a": "The American Revolution",
+      "b": "The Industrial Revolution",
+      "c": "The Renaissance",
+      "d": "The Protestant Reformation"
+    },
+    "answer": "a",
+    "id": 922
+  },
+  {
+    "question": "Who proposed the division of power within the government?",
+    "options": {
+      "a": "John Locke",
+      "b": "Jean Jacques Rousseau",
+      "c": "Montesquieu",
+      "d": "Voltaire"
+    },
+    "answer": "c",
+    "id": 923
+  },
+  {
+    "question": "The Estates General was called to order by Louis XVI in...",
+    "options": {
+      "a": "1774",
+      "b": "1789",
+      "c": "1791",
+      "d": "1793"
+    },
+    "answer": "b",
+    "id": 924
+  },
+  {
+    "question": "The demand of the Third Estate regarding voting in the Estates General was based on the principle of...",
+    "options": {
+      "a": "Divine right",
+      "b": "Social contract",
+      "c": "Feudal privilege",
+      "d": "Constitutional monarchy"
+    },
+    "answer": "b",
+    "id": 925
+  },
+  {
+    "question": "The Tennis Court Oath was taken by...",
+    "options": {
+      "a": "The First Estate",
+      "b": "The Second Estate",
+      "c": "The Third Estate",
+      "d": "All three Estates"
+    },
+    "answer": "c",
+    "id": 926
+  },
+  {
+    "question": "Which event marked the beginning of the French Revolution?",
+    "options": {
+      "a": "Execution of Louis XVI",
+      "b": "Tennis Court Oath",
+      "c": "Storming of the Bastille",
+      "d": "Women's march to Versailles"
+    },
+    "answer": "c",
+    "id": 927
+  },
+  {
+    "question": "The Bastille was seen as a symbol of...",
+    "options": {
+      "a": "Royal power",
+      "b": "Feudal privilege",
+      "c": "Clerical authority",
+      "d": "Popular sovereignty"
+    },
+    "answer": "a",
+    "id": 928
+  },
+  {
+    "question": "The Great Fear refers to...",
+    "options": {
+      "a": "The Reign of Terror",
+      "b": "Peasant uprisings in the countryside",
+      "c": "The execution of Louis XVI",
+      "d": "Napoleon's rise to power"
+    },
+    "answer": "b",
+    "id": 929
+  },
+  {
+    "question": "The main objective of the Constitution of 1791 was to...",
+    "options": {
+      "a": "Abolish the monarchy",
+      "b": "Establish a republic",
+      "c": "Limit the powers of the monarch",
+      "d": "Give voting rights to all"
+    },
+    "answer": "c",
+    "id": 930
+  },
+  {
+    "question": "France was declared a republic in...",
+    "options": {
+      "a": "1789",
+      "b": "1791",
+      "c": "1792",
+      "d": "1793"
+    },
+    "answer": "c",
+    "id": 931
+  },
+  {
+    "question": "Which of these is NOT a principle enshrined in the Declaration of the Rights of Man and Citizen?",
+    "options": {
+      "a": "Freedom of speech",
+      "b": "Right to property",
+      "c": "Equality before law",
+      "d": "Absolute monarchy"
+    },
+    "answer": "d",
+    "id": 932
+  },
+  {
+    "question": "Who were considered 'active' citizens under the Constitution of 1791?",
+    "options": {
+      "a": "All men",
+      "b": "Men above 25 years who paid taxes",
+      "c": "All women",
+      "d": "Nobles and clergy"
+    },
+    "answer": "b",
+    "id": 933
+  },
+  {
+    "question": "The Reign of Terror was led by...",
+    "options": {
+      "a": "Louis XVI",
+      "b": "Mirabeau",
+      "c": "Robespierre",
+      "d": "Napoleon"
+    },
+    "answer": "c",
+    "id": 934
+  },
+  {
+    "question": "The device used for beheading people during the Reign of Terror was...",
+    "options": {
+      "a": "Guillotine",
+      "b": "Cannon",
+      "c": "Sword",
+      "d": "Axe"
+    },
+    "answer": "a",
+    "id": 935
+  },
+  {
+    "question": "Which of these measures was NOT implemented during the Reign of Terror?",
+    "options": {
+      "a": "Price control",
+      "b": "Abolition of slavery",
+      "c": "Closure of women's clubs",
+      "d": "Freedom of press"
+    },
+    "answer": "d",
+    "id": 936
+  },
+  {
+    "question": "The sans-culottes were...",
+    "options": {
+      "a": "Members of the Jacobin club",
+      "b": "Supporters of the monarchy",
+      "c": "Wealthy merchants",
+      "d": "Opponents of the revolution"
+    },
+    "answer": "a",
+    "id": 937
+  },
+  {
+    "question": "After the fall of the Jacobins, France was ruled by...",
+    "options": {
+      "a": "A king",
+      "b": "A Directory",
+      "c": "A republic",
+      "d": "Napoleon"
+    },
+    "answer": "b",
+    "id": 938
+  },
+  {
+    "question": "Which of these demands by women was NOT met by the revolutionary government?",
+    "options": {
+      "a": "Right to education",
+      "b": "Right to vote",
+      "c": "Right to divorce",
+      "d": "Right to work"
+    },
+    "answer": "b",
+    "id": 939
+  },
+  {
+    "question": "Who wrote the 'Declaration of the Rights of Woman and Citizen'?",
+    "options": {
+      "a": "Marie Antoinette",
+      "b": "Olympe de Gouges",
+      "c": "Jean-Paul Marat",
+      "d": "Camille Desmoulins"
+    },
+    "answer": "b",
+    "id": 940
+  },
+  {
+    "question": "The abolition of slavery in French colonies was first legislated in...",
+    "options": {
+      "a": "1789",
+      "b": "1791",
+      "c": "1794",
+      "d": "1848"
+    },
+    "answer": "c",
+    "id": 941
+  },
+  {
+    "question": "The triangular slave trade involved which continents?",
+    "options": {
+      "a": "Europe, Asia, Africa",
+      "b": "Europe, Africa, Americas",
+      "c": "Asia, Africa, Americas",
+      "d": "Europe, Asia, Americas"
+    },
+    "answer": "b",
+    "id": 942
+  },
+  {
+    "question": "Which of these was NOT a major change brought about by the revolution in everyday life?",
+    "options": {
+      "a": "Abolition of censorship",
+      "b": "Change in clothing",
+      "c": "End of feudal privileges",
+      "d": "Spread of revolutionary ideas"
+    },
+    "answer": "c",
+    "id": 943
+  },
+  {
+    "question": "Napoleon Bonaparte declared himself Emperor of France in...",
+    "options": {
+      "a": "1799",
+      "b": "1804",
+      "c": "1814",
+      "d": "1815"
+    },
+    "answer": "b",
+    "id": 944
+  },
+  {
+    "question": "Napoleon was finally defeated at the Battle of...",
+    "options": {
+      "a": "Versailles",
+      "b": "Bastille",
+      "c": "Waterloo",
+      "d": "Austerlitz"
+    },
+    "answer": "c",
+    "id": 945
+  },
+  {
+    "question": "Assertion: The French Revolution had a significant impact on the world. \nReasoning: It inspired movements for democracy and equality worldwide.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "id": 946
+  },
+  {
+    "question": "Two Sentence MCQ: The French Revolution was a complex event with multiple causes.\nWhich of the following options presents two accurate causes of the revolution?",
+    "options": {
+      "a": "Economic prosperity and the rise of the bourgeoisie.",
+      "b": "The Enlightenment ideals and the success of the American Revolution.",
+      "c": "The weakness of the French monarchy and the extravagance of the aristocracy.",
+      "d": "The influence of the Church and the power of the guilds."
+    },
+    "answer": "c",
+    "id": 947
+  },
+  {
+    "question": "What was the name of the French prison stormed on July 14, 1789, marking a turning point in the French Revolution?",
+    "options": {
+      "a": "Tuileries Palace",
+      "b": "Bastille",
+      "c": "Versailles",
+      "d": "Louvre"
+    },
+    "answer": "b",
+    "id": 948
+  },
+  {
+    "question": "Which Estate in French society was responsible for paying the majority of taxes before the revolution?",
+    "options": {
+      "a": "First Estate",
+      "b": "Second Estate",
+      "c": "Third Estate",
+      "d": "None of the above"
+    },
+    "answer": "c",
+    "id": 949
+  },
+  {
+    "question": "The economic hardship faced by the peasants and workers leading up to the French Revolution was exacerbated by...",
+    "options": {
+      "a": "Bumper harvests",
+      "b": "Industrial advancements",
+      "c": "Inflation and food shortages",
+      "d": "Foreign trade surplus"
+    },
+    "answer": "c",
+    "id": 950
+  },
+  {
+    "question": "Assertion: The French Revolutionaries were inspired by Enlightenment ideals. \nReasoning: Enlightenment thinkers advocated for the separation of powers and natural rights.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "id": 951
+  },
+  {
+    "question": "Two Sentence MCQ: The Declaration of the Rights of Man and Citizen was a cornerstone document of the French Revolution.\nWhat principle did it NOT guarantee?",
+    "options": {
+      "a": "Equality before the law",
+      "b": "Freedom of speech and religion",
+      "c": "Universal suffrage for men and women",
+      "d": "Protection of private property"
+    },
+    "answer": "c",
+    "id": 952
+  },
+  {
+    "question": "What symbolic act did members of the National Assembly take at a tennis court, vowing not to disband until they had created a new constitution for France?",
+    "options": {
+      "a": "Tennis Court Oath",
+      "b": "Bastille Day Oath",
+      "c": "Declaration of the Rights of Man",
+      "d": "March on Versailles"
+    },
+    "answer": "a",
+    "id": 953
+  },
+  {
+    "question": "The Reign of Terror, a period marked by extreme violence and political repression, aimed to eliminate opposition to the revolution. Who was the leading figure during this period?",
+    "options": {
+      "a": "Napoleon Bonaparte",
+      "b": "Louis XVI",
+      "c": "Maximilien Robespierre",
+      "d": "Olympe de Gouges"
+    },
+    "answer": "c",
+    "id": 954
+  },
+  {
+    "question": "Despite the progress made for women's rights during the French Revolution, what right did women still lack even after the revolution?",
+    "options": {
+      "a": "Right to education",
+      "b": "Right to divorce",
+      "c": "Right to own property",
+      "d": "Right to vote"
+    },
+    "answer": "d",
+    "id": 955
+  },
+  {
+    "question": "Napoleon Bonaparte's rise to power in France can be attributed to...",
+    "options": {
+      "a": "His royal lineage and claim to the throne",
+      "b": "The unwavering support of the aristocracy",
+      "c": "The political instability following the Reign of Terror",
+      "d": "His pacifist ideals and diplomatic skills"
+    },
+    "answer": "c",
+    "id": 956
+  },
+  {
+    "question": "What was the lasting impact of the French Revolution on the institution of slavery?",
+    "options": {
+      "a": "Slavery was permanently abolished in all French territories",
+      "b": "The revolution sparked abolitionist movements but faced setbacks",
+      "c": "The revolution had no impact on the debate surrounding slavery",
+      "d": "Slavery was expanded to new French colonies"
+    },
+    "answer": "b",
+    "id": 957
+  }
+]

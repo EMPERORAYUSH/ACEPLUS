@@ -1,0 +1,498 @@
+.history-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: calc(100vh - 4rem);
+}
+
+.history-header {
+  margin-bottom: 3rem;
+  position: relative;
+  text-align: center;
+}
+
+.history-header::after {
+  content: '';
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #2196F3, transparent);
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+.history-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #fff, #2196F3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 10px rgba(33, 150, 243, 0.2);
+}
+
+/* Stats Container */
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.stat-card:hover::before {
+  transform: translateX(100%);
+}
+
+.stat-card i {
+  font-size: 2.2rem;
+  color: #2196F3;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover i {
+  transform: scale(1.1);
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+/* Filter Tabs */
+.filter-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.filter-tab:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.filter-tab.active {
+  background: #2196F3;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+}
+
+/* Exam Grid */
+.exam-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Exam Card */
+.exam-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.exam-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s;
+}
+
+.exam-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(33, 150, 243, 0.5);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.exam-card:hover::before {
+  transform: translateX(100%);
+}
+
+.exam-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subject-icon {
+  width: 40px;
+  height: 40px;
+  background: #212121;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.subject-icon i {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.subject-icon:hover {
+  background: #2a2a2a;
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.exam-info {
+  flex: 1;
+}
+
+.exam-info h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.exam-date {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exam-date::before {
+  content: '•';
+  color: #2196F3;
+}
+
+/* Progress Ring */
+.progress-ring {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.progress-ring svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.progress-ring circle {
+  transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+/* Exam Details */
+.exam-card-details {
+  padding: 1.8rem;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.detail-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.detail-value {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.empty-state-icon {
+  font-size: 3rem;
+  color: #2196F3;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.empty-state h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.empty-state p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.1rem;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Skeleton Loading */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-circle {
+  width: 54px;
+  height: 54px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+}
+
+.skeleton-text {
+  height: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  margin: 0.25rem 0;
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.08),
+    transparent
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .history-container {
+    padding: 1rem;
+  }
+
+  .history-header h1 {
+    font-size: 2rem;
+  }
+
+  .stats-container {
+    gap: 1rem;
+  }
+
+  .stat-card {
+    padding: 1.2rem;
+  }
+
+  .exam-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .exam-card {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+  }
+
+  .exam-card-header {
+    padding: 1.2rem;
+  }
+
+  .exam-card-details {
+    padding: 1.2rem;
+  }
+
+  .detail-grid {
+    gap: 0.8rem;
+  }
+
+  .filter-tabs {
+    display: flex;
+    flex-wrap: nowrap;     /* Prevent wrapping */
+    overflow-x: auto;      /* Allow horizontal scroll if needed */
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;  /* Smooth scroll on iOS */
+  }
+
+  .filter-tab {
+    padding: 0.4rem;
+    font-size: 0.85rem;
+    flex: 0 0 auto;       /* Don't allow shrinking */
+    min-width: min-content;  /* Take minimum width needed */
+    white-space: nowrap;
+  }
+
+  .filter-tab .subject-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+  }
+
+  .filter-tab .subject-icon i {
+    font-size: 0.75rem;
+  }
+
+  .exam-card {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .history-container {
+    padding: 0.8rem;
+  }
+
+  .history-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .exam-card-header {
+    padding: 1rem;
+  }
+
+  .exam-card-details {
+    padding: 1rem;
+  }
+
+  .detail-grid {
+    gap: 0.6rem;
+  }
+}
+
+/* Filter Tab Icon Styles */
+.filter-tab .subject-icon {
+  width: 30px;
+  height: 30px;
+  background: #212121;
+  margin-right: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filter-tab .subject-icon i {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.filter-tab:hover .subject-icon {
+  background: #2a2a2a;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-tab.active .subject-icon {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-tab.active .subject-icon i {
+  color: white;
+}

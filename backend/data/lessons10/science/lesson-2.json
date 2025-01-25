@@ -1,0 +1,530 @@
+[
+  {
+    "question": "A student tests a solution with blue litmus paper. It turns red. He then adds excess sodium hydroxide solution. Which observation is most likely?",
+    "options": {
+      "a": "The solution turns colorless.",
+      "b": "The solution turns blue.",
+      "c": "The solution remains red.",
+      "d": "The solution turns green."
+    },
+    "answer": "b",
+    "id": 1768
+  },
+  {
+    "question": "Which of the following is an olfactory indicator?",
+    "options": {
+      "a": "Methyl orange",
+      "b": "Phenolphthalein",
+      "c": "Clove oil",
+      "d": "Litmus"
+    },
+    "answer": "c",
+    "id": 1769
+  },
+  {
+    "question": "A metal 'X' reacts with cold water to form a base 'Y' and a gas 'Z'. 'Z' burns with a pop sound. Identify 'X', 'Y', and 'Z'.",
+    "options": {
+      "a": "X = Zinc, Y = Zinc hydroxide, Z = Oxygen",
+      "b": "X = Sodium, Y = Sodium hydroxide, Z = Hydrogen",
+      "c": "X = Magnesium, Y = Magnesium hydroxide, Z = Hydrogen",
+      "d": "X = Calcium, Y = Calcium hydroxide, Z = Oxygen"
+    },
+    "answer": "b",
+    "id": 1770
+  },
+  {
+    "question": "A strong acid has a pH of approximately:",
+    "options": {
+      "a": "1",
+      "b": "7",
+      "c": "13",
+      "d": "14"
+    },
+    "answer": "a",
+    "id": 1771
+  },
+  {
+    "question": "A salt formed by the reaction of a strong acid and a weak base will have a pH:",
+    "options": {
+      "a": "Less than 7",
+      "b": "Equal to 7",
+      "c": "Greater than 7",
+      "d": "Cannot be determined"
+    },
+    "answer": "a",
+    "id": 1772
+  },
+  {
+    "question": "Assertion: Calcium hydroxide is used to neutralize acidic soil. Reason: Calcium hydroxide is a base.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+      "b": "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Assertion is false, but the reason is true."
+    },
+    "answer": "a",
+    "id": 1773
+  },
+  {
+    "question": "Assertion: Non-metallic oxides are acidic in nature. Reason: Non-metallic oxides dissolve in water to form acids.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+      "b": "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Assertion is false, but the reason is true."
+    },
+    "answer": "a",
+    "id": 1774
+  },
+  {
+    "question": "A farmer finds that his soil is too alkaline. Which of the following substances should he add to the soil to neutralize it?",
+    "options": {
+      "a": "Quicklime (CaO)",
+      "b": "Slaked lime [Ca(OH)2]",
+      "c": "Organic manure",
+      "d": "Gypsum (CaSO4.2H2O)"
+    },
+    "answer": "c",
+    "id": 1775
+  },
+  {
+    "question": "The pH of a solution increases from 3 to 6. How does the hydrogen ion concentration change?",
+    "options": {
+      "a": "Increases 3 times",
+      "b": "Decreases 3 times",
+      "c": "Increases 1000 times",
+      "d": "Decreases 1000 times"
+    },
+    "answer": "d",
+    "id": 1776
+  },
+  {
+    "question": "What happens when a piece of granulated zinc is added to sodium hydroxide solution and heated?",
+    "options": {
+      "a": "Zinc dissolves, and hydrogen gas is evolved.",
+      "b": "Zinc dissolves, and oxygen gas is evolved.",
+      "c": "Zinc does not dissolve.",
+      "d": "Zinc dissolves, and chlorine gas is evolved."
+    },
+    "answer": "a",
+    "id": 1777
+  },
+  {
+    "question": "Which of the following is NOT a property of acids?",
+    "options": {
+      "a": "Turns blue litmus red",
+      "b": "Reacts with metals to produce hydrogen gas",
+      "c": "Reacts with bases to form salt and water",
+      "d": "Turns phenolphthalein pink"
+    },
+    "answer": "d",
+    "id": 1778
+  },
+  {
+    "question": "A student adds dilute hydrochloric acid to a test tube containing marble chips. Which gas is produced?",
+    "options": {
+      "a": "Hydrogen",
+      "b": "Oxygen",
+      "c": "Carbon dioxide",
+      "d": "Nitrogen"
+    },
+    "answer": "c",
+    "id": 1779
+  },
+  {
+    "question": "Baking soda is used in fire extinguishers because it:",
+    "options": {
+      "a": "Is a strong acid.",
+      "b": "Reacts with acid to produce carbon dioxide.",
+      "c": "Neutralizes the fire.",
+      "d": "Is a good conductor of heat."
+    },
+    "answer": "b",
+    "id": 1780
+  },
+  {
+    "question": "Assertion: Sodium chloride is a neutral salt. Reason: It is formed by the reaction of a strong acid and a strong base.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+      "b": "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Assertion is false, but the reason is true."
+    },
+    "answer": "a",
+    "id": 1781
+  },
+  {
+    "question": "Which of the following is a use of bleaching powder?",
+    "options": {
+      "a": "Making baking powder",
+      "b": "Neutralizing stomach acid",
+      "c": "Bleaching cotton and linen",
+      "d": "Making soap"
+    },
+    "answer": "c",
+    "id": 1782
+  },
+  {
+    "question": "Which of the following is a strong acid?",
+    "options": {
+      "a": "Acetic acid (CH3COOH)",
+      "b": "Hydrochloric acid (HCl)",
+      "c": "Citric acid (C6H8O7)",
+      "d": "Carbonic acid (H2CO3)"
+    },
+    "answer": "b",
+    "id": 1783
+  },
+  {
+    "question": "Which of the following is a weak base?",
+    "options": {
+      "a": "Sodium hydroxide (NaOH)",
+      "b": "Potassium hydroxide (KOH)",
+      "c": "Ammonium hydroxide (NH4OH)",
+      "d": "Calcium hydroxide [Ca(OH)2]"
+    },
+    "answer": "c",
+    "id": 1784
+  },
+  {
+    "question": "The chemical formula of Plaster of Paris is:",
+    "options": {
+      "a": "CaSO4.2H2O",
+      "b": "CaSO4.1/2H2O",
+      "c": "CaCO3",
+      "d": "Na2CO3.10H2O"
+    },
+    "answer": "b",
+    "id": 1785
+  },
+  {
+    "question": "Which of the following is used as an antacid?",
+    "options": {
+      "a": "Baking soda (NaHCO3)",
+      "b": "Washing soda (Na2CO3.10H2O)",
+      "c": "Bleaching powder (CaOCl2)",
+      "d": "Plaster of Paris (CaSO4.1/2H2O)"
+    },
+    "answer": "a",
+    "id": 1786
+  },
+  {
+    "question": "Assertion: Universal indicator is a mixture of several indicators. Reason: It shows different colours at different pH values.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+      "b": "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Assertion is false, but the reason is true."
+    },
+    "answer": "a",
+    "id": 1787
+  },
+  {
+    "question": "A student adds a few drops of universal indicator to a colorless solution. The solution turns blue. What can be inferred about the solution?",
+    "options": {
+      "a": "It is acidic.",
+      "b": "It is neutral.",
+      "c": "It is basic.",
+      "d": "It is a salt solution."
+    },
+    "answer": "c",
+    "id": 1788
+  },
+  {
+    "question": "What is the pH of pure water?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "7",
+      "d": "14"
+    },
+    "answer": "c",
+    "id": 1789
+  },
+  {
+    "question": "Which of the following salts is formed by the reaction of a strong acid and a strong base?",
+    "options": {
+      "a": "Sodium carbonate (Na2CO3)",
+      "b": "Sodium chloride (NaCl)",
+      "c": "Ammonium chloride (NH4Cl)",
+      "d": "Sodium acetate (CH3COONa)"
+    },
+    "answer": "b",
+    "id": 1790
+  },
+  {
+    "question": "A student takes two solutions, X and Y. Solution X turns blue litmus red, while solution Y turns red litmus blue. Which of the following statements is correct?",
+    "options": {
+      "a": "Solution X is basic, and solution Y is acidic.",
+      "b": "Solution X is acidic, and solution Y is basic.",
+      "c": "Both solutions X and Y are acidic.",
+      "d": "Both solutions X and Y are basic."
+    },
+    "answer": "b",
+    "id": 1791
+  },
+  {
+    "question": "Which gas is produced when zinc reacts with dilute hydrochloric acid?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Hydrogen",
+      "c": "Carbon dioxide",
+      "d": "Chlorine"
+    },
+    "answer": "b",
+    "id": 1792
+  },
+  {
+    "question": "Which of the following is a property of bases?",
+    "options": {
+      "a": "Sour taste",
+      "b": "Turns blue litmus red",
+      "c": "Soapy to touch",
+      "d": "Reacts with metals to produce hydrogen gas"
+    },
+    "answer": "c",
+    "id": 1793
+  },
+  {
+    "question": "What is the process of dissolving an acid or base in water called?",
+    "options": {
+      "a": "Neutralization",
+      "b": "Dilution",
+      "c": "Crystallization",
+      "d": "Sublimation"
+    },
+    "answer": "b",
+    "id": 1794
+  },
+  {
+    "question": "Assertion: Acids react with metal oxides to form salt and water. Reason: Metal oxides are basic in nature.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+      "b": "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Assertion is false, but the reason is true."
+    },
+    "answer": "a",
+    "id": 1795
+  },
+  {
+    "question": "Which gas is produced when a metal carbonate reacts with an acid?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Hydrogen",
+      "c": "Carbon dioxide",
+      "d": "Nitrogen"
+    },
+    "answer": "c",
+    "id": 1798
+  },
+  {
+    "question": "A solution has a pH of 3. Which of the following is true about the solution?",
+    "options": {
+      "a": "It is neutral.",
+      "b": "It is basic.",
+      "c": "It is weakly acidic.",
+      "d": "It is strongly acidic."
+    },
+    "answer": "d",
+    "id": 1799
+  },
+  {
+    "question": "The reaction between an acid and a base is called:",
+    "options": {
+      "a": "Neutralization",
+      "b": "Dilution",
+      "c": "Crystallization",
+      "d": "Sublimation"
+    },
+    "answer": "a",
+    "id": 1800
+  },
+  {
+    "question": "Which of the following is NOT a salt?",
+    "options": {
+      "a": "Sodium chloride (NaCl)",
+      "b": "Potassium nitrate (KNO3)",
+      "c": "Sodium hydroxide (NaOH)",
+      "d": "Calcium sulphate (CaSO4)"
+    },
+    "answer": "c",
+    "id": 1801
+  },
+  {
+    "question": "Assertion: pH of rain water is less than 5.6. Reason: Acid rain is harmful for aquatic life.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+      "b": "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Assertion is false, but the reason is true."
+    },
+    "answer": "b",
+    "id": 1802
+  },
+  {
+    "question": "What happens to the concentration of hydroxide ions (OH-) when excess base is dissolved in a solution of sodium hydroxide?",
+    "options": {
+      "a": "Increases",
+      "b": "Decreases",
+      "c": "Remains the same",
+      "d": "Becomes zero"
+    },
+    "answer": "a",
+    "id": 1803
+  },
+  {
+    "question": "Which of the following is used for bleaching cotton and linen in the textile industry?",
+    "options": {
+      "a": "Baking soda",
+      "b": "Washing soda",
+      "c": "Bleaching powder",
+      "d": "Plaster of Paris"
+    },
+    "answer": "c",
+    "id": 1804
+  },
+  {
+    "question": "Which gas is evolved when sodium hydrogencarbonate is heated?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Hydrogen",
+      "c": "Carbon dioxide",
+      "d": "Nitrogen"
+    },
+    "answer": "c",
+    "id": 1805
+  },
+  {
+    "question": "A solution turns phenolphthalein pink. What can be inferred about the solution?",
+    "options": {
+      "a": "It is acidic.",
+      "b": "It is neutral.",
+      "c": "It is basic.",
+      "d": "It is a salt solution."
+    },
+    "answer": "c",
+    "id": 1806
+  },
+  {
+    "question": "Which of the following is a strong base?",
+    "options": {
+      "a": "Ammonium hydroxide",
+      "b": "Sodium hydroxide",
+      "c": "Acetic acid",
+      "d": "Citric acid"
+    },
+    "answer": "b",
+    "id": 1807
+  },
+  {
+    "question": "Which of the following is a weak acid?",
+    "options": {
+      "a": "Hydrochloric acid",
+      "b": "Sulphuric acid",
+      "c": "Acetic acid",
+      "d": "Nitric acid"
+    },
+    "answer": "c",
+    "id": 1808
+  },
+  {
+    "question": "What is the chemical name of baking soda?",
+    "options": {
+      "a": "Sodium carbonate",
+      "b": "Sodium bicarbonate",
+      "c": "Sodium chloride",
+      "d": "Sodium hydroxide"
+    },
+    "answer": "b",
+    "id": 1809
+  },
+  {
+    "question": "Which of the following is used to make drinking water free from germs?",
+    "options": {
+      "a": "Baking soda",
+      "b": "Bleaching powder",
+      "c": "Washing soda",
+      "d": "Plaster of Paris"
+    },
+    "answer": "b",
+    "id": 1810
+  },
+  {
+    "question": "What is the pH range of a neutral solution?",
+    "options": {
+      "a": "0-3",
+      "b": "4-6",
+      "c": "7",
+      "d": "8-14"
+    },
+    "answer": "c",
+    "id": 1811
+  },
+  {
+    "question": "Assertion: Curd and sour substances should not be kept in brass and copper vessels. Reason: They react with the metal to produce poisonous substances.",
+    "options": {
+      "a": "Both assertion and reason are true, and the reason is the correct explanation of the assertion.",
+      "b": "Both assertion and reason are true, but the reason is not the correct explanation of the assertion.",
+      "c": "Assertion is true, but the reason is false.",
+      "d": "Assertion is false, but the reason is true."
+    },
+    "answer": "a",
+    "id": 1812
+  },
+  {
+    "question": "What is the color of copper sulphate after heating?",
+    "options": {
+      "a": "Blue",
+      "b": "White",
+      "c": "Green",
+      "d": "Brown"
+    },
+    "answer": "b",
+    "id": 1814
+  },
+  {
+    "question": "What happens when water is added to Plaster of Paris?",
+    "options": {
+      "a": "It turns into a hard solid mass.",
+      "b": "It dissolves.",
+      "c": "It releases carbon dioxide.",
+      "d": "It changes color."
+    },
+    "answer": "a",
+    "id": 1815
+  },
+  {
+    "question": "Which of the following is NOT a use of Plaster of Paris?",
+    "options": {
+      "a": "Making toys",
+      "b": "Making materials for decoration",
+      "c": "Making surfaces smooth",
+      "d": "Removing permanent hardness of water"
+    },
+    "answer": "d",
+    "id": 1816
+  },
+  {
+    "question": "Which of the following is a salt of a strong acid and a weak base?",
+    "options": {
+      "a": "Sodium chloride",
+      "b": "Ammonium chloride",
+      "c": "Sodium carbonate",
+      "d": "Sodium acetate"
+    },
+    "answer": "b",
+    "id": 1817
+  },
+  {
+    "question": "A solution has a pH of 10.  Is the solution acidic, basic, or neutral?",
+    "options": {
+      "a": "Acidic",
+      "b": "Basic",
+      "c": "Neutral",
+      "d": "Cannot be determined"
+    },
+    "answer": "b",
+    "id": 1818
+  }
+]

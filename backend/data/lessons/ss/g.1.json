@@ -1,0 +1,189 @@
+[
+  {
+    "question": "What is India's rank in the world based on land area?",
+    "options": {
+      "a": "Second",
+      "b": "Fifth",
+      "c": "Seventh",
+      "d": "Tenth"
+    },
+    "answer": "c",
+    "id": 815
+  },
+  {
+    "question": "Which line of latitude roughly divides India into two equal halves?",
+    "options": {
+      "a": "Equator",
+      "b": "Tropic of Cancer",
+      "c": "Tropic of Capricorn",
+      "d": "Arctic Circle"
+    },
+    "answer": "b",
+    "id": 816
+  },
+  {
+    "question": "What is the approximate longitudinal extent of mainland India?",
+    "options": {
+      "a": "10°",
+      "b": "20°",
+      "c": "30°",
+      "d": "40°"
+    },
+    "answer": "c",
+    "id": 817
+  },
+  {
+    "question": "Which Indian state is closest to the northernmost point of the country?",
+    "options": {
+      "a": "Himachal Pradesh",
+      "b": "Jammu and Kashmir",
+      "c": "Uttarakhand",
+      "d": "Sikkim"
+    },
+    "answer": "b",
+    "id": 818
+  },
+  {
+    "question": "What is the time difference between Gujarat and Arunachal Pradesh?",
+    "options": {
+      "a": "30 minutes",
+      "b": "1 hour",
+      "c": "1.5 hours",
+      "d": "2 hours"
+    },
+    "answer": "d",
+    "id": 819
+  },
+  {
+    "question": "Why does the time difference between Gujarat and Arunachal Pradesh exist?",
+    "options": {
+      "a": "Earth's rotation",
+      "b": "Earth's revolution",
+      "c": "Gravitational pull",
+      "d": "Magnetic field variation"
+    },
+    "answer": "a",
+    "id": 820
+  },
+  {
+    "question": "Which city does the Standard Meridian of India pass through?",
+    "options": {
+      "a": "New Delhi",
+      "b": "Mirzapur",
+      "c": "Nagpur",
+      "d": "Hyderabad"
+    },
+    "answer": "b",
+    "id": 821
+  },
+  {
+    "question": "What is the significance of the Suez Canal for India?",
+    "options": {
+      "a": "Connects India to Southeast Asia",
+      "b": "Shortens the sea route to Europe",
+      "c": "Provides a land route to Central Asia",
+      "d": "Separates India from Sri Lanka"
+    },
+    "answer": "b",
+    "id": 822
+  },
+  {
+    "question": "Which island nation lies to the south of Lakshadweep Islands?",
+    "options": {
+      "a": "Sri Lanka",
+      "b": "Maldives",
+      "c": "Mauritius",
+      "d": "Seychelles"
+    },
+    "answer": "b",
+    "id": 823
+  },
+  {
+    "question": "Which water body separates India and Sri Lanka?",
+    "options": {
+      "a": "Gulf of Kutch",
+      "b": "Palk Strait",
+      "c": "Gulf of Mannar",
+      "d": "Bay of Bengal"
+    },
+    "answer": "b",
+    "id": 824
+  },
+  {
+    "question": "What type of mountains are found in the north of India?",
+    "options": {
+      "a": "Volcanic",
+      "b": "Fold",
+      "c": "Block",
+      "d": "Residual"
+    },
+    "answer": "b",
+    "id": 825
+  },
+  {
+    "question": "Which of these countries does NOT have a coastline?",
+    "options": {
+      "a": "Myanmar",
+      "b": "Bangladesh",
+      "c": "Nepal",
+      "d": "Sri Lanka"
+    },
+    "answer": "c",
+    "id": 826
+  },
+  {
+    "question": "What type of government did the Princely States in India have before 1947?",
+    "options": {
+      "a": "Democratic",
+      "b": "Republic",
+      "c": "Monarchy",
+      "d": "Dictatorship"
+    },
+    "answer": "c",
+    "id": 827
+  },
+  {
+    "question": "Which of these is NOT a neighboring country of India?",
+    "options": {
+      "a": "Pakistan",
+      "b": "Iran",
+      "c": "Bhutan",
+      "d": "China"
+    },
+    "answer": "b",
+    "id": 828
+  },
+  {
+    "question": "Which of these ancient Indian concepts is believed to have spread to other parts of the world?",
+    "options": {
+      "a": "The Feudal System",
+      "b": "The Decimal System",
+      "c": "The Concept of Zero",
+      "d": "Both b and c"
+    },
+    "answer": "d",
+    "id": 829
+  },
+  {
+    "question": "Which of these architectural styles shows foreign influence on India?",
+    "options": {
+      "a": "Domes and Minarets",
+      "b": "Rock-cut Temples",
+      "c": "Stepwells",
+      "d": "Dravidian Architecture"
+    },
+    "answer": "a",
+    "id": 830
+  },
+  {
+    "question": "Which of these island groups is located in the Arabian Sea?",
+    "options": {
+      "a": "Andaman and Nicobar Islands",
+      "b": "Lakshadweep Islands",
+      "c": "Andhra Pradesh",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "id": 831
+  }
+]

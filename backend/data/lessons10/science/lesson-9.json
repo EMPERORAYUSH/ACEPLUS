@@ -1,0 +1,552 @@
+[
+  {
+    "question": "An object is placed 15 cm in front of a concave mirror of focal length 10 cm. What is the nature and position of the image?",
+    "options": {
+      "a": "Real and inverted, 30 cm in front of the mirror",
+      "b": "Virtual and erect, 30 cm behind the mirror",
+      "c": "Real and inverted, 6 cm in front of the mirror",
+      "d": "Virtual and erect, 6 cm behind the mirror"
+    },
+    "answer": "a",
+    "id": 2038
+  },
+  {
+    "question": "A convex lens of power +4 D is in contact with a concave lens of power -2 D. The combined power of the lens combination is:",
+    "options": {
+      "a": "+2 D",
+      "b": "-2 D",
+      "c": "+6 D",
+      "d": "-6 D"
+    },
+    "answer": "a",
+    "id": 2039
+  },
+  {
+    "question": "Why are convex mirrors preferred over plane mirrors for rearview mirrors in vehicles?",
+    "options": {
+      "a": "They produce larger images.",
+      "b": "They provide a wider field of view.",
+      "c": "They produce inverted images.",
+      "d": "They produce virtual images."
+    },
+    "answer": "b",
+    "id": 2041
+  },
+  {
+    "question": "Two lenses of power +2.0 D and +0.5 D are placed in contact. The effective power of the combination is:",
+    "options": {
+      "a": "0.75 D",
+      "b": "1.5 D",
+      "c": "2.5 D",
+      "d": "4.0 D"
+    },
+    "answer": "c",
+    "id": 2042
+  },
+  {
+    "question": "An object is placed 20 cm in front of a convex mirror of focal length 15 cm. Find the position and nature of the image.",
+    "options": {
+      "a": "8.6 cm behind the mirror, virtual and erect",
+      "b": "8.6 cm in front of the mirror, real and inverted",
+      "c": "30 cm behind the mirror, virtual and erect",
+      "d": "30 cm in front of the mirror, real and inverted"
+    },
+    "answer": "a",
+    "id": 2043
+  },
+  {
+    "question": "A ray of light passes from air into a medium of refractive index √2. If the angle of incidence is 45°, the angle of refraction is:",
+    "options": {
+      "a": "30°",
+      "b": "45°",
+      "c": "60°",
+      "d": "90°"
+    },
+    "answer": "a",
+    "id": 2044
+  },
+  {
+    "question": "A real image formed by a concave mirror is twice the size of the object. If the object is placed at a distance of 15 cm from the mirror, the focal length of the mirror is:",
+    "options": {
+      "a": "5 cm",
+      "b": "10 cm",
+      "c": "15 cm",
+      "d": "20 cm"
+    },
+    "answer": "b",
+    "id": 2046
+  },
+  {
+    "question": "A convex lens of focal length 20 cm forms a real image of size equal to the object. The object distance is:",
+    "options": {
+      "a": "10 cm",
+      "b": "20 cm",
+      "c": "40 cm",
+      "d": "80 cm"
+    },
+    "answer": "c",
+    "id": 2047
+  },
+  {
+    "question": "Which type of mirror can form an image larger than the object?",
+    "options": {
+      "a": "Only plane mirror",
+      "b": "Only convex mirror",
+      "c": "Only concave mirror",
+      "d": "Both plane and convex mirrors"
+    },
+    "answer": "c",
+    "id": 2048
+  },
+  {
+    "question": "A convex lens forms a real and inverted image at a distance of 50 cm from the lens. The magnification produced by the lens is -1. The power of the lens is:",
+    "options": {
+      "a": "+2 D",
+      "b": "-2 D",
+      "c": "+4 D",
+      "d": "-4 D"
+    },
+    "answer": "c",
+    "id": 2049
+  },
+  {
+    "question": "Which of the following can be used to correct myopia?",
+    "options": {
+      "a": "Convex lens",
+      "b": "Concave lens",
+      "c": "Convex mirror",
+      "d": "Concave mirror"
+    },
+    "answer": "b",
+    "id": 2050
+  },
+  {
+    "question": "The refractive index of glass with respect to air is 3/2 and that of water with respect to air is 4/3. The refractive index of glass with respect to water will be:",
+    "options": {
+      "a": "8/9",
+      "b": "9/8",
+      "c": "2",
+      "d": "1/2"
+    },
+    "answer": "b",
+    "id": 2051
+  },
+  {
+    "question": "A ray of light is incident normally on a glass slab. The angle of refraction is:",
+    "options": {
+      "a": "0°",
+      "b": "30°",
+      "c": "45°",
+      "d": "90°"
+    },
+    "answer": "a",
+    "id": 2052
+  },
+  {
+    "question": "An object of height 4 cm is placed at a distance of 20 cm from a concave mirror of focal length 10 cm. The height of the image formed is:",
+    "options": {
+      "a": "2 cm",
+      "b": "4 cm",
+      "c": "6 cm",
+      "d": "8 cm"
+    },
+    "answer": "b",
+    "id": 2053
+  },
+  {
+    "question": "If the magnification of a spherical mirror is +1/2, the image formed is:",
+    "options": {
+      "a": "Real and inverted",
+      "b": "Virtual and erect",
+      "c": "Real and erect",
+      "d": "Virtual and inverted"
+    },
+    "answer": "b",
+    "id": 2054
+  },
+  {
+    "question": "The power of a combination of two lenses of power +2D and +1D in contact is:",
+    "options": {
+      "a": "+1D",
+      "b": "+2D",
+      "c": "+3D",
+      "d": "+4D"
+    },
+    "answer": "c",
+    "id": 2056
+  },
+  {
+    "question": "When an object is placed at the center of curvature of a concave mirror, the image is:",
+    "options": {
+      "a": "At infinity",
+      "b": "Behind the mirror",
+      "c": "At the focus",
+      "d": "At the center of curvature"
+    },
+    "answer": "d",
+    "id": 2057
+  },
+  {
+    "question": "A glass prism splits white light into its constituent colors. This is due to:",
+    "options": {
+      "a": "Reflection",
+      "b": "Refraction",
+      "c": "Dispersion",
+      "d": "Diffraction"
+    },
+    "answer": "c",
+    "id": 2059
+  },
+  {
+    "question": "A small air bubble inside a glass sphere appears to be 2 cm below the surface of the sphere, when looked at from directly above. If the refractive index of glass is 1.5, the true depth of the air bubble is:",
+    "options": {
+      "a": "1.33 cm",
+      "b": "2 cm",
+      "c": "3 cm",
+      "d": "4.5 cm"
+    },
+    "answer": "c",
+    "id": 2060
+  },
+  {
+    "question": "A ray of light travels from glass to air. Which of the following statements is true?",
+    "options": {
+      "a": "The speed of light increases.",
+      "b": "The frequency of light increases.",
+      "c": "The wavelength of light decreases.",
+      "d": "The speed of light decreases."
+    },
+    "answer": "a",
+    "id": 2061
+  },
+  {
+    "question": "The speed of light in a medium is 2 x 10^8 m/s. What is the refractive index of the medium?",
+    "options": {
+      "a": "1",
+      "b": "1.5",
+      "c": "2",
+      "d": "2.5"
+    },
+    "answer": "b",
+    "id": 2062
+  },
+  {
+    "question": "Two thin lenses of focal lengths +20 cm and -5 cm are kept in contact. What is the focal length and power of the combination?",
+    "options": {
+      "a": "+6.67 cm, +15 D",
+      "b": "-6.67 cm, -15 D",
+      "c": "+4 cm, +25 D",
+      "d": "-4 cm, -25 D"
+    },
+    "answer": "b",
+    "id": 2063
+  },
+  {
+    "question": "An object is placed 20 cm in front of a concave mirror of radius of curvature 30 cm. The image formed is:",
+    "options": {
+      "a": "Real, inverted, and magnified",
+      "b": "Virtual, erect, and diminished",
+      "c": "Real, inverted, and diminished",
+      "d": "Virtual, erect, and magnified"
+    },
+    "answer": "a",
+    "id": 2064
+  },
+  {
+    "question": "A student finds that a convex lens forms a clear image of a distant object on a screen placed 50 cm from the lens. What is the focal length of the lens?",
+    "options": {
+      "a": "25 cm",
+      "b": "50 cm",
+      "c": "75 cm",
+      "d": "100 cm"
+    },
+    "answer": "b",
+    "id": 2065
+  },
+  {
+    "question": "A concave lens of focal length 15 cm forms an image 10 cm from the lens. The object is:",
+    "options": {
+      "a": "6 cm from the lens on the same side as the image",
+      "b": "30 cm from the lens on the same side as the image",
+      "c": "6 cm from the lens on the opposite side of the image",
+      "d": "30 cm from the lens on the opposite side of the image"
+    },
+    "answer": "b",
+    "id": 2066
+  },
+  {
+    "question": "A concave mirror forms a real, inverted image of the same size as the object. The object is placed:",
+    "options": {
+      "a": "At infinity",
+      "b": "At the center of curvature",
+      "c": "Between the center of curvature and focus",
+      "d": "Between focus and pole"
+    },
+    "answer": "b",
+    "id": 2067
+  },
+  {
+    "question": "A ray of light travels from air to water. The speed of light in water is:",
+    "options": {
+      "a": "Greater than in air",
+      "b": "Less than in air",
+      "c": "Same as in air",
+      "d": "Zero"
+    },
+    "answer": "b",
+    "id": 2069
+  },
+  {
+    "question": "Which of the following has the highest refractive index?",
+    "options": {
+      "a": "Air",
+      "b": "Water",
+      "c": "Glass",
+      "d": "Diamond"
+    },
+    "answer": "d",
+    "id": 2070
+  },
+  {
+    "question": "The power of a convex lens of focal length 20 cm is:",
+    "options": {
+      "a": "2 D",
+      "b": "5 D",
+      "c": "-2 D",
+      "d": "-5 D"
+    },
+    "answer": "b",
+    "id": 2071
+  },
+  {
+    "question": "A concave lens always forms a:",
+    "options": {
+      "a": "Real and inverted image",
+      "b": "Virtual and erect image",
+      "c": "Real and erect image",
+      "d": "Virtual and inverted image"
+    },
+    "answer": "b",
+    "id": 2072
+  },
+  {
+    "question": "The image formed by a plane mirror is:",
+    "options": {
+      "a": "Real and inverted",
+      "b": "Virtual and erect",
+      "c": "Real and erect",
+      "d": "Virtual and inverted"
+    },
+    "answer": "b",
+    "id": 2073
+  },
+  {
+    "question": "A convex mirror is used as a rearview mirror in vehicles because:",
+    "options": {
+      "a": "It forms enlarged images",
+      "b": "It forms real images",
+      "c": "It has a wider field of view",
+      "d": "It forms inverted images"
+    },
+    "answer": "c",
+    "id": 2074
+  },
+  {
+    "question": "The focal length of a plane mirror is:",
+    "options": {
+      "a": "Zero",
+      "b": "Infinity",
+      "c": "Equal to its radius of curvature",
+      "d": "Half its radius of curvature"
+    },
+    "answer": "b",
+    "id": 2075
+  },
+  {
+    "question": "When a ray of light passes through the optical center of a lens, it:",
+    "options": {
+      "a": "Bends towards the principal axis",
+      "b": "Bends away from the principal axis",
+      "c": "Passes undeviated",
+      "d": "Gets reflected back"
+    },
+    "answer": "c",
+    "id": 2076
+  },
+  {
+    "question": "Which phenomenon is responsible for the twinkling of stars?",
+    "options": {
+      "a": "Reflection of light",
+      "b": "Refraction of light",
+      "c": "Dispersion of light",
+      "d": "Scattering of light"
+    },
+    "answer": "b",
+    "id": 2077
+  },
+  {
+    "question": "A ray of light enters a glass slab from air. The angle of refraction is:",
+    "options": {
+      "a": "Equal to the angle of incidence",
+      "b": "Greater than the angle of incidence",
+      "c": "Less than the angle of incidence",
+      "d": "Zero"
+    },
+    "answer": "c",
+    "id": 2078
+  },
+  {
+    "question": "The image formed by a convex lens when the object is placed between the lens and its focus is:",
+    "options": {
+      "a": "Real and inverted",
+      "b": "Virtual and erect",
+      "c": "Real and erect",
+      "d": "Virtual and inverted"
+    },
+    "answer": "b",
+    "id": 2079
+  },
+  {
+    "question": "A concave mirror of focal length 10 cm forms a real image at a distance of 20 cm from the mirror. The object distance is:",
+    "options": {
+      "a": "5 cm",
+      "b": "10 cm",
+      "c": "15 cm",
+      "d": "20 cm"
+    },
+    "answer": "d",
+    "id": 2080
+  },
+  {
+    "question": "A lens has a power of -2 D. What type of lens is it and what is its focal length?",
+    "options": {
+      "a": "Convex, 50 cm",
+      "b": "Concave, 50 cm",
+      "c": "Convex, 20 cm",
+      "d": "Concave, 20 cm"
+    },
+    "answer": "b",
+    "id": 2081
+  },
+  {
+    "question": "A ray of light passes from a medium of refractive index 1.5 to another medium of refractive index 1.3. The ray of light will:",
+    "options": {
+      "a": "Bend towards the normal",
+      "b": "Bend away from the normal",
+      "c": "Not bend at all",
+      "d": "Get reflected back"
+    },
+    "answer": "b",
+    "id": 2082
+  },
+  {
+    "question": "An object is placed at a distance of 20 cm from a concave lens of focal length 15 cm. The image formed is:",
+    "options": {
+      "a": "Real and inverted",
+      "b": "Virtual and erect",
+      "c": "Real and erect",
+      "d": "Virtual and inverted"
+    },
+    "answer": "b",
+    "id": 2083
+  },
+  {
+    "question": "A convex lens forms a real and inverted image of size equal to the object. The object is placed:",
+    "options": {
+      "a": "At the focus",
+      "b": "At twice the focal length",
+      "c": "Between the focus and twice the focal length",
+      "d": "Beyond twice the focal length"
+    },
+    "answer": "b",
+    "id": 2084
+  },
+  {
+    "question": "A concave mirror has a focal length of 10 cm. An object is placed at a distance of 25 cm from the mirror. The magnification is:",
+    "options": {
+      "a": "-2/3",
+      "b": "-3/2",
+      "c": "2/3",
+      "d": "3/2"
+    },
+    "answer": "a",
+    "id": 2085
+  },
+  {
+    "question": "The absolute refractive index of a medium is always:",
+    "options": {
+      "a": "Less than 1",
+      "b": "Equal to 1",
+      "c": "Greater than 1",
+      "d": "Zero"
+    },
+    "answer": "c",
+    "id": 2086
+  },
+  {
+    "question": "Assertion: A convex mirror always forms a virtual, erect and diminished image.\nReason: The focal point of a convex mirror lies behind the mirror surface.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2087
+  },
+  {
+    "question": "Assertion: When light travels from a denser medium to a rarer medium, the angle of refraction is greater than the angle of incidence.\nReason: The speed of light is greater in a rarer medium than in a denser medium.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2088
+  },
+  {
+    "question": "Assertion: Diamond sparkles more than glass.\nReason: Diamond has perfect crystal structure allowing total internal reflection.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2092
+  },
+  {
+    "question": "Assertion: Convex mirrors are used as rear-view mirrors in vehicles.\nReason: Convex mirrors always form virtual, erect images and provide a wider field of view.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 2094
+  },
+  {
+    "question": "Assertion: The image formed by a plane mirror is real and laterally inverted.\nReason: The lateral inversion occurs because the mirror changes the direction of light rays in all directions.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 2095
+  },
+  {
+    "question": "Assertion: A concave mirror can only form real images.\nReason: The nature of the image depends on the curvature of the mirror surface.",
+    "options": {
+      "a": "Both assertion and reason are true and reason correctly explains the assertion",
+      "b": "Both assertion and reason are true but reason does not explain the assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 2096
+  }
+]

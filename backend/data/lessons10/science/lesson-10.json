@@ -1,0 +1,618 @@
+[
+  {
+    "question": "The primary function of the cornea is to:",
+    "options": {
+      "a": "Control the amount of light entering the eye",
+      "b": "Refract most of the light entering the eye",
+      "c": "Form the image on the retina",
+      "d": "Protect the eye from external damage"
+    },
+    "answer": "b",
+    "id": 1639
+  },
+  {
+    "question": "Which part of the eye controls the size of the pupil?",
+    "options": {
+      "a": "Retina",
+      "b": "Cornea",
+      "c": "Iris",
+      "d": "Lens"
+    },
+    "answer": "c",
+    "id": 1640
+  },
+  {
+    "question": "The process by which the eye lens changes its shape to focus on objects at different distances is called:",
+    "options": {
+      "a": "Refraction",
+      "b": "Reflection",
+      "c": "Accommodation",
+      "d": "Adaptation"
+    },
+    "answer": "c",
+    "id": 1641
+  },
+  {
+    "question": "The near point of a normal human eye is approximately:",
+    "options": {
+      "a": "10 cm",
+      "b": "25 cm",
+      "c": "50 cm",
+      "d": "Infinity"
+    },
+    "answer": "b",
+    "id": 1642
+  },
+  {
+    "question": "Which eye defect is corrected by using a concave lens?",
+    "options": {
+      "a": "Hypermetropia",
+      "b": "Presbyopia",
+      "c": "Myopia",
+      "d": "Astigmatism"
+    },
+    "answer": "c",
+    "id": 1643
+  },
+  {
+    "question": "Which eye defect is commonly associated with aging?",
+    "options": {
+      "a": "Myopia",
+      "b": "Hypermetropia",
+      "c": "Presbyopia",
+      "d": "Astigmatism"
+    },
+    "answer": "c",
+    "id": 1644
+  },
+  {
+    "question": "Bifocal lenses are used to correct:",
+    "options": {
+      "a": "Only Myopia",
+      "b": "Only Hypermetropia",
+      "c": "Both Myopia and Hypermetropia",
+      "d": "Astigmatism"
+    },
+    "answer": "c",
+    "id": 1645
+  },
+  {
+    "question": "The splitting of white light into its constituent colors is known as:",
+    "options": {
+      "a": "Reflection",
+      "b": "Refraction",
+      "c": "Diffraction",
+      "d": "Dispersion"
+    },
+    "answer": "d",
+    "id": 1646
+  },
+  {
+    "question": "Which color of light bends the least when passing through a prism?",
+    "options": {
+      "a": "Violet",
+      "b": "Green",
+      "c": "Red",
+      "d": "Blue"
+    },
+    "answer": "c",
+    "id": 1647
+  },
+  {
+    "question": "The scattering of light is responsible for the:",
+    "options": {
+      "a": "Black color of the night sky",
+      "b": "Blue color of the sky",
+      "c": "Formation of rainbows",
+      "d": "Twinkling of stars"
+    },
+    "answer": "b",
+    "id": 1648
+  },
+  {
+    "question": "The phenomenon where light makes colloidal particles visible is known as:",
+    "options": {
+      "a": "Refraction",
+      "b": "Dispersion",
+      "c": "Tyndall effect",
+      "d": "Diffraction"
+    },
+    "answer": "c",
+    "id": 1649
+  },
+  {
+    "question": "Why does the sky appear dark to astronauts?",
+    "options": {
+      "a": "Absence of atmosphere",
+      "b": "Absence of sunlight",
+      "c": "Presence of dust particles",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "id": 1650
+  },
+  {
+    "question": "Which phenomenon causes the twinkling of stars?",
+    "options": {
+      "a": "Reflection of starlight",
+      "b": "Scattering of starlight",
+      "c": "Atmospheric refraction",
+      "d": "Dispersion of starlight"
+    },
+    "answer": "c",
+    "id": 1651
+  },
+  {
+    "question": "The apparent flattening of the Sun's disc at sunrise and sunset is due to:",
+    "options": {
+      "a": "Scattering of light",
+      "b": "Dispersion of light",
+      "c": "Atmospheric refraction",
+      "d": "Tyndall effect"
+    },
+    "answer": "c",
+    "id": 1653
+  },
+  {
+    "question": "A student can see clearly objects at a distance but has difficulty reading a book. They likely suffer from:",
+    "options": {
+      "a": "Myopia",
+      "b": "Hypermetropia",
+      "c": "Presbyopia",
+      "d": "Astigmatism"
+    },
+    "answer": "b",
+    "id": 1654
+  },
+  {
+    "question": "A convex lens is used to correct:",
+    "options": {
+      "a": "Myopia",
+      "b": "Hypermetropia",
+      "c": "Presbyopia",
+      "d": "Both (b) and (c)"
+    },
+    "answer": "d",
+    "id": 1655
+  },
+  {
+    "question": "Cataract is a condition affecting the:",
+    "options": {
+      "a": "Cornea",
+      "b": "Lens",
+      "c": "Retina",
+      "d": "Iris"
+    },
+    "answer": "b",
+    "id": 1656
+  },
+  {
+    "question": "The image formed on the retina is:",
+    "options": {
+      "a": "Upright and virtual",
+      "b": "Inverted and real",
+      "c": "Upright and real",
+      "d": "Inverted and virtual"
+    },
+    "answer": "b",
+    "id": 1657
+  },
+  {
+    "question": "The function of the ciliary muscles is to:",
+    "options": {
+      "a": "Control the amount of light entering the eye",
+      "b": "Change the shape of the lens",
+      "c": "Form the image on the retina",
+      "d": "Protect the eye from damage"
+    },
+    "answer": "b",
+    "id": 1658
+  },
+  {
+    "question": "The far point of a normal human eye is:",
+    "options": {
+      "a": "25 cm",
+      "b": "1 meter",
+      "c": "Infinity",
+      "d": "2.5 meters"
+    },
+    "answer": "c",
+    "id": 1659
+  },
+  {
+    "question": "Which part of the eye contains light-sensitive cells?",
+    "options": {
+      "a": "Cornea",
+      "b": "Iris",
+      "c": "Lens",
+      "d": "Retina"
+    },
+    "answer": "d",
+    "id": 1660
+  },
+  {
+    "question": "A concave lens has a:",
+    "options": {
+      "a": "Positive power",
+      "b": "Negative power",
+      "c": "Zero power",
+      "d": "Variable power"
+    },
+    "answer": "b",
+    "id": 1661
+  },
+  {
+    "question": "The unit of power of a lens is:",
+    "options": {
+      "a": "Meter",
+      "b": "Dioptre",
+      "c": "Centimeter",
+      "d": "Watt"
+    },
+    "answer": "b",
+    "id": 1662
+  },
+  {
+    "question": "The phenomenon responsible for the formation of rainbows is:",
+    "options": {
+      "a": "Reflection",
+      "b": "Refraction and dispersion",
+      "c": "Diffraction",
+      "d": "Scattering"
+    },
+    "answer": "b",
+    "id": 1663
+  },
+  {
+    "question": "Which color of light is scattered the most?",
+    "options": {
+      "a": "Red",
+      "b": "Green",
+      "c": "Blue",
+      "d": "Violet"
+    },
+    "answer": "d",
+    "id": 1664
+  },
+  {
+    "question": "A person with myopia has difficulty seeing:",
+    "options": {
+      "a": "Distant objects",
+      "b": "Nearby objects",
+      "c": "Both distant and nearby objects",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "id": 1665
+  },
+  {
+    "question": "Hypermetropia is corrected using a:",
+    "options": {
+      "a": "Concave lens",
+      "b": "Convex lens",
+      "c": "Bifocal lens",
+      "d": "Cylindrical lens"
+    },
+    "answer": "b",
+    "id": 1666
+  },
+  {
+    "question": "The main refracting surface of the eye is the:",
+    "options": {
+      "a": "Lens",
+      "b": "Cornea",
+      "c": "Retina",
+      "d": "Iris"
+    },
+    "answer": "b",
+    "id": 1667
+  },
+  {
+    "question": "The angle of deviation of light through a prism depends on:",
+    "options": {
+      "a": "Angle of incidence",
+      "b": "Angle of the prism",
+      "c": "Refractive index of the prism",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1668
+  },
+  {
+    "question": "Which part of the eye regulates the amount of light entering?",
+    "options": {
+      "a": "Cornea",
+      "b": "Pupil",
+      "c": "Lens",
+      "d": "Retina"
+    },
+    "answer": "b",
+    "id": 1669
+  },
+  {
+    "question": "A person wearing bifocal lenses has:",
+    "options": {
+      "a": "Myopia",
+      "b": "Hypermetropia",
+      "c": "Both myopia and hypermetropia",
+      "d": "Presbyopia"
+    },
+    "answer": "c",
+    "id": 1670
+  },
+  {
+    "question": "The color of the sky at sunset appears red due to:",
+    "options": {
+      "a": "Scattering of blue light",
+      "b": "Scattering of red light",
+      "c": "Absorption of red light",
+      "d": "Absorption of blue light"
+    },
+    "answer": "a",
+    "id": 1671
+  },
+  {
+    "question": "The blind spot in the eye is where the:",
+    "options": {
+      "a": "Cornea meets the iris",
+      "b": "Optic nerve leaves the eye",
+      "c": "Lens focuses light",
+      "d": "Retina forms the image"
+    },
+    "answer": "b",
+    "id": 1672
+  },
+  {
+    "question": "Which part of the eye acts like the screen of a camera?",
+    "options": {
+      "a": "Lens",
+      "b": "Retina",
+      "c": "Iris",
+      "d": "Pupil"
+    },
+    "answer": "b",
+    "id": 1673
+  },
+  {
+    "question": "The phenomenon of atmospheric refraction causes:",
+    "options": {
+      "a": "Twinkling of stars",
+      "b": "Advanced sunrise and delayed sunset",
+      "c": "Apparent flattening of the Sun",
+      "d": "All of the above"
+    },
+    "answer": "d",
+    "id": 1674
+  },
+  {
+    "question": "The size of the pupil is controlled by the:",
+    "options": {
+      "a": "Ciliary muscles",
+      "b": "Iris muscles",
+      "c": "Retina",
+      "d": "Cornea"
+    },
+    "answer": "b",
+    "id": 1675
+  },
+  {
+    "question": "The nature of the lens used to correct myopia is:",
+    "options": {
+      "a": "Convex",
+      "b": "Concave",
+      "c": "Bifocal",
+      "d": "Cylindrical"
+    },
+    "answer": "b",
+    "id": 1676
+  },
+  {
+    "question": "The least distance of distinct vision:",
+    "options": {
+      "a": "Increases with age",
+      "b": "Decreases with age",
+      "c": "Remains constant",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "id": 1677
+  },
+  {
+    "question": "The angle between two lateral faces of a prism is called:",
+    "options": {
+      "a": "Angle of incidence",
+      "b": "Angle of refraction",
+      "c": "Angle of emergence",
+      "d": "Angle of prism"
+    },
+    "answer": "d",
+    "id": 1678
+  },
+  {
+    "question": "A driver sees a pool of water on the road ahead on a hot day, but as they approach, it disappears. This is due to:",
+    "options": {
+      "a": "Reflection",
+      "b": "Refraction",
+      "c": "Mirage formation due to total internal reflection",
+      "d": "Scattering of light"
+    },
+    "answer": "c",
+    "id": 1679
+  },
+  {
+    "question": "On a foggy day, red light is used for danger signals because:",
+    "options": {
+      "a": "Red light is scattered the least",
+      "b": "Red light is scattered the most",
+      "c": "Red light travels faster in fog",
+      "d": "Red light is easily absorbed by fog"
+    },
+    "answer": "a",
+    "id": 1680
+  },
+  {
+    "question": "A person finds it difficult to see objects close to them, but can see distant objects clearly. Which lens should be used in their eyeglasses?",
+    "options": {
+      "a": "Concave lens",
+      "b": "Convex lens",
+      "c": "Bifocal lens",
+      "d": "No lens is needed"
+    },
+    "answer": "b",
+    "id": 1681
+  },
+  {
+    "question": "Why are the rearview mirrors of vehicles sometimes convex?",
+    "options": {
+      "a": "To magnify the image",
+      "b": "To provide a wider field of view",
+      "c": "To reduce the image size",
+      "d": "To invert the image"
+    },
+    "answer": "b",
+    "id": 1682
+  },
+  {
+    "question": "A magnifying glass uses which type of lens?",
+    "options": {
+      "a": "Concave",
+      "b": "Convex",
+      "c": "Plane",
+      "d": "Bifocal"
+    },
+    "answer": "b",
+    "id": 1683
+  },
+  {
+    "question": "While the scattering of light explains the blue color of the sky, why is the sky not violet, since violet light has the shortest wavelength and should be scattered even more?",
+    "options": {
+      "a": "Our eyes are more sensitive to blue light.",
+      "b": "The sun emits more blue light than violet light.",
+      "c": "Violet light is absorbed by the upper atmosphere.",
+      "d": "All of the above contribute."
+    },
+    "answer": "d",
+    "id": 1684
+  },
+  {
+    "question": "If the Earth had no atmosphere, what color would the sky appear?",
+    "options": {
+      "a": "Blue",
+      "b": "White",
+      "c": "Black",
+      "d": "Red"
+    },
+    "answer": "c",
+    "id": 1685
+  },
+  {
+    "question": "Why does the color of the Sun appear reddish during sunrise and sunset?",
+    "options": {
+      "a": "The Sun emits more red light at these times.",
+      "b": "The Earth's atmosphere scatters more blue light, leaving red light to reach our eyes.",
+      "c": "The temperature of the Sun is lower at these times.",
+      "d": "The Earth is farther from the Sun at these times."
+    },
+    "answer": "b",
+    "id": 1686
+  },
+  {
+    "question": "A person with normal vision uses a magnifying glass. What happens to the image formed on their retina?",
+    "options": {
+      "a": "The image becomes larger.",
+      "b": "The image becomes smaller.",
+      "c": "The image becomes inverted.",
+      "d": "The image remains the same size."
+    },
+    "answer": "a",
+    "id": 1687
+  },
+  {
+    "question": "Two identical prisms are placed one behind the other. The first prism disperses white light into its constituent colors. What will happen when this dispersed light passes through the second identical prism placed in an inverted position?",
+    "options": {
+      "a": "The colors will be dispersed further.",
+      "b": "The dispersed colors will recombine to form white light.",
+      "c": "The order of the colors will be reversed.",
+      "d": "Nothing will happen."
+    },
+    "answer": "b",
+    "id": 1688
+  },
+  {
+    "question": "Assertion: The sky appears green during the day.\nReason: Molecules in the atmosphere scatter red light more than other colors.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains assertion",
+      "b": "Both assertion and reason are true, but reason does not explain assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1689
+  },
+  {
+    "question": "Assertion: A concave lens is used to correct hypermetropia.\nReason: A concave lens diverges light rays after they reach the retina.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains assertion",
+      "b": "Both assertion and reason are true, but reason does not explain assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1690
+  },
+  {
+    "question": "Assertion: Stars twinkle but planets do not.\nReason: Stars are much closer to Earth and appear as point sources of light.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains assertion",
+      "b": "Both assertion and reason are true, but reason does not explain assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1691
+  },
+  {
+    "question": "Assertion: The power of accommodation decreases with age.\nReason: The ciliary muscles become weaker and the lens becomes less flexible with age.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains assertion",
+      "b": "Both assertion and reason are true, but reason does not explain assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1692
+  },
+  {
+    "question": "Assertion: Red light is used in fog signals.\nReason: Red light has the longest wavelength and is scattered the least by fog particles.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains assertion",
+      "b": "Both assertion and reason are true, but reason does not explain assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1693
+  },
+  {
+    "question": "Assertion: The Sun appears flattened at sunrise and sunset.\nReason: The Earth's rotation causes optical distortion of the Sun's image.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains assertion",
+      "b": "Both assertion and reason are true, but reason does not explain assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1696
+  },
+  {
+    "question": "Assertion: White light splits into its constituent colors when passing through a prism.\nReason: Different colors of light have different wavelengths and hence different angles of refraction.",
+    "options": {
+      "a": "Both assertion and reason are true, and reason correctly explains assertion",
+      "b": "Both assertion and reason are true, but reason does not explain assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1698
+  }
+]

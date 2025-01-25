@@ -1,0 +1,508 @@
+[
+  {
+    "question": "The French Revolution opened up the possibility of dramatic societal change by challenging the existing power structure dominated by the:",
+    "options": {
+      "a": "Peasantry and merchants",
+      "b": "Aristocracy and clergy",
+      "c": "Bourgeoisie and industrialists",
+      "d": "Military and intellectuals"
+    },
+    "answer": "b",
+    "id": 958
+  },
+  {
+    "question": "Fill in the blanks: _______ were opposed to radicals and liberals, believing that change should be gradual and respectful of the past.",
+    "options": {
+      "a": "Radicals",
+      "b": "Liberals",
+      "c": "Conservatives",
+      "d": "Socialists"
+    },
+    "answer": "Conservatives",
+    "id": 959
+  },
+  {
+    "question": "Which of the following was NOT a key feature of the Industrial Revolution?",
+    "options": {
+      "a": "Growth of factories and industrial production",
+      "b": "Increased reliance on agriculture",
+      "c": "Expansion of railways and transportation",
+      "d": "Migration of people to urban areas"
+    },
+    "answer": "b",
+    "id": 960
+  },
+  {
+    "question": "Liberals believed that societal progress would be achieved through:",
+    "options": {
+      "a": "Government intervention and regulation",
+      "b": "Individual effort, labor, and enterprise",
+      "c": "Redistribution of wealth and property",
+      "d": "Violent revolution and overthrow of the ruling class"
+    },
+    "answer": "b",
+    "id": 961
+  },
+  {
+    "question": "Assertion: Radicals supported the suffragette movement. Reason: They believed in extending voting rights to a wider section of the population.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 962
+  },
+  {
+    "question": "Which of the following describes the socialist view of private property?",
+    "options": {
+      "a": "It should be encouraged as it fosters individual initiative.",
+      "b": "It is a necessary evil that should be regulated by the government.",
+      "c": "It is the root of social ills and should be abolished.",
+      "d": "It is acceptable as long as it is distributed equally among all citizens."
+    },
+    "answer": "c",
+    "id": 963
+  },
+  {
+    "question": "Robert Owen's attempt to build a cooperative community called New Harmony aimed to demonstrate:",
+    "options": {
+      "a": "The superiority of capitalist enterprises",
+      "b": "The feasibility of a society without private property",
+      "c": "The benefits of government regulation of industry",
+      "d": "The importance of individual effort and competition"
+    },
+    "answer": "b",
+    "id": 964
+  },
+  {
+    "question": "Fill in the blanks: Karl Marx argued that industrial society was _______, where capitalists owned the means of production and profited from the labor of workers.",
+    "options": {
+      "a": "Socialist",
+      "b": "Communist",
+      "c": "Capitalist",
+      "d": "Feudal"
+    },
+    "answer": "Capitalist",
+    "id": 965
+  },
+  {
+    "question": "The Second International was formed by socialists to:",
+    "options": {
+      "a": "Promote international trade and cooperation",
+      "b": "Coordinate their efforts and promote socialist ideas",
+      "c": "Establish a global socialist government",
+      "d": "Oppose the spread of communist ideology"
+    },
+    "answer": "b",
+    "id": 966
+  },
+  {
+    "question": "Assertion: The Paris Commune of 1871 was a significant event for socialists. Reason: It demonstrated the potential for a workers' revolution and the establishment of a socialist government.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 967
+  },
+  {
+    "question": "Which of the following was NOT a part of the Russian Empire in 1914?",
+    "options": {
+      "a": "Finland",
+      "b": "Poland (parts of)",
+      "c": "Germany",
+      "d": "Ukraine"
+    },
+    "answer": "c",
+    "id": 968
+  },
+  {
+    "question": "The majority religion in the Russian Empire was:",
+    "options": {
+      "a": "Roman Catholicism",
+      "b": "Russian Orthodox Christianity",
+      "c": "Islam",
+      "d": "Judaism"
+    },
+    "answer": "b",
+    "id": 969
+  },
+  {
+    "question": "Fill in the blanks: A higher proportion of the Russian population earned their living from _______ compared to most European countries at the beginning of the 20th century.",
+    "options": {
+      "a": "Industry",
+      "b": "Agriculture",
+      "c": "Trade",
+      "d": "Mining"
+    },
+    "answer": "Agriculture",
+    "id": 970
+  },
+  {
+    "question": "Which of the following statements about Russian industrial workers is NOT true?",
+    "options": {
+      "a": "They were a unified and homogenous social group.",
+      "b": "They were divided by skill and their connection to villages.",
+      "c": "They experienced long working hours and poor living conditions.",
+      "d": "They occasionally organized strikes to demand better wages and working conditions."
+    },
+    "answer": "a",
+    "id": 971
+  },
+  {
+    "question": "Russian peasants differed from other European peasants in that they:",
+    "options": {
+      "a": "Owned their land individually and did not practice communal farming.",
+      "b": "Pooled their land together periodically and divided it according to the needs of individual families.",
+      "c": "Were highly educated and politically active.",
+      "d": "Had strong ties to the nobility and supported the Tsarist regime."
+    },
+    "answer": "b",
+    "id": 972
+  },
+  {
+    "question": "The Russian Social Democratic Workers Party was founded in 1898 by socialists who:",
+    "options": {
+      "a": "Rejected Marx's ideas and advocated for a return to Tsarist rule.",
+      "b": "Believed in gradual societal change through peaceful reforms.",
+      "c": "Respected Marx's ideas and aimed to mobilize workers and organize strikes.",
+      "d": "Favored the establishment of a constitutional monarchy."
+    },
+    "answer": "c",
+    "id": 973
+  },
+  {
+    "question": "Fill in the blanks: The _______ believed that peasants, not workers, would be the main force of the revolution in Russia.",
+    "options": {
+      "a": "Social Democrats",
+      "b": "Socialist Revolutionaries",
+      "c": "Liberals",
+      "d": "Conservatives"
+    },
+    "answer": "Socialist Revolutionaries",
+    "id": 974
+  },
+  {
+    "question": "Lenin, the leader of the Bolsheviks, believed that:",
+    "options": {
+      "a": "The Russian peasantry was a united and homogenous group that would readily embrace socialism.",
+      "b": "The party should be open to all and allow for diverse opinions.",
+      "c": "Russia was not ready for a socialist revolution and the Provisional Government should be supported.",
+      "d": "The party should be disciplined and control the number and quality of its members in a repressive society like Tsarist Russia."
+    },
+    "answer": "d",
+    "id": 975
+  },
+  {
+    "question": "Assertion: Russia was an autocracy at the beginning of the 20th century. Reason: The Tsar was subject to the parliament and had limited power.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "c",
+    "id": 976
+  },
+  {
+    "question": "The 1905 Revolution in Russia was triggered by:",
+    "options": {
+      "a": "The assassination of Tsar Nicholas II",
+      "b": "Russia's victory in the Russo-Japanese War",
+      "c": "The Bloody Sunday incident and the shooting of peaceful protesters",
+      "d": "The Bolshevik seizure of power in Petrograd"
+    },
+    "answer": "c",
+    "id": 977
+  },
+  {
+    "question": "Which of the following was NOT a demand of the revolutionaries during the 1905 Revolution?",
+    "options": {
+      "a": "A reduction in the working day to eight hours",
+      "b": "An increase in wages",
+      "c": "The immediate collectivization of agriculture",
+      "d": "Improvement in working conditions"
+    },
+    "answer": "c",
+    "id": 978
+  },
+  {
+    "question": "Fill in the blanks: The Tsar allowed the creation of an elected consultative Parliament or _______ during the 1905 Revolution.",
+    "options": {
+      "a": "Soviet",
+      "b": "Duma",
+      "c": "Cheka",
+      "d": "Mir"
+    },
+    "answer": "Duma",
+    "id": 979
+  },
+  {
+    "question": "The First World War had a severe impact on Russia because:",
+    "options": {
+      "a": "Russia's industries thrived due to increased demand for war materials.",
+      "b": "Russia's army achieved decisive victories against Germany and Austria.",
+      "c": "Russia was cut off from other suppliers of industrial goods and experienced labor shortages and food scarcity.",
+      "d": "The Tsar's popularity soared due to Russia's successful war effort."
+    },
+    "answer": "c",
+    "id": 980
+  },
+  {
+    "question": "Assertion: Anti-German sentiments ran high in Russia during the First World War. Reason: The Tsarina Alexandra had German origins and the Tsar relied on German advisors.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 981
+  },
+  {
+    "question": "Which of the following events did NOT contribute to the February Revolution in Petrograd?",
+    "options": {
+      "a": "Food shortages and harsh winter conditions",
+      "b": "The Tsar's decision to dissolve the Duma",
+      "c": "The Bolshevik seizure of the Winter Palace",
+      "d": "Strikes and demonstrations by workers"
+    },
+    "answer": "c",
+    "id": 982
+  },
+  {
+    "question": "Fill in the blanks: International Women's Day played a significant role in the February Revolution as women led the way to strikes in many factories.",
+    "options": {
+      "a": "International Workers' Day",
+      "b": "International Women's Day",
+      "c": "Bloody Sunday",
+      "d": "October Revolution"
+    },
+    "answer": "International Women's Day",
+    "id": 983
+  },
+  {
+    "question": "The Petrograd Soviet was formed by:",
+    "options": {
+      "a": "The Tsar and his loyal military commanders",
+      "b": "Members of the Duma and the Provisional Government",
+      "c": "Striking workers and soldiers",
+      "d": "Landowners and industrialists"
+    },
+    "answer": "c",
+    "id": 984
+  },
+  {
+    "question": "What led to the abdication of Tsar Nicholas II in March 1917?",
+    "options": {
+      "a": "His assassination by Bolshevik revolutionaries",
+      "b": "His defeat in the First World War",
+      "c": "The advice of military commanders and the pressure from the Petrograd Soviet",
+      "d": "His voluntary decision to step down and hand over power to the Duma"
+    },
+    "answer": "c",
+    "id": 985
+  },
+  {
+    "question": "Assertion: The February Revolution brought down the monarchy in Russia. Reason: The Tsar abdicated and a Provisional Government was formed.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 986
+  },
+  {
+    "question": "Which of the following was NOT a part of Lenin's 'April Theses'?",
+    "options": {
+      "a": "The continuation of Russia's participation in the First World War",
+      "b": "The transfer of land to the peasants",
+      "c": "The nationalization of banks",
+      "d": "The renaming of the Bolshevik Party to the Communist Party"
+    },
+    "answer": "a",
+    "id": 987
+  },
+  {
+    "question": "Fill in the blanks: The _______ seized land between July and September 1917, encouraged by the Socialist Revolutionaries.",
+    "options": {
+      "a": "Workers",
+      "b": "Soldiers",
+      "c": "Peasants",
+      "d": "Industrialists"
+    },
+    "answer": "Peasants",
+    "id": 988
+  },
+  {
+    "question": "The October Revolution of 1917 was led by:",
+    "options": {
+      "a": "The Tsar and his loyal military forces",
+      "b": "The Provisional Government and the Duma",
+      "c": "The Bolsheviks led by Lenin and Trotsky",
+      "d": "The Socialist Revolutionaries and the peasants"
+    },
+    "answer": "c",
+    "id": 989
+  },
+  {
+    "question": "Which event marked the beginning of the October Revolution?",
+    "options": {
+      "a": "The storming of the Bastille",
+      "b": "The Bloody Sunday massacre",
+      "c": "The shelling of the Winter Palace by the ship Aurora",
+      "d": "The assassination of Archduke Franz Ferdinand"
+    },
+    "answer": "c",
+    "id": 990
+  },
+  {
+    "question": "Assertion: The Bolsheviks gained control of the Moscow-Petrograd area by December 1917. Reason: They received support from foreign powers like France and Britain.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "c",
+    "id": 991
+  },
+  {
+    "question": "Which of the following was NOT a change implemented by the Bolsheviks after the October Revolution?",
+    "options": {
+      "a": "The nationalization of industry and banks",
+      "b": "The privatization of land and the restoration of private property",
+      "c": "The enforcement of the partition of large houses in cities",
+      "d": "The banning of old aristocratic titles"
+    },
+    "answer": "b",
+    "id": 992
+  },
+  {
+    "question": "Fill in the blanks: The Bolshevik Party was renamed the _______ after the October Revolution.",
+    "options": {
+      "a": "Socialist Revolutionary Party",
+      "b": "Russian Communist Party (Bolshevik)",
+      "c": "Menshevik Party",
+      "d": "Constitutional Democratic Party"
+    },
+    "answer": "Russian Communist Party (Bolshevik)",
+    "id": 993
+  },
+  {
+    "question": "The Russian Civil War was fought between:",
+    "options": {
+      "a": "Russia and Germany",
+      "b": "The Bolsheviks (Reds) and their opponents (Whites, Greens)",
+      "c": "The Tsarist forces and the Provisional Government",
+      "d": "Russia and Japan"
+    },
+    "answer": "b",
+    "id": 994
+  },
+  {
+    "question": "Which of the following factors contributed to the Bolshevik victory in the Russian Civil War?",
+    "options": {
+      "a": "The support of foreign powers like France and Britain",
+      "b": "The popularity of the Tsarist regime among the Russian people",
+      "c": "The unity and strong leadership of the White forces",
+      "d": "The cooperation with non-Russian nationalities and Muslim jadidists"
+    },
+    "answer": "d",
+    "id": 995
+  },
+  {
+    "question": "Assertion: The Bolsheviks implemented a policy of centralized planning in the Soviet Union. Reason: They aimed to promote rapid industrial growth and achieve economic development.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 996
+  },
+  {
+    "question": "Fill in the blanks: Stalin's collectivization program aimed to eliminate _______, take away land from peasants, and establish state-controlled large farms.",
+    "options": {
+      "a": "Kulaks",
+      "b": "Jadidists",
+      "c": "Mensheviks",
+      "d": "Cossacks"
+    },
+    "answer": "Kulaks",
+    "id": 997
+  },
+  {
+    "question": "Which of the following was a consequence of Stalin's collectivization program?",
+    "options": {
+      "a": "A significant increase in agricultural production",
+      "b": "Widespread support for the collectivization policy among peasants",
+      "c": "The deportation and exile of many peasants who resisted collectivization",
+      "d": "The strengthening of individual property rights in the countryside"
+    },
+    "answer": "c",
+    "id": 998
+  },
+  {
+    "question": "The bad harvests of 1930-1933 in the Soviet Union led to:",
+    "options": {
+      "a": "A period of economic prosperity and abundance of food",
+      "b": "One of the most devastating famines in Soviet history",
+      "c": "The overthrow of Stalin and the end of collectivization",
+      "d": "The opening of the Soviet economy to international trade"
+    },
+    "answer": "b",
+    "id": 999
+  },
+  {
+    "question": "Assertion: The Russian Revolution had a global impact. Reason: It inspired the formation of communist parties in many countries and encouraged colonial peoples to fight for independence.",
+    "options": {
+      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
+      "c": "Assertion is true but Reason is false.",
+      "d": "Assertion is false but Reason is true."
+    },
+    "answer": "a",
+    "id": 1000
+  },
+  {
+    "question": "The Comintern was an international organization founded by the Bolsheviks to:",
+    "options": {
+      "a": "Promote international peace and cooperation",
+      "b": "Spread communist ideology and support revolutionary movements worldwide",
+      "c": "Oppose the spread of socialism and defend capitalist democracies",
+      "d": "Establish a global free trade zone"
+    },
+    "answer": "b",
+    "id": 1001
+  },
+  {
+    "question": "Fill in the blanks: The USSR's Communist University of the Workers of the East provided education to many non-Russians from colonial countries.",
+    "options": {
+      "a": "University of Oxford",
+      "b": "Sorbonne University",
+      "c": "Communist University of the Workers of the East",
+      "d": "Harvard University"
+    },
+    "answer": "Communist University of the Workers of the East",
+    "id": 1002
+  },
+  {
+    "question": "Which of the following Indian figures was inspired by the Russian Revolution and wrote about Soviet Socialism?",
+    "options": {
+      "a": "Mahatma Gandhi",
+      "b": "Rabindranath Tagore",
+      "c": "Muhammad Ali Jinnah",
+      "d": "Vallabhbhai Patel"
+    },
+    "answer": "b",
+    "id": 1003
+  }
+]

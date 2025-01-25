@@ -1,0 +1,464 @@
+[
+  {
+    "question": "The fixed number added to each term of an AP to get the next term is called the:",
+    "options": {
+      "a": "Common ratio",
+      "b": "Common difference",
+      "c": "First term",
+      "d": "Last term"
+    },
+    "answer": "b",
+    "id": 1399
+  },
+  {
+    "question": "If the first term of an AP is 'a' and the common difference is 'd', then the nth term is given by:",
+    "options": {
+      "a": "a + nd",
+      "b": "a + (n-1)d",
+      "c": "a - (n+1)d",
+      "d": "a - nd"
+    },
+    "answer": "b",
+    "id": 1400
+  },
+  {
+    "question": "An AP with a finite number of terms is called a:",
+    "options": {
+      "a": "Infinite AP",
+      "b": "Finite AP",
+      "c": "Geometric Progression",
+      "d": "Harmonic Progression"
+    },
+    "answer": "b",
+    "id": 1401
+  },
+  {
+    "question": "The common difference of an AP can be:",
+    "options": {
+      "a": "Only positive",
+      "b": "Only negative",
+      "c": "Only zero",
+      "d": "Positive, negative, or zero"
+    },
+    "answer": "d",
+    "id": 1402
+  },
+  {
+    "question": "If all the terms of an AP are the same, the common difference is:",
+    "options": {
+      "a": "1",
+      "b": "-1",
+      "c": "0",
+      "d": "Any number"
+    },
+    "answer": "c",
+    "id": 1403
+  },
+  {
+    "question": "The 10th term of the AP 3, 7, 11, ... is:",
+    "options": {
+      "a": "39",
+      "b": "43",
+      "c": "35",
+      "d": "47"
+    },
+    "answer": "a",
+    "id": 1404
+  },
+  {
+    "question": "Which term of the AP 21, 18, 15, ... is -81?",
+    "options": {
+      "a": "34th",
+      "b": "35th",
+      "c": "36th",
+      "d": "37th"
+    },
+    "answer": "b",
+    "id": 1405
+  },
+  {
+    "question": "The sum of the first 10 terms of the AP 2, 5, 8, ... is:",
+    "options": {
+      "a": "155",
+      "b": "145",
+      "c": "165",
+      "d": "175"
+    },
+    "answer": "a",
+    "id": 1406
+  },
+  {
+    "question": "How many terms of the AP 9, 17, 25,... must be taken to give a sum of 636?",
+    "options": {
+      "a": "10",
+      "b": "11",
+      "c": "12",
+      "d": "13"
+    },
+    "answer": "c",
+    "id": 1407
+  },
+  {
+    "question": "If the 3rd and 9th terms of an AP are 4 and -8 respectively, which term is zero?",
+    "options": {
+      "a": "4th",
+      "b": "5th",
+      "c": "6th",
+      "d": "7th"
+    },
+    "answer": "b",
+    "id": 1408
+  },
+  {
+    "question": "A taxi fare is ₹15 for the first km and ₹8 for each additional km. The fares for 1 km, 2 km, 3 km, ... form an AP. The fare for the 5th km is:",
+    "options": {
+      "a": "₹42",
+      "b": "₹47",
+      "c": "₹52",
+      "d": "₹57"
+    },
+    "answer": "b",
+    "id": 1409
+  },
+  {
+    "question": "A man saves ₹50 each month. His total savings after 1, 2, 3,... months form an AP. His savings after 10 months are:",
+    "options": {
+      "a": "₹400",
+      "b": "₹450",
+      "c": "₹500",
+      "d": "₹550"
+    },
+    "answer": "c",
+    "id": 1410
+  },
+  {
+    "question": "The number of unit squares in squares with side 1, 2, 3,... units form an AP. The number of unit squares in a square with side 5 is:",
+    "options": {
+      "a": "15",
+      "b": "20",
+      "c": "25",
+      "d": "30"
+    },
+    "answer": "c",
+    "id": 1411
+  },
+  {
+    "question": "The rungs of a ladder decrease uniformly by 2 cm from bottom to top. If the bottom rung is 45 cm, the length of the 3rd rung is:",
+    "options": {
+      "a": "41 cm",
+      "b": "39 cm",
+      "c": "43 cm",
+      "d": "37 cm"
+    },
+    "answer": "a",
+    "id": 1412
+  },
+  {
+    "question": "Shakila puts ₹100 in a money box when her daughter is one year old and increases it by ₹50 every year. The amounts in the box on the 1st, 2nd, 3rd,... birthdays form an AP. The amount on the 5th birthday is:",
+    "options": {
+      "a": "₹250",
+      "b": "₹300",
+      "c": "₹350",
+      "d": "₹400"
+    },
+    "answer": "b",
+    "id": 1413
+  },
+  {
+    "question": "The sum of the first n odd natural numbers is:",
+    "options": {
+      "a": "n²",
+      "b": "2n²",
+      "c": "n²/2",
+      "d": "n(n+1)"
+    },
+    "answer": "a",
+    "id": 1414
+  },
+  {
+    "question": "If the nth term of an AP is 2n + 1, the sum of its first three terms is:",
+    "options": {
+      "a": "9",
+      "b": "12",
+      "c": "15",
+      "d": "18"
+    },
+    "answer": "c",
+    "id": 1415
+  },
+  {
+    "question": "The common difference of an AP is -2. If the 5th term is 0, the first term is:",
+    "options": {
+      "a": "8",
+      "b": "-8",
+      "c": "6",
+      "d": "-6"
+    },
+    "answer": "a",
+    "id": 1416
+  },
+  {
+    "question": "The sum of first 20 odd natural numbers is:",
+    "options": {
+      "a": "200",
+      "b": "300",
+      "c": "400",
+      "d": "500"
+    },
+    "answer": "c",
+    "id": 1418
+  },
+  {
+    "question": "Which of the following is not an Arithmetic Progression?",
+    "options": {
+      "a": "2, 4, 6, 8,...",
+      "b": "1, 3, 5, 7,...",
+      "c": "1, 4, 9, 16,...",
+      "d": "-3, -1, 1, 3,..."
+    },
+    "answer": "c",
+    "id": 1419
+  },
+  {
+    "question": "The sum of the first 'n' terms of an AP whose first term is 'a' and last term is 'l' is given by:",
+    "options": {
+      "a": "n/2 (a + l)",
+      "b": "n/2 (a - l)",
+      "c": "n (a + l)",
+      "d": "n (a - l)"
+    },
+    "answer": "a",
+    "id": 1420
+  },
+  {
+    "question": "If three numbers a, b, and c are in AP, then:",
+    "options": {
+      "a": "a + c = 2b",
+      "b": "a + b = 2c",
+      "c": "b + c = 2a",
+      "d": "a + b + c = 0"
+    },
+    "answer": "a",
+    "id": 1422
+  },
+  {
+    "question": "The sum of the first n natural numbers is given by:",
+    "options": {
+      "a": "n(n+1)/2",
+      "b": "n(n-1)/2",
+      "c": "n²/2",
+      "d": "(n+1)²/2"
+    },
+    "answer": "a",
+    "id": 1423
+  },
+  {
+    "question": "Find the 20th term of the AP: 3, 8, 13,...",
+    "options": {
+      "a": "98",
+      "b": "103",
+      "c": "93",
+      "d": "88"
+    },
+    "answer": "a",
+    "id": 1424
+  },
+  {
+    "question": "The 17th term of an AP exceeds its 10th term by 7. Find the common difference.",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+    },
+    "answer": "b",
+    "id": 1425
+  },
+  {
+    "question": "The first term of an AP is 5, the last term is 45, and the sum is 400. Find the number of terms.",
+    "options": {
+      "a": "10",
+      "b": "15",
+      "c": "16",
+      "d": "20"
+    },
+    "answer": "c",
+    "id": 1426
+  },
+  {
+    "question": "Find the sum of the first 15 multiples of 8.",
+    "options": {
+      "a": "840",
+      "b": "960",
+      "c": "1080",
+      "d": "1200"
+    },
+    "answer": "b",
+    "id": 1427
+  },
+  {
+    "question": "Subba Rao's starting salary in 1995 was ₹5000, with an annual increment of ₹200. In which year did his income reach ₹7000?",
+    "options": {
+      "a": "2000",
+      "b": "2005",
+      "c": "2010",
+      "d": "2015"
+    },
+    "answer": "b",
+    "id": 1429
+  },
+  {
+    "question": "Ramkali saved ₹5 in the first week and increased her savings by ₹1.75 each week. If her savings in the nth week is ₹20.75, find n.",
+    "options": {
+      "a": "8",
+      "b": "9",
+      "c": "10",
+      "d": "11"
+    },
+    "answer": "c",
+    "id": 1430
+  },
+  {
+    "question": "A pile of logs has 20 logs in the bottom row, 19 in the next, 18 in the next, and so on. If there are 5 logs in the top row, how many rows are there?",
+    "options": {
+      "a": "14",
+      "b": "15",
+      "c": "16",
+      "d": "17"
+    },
+    "answer": "c",
+    "id": 1431
+  },
+  {
+    "question": "A ladder has rungs 25 cm apart. The rungs decrease uniformly from 45 cm to 25 cm. If the top and bottom rungs are 2.5 m apart, find the number of rungs.",
+    "options": {
+      "a": "10",
+      "b": "11",
+      "c": "12",
+      "d": "13"
+    },
+    "answer": "b",
+    "id": 1433
+  },
+  {
+    "question": "The sum of the first four prime numbers is:",
+    "options": {
+      "a": "11",
+      "b": "17",
+      "c": "26",
+      "d": "28"
+    },
+    "answer": "b",
+    "id": 1434
+  },
+  {
+    "question": "If the first term of an AP is 2 and the sum of first five terms is equal to one-fourth the sum of the next five terms, then the 20th term is:",
+    "options": {
+      "a": "-112",
+      "b": "-110",
+      "c": "-108",
+      "d": "-106"
+    },
+    "answer": "a",
+    "id": 1435
+  },
+  {
+    "question": "Find the sum of all natural numbers lying between 100 and 1000 which are multiples of 5.",
+    "options": {
+      "a": "98450",
+      "b": "98550",
+      "c": "98650",
+      "d": "98750"
+    },
+    "answer": "a",
+    "id": 1437
+  },
+  {
+    "question": "If the sum of n terms of an AP is 3n² + 5n and its mth term is 164, find the value of m.",
+    "options": {
+      "a": "25",
+      "b": "26",
+      "c": "27",
+      "d": "28"
+    },
+    "answer": "c",
+    "id": 1438
+  },
+  {
+    "question": "The angles of a quadrilateral are in AP whose common difference is 10°. Find the angles.",
+    "options": {
+      "a": "75°, 85°, 95°, 105°",
+      "b": "80°, 90°, 100°, 110°",
+      "c": "85°, 95°, 105°, 115°",
+      "d": "90°, 100°, 110°, 120°"
+    },
+    "answer": "a",
+    "id": 1441
+  },
+  {
+    "question": "The sum of four numbers in AP is 50, and the greatest number is 4 times the least. Find the numbers.",
+    "options": {
+      "a": "5, 10, 15, 20",
+      "b": "6, 12, 18, 24",
+      "c": "4, 8, 12, 16",
+      "d": "2, 4, 6, 8"
+    },
+    "answer": "a",
+    "id": 1445
+  },
+  {
+    "question": "Assertion: In an AP, the common difference can be negative, positive, or zero.\nReason: The common difference is the fixed number added to each term to get the next term.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1449
+  },
+  {
+    "question": "Assertion: If all terms in an AP are the same, the common difference must be zero.\nReason: This happens because each term is equal to the first term minus itself.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "c",
+    "id": 1450
+  },
+  {
+    "question": "Assertion: The sequence 1, 4, 9, 16,... forms a quadratic sequence.\nReason: The difference between consecutive terms is not constant.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "b",
+    "id": 1451
+  },
+  {
+    "question": "Assertion: If three numbers a, b, c are in AP, then a + c = 2b.\nReason: The middle term in an AP is always half the sum of other two terms.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "a",
+    "id": 1452
+  },
+  {
+    "question": "Assertion: In an AP, if the 17th term exceeds the 10th term by 7, the common difference must be 2.\nReason: The difference between terms is found by multiplying common difference with number of terms between them.",
+    "options": {
+      "a": "Both assertion and reason are true and reason is the correct explanation of assertion",
+      "b": "Both assertion and reason are true but reason is not the correct explanation of assertion",
+      "c": "Assertion is true but reason is false",
+      "d": "Both assertion and reason are false"
+    },
+    "answer": "d",
+    "id": 1455
+  }
+]

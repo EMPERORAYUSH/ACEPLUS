@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Pre-Palaeozoic age minerals are mainly associated with which type of rocks?",
+    "options": {
+      "a": "Sedimentary rocks",
+      "b": "Metamorphic and igneous rocks",
+      "c": "Alluvial rocks",
+      "d": "Volcanic rocks"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a ferrous mineral?",
+    "options": {
+      "a": "Iron ore",
+      "b": "Manganese",
+      "c": "Copper",
+      "d": "Chromite"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The North-Eastern Plateau Region of India is known for the reserves of which of these minerals?",
+    "options": {
+      "a": "Gold, Silver, Platinum",
+      "b": "Iron ore, Coal, Manganese",
+      "c": "Petroleum, Natural Gas",
+      "d": "Diamonds, Emeralds, Rubies"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which state is the largest producer of bauxite in India?",
+    "options": {
+      "a": "Jharkhand",
+      "b": "Odisha",
+      "c": "Chhattisgarh",
+      "d": "Madhya Pradesh"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which mineral is known as \"liquid gold\"?",
+    "options": {
+      "a": "Coal",
+      "b": "Petroleum",
+      "c": "Natural Gas",
+      "d": "Gold"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a non-metallic mineral used in the electrical industry?",
+    "options": {
+      "a": "Copper",
+      "b": "Bauxite",
+      "c": "Mica",
+      "d": "Iron"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Where are the tertiary coal deposits primarily found in India?",
+    "options": {
+      "a": "Assam, Arunachal Pradesh, Meghalaya, and Nagaland",
+      "b": "Jharkhand, West Bengal, Odisha, and Chhattisgarh",
+      "c": "Madhya Pradesh, Telangana, Andhra Pradesh, and Maharashtra",
+      "d": "Rajasthan, Gujarat, Tamil Nadu, and Kerala"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which organization was established in 1956 to systematically explore and produce oil in India?",
+    "options": {
+      "a": "Geological Survey of India",
+      "b": "Oil and Natural Gas Commission",
+      "c": "Indian Oil Corporation",
+      "d": "Bharat Petroleum"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which nuclear power project is located in Maharashtra?",
+    "options": {
+      "a": "Kaiga",
+      "b": "Tarapur",
+      "c": "Kalpakkam",
+      "d": "Narora"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Monazite, a source of Thorium, is found in the beach sands of which states?",
+    "options": {
+      "a": "Gujarat and Rajasthan",
+      "b": "Kerala and Tamil Nadu",
+      "c": "Maharashtra and Goa",
+      "d": "Odisha and West Bengal"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a conventional source of energy?",
+    "options": {
+      "a": "Coal",
+      "b": "Petroleum",
+      "c": "Solar",
+      "d": "Natural Gas"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In which district of Himachal Pradesh is a geothermal energy plant located?",
+    "options": {
+      "a": "Shimla",
+      "b": "Kullu",
+      "c": "Kangra",
+      "d": "Mandi"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Based on the paragraph, what is the primary reason for the rich mineral deposits in peninsular India?",
+    "options": {
+      "a": "Presence of alluvial soil",
+      "b": "Association with metamorphic and igneous rocks",
+      "c": "Proximity to the Himalayas",
+      "d": "Abundance of rivers"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "According to the paragraph, what distinguishes ferrous minerals from non-ferrous minerals?",
+    "options": {
+      "a": "Their color",
+      "b": "Their origin",
+      "c": "The presence of iron content",
+      "d": "Their use in industry"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Based on the paragraph, what is the primary difference between organic and inorganic non-metallic minerals?",
+    "options": {
+      "a": "Their hardness",
+      "b": "Their origin",
+      "c": "Their usage",
+      "d": "Their color"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does the paragraph imply about the relationship between the quality and quantity of minerals?",
+    "options": {
+      "a": "Higher quality minerals are more abundant",
+      "b": "Lower quality minerals are less abundant",
+      "c": "Higher quality minerals are less abundant",
+      "d": "Quality and quantity are unrelated"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is a significant advantage of the North-Eastern Plateau Region for the iron and steel industry?",
+    "options": {
+      "a": "Proximity to the coast",
+      "b": "Abundance of skilled labor",
+      "c": "Presence of diverse mineral resources",
+      "d": "Favorable climate"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which mineral is notably absent in the South-Western Plateau Region, except for a specific location?",
+    "options": {
+      "a": "Iron ore",
+      "b": "Bauxite",
+      "c": "Coal",
+      "d": "Manganese"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which geological system is associated with the minerals found in the North-Western Region?",
+    "options": {
+      "a": "Gondwana system",
+      "b": "Dharwar system",
+      "c": "Tertiary system",
+      "d": "Vindhyan system"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which state is mentioned as having significant iron ore mines like Gurumahisani, Sulaipet, and Badampahar?",
+    "options": {
+      "a": "Jharkhand",
+      "b": "Karnataka",
+      "c": "Odisha",
+      "d": "Chhattisgarh"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "For which industrial process is manganese primarily used, as mentioned in the paragraph?",
+    "options": {
+      "a": "Aluminum production",
+      "b": "Copper smelting",
+      "c": "Iron ore smelting",
+      "d": "Cement manufacturing"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which property of copper makes it suitable for use in the electrical industry, as highlighted in the paragraph?",
+    "options": {
+      "a": "Its color",
+      "b": "Its rarity",
+      "c": "Its malleability and ductility",
+      "d": "Its density"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the primary use of the majority of coal deposits in India, as mentioned in the paragraph?",
+    "options": {
+      "a": "Domestic heating",
+      "b": "Thermal power generation",
+      "c": "Cement production",
+      "d": "Fertilizer production"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is petroleum referred to as liquid gold, according to the paragraph?",
+    "options": {
+      "a": "Its color",
+      "b": "Its scarcity and diverse uses",
+      "c": "Its density",
+      "d": "Its origin"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In which industrial sector is natural gas NOT commonly used, according to the paragraph?",
+    "options": {
+      "a": "Power generation",
+      "b": "Domestic fuel",
+      "c": "Raw material for chemicals",
+      "d": "Construction"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "If a new steel plant is to be set up in India, which location would be most suitable based on the availability of raw materials?",
+    "options": {
+      "a": "Northern Plains",
+      "b": "North-Eastern Plateau Region",
+      "c": "Himalayan Region",
+      "d": "Coastal Plains"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If you were to advise a company looking to invest in renewable energy in India, which type of energy would you recommend based on the information provided in the text?",
+    "options": {
+      "a": "Coal",
+      "b": "Petroleum",
+      "c": "Solar",
+      "d": "Nuclear"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Based on the distribution of minerals, which state would be most ideal for setting up a cement manufacturing plant?",
+    "options": {
+      "a": "Assam",
+      "b": "Rajasthan",
+      "c": "Kerala",
+      "d": "West Bengal"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Considering the exhaustible nature of minerals, which of the following practices would be most sustainable?",
+    "options": {
+      "a": "Increased mining activities",
+      "b": "Exporting all mineral reserves",
+      "c": "Recycling of metals",
+      "d": "Ignoring mineral conservation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If India wants to reduce its dependence on imported oil, which strategy would be most effective based on the text?",
+    "options": {
+      "a": "Increase coal production",
+      "b": "Develop offshore oil fields",
+      "c": "Build more thermal power plants",
+      "d": "Focus on hydropower"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which location would be most suitable for a company looking to establish a wind energy farm in India, based on the text?",
+    "options": {
+      "a": "Northern Plains",
+      "b": "Rajasthan",
+      "c": "Himalayan Region",
+      "d": "North-Eastern Plateau Region"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a state in India is experiencing frequent power shortages, which energy source should it prioritize developing, according to the text?",
+    "options": {
+      "a": "Coal",
+      "b": "Petroleum",
+      "c": "Natural Gas",
+      "d": "Solar"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Based on the text, which type of refinery would be more suitable for a region with significant local oil production?",
+    "options": {
+      "a": "Market-based",
+      "b": "Field-based",
+      "c": "Both field-based and market-based",
+      "d": "Neither field-based nor market-based"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a region has abundant laterite rocks, which mineral is most likely to be found there?",
+    "options": {
+      "a": "Coal",
+      "b": "Bauxite",
+      "c": "Iron ore",
+      "d": "Manganese"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Given the increasing demand for electricity, which energy source would be most sustainable for India in the long run, based on the text?",
+    "options": {
+      "a": "Coal",
+      "b": "Petroleum",
+      "c": "Natural Gas",
+      "d": "Wind energy"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Why is the conservation of minerals essential for sustainable development?",
+    "options": {
+      "a": "Because minerals are abundant and easily replaceable",
+      "b": "Because minerals are non-renewable and take a long time to form",
+      "c": "Because minerals are only used in a few industries",
+      "d": "Because minerals have no economic value"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What could be the potential environmental impact of extensive coal mining in the North-Eastern Plateau Region?",
+    "options": {
+      "a": "Increased rainfall",
+      "b": "Deforestation and air pollution",
+      "c": "Enhanced soil fertility",
+      "d": "Growth of biodiversity"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might there be a conflict between industrial development and environmental conservation in mineral-rich regions?",
+    "options": {
+      "a": "Industries do not require minerals",
+      "b": "Mining activities can lead to environmental degradation",
+      "c": "Minerals are renewable resources",
+      "d": "Industries are always eco-friendly"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can the use of renewable energy sources contribute to reducing India's carbon footprint?",
+    "options": {
+      "a": "By increasing the use of fossil fuels",
+      "b": "By providing cleaner alternatives to fossil fuels",
+      "c": "By promoting deforestation",
+      "d": "By increasing industrial pollution"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What are the potential socio-economic benefits of developing non-conventional energy sources in rural India?",
+    "options": {
+      "a": "Increased reliance on fossil fuels",
+      "b": "Improved energy access and economic opportunities",
+      "c": "Higher pollution levels",
+      "d": "Decreased agricultural productivity"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important for India to diversify its energy sources?",
+    "options": {
+      "a": "To increase dependence on a single energy source",
+      "b": "To enhance energy security and reduce reliance on imports",
+      "c": "To promote the use of only non-renewable resources",
+      "d": "To decrease the overall energy demand"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What challenges might India face in transitioning from conventional to non-conventional energy sources?",
+    "options": {
+      "a": "Lack of sunlight",
+      "b": "Initial investment costs and technological advancements",
+      "c": "Abundance of fossil fuels",
+      "d": "Low energy demand"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can government policies promote the sustainable use of mineral resources?",
+    "options": {
+      "a": "By encouraging excessive mining",
+      "b": "By implementing regulations and promoting recycling",
+      "c": "By banning all mining activities",
+      "d": "By ignoring the issue of mineral depletion"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the development of offshore oil fields crucial for India's energy security?",
+    "options": {
+      "a": "To reduce the need for oil exploration",
+      "b": "To increase reliance on imported oil",
+      "c": "To tap into new reserves and reduce dependence on imports",
+      "d": "To promote the use of coal"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What could be the long-term implications of India not investing in renewable energy technologies?",
+    "options": {
+      "a": "Increased energy independence",
+      "b": "Continued reliance on depleting fossil fuels and environmental damage",
+      "c": "Rapid economic growth",
+      "d": "Enhanced energy efficiency"
+    },
+    "answer": "b"
+  }
+]

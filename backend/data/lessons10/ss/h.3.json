@@ -1,0 +1,592 @@
+[
+  {
+    "question": "The active coastal trade linked the Indus Valley civilizations with present-day West Asia as early as ________.",
+    "options": {
+      "a": "2000 BCE",
+      "b": "3000 BCE",
+      "c": "4000 BCE",
+      "d": "1000 BCE"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "_____ , used as a form of currency, from the Maldives found their way to China and East Africa.",
+    "options": {
+      "a": "Spices",
+      "b": "Cowries",
+      "c": "Silk",
+      "d": "Gold"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Silk Routes thrived almost till the ________ century.",
+    "options": {
+      "a": "Sixteenth",
+      "b": "Fifteenth",
+      "c": "Fourteenth",
+      "d": "Thirteenth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Noodles are believed to have travelled west from ______ to become spaghetti.",
+    "options": {
+      "a": "India",
+      "b": "Japan",
+      "c": "China",
+      "d": "Italy"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Foods like potatoes, soya, groundnuts, etc. were introduced in Europe and Asia after Christopher Columbus discovered ________.",
+    "options": {
+      "a": "Africa",
+      "b": "Asia",
+      "c": "America",
+      "d": "Australia"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What were the Corn Laws?",
+    "options": {
+      "a": "Laws related to abolition of slavery",
+      "b": "Laws related to restriction of corn imports",
+      "c": "Laws related to export of opium",
+      "d": "Laws against indentured labor"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the primary reason for the abolishment of the Corn Laws?",
+    "options": {
+      "a": "To support British farmers",
+      "b": "To decrease food prices",
+      "c": "To appease landed groups",
+      "d": "To promote self-sufficiency"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the impact of the abolishment of Corn Laws on British agriculture?",
+    "options": {
+      "a": "It increased its productivity.",
+      "b": "It became more competitive.",
+      "c": "It became unable to compete with imports.",
+      "d": "It led to higher food prices."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What technological advancement facilitated the transportation of perishable food items over long distances?",
+    "options": {
+      "a": "Steam engines",
+      "b": "Refrigerated ships",
+      "c": "The telegraph",
+      "d": "Railways"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The late nineteenth century witnessed a darker side to expanding trade and increased prosperity, marked by:",
+    "options": {
+      "a": "Increased social mobility",
+      "b": "Loss of freedoms and livelihoods in many parts of the world",
+      "c": "Equitable distribution of wealth",
+      "d": "Decline in colonialism"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The carving up of Africa among European powers was finalized in a meeting held in:",
+    "options": {
+      "a": "London",
+      "b": "Paris",
+      "c": "Berlin",
+      "d": "Rome"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the most potent weapon used by the Spanish conquerors against America's original inhabitants?",
+    "options": {
+      "a": "Superior firepower",
+      "b": "Advanced weaponry",
+      "c": "Germs such as smallpox",
+      "d": "Military strategies"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which disease significantly impacted the livelihoods of people in Africa during the 1890s?",
+    "options": {
+      "a": "Smallpox",
+      "b": "Influenza",
+      "c": "Rinderpest",
+      "d": "Malaria"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the primary reason for the shortage of labor willing to work for wages in late nineteenth-century Africa?",
+    "options": {
+      "a": "Lack of available jobs",
+      "b": "Abundant land and livestock providing sustenance",
+      "c": "High wages offered by employers",
+      "d": "Prevalence of slavery"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What system did the Shikaripuri shroffs and Nattukottai Chettiars contribute to?",
+    "options": {
+      "a": "Financing export agriculture",
+      "b": "Industrial production",
+      "c": "Maritime trade",
+      "d": "Mining operations"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the impact of British industrialization on Indian cotton textiles?",
+    "options": {
+      "a": "Increased demand for Indian textiles",
+      "b": "Decline in the inflow of Indian textiles to Britain",
+      "c": "Expansion of Indian textile industry",
+      "d": "No impact"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the main commodity that India exported to China during the nineteenth century?",
+    "options": {
+      "a": "Tea",
+      "b": "Cotton",
+      "c": "Opium",
+      "d": "Indigo"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these was NOT a home charge borne by India?",
+    "options": {
+      "a": "Private remittances of British officials",
+      "b": "Interest payments on India's external debt",
+      "c": "Pensions of British officials in India",
+      "d": "Salaries of Indian officials"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The First World War was primarily fought between which two power blocs?",
+    "options": {
+      "a": "Allied and Axis Powers",
+      "b": "Allies and Central Powers",
+      "c": "Axis and Central Powers",
+      "d": "None of the above"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the primary reason for Britain's economic hardship after World War I?",
+    "options": {
+      "a": "Rise of new industrial powers",
+      "b": "Loss of colonies",
+      "c": "Burden of external debts and loss of dominance in Indian Market",
+      "d": "Hyperinflation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Great Depression began around _________ and lasted till the mid ________.",
+    "options": {
+      "a": "1929, 1930s",
+      "b": "1930, 1940s",
+      "c": "1920s, 1930s",
+      "d": "1910s, 1920s"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was a key factor contributing to the Great Depression?",
+    "options": {
+      "a": "Increased agricultural demand",
+      "b": "Agricultural overproduction",
+      "c": "Rise in agricultural prices",
+      "d": "Increased industrial production"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which country emerged as the dominant economic power after World War II?",
+    "options": {
+      "a": "Britain",
+      "b": "USSR",
+      "c": "USA",
+      "d": "Japan"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Bretton Woods Conference established:",
+    "options": {
+      "a": "The League of Nations",
+      "b": "The United Nations",
+      "c": "The IMF and World Bank",
+      "d": "NATO"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Bretton Woods system was based on:",
+    "options": {
+      "a": "Floating exchange rates",
+      "b": "Fixed exchange rates",
+      "c": "A single global currency",
+      "d": "Barter system"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What led to the collapse of the Bretton Woods system?",
+    "options": {
+      "a": "Rise of new economic powers",
+      "b": "Weakening of the US economy",
+      "c": "Increased global trade",
+      "d": "The oil crisis"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does NIEO stand for?",
+    "options": {
+      "a": "New International Economic Order",
+      "b": "New Indian Economic Order",
+      "c": "National Income and Expenditure Output",
+      "d": "Net International Exchange Operations"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What was the primary aim of the G-77?",
+    "options": {
+      "a": "To promote free trade",
+      "b": "To demand a new international economic order",
+      "c": "To support the Bretton Woods system",
+      "d": "To control global population"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is a key characteristic of a multinational corporation (MNC)?",
+    "options": {
+      "a": "Operates only within its country of origin",
+      "b": "Specializes in agricultural production",
+      "c": "Operates in multiple countries",
+      "d": "Focuses solely on imports and exports"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The First World War disrupted traditional economic patterns. What was a direct consequence of this disruption for Britain?",
+    "options": {
+      "a": "Increased exports to India",
+      "b": "Difficulty recapturing its pre-war position in the Indian market",
+      "c": "Growth in its agricultural sector",
+      "d": "Strengthening of its currency"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The interwar period experienced significant economic instability. What was one of the major factors that contributed to this instability?",
+    "options": {
+      "a": "Growth of mass production",
+      "b": "Overdependence on the US economy",
+      "c": "Increase in international trade",
+      "d": "Expansion of the agricultural sector"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Great Depression was a global economic crisis. How did it impact India's peasantry?",
+    "options": {
+      "a": "It led to increased prosperity due to higher agricultural prices.",
+      "b": "It had minimal impact due to their self-sufficient nature.",
+      "c": "It increased their indebtedness due to falling agricultural prices.",
+      "d": "It pushed them towards urban centers for employment."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Post-World War II, there were crucial influences shaping reconstruction. Which country's dominance played a significant role in this reconstruction?",
+    "options": {
+      "a": "Soviet Union",
+      "b": "Britain",
+      "c": "France",
+      "d": "USA"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The Bretton Woods system aimed to create a stable economic order. What was one of the key features of this system?",
+    "options": {
+      "a": "Floating exchange rates",
+      "b": "Free trade without tariffs",
+      "c": "Fixed exchange rates pegged to the US dollar",
+      "d": "Absence of international financial institutions"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Decolonization led to the emergence of new nations in Asia and Africa. What was a major challenge faced by these newly independent nations?",
+    "options": {
+      "a": "Abundance of resources",
+      "b": "Poverty and lack of resources",
+      "c": "Advanced industrial infrastructure",
+      "d": "Low population density"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The G-77 emerged as a group of developing nations. What was their primary objective?",
+    "options": {
+      "a": "To support the existing economic order",
+      "b": "To maintain the dominance of Western powers",
+      "c": "To demand a new international economic order (NIEO)",
+      "d": "To limit their own economic growth"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Rinderpest had a devastating impact on Africa. What was the main consequence of this disease?",
+    "options": {
+      "a": "Increased agricultural production",
+      "b": "Growth of indigenous industries",
+      "c": "Loss of livelihoods and forced labor",
+      "d": "Improved living conditions for Africans"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Indentured laborers migrated from India to various parts of the world. What was the primary reason for this migration?",
+    "options": {
+      "a": "Higher wages in India",
+      "b": "Escape poverty and oppression in their home villages",
+      "c": "Adventure and exploration",
+      "d": "Desire to spread Indian culture"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Technological advancements played a crucial role in reshaping the global economy. What was a key technological development that facilitated the trade of meat?",
+    "options": {
+      "a": "The invention of the steam engine",
+      "b": "Development of refrigerated ships",
+      "c": "The discovery of electricity",
+      "d": "The invention of the printing press"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "\"The pre-modern world witnessed the exchange of not just goods, but also cultures and diseases. Along the Silk Route, besides silk, goods like pottery, textiles, and spices travelled across continents. In return, precious metals flowed from Europe to Asia. This exchange also facilitated the spread of religions, with early Christian missionaries and Muslim preachers traversing the route.\" Which of the following is NOT true about the exchange along the Silk Route?",
+    "options": {
+      "a": "It facilitated the trade of goods like silk, pottery, and spices.",
+      "b": "It played a role in the spread of religions.",
+      "c": "It was limited to the exchange of physical goods.",
+      "d": "It resulted in the flow of precious metals from Europe to Asia."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "\"The abolishment of the Corn Laws in Britain had a significant impact on global trade and migration patterns. By allowing cheaper food imports, British agriculture suffered, leading to unemployment and migration of people overseas. This demand for food led to land clearing and increased food production in other parts of the world, like America and Australia, necessitating the development of infrastructure like railways and ports.\" Which of the following was NOT a direct consequence of the abolishment of the Corn Laws?",
+    "options": {
+      "a": "Cheaper food imports in Britain",
+      "b": "Increased agricultural production in America and Australia",
+      "c": "Growth of British agriculture",
+      "d": "Increased migration to America and Australia"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "\"Rinderpest, a cattle disease, ravaged Africa in the late 19th century, decimating livestock populations. This had profound consequences for African societies, impacting livelihoods and economies. The loss of cattle enabled European colonizers to further control resources and force Africans into the labor market.\" What was the most significant impact of rinderpest on African societies?",
+    "options": {
+      "a": "Increase in cattle population",
+      "b": "Strengthening of African economies",
+      "c": "Disruption of livelihoods and increased European control",
+      "d": "Advancement of African agricultural practices"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "\"The Great Depression of the 1930s was a period of economic hardship across the world. While the causes were complex, including agricultural overproduction and the withdrawal of US loans, the consequences were devastating. India, deeply integrated into the global economy, saw its exports and imports decline drastically, impacting both urban and rural populations, though in different ways.\" What was the primary reason for the increased hardship faced by Indian farmers during the Great Depression?",
+    "options": {
+      "a": "Refusal of the colonial government to reduce revenue demands despite falling prices",
+      "b": "Increased demand for agricultural produce",
+      "c": "Growth of industrialization in India",
+      "d": "Lack of access to credit"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "\"Post World War II, the Bretton Woods institutions, namely the IMF and World Bank, were established. These institutions played a significant role in shaping the post-war global economy, with decision-making power largely concentrated in the hands of Western industrial powers. The G-77, a group of developing countries, later emerged advocating for a new international economic order, demanding greater control over their resources and fairer trade practices.\" What was the main reason for the formation of the G-77?",
+    "options": {
+      "a": "To support the Bretton Woods institutions",
+      "b": "To promote the interests of Western industrial powers",
+      "c": "To challenge the existing economic order dominated by Western powers",
+      "d": "To establish a single global currency"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What does “globalization” refer to in the context of the modern world?",
+    "options": {
+      "a": "Cultural exchange",
+      "b": "Integrated global economic system",
+      "c": "Political alliances",
+      "d": "Technological advancements"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What were some of the motivations for people to travel vast distances in ancient times?",
+    "options": {
+      "a": "Leisure and entertainment",
+      "b": "Knowledge, opportunity, spiritual fulfillment, escape persecution",
+      "c": "Conquest and colonization",
+      "d": "Scientific exploration"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What impact did the introduction of the potato have on Europe?",
+    "options": {
+      "a": "Increased famine",
+      "b": "Improved diet and longer lifespan for the poor",
+      "c": "Decline in agricultural production",
+      "d": "No significant impact"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How did the discovery of America transform trade and lives in the 16th century?",
+    "options": {
+      "a": "It led to the isolation of America from the rest of the world.",
+      "b": "It had minimal impact on global trade.",
+      "c": "It transformed trade and lives through the introduction of new crops and resources.",
+      "d": "It resulted in the decline of European economies."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What role did silver from mines in present-day Peru and Mexico play in the European economy?",
+    "options": {
+      "a": "It led to economic decline.",
+      "b": "It financed trade with Asia.",
+      "c": "It caused inflation.",
+      "d": "It had no significant impact."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What characterized the Indian Ocean trade before the arrival of Europeans?",
+    "options": {
+      "a": "Stagnation and limited exchange",
+      "b": "Bustling trade of goods, people, and knowledge",
+      "c": "Dominance of European traders",
+      "d": "Primarily focused on slave trade"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the major consequence of World War I on the able-bodied workforce in Europe?",
+    "options": {
+      "a": "It increased significantly.",
+      "b": "It remained largely unaffected.",
+      "c": "It reduced due to deaths and injuries.",
+      "d": "It shifted primarily to agricultural activities."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the primary reason for the shift in focus of the Bretton Woods institutions towards developing countries in the late 1950s?",
+    "options": {
+      "a": "Increased dependence of European and Japanese economies on these institutions.",
+      "b": "Reduced dependence of European and Japanese economies on these institutions.",
+      "c": "Decline in poverty in developing countries.",
+      "d": "Lack of resources in developing countries."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was the primary motivation for the demand for a new international economic order (NIEO) by the G-77 countries?",
+    "options": {
+      "a": "To maintain the dominance of Western powers in the global economy.",
+      "b": "To gain more control over their natural resources and improve trade terms.",
+      "c": "To restrict their own economic growth and development.",
+      "d": "To strengthen the Bretton Woods system."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What led to the increase in demand for agricultural products in Britain during the late 18th century?",
+    "options": {
+      "a": "Population decline",
+      "b": "Industrial revolution and urban growth",
+      "c": "Decline in agricultural production",
+      "d": "Increased imports of food grains"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What was a major challenge faced by Henry Ford in implementing the assembly line method?",
+    "options": {
+      "a": "High labor costs",
+      "b": "Shortage of raw materials",
+      "c": "High worker turnover due to stressful working conditions",
+      "d": "Lack of demand for automobiles"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the significant contribution of Indian bankers like the Shikaripuri shroffs and Nattukottai Chettiars to the global economy?",
+    "options": {
+      "a": "Funding industrialization in Europe",
+      "b": "Financing export agriculture in Southeast Asia",
+      "c": "Investing in the stock market",
+      "d": "Supporting the development of railways"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How did Indian indentured workers respond to the harsh conditions they faced on plantations?",
+    "options": {
+      "a": "They accepted their fate passively.",
+      "b": "They revolted violently against their employers.",
+      "c": "They developed new forms of cultural expression and resistance.",
+      "d": "They returned to India immediately."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How did World War I impact the flow of money between countries?",
+    "options": {
+      "a": "It strengthened economic ties between European powers.",
+      "b": "It led to Britain becoming a major creditor to the US.",
+      "c": "It resulted in the US shifting from a debtor to a creditor nation.",
+      "d": "It had no significant impact on international finance."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What was the initial response of many governments to the outbreak of World War I in August 1914?",
+    "options": {
+      "a": "They expected it to be a long and drawn-out conflict.",
+      "b": "They believed it would be over by Christmas.",
+      "c": "They were prepared for the scale of death and destruction.",
+      "d": "They anticipated the involvement of the US."
+    },
+    "answer": "b"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "question": "What is the most common method for measuring economic development?",
+    "options": {
+      "a": "Literacy Rate",
+      "b": "Income",
+      "c": "Life Expectancy",
+      "d": "Gross Enrolment Ratio"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a term used to measure development in the chapter?",
+    "options": {
+      "a": "Per Capita Income",
+      "b": "Infant Mortality Rate",
+      "c": "Consumer Price Index",
+      "d": "Human Development Index"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The concept of Purchasing Power Parity (PPP) is used to calculate:",
+    "options": {
+      "a": "Life Expectancy",
+      "b": "Gross National Income per capita",
+      "c": "Literacy Rate",
+      "d": "Net Attendance Ratio"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "According to the text, which organization publishes the World Development Reports?",
+    "options": {
+      "a": "United Nations",
+      "b": "World Bank",
+      "c": "IMF",
+      "d": "UNESCO"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does HDI stand for?",
+    "options": {
+      "a": "Human Development Index",
+      "b": "High Development Indicator",
+      "c": "Human Developed Indicator",
+      "d": "Humanistic Development Index"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which Indian state had the highest per capita income in 2018-19 as per the data provided?",
+    "options": {
+      "a": "Kerala",
+      "b": "Bihar",
+      "c": "Haryana",
+      "d": "Punjab"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Infant Mortality Rate (IMR) indicates the number of children that die before the age of one year as a proportion of how many live births?",
+    "options": {
+      "a": "100",
+      "b": "500",
+      "c": "1000",
+      "d": "10000"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Literacy Rate measures the proportion of literate population in which age group?",
+    "options": {
+      "a": "5-and-above",
+      "b": "6-and-above",
+      "c": "7-and-above",
+      "d": "10-and-above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is considered a renewable resource in the chapter?",
+    "options": {
+      "a": "Crude Oil",
+      "b": "Coal",
+      "c": "Groundwater",
+      "d": "Natural Gas"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In the World Development Reports, countries with per capita income of US$ 49,300 and above in 2019 are called:",
+    "options": {
+      "a": "Low-income countries",
+      "b": "Middle-income countries",
+      "c": "High-income countries",
+      "d": "Developing countries"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "According to the text, development involves thinking about which of these questions?",
+    "options": {
+      "a": "How should people live together?",
+      "b": "Can there be more equality?",
+      "c": "What are the essential things that we require?",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The chapter mentions that the way we live today is influenced by:",
+    "options": {
+      "a": "The future",
+      "b": "The present",
+      "c": "The past",
+      "d": "None of the above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the full form of PDS, mentioned in the context of Kerala?",
+    "options": {
+      "a": "Public Development Scheme",
+      "b": "People's Distribution System",
+      "c": "Public Distribution System",
+      "d": "Poverty Development Scheme"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Development is a complex process, and different people have different notions of what it means. For a landless rural laborer, development might mean more days of work and better wages, while for a prosperous farmer, it might mean higher support prices for their crops and the ability to settle their children abroad.\nWhat is the primary developmental goal for a landless rural labourer?",
+    "options": {
+      "a": "Higher support prices for crops",
+      "b": "More days of work and better wages",
+      "c": "Settling children abroad",
+      "d": "Owning more land"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The idea of development or progress has always been with us. We have aspirations or desires about what we would like to do and how we would like to live. Similarly, we have ideas about what a country should be like. These aspirations collectively form the basis of a nation's developmental goals.\nWhat forms the basis of a nation's developmental goals, according to the passage?",
+    "options": {
+      "a": "The government's policies",
+      "b": "Collective aspirations of its people",
+      "c": "The country's natural resources",
+      "d": "The country's GDP"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Different individuals seek different things that are most important to them for fulfilling their aspirations or desires. In fact, at times, two persons or groups may seek things that are conflicting, highlighting the diverse nature of developmental goals.\nWhat does the passage highlight about the nature of developmental goals?",
+    "options": {
+      "a": "They are always aligned",
+      "b": "They can be conflicting",
+      "c": "They are determined by the government",
+      "d": "They are unimportant"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Besides seeking more income, people also seek things like equal treatment, freedom, security, and respect from others. These non-material goals are often as important as, or even more important than, material goals like income.\nWhat do people seek besides income, according to the passage?",
+    "options": {
+      "a": "Only material goods",
+      "b": "Equal treatment, freedom, and respect",
+      "c": "Only higher education",
+      "d": "Only better healthcare"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Money, or material things that one can buy with it, is one factor on which our life depends. But the quality of our life also depends on non-material things, such as the role of friends in our lives. Friendship is a non-material aspect that contributes significantly to our well-being.\nWhat does the passage say about the quality of life?",
+    "options": {
+      "a": "It depends only on money",
+      "b": "It depends on material and non-material things",
+      "c": "It depends only on non-material things",
+      "d": "It is not important for development"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "For development, people look at a mix of goals. It is true that if women are engaged in paid work, their dignity in the household and society increases. However, a safe and secure environment may allow more women to take up a variety of jobs or run a business.\nWhat is essential for women to take up more jobs or run a business, according to the passage?",
+    "options": {
+      "a": "Higher education",
+      "b": "A safe and secure environment",
+      "c": "More money",
+      "d": "Government subsidies"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "National development refers to the overall development of a nation, considering various factors beyond just economic growth. It involves thinking about fair and just paths for all citizens and whether the developmental ideas benefit a large number of people or only a small group.\nWhat does national development involve, beyond economic growth?",
+    "options": {
+      "a": "Only increasing GDP",
+      "b": "Ensuring fair and just paths for all",
+      "c": "Focusing only on urban development",
+      "d": "Focusing only on industrial growth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Average income, while useful for comparison, can hide disparities. For instance, a country where a few individuals are extremely rich while the majority are poor might still have a high average income, masking the underlying inequality.\nWhat can average income hide, according to the passage?",
+    "options": {
+      "a": "Economic growth",
+      "b": "Disparities and inequality",
+      "c": "Population size",
+      "d": "Literacy rate"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Per capita income is calculated by dividing the total income of a country by its total population. It gives an estimate of the average income earned per person in a year. While it is a useful measure, it does not reflect the distribution of income among the population.\nHow is per capita income calculated?",
+    "options": {
+      "a": "Total income multiplied by the population",
+      "b": "Total income divided by the population",
+      "c": "Total income minus the population",
+      "d": "Total population divided by total income"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In the World Development Reports, countries are classified based on their per capita income. High-income countries are those with a per capita income above a certain threshold, while low-income countries are those below a certain threshold. India falls into the category of low middle-income countries.\nHow are countries classified in the World Development Reports?",
+    "options": {
+      "a": "Based on population size",
+      "b": "Based on geographical area",
+      "c": "Based on per capita income",
+      "d": "Based on literacy rate"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Infant Mortality Rate (IMR) is an important indicator of the health and well-being of a society. It reflects the number of children who die before reaching the age of one year per 1,000 live births. A lower IMR generally indicates better healthcare facilities and living conditions.\nWhat does a lower Infant Mortality Rate generally indicate?",
+    "options": {
+      "a": "Higher economic growth",
+      "b": "Better healthcare and living conditions",
+      "c": "Lower literacy rate",
+      "d": "Higher population growth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Literacy rate is a crucial indicator of a country's educational attainment. It measures the percentage of the population aged 7 and above who can read and write. A higher literacy rate is generally associated with better socio-economic development.\nWhat does literacy rate measure?",
+    "options": {
+      "a": "Percentage of the population who can only read",
+      "b": "Percentage of the population who can read and write, aged 7 and above",
+      "c": "Percentage of the population who can only write",
+      "d": "Percentage of the population attending school"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Net Attendance Ratio indicates the percentage of children in a specific age group who are attending school. It is an important indicator of access to education and can highlight disparities in educational opportunities among different groups.\nWhat does Net Attendance Ratio indicate?",
+    "options": {
+      "a": "Percentage of teachers in schools",
+      "b": "Percentage of children attending school in a specific age group",
+      "c": "Percentage of schools in a region",
+      "d": "Percentage of government spending on education"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Public facilities, such as healthcare and education, are essential for the overall well-being of a population. Access to these facilities can be influenced by factors like government policies, income levels, and social norms.\nWhat is NOT mentioned as a public facility in this passage?",
+    "options": {
+      "a": "Healthcare",
+      "b": "Transportation",
+      "c": "Education",
+      "d": "Both A and B"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Sustainability of development refers to the ability to maintain development over the long term without depleting resources or harming the environment. It is a crucial aspect of development that considers the needs of future generations.\nWhat does sustainability of development refer to?",
+    "options": {
+      "a": "Rapid economic growth",
+      "b": "Maintaining development without depleting resources or harming environment",
+      "c": "Focusing only on present needs",
+      "d": "Exploiting natural resources"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a country has a high GDP but a low HDI, what can be inferred?",
+    "options": {
+      "a": "The country is equally developed in all aspects.",
+      "b": "Economic growth is not translating into improved living standards for many.",
+      "c": "The country has a high literacy rate.",
+      "d": "The country has a low infant mortality rate."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A government decides to invest heavily in education and healthcare. Which of these is most likely to improve as a direct result?",
+    "options": {
+      "a": "Per Capita Income",
+      "b": "Human Development Index",
+      "c": "Gross Domestic Product",
+      "d": "Foreign Direct Investment"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a country, if the Net Attendance Ratio for girls is significantly lower than for boys, what could be a probable reason?",
+    "options": {
+      "a": "Girls are more intelligent than boys.",
+      "b": "Socio-cultural factors are limiting girls' access to education.",
+      "c": "Girls prefer to work rather than study.",
+      "d": "There are more schools for boys than girls."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a country is rapidly depleting its natural resources, what might be a long-term consequence?",
+    "options": {
+      "a": "Sustainable development",
+      "b": "Unsustainable development and potential resource scarcity",
+      "c": "Increased economic growth",
+      "d": "Improved quality of life"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Two countries have similar per capita incomes, but one has a more equitable distribution of wealth. What is likely to be true about the latter?",
+    "options": {
+      "a": "It will have a lower standard of living.",
+      "b": "It will have a higher level of social well-being.",
+      "c": "It will have a higher rate of economic growth.",
+      "d": "It will have a lower literacy rate."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a country experiences a significant increase in its literacy rate, which of the following is a likely consequence?",
+    "options": {
+      "a": "Decrease in overall productivity",
+      "b": "Improvement in human capital and potential for economic growth",
+      "c": "Increase in infant mortality rate",
+      "d": "Decrease in per capita income"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A country shifts its focus from solely economic growth to a more holistic approach that includes social and environmental well-being. This approach aligns with the concept of:",
+    "options": {
+      "a": "Industrialization",
+      "b": "Sustainable Development",
+      "c": "Urbanization",
+      "d": "Globalization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a country has a high per capita income but also high levels of pollution and environmental degradation, what can be said about its development?",
+    "options": {
+      "a": "It is sustainable",
+      "b": "It may not be sustainable in the long run",
+      "c": "It is equitable",
+      "d": "It is inclusive"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A country invests heavily in renewable energy sources. What is a likely long-term benefit of this investment?",
+    "options": {
+      "a": "Increased dependence on fossil fuels",
+      "b": "Reduced carbon emissions and more sustainable development",
+      "c": "Lower economic growth",
+      "d": "Higher infant mortality rate"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a government implements policies to reduce income inequality, what is a likely outcome?",
+    "options": {
+      "a": "Slower economic growth",
+      "b": "Improved social cohesion and potentially more equitable development",
+      "c": "Higher unemployment rate",
+      "d": "Lower literacy rate"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might focusing solely on income as a measure of development be considered inadequate?",
+    "options": {
+      "a": "Income is the only important factor in development.",
+      "b": "It doesn't account for factors like health, education, and overall well-being.",
+      "c": "Income is easy to measure.",
+      "d": "Income is a reliable indicator of happiness."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is a potential limitation of using averages, such as average income, to compare development between countries?",
+    "options": {
+      "a": "Averages provide a complete picture of development.",
+      "b": "Averages can mask disparities and inequalities within a country.",
+      "c": "Averages are easy to calculate.",
+      "d": "Averages are always accurate."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the concept of \"sustainability\" crucial for development in the long run?",
+    "options": {
+      "a": "It ensures rapid economic growth.",
+      "b": "It ensures that development can be maintained without harming future generations.",
+      "c": "It focuses only on the present needs.",
+      "d": "It prioritizes industrialization over environmental protection."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How can conflicting developmental goals between different groups within a society be addressed?",
+    "options": {
+      "a": "By ignoring the needs of minority groups",
+      "b": "Through dialogue, negotiation, and finding a balance that benefits the majority",
+      "c": "By prioritizing economic growth over social well-being",
+      "d": "By imposing the will of the government"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What are the potential consequences of a country having a high level of income inequality?",
+    "options": {
+      "a": "Social unrest and instability",
+      "b": "Equitable distribution of resources",
+      "c": "Sustainable development",
+      "d": "Improved quality of life for all"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "How does education contribute to development beyond just increasing earning potential?",
+    "options": {
+      "a": "It only increases earning potential",
+      "b": "It empowers individuals, improves health outcomes, and promotes social progress",
+      "c": "It has no impact on development",
+      "d": "It only benefits the wealthy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important to consider both economic and social indicators when assessing a country's development?",
+    "options": {
+      "a": "Economic indicators are the only important factors",
+      "b": "A holistic approach provides a more complete picture of overall well-being",
+      "c": "Social indicators are irrelevant to development",
+      "d": "Development is solely about economic growth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What role does good governance play in promoting development?",
+    "options": {
+      "a": "It hinders development",
+      "b": "It is irrelevant to development",
+      "c": "It creates a conducive environment for progress, ensures accountability, and promotes equitable resource allocation",
+      "d": "It only benefits the ruling class"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How can a country balance economic growth with environmental protection?",
+    "options": {
+      "a": "By prioritizing economic growth at all costs",
+      "b": "By implementing sustainable practices, investing in renewable energy, and promoting responsible resource management",
+      "c": "By ignoring environmental concerns",
+      "d": "By focusing solely on industrialization"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why might a country with a high per capita income still have a relatively low ranking on the Human Development Index?",
+    "options": {
+      "a": "Because HDI only considers income",
+      "b": "Because the country may be lacking in areas like education and healthcare, despite high income",
+      "c": "Because HDI is not a reliable measure",
+      "d": "Because the country's population is too large"
+    },
+    "answer": "b"
+  }
+]
