@@ -3,7 +3,6 @@
 
 AcePlus is a cutting-edge web application designed to revolutionize exam preparation for students. Leveraging the power of Artificial Intelligence, AcePlus provides a personalized and efficient learning experience, helping students excel in their studies.
 
-**Note:** This project is specifically designed for students and teachers of Holy Angels School, Dombivli.
 
 ## Table of Contents
 
