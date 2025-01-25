@@ -14,8 +14,7 @@ AcePlus is a cutting-edge web application designed to revolutionize exam prepara
   - [Adding Students and Teachers](#adding-students-and-teachers)
   - [Adding Lessons using PDFs](#adding-lessons-using-pdfs)
 - [Contributing](#contributing)
-- [Foobar](#foobar)
-- [Additional Information](#additional-information)
+
 
 ## Features
 
