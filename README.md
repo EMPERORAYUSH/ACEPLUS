@@ -68,7 +68,6 @@ AcePlus boasts a wide array of features designed to enhance the learning process
     -   Option for users to report incorrect or problematic questions for review.
 -   **Continuous Updates:**
     -   Regular updates with new features, improvements, and bug fixes.
-    -   In-app notification system to inform users about the latest updates.
 -   **Performance Optimization:**
     -   Optimized for fast loading times and smooth performance.
     -   Efficient data fetching and caching strategies to minimize latency.
