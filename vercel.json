@@ -1,0 +1,18 @@
+{
+  "rewrites": [
+    { 
+      "source": "/api/:path*",
+      "destination": "${API_URL}/api/:path*"
+    }
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "main": true,
+      "development": true
+    }
+  },
+  "github": {
+    "enabled": true,
+    "silent": true
+  }
+}

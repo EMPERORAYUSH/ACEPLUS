@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import { ExamSkeletonLoading } from './Exam';
 import { questionCardVariants, buttonVariants } from './animations';
 import { api, API_BASE_URL } from '../utils/api';
-import { Dialog } from '@mui/material';
+import { Dialog, LinearProgress, Box, Typography } from '@mui/material';
 import { Skeleton } from "@mui/material";
 import { keyframes } from 'styled-components';
 import { toast } from 'react-toastify';
@@ -1261,6 +1261,14 @@ const renderTable = (tableData) => {
   );
 };
 
+const ProgressContainer = styled.div`
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+`;
+
 const CreateTestSkeleton = () => (
   <LoadingContainer
     initial={{ opacity: 0 }}
@@ -1363,6 +1371,8 @@ const CreateTest = () => {
   const [hasAgreedToPrivacy, setHasAgreedToPrivacy] = useState(false);
   const [pendingUploadEvent, setPendingUploadEvent] = useState(null);
   const [progress, setProgress] = useState(0);
+  const [totalQuestions, setTotalQuestions] = useState(null);
+  const [processingMessage, setProcessingMessage] = useState('');
   const progressInterval = useRef(null);
   const startTimeRef = useRef(null);
   const lastProgressRef = useRef(0);
@@ -1661,6 +1671,41 @@ const CreateTest = () => {
     }
   };
 
+  const pollJobStatus = async (jobId) => {
+    try {
+      const response = await api.get(`/api/check_job_status/${jobId}`);
+      const data = response.data;
+
+      if (data.status === 'processing') {
+        // Update progress
+        if (data.total) {
+          setTotalQuestions(data.total);
+          setProgress((data.progress / data.total) * 100);
+        }
+        setProcessingMessage(data.message);
+        
+        // Continue polling
+        setTimeout(() => pollJobStatus(jobId), 1000);
+      } else if (data.status === 'completed') {
+        setQuestions(data.result);
+        setProcessingMessage('Processing complete!');
+        setProgress(100);
+        setIsGenerating(false);
+      } else if (data.status === 'error') {
+        toast.error(data.message || 'Error processing images');
+        setIsGenerating(false);
+        setProcessingMessage('');
+        setProgress(0);
+      }
+    } catch (error) {
+      console.error('Error polling job status:', error);
+      toast.error('Error checking job status');
+      setIsGenerating(false);
+      setProcessingMessage('');
+      setProgress(0);
+    }
+  };
+
   return (
     <>
       {isLoading ? (
@@ -1844,53 +1889,33 @@ const CreateTest = () => {
 
           <AnimatePresence>
             {isGenerating && (
-              <LoadingSkeleton
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.5 }}
-              >
-                <LoadingContent>
-                  {[1, 2, 3].map((_, index) => (
-                    <QuestionSkeleton
-                      key={index}
-                      index={index}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{
-                        duration: 0.5,
-                        delay: index * 0.2,
-                        ease: [0.4, 0, 0.2, 1]
+              <ProgressContainer>
+                <Typography variant="h6" gutterBottom>
+                  {processingMessage}
+                </Typography>
+                {totalQuestions && (
+                  <Box sx={{ width: '100%', mb: 2 }}>
+                    <LinearProgress 
+                      variant="determinate" 
+                      value={progress} 
+                      sx={{
+                        height: 10,
+                        borderRadius: 5,
+                        backgroundColor: 'rgba(255,255,255,0.1)',
+                        '& .MuiLinearProgress-bar': {
+                          backgroundColor: '#4CAF50',
+                          borderRadius: 5,
+                        }
                       }}
-                    >
-                      <QuestionSkeletonContent>
-                        <SkeletonLine 
-                          height="24px" 
-                          width="80%" 
-                          initial={{ opacity: 0, scaleX: 0.8 }}
-                          animate={{ opacity: 1, scaleX: 1 }}
-                          transition={{ duration: 0.3, delay: index * 0.2 + 0.2 }}
-                        />
-                        <div style={{ marginTop: '1.5rem', display: 'grid', gap: '1rem' }}>
-                          {[1, 2, 3, 4].map((_, optionIndex) => (
-                            <SkeletonLine
-                              key={optionIndex}
-                              height="20px"
-                              width={`${85 - optionIndex * 5}%`}
-                              initial={{ opacity: 0, scaleX: 0.8 }}
-                              animate={{ opacity: 1, scaleX: 1 }}
-                              transition={{
-                                duration: 0.3,
-                                delay: index * 0.2 + optionIndex * 0.1 + 0.3
-                              }}
-                            />
-                          ))}
-                        </div>
-                      </QuestionSkeletonContent>
-                    </QuestionSkeleton>
-                  ))}
-                </LoadingContent>
-              </LoadingSkeleton>
+                    />
+                    <Box sx={{ minWidth: 35, mt: 1 }}>
+                      <Typography variant="body2" color="text.secondary">
+                        {Math.round(progress)}%
+                      </Typography>
+                    </Box>
+                  </Box>
+                )}
+              </ProgressContainer>
             )}
           </AnimatePresence>
 

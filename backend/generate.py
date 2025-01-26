@@ -572,47 +572,47 @@ def generate_performance_analysis(results, lessons, is_class10):
     # Create the prompt
     prompt = f"""Analyze my exam performance and provide specific, actionable feedback.
 
-Format your response using these exact sections and formatting rules:
+    Format your response using these exact sections and formatting rules:
 
-### Performance Overview
-• Start with a brief overview of overall performance
-• Include the score: {correct_answers}/{total_questions} ({percentage:.1f}%)
-• Mention strongest and weakest areas based on actual results
+    ### Performance Overview
+    • Start with a brief overview of overall performance
+    • Include the score: {correct_answers}/{total_questions} ({percentage:.1f}%)
+    • Mention strongest and weakest areas based on actual results
 
-Results : {result}
+    Results : {result}
 
-### Topic Analysis 
-For each topic where mistakes were made:
-• Topic name: Number of mistakes
-  * Specific concept that needs attention
-  * Common misconception identified
-  * Example of type of question that caused difficulty
+    ### Topic Analysis 
+    For each topic where mistakes were made:
+    • Topic name: Number of mistakes
+      * Specific concept that needs attention
+      * Common misconception identified
+      * Example of type of question that caused difficulty
 
-### Focus Areas
-List specific topics to practice, in order of priority:
-• Topic 1
-  * Sub-concept to focus on
-  * Specific type of problems to practice
-• Topic 2
-  * Sub-concept to focus on
-  * Specific type of problems to practice
+    ### Focus Areas
+    List specific topics to practice, in order of priority:
+    • Topic 1
+      * Sub-concept to focus on
+      * Specific type of problems to practice
+    • Topic 2
+      * Sub-concept to focus on
+      * Specific type of problems to practice
 
-### Next Steps
-3-4 specific, actionable steps based on their performance in these exact topics:
-• Step 1: [Topic-specific action]
-• Step 2: [Topic-specific action]
-• Step 3: [Topic-specific action]
+    ### Next Steps
+    3-4 specific, actionable steps based on their performance in these exact topics:
+    • Step 1: [Topic-specific action]
+    • Step 2: [Topic-specific action]
+    • Step 3: [Topic-specific action]
 
-Reference these lessons in your analysis: {', '.join(lesson_names)}
+    Reference these lessons in your analysis: {', '.join(lesson_names)}
 
-Important:
-- Identify topics from the questions to give better feedback
-- Don't give generic study tips
-- Focus on the specific topics where mistakes were made
-- Provide concrete examples based on the actual mistakes
-- Keep formatting consistent with the above structure
-- Use bullet points (•) for main points and (*) for sub-points
-"""
+    Important:
+    - Identify topics from the questions to give better feedback
+    - Don't give generic study tips
+    - Focus on the specific topics where mistakes were made
+    - Provide concrete examples based on the actual mistakes
+    - Keep formatting consistent with the above structure
+    - Use bullet points (•) for main points and (*) for sub-points
+    """
 
     try:
         client_name, client = get_random_provider_client(PERFORMANCE_MODEL_PROVIDER)
@@ -707,13 +707,12 @@ def analyze_single_image(image_path, client):
 
 def analyze_images(image_paths):
     """
-    Analyze multiple images containing MCQ questions using configured image model.
-    Sends all images in a single API call to avoid rate limiting.
+    Analyze multiple images containing MCQ questions using configured image model with streaming.
     Returns a list of questions extracted from the images.
     """
     try:
         client_name, client = get_random_provider_client(IMAGE_MODEL_PROVIDER)
-        
+
         # Prepare all images
         image_contents = []
         for path in image_paths:
@@ -728,21 +727,25 @@ def analyze_images(image_paths):
             except Exception as e:
                 print(f"Error encoding image {path}: {e}")
                 continue
-        
+
         if not image_contents:
             print("No valid images to process")
             return []
-            
-        # Create prompt with all images
-        prompt = """Analyze these images containing MCQ questions. For each question found in any image, identify the question text, 4 options, and the answer (if marked).
-        Answer in json only with this format:
-        [
+
+        # Updated prompt with instruction for total_questions and streaming
+        prompt = """Analyze these images containing MCQ questions. First, output the total number of questions found in all images as "total_questions": num. Then, for each question found in any image, identify the question text, 4 options, and the answer (if marked).
+        Answer in json only with this format, and ensure the "total_questions" is at the start of the JSON response:
         {
-        "question":"",
-        "options":{"a":"",...},
-        "answer":"a/b/c/d" 
+          "total_questions": num,
+          "questions": [
+            {
+
+              "question":"",
+              "options":{"a":"",...},
+              "answer":"a/b/c/d"
+            }
+          ]
         }
-        ]
 
         Use LaTeX formatting with $ delimiters for:
         1. All mathematical expressions and equations (e.g. $x^2 + y^2 = z^2$)
@@ -794,62 +797,84 @@ def analyze_images(image_paths):
         - Use \\text{} for text within math mode
         - Escape special characters properly
         """
-        
+
         # Combine prompt and all images in the content
         content = [{"type": "text", "text": prompt}]
         content.extend(image_contents)
-        
-        print(f"Processing {len(image_paths)} images using {client_name} client...")
-        
-        # Make a single API call with all images
+
+        print(f"Processing {len(image_paths)} images using {client_name} client with streaming...")
+
         chat_completion = client.chat.completions.create(
             model=IMAGE_MODEL,
-            messages=[{
-                "role": "user",
-                "content": content
-            }],
+            messages=[
+                {
+                    "role": "user",
+                    "content": content
+                }
+            ],
             max_tokens=8192,
             temperature=0.1,
-            timeout=120
+            timeout=120,
+            stream=True
         )
-        
-        # Clean up and parse response
-        response_text = chat_completion.choices[0].message.content.strip()
-        response_text = response_text.replace('```json', '').replace('```', '')
-        
-        try:
-            questions = json.loads(response_text)
-            if not isinstance(questions, list):
-                print("Invalid response format - not a list")
-                return []
-                
-            # Validate questions
-            valid_questions = [
-                q for q in questions 
-                if isinstance(q, dict) 
-                and "question" in q 
-                and "options" in q 
-                and isinstance(q["options"], dict)
-                and len(q["options"]) == 4
-            ]
-            
-            # Remove duplicates
-            seen_questions = set()
-            unique_questions = []
-            
-            for q in valid_questions:
-                question_text = q["question"].strip().lower()
-                if question_text not in seen_questions:
-                    seen_questions.add(question_text)
-                    unique_questions.append(q)
-            
-            print(f"Found {len(unique_questions)} unique valid questions")
-            return unique_questions
-            
-        except json.JSONDecodeError:
-            print("Error parsing response JSON")
-            return []
-            
+
+        full_response = ""
+        question_list = []
+        total_questions_count = 0
+        question_buffer = ""
+        is_total_questions_extracted = False
+
+
+        for chunk in chat_completion:
+            if chunk.choices[0].delta.content:
+                chunk_content = chunk.choices[0].delta.content
+                full_response += chunk_content
+                question_buffer += chunk_content
+
+                if not is_total_questions_extracted:
+                    try:
+                        response_json = json.loads(question_buffer)
+                        if "total_questions" in response_json:
+                            total_questions_count = response_json["total_questions"]
+                            is_total_questions_extracted = True
+                            question_buffer = "" # reset buffer after extracting total_questions
+                            print(f"Total questions: {total_questions_count}")
+                    except json.JSONDecodeError:
+                        pass # continue buffering until total_questions is found
+
+
+                if is_total_questions_extracted:
+                    try:
+                        # Attempt to parse questions incrementally
+                        chunk_json = json.loads(question_buffer) # try to parse buffer as json
+                        if "questions" in chunk_json and isinstance(chunk_json["questions"], list):
+                             for q in chunk_json["questions"]:
+                                 if isinstance(q, dict) and "question" in q and "options" in q and isinstance(q["options"], dict) and len(q["options"]) == 4:
+                                     question_list.append(q)
+                             question_buffer = "" # reset buffer after parsing questions
+                    except json.JSONDecodeError:
+                        pass # continue buffering until valid question json is formed
+
+
+        print(f"Raw response from model: {full_response}")
+        print(f"Extracted questions: {len(question_list)}")
+
+
+        # Validate questions (same validation logic as before)
+        valid_questions = [
+            q for q in question_list
+            if isinstance(q, dict)
+            and "question" in q
+            and "options" in q
+            and isinstance(q["options"], dict)
+            and len(q["options"]) == 4
+        ]
+        unique_questions = valid_questions
+
+
+        print(f"Found {len(unique_questions)} unique valid questions")
+        return unique_questions
+
     except Exception as e:
         print(f"Error in analyze_images: {e}")
         return []
