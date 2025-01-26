@@ -5,7 +5,7 @@
       "destination": "http://${API_URL}/api/:path*",
       "has": [
         {
-          "type": "header",
+          "type": "header", 
           "key": "x-vercel-forwarded"
         }
       ]
