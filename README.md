@@ -3,7 +3,6 @@
 
 AcePlus is a cutting-edge web application designed to revolutionize exam preparation for students. Leveraging the power of Artificial Intelligence, AcePlus provides a personalized and efficient learning experience, helping students excel in their studies.
 
-**Note:** This project is specifically designed for students and teachers of Holy Angels School, Dombivli.
 
 ## Table of Contents
 
@@ -15,8 +14,7 @@ AcePlus is a cutting-edge web application designed to revolutionize exam prepara
   - [Adding Students and Teachers](#adding-students-and-teachers)
   - [Adding Lessons using PDFs](#adding-lessons-using-pdfs)
 - [Contributing](#contributing)
-- [Foobar](#foobar)
-- [Additional Information](#additional-information)
+
 
 ## Features
 
@@ -70,7 +68,6 @@ AcePlus boasts a wide array of features designed to enhance the learning process
     -   Option for users to report incorrect or problematic questions for review.
 -   **Continuous Updates:**
     -   Regular updates with new features, improvements, and bug fixes.
-    -   In-app notification system to inform users about the latest updates.
 -   **Performance Optimization:**
     -   Optimized for fast loading times and smooth performance.
     -   Efficient data fetching and caching strategies to minimize latency.
@@ -91,8 +88,8 @@ To install and set up AcePlus, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
-    cd <repository-name>
+    git clone https://github.com/EMPERORAYUSH/ACEPLUS.git
+    cd ACEPLUS
     ```
 
 2. **Setup backend & Install backend dependencies:**
@@ -136,7 +133,7 @@ To install and set up AcePlus, follow these steps:
 ### Environment Setup
 
 AcePlus uses environment variables to manage configuration. Here's how to set them up:
-  **Backend Environment:**
+1. **Backend Environment:**
 
     -   In the `backend` directory, locate the `.env.example` file
     -   Make a copy of `.env.example` and rename it to `.env`:
