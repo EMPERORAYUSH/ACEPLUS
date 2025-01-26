@@ -1,8 +1,8 @@
 {
   "rewrites": [
     { 
-      "source": "https://aceplus.vercel.app/api/:path*",
-      "destination": "https://${API_URL}/api/:path*",
+      "source": "https://aceplus.vercel.app/api/:path",
+      "destination": "http://${API_URL}/api/:path",
       "has": [
         {
           "type": "header",
