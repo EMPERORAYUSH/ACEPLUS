@@ -271,11 +271,10 @@ const AnalysisSection = styled(motion.div)`
         content: '';
         position: absolute;
         left: 0;
-        top: 50%;
+        top: 0.8em;
         width: 0.8rem;
         height: 1px;
         background: rgba(74, 144, 226, 0.3);
-        transform: translateY(-50%);
       }
 
       &:first-child {
@@ -303,8 +302,7 @@ const AnalysisSection = styled(motion.div)`
           content: "•";
           position: absolute;
           left: 1.5rem;
-          top: 50%;
-          transform: translateY(-50%);
+          top: 0.1em;
           color: #4a90e2;
           font-size: 1.2em;
         }
