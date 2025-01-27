@@ -221,7 +221,11 @@ def generate_solution(question, correct_answer, given_answer, options, client, m
         1. Explains why the correct answer is right
         2. Breaks down the problem-solving steps
         3. Provides helpful context
-        4. Uses proper and good formatting like bold (**) etc.
+        4. Uses LaTeX for:
+           - Mathematical expressions and equations (e.g. $x^2$, \\frac{1}{2})
+           - Scientific formulas (e.g. $H_2O$, $CO_2$)
+           - Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
+           - Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
 
         Use simple language and be encouraging. Here's the information:
 
@@ -229,7 +233,8 @@ def generate_solution(question, correct_answer, given_answer, options, client, m
         Correct Answer: {correct_answer}
         Student's Answer: {given_answer}
         provided options: {options}
-        Provide a detailed explanation based on this."""
+        
+        Provide a detailed explanation based on this. Make sure to use LaTeX notation for all mathematical and scientific expressions."""
 
     try:
         # Get model based on client type

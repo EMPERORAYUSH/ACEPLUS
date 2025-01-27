@@ -5,6 +5,36 @@ import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import CopyableExamId from './CopyableExamId';
 import { api } from '../utils/api';
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
+
+const renderLatexString = (text) => {
+  if (!text) return text;
+  
+  // First split by LaTeX expressions
+  const parts = text.split(/(\$\$.*?\$\$|\$.*?\$)/gs);
+  
+  return parts.map((part, index) => {
+    if (part.startsWith('$$') && part.endsWith('$$')) {
+      // Display mode LaTeX
+      const latex = part.slice(2, -2);
+      return <BlockMath key={`latex-${index}`} math={latex} />;
+    } else if (part.startsWith('$') && part.endsWith('$')) {
+      // Inline mode LaTeX
+      const latex = part.slice(1, -1);
+      return <InlineMath key={`latex-${index}`} math={latex} />;
+    } else {
+      // Process bold text in non-LaTeX parts
+      const boldParts = part.split(/(\*\*.*?\*\*)/g);
+      return boldParts.map((boldPart, boldIndex) => {
+        if (boldPart.startsWith('**') && boldPart.endsWith('**')) {
+          return <strong key={`bold-${index}-${boldIndex}`}>{boldPart.slice(2, -2)}</strong>;
+        }
+        return boldPart;
+      });
+    }
+  });
+};
 
 const ResultSkeleton = () => (
   <div className="question-result skeleton">
@@ -400,6 +430,10 @@ const Option = styled.div`
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   }
+
+  .katex {
+    font-size: 1.1em;
+  }
 `;
 
 const ExamResultsWrapper = styled.div`
@@ -743,8 +777,7 @@ const ScoreDisplay = styled.div`
   }
 `;
 
-const StatsContainer = styled.div`
-  display: flex;
+const StatsContainer = styled.div`  display: flex;
   flex-direction: column;
   gap: 2rem;
   padding-left: 2rem;
@@ -997,35 +1030,17 @@ const ExamResults = () => {
         {results.map((result) => {
           const questionData = examData.questions.find(q => q.question === result.question);
           
-          console.log('Result:', {
-            question: result.question,
-            selected_answer: result.selected_answer,
-            is_correct: result.is_correct,
-            correct_answer: result.correct_answer
-          });
-          
-          console.log('QuestionData:', {
-            question: questionData.question,
-            answer: questionData.answer,
-            options: questionData.options
-          });
-
           return (
             <div key={result['question-no']} className={`question-result ${result.is_correct ? 'correct' : 'incorrect'}`}>
-              <h3>{result['question-no']}. {result.question}</h3>
+              <h3>{result['question-no']}. {renderLatexString(result.question)}</h3>
               
               <OptionsList>
                 {['a', 'b', 'c', 'd'].map((optionKey) => {
                   const optionText = questionData.options[optionKey];
                   const fullOptionText = `${optionKey.toUpperCase()}) ${optionText}`;
                   
-                  // Check if this option was selected by the user (case-insensitive comparison)
                   const isSelectedOption = result.selected_answer.toLowerCase() === `${optionKey}) ${optionText}`.toLowerCase();
-                  
-                  // Check if this is the correct option
                   const isCorrectOption = questionData.answer.toLowerCase() === optionKey;
-                  
-                  // Mark an option as wrong if it was selected AND it's not the correct option
                   const isWrongOption = isSelectedOption && !isCorrectOption;
 
                   return (
@@ -1035,7 +1050,7 @@ const ExamResults = () => {
                       $isCorrect={isCorrectOption}
                       $isWrong={isWrongOption}
                     >
-                      {fullOptionText}
+                      {renderLatexString(fullOptionText)}
                     </Option>
                   );
                 })}
@@ -1044,7 +1059,7 @@ const ExamResults = () => {
               {!result.is_correct && (
                 <div className="solution-card">
                   <h4>Solution:</h4>
-                  <p>{result.solution}</p>
+                  <p>{renderLatexString(result.solution)}</p>
                 </div>
               )}
             </div>
