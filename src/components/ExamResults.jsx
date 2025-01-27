@@ -24,14 +24,115 @@ const renderLatexString = (text) => {
       const latex = part.slice(1, -1);
       return <InlineMath key={`latex-${index}`} math={latex} />;
     } else {
-      // Process bold text in non-LaTeX parts
-      const boldParts = part.split(/(\*\*.*?\*\*)/g);
-      return boldParts.map((boldPart, boldIndex) => {
-        if (boldPart.startsWith('**') && boldPart.endsWith('**')) {
-          return <strong key={`bold-${index}-${boldIndex}`}>{boldPart.slice(2, -2)}</strong>;
+      // Process HTML tags and bold text in non-LaTeX parts
+      const processHTML = (text) => {
+        const parts = [];
+        let currentText = '';
+        let i = 0;
+        
+        while (i < text.length) {
+          if (text[i] === '<') {
+            // If we have accumulated text, push it
+            if (currentText) {
+              parts.push(currentText);
+              currentText = '';
+            }
+            
+            // Find the end of the tag
+            const tagEnd = text.indexOf('>', i);
+            if (tagEnd === -1) {
+              currentText += text[i];
+              i++;
+              continue;
+            }
+            
+            const fullTag = text.slice(i, tagEnd + 1);
+            const isClosingTag = fullTag.startsWith('</');
+            const tagName = isClosingTag ? 
+              fullTag.slice(2, -1).toLowerCase() : 
+              fullTag.slice(1, -1).toLowerCase();
+            
+            if (isClosingTag) {
+              // Handle closing tag
+              parts.push(`</${tagName}>`);
+              i = tagEnd + 1;
+            } else {
+              // Handle opening tag
+              if (tagName === 'br') {
+                parts.push(<br key={`br-${i}`} />);
+                i = tagEnd + 1;
+              } else {
+                // Find the closing tag
+                const closingTag = `</${tagName}>`;
+                const closingIndex = text.indexOf(closingTag, tagEnd);
+                
+                if (closingIndex === -1) {
+                  currentText += text[i];
+                  i++;
+                  continue;
+                }
+                
+                // Get the content between tags
+                const content = text.slice(tagEnd + 1, closingIndex);
+                
+                // Create the appropriate element based on tag name
+                switch (tagName) {
+                  case 'sub':
+                    parts.push(<sub key={`sub-${i}`}>{processHTML(content)}</sub>);
+                    break;
+                  case 'sup':
+                    parts.push(<sup key={`sup-${i}`}>{processHTML(content)}</sup>);
+                    break;
+                  case 'i':
+                    parts.push(<i key={`i-${i}`}>{processHTML(content)}</i>);
+                    break;
+                  case 'b':
+                    parts.push(<b key={`b-${i}`}>{processHTML(content)}</b>);
+                    break;
+                  case 'u':
+                    parts.push(<u key={`u-${i}`}>{processHTML(content)}</u>);
+                    break;
+                  case 'em':
+                    parts.push(<em key={`em-${i}`}>{processHTML(content)}</em>);
+                    break;
+                  default:
+                    parts.push(content);
+                }
+                
+                i = closingIndex + closingTag.length;
+              }
+            }
+          } else if (text.slice(i).startsWith('**')) {
+            // Handle bold text
+            if (currentText) {
+              parts.push(currentText);
+              currentText = '';
+            }
+            
+            const endBold = text.indexOf('**', i + 2);
+            if (endBold === -1) {
+              currentText += text[i];
+              i++;
+              continue;
+            }
+            
+            const boldContent = text.slice(i + 2, endBold);
+            parts.push(<strong key={`bold-${i}`}>{processHTML(boldContent)}</strong>);
+            i = endBold + 2;
+          } else {
+            currentText += text[i];
+            i++;
+          }
         }
-        return boldPart;
-      });
+        
+        if (currentText) {
+          parts.push(currentText);
+        }
+        
+        return parts;
+      };
+
+      return processHTML(part);
     }
   });
 };
@@ -47,21 +148,61 @@ const ResultSkeleton = () => (
 
 const PerformanceAnalysisContainer = styled(motion.div)`
   background: #1a1a1a;
-  border-radius: 15px;
-  padding: 2rem;
+  border-radius: 12px;
+  padding: 2rem 0;
   margin: 2rem 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
+  width: 100%;
   
   /* Ensure smooth transitions for width changes */
-  transition: width 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   
   /* Create a stable layout that prevents scroll jumps */
   contain: layout paint;
   min-height: fit-content;
   transform-origin: bottom center;
+
+  .performance-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    h2 {
+      margin: 0;
+      font-size: 1.8rem;
+      background: linear-gradient(135deg, #ffffff 0%, #b3b3b3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .analysis-icon {
+      font-size: 1.8rem;
+      color: #4a90e2;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1.5rem 0;
+    margin: 1rem 0;
+
+    .performance-header {
+      margin-bottom: 1.5rem;
+      
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .analysis-icon {
+        font-size: 1.5rem;
+      }
+    }
+  }
 `;
 
 const AnalysisSection = styled(motion.div)`
@@ -69,6 +210,7 @@ const AnalysisSection = styled(motion.div)`
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
   
   /* Ensure smooth text wrapping */
   overflow-wrap: break-word;
@@ -76,10 +218,185 @@ const AnalysisSection = styled(motion.div)`
   hyphens: auto;
 
   .section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    .section-icon {
+      font-size: 1.4rem;
+      color: #4a90e2;
+    }
+
     h3 {
+      margin: 0;
+      font-size: 1.2rem;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      color: #ffffff;
+      font-weight: 600;
     }
+  }
+
+  .section-content {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, 
+        rgba(74, 144, 226, 0) 0%,
+        rgba(74, 144, 226, 0.3) 10%,
+        rgba(74, 144, 226, 0.3) 90%,
+        rgba(74, 144, 226, 0) 100%
+      );
+    }
+
+    .content-line {
+      margin: 0.8rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 0.8rem;
+        height: 1px;
+        background: rgba(74, 144, 226, 0.3);
+        transform: translateY(-50%);
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      strong {
+        color: #4a90e2;
+        font-weight: 600;
+      }
+
+      /* Style for bullet points */
+      &[data-bullet="true"] {
+        padding-left: 2.5rem;
+        
+        &::before {
+          width: 1.8rem;
+        }
+        
+        &::after {
+          content: "•";
+          position: absolute;
+          left: 1.5rem;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #4a90e2;
+          font-size: 1.2em;
+        }
+      }
+    }
+
+    .indent-2 {
+      margin-left: 1rem;
+      
+      &::before {
+        left: -1rem;
+        width: 1.8rem;
+      }
+    }
+
+    .indent-4 {
+      margin-left: 2rem;
+      
+      &::before {
+        left: -2rem;
+        width: 2.8rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1.2rem;
+    margin-bottom: 0.8rem;
+
+    .section-header {
+      padding-bottom: 0.8rem;
+      margin-bottom: 1.2rem;
+
+      .section-icon {
+        font-size: 1.2rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+    }
+
+    .section-content {
+      font-size: 1rem;
+      line-height: 1.5;
+
+      .content-line {
+        padding-left: 1.2rem;
+        margin: 0.6rem 0;
+
+        &::before {
+          width: 0.6rem;
+        }
+
+        &[data-bullet="true"] {
+          padding-left: 2rem;
+          
+          &::before {
+            width: 1.4rem;
+          }
+          
+          &::after {
+            left: 1.2rem;
+          }
+        }
+      }
+
+      .indent-2 {
+        margin-left: 0.8rem;
+        
+        &::before {
+          left: -0.8rem;
+          width: 1.4rem;
+        }
+      }
+
+      .indent-4 {
+        margin-left: 1.2rem;
+        
+        &::before {
+          left: -1.2rem;
+          width: 2rem;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
   }
 `;
 
@@ -89,11 +406,13 @@ const PerformanceAnalysis = ({ analysis }) => {
   const sections = analysis.split('###').filter(s => s.trim());
 
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
+      y: 0,
       transition: {
-        staggerChildren: 0.3
+        duration: 0.5,
+        staggerChildren: 0.2
       }
     }
   };
@@ -113,13 +432,20 @@ const PerformanceAnalysis = ({ analysis }) => {
     }
   };
 
-  const processBoldText = (text) => {
-    return text.split(/(\*\*.*?\*\*)/).map((part, index) => {
-      if (part.startsWith('**') && part.endsWith('**')) {
-        return <strong key={index}>{part.slice(2, -2)}</strong>;
-      }
-      return part;
-    });
+  const getIconForSection = (title) => {
+    const upperCaseTitle = title.trim().toUpperCase();
+    switch (upperCaseTitle) {
+      case 'PERFORMANCE OVERVIEW':
+        return <FaChartLine className="section-icon" />;
+      case 'TOPIC ANALYSIS':
+        return <FaExclamationTriangle className="section-icon" />;
+      case 'FOCUS AREAS':
+        return <FaLightbulb className="section-icon" />;
+      case 'NEXT STEPS': 
+        return <FaCheckCircle className="section-icon" />;
+      default:
+        return <FaChartLine className="section-icon" />;
+    }
   };
 
   return (
@@ -128,15 +454,10 @@ const PerformanceAnalysis = ({ analysis }) => {
       animate="visible"
       variants={containerVariants}
     >
-      <motion.div 
-        className="performance-header"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
+      <div className="performance-header">
         <FaChartLine className="analysis-icon" />
         <h2>PERFORMANCE ANALYSIS</h2>
-      </motion.div>
+      </div>
       
       <div className="analysis-content">
         {sections.map((section, index) => {
@@ -144,41 +465,17 @@ const PerformanceAnalysis = ({ analysis }) => {
           const contentText = content.join('\n').trim();
           const upperCaseTitle = title.trim().toUpperCase();
           
-          let Icon;
-          switch (upperCaseTitle) {
-            case 'PERFORMANCE OVERVIEW':
-              Icon = FaChartLine;
-              break;
-            case 'TOPIC ANALYSIS':
-              Icon = FaExclamationTriangle;
-              break;
-            case 'FOCUS AREAS':
-              Icon = FaLightbulb;
-              break;
-            case 'NEXT STEPS': 
-              Icon = FaCheckCircle;
-              break;
-            default:
-              Icon = FaChartLine;
-          }
-
           return (
             <AnalysisSection 
               key={index} 
               variants={sectionVariants}
               whileHover={{ 
-                scale: 1.02,
+                scale: 1.01,
                 transition: { duration: 0.2 }
               }}
             >
               <div className="section-header">
-                <motion.div
-                  initial={{ rotate: 0 }}
-                  animate={{ rotate: 360 }}
-                  transition={{ duration: 1, delay: index * 0.3 }}
-                >
-                  <Icon className="section-icon" />
-                </motion.div>
+                {getIconForSection(title)}
                 <h3>{upperCaseTitle}</h3>
               </div>
               <div className="section-content">
@@ -187,17 +484,17 @@ const PerformanceAnalysis = ({ analysis }) => {
                   const cleanLine = line.trim();
                   if (!cleanLine) return null;
                   
+                  // Check if line starts with *
+                  const isBulletPoint = cleanLine.startsWith('*');
+                  const processedLine = isBulletPoint ? cleanLine.slice(1).trim() : cleanLine;
+                  
                   return (
                     <p 
                       key={lineIndex} 
                       className={`content-line indent-${indentLevel}`}
-                      style={{ 
-                        overflowWrap: 'break-word',
-                        wordWrap: 'break-word',
-                        hyphens: 'auto'
-                      }}
+                      data-bullet={isBulletPoint}
                     >
-                      {processBoldText(cleanLine)}
+                      {renderLatexString(processedLine)}
                     </p>
                   );
                 })}
@@ -525,6 +822,11 @@ const ExamResultsContainer = styled.div`
   @media (max-width: 768px) {
     padding: 1rem;
     margin-bottom: 60px;
+
+    .question-result {
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
   }
 `;
 
@@ -532,13 +834,21 @@ const ExamIdSection = styled.div`
   background: #1a1a1a;
   border-radius: 12px;
   padding: 1.5rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
+  max-width: 800px;
+  width: calc(100% - 2rem);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
+
+  @media (max-width: 768px) {
+    padding: 1.2rem;
+    margin: 1rem auto;
+    width: calc(100% - 1rem);
+  }
 `;
 
 const ExamIdTitle = styled.h3`
@@ -575,7 +885,8 @@ const ResultsSummaryCard = styled(motion.div)`
   border-radius: 24px;
   padding: 3rem;
   margin: 1rem auto;
-  max-width: 900px;
+  max-width: 800px;
+  width: calc(100% - 2rem);
   position: relative;
   overflow: hidden;
   box-shadow: 
@@ -604,6 +915,12 @@ const ResultsSummaryCard = styled(motion.div)`
       : props.percentage >= 40 
       ? 'linear-gradient(90deg, #FF9800, #FFB74D)'
       : 'linear-gradient(90deg, #F44336, #E57373)'};
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem 1.5rem;
+    margin: 1rem auto;
+    width: calc(100% - 1rem);
   }
 `;
 
