@@ -4,6 +4,7 @@ try:
     import os
     import random
     import time
+    import traceback
     from datetime import datetime
     import generate
     import petname
@@ -1277,27 +1278,72 @@ cleanup_thread.start()
 
 def process_images_job(job_id, image_paths):
     try:
-        JOB_STATUS[job_id] = "processing"
+        print(f"\nStarting job {job_id} for {len(image_paths)} images")
+        JOB_STATUS[job_id] = {
+            "status": "processing",
+            "total": 0,
+            "completed": 0,
+            "start_time": time.time()
+        }
         print(f"Processing {len(image_paths)} images...")
         
         try:
-            questions = generate.analyze_images(image_paths)
+            questions = []
+            print("\nStarting image analysis stream...")
+            for update in generate.analyze_images(image_paths):
+                print(f"\nReceived update: {json.dumps(update, indent=2)}")
+                
+                if update["type"] == "total":
+                    JOB_STATUS[job_id]["total"] = update["count"]
+                    print(f"Updated total questions count: {update['count']}")
+                elif update["type"] == "progress":
+                    JOB_STATUS[job_id]["completed"] = update["count"]
+                    print(f"Updated completed questions count: {update['count']}")
+                elif update["type"] == "result":
+                    questions = update["questions"]
+                    print(f"Received final questions: {len(questions)}")
+                    print("Questions structure:")
+                    print(json.dumps(questions, indent=2))
+                elif update["type"] == "error":
+                    print(f"Received error update: {update['message']}")
+                    raise Exception(update["message"])
+            
             if questions:
+                print(f"\nJob completed successfully with {len(questions)} questions")
                 JOB_RESULTS[job_id] = questions
-                JOB_STATUS[job_id] = "completed"
+                JOB_STATUS[job_id]["status"] = "completed"
+                # Ensure final counts are accurate
+                if JOB_STATUS[job_id]["total"] == 0:
+                    JOB_STATUS[job_id]["total"] = len(questions)
+                JOB_STATUS[job_id]["completed"] = len(questions)
             else:
-                JOB_STATUS[job_id] = "failed"
+                print("\nNo questions were extracted")
+                JOB_STATUS[job_id]["status"] = "failed"
                 JOB_RESULTS[job_id] = "No questions could be extracted from the images"
                 
         except Exception as e:
             print(f"Error processing images: {str(e)}")
-            JOB_STATUS[job_id] = "failed"
+            print("Full error details:")
+            print(traceback.format_exc())
+            JOB_STATUS[job_id]["status"] = "failed"
             JOB_RESULTS[job_id] = str(e)
             
     except Exception as e:
         print(f"Error in job {job_id}: {str(e)}")
-        JOB_STATUS[job_id] = "failed"
+        print("Full error details:")
+        print(traceback.format_exc())
+        JOB_STATUS[job_id]["status"] = "failed"
         JOB_RESULTS[job_id] = str(e)
+    finally:
+        # Calculate processing time
+        end_time = time.time()
+        processing_time = end_time - JOB_STATUS[job_id].get("start_time", end_time)
+        
+        print(f"\nFinal job status for {job_id}:")
+        print(f"Status: {JOB_STATUS[job_id]['status']}")
+        print(f"Total: {JOB_STATUS[job_id]['total']}")
+        print(f"Completed: {JOB_STATUS[job_id]['completed']}")
+        print(f"Processing time: {processing_time:.2f} seconds")
 
 def job_processor():
     while True:
@@ -1359,14 +1405,16 @@ def generate_from_images():
 @app.route("/api/check_job_status/<job_id>", methods=["GET"])
 @jwt_required()
 def check_job_status(job_id):
-    status = JOB_STATUS.get(job_id)
+    job_status = JOB_STATUS.get(job_id)
     
-    if status is None:
+    if job_status is None:
         return jsonify({
             'status': 'not_found',
             'message': 'Job not found'
         }), 404
         
+    status = job_status["status"]
+    
     if status == "completed":
         questions = JOB_RESULTS.get(job_id)
         # Clean up after sending results
@@ -1408,6 +1456,8 @@ def check_job_status(job_id):
         
     return jsonify({
         'status': status,
+        'total': job_status.get('total', 0),
+        'completed': job_status.get('completed', 0),
         'message': 'Job is still processing'
     }), 200
 

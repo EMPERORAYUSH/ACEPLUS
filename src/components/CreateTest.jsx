@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+
+
 import { FaEdit, FaTrash } from 'react-icons/fa';
 import { IoMdAdd } from 'react-icons/io';
 import styled from 'styled-components';
@@ -13,7 +15,15 @@ import { keyframes } from 'styled-components';
 import { toast } from 'react-toastify';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
-
+// Progress tracking messages
+const FAKE_MESSAGES = [
+  "Analyzing image structures...",
+  "Detecting question patterns...",
+  "Optimizing OCR processing...",
+  "Verifying answer consistency...",
+  "Cross-referencing curriculum...",
+  "Generating distractors..."
+];
 // Animation keyframes
 const shimmerKeyframes = keyframes`
   0% {
@@ -21,6 +31,174 @@ const shimmerKeyframes = keyframes`
   }
   100% {
     background-position: 1000px 0;
+  }
+`;
+
+const ProgressContainer = styled(motion.div)`
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #2a2a2a;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const ProgressHeader = styled(motion.div)`
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #2196f3;
+`;
+
+const ProgressBarBack = styled.div`
+  height: 8px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+`;
+
+const ProgressBarFill = styled(motion.div).attrs(props => ({
+  style: {
+    width: `${Math.min((props.completed / props.total) * 100, 100)}%`
+  }
+}))`
+  height: 100%;
+  background: linear-gradient(
+    270deg,
+    #2196f3 0%,
+    #00bcd4 50%,
+    #2196f3 100%
+  );
+  background-size: 200% 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+  animation: shimmer 2s linear infinite;
+
+  @keyframes shimmer {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+`;
+
+const ProgressStats = styled(motion.div)`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+  
+  .progress-fraction {
+    font-family: monospace;
+    color: #2196f3;
+  }
+`;
+
+const textGlow = keyframes`
+  0% { background-position: -500px 0; }
+  100% { background-position: 500px 0; }
+`;
+
+const loadingMessageVariants = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+    scale: 0.95,
+    filter: 'blur(2px) brightness(0.5)'
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    filter: 'blur(0px) brightness(1)',
+    transition: {
+      duration: 0.6,
+      ease: [0.22, 1, 0.36, 1]
+    }
+  },
+  exit: {
+    opacity: 0,
+    y: -20,
+    scale: 0.95,
+    filter: 'blur(2px) brightness(0.5)',
+    transition: {
+      duration: 0.4,
+      ease: [0.22, 1, 0.36, 1]
+    }
+  }
+};
+
+const LoadingMessage = styled(motion.div)`
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem;
+  background: rgba(33, 150, 243, 0.08);
+  border-radius: 12px;
+  box-shadow: 
+    0 0 30px rgba(33, 150, 243, 0.1),
+    inset 0 0 20px rgba(33, 150, 243, 0.05);
+  backdrop-filter: blur(10px);
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(33, 150, 243, 0.15),
+      transparent
+    );
+    animation: shine 4s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 1px;
+    background: linear-gradient(
+      135deg,
+      rgba(33, 150, 243, 0.4) 0%,
+      transparent 50%,
+      rgba(33, 150, 243, 0.4) 100%
+    );
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    animation: borderRotate 8s linear infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      transform: translateX(-100%) skewX(-15deg);
+    }
+    50%, 100% {
+      transform: translateX(100%) skewX(-15deg);
+    }
+  }
+
+  @keyframes borderRotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 `;
 
@@ -1371,6 +1549,10 @@ const CreateTest = () => {
   const [isGenerating, setIsGenerating] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [showNoQuestionsDialog, setShowNoQuestionsDialog] = useState(false);
+  const [currentJobId, setCurrentJobId] = useState(null);
+  const [jobProgress, setJobProgress] = useState({ total: 0, completed: 0 });
+  const [loadingMessages, setLoadingMessages] = useState([]);
+  const [showProgressBar, setShowProgressBar] = useState(false);
   const [newQuestionIds, setNewQuestionIds] = useState(new Set());
 
   useEffect(() => {
@@ -1583,54 +1765,62 @@ const CreateTest = () => {
     }
 
     setIsGenerating(true);
-    
-    // Show skeleton loader immediately
-    const skeletonContainer = document.querySelector('.image-upload-section');
-    if (skeletonContainer) {
-      skeletonContainer.scrollIntoView({ behavior: 'smooth' });
-    }
+    setShowProgressBar(false);
+    setJobProgress({ total: 0, completed: 0 });
+    setLoadingMessages([FAKE_MESSAGES[Math.floor(Math.random() * FAKE_MESSAGES.length)]]);
+
+    // Initialize message rotation
+    let messageIndex = 0;
+    const messageInterval = setInterval(() => {
+      setLoadingMessages([FAKE_MESSAGES[messageIndex]]);
+      messageIndex = (messageIndex + 1) % FAKE_MESSAGES.length;
+    }, 4000);
 
     try {
-      // Get filenames from uploaded images
       const filenames = uploadedImages.map(img => img.filename);
-      console.log('Sending filenames:', filenames);
-      
-      // Call the API to generate questions
-      const questions = await api.generateFromImages(filenames);
-      console.log('Received questions:', questions);
-      
-      if (!questions) {
-        console.error('No questions received from API');
+      const questions = await api.generateFromImages(filenames, {
+        onProgress: (progress) => {
+          if (progress.total > 0) {
+            setShowProgressBar(true);
+            clearInterval(messageInterval);
+            setLoadingMessages(["Processing questions..."]);
+            setJobProgress(progress);
+          }
+        }
+      });
+
+      clearInterval(messageInterval);
+
+      if (!Array.isArray(questions) || questions.length === 0) {
         setShowNoQuestionsDialog(true);
         return;
       }
+
+      // Update progress to show actual number of questions
+      const finalProgress = {
+        completed: questions.length,
+        total: questions.length
+      };
+      setJobProgress(finalProgress);
+      setLoadingMessages(["Generation Complete!"]);
       
-      if (!Array.isArray(questions)) {
-        console.error('Questions is not an array:', questions);
-        setShowNoQuestionsDialog(true);
-        return;
-      }
-      
-      if (questions.length === 0) {
-        console.error('Questions array is empty');
-        setShowNoQuestionsDialog(true);
-        return;
-      }
-      
+      // Wait for 2 seconds
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
       const formattedQuestions = questions.map(q => ({
         ...q,
         isEditing: false,
-        id: Date.now() + Math.random()  // Add unique id for new questions
+        id: Date.now() + Math.random()
       }));
-      
-      console.log('Formatted questions:', formattedQuestions);
+
       setQuestions(formattedQuestions);
-      // Add all generated questions to newQuestionIds
       setNewQuestionIds(new Set(formattedQuestions.map(q => q.id)));
       toast.success('Questions generated successfully!');
+
     } catch (error) {
       console.error('Error generating questions:', error);
-      // Check if this is the "no questions" error
+      clearInterval(messageInterval);
+      
       if (error.message === 'No questions could be extracted from the images') {
         setShowNoQuestionsDialog(true);
       } else {
@@ -1851,6 +2041,65 @@ const CreateTest = () => {
                 transition={{ duration: 0.5 }}
               >
                 <LoadingContent>
+                  <ProgressContainer>
+                    <ProgressHeader
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      {showProgressBar ? "Generating Questions" : "Analyzing Images"}
+                    </ProgressHeader>
+
+                    <AnimatePresence mode="wait">
+                      {!showProgressBar && loadingMessages.map((message) => (
+                        <LoadingMessage
+                          key={message}
+                          variants={loadingMessageVariants}
+                          initial="hidden"
+                          animate={{
+                            ...loadingMessageVariants.visible,
+                            y: [0, -5, 0],
+                            transition: {
+                              y: {
+                                repeat: Infinity,
+                                duration: 2,
+                                ease: "easeInOut"
+                              }
+                            }
+                          }}
+                          exit="exit"
+                        >
+                          {message}
+                        </LoadingMessage>
+                      ))}
+                    </AnimatePresence>
+
+                    <AnimatePresence>
+                      {showProgressBar && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: 'auto' }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <ProgressBarBack>
+                            <ProgressBarFill completed={jobProgress.completed} total={jobProgress.total} />
+                          </ProgressBarBack>
+                          <ProgressStats
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.2 }}
+                          >
+                            <span>
+                              <span className="progress-fraction">
+                                {jobProgress.completed}/{jobProgress.total}
+                              </span> questions processed
+                            </span>
+                            <span>{Math.round((jobProgress.completed / jobProgress.total) * 100)}%</span>
+                          </ProgressStats>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </ProgressContainer>
                   {[1, 2, 3].map((_, index) => (
                     <QuestionSkeleton
                       key={index}
@@ -2109,4 +2358,4 @@ const CreateTest = () => {
   );
 };
 
-export default CreateTest; 
+export default CreateTest;

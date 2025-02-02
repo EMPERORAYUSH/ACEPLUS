@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import base64
 from dotenv import load_dotenv
 import ast
+import traceback
 from typing import Dict, List, Tuple
 
 # Load environment variables
@@ -710,10 +711,111 @@ def analyze_single_image(image_path, client):
         return []
 
 
+# XML parsing helpers
+def extract_tag_content(text, tag):
+    """Extract content between XML tags"""
+    start_tag = f"<{tag}>"
+    end_tag = f"</{tag}>"
+    start_idx = text.find(start_tag)
+    if start_idx == -1:
+        return None
+    start_idx += len(start_tag)
+    end_idx = text.find(end_tag, start_idx)
+    if end_idx == -1:
+        return None
+    return text[start_idx:end_idx]
+
+def parse_question_xml(xml_text):
+    """Parse a single question XML into a question dict"""
+    try:
+        question_text = extract_tag_content(xml_text, "question_text")
+        if not question_text:
+            return None
+            
+        options = {}
+        for opt in ['a', 'b', 'c', 'd']:
+            opt_text = extract_tag_content(xml_text, opt)
+            if opt_text:
+                options[opt] = opt_text
+                
+        if len(options) != 4:
+            return None
+            
+        answer = extract_tag_content(xml_text, "answer")
+        if not answer:
+            answer = ""
+            
+        return {
+            "question": question_text,
+            "options": options,
+            "answer": answer
+        }
+    except Exception as e:
+        print(f"Error parsing question XML: {e}")
+        return None
+
+# Prompt for image analysis
+prompt = """Analyze these images containing MCQ questions. Output your response in XML format with the following structure:
+
+<response>
+<total_questions>number</total_questions>
+<questions>
+  <question>
+    <question_text>The question text here</question_text>
+    <a>Option A text</a>
+    <b>Option B text</b>
+    <c>Option C text</c>
+    <d>Option D text</d>
+    <answer>a/b/c/d</answer>
+  </question>
+  <!-- More questions -->
+</questions>
+</response>
+
+Use LaTeX formatting with $ delimiters for:
+1. All mathematical expressions and equations (e.g. $x^2 + y^2 = z^2$)
+2. Chemical formulas and equations (e.g. $H_2SO_4$, $2H_2 + O_2 \rightarrow 2H_2O$)
+3. Scientific notations (e.g. $3.6 \\times 10^{-19}$)
+4. Units with superscripts/subscripts (e.g. $m/s^2$, $cm^3$)
+5. Greek letters (e.g. $\alpha$, $\beta$, $\theta$)
+6. Special mathematical symbols (e.g. $\pm$, $\div$, $\leq$)
+7. Fractions (e.g. $\frac{1}{2}$)
+8. Square roots (e.g. $\sqrt{2}$)
+9. Vector notations (e.g. $\vec{F}$)
+10. Degree symbols (e.g. $45°$ as $45^\circ$)
+
+Important rules:
+1. Always output valid XML with proper opening and closing tags
+2. Include total_questions before the questions list
+3. Each question must have question_text and all four options (a,b,c,d)
+4. If no answer is marked, use empty answer tag: <answer></answer>
+5. For tables, use markdown table syntax within the question_text
+6. For sub-options like (i), (ii), etc., include them in the question_text
+7. Include any source info like [NCERT Exemplar] at the end of question_text
+
+For questions with tables:
+1. Format tables using markdown table syntax with | for columns and - for headers
+2. Example table format:
+   | Header1 | Header2 |
+   |---------|---------|
+   | Cell1   | Cell2   |
+3. Include the formatted table as part of the question_text
+4. Preserve table alignment and spacing
+5. Use LaTeX formatting within table cells where applicable
+
+Remember to maintain proper LaTeX spacing and use proper LaTeX commands for mathematical operations.
+For example:
+- Use \\times for multiplication instead of x
+- Use \\cdot for dot multiplication
+- Use proper spacing in equations with \\ when needed
+- Use \\text{} for text within math mode
+- Escape special characters properly
+"""
+
 def analyze_images(image_paths):
     """
     Analyze multiple images containing MCQ questions using configured image model with streaming.
-    Returns a list of questions extracted from the images.
+    Yields progress updates and returns a list of questions extracted from the images.
     """
     try:
         client_name, client = get_random_provider_client(IMAGE_MODEL_PROVIDER)
@@ -731,77 +833,13 @@ def analyze_images(image_paths):
                 })
             except Exception as e:
                 print(f"Error encoding image {path}: {e}")
+                print(traceback.format_exc())
                 continue
 
         if not image_contents:
             print("No valid images to process")
-            return []
-
-        # Updated prompt with instruction for total_questions and streaming
-        prompt = """Analyze these images containing MCQ questions. First, output the total number of questions found in all images as "total_questions": num. Then, for each question found in any image, identify the question text, 4 options, and the answer (if marked).
-        Answer in json only with this format, and ensure the "total_questions" is at the start of the JSON response:
-        {
-          "total_questions": num,
-          "questions": [
-            {
-
-              "question":"",
-              "options":{"a":"",...},
-              "answer":"a/b/c/d"
-            }
-          ]
-        }
-
-        Use LaTeX formatting with $ delimiters for:
-        1. All mathematical expressions and equations (e.g. $x^2 + y^2 = z^2$)
-        2. Chemical formulas and equations (e.g. $H_2SO_4$, $2H_2 + O_2 \rightarrow 2H_2O$)
-        3. Scientific notations (e.g. $3.6 \\times 10^{-19}$)
-        4. Units with superscripts/subscripts (e.g. $m/s^2$, $cm^3$)
-        5. Greek letters (e.g. $\alpha$, $\beta$, $\theta$)
-        6. Special mathematical symbols (e.g. $\pm$, $\div$, $\leq$)
-        7. Fractions (e.g. $\frac{1}{2}$)
-        8. Square roots (e.g. $\sqrt{2}$)
-        9. Vector notations (e.g. $\vec{F}$)
-        10. Degree symbols (e.g. $45°$ as $45^\circ$)
-
-        Questions would be generally in bold text but not always.
-        If no questions are found, return an empty list!
-        If no option is tick marked for a question, return empty string for its answer.
-        If options are not found for a question, do not include that question in the response.
-        Process all visible questions from all provided images.
-
-        For questions with tables:
-        1. Format tables using markdown table syntax with | for columns and - for headers
-        2. Example table format:
-           | Header1 | Header2 |
-           |---------|---------|
-           | Cell1   | Cell2   |
-        3. Include the formatted table as part of the question text
-        4. Preserve table alignment and spacing
-        5. Use LaTeX formatting within table cells where applicable
-
-        For questions with sub-options like (i), (ii), (iii), etc. where the main options (a), (b), (c), (d) 
-        refer to combinations of these sub-options, include both the sub-options and main options properly.
-        Example format for such questions:
-        {
-            "question": "<Main question text followed by sub-options>: (i) first sub-option (ii) second sub-option...",
-            "options": {
-                "a": "(i) and (ii)",
-                "b": "(i), (ii) and (iii)",
-                ...
-            },
-            "answer": "a/b/c/d"
-        }
-        If there is any text in square brackets like [NCERT Exemplar] indicating the source, include it at the end of the question text.
-
-        Remember to maintain proper LaTeX spacing and use proper LaTeX commands for mathematical operations.
-        For example:
-        - Use \\times for multiplication instead of x
-        - Use \\cdot for dot multiplication
-        - Use proper spacing in equations with \\ when needed
-        - Use \\text{} for text within math mode
-        - Escape special characters properly
-        """
+            yield {"type": "error", "message": "No valid images to process"}
+            return
 
         # Combine prompt and all images in the content
         content = [{"type": "text", "text": prompt}]
@@ -826,63 +864,105 @@ def analyze_images(image_paths):
         full_response = ""
         question_list = []
         total_questions_count = 0
-        question_buffer = ""
+        response_buffer = ""
         is_total_questions_extracted = False
 
+        print("Starting to process streaming response...")
 
         for chunk in chat_completion:
             if chunk.choices[0].delta.content:
                 chunk_content = chunk.choices[0].delta.content
                 full_response += chunk_content
-                question_buffer += chunk_content
+                response_buffer += chunk_content
+                
+                print(f"\nCurrent buffer content: {response_buffer}\n")
 
+                # Try to extract total questions if not already done
                 if not is_total_questions_extracted:
-                    try:
-                        response_json = json.loads(question_buffer)
-                        if "total_questions" in response_json:
-                            total_questions_count = response_json["total_questions"]
+                    total_tag_content = extract_tag_content(response_buffer, "total_questions")
+                    if total_tag_content:
+                        try:
+                            total_questions_count = int(total_tag_content)
                             is_total_questions_extracted = True
-                            question_buffer = "" # reset buffer after extracting total_questions
-                            print(f"Total questions: {total_questions_count}")
-                    except json.JSONDecodeError:
-                        pass # continue buffering until total_questions is found
+                            print(f"Successfully extracted total questions: {total_questions_count}")
+                            yield {"type": "total", "count": total_questions_count}
+                        except ValueError:
+                            print(f"Invalid total_questions value: {total_tag_content}")
 
+                # Try to extract complete questions
+                while "<question>" in response_buffer and "</question>" in response_buffer:
+                    question_start = response_buffer.find("<question>")
+                    question_end = response_buffer.find("</question>") + len("</question>")
+                    question_xml = response_buffer[question_start:question_end]
+                    
+                    # Parse the question
+                    question_data = parse_question_xml(question_xml)
+                    if question_data:
+                        question_list.append(question_data)
+                        print(f"Added question: {question_data['question']}")
+                        yield {"type": "progress", "count": len(question_list)}
+                    
+                    # Remove processed question from buffer
+                    response_buffer = response_buffer[question_end:]
 
-                if is_total_questions_extracted:
+        print("\nFinal response from model:")
+        print(full_response)
+        print(f"\nExtracted questions: {len(question_list)}")
+
+        # If no questions were extracted, try one final parse
+        if not question_list and full_response:
+            print("No questions were extracted from the response")
+            print("Attempting one final parse of the complete response...")
+            
+            # Try to get total questions if not already done
+            if not is_total_questions_extracted:
+                total_tag_content = extract_tag_content(full_response, "total_questions")
+                if total_tag_content:
                     try:
-                        # Attempt to parse questions incrementally
-                        chunk_json = json.loads(question_buffer) # try to parse buffer as json
-                        if "questions" in chunk_json and isinstance(chunk_json["questions"], list):
-                             for q in chunk_json["questions"]:
-                                 if isinstance(q, dict) and "question" in q and "options" in q and isinstance(q["options"], dict) and len(q["options"]) == 4:
-                                     question_list.append(q)
-                             question_buffer = "" # reset buffer after parsing questions
-                    except json.JSONDecodeError:
-                        pass # continue buffering until valid question json is formed
+                        total_questions_count = int(total_tag_content)
+                        yield {"type": "total", "count": total_questions_count}
+                    except ValueError:
+                        print(f"Invalid total_questions value: {total_tag_content}")
 
+            # Extract all questions
+            current_pos = 0
+            while True:
+                question_start = full_response.find("<question>", current_pos)
+                if question_start == -1:
+                    break
+                    
+                question_end = full_response.find("</question>", question_start)
+                if question_end == -1:
+                    break
+                    
+                question_end += len("</question>")
+                question_xml = full_response[question_start:question_end]
+                
+                question_data = parse_question_xml(question_xml)
+                if question_data:
+                    question_list.append(question_data)
+                    
+                current_pos = question_end
 
-        print(f"Raw response from model: {full_response}")
-        print(f"Extracted questions: {len(question_list)}")
+            if question_list:
+                print(f"Successfully extracted {len(question_list)} questions from final parse")
+                yield {"type": "progress", "count": len(question_list)}
 
+        # If we never got a total_questions count, use the number of questions found
+        if not is_total_questions_extracted and question_list:
+            total_questions_count = len(question_list)
+            yield {"type": "total", "count": total_questions_count}
 
-        # Validate questions (same validation logic as before)
-        valid_questions = [
-            q for q in question_list
-            if isinstance(q, dict)
-            and "question" in q
-            and "options" in q
-            and isinstance(q["options"], dict)
-            and len(q["options"]) == 4
-        ]
-        unique_questions = valid_questions
-
-
-        print(f"Found {len(unique_questions)} unique valid questions")
-        return unique_questions
+        print(f"\nFound {len(question_list)} questions")
+        # Send one final progress update before the result
+        yield {"type": "progress", "count": len(question_list)}
+        yield {"type": "result", "questions": question_list}
 
     except Exception as e:
         print(f"Error in analyze_images: {e}")
-        return []
+        print("Full error details:")
+        print(traceback.format_exc())
+        yield {"type": "error", "message": str(e)}
 
 
 if __name__ == "__main__":
