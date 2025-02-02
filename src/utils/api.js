@@ -173,7 +173,10 @@ export const api = {
     method: 'POST',
     body: formData
   }),
-  generateFromImages: async (filenames) => {
+  generateFromImages: async (filenames, {
+    onProgress = () => {},
+    onMessage = () => {},
+  } = {}) => {
     try {
       // Start the job
       const startResponse = await apiRequest('api/generate_from_images', {
@@ -183,35 +186,41 @@ export const api = {
 
       const jobId = startResponse.job_id;
       console.log('Job started with ID:', jobId);
-      
-      // Poll for results
-      const pollInterval = 5000; // 5 seconds
-      let attempts = 0;
-      const maxAttempts = 24; // 2 minutes max
 
-      while (attempts < maxAttempts) {
-        await new Promise(resolve => setTimeout(resolve, pollInterval));
-        
-        const statusResponse = await apiRequest(`api/check_job_status/${jobId}`, {
-          method: 'GET'
-        });
-        
-        console.log('Status response:', statusResponse);
-        
-        if (statusResponse.status === 'completed' && statusResponse.questions) {
-          if (!Array.isArray(statusResponse.questions)) {
-            console.error('Invalid questions format:', statusResponse.questions);
-            throw new Error('Invalid response format from server');
+      // Return a Promise that resolves when processing is complete
+      return new Promise((resolve, reject) => {
+        const pollJob = async () => {
+          try {
+            const status = await apiRequest(`api/check_job_status/${jobId}`, {
+              method: 'GET'
+            });
+            
+            if (status.status === 'processing') {
+              if (status.total > 0) {
+                onProgress({
+                  completed: status.completed || 0,
+                  total: status.total
+                });
+              }
+              // Continue polling
+              setTimeout(pollJob, 1000);
+            } else if (status.status === 'completed') {
+              if (status.questions && Array.isArray(status.questions)) {
+                resolve(status.questions);
+              } else {
+                reject(new Error('No questions could be extracted from the images'));
+              }
+            } else if (status.status === 'failed') {
+              reject(new Error(status.message || 'Failed to process images'));
+            }
+          } catch (error) {
+            reject(error);
           }
-          return statusResponse.questions;
-        } else if (statusResponse.status === 'failed') {
-          throw new Error(statusResponse.message || 'Failed to process images');
-        }
-        
-        attempts++;
-      }
-      
-      throw new Error('Operation timed out after 2 minutes');
+        };
+
+        // Start polling
+        pollJob();
+      });
     } catch (error) {
       console.error('Error in generateFromImages:', error);
       throw error;
@@ -222,5 +231,8 @@ export const api = {
     headers: {
       'Accept': 'image/*'
     }
+  }),
+  checkJobStatus: (jobId) => apiRequest(`api/check_job_status/${jobId}`, {
+    method: 'GET'
   })
-}; 
+};
