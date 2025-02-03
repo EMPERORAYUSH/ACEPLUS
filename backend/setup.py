@@ -2,12 +2,19 @@ import os
 import json
 import subprocess
 import sys
+import shutil
 
 def install_requirements():
     """Install required packages from requirements.txt"""
+    # Check if uv is installed
+    if shutil.which("uv") is None:
+        print("❌ Error: uv is not installed.")
+        print("Please install uv by running: pip install uv")
+        sys.exit(1)
+
     try:
         print("Installing required packages...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+        subprocess.check_call(["uv", "pip", "install", "-r", "requirements.txt"])
         print("✅ Packages installed successfully")
     except subprocess.CalledProcessError as e:
         print(f"❌ Error installing packages: {e}")
