@@ -38,3 +38,5 @@ wrong_answers.json
 pdfs
 uploads
 test.py
+.aider*
+__pycache__
