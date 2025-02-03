@@ -78,7 +78,8 @@ AcePlus boasts a wide array of features designed to enhance the learning process
 
 Before installing AcePlus, ensure you have the following installed:
 
-- Python 3.8 or higher
+- Python 3.8 or higher and uv
+- To install uv, run: `pip install uv`
 - Node.js 18.x or higher and npm
 
 ### Setup Instructions
@@ -98,7 +99,7 @@ To install and set up AcePlus, follow these steps:
     npm run setup
     ```
     
-    This will install all required Python packages listed in `requirements.txt` & create files nessasry for script to run.
+    This will install all required Python packages listed in `requirements.txt` using `uv` & create files nessasry for script to run.
 
 3. **Install frontend dependencies:**
 
