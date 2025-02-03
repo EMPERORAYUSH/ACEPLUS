@@ -3,86 +3,28 @@ import json
 from openai import OpenAI
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import base64
 from dotenv import load_dotenv
 import ast
 import traceback
 from typing import Dict, List, Tuple
+from .utils.generate_utils import (
+    encode_image_to_base64,
+    extract_tag_content,
+    parse_question_xml,
+    shuffle_question_options,
+    remove_duplicates_and_replace,
+    parse_questions_from_json
+)
+from .utils.prompts import (
+    SOLUTION_GENERATION_PROMPT,
+    PERFORMANCE_ANALYSIS_PROMPT,
+    IMAGE_ANALYSIS_PROMPT,
+    
+)
+from .utils.validate_env import validate_env_config
 
 # Load environment variables
 load_dotenv()
-
-def validate_env_config() -> List[str]:
-    """
-    Validate all required environment variables before initializing any clients.
-    Returns a list of valid provider names.
-    Raises ValueError if any required configuration is missing or invalid.
-    """
-    valid_providers = []
-    env_vars = os.environ
-
-    # Find all potential providers by looking for *_API_KEY pattern
-    for key in env_vars:
-        if key.endswith('_API_KEY'):
-            provider = key.replace('_API_KEY', '')
-            if provider:
-                # Validate base URL exists
-                base_url = os.getenv(f'{provider}_BASE_URL')
-                if not base_url:
-                    raise ValueError(f"Missing base URL for provider: {provider}")
-
-                # Validate models configuration
-                models_str = os.getenv(f'{provider}_MODELS')
-                if not models_str:
-                    raise ValueError(f"Missing models configuration for provider: {provider}")
-
-                try:
-                    models = ast.literal_eval(models_str)
-                    if not isinstance(models, list) or not models:
-                        raise ValueError(f"Invalid models configuration for provider: {provider}")
-                except Exception as e:
-                    raise ValueError(f"Error parsing models for provider {provider}: {str(e)}")
-
-                # Check additional keys if they exist
-                i = 2
-                while True:
-                    key = f"{provider}_API_KEY_{i}"
-                    base_url_key = f"{provider}_BASE_URL_{i}"
-                    
-                    api_key = os.getenv(key)
-                    base_url = os.getenv(base_url_key)
-                    
-                    # Break if no more keys found
-                    if not api_key:
-                        break
-                    
-                    # Validate base URL exists for additional key
-                    if not base_url:
-                        raise ValueError(f"Missing base URL for API key: {key}")
-                    
-                    i += 1
-
-                valid_providers.append(provider)
-
-    if not valid_providers:
-        raise ValueError("No valid API providers found. Please check your environment variables.")
-
-    # Validate specific use case configurations
-    image_provider = os.getenv('IMAGE_MODEL_PROVIDER', '').upper()
-    image_model = os.getenv('IMAGE_MODEL')
-    if not image_provider or not image_model:
-        raise ValueError("IMAGE_MODEL_PROVIDER and IMAGE_MODEL must be configured")
-    if image_provider not in valid_providers:
-        raise ValueError(f"IMAGE_MODEL_PROVIDER '{image_provider}' is not a valid provider")
-
-    perf_provider = os.getenv('PERFORMANCE_MODEL_PROVIDER', '').upper()
-    perf_model = os.getenv('PERFORMANCE_MODEL')
-    if not perf_provider or not perf_model:
-        raise ValueError("PERFORMANCE_MODEL_PROVIDER and PERFORMANCE_MODEL must be configured")
-    if perf_provider not in valid_providers:
-        raise ValueError(f"PERFORMANCE_MODEL_PROVIDER '{perf_provider}' is not a valid provider")
-
-    return valid_providers
 
 # Validate environment configuration
 valid_providers = validate_env_config()
@@ -211,31 +153,7 @@ def get_random_client():
     return random.choice(list(clients.items()))
 
 def generate_solution(question, correct_answer, given_answer, options, client, model_name):
-    prompt = f"""As an expert tutor, help a student understand a problem they got wrong. You have:
-
-        1. The original question
-        2. The correct answer
-        3. The student's incorrect answer
-
-        Create a response that:
-
-        1. Explains why the correct answer is right
-        2. Breaks down the problem-solving steps
-        3. Provides helpful context
-        4. Uses LaTeX for:
-           - Mathematical expressions and equations (e.g. $x^2$, \\frac{1}{2})
-           - Scientific formulas (e.g. $H_2O$, $CO_2$)
-           - Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
-           - Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
-
-        Use simple language and be encouraging. Here's the information:
-
-        Question: {question}
-        Correct Answer: {correct_answer}
-        Student's Answer: {given_answer}
-        provided options: {options}
-        
-        Provide a detailed explanation based on this. Make sure to use LaTeX notation for all mathematical and scientific expressions."""
+    prompt = SOLUTION_GENERATION_PROMPT
 
     try:
         # Get model based on client type
@@ -337,91 +255,6 @@ def generate_solutions_batch(questions_list):
                     )
 
     return solutions
-
-
-def parse_questions_from_json(file_path):
-    # Update to explicitly use UTF-8 encoding
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except UnicodeDecodeError:
-        # Fallback to read with 'latin-1' if UTF-8 fails
-        with open(file_path, 'r', encoding='latin-1') as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error reading file {file_path}: {e}")
-        return []
-
-
-def shuffle_question_options(questions):
-    """
-    Shuffle the options of each question while maintaining the correct answer.
-    Assertion reason questions will not have their options shuffled.
-
-    Args:
-        questions (list): List of question dictionaries
-
-    Returns:
-        list: Questions with shuffled options
-    """
-
-    for question in questions:
-        # Check if this is an assertion reason question by looking at the options
-        is_assertion_reason = any(
-            "assertion" in str(value).lower() and "reason" in str(value).lower()
-            for value in question["options"].values()
-        )
-
-        if not is_assertion_reason:
-            # Store the correct answer value
-            correct_answer_key = question["answer"]
-            correct_answer_value = question["options"][correct_answer_key]
-
-            # Get all option values and shuffle them
-            option_values = list(question["options"].values())
-            random.shuffle(option_values)
-
-            # Create new options dictionary with shuffled values
-            option_keys = list(
-                question["options"].keys()
-            )  # usually ['a', 'b', 'c', 'd']
-            question["options"] = dict(zip(option_keys, option_values))
-
-            # Find the new key for the correct answer
-            for key, value in question["options"].items():
-                if value == correct_answer_value:
-                    question["answer"] = key
-                    break
-
-    return questions
-
-
-def remove_duplicates_and_replace(questions, available_questions):
-    """
-    Remove duplicate questions and replace them with new ones from available questions.
-    Simple exact match comparison.
-    """
-    seen_questions = {}  # question text -> question dict
-    unique_questions = []
-    
-    for question in questions:
-        q_text = question['question'].strip().lower()
-        if q_text not in seen_questions:
-            seen_questions[q_text] = question
-            unique_questions.append(question)
-    
-    # If we removed any duplicates, try to replace them
-    remaining_questions = [
-        q for q in available_questions.values()
-        if q['question'].strip().lower() not in seen_questions
-    ]
-    
-    while len(unique_questions) < len(questions) and remaining_questions:
-        new_question = random.choice(remaining_questions)
-        unique_questions.append(new_question)
-        remaining_questions.remove(new_question)
-    
-    return unique_questions
 
 
 def generate_exam_questions(subject, lesson_files, user_id):
@@ -576,49 +409,13 @@ def generate_performance_analysis(results, lessons, is_class10):
         result += "\n"
 
     # Create the prompt
-    prompt = f"""Analyze my exam performance and provide specific, actionable feedback.
-
-    Format your response using these exact sections and formatting rules:
-
-    ### Performance Overview
-    • Start with a brief overview of overall performance
-    • Include the score: {correct_answers}/{total_questions} ({percentage:.1f}%)
-    • Mention strongest and weakest areas based on actual results
-
-    Results : {result}
-
-    ### Topic Analysis 
-    For each topic where mistakes were made:
-    • Topic name: Number of mistakes
-      * Specific concept that needs attention
-      * Common misconception identified
-      * Example of type of question that caused difficulty
-
-    ### Focus Areas
-    List specific topics to practice, in order of priority:
-    • Topic 1
-      * Sub-concept to focus on
-      * Specific type of problems to practice
-    • Topic 2
-      * Sub-concept to focus on
-      * Specific type of problems to practice
-
-    ### Next Steps
-    3-4 specific, actionable steps based on their performance in these exact topics:
-    • Step 1: [Topic-specific action]
-    • Step 2: [Topic-specific action]
-    • Step 3: [Topic-specific action]
-
-    Reference these lessons in your analysis: {', '.join(lesson_names)}
-
-    Important:
-    - Identify topics from the questions to give better feedback
-    - Don't give generic study tips
-    - Focus on the specific topics where mistakes were made
-    - Provide concrete examples based on the actual mistakes
-    - Keep formatting consistent with the above structure
-    - Use bullet points (•) for main points and (*) for sub-points
-    """
+    prompt = PERFORMANCE_ANALYSIS_PROMPT.format(
+        correct_answers=correct_answers,
+        total_questions=total_questions,
+        percentage=percentage,
+        result=result,
+        lesson_names=', '.join(lesson_names)
+    )
 
     try:
         client_name, client = get_random_provider_client(PERFORMANCE_MODEL_PROVIDER)
@@ -644,173 +441,8 @@ def generate_performance_analysis(results, lessons, is_class10):
         return "Unable to generate performance analysis at this time."
 
 
-def encode_image_to_base64(image_path):
-    with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode('utf-8')
-
-
-def analyze_single_image(image_path, client):
-    """Analyze a single image and extract questions"""
-    try:
-        # Read image and encode to base64
-        image_base64 = encode_image_to_base64(image_path)
-        
-        prompt = """You are a model that analyses a given image containing MCQ questions and identifies the question and 4 options and an answer which will be tick marked upon. Answer in json only with this format:
-
-        [
-        {
-        "question":"",
-        "options":{"a":"",...},
-        "answer":"a/b/c/d" 
-        }
-        ]
-
-        Question would be generally in bold text but not always.
-        If no question is found, return an empty list!
-        If no option is tick marked, return empty string for answer.
-        If options are not found, do not include the question in the response.
-        """
-
-        chat_completion = client.chat.completions.create(
-            model="gemini-1.5-pro",
-            messages=[
-                {
-                    "role": "user",
-                    "content": [
-                        {
-                            "type": "text", 
-                            "text": prompt
-                        },
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/jpeg;base64,{image_base64}"
-                            }
-                        }
-                    ]
-                }
-            ],
-            max_tokens=2048,
-            temperature=0.1,
-            timeout=90  # 90 second timeout per image
-        )
-        
-        # Clean up any markdown code block indicators from the response
-        response_text = chat_completion.choices[0].message.content.strip()
-        response_text = response_text.replace('```json', '').replace('```', '')
-        
-        try:
-            questions = json.loads(response_text)
-            return questions if isinstance(questions, list) else []
-        except json.JSONDecodeError:
-            print(f"Error parsing response for {image_path}")
-            return []
-            
-    except Exception as e:
-        print(f"Error processing image {image_path}: {e}")
-        return []
-
-
-# XML parsing helpers
-def extract_tag_content(text, tag):
-    """Extract content between XML tags"""
-    start_tag = f"<{tag}>"
-    end_tag = f"</{tag}>"
-    start_idx = text.find(start_tag)
-    if start_idx == -1:
-        return None
-    start_idx += len(start_tag)
-    end_idx = text.find(end_tag, start_idx)
-    if end_idx == -1:
-        return None
-    return text[start_idx:end_idx]
-
-def parse_question_xml(xml_text):
-    """Parse a single question XML into a question dict"""
-    try:
-        question_text = extract_tag_content(xml_text, "question_text")
-        if not question_text:
-            return None
-            
-        options = {}
-        for opt in ['a', 'b', 'c', 'd']:
-            opt_text = extract_tag_content(xml_text, opt)
-            if opt_text:
-                options[opt] = opt_text
-                
-        if len(options) != 4:
-            return None
-            
-        answer = extract_tag_content(xml_text, "answer")
-        if not answer:
-            answer = ""
-            
-        return {
-            "question": question_text,
-            "options": options,
-            "answer": answer
-        }
-    except Exception as e:
-        print(f"Error parsing question XML: {e}")
-        return None
 
 # Prompt for image analysis
-prompt = """Analyze these images containing MCQ questions. Output your response in XML format with the following structure:
-
-<response>
-<total_questions>number</total_questions>
-<questions>
-  <question>
-    <question_text>The question text here</question_text>
-    <a>Option A text</a>
-    <b>Option B text</b>
-    <c>Option C text</c>
-    <d>Option D text</d>
-    <answer>a/b/c/d</answer>
-  </question>
-  <!-- More questions -->
-</questions>
-</response>
-
-Use LaTeX formatting with $ delimiters for:
-1. All mathematical expressions and equations (e.g. $x^2 + y^2 = z^2$)
-2. Chemical formulas and equations (e.g. $H_2SO_4$, $2H_2 + O_2 \rightarrow 2H_2O$)
-3. Scientific notations (e.g. $3.6 \\times 10^{-19}$)
-4. Units with superscripts/subscripts (e.g. $m/s^2$, $cm^3$)
-5. Greek letters (e.g. $\alpha$, $\beta$, $\theta$)
-6. Special mathematical symbols (e.g. $\pm$, $\div$, $\leq$)
-7. Fractions (e.g. $\frac{1}{2}$)
-8. Square roots (e.g. $\sqrt{2}$)
-9. Vector notations (e.g. $\vec{F}$)
-10. Degree symbols (e.g. $45°$ as $45^\circ$)
-
-Important rules:
-1. Always output valid XML with proper opening and closing tags
-2. Include total_questions before the questions list
-3. Each question must have question_text and all four options (a,b,c,d)
-4. If no answer is marked, use empty answer tag: <answer></answer>
-5. For tables, use markdown table syntax within the question_text
-6. For sub-options like (i), (ii), etc., include them in the question_text
-7. Include any source info like [NCERT Exemplar] at the end of question_text
-
-For questions with tables:
-1. Format tables using markdown table syntax with | for columns and - for headers
-2. Example table format:
-   | Header1 | Header2 |
-   |---------|---------|
-   | Cell1   | Cell2   |
-3. Include the formatted table as part of the question_text
-4. Preserve table alignment and spacing
-5. Use LaTeX formatting within table cells where applicable
-
-Remember to maintain proper LaTeX spacing and use proper LaTeX commands for mathematical operations.
-For example:
-- Use \\times for multiplication instead of x
-- Use \\cdot for dot multiplication
-- Use proper spacing in equations with \\ when needed
-- Use \\text{} for text within math mode
-- Escape special characters properly
-"""
 
 def analyze_images(image_paths):
     """
@@ -842,7 +474,7 @@ def analyze_images(image_paths):
             return
 
         # Combine prompt and all images in the content
-        content = [{"type": "text", "text": prompt}]
+        content = [{"type": "text", "text": IMAGE_ANALYSIS_PROMPT}]
         content.extend(image_contents)
 
         print(f"Processing {len(image_paths)} images using {client_name} client with streaming...")
@@ -874,9 +506,7 @@ def analyze_images(image_paths):
                 chunk_content = chunk.choices[0].delta.content
                 full_response += chunk_content
                 response_buffer += chunk_content
-                
-                print(f"\nCurrent buffer content: {response_buffer}\n")
-
+        
                 # Try to extract total questions if not already done
                 if not is_total_questions_extracted:
                     total_tag_content = extract_tag_content(response_buffer, "total_questions")
@@ -899,20 +529,12 @@ def analyze_images(image_paths):
                     question_data = parse_question_xml(question_xml)
                     if question_data:
                         question_list.append(question_data)
-                        print(f"Added question: {question_data['question']}")
                         yield {"type": "progress", "count": len(question_list)}
                     
                     # Remove processed question from buffer
                     response_buffer = response_buffer[question_end:]
 
-        print("\nFinal response from model:")
-        print(full_response)
-        print(f"\nExtracted questions: {len(question_list)}")
-
-        # If no questions were extracted, try one final parse
         if not question_list and full_response:
-            print("No questions were extracted from the response")
-            print("Attempting one final parse of the complete response...")
             
             # Try to get total questions if not already done
             if not is_total_questions_extracted:

@@ -7,7 +7,6 @@ try:
     import traceback
     from datetime import datetime
     import generate
-    import petname
     from bson.json_util import dumps
     from werkzeug.utils import secure_filename
     from flask import Flask, jsonify, request, send_from_directory
@@ -15,7 +14,6 @@ try:
     from flask_jwt_extended import (
         JWTManager,
         create_access_token,
-        get_jwt_identity,
         jwt_required,
     )
     from dotenv import load_dotenv
@@ -47,8 +45,13 @@ try:
         recalculate_current_month_leaderboard,
     )
     import threading
-    from queue import Queue
     import uuid
+    from utils.lesson_utils import lesson2filepath
+    from utils.data_utils import load_json_file, calculate_lesson_analytics, decode_unicode
+    from utils.name_utils import generate_memorable_name
+    from .utils.auth_utils import get_student_class, get_current_user_info
+    from .utils.job_utils import allowed_file, cleanup_old_files, cleanup_old_jobs, JOB_QUEUE, JOB_RESULTS, JOB_STATUS, job_processor
+
 except ImportError as e:
     print(f"Import Error: {str(e)}")
     print("Did you run npm run setup?")
@@ -118,144 +121,6 @@ UPDATE_LOGS = [
         ],
     }
 ]
-
-# Add after other global variables
-JOB_QUEUE = Queue()
-JOB_RESULTS = {}
-JOB_STATUS = {}
-
-def get_teacher_data(user_id):
-    with open(os.path.join(data_path, "teachers.json"), "r") as f:
-        teachers = json.load(f)
-    return teachers.get(user_id)
-
-
-def get_current_user_info():
-    """Helper function to extract user info from JWT retoken"""
-    jwt_data = get_jwt_identity()
-
-    # Handle both old and new token formats
-    if isinstance(jwt_data, dict):
-        return jwt_data.get("user_id"), jwt_data.get("class10", False)
-    # Legacy token support
-    return jwt_data, False  # Assume class 9 for old tokens
-
-
-def decode_unicode(obj):
-    if isinstance(obj, str):
-        try:
-            return json.loads(f'"{obj}"')
-        except json.JSONDecodeError:
-            return obj
-    elif isinstance(obj, dict):
-        return {
-            decode_unicode(key): decode_unicode(value) for key, value in obj.items()
-        }
-    elif isinstance(obj, list):
-        return [decode_unicode(element) for element in obj]
-    return obj
-
-
-def generate_memorable_name():
-    return f"{''.join([i.capitalize().replace('hot', ' ') for i in petname.generate(2).split('-')])}-{random.randint(100, 999)}"
-
-
-def get_student_class(user_id):
-    """Determine if student is in class 10 or 9"""
-    if user_id in class10_student_info:
-        return class10_student_info[user_id], True
-    elif user_id in student_info:
-        return student_info[user_id], False
-    return None, None
-
-
-def lesson2filepath(subject, lesson, class10=False):
-    subject_lower = subject.lower()
-    lesson_number = lesson.split()[-1]
-    # Add class10 folder prefix if needed
-    base_folder = "lessons10" if class10 else "lessons"
-
-    if subject == "SS":
-        prefix = lesson.split(":")[0].lower()
-        return os.path.join(
-            data_path,
-            base_folder,
-            subject_lower,
-            f"{prefix}.{lesson_number.split('-')[1]}.json",
-        )
-    elif subject == "Science":
-        return os.path.join(
-            data_path, base_folder, subject_lower, f"lesson-{lesson_number}.json"
-        )
-    elif subject == "Math":
-        return os.path.join(
-            data_path, base_folder, subject_lower, f"lesson{lesson_number}.json"
-        )
-    else:
-        return os.path.join(
-            data_path, base_folder, subject_lower, f"lesson{lesson_number}.json"
-        )
-
-
-def load_json_file(filename):
-    try:
-        with open(os.path.join(data_path, filename), "r") as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error loading {filename}: {e}")
-        return None
-
-
-def calculate_lesson_analytics(questions, selected_answers):
-    """
-    Calculate per-lesson analytics using l-id or lesson field from questions
-
-    Args:
-        questions: List of question dictionaries containing l-id or lesson
-        selected_answers: List of user's selected answers
-
-    Returns:
-        dict: Lesson-wise analytics with scores and details
-    """
-    lesson_analytics = {}
-
-    for i, (question, selected_answer) in enumerate(zip(questions, selected_answers)):
-        # Try to get lesson ID from l-id first, then from lesson field
-        if "l-id" in question:
-            lesson_id = question["l-id"].split("Q")[0]  # Extract L1, L2, etc.
-        elif "lesson" in question:
-            lesson_id = f"L{question['lesson']}"
-        else:
-            # Skip questions without lesson identification
-            continue
-
-        if lesson_id not in lesson_analytics:
-            lesson_analytics[lesson_id] = {
-                "lesson_name": f"Lesson {lesson_id[1:]}",  # L1 -> Lesson 1
-                "questions_total": 0,
-                "questions_correct": 0,
-                "percentage": 0,
-            }
-
-        lesson_analytics[lesson_id]["questions_total"] += 1
-        if selected_answer["option"] == question.get("answer"):
-            lesson_analytics[lesson_id]["questions_correct"] += 1
-
-    # Calculate percentages for each lesson
-    for lesson in lesson_analytics.values():
-        lesson["percentage"] = (
-            lesson["questions_correct"] / lesson["questions_total"]
-        ) * 100
-
-    return lesson_analytics
-
-
-def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
-
-
-
-
 
 @app.route("/api/login", methods=["POST"])
 def login():
@@ -1247,29 +1112,11 @@ def recalculate_leaderboard_route():
     except Exception as e:
         return jsonify({"message": f"Error recalculating leaderboard: {str(e)}"}), 500
 
-
-# Add cleanup task for uploaded files
-def cleanup_old_files():
-    """Delete files older than 24 hours"""
-    current_time = time.time()
-    one_day = 24 * 60 * 60
-    
-    for filename in os.listdir(app.config['UPLOAD_FOLDER']):
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        # Get file creation time
-        file_time = os.path.getctime(filepath)
-        if current_time - file_time > one_day:
-            try:
-                os.remove(filepath)
-                print(f"Deleted old file: {filename}")
-            except Exception as e:
-                print(f"Error deleting file {filename}: {e}")
-
 # Run cleanup every hour
 def start_cleanup_scheduler():
     while True:
         cleanup_old_files()
-        time.sleep(3600)  # Sleep for 1 hour
+        time.sleep(3600)
 
 # Start cleanup thread when app starts
 cleanup_thread = threading.Thread(target=start_cleanup_scheduler, daemon=True)
@@ -1344,16 +1191,6 @@ def process_images_job(job_id, image_paths):
         print(f"Total: {JOB_STATUS[job_id]['total']}")
         print(f"Completed: {JOB_STATUS[job_id]['completed']}")
         print(f"Processing time: {processing_time:.2f} seconds")
-
-def job_processor():
-    while True:
-        try:
-            job_id, image_paths = JOB_QUEUE.get()
-            process_images_job(job_id, image_paths)
-        except Exception as e:
-            print(f"Error in job processor: {str(e)}")
-        finally:
-            JOB_QUEUE.task_done()
 
 # Start the job processor thread
 job_thread = threading.Thread(target=job_processor, daemon=True)
@@ -1461,21 +1298,6 @@ def check_job_status(job_id):
         'message': 'Job is still processing'
     }), 200
 
-# Add cleanup for old jobs
-def cleanup_old_jobs():
-    """Clean up jobs older than 1 hour"""
-    while True:
-        time.sleep(3600)  # Run every hour
-        try:
-            current_time = time.time()
-            for job_id in list(JOB_STATUS.keys()):
-                if current_time - JOB_STATUS[job_id].get('start_time', 0) > 3600:
-                    JOB_STATUS.pop(job_id, None)
-                    JOB_RESULTS.pop(job_id, None)
-        except Exception as e:
-            print(f"Error in job cleanup: {str(e)}")
-
-# Start cleanup thread
 cleanup_thread = threading.Thread(target=cleanup_old_jobs, daemon=True)
 cleanup_thread.start()
 
