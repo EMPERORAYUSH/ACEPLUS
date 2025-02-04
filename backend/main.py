@@ -49,8 +49,8 @@ try:
     from utils.lesson_utils import lesson2filepath
     from utils.data_utils import load_json_file, calculate_lesson_analytics, decode_unicode
     from utils.name_utils import generate_memorable_name
-    from .utils.auth_utils import get_student_class, get_current_user_info
-    from .utils.job_utils import allowed_file, cleanup_old_files, cleanup_old_jobs, JOB_QUEUE, JOB_RESULTS, JOB_STATUS, job_processor
+    from utils.auth_utils import get_student_class, get_current_user_info
+    from utils.job_utils import allowed_file, cleanup_old_files, cleanup_old_jobs, JOB_QUEUE, JOB_RESULTS, JOB_STATUS, job_processor
 
 except ImportError as e:
     print(f"Import Error: {str(e)}")
