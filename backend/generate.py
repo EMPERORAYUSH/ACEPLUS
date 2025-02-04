@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import ast
 import traceback
 from typing import Dict, List, Tuple
-from .utils.generate_utils import (
+from utils.generate_utils import (
     encode_image_to_base64,
     extract_tag_content,
     parse_question_xml,
@@ -15,13 +15,13 @@ from .utils.generate_utils import (
     remove_duplicates_and_replace,
     parse_questions_from_json
 )
-from .utils.prompts import (
+from utils.prompts import (
     SOLUTION_GENERATION_PROMPT,
     PERFORMANCE_ANALYSIS_PROMPT,
     IMAGE_ANALYSIS_PROMPT,
     
 )
-from .utils.validate_env import validate_env_config
+from utils.validate_env import validate_env_config
 
 # Load environment variables
 load_dotenv()
