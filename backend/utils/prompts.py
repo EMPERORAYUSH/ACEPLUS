@@ -91,7 +91,7 @@ Use LaTeX formatting with $ delimiters for:
 3. Scientific notations (e.g. $3.6 \\times 10^{-19}$)
 4. Units with superscripts/subscripts (e.g. $m/s^2$, $cm^3$)
 5. Greek letters (e.g. $\alpha$, $\beta$, $\theta$)
-6. Special mathematical symbols (e.g. $\pm$, $\div$, $\leq$)
+6. Special mathematical symbols (e.g. $\\pm$, $\div$, $\leq$)
 7. Fractions (e.g. $\frac{1}{2}$)
 8. Square roots (e.g. $\sqrt{2}$)
 9. Vector notations (e.g. $\vec{F}$)
