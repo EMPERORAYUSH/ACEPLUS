@@ -781,6 +781,8 @@ def update_lessons_json(subject, lesson_name, class_num):
     except Exception as e:
         logger.error(f"Error updating lessons JSON: {str(e)}\n{traceback.format_exc()}")
 
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Define base_dir at module level
+
 def process_pdf(pdf_path, subject, class_num):
     """Process a PDF file and generate questions"""
     # Check if lesson is already processed
@@ -1249,9 +1251,8 @@ def validate_pdf_structure(base_dir):
 
 if __name__ == "__main__":
     try:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        base_dir = os.path.dirname(script_dir)  # Go up three levels to workspace root
-        print(base_dir)
+        # base_dir is already defined at module level
+        print(f"Using base directory: {base_dir}")
         # Validate PDF directory structure
         valid_structure, issues = validate_pdf_structure(base_dir)
         print(valid_structure)
