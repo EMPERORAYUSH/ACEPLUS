@@ -28,9 +28,9 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Configure API clients
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+GOOGLE_API_KEY = os.getenv('GEMINI_API_KEY')
 if not GOOGLE_API_KEY:
-    raise ValueError("GOOGLE_API_KEY is required")
+    raise ValueError("GEMINI_API_KEY is required")
 
 # Configure Gemini
 genai.configure(
@@ -87,7 +87,7 @@ def load_lessons_data(class10=False):
     """Load lessons data from the appropriate JSON file"""
     try:
         filename = "lessons10.json" if class10 else "lessons.json"
-        file_path = os.path.join(SCRIPT_DIR, "data", filename)
+        file_path = os.path.join(base_dir, "data", filename)
         with open(file_path, 'r') as f:
             return json.load(f)
     except Exception as e:
@@ -105,7 +105,7 @@ def lesson2filepath(subject, lesson, class10=False):
         lesson_num = lesson_num.strip().split("-")[1]  # Get the number after "Lesson-"
         prefix_lower = prefix.lower().strip()
         return os.path.join(
-            SCRIPT_DIR,
+            base_dir,
             base_folder,
             subject_lower,
             f"{prefix_lower}.{lesson_num}.json"
@@ -113,17 +113,20 @@ def lesson2filepath(subject, lesson, class10=False):
     elif subject == "Science":
         lesson_number = lesson.split()[-1]
         return os.path.join(
-            SCRIPT_DIR, base_folder, subject_lower, f"lesson-{lesson_number}.json"
+            base_dir,
+            base_folder, subject_lower, f"lesson-{lesson_number}.json"
         )
     elif subject == "Math":
         lesson_number = lesson.split()[-1]
         return os.path.join(
-            SCRIPT_DIR, base_folder, subject_lower, f"lesson{lesson_number}.json"
+            base_dir,
+            base_folder, subject_lower, f"lesson{lesson_number}.json"
         )
     else:
         lesson_number = lesson.split()[-1]
         return os.path.join(
-            SCRIPT_DIR, base_folder, subject_lower, f"lesson{lesson_number}.json"
+            base_dir,
+            base_folder, subject_lower, f"lesson{lesson_number}.json"
         )
 
 def is_lesson_processed(subject, lesson_name, class_num):
@@ -734,7 +737,7 @@ def update_lessons_json(subject, lesson_name, class_num):
     try:
         # Determine which lessons file to update
         filename = "lessons10.json" if class_num == 10 else "lessons.json"
-        file_path = os.path.join(SCRIPT_DIR, "data", filename)
+        file_path = os.path.join(base_dir, "data", filename)
         
         # Load current lessons data
         with open(file_path, 'r') as f:
@@ -1045,7 +1048,7 @@ def process_pdf(pdf_path, subject, class_num):
             subject_lower = subject.lower()
             
             incorrect_file = os.path.join(
-                SCRIPT_DIR, 
+                base_dir, 
                 "data", 
                 "incorrect_questions",
                 base_folder,
@@ -1079,7 +1082,7 @@ def process_pdf(pdf_path, subject, class_num):
             filename = f"lesson{lesson_name}.json"
             
         output_file = os.path.join(
-            SCRIPT_DIR,
+            base_dir,
             "data",
             base_folder,
             subject_lower,
@@ -1137,7 +1140,7 @@ def process_directory(directory_path):
                         filename = f"lesson{lesson_name}.json"
                         
                     json_file = os.path.join(
-                        SCRIPT_DIR,
+                        base_dir,
                         "data",
                         base_folder,
                         subject_lower,
@@ -1173,7 +1176,7 @@ def process_directory(directory_path):
                         question_counts[pdf_path] = 0
         
         # Save question counts to numbers.json
-        numbers_file = os.path.join(SCRIPT_DIR, 'numbers.json')
+        numbers_file = os.path.join(base_dir, 'numbers.json')
         try:
             with open(numbers_file, 'w') as f:
                 json.dump(question_counts, f, indent=2)
@@ -1187,16 +1190,7 @@ def process_directory(directory_path):
 def validate_pdf_structure(base_dir):
     """
     Validate the PDF directory structure and return any issues found.
-    Expected structure:
-    pdfs/
-    ├── 9/
-    │   ├── Math/
-    │   ├── Science/
-    │   └── SS/
-    └── 10/
-        ├── Math/
-        ├── Science/
-        └── SS/
+    Skips directories that don't contain PDFs.
     """
     issues = []
     valid_structure = False
@@ -1219,7 +1213,7 @@ def validate_pdf_structure(base_dir):
         issues.append("ℹ️ Create directories '9' and '10' inside 'pdfs' directory")
     else:
         for expected_class in expected_classes:
-            if expected_class not in class_dirs:
+            if (expected_class not in class_dirs):
                 issues.append(f"❌ Class directory '{expected_class}' not found")
                 issues.append(f"ℹ️ Create directory '{expected_class}' inside 'pdfs' directory")
             else:
@@ -1235,15 +1229,8 @@ def validate_pdf_structure(base_dir):
                         if expected_subject not in subject_dirs:
                             issues.append(f"❌ Subject directory '{expected_subject}' not found in 'pdfs/{expected_class}'")
                             issues.append(f"ℹ️ Create directory '{expected_subject}' inside 'pdfs/{expected_class}'")
-                        else:
-                            # Check if there are any PDFs in the subject directory
-                            subject_path = os.path.join(class_path, expected_subject)
-                            pdfs = [f for f in os.listdir(subject_path) if f.endswith('.pdf')]
-                            if not pdfs:
-                                issues.append(f"⚠️ No PDF files found in 'pdfs/{expected_class}/{expected_subject}'")
-                                issues.append(f"ℹ️ Add PDF files to 'pdfs/{expected_class}/{expected_subject}'")
-
-    # Structure is valid if there are no issues
+                            
+    # Structure is valid if all required directories exist (regardless of PDF presence)
     valid_structure = len(issues) == 0
     
     # Add setup instructions if there are issues
@@ -1262,13 +1249,12 @@ def validate_pdf_structure(base_dir):
 
 if __name__ == "__main__":
     try:
-        # Get the script's directory
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        base_dir = os.path.dirname(os.path.dirname(script_dir))  # Go up two levels to workspace root
-        
+        base_dir = os.path.dirname(script_dir)  # Go up three levels to workspace root
+        print(base_dir)
         # Validate PDF directory structure
         valid_structure, issues = validate_pdf_structure(base_dir)
-        
+        print(valid_structure)
         if not valid_structure:
             print("""
 ❌ Invalid PDF Structure Found!
@@ -1315,4 +1301,4 @@ Issues Found:
         
     except Exception as e:
         logger.error(f"Main execution error: {str(e)}\n{traceback.format_exc()}")
-        sys.exit(1) 
+        sys.exit(1)
