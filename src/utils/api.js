@@ -121,6 +121,7 @@ export const endpoints = {
   login: 'api/login',
   createExam: 'api/create_exam',
   submitExam: (examId) => `api/submit_exam/${examId}`,
+  generateHint: 'api/generate_hint',
   getExam: (examId) => `api/exam/${examId}`,
   getLessons: (subject, isClass10) => `api/lessons?subject=${subject}${isClass10 ? '&class10=true' : ''}`,
   getTests: 'api/tests',
@@ -153,6 +154,10 @@ export const api = {
     body: JSON.stringify(data)
   }),
   getExam: (examId) => apiRequest(endpoints.getExam(examId)),
+  generateHint: (question) => apiRequest(endpoints.generateHint, {
+    method: 'POST',
+    body: JSON.stringify({ question })
+  }),
   getLessons: (subject, isClass10 = false) => apiRequest(endpoints.getLessons(subject, isClass10)),
   getTests: () => apiRequest(endpoints.getTests),
   generateTest: (data) => apiRequest(endpoints.generateTest, {

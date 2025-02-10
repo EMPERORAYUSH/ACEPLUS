@@ -68,6 +68,25 @@ PERFORMANCE_ANALYSIS_PROMPT = """Analyze my exam performance and provide specifi
     - Use bullet points (•) for main points and (*) for sub-points
     """
 
+HINT_GENERATION_PROMPT = """As an expert tutor, provide a helpful hint for this question without revealing the answer directly. You have:
+
+    Question: {question}
+
+    Create a hint that:
+    1. Points the student in the right direction
+    2. Highlights key concepts or formulas to consider
+    3. Suggests a problem-solving approach
+    4. Does NOT reveal the answer or make it obvious
+    5. Uses LaTeX for:
+       - Mathematical expressions and equations (e.g. $x^2$, \\frac{{1}}{{2}})
+       - Scientific formulas (e.g. $H_2O$, $CO_2$)
+       - Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
+       - Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
+
+    Keep the hint concise, encouraging, and focused on guiding rather than solving.
+    Use LaTeX notation for all mathematical and scientific expressions.
+    Format in Markdown with proper spacing."""
+
 IMAGE_ANALYSIS_PROMPT = """Analyze these images containing MCQ questions. Output your response in XML format with the following structure:
 
 <response>
@@ -87,15 +106,15 @@ IMAGE_ANALYSIS_PROMPT = """Analyze these images containing MCQ questions. Output
 
 Use LaTeX formatting with $ delimiters for:
 1. All mathematical expressions and equations (e.g. $x^2 + y^2 = z^2$)
-2. Chemical formulas and equations (e.g. $H_2SO_4$, $2H_2 + O_2 \rightarrow 2H_2O$)
+2. Chemical formulas and equations (e.g. $H_2SO_4$, $2H_2 + O_2 \\rightarrow 2H_2O$)
 3. Scientific notations (e.g. $3.6 \\times 10^{-19}$)
 4. Units with superscripts/subscripts (e.g. $m/s^2$, $cm^3$)
-5. Greek letters (e.g. $\alpha$, $\beta$, $\theta$)
-6. Special mathematical symbols (e.g. $\\pm$, $\div$, $\leq$)
-7. Fractions (e.g. $\frac{1}{2}$)
-8. Square roots (e.g. $\sqrt{2}$)
-9. Vector notations (e.g. $\vec{F}$)
-10. Degree symbols (e.g. $45°$ as $45^\circ$)
+5. Greek letters (e.g. $\\alpha$, $\\beta$, $\\theta$)
+6. Special mathematical symbols (e.g. $\\pm$, $\\div$, $\\leq$)
+7. Fractions (e.g. $\\frac{1}{2}$)
+8. Square roots (e.g. $\\sqrt{2}$)
+9. Vector notations (e.g. $\\vec{F}$)
+10. Degree symbols (e.g. $45°$ as $45^\\circ$)
 
 Important rules:
 1. Always output valid XML with proper opening and closing tags

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { FaExclamationCircle, FaChartLine } from 'react-icons/fa';
-import { AiOutlineLoading3Quarters } from 'react-icons/ai';
+import { AiOutlineLoading3Quarters, AiOutlineBulb } from 'react-icons/ai';
 import { BsCheckCircleFill } from 'react-icons/bs';
 import { motion, AnimatePresence } from 'framer-motion';
 import styled from 'styled-components';
@@ -25,29 +25,6 @@ const ExamWrapper = styled.div`
   @media (max-width: 768px) {
     margin-left: 0;
   }
-`;
-
-const ExamContainer = styled.div`
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-  width: 100%;
-  transition: all 0.3s ease-in-out;
-
-  @media (max-width: 768px) {
-    padding: 1rem;
-    margin-bottom: 60px;
-  }
-
-  -webkit-tap-highlight-color: transparent;
-  * {
-    -webkit-tap-highlight-color: transparent;
-  }
-`;
-
-const OptionContainer = styled(motion.div)`
-  -webkit-tap-highlight-color: transparent;
-  user-select: none;
 `;
 
 const ReportButton = styled(motion.button)`
@@ -74,93 +51,43 @@ const ReportButton = styled(motion.button)`
   }
 `;
 
-const iconStyles = {
-  fontSize: '1.2rem',
-};
+const HintContainer = styled(motion.div)`
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  color: #ffd700;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  
+  .katex {
+    color: #ffd700;
+  }
+`;
 
-const questionCardVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.3 },
-  },
-  exit: {
-    opacity: 0,
-    y: -20,
-    transition: { duration: 0.2 },
-  },
-};
+const ExamContainer = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
 
-const buttonVariants = {
-  hidden: { opacity: 0, scale: 0.8, y: 50 },
-  visible: (index) => ({
-    opacity: 1,
-    scale: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      delay: index * 0.2,
-      type: 'spring',
-      stiffness: 100,
-      damping: 15,
-    },
-  }),
-};
+  @media (max-width: 768px) {
+    padding: 1rem;
+    margin-bottom: 60px;
+  }
 
-const fadeTransition = {
-  hidden: {
-    opacity: 0,
-    scale: 0.95,
-    filter: 'blur(10px)',
-  },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    filter: 'blur(0px)',
-    transition: {
-      duration: 0.5,
-      ease: 'easeOut',
-    },
-  },
-  exit: {
-    opacity: 0,
-    scale: 1.05,
-    filter: 'blur(10px)',
-    transition: {
-      duration: 0.3,
-      ease: 'easeIn',
-    },
-  },
-};
+  -webkit-tap-highlight-color: transparent;
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+`;
 
-const notificationVariants = {
-  hidden: { opacity: 0, y: -50 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { type: 'spring', stiffness: 300, damping: 25 },
-  },
-  exit: {
-    opacity: 0,
-    y: -50,
-    transition: { duration: 0.2 },
-  },
-};
-
-const particleVariants = {
-  animate: (i) => ({
-    y: [0, -15, 0],
-    x: [0, Math.sin(i * Math.PI) * 10, 0],
-    opacity: [0.8, 1, 0.8],
-    scale: [1, 1.2, 1],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      delay: i * 0.2,
-    }
-  })
-};
+const OptionContainer = styled(motion.div)`
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+`;
 
 const IconContainer = ({ status, index }) => {
   return (
@@ -176,7 +103,7 @@ const IconContainer = ({ status, index }) => {
           transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
         >
           <AiOutlineLoading3Quarters
-            style={{ ...iconStyles, color: '#666' }}
+            style={{ fontSize: '1.2rem', color: '#666' }}
           />
         </motion.div>
       ) : status === `${index}-done` ? (
@@ -186,7 +113,7 @@ const IconContainer = ({ status, index }) => {
           transition={{ type: 'spring', stiffness: 300, damping: 25 }}
         >
           <BsCheckCircleFill
-            style={{ ...iconStyles, color: '#22c55e' }}
+            style={{ fontSize: '1.2rem', color: '#22c55e' }}
           />
         </motion.div>
       ) : (
@@ -195,7 +122,7 @@ const IconContainer = ({ status, index }) => {
           whileTap={{ scale: 0.9 }}
         >
           <FaExclamationCircle
-            style={{ ...iconStyles, color: '#dc2626' }}
+            style={{ fontSize: '1.2rem', color: '#dc2626' }}
           />
         </motion.div>
       )}
@@ -299,12 +226,6 @@ const QuestionHeader = styled.div`
   gap: 1rem;
   margin-bottom: 1.5rem;
   padding-right: 3rem;
-`;
-
-const QuestionTextContainer = styled.div`
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
 `;
 
 const QuestionNumber = styled.div`
@@ -442,6 +363,76 @@ const Option = styled(motion.div)`
   }
 `;
 
+// Add new styled component for loading dots
+const LoadingDots = styled(motion.div)`
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 0;
+  margin-top: 8px;
+
+  div {
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 215, 0, 0.4);
+    border-radius: 50%;
+  }
+`;
+
+const HintSkeletonLoader = styled(motion.div)`
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(255, 215, 0, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.1);
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  &::before {
+    background: linear-gradient(
+      90deg,
+      transparent 25%,
+      rgba(255, 215, 0, 0.2) 50%,
+      transparent 75%
+    );
+    transform: translateX(-150%);
+    animation: shimmer 1.5s infinite, pulse 2s infinite;
+  }
+
+  &::after {
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(255, 215, 0, 0.03) 0px,
+      rgba(255, 215, 0, 0.03) 10px,
+      rgba(255, 215, 0, 0.06) 10px,
+      rgba(255, 215, 0, 0.06) 20px
+    );
+  }
+
+  @keyframes shimmer {
+    0% { transform: translateX(-150%); }
+    100% { transform: translateX(150%); }
+  }
+
+  @keyframes pulse {
+    0% { opacity: 0.9; }
+    50% { opacity: 0.7; }
+    100% { opacity: 0.9; }
+  }
+`;
+
+const HintWord = styled(motion.span)`
+  display: inline-block;
+  margin-right: 4px;
+`;
+
 // Function to parse markdown tables
 const parseMarkdownTable = (text) => {
   const hasTable = text.includes('|') && text.includes('\n');
@@ -497,25 +488,39 @@ const parseMarkdownTable = (text) => {
   };
 };
 
-// Function to process text and render LaTeX
+// Update renderLatexText function to handle bold markdown
 const renderLatexText = (text) => {
   if (!text) return null;
-  
-  // Split text by LaTeX delimiters ($)
+
+  // First handle LaTeX to prevent splitting formulas
   const parts = text.split(/(\$[^\$]+\$)/g);
   
   return parts.map((part, index) => {
     if (part.startsWith('$') && part.endsWith('$')) {
-      // Remove $ delimiters and render as LaTeX
+      // Return LaTeX as a single unit
       const latex = part.slice(1, -1);
-      try {
-        return <InlineMath key={index} math={latex} />;
-      } catch (error) {
-        console.error('LaTeX parsing error:', error);
-        return part;
-      }
+      return <InlineMath key={`latex-${index}`} math={latex} />;
+    } else {
+      // Split non-LaTeX parts into words and process bold
+      const words = part.split(/\s+/);
+      return words.map((word, wordIndex) => {
+        const processedWord = word.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        return word.trim() ? (
+          <motion.span
+            key={`word-${index}-${wordIndex}`}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ 
+              delay: (index + wordIndex) * 0.05,
+              duration: 0.3,
+              ease: "easeOut"
+            }}
+            style={{ display: 'inline-block', marginRight: '4px' }}
+            dangerouslySetInnerHTML={{ __html: processedWord }}
+          />
+        ) : ' ';
+      });
     }
-    return part;
   });
 };
 
@@ -550,6 +555,137 @@ const renderTable = (tableData) => {
   );
 };
 
+const HintToggleButton = styled(motion.button)`
+  background: ${props => props.isGenerated ? 'rgba(255, 215, 0, 0.1)' : 'transparent'};
+  border: 2px solid ${props => props.isGenerated ? '#ffd700' : 'rgba(255, 215, 0, 0.3)'};
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd700;
+  transition: all 0.3s ease;
+  height: 40px;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  width: fit-content;
+  min-width: 120px;
+  backdrop-filter: blur(5px);
+  
+  &:hover {
+    background: rgba(255, 215, 0, 0.15);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.1);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+  
+  &:disabled {
+    cursor: default;
+    color: #666;
+    border-color: rgba(102, 102, 102, 0.3);
+    background: transparent;
+    transform: none;
+    box-shadow: none;
+  }
+
+  svg {
+    font-size: 1.2rem;
+  }
+`;
+
+const iconStyles = {
+  fontSize: '1.2rem',
+};
+
+const questionCardVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.3 },
+  },
+  exit: {
+    opacity: 0,
+    y: -20,
+    transition: { duration: 0.2 },
+  },
+};
+
+const buttonVariants = {
+  hidden: { opacity: 0, scale: 0.8, y: 50 },
+  visible: (index) => ({
+    opacity: 1,
+    scale: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      delay: index * 0.2,
+      type: 'spring',
+      stiffness: 100,
+      damping: 15,
+    },
+  }),
+};
+
+const fadeTransition = {
+  hidden: {
+    opacity: 0,
+    scale: 0.95,
+    filter: 'blur(10px)',
+  },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    filter: 'blur(0px)',
+    transition: {
+      duration: 0.5,
+      ease: 'easeOut',
+    },
+  },
+  exit: {
+    opacity: 0,
+    scale: 1.05,
+    filter: 'blur(10px)',
+    transition: {
+      duration: 0.3,
+      ease: 'easeIn',
+    },
+  },
+};
+
+const notificationVariants = {
+  hidden: { opacity: 0, y: -50 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { type: 'spring', stiffness: 300, damping: 25 },
+  },
+  exit: {
+    opacity: 0,
+    y: -50,
+    transition: { duration: 0.2 },
+  },
+};
+
+const particleVariants = {
+  animate: (i) => ({
+    y: [0, -15, 0],
+    x: [0, Math.sin(i * Math.PI) * 10, 0],
+    opacity: [0.8, 1, 0.8],
+    scale: [1, 1.2, 1],
+    transition: {
+      duration: 2,
+      repeat: Infinity,
+      delay: i * 0.2,
+    }
+  })
+};
+
 const ExamTaking = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -560,6 +696,9 @@ const ExamTaking = () => {
   const [showNotification, setShowNotification] = useState(false);
   const [reportedQuestions, setReportedQuestions] = useState(new Set());
   const [reportingQuestion, setReportingQuestion] = useState(null);
+  const [hints, setHints] = useState({});
+  const [loadingHints, setLoadingHints] = useState({});
+  const [visibleHints, setVisibleHints] = useState({});
 
   useEffect(() => {
     const fetchExamData = async () => {
@@ -599,6 +738,37 @@ const ExamTaking = () => {
       localStorage.setItem(`answers_${id}`, JSON.stringify(newAnswers));
       return newAnswers;
     });
+  };
+
+  const handleHintRequest = async (questionId, questionText) => {
+    if (hints[questionId] || loadingHints[questionId]) {
+      return;
+    }
+    
+    setLoadingHints(prev => ({ ...prev, [questionId]: true }));
+    
+    try {
+      const response = await api.generateHint(questionText);
+      if (response.hint) {
+        setHints(prev => ({
+          ...prev,
+          [questionId]: response.hint
+        }));
+        // Automatically show hint when generated
+        setVisibleHints(prev => ({
+          ...prev,
+          [questionId]: true
+        }));
+      }
+    } catch (error) {
+      console.error('Error getting hint:', error);
+      setHints(prev => ({
+        ...prev,
+        [questionId]: "Sorry, couldn't generate a hint at this time."
+      }));
+    } finally {
+      setLoadingHints(prev => ({ ...prev, [questionId]: false }));
+    }
   };
 
   const handleSubmit = async () => {
@@ -656,6 +826,13 @@ const ExamTaking = () => {
       console.error('Error reporting question:', error);
       setReportingQuestion(null);
     }
+  };
+
+  const toggleHint = (questionId) => {
+    setVisibleHints(prev => ({
+      ...prev,
+      [questionId]: !prev[questionId]
+    }));
   };
 
   if (isLoading) {
@@ -772,18 +949,18 @@ const ExamTaking = () => {
                   </motion.div>
                 </AnimatePresence>
               </ReportButton>
+              
               <QuestionHeader>
                 <QuestionNumber>{index + 1}</QuestionNumber>
-                {(() => {
-                  const { text, tables } = parseMarkdownTable(question.question);
-                  return (
-                    <>
-                      <QuestionText>{renderLatexText(text)}</QuestionText>
-                      {tables.map((table, tableIndex) => renderTable(table))}
-                    </>
-                  );
-                })()}
+                <div>
+                  <QuestionText>{renderLatexText(question.question)}</QuestionText>
+                  {(() => {
+                    const { tables } = parseMarkdownTable(question.question);
+                    return tables.map((table, tableIndex) => renderTable(table));
+                  })()}
+                </div>
               </QuestionHeader>
+
               <OptionsContainer
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -835,6 +1012,118 @@ const ExamTaking = () => {
                   <div>No options available for this question.</div>
                 )}
               </OptionsContainer>
+              
+              <motion.div
+                style={{ marginTop: '1.5rem' }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: index * 0.1 + 0.4 }}
+              >
+                <HintToggleButton
+                  onClick={() => {
+                    if (hints[question.uniqueId]) {
+                      toggleHint(question.uniqueId);
+                    } else {
+                      handleHintRequest(question.uniqueId, question.question);
+                    }
+                  }}
+                  disabled={loadingHints[question.uniqueId]}
+                  isGenerated={hints[question.uniqueId]}
+                  variants={buttonVariants}
+                  initial="hidden"
+                  animate="visible"
+                  custom={index}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={loadingHints[question.uniqueId] ? 'loading' : 'bulb'}
+                      variants={fadeTransition}
+                      initial="hidden"
+                      animate="visible"
+                      exit="exit"
+                      style={{ display: 'flex', alignItems: 'center' }}
+                    >
+                      {loadingHints[question.uniqueId] ? (
+                        <motion.div
+                          animate={{ rotate: 360 }}
+                          transition={{ 
+                            duration: 1,
+                            repeat: Infinity,
+                            ease: "linear"
+                          }}
+                        >
+                          <AiOutlineLoading3Quarters style={{ fontSize: '1.2rem' }} />
+                        </motion.div>
+                      ) : (
+                        <AiOutlineBulb />
+                      )}
+                    </motion.div>
+                  </AnimatePresence>
+                  <span>
+                    {loadingHints[question.uniqueId] ? 'Generating...' :
+                      hints[question.uniqueId] ? 
+                        (visibleHints[question.uniqueId] ? 'Hide Hint' : 'Show Hint') : 
+                        'Get Hint'
+                    }
+                  </span>
+                </HintToggleButton>
+
+                <AnimatePresence>
+                  {loadingHints[question.uniqueId] && (
+                    <>
+                      <HintSkeletonLoader
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 80 }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                      />
+                      <LoadingDots
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        {[...Array(3)].map((_, i) => (
+                          <motion.div
+                            key={i}
+                            animate={{ 
+                              y: [-3, 3, -3],
+                              opacity: [0.4, 1, 0.4]
+                            }}
+                            transition={{
+                              y: {
+                                duration: 1.2,
+                                repeat: Infinity,
+                                delay: i * 0.2
+                              },
+                              opacity: {
+                                duration: 1.2,
+                                repeat: Infinity,
+                                delay: i * 0.2
+                              }
+                            }}
+                          />
+                        ))}
+                      </LoadingDots>
+                    </>
+                  )}
+                </AnimatePresence>
+
+                <AnimatePresence>
+                  {hints[question.uniqueId] && visibleHints[question.uniqueId] && (
+                    <HintContainer
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      {renderLatexText(hints[question.uniqueId])}
+                    </HintContainer>
+                  )}
+                </AnimatePresence>
+              </motion.div>
             </QuestionCard>
           );
         })}
