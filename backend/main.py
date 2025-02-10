@@ -1137,7 +1137,7 @@ def recalculate_leaderboard_route():
 # Run cleanup every hour
 def start_cleanup_scheduler():
     while True:
-        cleanup_old_files()
+        cleanup_old_files(os.environ.get('UPLOAD_FOLDER'))
         time.sleep(3600)
 
 # Start cleanup thread when app starts
