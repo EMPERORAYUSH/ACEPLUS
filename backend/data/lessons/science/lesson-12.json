@@ -1,0 +1,492 @@
+[
+  {
+    "question": "Which of the following is NOT a macronutrient required by plants?",
+    "options": {
+      "a": "Nitrogen",
+      "b": "Phosphorus",
+      "c": "Iron",
+      "d": "Potassium"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Green Revolution primarily focused on increasing the production of:",
+    "options": {
+      "a": "Pulses",
+      "b": "Oilseeds",
+      "c": "Food Grains",
+      "d": "Milk"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is a *rabi* crop?",
+    "options": {
+      "a": "Paddy",
+      "b": "Soyabean",
+      "c": "Wheat",
+      "d": "Cotton"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the process of crossing between genetically dissimilar plants called?",
+    "options": {
+      "a": "Photosynthesis",
+      "b": "Hybridisation",
+      "c": "Respiration",
+      "d": "Transpiration"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a biotic factor affecting crop production?",
+    "options": {
+      "a": "Drought",
+      "b": "Salinity",
+      "c": "Insects",
+      "d": "Temperature"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Vermicompost is prepared using:",
+    "options": {
+      "a": "Chemicals",
+      "b": "Earthworms",
+      "c": "Bacteria",
+      "d": "Fungi"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which gas is primarily supplied to plants by the air?",
+    "options": {
+      "a": "Hydrogen",
+      "b": "Oxygen",
+      "c": "Nitrogen",
+      "d": "Carbon dioxide"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The White Revolution is associated with an increase in the production of:",
+    "options": {
+      "a": "Eggs",
+      "b": "Fish",
+      "c": "Milk",
+      "d": "Wheat"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is a breed of cattle selected for long lactation periods?",
+    "options": {
+      "a": "Red Sindhi",
+      "b": "Sahiwal",
+      "c": "Jersey",
+      "d": "Aseel"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Xanthium and Parthenium are examples of:",
+    "options": {
+      "a": "Pests",
+      "b": "Weeds",
+      "c": "Diseases",
+      "d": "Fodder Crops"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Apis cerana indica is the scientific name for:",
+    "options": {
+      "a": "Italian bee",
+      "b": "Rock bee",
+      "c": "Little bee",
+      "d": "Indian bee"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What is the term for the period of milk production after the birth of a calf?",
+    "options": {
+      "a": "Gestation",
+      "b": "Incubation",
+      "c": "Lactation",
+      "d": "Maturation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is an oilseed crop?",
+    "options": {
+      "a": "Lentil",
+      "b": "Gram",
+      "c": "Sunflower",
+      "d": "Maize"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Poultry farming is undertaken to raise:",
+    "options": {
+      "a": "Cows and buffaloes",
+      "b": "Goats and sheep",
+      "c": "Domestic fowl",
+      "d": "Fish"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the term used for rearing of fish?",
+    "options": {
+      "a": "Apiculture",
+      "b": "Sericulture",
+      "c": "Pisciculture",
+      "d": "Silviculture"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer wants to grow two crops simultaneously to minimize risk. Which cropping pattern should he adopt?",
+    "options": {
+      "a": "Crop Rotation",
+      "b": "Mixed Cropping",
+      "c": "Intercropping",
+      "d": "Mono-cropping"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer finds his crop yield decreasing due to nutrient deficiency. What is the immediate solution?",
+    "options": {
+      "a": "Crop Rotation",
+      "b": "Applying Fertilizers",
+      "c": "Mixed Cropping",
+      "d": "Fallowing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a farmer wants to enrich the soil with nitrogen naturally, which practice is most suitable?",
+    "options": {
+      "a": "Using Chemical Fertilizers",
+      "b": "Growing Leguminous Plants",
+      "c": "Irrigation",
+      "d": "Deep Ploughing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer notices that his crops are being damaged by weeds. Which method is the most environmentally friendly for weed control?",
+    "options": {
+      "a": "Using Herbicides",
+      "b": "Mechanical Removal",
+      "c": "Using Insecticides",
+      "d": "Using Fungicides"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A poultry farmer observes reduced growth rate in his broilers. Which of the following is the most likely cause?",
+    "options": {
+      "a": "Excess Vitamins",
+      "b": "Protein Deficiency",
+      "c": "High Fiber Diet",
+      "d": "Adequate Fat Intake"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A fish farmer observes that fish in his pond are not growing properly due to competition for food. What should he do?",
+    "options": {
+      "a": "Introduce more fish",
+      "b": "Use Composite Fish Culture",
+      "c": "Add more feed",
+      "d": "Change the water"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer's crop is affected by both fungal disease and insect pests. Which combination of control measures is most appropriate?",
+    "options": {
+      "a": "Herbicides and Insecticides",
+      "b": "Fungicides and Herbicides",
+      "c": "Fungicides and Insecticides",
+      "d": "Nematicides and Insecticides"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer wants to improve the water holding capacity of his sandy soil. What should he add to the soil?",
+    "options": {
+      "a": "Sand",
+      "b": "Clay",
+      "c": "Organic Matter",
+      "d": "Gravel"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "To prevent losses during grain storage, which factor is LEAST important to control?",
+    "options": {
+      "a": "Moisture",
+      "b": "Temperature",
+      "c": "Light",
+      "d": "Rodents"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer grows wheat and then wants to grow a crop that replenishes soil nitrogen. Which crop should he choose?",
+    "options": {
+      "a": "Rice",
+      "b": "Maize",
+      "c": "Gram",
+      "d": "Sugarcane"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a farmer wants to practice sustainable agriculture, which of the following should he minimize?",
+    "options": {
+      "a": "Crop rotation",
+      "b": "Use of manure",
+      "c": "Use of chemical fertilizers",
+      "d": "Mixed farming"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer wants to grow two crops in alternating rows in the same field. This is an example of:",
+    "options": {
+      "a": "Mixed Cropping",
+      "b": "Crop Rotation",
+      "c": "Intercropping",
+      "d": "Monoculture"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer finds his crop yield is low due to poor soil aeration. Which practice would BEST address this?",
+    "options": {
+      "a": "Increasing Irrigation",
+      "b": "Applying more fertilizer",
+      "c": "Ploughing the field",
+      "d": "Adding more water"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer notices his crops are yellowing, suggesting a nutrient deficiency. If he suspects nitrogen deficiency, what color would the leaves likely be?",
+    "options": {
+      "a": "Dark Green",
+      "b": "Reddish",
+      "c": "Pale Green/Yellow",
+      "d": "Purple"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A farmer in a drought-prone area wants to cultivate crops. Which characteristic should he look for in the crop variety?",
+    "options": {
+      "a": "High Water Requirement",
+      "b": "Drought Resistance",
+      "c": "Long Maturity Duration",
+      "d": "High Fertilizer Response"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a region with high soil salinity, which type of crop variety would be most suitable?",
+    "options": {
+      "a": "High-yielding",
+      "b": "Salt-tolerant",
+      "c": "Disease-resistant",
+      "d": "Dwarf"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer in a region with short growing seasons should choose crop varieties with:",
+    "options": {
+      "a": "Long Maturity Duration",
+      "b": "Short Maturity Duration",
+      "c": "High Water Requirement",
+      "d": "Low Yield Potential"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If you want to establish an apiary, what factor is MOST crucial for its success?",
+    "options": {
+      "a": "Proximity to a city",
+      "b": "Availability of Pasturage",
+      "c": "Type of Beehive",
+      "d": "Low Rainfall"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A poultry farmer aims to produce meat efficiently. He should focus on raising:",
+    "options": {
+      "a": "Layers",
+      "b": "Broilers",
+      "c": "Desi breeds",
+      "d": "Dual-purpose breeds"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A coastal community wants to enhance their food production sustainably. Which practice would be MOST appropriate?",
+    "options": {
+      "a": "Intensive agriculture",
+      "b": "Mariculture",
+      "c": "Deforestation",
+      "d": "Overgrazing"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A farmer wants to improve the soil structure and fertility without using chemical fertilizers. Which practice is most suitable?",
+    "options": {
+      "a": "Deep ploughing",
+      "b": "Monoculture",
+      "c": "Using organic manure",
+      "d": "Increasing Irrigation"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a farmer wants to increase the protein content of his animal feed, he should include more:",
+    "options": {
+      "a": "Cereals",
+      "b": "Pulses",
+      "c": "Millets",
+      "d": "Oil seeds"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "To maximize nutrient utilization and minimize pest problems in crop production, which practice is most effective?",
+    "options": {
+      "a": "Monocropping",
+      "b": "Intercropping",
+      "c": "Continuous cropping",
+      "d": "Leaving the field fallow"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a farmer observes his cattle showing signs of disease, what is the FIRST step he should take?",
+    "options": {
+      "a": "Administer antibiotics",
+      "b": "Isolate the affected animals",
+      "c": "Change their feed",
+      "d": "Ignore the symptoms"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is increasing the area of land under cultivation NOT considered a sustainable solution for meeting the growing food demand?",
+    "options": {
+      "a": "It leads to increased biodiversity",
+      "b": "It requires more fertilizers",
+      "c": "It can lead to deforestation and habitat loss",
+      "d": "It improves soil fertility"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is relying solely on the Green Revolution for food security NOT sustainable in the long run?",
+    "options": {
+      "a": "It increases biodiversity",
+      "b": "It reduces the need for irrigation",
+      "c": "It can lead to environmental degradation",
+      "d": "It promotes organic farming"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is food security dependent on both availability and access to food?",
+    "options": {
+      "a": "Availability is more important than access",
+      "b": "Access is more important than availability",
+      "c": "People need both food and money to buy it",
+      "d": "Food storage solves both problems"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How does mixed farming contribute to sustainable agriculture?",
+    "options": {
+      "a": "It increases reliance on chemical inputs",
+      "b": "It reduces biodiversity",
+      "c": "It integrates crop and livestock production",
+      "d": "It promotes monoculture"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is genetic modification of crops a controversial topic?",
+    "options": {
+      "a": "It always leads to higher yields",
+      "b": "It is always beneficial to the environment",
+      "c": "Concerns exist about its potential impact on health and environment",
+      "d": "It reduces the need for pesticides"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is it important to consider both short-term and long-term benefits when choosing between fertilizers and manure?",
+    "options": {
+      "a": "Fertilizers are always better than manure",
+      "b": "Manure is always better than fertilizers",
+      "c": "Fertilizers provide quick results but can harm soil; manure is slower but more sustainable",
+      "d": "Both have identical effects"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the main advantage of using composite fish culture?",
+    "options": {
+      "a": "It simplifies fish farming",
+      "b": "It uses only one species of fish",
+      "c": "It utilizes all food resources in the pond efficiently",
+      "d": "It requires less water"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "How does summer ploughing help in pest and weed control?",
+    "options": {
+      "a": "It increases soil moisture",
+      "b": "It exposes pests and weeds to harsh conditions",
+      "c": "It improves soil fertility",
+      "d": "It adds nutrients to the soil"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the choice of bee variety important for honey production?",
+    "options": {
+      "a": "All bee varieties produce the same amount of honey",
+      "b": "Different varieties have different honey collection capacities",
+      "c": "Bee variety only affects the color of honey",
+      "d": "Local varieties are always better"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is crop rotation considered a beneficial agricultural practice?",
+    "options": {
+      "a": "It depletes soil nutrients",
+      "b": "It increases pest and disease problems",
+      "c": "It helps maintain soil fertility and reduces pest/disease build-up",
+      "d": "It requires more fertilizer"
+    },
+    "answer": "c"
+  }
+]

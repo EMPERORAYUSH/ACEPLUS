@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What are the fundamental building blocks of matter, as discussed in the chapter?",
+    "options": {
+      "a": "Molecules only",
+      "b": "Atoms and molecules",
+      "c": "Elements only",
+      "d": "Compounds only"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Who proposed that atoms are indivisible?",
+    "options": {
+      "a": "Thomson",
+      "b": "Rutherford",
+      "c": "Dalton",
+      "d": "Bohr"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which subatomic particle was identified by J.J. Thomson?",
+    "options": {
+      "a": "Proton",
+      "b": "Neutron",
+      "c": "Electron",
+      "d": "Nucleus"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What were the positively charged radiations discovered by E. Goldstein called?",
+    "options": {
+      "a": "Beta rays",
+      "b": "Canal rays",
+      "c": "Gamma rays",
+      "d": "X-rays"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How is a proton generally represented?",
+    "options": {
+      "a": "e-",
+      "b": "p+",
+      "c": "n",
+      "d": "a"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "According to Thomson's model, what is an atom composed of?",
+    "options": {
+      "a": "Only electrons",
+      "b": "Only protons",
+      "c": "A positively charged sphere with embedded electrons",
+      "d": "A negatively charged sphere with embedded protons"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In Rutherford's experiment, what type of particles were used to bombard the gold foil?",
+    "options": {
+      "a": "Beta particles",
+      "b": "Alpha particles",
+      "c": "Gamma particles",
+      "d": "Delta particles"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the approximate thickness of the gold foil used in Rutherford's experiment?",
+    "options": {
+      "a": "10 atoms thick",
+      "b": "100 atoms thick",
+      "c": "1000 atoms thick",
+      "d": "10000 atoms thick"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "According to Bohr's model, in what do electrons revolve around the nucleus?",
+    "options": {
+      "a": "Random paths",
+      "b": "Discrete orbits",
+      "c": "Spiral paths",
+      "d": "Straight lines"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the term for the energy levels in Bohr's atomic model?",
+    "options": {
+      "a": "Orbits or shells",
+      "b": "Paths or lines",
+      "c": "Zones or regions",
+      "d": "Fields or spaces"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Who discovered the neutron?",
+    "options": {
+      "a": "J.J. Thomson",
+      "b": "E. Goldstein",
+      "c": "J. Chadwick",
+      "d": "E. Rutherford"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which element's atoms, other than isotopes, do *not* contain neutrons?",
+    "options": {
+      "a": "Helium",
+      "b": "Carbon",
+      "c": "Hydrogen",
+      "d": "Oxygen"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the maximum number of electrons that the K-shell can hold?",
+    "options": {
+      "a": "8",
+      "b": "2",
+      "c": "18",
+      "d": "32"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What are the electrons in the outermost shell of an atom called?",
+    "options": {
+      "a": "Core electrons",
+      "b": "Valence electrons",
+      "c": "Orbiting electrons",
+      "d": "Nuclear electrons"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What term describes the combining capacity of an atom?",
+    "options": {
+      "a": "Atomicity",
+      "b": "Valency",
+      "c": "Reactivity",
+      "d": "Stability"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An atom has 11 protons and 12 neutrons. What is its atomic number?",
+    "options": {
+      "a": "11",
+      "b": "12",
+      "c": "23",
+      "d": "1"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "An atom has an atomic number of 8 and a mass number of 16. How many neutrons does it have?",
+    "options": {
+      "a": "4",
+      "b": "8",
+      "c": "16",
+      "d": "24"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The L-shell of an atom can hold a maximum of 8 electrons. If an atom has 10 electrons, how are they distributed in the K and L shells?",
+    "options": {
+      "a": "K=8, L=2",
+      "b": "K=5, L=5",
+      "c": "K=2, L=8",
+      "d": "K=10, L=0"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "An element has an atomic number of 17. What is its electronic configuration?",
+    "options": {
+      "a": "2, 8, 7",
+      "b": "2, 7, 8",
+      "c": "8, 2, 7",
+      "d": "7,8,2"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the valency of an element with an electronic configuration of 2, 4?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If an atom has a mass number of 35 and 18 neutrons, what is its atomic number?",
+    "options": {
+      "a": "17",
+      "b": "18",
+      "c": "35",
+      "d": "53"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "An atom 'X' has 6 protons and 6 neutrons, and another atom 'Y' has 6 protons and 8 neutrons. What is the relationship between X and Y?",
+    "options": {
+      "a": "They are isobars",
+      "b": "They are isotopes",
+      "c": "They are different elements",
+      "d": "They are isomers."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The formula to calculate the maximum number of electrons in a shell is 2n\u00b2. What is the maximum number of electrons in the M shell (n=3)?",
+    "options": {
+      "a": "2",
+      "b": "8",
+      "c": "18",
+      "d": "32"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "An element has an electronic configuration of 2, 8, 1. What is its valency?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "8",
+      "d": "11"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "An atom has 12 protons, 12 electrons, and 12 neutrons. What is its mass number?",
+    "options": {
+      "a": "12",
+      "b": "24",
+      "c": "36",
+      "d": "0"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An atom has an electronic configuration of 2,8,8. What is the atomic number?",
+    "options": {
+      "a": "2",
+      "b": "8",
+      "c": "10",
+      "d": "18"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "An element has 7 electrons in its outermost shell. If this element gains an electron to have a full outer shell, what would be the charge of the resulting ion?",
+    "options": {
+      "a": "+1",
+      "b": "-1",
+      "c": "+7",
+      "d": "-7"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Element X has a valency of 2 and element Y has a valency of 1. If they combine, how many atoms of Y will combine with one atom of X in the simplest ratio?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a neutral atom has 2 electrons in the K shell and 5 electrons in the L shell, what is its atomic number?",
+    "options": {
+      "a": "2",
+      "b": "5",
+      "c": "7",
+      "d": "3"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Chlorine has two isotopes, Cl-35 and Cl-37. If the average atomic mass is 35.5u, and the ratio is 3:1, which isotope is more abundant?",
+    "options": {
+      "a": "Cl-35",
+      "b": "Cl-37",
+      "c": "Both are equal",
+      "d": "Cannot be determined"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why is Rutherford's model of the atom also called the \"nuclear model\"?",
+    "options": {
+      "a": "Because it emphasizes the electrons",
+      "b": "Because it emphasizes the positive charge concentrated in a nucleus",
+      "c": "Because it includes neutrons",
+      "d": "Because it is similar to Thomson's model"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is Bohr's model of the atom considered an improvement over Rutherford's model?",
+    "options": {
+      "a": "It explains the existence of isotopes.",
+      "b": "It explains the stability of the atom by introducing discrete energy levels.",
+      "c": "It explains the positive charge of the atom.",
+      "d": "It explains the mass of the atom."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why are noble gases (inert gases) generally unreactive?",
+    "options": {
+      "a": "They have incomplete outermost shells.",
+      "b": "They have complete outermost shells.",
+      "c": "They have no electrons.",
+      "d": "They have no protons."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If an element has a valency of 1, what does this indicate about its reactivity?",
+    "options": {
+      "a": "It is very unreactive.",
+      "b": "It tends to gain or lose one electron to achieve stability.",
+      "c": "It has a complete octet.",
+      "d": "It is a noble gas."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Isotopes of an element are used in various applications. Which property of isotopes allows for their different uses?",
+    "options": {
+      "a": "Same chemical properties",
+      "b": "Different chemical properties",
+      "c": "Different physical properties",
+      "d": "Same number of electrons"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "An isotope of which element is used as a fuel in nuclear reactors?",
+    "options": {
+      "a": "Cobalt",
+      "b": "Iodine",
+      "c": "Uranium",
+      "d": "Carbon"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "An isotope of which element is used in the treatment of goiter?",
+    "options": {
+      "a": "Cobalt",
+      "b": "Iodine",
+      "c": "Uranium",
+      "d": "Sodium"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the atomic mass of chlorine often represented as 35.5 u, even though it is not a whole number?",
+    "options": {
+      "a": "Due to experimental error",
+      "b": "Due to the presence of isotopes",
+      "c": "Due to the presence of isobars",
+      "d": "Due to relativistic effects"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why are the chemical properties of all isotopes of an element generally the same?",
+    "options": {
+      "a": "Because they have the same number of neutrons.",
+      "b": "Because they have the same number of protons and electrons",
+      "c": "Because they have the same mass number.",
+      "d": "Because they have different atomic numbers."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does understanding valency help in predicting the formulas of compounds?",
+    "options": {
+      "a": "It indicates the mass of the atoms.",
+      "b": "It shows how many atoms of one element can combine with another.",
+      "c": "It shows the number of isotopes",
+      "d": "it indicates the atomic number."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If Rutherford had used a foil of a much lighter element than gold in his experiment, how might his observations have differed?",
+    "options": {
+      "a": "More alpha particles would have been deflected at large angles.",
+      "b": "Fewer alpha particles would have been deflected at large angles.",
+      "c": "All alpha particles would have passed straight through.",
+      "d": "All alpha particles would have been absorbed."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why was Thomson's \"plum pudding\" model of the atom ultimately rejected?",
+    "options": {
+      "a": "It correctly predicted the existence of the neutron.",
+      "b": "It could not explain the results of Rutherford's scattering experiment.",
+      "c": "It was too complex.",
+      "d": "It was too simple."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why does Bohr's model restrict electrons to specific energy levels, unlike classical physics predictions?",
+    "options": {
+      "a": "To make the model simpler",
+      "b": "To account for the observed line spectra of elements",
+      "c": "to account for the mass of the atom.",
+      "d": "to explain the presence of neutrons."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If an atom loses an electron, it becomes a positively charged ion. Why?",
+    "options": {
+      "a": "The number of protons becomes greater than the number of electrons.",
+      "b": "The number of neutrons changes.",
+      "c": "The mass number changes.",
+      "d": "The atomic number changes."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why is the concept of valency crucial for understanding chemical bonding?",
+    "options": {
+      "a": "It determines the color of compounds.",
+      "b": "It dictates how atoms combine to form molecules.",
+      "c": "It determines the physical state of a substance.",
+      "d": "It determines the mass of an atom."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Two atoms have the same mass number but different atomic numbers. What are they called?",
+    "options": {
+      "a": "Isotopes",
+      "b": "Isobars",
+      "c": "Allotropes",
+      "d": "Isomers"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the mass of an electron considered negligible when calculating the mass number of an atom?",
+    "options": {
+      "a": "Electrons have no mass",
+      "b": "Electrons are located outside the nucleus",
+      "c": "The mass of an electron is very small compared to protons and neutrons",
+      "d": "Electrons are negatively charged"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is it important to know the number of valence electrons in an atom?",
+    "options": {
+      "a": "It determines the atomic number",
+      "b": "It determines the mass number",
+      "c": "It determines the chemical reactivity",
+      "d": "it determines the number of neutrons."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is the atomic number considered a more fundamental property of an element than its atomic mass?",
+    "options": {
+      "a": "Atomic mass can vary due to isotopes, while atomic number is unique.",
+      "b": "Atomic mass is easier to measure",
+      "c": "Atomic number is always a whole number.",
+      "d": "Atomic mass is not related to the number of protons"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "If scientists discovered a new subatomic particle with a significant mass located within the nucleus, how would this discovery potentially change our understanding of atomic structure?",
+    "options": {
+      "a": "It would not affect the current model.",
+      "b": "It would affect the calculation of mass number and potentially introduce new forces within the nucleus.",
+      "c": "It would only affect the chemical properties of elements.",
+      "d": "It would disprove the existence of electrons."
+    },
+    "answer": "b"
+  }
+]

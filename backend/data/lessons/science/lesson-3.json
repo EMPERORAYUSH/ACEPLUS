@@ -1,0 +1,462 @@
+[
+  {
+    "question": "Who first postulated the idea of *Parmanu*?",
+    "options": {
+      "a": "Democritus",
+      "b": "Maharishi Kanad",
+      "c": "Lavoisier",
+      "d": "Proust"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The term \"atoms\" (meaning indivisible) was coined by:",
+    "options": {
+      "a": "Dalton",
+      "b": "Democritus",
+      "c": "Katyayama",
+      "d": "Proust"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The Law of Conservation of Mass states that:",
+    "options": {
+      "a": "Mass can be created",
+      "b": "Mass can be destroyed",
+      "c": "Mass can be created and destroyed",
+      "d": "Mass can neither be created nor destroyed"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The Law of Constant Proportions is also known as:",
+    "options": {
+      "a": "Law of Multiple Proportions",
+      "b": "Law of Definite Proportions",
+      "c": "Law of Reciprocal Proportions",
+      "d": "Law of Gaseous Volumes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In water, the ratio of the mass of hydrogen to the mass of oxygen is always:",
+    "options": {
+      "a": "1:2",
+      "b": "1:8",
+      "c": "2:1",
+      "d": "8:1"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a postulate of Dalton's atomic theory?",
+    "options": {
+      "a": "Atoms are indivisible",
+      "b": "Atoms can be created or destroyed in a chemical reaction",
+      "c": "Atoms of different elements have different masses",
+      "d": "Atoms combine in small whole-number ratios"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The symbol for the element Lead is derived from its Latin name:",
+    "options": {
+      "a": "Ferrum",
+      "b": "Natrium",
+      "c": "Kalium",
+      "d": "Plumbum"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What does IUPAC stand for?",
+    "options": {
+      "a": "Indian Union of Pure and Applied Chemistry",
+      "b": "International Union of Primary and Applied Chemistry",
+      "c": "International Union of Pure and Applied Chemistry",
+      "d": "Internal Union of Pure and Applied Chemistry"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The atomic mass unit (u) is currently defined as:",
+    "options": {
+      "a": "1/12th the mass of a carbon-12 atom",
+      "b": "The mass of a hydrogen atom",
+      "c": "The mass of an oxygen-16 atom",
+      "d": "1/16th the mass of an oxygen-16 atom"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following represents a molecule of an element?",
+    "options": {
+      "a": "H\u2082O",
+      "b": "CO\u2082",
+      "c": "O\u2083",
+      "d": "NaCl"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the atomicity of Argon?",
+    "options": {
+      "a": "Diatomic",
+      "b": "Monoatomic",
+      "c": "Triatomic",
+      "d": "Polyatomic"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An anion is a:",
+    "options": {
+      "a": "Positively charged ion",
+      "b": "Negatively charged ion",
+      "c": "Neutral atom",
+      "d": "Metallic element"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The chemical formula for Magnesium Chloride is:",
+    "options": {
+      "a": "MgCl",
+      "b": "Mg\u2082Cl",
+      "c": "MgCl\u2082",
+      "d": "Mg\u2082Cl\u2082"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the valency of oxygen in most compounds?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If 12g of carbon burns completely in 32g of oxygen, what mass of carbon dioxide is formed?",
+    "options": {
+      "a": "20g",
+      "b": "44g",
+      "c": "54g",
+      "d": "32g"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In a compound, elements A and B are present in a ratio of 2:3 by mass. If 4g of A are present, what mass of B is present?",
+    "options": {
+      "a": "3g",
+      "b": "6g",
+      "c": "8g",
+      "d": "12g"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The formula of a metal oxide is MO. If the metal (M) has an atomic mass of 24, and oxygen has an atomic mass of 16, what is the formula mass of MO?",
+    "options": {
+      "a": "30 u",
+      "b": "40 u",
+      "c": "48 u",
+      "d": "8 u"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the molecular mass of H\u2082SO\u2084? (H=1 u, S=32 u, O=16 u)",
+    "options": {
+      "a": "49 u",
+      "b": "98 u",
+      "c": "82 u",
+      "d": "100 u"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the formula mass of Sodium Chloride (NaCl)? (Na=23 u, Cl=35.5 u)",
+    "options": {
+      "a": "58.5 u",
+      "b": "59.5 u",
+      "c": "57.5 u",
+      "d": "60 u"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "If the formula of a chloride of a metal is MCl\u2083, what is the valency of the metal M?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the mass ratio of Nitrogen and Oxygen in N\u2082O? (N=14 u, O=16 u)",
+    "options": {
+      "a": "7:4",
+      "b": "7:8",
+      "c": "14:8",
+      "d": "1:1"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A reaction starts with 5g of reactant A and 3g of reactant B. If all reactants are consumed, and 6g of product C is formed, what mass of product D is formed?",
+    "options": {
+      "a": "2g",
+      "b": "8g",
+      "c": "4g",
+      "d": "1g"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the ratio by number of atoms for a water molecule?",
+    "options": {
+      "a": "1:1",
+      "b": "2:1",
+      "c": "1:2",
+      "d": "3:1"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the molecular mass of Carbon Dioxide (CO2)? (C=12u, O=16u)",
+    "options": {
+      "a": "44u",
+      "b": "28u",
+      "c": "40u",
+      "d": "32u"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the formula mass of Calcium Oxide (CaO)? (Ca = 40 u, O = 16 u)",
+    "options": {
+      "a": "54 u",
+      "b": "56 u",
+      "c": "46 u",
+      "d": "50 u"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A compound contains 3g of Carbon and 4g of Oxygen. What is the empirical formula?",
+    "options": {
+      "a": "CO",
+      "b": "CO2",
+      "c": "C2O",
+      "d": "C2O3"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "If 6 g of carbon reacts with 16 g of oxygen to form carbon dioxide, how much carbon dioxide will be formed if 12 g of carbon reacts with 32g of oxygen?",
+    "options": {
+      "a": "22g",
+      "b": "33g",
+      "c": "44g",
+      "d": "55g"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which law explains why burning magnesium ribbon in air results in an increase in mass?",
+    "options": {
+      "a": "Law of Definite Proportions",
+      "b": "Law of Conservation of Energy",
+      "c": "Law of Conservation of Mass",
+      "d": "Law of Multiple Proportions"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The formula of Calcium Phosphate is Ca\u2083(PO\u2084)\u2082. What is the valency of Phosphate?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is the symbol for Sodium \"Na\" instead of \"S\" or \"So\"?",
+    "options": {
+      "a": "It follows Dalton's symbols.",
+      "b": "It is derived from its Latin name, Natrium.",
+      "c": "\"S\" is for Sulfur.",
+      "d": "\"So\" is for an oxide."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following compounds demonstrates the law of constant proportions?",
+    "options": {
+      "a": "H\u2082O and H\u2082O\u2082",
+      "b": "CO and CO\u2082",
+      "c": "NaCl from different sources",
+      "d": "Different isotopes of Carbon"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The formula of a compound is X\u2082Y\u2083. If X is a metal, Y is likely:",
+    "options": {
+      "a": "A metal",
+      "b": "A non-metal",
+      "c": "A noble gas",
+      "d": "An isotope of X"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it important to use the IUPAC name for a compound?",
+    "options": {
+      "a": "To make it easier to pronounce.",
+      "b": "To have a universally recognized name.",
+      "c": "To honor the discoverer.",
+      "d": "To make it sound scientific."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A compound has the formula XY\u2082. If X has a charge of +2, what is the likely charge on Y?",
+    "options": {
+      "a": "+1",
+      "b": "-1",
+      "c": "+2",
+      "d": "-2"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why do chemists use chemical formulas instead of common names?",
+    "options": {
+      "a": "Common names vary by region.",
+      "b": "Formulas provide composition information.",
+      "c": "Formulas are internationally understood.",
+      "d": "All of the above."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "How does the concept of 'atomicity' apply to Noble gases?",
+    "options": {
+      "a": "They are usually diatomic.",
+      "b": "They are usually polyatomic.",
+      "c": "They are usually monoatomic.",
+      "d": "They do not have a defined atomicity."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If a compound contains both a metal and a non-metal, what type of compound is it most likely to be?",
+    "options": {
+      "a": "An organic compound",
+      "b": "An ionic compound",
+      "c": "A covalent compound",
+      "d": "A noble gas compound"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If Dalton's atomic theory stated atoms were indivisible, how can we explain the existence of subatomic particles?",
+    "options": {
+      "a": "Dalton was wrong.",
+      "b": "Subatomic particles aren't part of atoms.",
+      "c": "Dalton's theory was a foundational model, later refined.",
+      "d": "Subatomic particles are indivisible."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Two compounds have the same percentage composition by mass but different molecular formulas. What can you conclude?",
+    "options": {
+      "a": "They are the same compound.",
+      "b": "They are isomers.",
+      "c": "One is an isotope of the other.",
+      "d": "They violate the law of definite proportions."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is the relative atomic mass of many elements not a whole number?",
+    "options": {
+      "a": "Errors in measurement.",
+      "b": "The existence of isotopes.",
+      "c": "The presence of impurities.",
+      "d": "Atoms are divisible."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If the law of conservation of mass always holds true, why does a log appear to lose mass when it burns?",
+    "options": {
+      "a": "The law is sometimes violated.",
+      "b": "Gaseous products are formed and escape.",
+      "c": "Mass is converted to energy.",
+      "d": "The ash weighs less."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A compound has the formula A\u2082B.  If the valency of A is +1, could B be a polyatomic ion? If so, what would be its charge?",
+    "options": {
+      "a": "No, B must be a single atom.",
+      "b": "Yes, B would have a charge of -1.",
+      "c": "Yes, B would have a charge of -2.",
+      "d": "No, polyatomic ions cannot form binary compounds."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is it crucial to balance charges in ionic compounds?",
+    "options": {
+      "a": "To make the compound colorful.",
+      "b": "To ensure electrical neutrality.",
+      "c": "To make the compound more reactive.",
+      "d": "To increase the compound's melting point."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How would our understanding of chemistry change if elements did *not* combine in fixed ratios?",
+    "options": {
+      "a": "It would be easier to predict reactions.",
+      "b": "Compounds would have variable properties.",
+      "c": "The concept of a molecule would be meaningless.",
+      "d": "Both B and C."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Why do we use the term \"formula unit mass\" for ionic compounds instead of \"molecular mass\"?",
+    "options": {
+      "a": "Ionic compounds do not form true molecules.",
+      "b": "Ionic compounds have higher masses.",
+      "c": "Formula unit mass is easier to calculate.",
+      "d": "Molecular mass is only for gases."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A student claims that two different samples of pure water might have slightly different ratios of hydrogen to oxygen. Is this possible?",
+    "options": {
+      "a": "Yes, due to experimental error.",
+      "b": "Yes, due to different isotopes of hydrogen and oxygen.",
+      "c": "No, it violates the law of definite proportions.",
+      "d": "Both A and B."
+    },
+    "answer": "d"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the SI unit of work?",
+    "options": {
+      "a": "Newton",
+      "b": "Watt",
+      "c": "Joule",
+      "d": "Pascal"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a form of mechanical energy?",
+    "options": {
+      "a": "Kinetic Energy",
+      "b": "Potential Energy",
+      "c": "Chemical Energy",
+      "d": "Gravitational Potential Energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "According to the scientific definition, work is NOT done if:",
+    "options": {
+      "a": "Force is applied, and the object moves.",
+      "b": "Force is applied, and the object does not move.",
+      "c": "Force is zero, but the object moves.",
+      "d": "Both B and C"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The energy possessed by a body due to its motion is called:",
+    "options": {
+      "a": "Potential energy",
+      "b": "Thermal energy",
+      "c": "Kinetic energy",
+      "d": "Chemical energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The law of conservation of energy states that:",
+    "options": {
+      "a": "Energy can be created but not destroyed.",
+      "b": "Energy can be destroyed but not created.",
+      "c": "Energy can be created and destroyed.",
+      "d": "Energy cannot be created or destroyed."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What is the unit of power?",
+    "options": {
+      "a": "Joule",
+      "b": "Newton",
+      "c": "Watt",
+      "d": "Erg"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is the biggest natural source of energy for us?",
+    "options": {
+      "a": "The Earth's core",
+      "b": "The Sun",
+      "c": "The Moon",
+      "d": "Wind"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If an object is raised to a certain height, it gains:",
+    "options": {
+      "a": "Kinetic Energy",
+      "b": "Chemical Energy",
+      "c": "Gravitational Potential Energy",
+      "d": "Electrical Energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Power is defined as:",
+    "options": {
+      "a": "The total energy consumed.",
+      "b": "The rate of doing work.",
+      "c": "The force applied over a distance.",
+      "d": "The product of force and displacement."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "1 kilowatt (kW) is equal to:",
+    "options": {
+      "a": "100 Watts",
+      "b": "10 Watts",
+      "c": "1000 Watts",
+      "d": "10000 Watts"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Work done is considered negative when the force and displacement are:",
+    "options": {
+      "a": "In the same direction.",
+      "b": "Perpendicular to each other.",
+      "c": "In opposite directions.",
+      "d": "At an acute angle to each other."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The ability to do work is defined as:",
+    "options": {
+      "a": "Power",
+      "b": "Force",
+      "c": "Energy",
+      "d": "Momentum"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If the displacement of an object is zero, the work done on the object is:",
+    "options": {
+      "a": "Positive.",
+      "b": "Negative.",
+      "c": "Zero.",
+      "d": "Cannot be determined."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is an example of potential energy being converted to kinetic energy?",
+    "options": {
+      "a": "A stretched rubber band.",
+      "b": "A compressed spring",
+      "c": "An arrow released from a bow.",
+      "d": "A car moving at constant speed."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "1 Joule is the amount of work done when a force of ____ displaces an object by _____.",
+    "options": {
+      "a": "1 N, 1 cm",
+      "b": "1 N, 1 m",
+      "c": "1 dyne, 1 cm",
+      "d": "1 N, 1 mm"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A force of 10 N displaces an object by 5 m. What is the work done?",
+    "options": {
+      "a": "2 J",
+      "b": "5 J",
+      "c": "50 J",
+      "d": "15 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A porter lifts a luggage of 20 kg from the ground and puts it on his head 2 m above the ground. Calculate the work done (g = 10 m/s\u00b2).",
+    "options": {
+      "a": "40 J",
+      "b": "400 J",
+      "c": "200 J",
+      "d": "100J"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An object of mass 5 kg is moving with a uniform velocity of 2 m/s. What is its kinetic energy?",
+    "options": {
+      "a": "10 J",
+      "b": "5 J",
+      "c": "20 J",
+      "d": "2.5 J"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A car's velocity increases from 10 m/s to 20 m/s. If the mass of the car is 1000 kg, what is the work done?",
+    "options": {
+      "a": "50,000 J",
+      "b": "100,000 J",
+      "c": "150,000 J",
+      "d": "200,000 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A body of mass 10 kg is at a height of 10 m above the ground. If g = 10 m/s\u00b2, calculate the potential Energy.",
+    "options": {
+      "a": "10J",
+      "b": "100J",
+      "c": "1000J",
+      "d": "0J"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Two persons A and B, do the same amount of work. A takes 10 seconds and B takes 20 seconds. What is the ratio of power of A to power of B?",
+    "options": {
+      "a": "1:1",
+      "b": "1:2",
+      "c": "2:1",
+      "d": "1:4"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "An electric bulb consumes 7200 J of electrical energy in 2 minutes. What is its power?",
+    "options": {
+      "a": "60 W",
+      "b": "120 W",
+      "c": "3600 W",
+      "d": "14400 W"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "An object of mass 2kg is thrown upwards with a velocity such that it's kinetic energy is 400J. Ignoring air resistance, what is its initial velocity?",
+    "options": {
+      "a": "10 m/s",
+      "b": "20 m/s",
+      "c": "40 m/s",
+      "d": "100 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A force of 15N acts on a body, and the body is displaced by 2m in a direction opposite to the force. Find the work done.",
+    "options": {
+      "a": "30 J",
+      "b": "-30 J",
+      "c": "7.5 J",
+      "d": "-7.5 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An object has a potential energy of 500 J and a mass of 10 kg. What is its height above the ground (g = 10 m/s\u00b2)?",
+    "options": {
+      "a": "0.5 m",
+      "b": "5 m",
+      "c": "50 m",
+      "d": "2.5m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If a 500W electric motor is used for 5 hours, how much energy does it consume in kilowatt-hours(kWh)?",
+    "options": {
+      "a": "0.5 Kwh",
+      "b": "1 Kwh",
+      "c": "2.5 Kwh",
+      "d": "2500 Kwh"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A force of 20 N acts on an object, and the object moves 5 m. If the work done is 50 J, what is the angle between the force and displacement?",
+    "options": {
+      "a": "0 degrees.",
+      "b": "30 degrees",
+      "c": "60 degrees.",
+      "d": "90 degrees."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A 1000 kg car is traveling at 36 km/h. What is its kinetic energy in Joules?",
+    "options": {
+      "a": "36000 J",
+      "b": "50000 J",
+      "c": "100000J",
+      "d": "129600 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A ball of mass 0.5 kg slows down from 5 m/s to 3 m/s. Calculate the change in its kinetic energy.",
+    "options": {
+      "a": "4 J",
+      "b": "-4 J",
+      "c": "8 J",
+      "d": "-8 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An electric heater has a power rating of 2000 W. How long does it take to consume 10,000 J of energy?",
+    "options": {
+      "a": "2 seconds",
+      "b": "5 seconds",
+      "c": "200 seconds",
+      "d": "500 seconds"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "When a person climbs stairs, the work done is primarily against:",
+    "options": {
+      "a": "Friction",
+      "b": "Air resistance",
+      "c": "Gravity",
+      "d": "Tension"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In a hydroelectric power plant, the primary energy conversion is from:",
+    "options": {
+      "a": "Kinetic energy to potential energy.",
+      "b": "Potential energy to kinetic energy.",
+      "c": "Chemical energy to electrical energy.",
+      "d": "Solar energy to electrical energy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "When you brake a bicycle, the kinetic energy is mostly converted into:",
+    "options": {
+      "a": "Sound Energy",
+      "b": "Heat Energy",
+      "c": "Potential Energy",
+      "d": "Chemical Energy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A stretched bow and arrow system primarily possesses:",
+    "options": {
+      "a": "Kinetic Energy",
+      "b": "Potential Energy",
+      "c": "Chemical Energy",
+      "d": "Heat Energy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "When a ball is thrown upwards, at the highest point, it has:",
+    "options": {
+      "a": "Maximum kinetic energy",
+      "b": "Maximum potential energy",
+      "c": "Equal kinetic and potential energy",
+      "d": "Zero kinetic and potential energy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following actions does NOT involve the conversion of chemical energy into mechanical energy?",
+    "options": {
+      "a": "A person walking",
+      "b": "A gasoline engine running",
+      "c": "A battery powering a light bulb",
+      "d": "A steam engine moving a train"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A wind-up toy car stores energy in the form of:",
+    "options": {
+      "a": "Kinetic Energy",
+      "b": "Gravitational Potential Energy",
+      "c": "Elastic Potential Energy",
+      "d": "Chemical Energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "When a book falls off a table, which of the following is true?",
+    "options": {
+      "a": "Potential energy increases.",
+      "b": "Kinetic energy decreases.",
+      "c": "Potential energy is converted to kinetic energy.",
+      "d": "Kinetic energy is converted to potential energy."
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is an example of work being done?",
+    "options": {
+      "a": "A person standing still holding a heavy box.",
+      "b": "A person pushing against a wall that doesn't move.",
+      "c": "A person carrying a box horizontally across a room.",
+      "d": "A person lifting a box vertically."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "When a person is running, the chemical energy of food is primarily converted into:",
+    "options": {
+      "a": "Potential Energy",
+      "b": "Kinetic Energy",
+      "c": "Sound Energy",
+      "d": "Light Energy"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "If both the force and displacement are doubled, how does the work done change?",
+    "options": {
+      "a": "Remains the same",
+      "b": "Doubles",
+      "c": "Quadruples",
+      "d": "Halves"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If an object is moving at a constant velocity on a frictionless horizontal surface, the net work done on the object is:",
+    "options": {
+      "a": "Positive",
+      "b": "Negative",
+      "c": "Zero",
+      "d": "Cannot be determined"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If the speed of an object is doubled, its kinetic energy becomes:",
+    "options": {
+      "a": "Double",
+      "b": "Half",
+      "c": "Four times",
+      "d": "Remains the same"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Two objects have the same kinetic energy. Object A has twice the mass of Object B. Which object is moving faster?",
+    "options": {
+      "a": "Object A",
+      "b": "Object B",
+      "c": "They have the same speed",
+      "d": "Cannot be determined"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A machine can do work faster than another machine. This implies that the first machine has:",
+    "options": {
+      "a": "Higher Energy",
+      "b": "Lower Energy",
+      "c": "Higher Power",
+      "d": "Lower Power"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If an object is thrown vertically upwards, and air resistance is NOT negligible, the work done by air resistance during the upward motion is:",
+    "options": {
+      "a": "Positive",
+      "b": "Negative",
+      "c": "Zero",
+      "d": "Cannot be determined"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Two objects, one heavy and one light, are dropped from the same height. Neglecting air resistance, which one reaches the ground with greater kinetic energy?",
+    "options": {
+      "a": "The heavier object.",
+      "b": "The lighter object.",
+      "c": "Both have the same kinetic energy.",
+      "d": "Cannot be determined."
+    },
+    "answer": "a"
+  },
+  {
+    "question": "If the angle between the force and displacement is 90 degrees, the work done is:",
+    "options": {
+      "a": "Maximum",
+      "b": "Minimum (but not zero)",
+      "c": "Zero",
+      "d": "Negative"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Can potential energy ever be negative?",
+    "options": {
+      "a": "No, it is always positive.",
+      "b": "Yes, relative to a chosen reference point.",
+      "c": "No, it is always zero.",
+      "d": "Only if the object is moving downwards."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A pendulum swings back and forth. At what point(s) in its swing is its kinetic energy equal to its potential energy?",
+    "options": {
+      "a": "At the highest points only.",
+      "b": "At the lowest point only.",
+      "c": "At the midpoints between the highest and lowest points.",
+      "d": "At all points."
+    },
+    "answer": "c"
+  }
+]

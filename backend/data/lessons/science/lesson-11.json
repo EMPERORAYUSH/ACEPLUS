@@ -1,0 +1,482 @@
+[
+  {
+    "question": "Sound is a form of:",
+    "options": {
+      "a": "Light",
+      "b": "Energy",
+      "c": "Heat",
+      "d": "Magnetism"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is essential for sound to travel?",
+    "options": {
+      "a": "Vacuum",
+      "b": "Medium",
+      "c": "Light",
+      "d": "Darkness"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The SI unit of frequency is:",
+    "options": {
+      "a": "Meter",
+      "b": "Second",
+      "c": "Hertz",
+      "d": "Newton"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Sound waves are classified as:",
+    "options": {
+      "a": "Transverse waves",
+      "b": "Electromagnetic waves",
+      "c": "Longitudinal waves",
+      "d": "Light waves"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The speed of sound is generally highest in:",
+    "options": {
+      "a": "Gases",
+      "b": "Liquids",
+      "c": "Solids",
+      "d": "Vacuum"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The number of oscillations per unit time is called:",
+    "options": {
+      "a": "Amplitude",
+      "b": "Wavelength",
+      "c": "Frequency",
+      "d": "Time period"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The region of high pressure in a sound wave is called:",
+    "options": {
+      "a": "Rarefaction",
+      "b": "Trough",
+      "c": "Compression",
+      "d": "Crest"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "The Greek letter lambda (\u03bb) represents:",
+    "options": {
+      "a": "Frequency",
+      "b": "Amplitude",
+      "c": "Wavelength",
+      "d": "Speed"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A sound of single frequency is called a:",
+    "options": {
+      "a": "Note",
+      "b": "Tone",
+      "c": "Noise",
+      "d": "Music"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The audible range of hearing for average humans is:",
+    "options": {
+      "a": "2 Hz - 200 Hz",
+      "b": "20 Hz - 20,000 Hz",
+      "c": "200 Hz - 2,000 Hz",
+      "d": "2,000 Hz - 200,000Hz"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Frequencies higher than 20 kHz are called:",
+    "options": {
+      "a": "Infrasonic",
+      "b": "Audible",
+      "c": "Ultrasonic",
+      "d": "Subsonic"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which instrument uses multiple reflections of sound to amplify the heartbeat?",
+    "options": {
+      "a": "Megaphone",
+      "b": "Stethoscope",
+      "c": "Soundboard",
+      "d": "Tuning fork"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Reverberation is a phenomenon related to:",
+    "options": {
+      "a": "Single reflection of sound",
+      "b": "Multiple reflections of sound",
+      "c": "Refraction of sound",
+      "d": "Interference of sound"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The speed of sound in air at 0\u00b0C is approximately:",
+    "options": {
+      "a": "344 m/s",
+      "b": "331 m/s",
+      "c": "300 m/s",
+      "d": "1500 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A sound wave has a frequency of 500 Hz and a wavelength of 0.68 m. What is its speed?",
+    "options": {
+      "a": "340 m/s",
+      "b": "680 m/s",
+      "c": "735 m/s",
+      "d": "1470 m/s"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "If the time period of a sound wave is 0.02 seconds, what is its frequency?",
+    "options": {
+      "a": "20 Hz",
+      "b": "50 Hz",
+      "c": "100 Hz",
+      "d": "200 Hz"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A sound wave travels at 340 m/s. If its wavelength is 1.7 meters, what is its frequency?",
+    "options": {
+      "a": "100 Hz",
+      "b": "200 Hz",
+      "c": "340 Hz",
+      "d": "578 Hz"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An echo is heard after 3 seconds. If the speed of sound is 340 m/s, what is the distance to the reflecting surface?",
+    "options": {
+      "a": "170 m",
+      "b": "340 m",
+      "c": "510 m",
+      "d": "1020 m"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A tuning fork produces a sound wave with a speed of 330 m/s and a frequency of 440 Hz. Calculate the wavelength.",
+    "options": {
+      "a": "0.5 m",
+      "b": "0.75 m",
+      "c": "1.0 m",
+      "d": "1.5 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A sound wave has a frequency of 1 kHz and a speed of 340 m/s. What is its wavelength?",
+    "options": {
+      "a": "0.17 m",
+      "b": "0.34 m",
+      "c": "0.68 m",
+      "d": "3.4 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The time interval between a sound and its echo is 1 second. If the speed of sound is 344 m/s, what is the distance to the reflecting surface?",
+    "options": {
+      "a": "86 m",
+      "b": "172 m",
+      "c": "344 m",
+      "d": "688 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A bat emits an ultrasonic wave with a frequency of 30 kHz. If the speed of sound is 340 m/s, what is the wavelength of this wave?",
+    "options": {
+      "a": "0.0113 m",
+      "b": "0.113 m",
+      "c": "1.13 m",
+      "d": "11.3 m"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A person claps their hands near a cliff and hears the echo after 4 seconds. The speed of sound is 340 m/s. What is the distance to the cliff?",
+    "options": {
+      "a": "340 m",
+      "b": "680 m",
+      "c": "1020 m",
+      "d": "1360 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A sound wave travels a distance of 1000 m in 2 seconds. What is the speed of the sound wave?",
+    "options": {
+      "a": "200 m/s",
+      "b": "500 m/s",
+      "c": "1000 m/s",
+      "d": "2000 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A sound wave has a wavelength of 2 meters and a frequency of 170 Hz. What is its speed?",
+    "options": {
+      "a": "85 m/s",
+      "b": "170 m/s",
+      "c": "340 m/s",
+      "d": "680 m/s"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If the speed of sound is 340 m/s and the frequency is 250 Hz, what is the wavelength?",
+    "options": {
+      "a": "0.735 m",
+      "b": "1.36 m",
+      "c": "2.72 m",
+      "d": "590 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A sound wave travels at 350 m/s. If its frequency is 500 Hz, find its wavelength.",
+    "options": {
+      "a": "0.35 m",
+      "b": "0.7 m",
+      "c": "1.4 m",
+      "d": "175 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A sound wave in a steel rod has a frequency of 5 kHz and a speed of 5000 m/s. Calculate its wavelength.",
+    "options": {
+      "a": "0.1 m",
+      "b": "1 m",
+      "c": "10 m",
+      "d": "100 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "An echo is heard after 0.8 seconds. Given that the speed of sound is 340 m/s, calculate the distance of the reflecting surface.",
+    "options": {
+      "a": "136 m",
+      "b": "272 m",
+      "c": "425 m",
+      "d": "544 m"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an application of ultrasound?",
+    "options": {
+      "a": "Measuring the speed of light",
+      "b": "Detecting cracks in metal blocks",
+      "c": "Generating electricity",
+      "d": "Creating a vacuum"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why are the ceilings of concert halls generally curved?",
+    "options": {
+      "a": "To make them look beautiful",
+      "b": "To reflect sound to all corners",
+      "c": "To absorb sound completely",
+      "d": "To make the hall stronger"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Megaphones are based on the principle of:",
+    "options": {
+      "a": "Refraction of sound",
+      "b": "Diffraction of sound",
+      "c": "Multiple reflection of sound",
+      "d": "Interference of sound"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why do we use sound-absorbing materials in auditoriums?",
+    "options": {
+      "a": "To increase reverberation",
+      "b": "To reduce reverberation",
+      "c": "To make the sound louder",
+      "d": "To create echoes"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Stethoscopes work on the principle of:",
+    "options": {
+      "a": "Single reflection",
+      "b": "Multiple reflections",
+      "c": "Refraction",
+      "d": "Diffraction"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which phenomenon explains why we hear thunder after seeing lightning?",
+    "options": {
+      "a": "Reflection of sound",
+      "b": "Refraction of sound",
+      "c": "Difference in speeds of light and sound",
+      "d": "Interference of sound"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the purpose of a soundboard in a large hall?",
+    "options": {
+      "a": "To absorb sound",
+      "b": "To reflect sound and distribute it evenly",
+      "c": "To create echoes",
+      "d": "To reduce the speed of sound"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Echolocation used by bats is based on:",
+    "options": {
+      "a": "Infrasonic sound",
+      "b": "Ultrasonic sound",
+      "c": "Audible sound",
+      "d": "Light waves"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why is it difficult to hear an echo in a small room?",
+    "options": {
+      "a": "The speed of sound is too slow.",
+      "b": "The distance to the reflecting surface is too short.",
+      "c": "The sound is absorbed too quickly.",
+      "d": "The frequency of sound is too low."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following uses ultrasound for imaging internal organs?",
+    "options": {
+      "a": "Stethoscope",
+      "b": "Megaphone",
+      "c": "Ultrasound scanner",
+      "d": "Tuning fork"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If you shout in a canyon and hear the echo, how does the speed of sound affect the time it takes to hear the echo?",
+    "options": {
+      "a": "Higher speed, longer time",
+      "b": "Lower speed, shorter time",
+      "c": "Higher speed, shorter time",
+      "d": "Speed has no effect on echo time"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Two sounds have the same pitch but different loudness. What can you say about their amplitudes?",
+    "options": {
+      "a": "Same amplitudes",
+      "b": "Different amplitudes",
+      "c": "Amplitudes are unrelated to loudness",
+      "d": "The louder sound has a lower amplitude"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Two sound waves have different frequencies.  Which of the following is also likely to be different?",
+    "options": {
+      "a": "Amplitude",
+      "b": "Speed (in the same medium)",
+      "c": "Pitch",
+      "d": "Medium"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Why is the speed of sound different in different mediums?",
+    "options": {
+      "a": "Because of different frequencies",
+      "b": "Because of different amplitudes",
+      "c": "Because of the different properties of the mediums",
+      "d": "Because of the source of sound"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If you increase the amplitude of a sound wave, what happens to its loudness?",
+    "options": {
+      "a": "Loudness decreases",
+      "b": "Loudness increases",
+      "c": "Loudness stays the same",
+      "d": "Loudness becomes zero"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why does sound travel faster in solids than in gases?",
+    "options": {
+      "a": "Solids have lower density.",
+      "b": "Solids have higher elasticity.",
+      "c": "Gases have higher elasticity.",
+      "d": "Solids have lower temperature."
+    },
+    "answer": "b"
+  },
+  {
+    "question": "How does temperature affect the speed of sound in air?",
+    "options": {
+      "a": "Higher temperature, lower speed",
+      "b": "Lower temperature, higher speed",
+      "c": "Higher temperature, higher speed",
+      "d": "Temperature has no effect"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If you double the frequency of a sound wave, what happens to its wavelength (assuming the speed remains constant)?",
+    "options": {
+      "a": "Doubles",
+      "b": "Halves",
+      "c": "Remains the same",
+      "d": "Quadruples"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Why can't sound travel through a vacuum?",
+    "options": {
+      "a": "Vacuum has no temperature",
+      "b": "Vacuum has no particles to vibrate",
+      "c": "Vacuum has too much pressure",
+      "d": "Vacuum absorbs all sound"
+    },
+    "answer": "b"
+  }
+]
