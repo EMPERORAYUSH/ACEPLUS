@@ -1,4 +1,5 @@
 try:
+    import logging
     import copy
     import json
     import os
@@ -61,6 +62,9 @@ except ImportError as e:
 load_dotenv()
 
 # Setup
+logging.basicConfig(level=logging.DEBUG)
+logging_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logging.log")
+logging.basicConfig(filename=logging_file, level=logging.DEBUG)
 current_dir = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(current_dir, "data")
 base_path = os.path.join(data_path, "lessons")
@@ -473,6 +477,24 @@ def submit_exam(exam_id):
     else:
         return jsonify({"message": "Failed to submit exam"}), 500
 
+@app.route("/api/generate_hint", methods=["POST"])
+@jwt_required()
+def generate_hint_route():
+    """Generate a hint for a given question without revealing the answer."""
+    data = request.get_json()
+    question_text = data.get("question")
+    
+    if not question_text:
+        return jsonify({"message": "Question text is required"}), 400
+        
+    try:
+        hint = generate.generate_hint(question_text)
+        return jsonify({
+            "hint": hint
+        }), 200
+    except Exception as e:
+        print(f"Error generating hint: {e}")
+        return jsonify({"message": f"Error generating hint: {str(e)}"}), 500
 
 @app.route("/api/exam/<exam_id>", methods=["GET"])
 @jwt_required()

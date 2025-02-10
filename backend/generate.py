@@ -2,6 +2,7 @@ import random
 import json
 from openai import OpenAI
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv
 import ast
@@ -20,9 +21,12 @@ from utils.prompts import (
     PERFORMANCE_ANALYSIS_PROMPT,
     IMAGE_ANALYSIS_PROMPT,
     
+HINT_GENERATION_PROMPT,
 )
 from utils.validate_env import validate_env_config
+import logging
 
+logging.basicConfig(level=logging.DEBUG)
 # Load environment variables
 load_dotenv()
 
@@ -145,6 +149,37 @@ except ValueError as e:
 
 # Add at the top of the file with other global variables
 user_question_history = {}  # Stores used question IDs per user
+
+def generate_hint(question_text: str) -> str:
+    """
+    Generate a helpful hint for a given question without revealing the answer.
+    Uses the same provider selection and model configuration as the solution generator.
+    """
+    try:
+        # Get a random provider from available providers
+        provider = random.choice(valid_providers)
+        client_key, client = get_random_provider_client(provider)
+        logging.debug(f"Using client for hints: {client_key}")
+        
+        # Format the hint prompt
+        prompt = HINT_GENERATION_PROMPT.format(question=question_text)
+        
+        # Extract the base provider name by removing any trailing digits
+        model_key = re.sub(r'\d+$', '', client_key)
+        # Use the same model selection logic as generate_solution
+        model = random.choice(MODEL_CONFIGS[model_key])
+        
+        # Generate the hint
+        completion = client.chat.completions.create(
+            messages=[{"role": "user", "content": prompt}],
+            model=model,
+            temperature=0.7,
+            max_tokens=512
+        )
+        return completion.choices[0].message.content
+    except Exception as e:
+        print(str(e))
+        return f"Unable to generate hint: {str(e)}"
 
 def get_random_client():
     """Get a random client from the available clients."""

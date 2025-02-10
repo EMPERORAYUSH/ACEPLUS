@@ -40,3 +40,4 @@ uploads
 test.py
 .aider*
 __pycache__
+*.log
