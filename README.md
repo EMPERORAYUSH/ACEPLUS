@@ -163,7 +163,7 @@ AcePlus uses environment variables to manage configuration. Here's how to set th
         # Example for Cerebras:
         CEREBRAS_API_KEY=your_cerebras_api_key
         CEREBRAS_BASE_URL=https://api.cerebras.ai/v1
-        CEREBRAS_MODELS=["llama-3.1-70b", "llama-3.3-70b"]
+        CEREBRAS_MODELS=["llama-3.3-70b"]
 
         # Example for Gemini:
         GEMINI_API_KEY=your_gemini_api_key
