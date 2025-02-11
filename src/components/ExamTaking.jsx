@@ -9,6 +9,12 @@ import CopyableExamId from './CopyableExamId';
 import { api } from '../utils/api';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
+import { IoClose } from 'react-icons/io5';
+import MobilePopup from './MobilePopup';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const ExamWrapper = styled.div`
   min-height: 100vh;
@@ -38,7 +44,7 @@ const ReportButton = styled(motion.button)`
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -51,10 +57,34 @@ const ReportButton = styled(motion.button)`
   }
 `;
 
+const CloseButton = styled(motion.button)`
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd700;
+  z-index: 1001;
+  
+  &:hover {
+    color: #fff;
+  }
+  
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+`;
+
 const HintContainer = styled(motion.div)`
   margin-top: 1rem;
-  padding: 1rem;
-  border-radius: 8px;
+  padding: 1.5rem;
+  border-radius: 12px;
   background: rgba(255, 215, 0, 0.1);
   border: 1px solid rgba(255, 215, 0, 0.2);
   color: #ffd700;
@@ -63,6 +93,208 @@ const HintContainer = styled(motion.div)`
   
   .katex {
     color: #ffd700;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const HintContent = styled.div`
+  color: #ffd700;
+  
+  .hint-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: #ffd700;
+    font-weight: 600;
+  }
+
+  .hint-content {
+    color: #ffd700;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #fff;
+      margin: 1.5rem 0 1rem;
+      font-weight: 600;
+      line-height: 1.3;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.3rem; }
+    h3 { 
+      font-size: 1.2rem;
+      color: #ffd700;
+    }
+    h4 { font-size: 1.1rem; }
+    h5, h6 { font-size: 1rem; }
+
+    p {
+      margin: 0.8rem 0;
+      
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    ul, ol {
+      margin: 0.8rem 0;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin: 0.3rem 0;
+      
+      p {
+        margin: 0.4rem 0;
+      }
+    }
+
+    code {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: 'Fira Code', monospace;
+      font-size: 0.9em;
+    }
+
+    pre {
+      background: rgba(18, 18, 18, 0.8);
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1rem 0;
+      border: 1px solid rgba(255, 215, 0, 0.2);
+
+      code {
+        background: none;
+        padding: 0;
+        color: #fff;
+      }
+    }
+
+    blockquote {
+      border-left: 4px solid #ffd700;
+      margin: 1rem 0;
+      padding: 0.5rem 0 0.5rem 1rem;
+      font-style: italic;
+      background: rgba(255, 215, 0, 0.05);
+      border-radius: 0 4px 4px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.9em;
+    }
+
+    th, td {
+      border: 1px solid rgba(255, 215, 0, 0.2);
+      padding: 0.5rem;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(255, 215, 0, 0.1);
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid rgba(255, 215, 0, 0.2);
+      margin: 1.5rem 0;
+    }
+
+    a {
+      color: #ffd700;
+      text-decoration: none;
+      border-bottom: 1px dashed #ffd700;
+      transition: all 0.2s ease;
+
+      &:hover {
+        border-bottom-style: solid;
+        color: #fff;
+      }
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+
+    .katex {
+      font-size: 1.1em;
+      color: #ffd700;
+    }
+
+    .katex-display {
+      margin: 1rem 0;
+      padding: 0.5rem;
+      background: rgba(255, 215, 0, 0.05);
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+  }
+`;
+
+const MobileHintPopup = styled(motion.div)`
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(18, 18, 18, 0.95);
+  backdrop-filter: blur(10px);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  border-top: 1px solid rgba(255, 215, 0, 0.2);
+  max-height: 70vh;
+  overflow-y: auto;
+  
+  .hint-content {
+    color: #ffd700;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+
+  .hint-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: #ffd700;
+    font-weight: 600;
+  }
+
+  .drag-handle {
+    width: 40px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    margin: -0.5rem auto 1rem;
+  }
+
+  @media (min-width: 769px) {
+    display: none;
   }
 `;
 
@@ -699,6 +931,9 @@ const ExamTaking = () => {
   const [hints, setHints] = useState({});
   const [loadingHints, setLoadingHints] = useState({});
   const [visibleHints, setVisibleHints] = useState({});
+  const [currentHint, setCurrentHint] = useState(null);
+  const [showMobileHint, setShowMobileHint] = useState(false);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
   useEffect(() => {
     const fetchExamData = async () => {
@@ -741,12 +976,10 @@ const ExamTaking = () => {
   };
 
   const handleHintRequest = async (questionId, questionText) => {
-    if (hints[questionId] || loadingHints[questionId]) {
-      return;
-    }
-    
+    if (loadingHints[questionId]) return;
+
     setLoadingHints(prev => ({ ...prev, [questionId]: true }));
-    
+
     try {
       const response = await api.generateHint(questionText);
       if (response.hint) {
@@ -759,6 +992,7 @@ const ExamTaking = () => {
           ...prev,
           [questionId]: true
         }));
+        setCurrentHint({ id: questionId, text: response.hint });
       }
     } catch (error) {
       console.error('Error getting hint:', error);
@@ -829,10 +1063,20 @@ const ExamTaking = () => {
   };
 
   const toggleHint = (questionId) => {
-    setVisibleHints(prev => ({
-      ...prev,
-      [questionId]: !prev[questionId]
-    }));
+    setVisibleHints(prev => {
+      const newState = {
+        ...prev,
+        [questionId]: !prev[questionId]
+      };
+      
+      if (newState[questionId]) {
+        setCurrentHint({ id: questionId, text: hints[questionId] });
+      } else {
+        setCurrentHint(null);
+      }
+      
+      return newState;
+    });
   };
 
   if (isLoading) {
@@ -1119,7 +1363,12 @@ const ExamTaking = () => {
                       exit={{ opacity: 0, height: 0 }}
                       transition={{ duration: 0.3 }}
                     >
-                      {renderLatexText(hints[question.uniqueId])}
+                      <ReactMarkdown
+                        remarkPlugins={[remarkGfm, remarkMath]}
+                        rehypePlugins={[rehypeKatex]}
+                      >
+                        {hints[question.uniqueId]}
+                      </ReactMarkdown>
                     </HintContainer>
                   )}
                 </AnimatePresence>
@@ -1186,7 +1435,7 @@ const ExamTaking = () => {
                       "M25,15 C29,15 33,17 33,21 C31,24 29,25 25,25 C21,25 19,24 17,21 C17,17 21,15 25,15",
                       "M25,15 C28,15 31,17 31,20 C31,23 28,25 25,25 C22,25 19,23 19,20 C19,17 22,15 25,15"
                     ],
-                    opacity: [0.7, 0.9, 0.7]
+                    opacity: [0.7, 1, 0.7]
                   }}
                   transition={{
                     duration: 2,
@@ -1268,6 +1517,28 @@ const ExamTaking = () => {
           )}
         </motion.button>
       </ExamContainer>
+      <MobilePopup
+        isOpen={currentHint !== null}
+        onClose={() => {
+          if (currentHint) {
+            toggleHint(currentHint.id);
+          }
+        }}
+        title="Hint"
+      >
+        <HintContent>
+          <div className="hint-content">
+            {currentHint && (
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm, remarkMath]}
+                rehypePlugins={[rehypeKatex]}
+              >
+                {currentHint.text}
+              </ReactMarkdown>
+            )}
+          </div>
+        </HintContent>
+      </MobilePopup>
     </ExamWrapper>
   );
 };
