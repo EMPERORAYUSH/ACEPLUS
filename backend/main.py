@@ -103,27 +103,7 @@ class10_student_info = json.loads(
     open(os.path.join(data_path, "class10_students.json")).read()
 )
 
-# Add this near the top with other global variables
-UPDATE_LOGS = [
-    {
-        "version": "1.8.3",
-        "date": "2024-11-19",
-        "changes": [
-            {
-                "title": "Added Performance Overview",
-                "description": "Students will be able to see a performance overview of the exam. AI model will analyse and suggest topics to re-read and steps to practise. This provides a good assistance on what students should study next",
-            },
-            {
-                "title": "Questions repeat less",
-                "description": "If you want to practise a lesson more, repeated questions across exams won't haunt you!",
-            },
-            {
-                "title": "Randomised options",
-                "description": "Questions would now have varied options for correct answers, which previously revolved around B & C. Assertion and resoning questions are not affected by this change.",
-            },
-        ],
-    }
-]
+UPDATE_LOGS = json.loads(open(os.path.join(data_path, "Update.json")).read())
 
 @app.route("/api/login", methods=["POST"])
 def login():
