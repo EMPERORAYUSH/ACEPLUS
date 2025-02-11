@@ -4,11 +4,9 @@ import os
 def load_json_file(filename, data_path="data"):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     full_path = os.path.normpath(os.path.join(script_dir, "..", data_path, filename))
-    print(f"Attempting to load file: {full_path}")
     try:
         with open(full_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        print(f"Successfully loaded {filename}")
         return data
     except Exception as e:
         print(f"Error loading {filename}: {e}")
@@ -27,10 +25,8 @@ def calculate_lesson_analytics(questions, selected_answers):
         dict: Lesson-wise analytics with scores and details
     """
     lesson_analytics = {}
-    print(f"Processing {len(questions)} questions")
 
     for i, (question, selected_answer) in enumerate(zip(questions, selected_answers)):
-        print(f"Processing question {i+1}")
         if "l-id" in question:
             lesson_id = question["l-id"].split("Q")[0]
         elif "lesson" in question:
@@ -55,7 +51,6 @@ def calculate_lesson_analytics(questions, selected_answers):
         lesson["percentage"] = (
             lesson["questions_correct"] / lesson["questions_total"]
         ) * 100
-        print(f"Lesson {lesson_id}: {lesson['questions_correct']}/{lesson['questions_total']} correct, {lesson['percentage']:.2f}%")
 
     return lesson_analytics
 
@@ -63,17 +58,14 @@ def decode_unicode(obj):
     if isinstance(obj, str):
         try:
             decoded = json.loads(f'"{obj}"')
-            print(f"Decoded string: {obj} -> {decoded}")
             return decoded
         except json.JSONDecodeError:
             print(f"Failed to decode string: {obj}")
             return obj
     elif isinstance(obj, dict):
-        print(f"Decoding dictionary with {len(obj)} items")
         return {
             decode_unicode(key): decode_unicode(value) for key, value in obj.items()
         }
     elif isinstance(obj, list):
-        print(f"Decoding list with {len(obj)} items")
         return [decode_unicode(element) for element in obj]
     return obj
