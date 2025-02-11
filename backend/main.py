@@ -62,7 +62,6 @@ except ImportError as e:
 load_dotenv()
 
 # Setup
-logging.basicConfig(level=logging.DEBUG)
 logging_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logging.log")
 logging.basicConfig(filename=logging_file, level=logging.DEBUG)
 current_dir = os.path.dirname(os.path.abspath(__file__))
