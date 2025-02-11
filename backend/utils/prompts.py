@@ -85,7 +85,9 @@ HINT_GENERATION_PROMPT = """As an expert tutor, provide a helpful hint for this 
 
     Keep the hint concise, encouraging, and focused on guiding rather than solving.
     Use LaTeX notation for all mathematical and scientific expressions.
-    Format in Markdown with proper spacing."""
+    Format in Markdown with proper spacing.
+    Start directly instead of writing "Hint: " or "### HINT" in beginning of your response.
+    """
 
 IMAGE_ANALYSIS_PROMPT = """Analyze these images containing MCQ questions. Output your response in XML format with the following structure:
 
