@@ -24,11 +24,25 @@ const PopupOverlay = styled(motion.div)`
 const PopupContent = styled(motion.div)`
   position: relative;
   width: 100%;
-  background: rgba(18, 18, 18, 0.95);
+  background: rgba(18 118, 188, 0.95);
   backdrop-filter: blur(10px);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 1.5rem;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  max-height: 90vh;
+  overflow-y: auto;
+  
+  .drag-handle {
+    width: 40px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    margin: -0.5rem auto 1rem;
+  }
+
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
   z-index: 9999;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -48,7 +62,7 @@ const PopupContent = styled(motion.div)`
     margin: 0 0 1rem;
     font-size: 1.25rem;
     font-weight: 600;
-    color: #fff;
+    color: ${props => props.$isSolution ? '#f44336' : '#fff'};
     padding: 0 2rem; /* Make space for close button */
   }
 `;
@@ -77,7 +91,7 @@ const CloseButton = styled(motion.button)`
   }
 `;
 
-const MobilePopup = ({ isOpen, onClose, children, title }) => {
+const MobilePopup = ({ isOpen, onClose, children, title, isSolution }) => {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -90,6 +104,7 @@ const MobilePopup = ({ isOpen, onClose, children, title }) => {
           <PopupContent
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
+            $isSolution={isSolution}
             exit={{ y: "100%" }}
             transition={{
               type: "spring",
