@@ -15,7 +15,6 @@ const PopupOverlay = styled(motion.div)`
   display: flex;
   align-items: flex-end;
   justify-content: center;
-
   @media (min-width: 769px) {
     display: none;
   }
@@ -24,8 +23,11 @@ const PopupOverlay = styled(motion.div)`
 const PopupContent = styled(motion.div)`
   position: relative;
   width: 100%;
-  background: rgba(18 118, 188, 0.95);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 1.5rem;
@@ -42,27 +44,12 @@ const PopupContent = styled(motion.div)`
     border-radius: 2px;
     margin: -0.5rem auto 1rem;
   }
-
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
-  z-index: 9999;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  max-height: 90vh;
-  overflow-y: auto;
-  
-  .drag-handle {
-    width: 40px;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 2px;
-    margin: -0.5rem auto 1rem;
-  }
-
   .popup-title {
     text-align: center;
     margin: 0 0 1rem;
     font-size: 1.25rem;
     font-weight: 600;
-    color: ${props => props.$isSolution ? '#f44336' : '#fff'};
+    color: #fff;
     padding: 0 2rem; /* Make space for close button */
   }
 `;
@@ -91,7 +78,7 @@ const CloseButton = styled(motion.button)`
   }
 `;
 
-const MobilePopup = ({ isOpen, onClose, children, title, isSolution }) => {
+const MobilePopup = ({ isOpen, onClose, children, title }) => {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -104,7 +91,6 @@ const MobilePopup = ({ isOpen, onClose, children, title, isSolution }) => {
           <PopupContent
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
-            $isSolution={isSolution}
             exit={{ y: "100%" }}
             transition={{
               type: "spring",
