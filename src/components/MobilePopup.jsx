@@ -36,6 +36,7 @@ const PopupContent = styled(motion.div)`
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   max-height: 90vh;
   overflow-y: auto;
+  color: #ffffff;
   
   .drag-handle {
     width: 40px;
@@ -51,6 +52,10 @@ const PopupContent = styled(motion.div)`
     font-weight: 600;
     color: #fff;
     padding: 0 2rem; /* Make space for close button */
+  }
+
+  .solution-text {
+    color: #f44336;
   }
 `;
 

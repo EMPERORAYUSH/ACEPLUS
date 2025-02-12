@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
-import { FaChartLine, FaLightbulb, FaExclamationTriangle, FaCheckCircle } from 'react-icons/fa';
+import { FaChartLine, FaLightbulb, FaExclamationTriangle, FaCheckCircle, FaEye, FaEyeSlash } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import CopyableExamId from './CopyableExamId';
 import { api } from '../utils/api';
+import MobilePopup from './MobilePopup';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 
@@ -776,9 +777,9 @@ const ExamResultsContainer = styled.div`
   width: 100%;
 
   .question-result {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     background: rgba(255, 255, 255, 0.03);
-    padding: 2rem;
+    padding: 2rem 2rem 1.5rem;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     
@@ -791,12 +792,42 @@ const ExamResultsContainer = styled.div`
       letter-spacing: 0.2px;
     }
 
+    .solution-button {
+      background: transparent;
+      border: 1px solid #4a90e2;
+      color: #4a90e2;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+
+
+      &:hover {
+        background: rgba(74, 144, 226, 0.1);
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    .solution-text {
+      color: #f44336;
+    }
+
     .solution-card {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 8px;
       padding: 1.5rem;
       margin-top: 1.5rem;
+      overflow: hidden;
       border: 1px solid rgba(255, 255, 255, 0.08);
+      display: ${props => props.isVisible ? 'block' : 'none'};
 
       h4 {
         font-size: 1.2rem;
@@ -813,6 +844,11 @@ const ExamResultsContainer = styled.div`
         color: #ffffff;
         letter-spacing: 0.2px;
         font-weight: 400;
+        margin-bottom: 0;
+      }
+      
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }
@@ -1198,6 +1234,8 @@ const ExamResults = () => {
   const [results, setResults] = useState(null);
   const [examData, setExamData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [visibleSolutions, setVisibleSolutions] = useState({});
+  const [mobilePopupContent, setMobilePopupContent] = useState(null);
 
   useEffect(() => {
     const fetchResults = async () => {
@@ -1231,6 +1269,19 @@ const ExamResults = () => {
 
     fetchResults();
   }, [id, navigate, location.state]);
+
+  const toggleSolution = (questionNo) => {
+    setVisibleSolutions(prev => ({
+      ...prev,
+      [questionNo]: !prev[questionNo]
+    }));
+  };
+
+  const showMobileSolution = (solution) => {
+    setMobilePopupContent(solution);
+  };
+
+  const isMobile = window.innerWidth <= 768;
 
   if (isLoading) {
     return (
@@ -1371,15 +1422,53 @@ const ExamResults = () => {
                 })}
               </OptionsList>
 
-              {!result.is_correct && (
-                <div className="solution-card">
-                  <h4>Solution:</h4>
-                  <p>{renderLatexString(result.solution)}</p>
-                </div>
-              )}
+              {!result.is_correct && 
+                 (isMobile ? (
+                  <button 
+                    className="solution-button"
+                    onClick={() => showMobileSolution(result.solution)}
+                  >
+                    <FaEye /> View Solution
+                  </button>
+                ) : (
+                  <>
+                    <button 
+                      className="solution-button"
+                      onClick={() => toggleSolution(result['question-no'])}
+                    >
+                      {visibleSolutions[result['question-no']] ? <FaEyeSlash /> : <FaEye />}
+                      {visibleSolutions[result['question-no']] ? 'Hide Solution' : 'Show Solution'}
+                    </button>
+                    <motion.div
+                      className="solution-card"
+                      initial={false}
+                      animate={{
+                        height: visibleSolutions[result['question-no']] ? 'auto' : '0',
+                       opacity: visibleSolutions[result['question-no']] ? 1 : 0,
+                        marginTop: visibleSolutions[result['question-no']] ? '1.5rem' : '0',
+                        display: visibleSolutions[result['question-no']] ? 'block' : 'none',
+                      }}
+                      transition={{
+                        duration: 0.3,
+                        ease: "easeInOut"
+                      }}
+                    >
+                        <h4>Solution:</h4>
+                        <p className="solution-text">{renderLatexString(result.solution)}</p>
+                    </motion.div>
+                  </>
+                ))
+              }
             </div>
           );
         })}
+        <MobilePopup 
+          isOpen={!!mobilePopupContent}
+          onClose={() => setMobilePopupContent(null)}
+          title="Solution"
+        >
+          <p className="solution-text">{renderLatexString(mobilePopupContent)}</p>
+        </MobilePopup>
       </ExamResultsContainer>
     </ExamResultsWrapper>
   );
