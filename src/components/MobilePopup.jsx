@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { IoClose } from 'react-icons/io5';
@@ -34,9 +34,17 @@ const PopupContent = styled(motion.div)`
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
   z-index: 9999;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 200px;
   max-height: 90vh;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
+  
+  .content-container {
+    overflow-y: auto;
+    flex: 1;
+    padding-bottom: 20px;
+  }
   
   .drag-handle {
     width: 40px;
@@ -83,7 +91,38 @@ const CloseButton = styled(motion.button)`
   }
 `;
 
+const HeaderContainer = styled.div`
+  position: relative;
+  padding-top: 1rem;
+`;
+
 const MobilePopup = ({ isOpen, onClose, children, title }) => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const contentRef = useRef(null);
+  const popupRef = useRef(null);
+
+  const handleScroll = () => {
+    setIsScrolled(contentRef.current?.scrollTop > 0);
+  };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
+
+  const handleDragEnd = (event, info) => {
+    const { offset, velocity } = info;
+    if (offset.y > 200 || velocity.y > 300) {
+      onClose();
+    }
+  };
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -96,40 +135,48 @@ const MobilePopup = ({ isOpen, onClose, children, title }) => {
           <PopupContent
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
+            style={{ height: 'auto' }}
             exit={{ y: "100%" }}
+            drag={!isScrolled ? "y" : false}
+            dragConstraints={{ top: 0, bottom: 0 }}
+            dragElastic={0.2}
+            onDragEnd={handleDragEnd}
             transition={{
               type: "spring",
               damping: 25,
               stiffness: 300
             }}
-            drag="y"
-            dragConstraints={{ top: 0 }}
-            dragElastic={0.2}
-            onDragEnd={(e, { offset, velocity }) => {
-              if (offset.y > 200 || velocity.y > 300) {
-                onClose();
-              }
-            }}
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="drag-handle" />
-            <CloseButton
-              onClick={onClose}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
+            <HeaderContainer
             >
-              <IoClose />
-            </CloseButton>
-            {title && (
-              <motion.h2
-                className="popup-title"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
+              <div className="drag-handle" />
+              <CloseButton
+                onClick={onClose}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
               >
-                {title}
-              </motion.h2>
-            )}
-            {children}
+                <IoClose />
+              </CloseButton>
+              {title && (
+                <motion.h2
+                  className="popup-title"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                >
+                  {title}
+                </motion.h2>
+              )}
+            </HeaderContainer>
+            <motion.div 
+              className="content-container"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              ref={contentRef}
+              onScroll={handleScroll}
+            >
+              {children}
+            </motion.div>
           </PopupContent>
         </PopupOverlay>
       )}
