@@ -732,7 +732,7 @@ const Option = styled.div`
   }
 `;
 
-const ExamResultsWrapper = styled.div`
+const ExamResultsWrapper = styled(motion.div)`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -742,6 +742,8 @@ const ExamResultsWrapper = styled.div`
   margin-left: 80px;
   font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   letter-spacing: 0.2px;
+  overflow: visible;
+  padding-bottom: 80px;
   * {
     font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   }
@@ -765,6 +767,7 @@ const ExamResultsWrapper = styled.div`
   @media (max-width: 768px) {
     margin-left: 0;
     padding-top: 20px;
+    padding-bottom: 80px;
   }
 `;
 
@@ -855,12 +858,6 @@ const ExamResultsContainer = styled.div`
 
   @media (max-width: 768px) {
     padding: 1rem;
-    margin-bottom: 60px;
-
-    .question-result {
-      padding: 1.5rem;
-      margin-bottom: 2rem;
-    }
   }
 `;
 
@@ -1227,6 +1224,37 @@ const GradeIndicator = styled.div`
   }
 `;
 
+// Add shared animation variants (matching History.jsx)
+const pageTransitionVariants = {
+  initial: {
+    opacity: 0,
+    x: 100,  // Increased from 20
+    scale: 0.95,
+    transition: {
+      duration: 0.4,
+      ease: [0.645, 0.045, 0.355, 1.000]  // Cubic bezier for smoother animation
+    }
+  },
+  animate: {
+    opacity: 1,
+    x: 0,
+    scale: 1,
+    transition: {
+      duration: 0.4,
+      ease: [0.645, 0.045, 0.355, 1.000]
+    }
+  },
+  exit: {
+    opacity: 0,
+    x: -100,  // Increased from -20
+    scale: 0.95,
+    transition: {
+      duration: 0.4,
+      ease: [0.645, 0.045, 0.355, 1.000]
+    }
+  }
+};
+
 const ExamResults = () => {
   const { id } = useParams();
   const location = useLocation();
@@ -1285,7 +1313,13 @@ const ExamResults = () => {
 
   if (isLoading) {
     return (
-      <ExamResultsWrapper>
+      <ExamResultsWrapper
+        variants={pageTransitionVariants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        key={location.pathname}
+      >
         <ExamResultsContainer>
           <h1 style={{ textAlign: 'center' }}>Exam Results</h1>
           <div className="results-summary skeleton">
@@ -1302,7 +1336,13 @@ const ExamResults = () => {
 
   if (!results) {
     return (
-      <ExamResultsWrapper>
+      <ExamResultsWrapper
+        variants={pageTransitionVariants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        key={location.pathname}
+      >
         <ExamResultsContainer className="no-results">
           No results found.
         </ExamResultsContainer>
@@ -1311,7 +1351,13 @@ const ExamResults = () => {
   }
 
   return (
-    <ExamResultsWrapper>
+    <ExamResultsWrapper
+      variants={pageTransitionVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      key={location.pathname}
+    >
       <ExamResultsContainer>
         <h1 style={{ textAlign: 'center' }}>Exam Results</h1>
         
