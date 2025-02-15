@@ -1,37 +1,55 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Notification from "./Notification";
 import "./History.css";
 import { api } from '../utils/api';
 
-// Add shared animation variants
-const pageTransitionVariants = {
+const pageVariants = {
   initial: {
     opacity: 0,
-    x: -100,
-    scale: 0.95,
-    transition: {
-      duration: 0.4,
-      ease: [0.645, 0.045, 0.355, 1.000]
-    }
+    y: 20
   },
   animate: {
     opacity: 1,
-    x: 0,
-    scale: 1,
+    y: 0,
     transition: {
-      duration: 0.4,
-      ease: [0.645, 0.045, 0.355, 1.000]
+      duration: 0.6,
+      ease: [0.22, 1, 0.36, 1]
     }
   },
   exit: {
     opacity: 0,
-    x: 100,
-    scale: 0.95,
+    y: -20,
     transition: {
-      duration: 0.4,
-      ease: [0.645, 0.045, 0.355, 1.000]
+      duration: 0.4
+    }
+  }
+};
+
+const containerVariants = {
+  initial: { opacity: 0 },
+  animate: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.05,
+      delayChildren: 0.1
+    }
+  }
+};
+
+const itemVariants = {
+  initial: { 
+    opacity: 0,
+    y: 20
+  },
+  animate: { 
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      stiffness: 260,
+      damping: 20
     }
   }
 };
@@ -50,7 +68,6 @@ const SubjectIcon = ({ subject }) => {
     Computer: "laptop-code"
   };
   
-  // No need to lowercase since we're matching exact API values
   const iconName = icons[subject] || 'graduation-cap';
   
   return (
@@ -61,79 +78,132 @@ const SubjectIcon = ({ subject }) => {
 };
 
 const ProgressRing = ({ percentage }) => {
-  const radius = 15;
+  const radius = 18;
   const circumference = 2 * Math.PI * radius;
   const strokeDashoffset = circumference - (percentage / 100) * circumference;
   
-  // Get color based on percentage
   const getColor = (percentage) => {
-    if (percentage >= 80) return "#4CAF50";      // Green for excellent
-    if (percentage >= 60) return "#FFC107";      // Yellow for good
-    if (percentage >= 40) return "#FF9800";      // Orange for average
-    return "#FF5252";                            // Red for needs improvement
+    if (percentage >= 80) return "#22c55e";
+    if (percentage >= 60) return "#eab308";
+    if (percentage >= 40) return "#f97316";
+    return "#ef4444";
   };
 
-  const color = getColor(percentage);
-  
   return (
-    <div className="progress-ring">
-      <svg viewBox="0 0 36 36">
-        {/* Background circle */}
+    <motion.div 
+      className="progress-ring"
+      initial={{ scale: 0.8, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ 
+        type: "spring",
+        stiffness: 260,
+        damping: 20,
+        delay: 0.1
+      }}
+    >
+      <svg viewBox="0 0 48 48">
         <circle
-          cx="18"
-          cy="18"
+          cx="24"
+          cy="24"
           r={radius}
           fill="none"
           stroke="rgba(255, 255, 255, 0.1)"
           strokeWidth="3"
         />
-        {/* Progress circle */}
-        <circle
-          cx="18"
-          cy="18"
+        <motion.circle
+          cx="24"
+          cy="24"
           r={radius}
           fill="none"
-          stroke={color}
+          stroke={getColor(percentage)}
           strokeWidth="3"
           strokeDasharray={circumference}
-          strokeDashoffset={strokeDashoffset}
+          initial={{ strokeDashoffset: circumference }}
+          animate={{ strokeDashoffset }}
+          transition={{ duration: 1, ease: "easeOut" }}
           strokeLinecap="round"
           style={{
-            transform: 'rotate(-90deg)',
             transformOrigin: '50% 50%',
-            transition: 'stroke-dashoffset 0.5s ease-in-out'
+            transform: 'rotate(-90deg)'
           }}
         />
-        {/* Percentage text */}
-        <text
-          x="18"
-          y="18"
+        <motion.text
+          x="24"
+          y="24"
           fill="white"
-          fontSize="10"
-          fontWeight="bold"
+          fontSize="12"
+          fontWeight="600"
           dominantBaseline="middle"
           textAnchor="middle"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
         >
           {Math.round(percentage)}%
-        </text>
+        </motion.text>
       </svg>
-    </div>
+    </motion.div>
   );
 };
 
-const HistoryCard = ({ exam, onClick }) => {
+const StatsOverview = ({ examHistory }) => {
+  const stats = {
+    totalExams: examHistory.length,
+    averageScore: examHistory.reduce((acc, exam) => acc + exam.percentage, 0) / examHistory.length || 0,
+    totalQuestions: examHistory.reduce((acc, exam) => acc + exam.totalQuestions, 0),
+    subjects: new Set(examHistory.map(exam => exam.subject)).size
+  };
+
+  return (
+    <motion.div 
+      className="stats-overview"
+      variants={containerVariants}
+      initial="initial"
+      animate="animate"
+    >
+      <motion.div className="stat-item" variants={itemVariants}>
+        <div className="stat-value">{stats.totalExams}</div>
+        <div className="stat-label">Total Exams</div>
+      </motion.div>
+      <motion.div className="stat-item" variants={itemVariants}>
+        <div className="stat-value">{Math.round(stats.averageScore)}%</div>
+        <div className="stat-label">Average Score</div>
+      </motion.div>
+      <motion.div className="stat-item" variants={itemVariants}>
+        <div className="stat-value">{stats.totalQuestions}</div>
+        <div className="stat-label">Questions Answered</div>
+      </motion.div>
+      <motion.div className="stat-item" variants={itemVariants}>
+        <div className="stat-value">{stats.subjects}</div>
+        <div className="stat-label">Subjects Covered</div>
+      </motion.div>
+    </motion.div>
+  );
+};
+
+const HistoryCard = ({ exam, onClick, index }) => {
+  const cardRef = React.useRef(null);
+
+  const handleMouseMove = (e) => {
+    if (!cardRef.current) return;
+    
+    const rect = cardRef.current.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    cardRef.current.style.setProperty('--mouse-x', `${x}px`);
+    cardRef.current.style.setProperty('--mouse-y', `${y}px`);
+  };
+
   const formatDate = (dateString) => {
     try {
-      // Split the date string into components
       const [day, month, year] = dateString.split('-');
-      // Create date object (month - 1 because months are 0-indexed)
       const date = new Date(year, month - 1, day);
       
       if (isNaN(date.getTime())) {
         return 'Invalid date';
       }
       
-      // Format as relative time if less than 7 days old
       const now = new Date();
       const diffTime = Math.abs(now - date);
       const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
@@ -144,7 +214,6 @@ const HistoryCard = ({ exam, onClick }) => {
         return `${diffDays} days ago`;
       }
       
-      // Otherwise format as date
       return date.toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'short',
@@ -158,64 +227,72 @@ const HistoryCard = ({ exam, onClick }) => {
 
   return (
     <motion.div
+      ref={cardRef}
       className="exam-card"
       onClick={() => onClick(exam["exam-id"])}
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.95 }}
+      onMouseMove={handleMouseMove}
+      variants={itemVariants}
       whileHover={{ 
-        scale: 1.02,
-        y: -5,
-        boxShadow: "0 8px 20px rgba(0, 0, 0, 0.3)",
+        y: -4,
         transition: {
           type: "spring",
-          stiffness: 200,
+          stiffness: 400,
           damping: 25
-        },
-        "@media (max-width: 768px)": {
-          scale: 1.01,  // Smaller scale effect on mobile
-          y: -2,  // Smaller lift effect
-          boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)"  // Subtler shadow
         }
       }}
       whileTap={{ scale: 0.98 }}
-      layout="position"
-      transition={{
-        layout: {
-          type: "spring",
-          stiffness: 200,
-          damping: 25
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ 
+        opacity: 1, 
+        y: 0,
+        transition: {
+          delay: index * 0.05
         }
-      }}
-      style={{
-        touchAction: "pan-x pan-y"  // Improve touch behavior
       }}
     >
       <div className="exam-card-header">
-        <div className="subject-icon">
-          <SubjectIcon subject={exam.subject} />
-        </div>
+        <SubjectIcon subject={exam.subject} />
         <div className="exam-info">
-          <h3>{exam.subject}</h3>
-          <span className="exam-date">{formatDate(exam.date)}</span>
+          <h3>
+            {exam.subject}
+          </h3>
+          <span className="exam-date">
+            {formatDate(exam.date)}
+          </span>
         </div>
-        <ProgressRing percentage={Math.round(exam.percentage)} />
+        <ProgressRing percentage={exam.percentage} />
       </div>
       <div className="exam-card-details">
         <div className="detail-grid">
           <div className="detail-item">
             <span className="detail-label">Questions</span>
-            <span className="detail-value">{exam.totalQuestions}</span>
+            <motion.span 
+              className="detail-value"
+              initial={{ scale: 1 }}
+              whileHover={{ scale: 1.1 }}
+            >
+              {exam.totalQuestions}
+            </motion.span>
           </div>
           <div className="detail-item">
             <span className="detail-label">Correct</span>
-            <span className="detail-value">{exam.score}</span>
+            <motion.span 
+              className="detail-value"
+              initial={{ scale: 1 }}
+              whileHover={{ scale: 1.1 }}
+            >
+              {exam.score}
+            </motion.span>
           </div>
           <div className="detail-item">
             <span className="detail-label">Lessons</span>
-            <span className="detail-value">
+            <motion.span 
+              className="detail-value"
+              initial={{ scale: 1 }}
+              whileHover={{ scale: 1.1 }}
+            >
               {Array.isArray(exam.lessons) ? exam.lessons.length : exam.lessons}
-            </span>
+            </motion.span>
           </div>
         </div>
       </div>
@@ -224,26 +301,29 @@ const HistoryCard = ({ exam, onClick }) => {
 };
 
 const HistoryCardSkeleton = () => (
-  <div className="exam-card skeleton">
+  <motion.div 
+    className="exam-card skeleton"
+    variants={itemVariants}
+  >
     <div className="exam-card-header">
-      <div className="subject-icon skeleton-circle"></div>
-      <div className="exam-info">
-        <div className="skeleton-text"></div>
-        <div className="skeleton-text"></div>
+      <div className="skeleton-circle"></div>
+      <div className="exam-info" style={{ flex: 1 }}>
+        <div className="skeleton-text" style={{ width: '60%' }}></div>
+        <div className="skeleton-text" style={{ width: '40%' }}></div>
       </div>
       <div className="skeleton-circle"></div>
     </div>
     <div className="exam-card-details">
       <div className="detail-grid">
-        {[...Array(4)].map((_, i) => (
+        {[...Array(3)].map((_, i) => (
           <div key={i} className="detail-item">
-            <div className="skeleton-text"></div>
-            <div className="skeleton-text"></div>
+            <div className="skeleton-text" style={{ width: '70%' }}></div>
+            <div className="skeleton-text" style={{ width: '40%' }}></div>
           </div>
         ))}
       </div>
     </div>
-  </div>
+  </motion.div>
 );
 
 const FilterTab = ({ subject, active, onClick }) => (
@@ -251,25 +331,14 @@ const FilterTab = ({ subject, active, onClick }) => (
     className={`filter-tab ${active ? 'active' : ''}`}
     onClick={onClick}
     whileHover={{ 
-      scale: 1.05,
+      y: -2,
       transition: {
         type: "spring",
-        stiffness: 200,
-        damping: 20
+        stiffness: 400,
+        damping: 17
       }
     }}
     whileTap={{ scale: 0.95 }}
-    initial={{ opacity: 0, scale: 0.95 }}
-    animate={{ 
-      opacity: 1,
-      scale: 1,
-      transition: {
-        type: "spring",
-        stiffness: 200,
-        damping: 25,
-        mass: 1
-      }
-    }}
   >
     <SubjectIcon subject={subject} />
     <span>{subject}</span>
@@ -282,7 +351,6 @@ const History = () => {
   const [error, setError] = useState(null);
   const [filter, setFilter] = useState('All');
   const navigate = useNavigate();
-  const location = useLocation();
 
   useEffect(() => {
     const fetchExamHistory = async () => {
@@ -297,7 +365,7 @@ const History = () => {
     };
 
     fetchExamHistory();
-  }, [navigate]);
+  }, []);
 
   const handleExamClick = (examId) => {
     navigate(`/exam/results/${examId}`);
@@ -305,7 +373,7 @@ const History = () => {
 
   const filteredExams = examHistory.filter(exam => {
     if (filter === 'All') return true;
-    return exam.subject === filter;  // Exact match with API subject
+    return exam.subject === filter;
   });
 
   const subjects = ['All', ...new Set(examHistory.map(exam => exam.subject))];
@@ -313,123 +381,113 @@ const History = () => {
   return (
     <motion.div 
       className="history-container"
-      variants={pageTransitionVariants}
+      variants={pageVariants}
       initial="initial"
       animate="animate"
       exit="exit"
-      key={location.pathname}
-      style={{ 
-        overflow: 'visible',
-        paddingBottom: '80px'
-      }}
     >
       <motion.div 
         className="history-header"
-        initial={{ y: -20 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.5 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       >
         <h1>Your Learning Journey</h1>
-        {!loading && examHistory.length > 0 && (
-          <div className="filter-tabs">
-            {subjects.map(subject => (
-              <FilterTab
-                key={subject}
-                subject={subject}
-                active={filter === subject}
-                onClick={() => setFilter(subject)}
-              />
-            ))}
-          </div>
-        )}
       </motion.div>
 
-      {error && <Notification message={error} />}
+      {!loading && examHistory.length > 0 && (
+        <>
+          <StatsOverview examHistory={examHistory} />
+          <motion.div 
+            className="filter-tabs"
+            variants={containerVariants}
+            initial="initial"
+            animate="animate"
+          >
+            {subjects.map((subject, index) => (
+              <motion.div
+                key={subject}
+                variants={itemVariants}
+                custom={index}
+              >
+                <FilterTab
+                  subject={subject}
+                  active={filter === subject}
+                  onClick={() => setFilter(subject)}
+                />
+              </motion.div>
+            ))}
+          </motion.div>
+        </>
+      )}
+
+      {error && <Notification message={error} type="error" />}
 
       <AnimatePresence mode="wait">
-        <motion.div 
-          className="exam-grid"
-          layout="position"
-          style={{ overflow: "hidden" }}
-          transition={{
-            layout: {
-              type: "spring",
-              stiffness: 200,
-              damping: 25,
-              mass: 1
-            }
-          }}
-        >
-          {loading ? (
-            Array(6).fill().map((_, index) => (
-              <HistoryCardSkeleton key={`skeleton-${index}`} />
-            ))
-          ) : examHistory.length > 0 ? (
-            <AnimatePresence mode="popLayout">
-              {filteredExams
-                .slice()
-                .reverse()
-                .map((exam, index) => (
-                  <motion.div
-                    key={`${exam["exam-id"]}-${index}`}
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    animate={{ 
-                      opacity: 1,
-                      scale: 1,
-                      transition: {
-                        type: "spring",
-                        stiffness: 200,
-                        damping: 25,
-                        mass: 1,
-                        delay: index * 0.03
-                      }
-                    }}
-                    exit={{ 
-                      opacity: 0,
-                      scale: 0.95,
-                      transition: {
-                        duration: 0.2,
-                        ease: "easeInOut"
-                      }
-                    }}
-                    layout="position"
-                    transition={{
-                      layout: {
-                        type: "spring",
-                        stiffness: 200,
-                        damping: 25,
-                        mass: 1
-                      }
-                    }}
-                    style={{ 
-                      width: "100%",
-                      height: "100%",
-                      position: "relative"
-                    }}
-                  >
-                    <HistoryCard
-                      exam={exam}
-                      onClick={handleExamClick}
-                    />
-                  </motion.div>
-                ))}
-            </AnimatePresence>
-          ) : (
+        {loading ? (
+          <motion.div 
+            className="exam-grid"
+            variants={containerVariants}
+            initial="initial"
+            animate="animate"
+            exit={{ opacity: 0 }}
+          >
+            {[...Array(6)].map((_, index) => (
+              <HistoryCardSkeleton key={index} />
+            ))}
+          </motion.div>
+        ) : examHistory.length > 0 ? (
+          <motion.div 
+            className="exam-grid"
+            variants={containerVariants}
+            initial="initial"
+            animate="animate"
+          >
+            {filteredExams
+              .slice()
+              .reverse()
+              .map((exam, index) => (
+                <HistoryCard
+                  key={exam["exam-id"]}
+                  exam={exam}
+                  onClick={handleExamClick}
+                  index={index}
+                />
+              ))}
+          </motion.div>
+        ) : (
+          <motion.div 
+            className="empty-state"
+            variants={itemVariants}
+          >
             <motion.div 
-              className="empty-state"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.8 }}
-              transition={{ type: "spring", duration: 0.6 }}
+              className="empty-state-icon"
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20
+              }}
             >
-              <div className="empty-state-icon">
-                <i className="fas fa-graduation-cap"></i>
-              </div>
-              <h2>Start Your Learning Journey</h2>
-              <p>Take your first exam to see your progress here!</p>
+              <i className="fas fa-graduation-cap"></i>
             </motion.div>
-          )}
-        </motion.div>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+            >
+              Start Your Learning Journey
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+            >
+              Take your first exam to see your progress here!
+            </motion.p>
+          </motion.div>
+        )}
       </AnimatePresence>
     </motion.div>
   );
