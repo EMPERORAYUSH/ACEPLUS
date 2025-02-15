@@ -45,98 +45,108 @@ function App() {
   const showHeader = location.pathname !== '/';
 
   return (
-    <div className={`App ${isHeaderVisible ? "" : "header-hidden"}`}>
+    <div className={`App ${isHeaderVisible ? "" : "header-hidden"}`} style={{ 
+      position: 'relative',
+      minHeight: '100vh',
+      overflow: 'hidden'
+    }}>
       {showHeader && <Header onVisibilityChange={setIsHeaderVisible} />}
       {isAuthenticated && <Sidebar isHeaderHidden={!isHeaderVisible} />}
       
-      <Routes>
-        <Route
-          path="/"
-          element={isAuthenticated ? <Navigate to="/home" /> : <LandingPage />}
-        />
-        <Route
-          path="/home"
-          element={
-            <ProtectedRoute>
-              <Content />
-              <ScrollToTop />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/login"
-          element={isAuthenticated ? <Navigate to="/home" /> : <Login />}
-        />
-        <Route
-          path="/create"
-          element={
-            <ProtectedRoute>
-              <Exam />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/analyse"
-          element={
-            <ProtectedRoute>
-              <Analysis />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/analyse/:subject"
-          element={
-            <ProtectedRoute>
-              <SubjectDetails />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/history"
-          element={
-            <ProtectedRoute>
-              <History />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/exam/g/:id"
-          element={
-            <ProtectedRoute>
-              <ExamTaking />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/exam/results/:id"
-          element={
-            <ProtectedRoute>
-              <ExamResults />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/test-series"
-          element={
-            <ProtectedRoute>
-              <TestSeries />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/create-test"
-          element={
-            <ProtectedRoute>
-              <CreateTest />
-            </ProtectedRoute>
-          }
-        />
-        {/* Catch-all route */}
-        <Route
-          path="*"
-          element={isAuthenticated ? <NotFound /> : <Navigate to="/login" />}
-        />
-      </Routes>
+      <div style={{ 
+        position: 'relative',
+        minHeight: '100vh',
+        overflow: 'visible'
+      }}>
+        <Routes>
+          <Route
+            path="/"
+            element={isAuthenticated ? <Navigate to="/home" /> : <LandingPage />}
+          />
+          <Route
+            path="/home"
+            element={
+              <ProtectedRoute>
+                <Content />
+                <ScrollToTop />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/login"
+            element={isAuthenticated ? <Navigate to="/home" /> : <Login />}
+          />
+          <Route
+            path="/create"
+            element={
+              <ProtectedRoute>
+                <Exam />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/analyse"
+            element={
+              <ProtectedRoute>
+                <Analysis />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/analyse/:subject"
+            element={
+              <ProtectedRoute>
+                <SubjectDetails />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/history"
+            element={
+              <ProtectedRoute>
+                <History />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/exam/g/:id"
+            element={
+              <ProtectedRoute>
+                <ExamTaking />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/exam/results/:id"
+            element={
+              <ProtectedRoute>
+                <ExamResults />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/test-series"
+            element={
+              <ProtectedRoute>
+                <TestSeries />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/create-test"
+            element={
+              <ProtectedRoute>
+                <CreateTest />
+              </ProtectedRoute>
+            }
+          />
+          {/* Catch-all route */}
+          <Route
+            path="*"
+            element={isAuthenticated ? <NotFound /> : <Navigate to="/login" />}
+          />
+        </Routes>
+      </div>
 
       {isAuthenticated && window.innerWidth <= 768 && <BottomNav />}
     </div>

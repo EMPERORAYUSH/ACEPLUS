@@ -1,9 +1,40 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Notification from "./Notification";
 import "./History.css";
 import { api } from '../utils/api';
+
+// Add shared animation variants
+const pageTransitionVariants = {
+  initial: {
+    opacity: 0,
+    x: -100,
+    scale: 0.95,
+    transition: {
+      duration: 0.4,
+      ease: [0.645, 0.045, 0.355, 1.000]
+    }
+  },
+  animate: {
+    opacity: 1,
+    x: 0,
+    scale: 1,
+    transition: {
+      duration: 0.4,
+      ease: [0.645, 0.045, 0.355, 1.000]
+    }
+  },
+  exit: {
+    opacity: 0,
+    x: 100,
+    scale: 0.95,
+    transition: {
+      duration: 0.4,
+      ease: [0.645, 0.045, 0.355, 1.000]
+    }
+  }
+};
 
 const SubjectIcon = ({ subject }) => {
   const icons = {
@@ -251,6 +282,7 @@ const History = () => {
   const [error, setError] = useState(null);
   const [filter, setFilter] = useState('All');
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const fetchExamHistory = async () => {
@@ -281,9 +313,15 @@ const History = () => {
   return (
     <motion.div 
       className="history-container"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      variants={pageTransitionVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      key={location.pathname}
+      style={{ 
+        overflow: 'visible',
+        paddingBottom: '80px'
+      }}
     >
       <motion.div 
         className="history-header"
