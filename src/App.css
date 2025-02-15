@@ -204,7 +204,7 @@ body {
 }
 
 .bottom-nav-content.with-back {
-  justify-content: flex-start;
+  padding-left: 72px;
 }
 
 .nav-item {
@@ -233,6 +233,8 @@ body {
   transform: translateX(0);
   opacity: 1;
   transition: none;
+  position: absolute;
+  left: 16px;
 }
 
 .nav-item.back-button.enter {
@@ -241,8 +243,12 @@ body {
 }
 
 .nav-item.back-button.exit {
-  animation: slideOut 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  will-change: transform, opacity, width;
+  width: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-20px);
 }
 
 .nav-divider {
@@ -254,6 +260,8 @@ body {
   opacity: 0;
   transform-origin: left center;
   will-change: transform, opacity;
+  position: absolute;
+  left: 72px;
 }
 
 .nav-divider.enter {
@@ -263,8 +271,10 @@ body {
 }
 
 .nav-divider.exit {
-  animation: fadeOut 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  will-change: transform, opacity;
+  width: 0;
+  opacity: 0;
+  margin: 0;
+  pointer-events: none;
 }
 
 @keyframes slideIn {
