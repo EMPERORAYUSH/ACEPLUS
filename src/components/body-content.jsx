@@ -144,11 +144,16 @@ function Content() {
           throw new Error('Unauthorized');
         }
 
-        const data = await api.getOverviewStats();
+        // Call all APIs concurrently using Promise.all
+        const [overviewData] = await Promise.all([
+          api.getOverviewStats(),
+          checkForUpdates(),
+          fetchLeaderboard()
+        ]);
+
         let formattedData;
-        
-        if (data && data.subjects) {
-          const subjects = Object.values(data.subjects);
+        if (overviewData && overviewData.subjects) {
+          const subjects = Object.values(overviewData.subjects);
           const totalExams = subjects.reduce((acc, curr) => acc + (curr.exams_given || 0), 0);
           const totalMarks = subjects.reduce((acc, curr) => acc + ((curr.exams_given || 0) * 100), 0);
           const totalGained = subjects.reduce((acc, curr) => acc + ((curr.average_percentage || 0) * (curr.exams_given || 0)), 0);
@@ -169,10 +174,7 @@ function Content() {
             { title: "Average Percentage", value: "0.00%" },
           ];
         }
-        
         setCardData(formattedData);
-        await checkForUpdates();
-        await fetchLeaderboard();
       } catch (error) {
         setError(error.message);
         if (error.message === 'Unauthorized access') {
