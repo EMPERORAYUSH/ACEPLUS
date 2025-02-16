@@ -762,21 +762,18 @@ def get_user_stats_route():
     if not stats:
         return jsonify(
             [
-                {"title": "Total Exams Attempted", "value": 0},
-                {"title": "Total Marks Attempted", "value": 0},
-                {"title": "Total Marks Gained", "value": 0},
-                {"title": "Average Percentage", "value": "0.00%"},
+                {"total_exams":0},
+                {"total_marks":0},
+                {"marks_gained":0},
+                {"average_percentage":"0.00%"},
             ]
         ), 200
 
     formatted_stats = [
-        {"title": "Total Exams Attempted", "value": stats.get("attempted", 0)},
-        {"title": "Total Marks Attempted", "value": stats.get("questions", 0)},
-        {"title": "Total Marks Gained", "value": stats.get("correct", 0)},
-        {
-            "title": "Average Percentage",
-            "value": f"{stats.get('avgpercentage', 0):2.2f}%",
-        },
+        {"total_exams": stats.get("attempted", 0)},
+        {"total_marks": stats.get("questions", 0)},
+        {"marks_gained": stats.get("correct", 0)},
+        {"average_percentage": f"{stats.get('avgpercentage', 0):2.2f}%",},
     ]
     return jsonify(formatted_stats), 200
 
