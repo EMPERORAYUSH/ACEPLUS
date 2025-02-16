@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef, useCallback } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
+import { api } from '../utils/api';
 
 const PopupOverlay = styled(motion.div)`
   position: fixed;
@@ -334,20 +335,85 @@ const EloScore = styled(motion.span)`
   }
 `;
 
+const LoadingIndicator = styled(motion.div)`
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+  font-style: italic;
+`;
+
 const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen }) => {
   const [isClosing, setIsClosing] = useState(false);
   const [showContent, setShowContent] = useState(false);
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [hasMore, setHasMore] = useState(true);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [students, setStudents] = useState([]);
+  const tableRef = useRef(null);
+  const [month, setMonth] = useState('');
+  const [division, setDivision] = useState('');
+  const [isClass10, setIsClass10] = useState(false);
 
   useEffect(() => {
     if (!updatePopupOpen && isOpen) {
       const timer = setTimeout(() => {
         setShowContent(true);
+        // Initialize with first page data
+        if (leaderboardData) {
+          setStudents(leaderboardData.leaderboard || []);
+          setMonth(leaderboardData.month || '');
+          setDivision(leaderboardData.division || '');
+          setIsClass10(leaderboardData.class === '10');
+          setHasMore(leaderboardData.pagination?.total_count > 20);
+        }
       }, 300);
       return () => clearTimeout(timer);
-    } else if (updatePopupOpen) {
-      setShowContent(false);
     }
-  }, [updatePopupOpen, isOpen]);
+  }, [updatePopupOpen, isOpen, leaderboardData]);
+
+  const loadMoreData = useCallback(async () => {
+    if (loading || !hasMore) return;
+
+    try {
+      setLoading(true);
+      const nextPage = currentPage + 1;
+      const response = await api.getLeaderboard(nextPage);
+
+      if (response && response.leaderboard) {
+        setStudents(prev => [...prev, ...response.leaderboard]);
+        setCurrentPage(nextPage);
+        setHasMore(response.pagination?.total_count > nextPage * 20);
+      }
+    } catch (err) {
+      setError('Failed to load more students');
+      console.error('Error loading more students:', err);
+    } finally {
+      setLoading(false);
+    }
+  }, [currentPage, loading, hasMore]);
+
+  useEffect(() => {
+    if (tableRef.current) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting && hasMore && !loading) {
+            loadMoreData().catch(console.error);
+          }
+        },
+        { threshold: 0.1 }
+      );
+
+      // Observe the last row instead of a separate trigger element
+      const rows = tableRef.current.querySelectorAll('tbody tr');
+      if (rows.length > 0) {
+        observer.observe(rows[rows.length - 1]);
+      }
+
+      return () => observer.disconnect();
+    }
+  }, [loading, hasMore, tableRef.current, students.length]);
 
   const handleClose = () => {
     setIsClosing(true);
@@ -371,11 +437,8 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
     return null;
   };
 
-  const filteredLeaderboard = leaderboardData.leaderboard
-    .filter(entry => entry.name !== 'UNKNOWN')
-    .map((entry, index) => ({
-      ...entry,
-      rank: index + 1
+  const filteredLeaderboard = students.filter(entry => entry.name !== 'UNKNOWN')
+    .map(entry => ({...entry
     }));
 
   const isActive = !updatePopupOpen;
@@ -438,14 +501,14 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                       animate={{ opacity: 1 }}
                       transition={{ delay: 0.4 }}
                     >
-                      Division {leaderboardData.division}
+                      Division {division}
                     </motion.div>
                     <motion.div
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ delay: 0.5 }}
                     >
-                      {leaderboardData.month}
+                      {month}
                     </motion.div>
                     <ResetMessage
                       initial={{ opacity: 0 }}
@@ -456,7 +519,7 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                     </ResetMessage>
                   </SubHeader>
 
-                  {leaderboardData.zero ? (
+                  {students.length === 0 ? (
                     <NoDataMessage
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
@@ -465,7 +528,7 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                       No exams taken this month yet!
                     </NoDataMessage>
                   ) : (
-                    <TableContainer>
+                    <TableContainer ref={tableRef}>
                       <Table
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -565,6 +628,21 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                             </MedalRow>
                           ))}
                         </tbody>
+                        {(loading || hasMore) && (
+                          <LoadingIndicator
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                           style={{
+                              position: 'sticky',
+                              bottom: 0,
+                              backgroundColor: 'rgba(26, 26, 26, 0.95)'
+                            }}
+                           >
+                            {loading ? 'Loading more students...' : ''}
+                          </LoadingIndicator>
+                        )}
+                        {error && <div>{error}</div>}
                       </Table>
                     </TableContainer>
                   )}

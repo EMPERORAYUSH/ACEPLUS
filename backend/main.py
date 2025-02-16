@@ -994,6 +994,9 @@ def add_update():
 def get_leaderboard():
     current_user, is_class10 = get_current_user_info()
     class_num = 10 if is_class10 else 9
+    
+    page = int(request.args.get('page', 1))
+    page_size = int(request.args.get('page_size', 20))
     current_date = datetime.now()
     month_key = current_date.strftime("%Y-%m")
 
@@ -1077,13 +1080,26 @@ def get_leaderboard():
         key=lambda x: (x["elo_score"], x["average_percentage"]),
         reverse=True,
     )
+    
+    # Calculate total count before pagination
+    total_count = len(leaderboard)
+    
+    # Apply pagination
+    start_idx = (page - 1) * page_size
+    end_idx = start_idx + page_size
+    leaderboard = leaderboard[start_idx:end_idx]
 
-    # Add ranks
+    # Add ranks based on absolute position
     for i, entry in enumerate(leaderboard, 1):
-        entry["rank"] = i
+        entry["rank"] = start_idx + i
 
     return jsonify(
         {
+            "pagination": {
+                "page": page,
+                "page_size": page_size,
+                "total_count": total_count
+            },
             "month": current_date.strftime("%B %Y"),
             "leaderboard": leaderboard,
             "zero": False,

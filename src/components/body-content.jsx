@@ -124,8 +124,17 @@ function Content() {
 
   const fetchLeaderboard = async () => {
     try {
-      const data = await api.getLeaderboard();
+      const data = await api.getLeaderboard(1, 20);
       const storedLeaderboard = localStorage.getItem('leaderboardData');
+
+      // Initialize leaderboard data with first page
+      const filteredLeaderboard = data.leaderboard
+        .filter(entry => entry.name !== 'UNKNOWN')
+        .map((entry, index) => ({
+          ...entry,
+          rank: index + 1
+        }));
+      data.leaderboard = filteredLeaderboard;
       
       if (!storedLeaderboard || JSON.stringify(data) !== storedLeaderboard) {
         setLeaderboardData(data);
