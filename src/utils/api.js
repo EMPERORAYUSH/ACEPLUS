@@ -128,7 +128,7 @@ export const endpoints = {
   generateTest: 'api/generate_test',
   createTest: 'api/create_test',
   getUserExams: 'api/user_exams',
-  getOverviewStats: 'api/overview_stats',
+  getOverviewStats: 'api/user_stats',
   getSubjectStats: (subject) => `api/subject_stats/${subject}`,
   reportQuestion: 'api/report',
   uploadImages: 'api/upload_images',

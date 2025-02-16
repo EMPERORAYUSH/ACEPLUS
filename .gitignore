@@ -24,7 +24,7 @@ misc
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
+scratchpad.md
 #backend
 students.json
 active_tests.json

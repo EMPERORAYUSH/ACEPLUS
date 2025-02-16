@@ -152,19 +152,19 @@ function Content() {
         ]);
 
         let formattedData;
-        if (overviewData && overviewData.subjects) {
-          const subjects = Object.values(overviewData.subjects);
-          const totalExams = subjects.reduce((acc, curr) => acc + (curr.exams_given || 0), 0);
-          const totalMarks = subjects.reduce((acc, curr) => acc + ((curr.exams_given || 0) * 100), 0);
-          const totalGained = subjects.reduce((acc, curr) => acc + ((curr.average_percentage || 0) * (curr.exams_given || 0)), 0);
-          const avgPercentage = subjects.length > 0 ? 
-            subjects.reduce((acc, curr) => acc + (curr.average_percentage || 0), 0) / subjects.length : 0;
 
+        if (overviewData && Array.isArray(overviewData)) {
+          const stats = {
+            total_exams: overviewData[0]?.total_exams,
+            total_marks: overviewData[1]?.total_marks,  
+            marks_gained: overviewData[2]?.marks_gained,
+            average_percentage: overviewData[3]?.average_percentage
+          };
           formattedData = [
-            { title: "Total Exams Attempted", value: totalExams },
-            { title: "Total Marks Attempted", value: totalMarks },
-            { title: "Total Marks Gained", value: totalGained.toFixed(0) },
-            { title: "Average Percentage", value: avgPercentage.toFixed(2) + "%" },
+            { title: "Total Exams Attempted", value: stats.total_exams || 0 },
+            { title: "Total Marks Attempted", value: stats.total_marks || 0 },
+            { title: "Total Marks Gained", value: stats.marks_gained || 0 },
+            { title: "Average Percentage", value: stats.average_percentage || "0.00%" },
           ];
         } else {
           formattedData = [
