@@ -139,7 +139,7 @@ export const endpoints = {
 export const api = {
   getUserStats: () => apiRequest(endpoints.userStats),
   getOverviewStats: () => apiRequest(endpoints.getOverviewStats),
-  getLeaderboard: () => apiRequest(endpoints.leaderboard),
+  getLeaderboard: (page = 1, pageSize = 20) => apiRequest(`${endpoints.leaderboard}?page=${page}&page_size=${pageSize}`),
   getUpdates: () => apiRequest(endpoints.updates),
   login: (data) => apiRequest(endpoints.login, {
     method: 'POST',
