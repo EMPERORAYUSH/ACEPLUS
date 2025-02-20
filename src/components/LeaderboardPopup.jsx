@@ -335,11 +335,24 @@ const EloScore = styled(motion.span)`
   }
 `;
 
+const Spinner = styled(motion.div)`
+  width: 40px;
+  height: 40px;
+  border: 3px solid #333;
+  border-top: 3px solid #4dabf7;
+  border-radius: 50%;
+  margin: 0 auto;
+`;
+
 const LoadingIndicator = styled(motion.div)`
   text-align: center;
   padding: 1rem;
   color: #666;
   font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 `;
 
 const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen }) => {
@@ -553,36 +566,36 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                               key={entry.name}
                               rank={entry.rank}
                               noExams={entry.total_exams === 0}
-                              initial={{ opacity: 0, x: -50 }}
+                              initial={index < 20 ? { opacity: 0, x: -50 } : { opacity: 1, x: 0 }}
                               animate={{ opacity: 1, x: 0 }}
-                              transition={{ 
-                                duration: 0.3,
-                                delay: 0.6 + (index * 0.1)
+                              transition={{
+                                duration: index < 20 ? 0.3 : 0,
+                                delay: index < 20 ? 0.6 + (index * 0.1) : 0
                               }}
                             >
                               <Td>
                                 {getMedal(entry.rank) ? (
                                   <Medal
-                                    initial={{ scale: 0, rotate: -180 }}
+                                    initial={index < 20 ? { scale: 0, rotate: -180 } : { scale: 1, rotate: 0 }}
                                     animate={{ scale: 1, rotate: 0 }}
-                                    transition={{ 
+                                    transition={{
                                       type: "spring",
                                       stiffness: 200,
                                       damping: 15,
-                                      delay: 0.7 + (index * 0.1)
+                                      delay: index < 20 ? 0.7 + (index * 0.1) : 0
                                     }}
                                   >
                                     {getMedal(entry.rank)}
                                   </Medal>
                                 ) : (
                                   <RankNumber
-                                    initial={{ scale: 0 }}
+                                    initial={index < 20 ? { scale: 0 } : { scale: 1 }}
                                     animate={{ scale: 1 }}
-                                    transition={{ 
+                                    transition={{
                                       type: "spring",
                                       stiffness: 200,
                                       damping: 15,
-                                      delay: 0.7 + (index * 0.1)
+                                      delay: index < 20 ? 0.7 + (index * 0.1) : 0
                                     }}
                                   >
                                     {entry.rank}
@@ -599,13 +612,13 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                               <Td>
                                 <Score
                                   value={entry.average_percentage}
-                                  initial={{ opacity: 0, scale: 0.5 }}
+                                  initial={index < 20 ? { opacity: 0, scale: 0.5 } : { opacity: 1, scale: 1 }}
                                   animate={{ opacity: 1, scale: 1 }}
-                                  transition={{ 
+                                  transition={{
                                     type: "spring",
                                     stiffness: 200,
                                     damping: 10,
-                                    delay: 0.8 + (index * 0.1)
+                                    delay: index < 20 ? 0.8 + (index * 0.1) : 0
                                   }}
                                 >
                                   {entry.average_percentage}%
@@ -613,13 +626,13 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                               </Td>
                               <Td>
                                 <EloScore
-                                  initial={{ opacity: 0, scale: 0.5 }}
+                                  initial={index < 20 ? { opacity: 0, scale: 0.5 } : { opacity: 1, scale: 1 }}
                                   animate={{ opacity: 1, scale: 1 }}
-                                  transition={{ 
+                                  transition={{
                                     type: "spring",
                                     stiffness: 200,
                                     damping: 10,
-                                    delay: 0.8 + (index * 0.1)
+                                    delay: index < 20 ? 0.8 + (index * 0.1) : 0
                                   }}
                                 >
                                   {entry.elo_score || entry.eloScore || 'N/A'}
@@ -639,7 +652,15 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                               backgroundColor: 'rgba(26, 26, 26, 0.95)'
                             }}
                            >
-                            {loading ? 'Loading more students...' : ''}
+                            <Spinner
+                              animate={{ rotate: 360 }}
+                              transition={{
+                                duration: 1,
+                                repeat: Infinity,
+                                ease: "linear"
+                              }}
+                            />
+                            {loading ? 'Loading more students...' : 'Scroll for more'}
                           </LoadingIndicator>
                         )}
                         {error && <div>{error}</div>}
