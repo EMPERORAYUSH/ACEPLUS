@@ -154,11 +154,40 @@ export const api = {
     body: JSON.stringify(data)
   }),
   getExam: (examId) => apiRequest(endpoints.getExam(examId)),
-  generateHint: (question) => apiRequest(endpoints.generateHint, {
-    method: 'POST',
-    body: JSON.stringify({ question })
-  }),
-  getLessons: (subject, isClass10 = false) => apiRequest(endpoints.getLessons(subject, isClass10)),
+    generateHint: async (question, { onProgress = () => {} } = {}) => {
+      const response = await apiRequest(endpoints.generateHint, {
+        method: 'POST',
+        body: JSON.stringify({ question }),
+      });
+
+      if (!response.ok) {
+          throw new Error(`Failed to generate hint: ${response.statusText}`);
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder('utf-8');
+      let buffer = '';
+
+      try {
+          while (true) {
+              const { done, value } = await reader.read();
+              if (done) {
+                  break;
+              }
+              buffer += decoder.decode(value, { stream: true });
+
+              // Process the buffer immediately
+              onProgress(buffer);
+              buffer = ''; // Clear the buffer after processing
+          }
+      } catch (error) {
+          console.error('Error reading stream:', error);
+          throw error;
+      } finally {
+          reader.releaseLock();
+      }
+    },
+    getLessons: (subject, isClass10 = false) => apiRequest(endpoints.getLessons(subject, isClass10)),
   getTests: () => apiRequest(endpoints.getTests),
   generateTest: (data) => apiRequest(endpoints.generateTest, {
     method: 'POST',

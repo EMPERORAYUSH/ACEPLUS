@@ -10,7 +10,7 @@ try:
     import generate
     from bson.json_util import dumps
     from werkzeug.utils import secure_filename
-    from flask import Flask, jsonify, request, send_from_directory
+    from flask import Flask, jsonify, request, send_from_directory, Response
     from flask_cors import CORS
     from flask_jwt_extended import (
         JWTManager,
@@ -456,21 +456,24 @@ def submit_exam(exam_id):
     else:
         return jsonify({"message": "Failed to submit exam"}), 500
 
+
 @app.route("/api/generate_hint", methods=["POST"])
 @jwt_required()
 def generate_hint_route():
     """Generate a hint for a given question without revealing the answer."""
     data = request.get_json()
     question_text = data.get("question")
-    
+
     if not question_text:
         return jsonify({"message": "Question text is required"}), 400
-        
+
     try:
-        hint = generate.generate_hint(question_text)
-        return jsonify({
-            "hint": hint
-        }), 200
+        # Return a streaming response
+        return Response(
+            generate.generate_hint(question_text),
+            mimetype='text/event-stream',
+            headers={'Cache-Control': 'no-cache'} # Ensure no caching
+        )
     except Exception as e:
         print(f"Error generating hint: {e}")
         return jsonify({"message": f"Error generating hint: {str(e)}"}), 500

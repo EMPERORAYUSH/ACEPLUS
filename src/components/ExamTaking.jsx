@@ -931,7 +931,7 @@ const ExamTaking = () => {
   const [hints, setHints] = useState({});
   const [loadingHints, setLoadingHints] = useState({});
   const [visibleHints, setVisibleHints] = useState({});
-  const [currentHint, setCurrentHint] = useState(null);
+  const [currentHint, setCurrentHint] = useState(null); // For mobile view
   const [showMobileHint, setShowMobileHint] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 
@@ -975,35 +975,41 @@ const ExamTaking = () => {
     });
   };
 
-  const handleHintRequest = async (questionId, questionText) => {
-    if (loadingHints[questionId]) return;
+const handleHintRequest = async (questionId, questionText) => {
+  if (loadingHints[questionId]) return;
 
-    setLoadingHints(prev => ({ ...prev, [questionId]: true }));
+  setLoadingHints(prev => ({ ...prev, [questionId]: true }));
+  setVisibleHints(prev => ({ ...prev, [questionId]: false }));
+  setHints(prev => ({ ...prev, [questionId]: '' }));
 
-    try {
-      const response = await api.generateHint(questionText);
-      if (response.hint) {
-        setHints(prev => ({
-          ...prev,
-          [questionId]: response.hint
-        }));
-        // Automatically show hint when generated
-        setVisibleHints(prev => ({
-          ...prev,
-          [questionId]: true
-        }));
-        setCurrentHint({ id: questionId, text: response.hint });
+  try {
+    await api.generateHint(questionText, {
+      onProgress: (chunk) => {
+        setHints(prev => {
+          const newHintText = (prev[questionId] || '') + chunk;
+          // Only set visibleHints to true if it was previously false and we have content
+          if (!prev[questionId]) {
+            setVisibleHints(currentVisibleHints => ({ ...currentVisibleHints, [questionId]: true }));
+          }
+          setCurrentHint({ id: questionId, text: newHintText });
+          return {
+            ...prev,
+            [questionId]: newHintText
+          };
+        });
       }
-    } catch (error) {
-      console.error('Error getting hint:', error);
-      setHints(prev => ({
-        ...prev,
-        [questionId]: "Sorry, couldn't generate a hint at this time."
-      }));
-    } finally {
-      setLoadingHints(prev => ({ ...prev, [questionId]: false }));
-    }
-  };
+    });
+  } catch (error) {
+    console.error('Error getting hint:', error);
+    setHints(prev => ({
+      ...prev,
+      [questionId]: "Sorry, couldn't generate a hint at this time."
+    }));
+  } finally {
+    setLoadingHints(prev => ({ ...prev, [questionId]: false }));
+  }
+};
+
 
   const handleSubmit = async () => {
     const unansweredQuestions = examData.questions.filter(
@@ -1062,21 +1068,16 @@ const ExamTaking = () => {
     }
   };
 
-  const toggleHint = (questionId) => {
-    setVisibleHints(prev => {
-      const newState = {
-        ...prev,
-        [questionId]: !prev[questionId]
-      };
-      
-      if (newState[questionId]) {
-        setCurrentHint({ id: questionId, text: hints[questionId] });
-      } else {
-        setCurrentHint(null);
-      }
-      
-      return newState;
-    });
+    const toggleHint = (questionId) => {
+      setVisibleHints(prev => {
+          const newState = { ...prev, [questionId]: !prev[questionId] };
+          if (newState[questionId]) {
+              setCurrentHint({ id: questionId, text: HintContent[questionId] || hints[questionId] });
+          } else {
+              setCurrentHint(null);
+          }
+          return newState;
+      });
   };
 
   if (isLoading) {
@@ -1314,8 +1315,7 @@ const ExamTaking = () => {
                   </span>
                 </HintToggleButton>
 
-                <AnimatePresence>
-                  {loadingHints[question.uniqueId] && (
+                {loadingHints[question.uniqueId] && (
                     <>
                       <HintSkeletonLoader
                         initial={{ opacity: 0, height: 0 }}
@@ -1332,7 +1332,7 @@ const ExamTaking = () => {
                         {[...Array(3)].map((_, i) => (
                           <motion.div
                             key={i}
-                            animate={{ 
+                            animate={{
                               y: [-3, 3, -3],
                               opacity: [0.4, 1, 0.4]
                             }}
@@ -1353,31 +1353,23 @@ const ExamTaking = () => {
                       </LoadingDots>
                     </>
                   )}
-                </AnimatePresence>
-
-                <AnimatePresence>
-                  {hints[question.uniqueId] && visibleHints[question.uniqueId] && (
-                    <HintContainer
-                      initial={{ opacity: 0, height: 0 }}
-                      animate={{ opacity: 1, height: 'auto' }}
-                      exit={{ opacity: 0, height: 0 }}
-                      transition={{ duration: 0.3 }}
+                {hints[question.uniqueId] && visibleHints[question.uniqueId] && (
+                  <HintContainer>
+                    <ReactMarkdown
+                      key={hints[question.uniqueId]}
+                      remarkPlugins={[remarkGfm, remarkMath]}
+                      rehypePlugins={[rehypeKatex]}
                     >
-                      <ReactMarkdown
-                        remarkPlugins={[remarkGfm, remarkMath]}
-                        rehypePlugins={[rehypeKatex]}
-                      >
-                        {hints[question.uniqueId]}
-                      </ReactMarkdown>
-                    </HintContainer>
-                  )}
-                </AnimatePresence>
+                      {hints[question.uniqueId]}
+                    </ReactMarkdown>
+                  </HintContainer>
+                )}
               </motion.div>
             </QuestionCard>
           );
         })}
-        <motion.button
-          className="submit-btn"
+          <motion.button
+            className="submit-btn"
           onClick={handleSubmit}
           disabled={isSubmitting}
           whileHover={{ scale: 1.02 }}
@@ -1530,6 +1522,7 @@ const ExamTaking = () => {
           <div className="hint-content">
             {currentHint && (
               <ReactMarkdown
+                key={currentHint.text}
                 remarkPlugins={[remarkGfm, remarkMath]}
                 rehypePlugins={[rehypeKatex]}
               >
