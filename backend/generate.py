@@ -197,12 +197,12 @@ def generate_hint(question_text: str):
 
                     if inline_match:
                         # Yield the complete inline LaTeX block
-                        yield inline_match.group(0)
+                        yield " " + inline_match.group(0)
                         # Remove the yielded block from the buffer
                         latex_buffer = latex_buffer.replace(inline_match.group(0), '', 1)
                     elif display_match:
                         # Yield the complete display LaTeX block
-                        yield display_match.group(0)
+                        yield " " + display_match.group(0)
                         # Remove the yielded block from the buffer
                         latex_buffer = latex_buffer.replace(display_match.group(0), '', 1)
                     else:
