@@ -21,6 +21,9 @@ misc
 .env
 .venv
 
+memory-bank
+*.clinerules*
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

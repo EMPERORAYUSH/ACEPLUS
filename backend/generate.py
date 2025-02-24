@@ -150,9 +150,9 @@ except ValueError as e:
 # Add at the top of the file with other global variables
 user_question_history = {}  # Stores used question IDs per user
 
-def generate_hint(question_text: str) -> str:
+def generate_hint(question_text: str):
     """
-    Generate a helpful hint for a given question without revealing the answer.
+    Generate a helpful hint for a given question without revealing the answer, streaming the output.
     Uses the same provider selection and model configuration as the solution generator.
     """
     try:
@@ -160,26 +160,67 @@ def generate_hint(question_text: str) -> str:
         provider = random.choice(valid_providers)
         client_key, client = get_random_provider_client(provider)
         logging.debug(f"Using client for hints: {client_key}")
-        
+
         # Format the hint prompt
         prompt = HINT_GENERATION_PROMPT.format(question=question_text)
-        
+
         # Extract the base provider name by removing any trailing digits
         model_key = re.sub(r'\d+$', '', client_key)
         # Use the same model selection logic as generate_solution
         model = random.choice(MODEL_CONFIGS[model_key])
-        
-        # Generate the hint
-        completion = client.chat.completions.create(
+
+        # Generate the hint with streaming
+        stream = client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
             model=model,
             temperature=0.7,
-            max_tokens=512
+            max_tokens=512,
+            stream=True
         )
-        return completion.choices[0].message.content
+
+        # Initialize an empty buffer for accumulating incomplete LaTeX blocks
+        latex_buffer = ""
+
+        for chunk in stream:
+            if chunk.choices[0].delta.content is not None:
+                content = chunk.choices[0].delta.content
+
+                # Add the new content to the buffer
+                latex_buffer += content
+
+                # Check for complete LaTeX blocks (inline or display)
+                while True:
+                    # Search for inline LaTeX ($...$)
+                    inline_match = re.search(r'\$(.+?)\$', latex_buffer)
+                    # Search for display LaTeX ($$...$$)
+                    display_match = re.search(r'\$\$(.+?)\$\$', latex_buffer)
+
+                    if inline_match:
+                        # Yield the complete inline LaTeX block
+                        yield inline_match.group(0)
+                        # Remove the yielded block from the buffer
+                        latex_buffer = latex_buffer.replace(inline_match.group(0), '', 1)
+                    elif display_match:
+                        # Yield the complete display LaTeX block
+                        yield display_match.group(0)
+                        # Remove the yielded block from the buffer
+                        latex_buffer = latex_buffer.replace(display_match.group(0), '', 1)
+                    else:
+                        # If no complete LaTeX block is found, break out of the inner loop
+                        break
+
+                # Yield any remaining non-LaTeX text before the next LaTeX block (if any)
+                if not re.search(r'[\$]', latex_buffer):
+                    yield latex_buffer
+                    latex_buffer = ""
+
+        # Yield any remaining content in the buffer after processing all chunks
+        if latex_buffer:
+            yield latex_buffer
+
     except Exception as e:
         print(str(e))
-        return f"Unable to generate hint: {str(e)}"
+        yield f"Unable to generate hint: {str(e)}"
 
 def get_random_client():
     """Get a random client from the available clients."""
@@ -624,3 +665,4 @@ def analyze_images(image_paths):
 
 if __name__ == "__main__":
     pass
+
