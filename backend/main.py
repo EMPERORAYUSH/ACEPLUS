@@ -911,7 +911,7 @@ def upload_images():
     uploaded_files = []
     
     for file in files:
-        if file and allowed_file(file.filename):
+        if file and allowed_file(file.filename, ALLOWED_EXTENSIONS):
             filename = secure_filename(file.filename)
             timestamp = int(time.time())
             unique_filename = f"{current_user}_{timestamp}_{filename}"
