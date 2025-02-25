@@ -1695,17 +1695,21 @@ const CreateTest = () => {
   };
 
   const handleImageUpload = async (event) => {
-    const files = event?.target?.files || pendingUploadEvent;
-    
     if (!hasAgreedToPrivacy) {
-      setPendingUploadEvent(files);
-      setShowPrivacyNotice(true);
-      if (event?.target) {
-        event.target.value = '';  // Reset file input
+      // Convert FileList to Array and store it to ensure we keep the actual file references
+      if (event?.target?.files) {
+        const filesArray = Array.from(event.target.files);
+        setPendingUploadEvent(filesArray);
+        setShowPrivacyNotice(true);
+        // Reset file input
+        event.target.value = '';
       }
       return;
     }
 
+    // Use either the event.target.files or the pendingUploadEvent
+    const files = event?.target?.files ? Array.from(event.target.files) : pendingUploadEvent;
+    
     if (files && files.length > 0) {
       setIsUploading(true);
       const formData = new FormData();
@@ -1750,6 +1754,10 @@ const CreateTest = () => {
       } finally {
         setIsUploading(false);
         setPendingUploadEvent(null);
+        // Reset file input if it exists
+        if (event?.target) {
+          event.target.value = '';
+        }
       }
     }
   };
@@ -1846,8 +1854,72 @@ const CreateTest = () => {
   const handleAgreeToPrivacy = () => {
     setHasAgreedToPrivacy(true);
     setShowPrivacyNotice(false);
-    if (pendingUploadEvent) {
-      handleImageUpload();  // No need to create artificial event
+    
+    // Get the current file list
+    const files = pendingUploadEvent;
+    
+    if (files && files.length > 0) {
+      // Create a new FormData for the API call
+      const formData = new FormData();
+      setIsUploading(true);
+      
+      // Add each file to the form data
+      let hasValidFiles = true;
+      for (let i = 0; i < files.length; i++) {
+        const file = files[i];
+        
+        // Validate file size
+        if (file.size > 16 * 1024 * 1024) {
+          toast.error(`File ${file.name} is too large. Maximum size is 16MB.`);
+          setIsUploading(false);
+          hasValidFiles = false;
+          break;
+        }
+        
+        // Validate file type
+        if (!file.type.startsWith('image/')) {
+          toast.error(`File ${file.name} is not an image.`);
+          setIsUploading(false);
+          hasValidFiles = false;
+          break;
+        }
+        
+        // Add valid file to form data
+        formData.append(`image_${i}`, file);
+      }
+      
+      // If all files are valid, proceed with upload
+      if (hasValidFiles) {
+        api.uploadImages(formData)
+          .then(response => {
+            if (response?.files?.length > 0) {
+              return Promise.all(response.files.map(async filename => {
+                const imageResponse = await api.getUploadedImage(filename);
+                const imageBlob = await imageResponse.blob();
+                return {
+                  url: URL.createObjectURL(imageBlob),
+                  filename
+                };
+              }));
+            } else {
+              throw new Error('No files were uploaded');
+            }
+          })
+          .then(newImages => {
+            setUploadedImages(prev => [...prev, ...newImages]);
+            toast.success('Images uploaded successfully!');
+          })
+          .catch(error => {
+            console.error('Error uploading images:', error);
+            toast.error(error.message || 'Failed to upload images. Please try again.');
+          })
+          .finally(() => {
+            setIsUploading(false);
+            setPendingUploadEvent(null);
+          });
+      } else {
+        setPendingUploadEvent(null);
+      }
     }
   };
 
