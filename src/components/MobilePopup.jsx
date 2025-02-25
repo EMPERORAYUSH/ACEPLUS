@@ -80,6 +80,8 @@ const CloseButton = styled(motion.button)`
   justify-content: center;
   color: rgba(255, 255, 255, 0.8);
   z-index: 10000;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
   
   &:hover {
     color: #fff;
