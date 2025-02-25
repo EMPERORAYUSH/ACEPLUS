@@ -1790,10 +1790,12 @@ const CreateTest = () => {
         onProgress: (progress) => {
           if (progress.total > 0) {
             setShowProgressBar(true);
-            clearInterval(messageInterval);
-            setLoadingMessages(["Processing questions..."]);
             setJobProgress(progress);
           }
+        },
+        onMessage: (message) => {
+          clearInterval(messageInterval);
+          setLoadingMessages([message]);
         }
       });
 
@@ -1804,17 +1806,7 @@ const CreateTest = () => {
         return;
       }
 
-      // Update progress to show actual number of questions
-      const finalProgress = {
-        completed: questions.length,
-        total: questions.length
-      };
-      setJobProgress(finalProgress);
-      setLoadingMessages(["Generation Complete!"]);
-      
-      // Wait for 2 seconds
-      await new Promise(resolve => setTimeout(resolve, 2000));
-
+      // Format questions with unique IDs
       const formattedQuestions = questions.map(q => ({
         ...q,
         isEditing: false,

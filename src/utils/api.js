@@ -210,51 +210,127 @@ export const api = {
   generateFromImages: async (filenames, {
     onProgress = () => {},
     onMessage = () => {},
+    timeout = 120000 // 2 minute timeout
   } = {}) => {
     try {
-      // Start the job
-      const startResponse = await apiRequest('api/generate_from_images', {
-        method: 'POST',
-        body: JSON.stringify({ filenames })
+      // Create a query string with the filenames
+      const params = new URLSearchParams();
+      filenames.forEach(filename => params.append('filenames', filename));
+      
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeout);
+
+      const response = await fetch(`${API_BASE_URL}/api/generate_from_images?${params.toString()}`, {
+        method: 'GET',
+        credentials: 'include',
+        headers: getDefaultHeaders(),
+        signal: controller.signal
       });
 
-      const jobId = startResponse.job_id;
-      console.log('Job started with ID:', jobId);
+      if (!response.ok) {
+        clearTimeout(timeoutId);
+        throw new Error(`Failed to generate from images: ${response.statusText}`);
+      }
 
-      // Return a Promise that resolves when processing is complete
-      return new Promise((resolve, reject) => {
-        const pollJob = async () => {
-          try {
-            const status = await apiRequest(`api/check_job_status/${jobId}`, {
-              method: 'GET'
-            });
-            
-            if (status.status === 'processing') {
-              if (status.total > 0) {
-                onProgress({
-                  completed: status.completed || 0,
-                  total: status.total
-                });
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder('utf-8');
+      let buffer = '';
+      let questions = [];
+      let totalQuestions = 0;
+
+      try {
+        onMessage('Starting image processing...');
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          
+          // Process complete SSE blocks separated by double newline
+          const blocks = buffer.split("\n\n");
+          buffer = blocks.pop() || '';
+
+          for (const block of blocks) {
+            const lines = block.split("\n");
+            let eventType = '';
+            let dataLine = '';
+            for (const line of lines) {
+              if (line.startsWith('event: ')) {
+                eventType = line.replace('event: ', '').trim();
+              } else if (line.startsWith('data: ')) {
+                dataLine = line.replace('data: ', '').trim();
               }
-              // Continue polling
-              setTimeout(pollJob, 1000);
-            } else if (status.status === 'completed') {
-              if (status.questions && Array.isArray(status.questions)) {
-                resolve(status.questions);
-              } else {
-                reject(new Error('No questions could be extracted from the images'));
-              }
-            } else if (status.status === 'failed') {
-              reject(new Error(status.message || 'Failed to process images'));
             }
-          } catch (error) {
-            reject(error);
-          }
-        };
 
-        // Start polling
-        pollJob();
-      });
+            if (!eventType || !dataLine) continue;
+
+            try {
+              const data = JSON.parse(dataLine);
+              switch (eventType) {
+                case 'start':
+                  onMessage(data.message || 'Processing images...');
+                  break;
+
+                case 'total':
+                  totalQuestions = data.count;
+                  onProgress({
+                    completed: 0,
+                    total: totalQuestions,
+                    message: `Found ${totalQuestions} questions to process`
+                  });
+                  break;
+
+                case 'progress':
+                  onProgress({
+                    completed: data.count,
+                    total: totalQuestions || data.total || data.count,
+                    message: `Processing question ${data.count} of ${totalQuestions || data.total || data.count}`
+                  });
+                  break;
+
+                case 'result':
+                  if (data.questions && Array.isArray(data.questions)) {
+                    questions = data.questions.map((q, index) => {
+                      const optionsArray = Array.isArray(q.options);
+                      const options = {
+                        a: optionsArray ? q.options[0] : (q.options.A || q.options.a || ''),
+                        b: optionsArray ? q.options[1] : (q.options.B || q.options.b || ''),
+                        c: optionsArray ? q.options[2] : (q.options.C || q.options.c || ''),
+                        d: optionsArray ? q.options[3] : (q.options.D || q.options.d || '')
+                      };
+                      const answer = (q.correct_answer || q.correctAnswer || q.answer || '').toLowerCase();
+                      return {
+                        id: Date.now() + index,
+                        question: q.question || '',
+                        options,
+                        answer,
+                        isEditing: false
+                      };
+                    });
+                    clearTimeout(timeoutId);
+                    return questions;
+                  }
+                  break;
+
+                case 'error':
+                  throw new Error(data.message || 'Failed to process images');
+              }
+            } catch (parseError) {
+              console.error('Error parsing event data:', parseError);
+              continue;
+            }
+          }
+        }
+
+        if (questions.length === 0) {
+          throw new Error('No questions could be extracted from the images');
+        }
+
+        return questions;
+      } finally {
+        clearTimeout(timeoutId);
+        reader.releaseLock();
+      }
     } catch (error) {
       console.error('Error in generateFromImages:', error);
       throw error;
@@ -266,7 +342,4 @@ export const api = {
       'Accept': 'image/*'
     }
   }),
-  checkJobStatus: (jobId) => apiRequest(`api/check_job_status/${jobId}`, {
-    method: 'GET'
-  })
-};
+}

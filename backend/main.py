@@ -51,7 +51,7 @@ try:
     from utils.data_utils import load_json_file, calculate_lesson_analytics, decode_unicode
     from utils.name_utils import generate_memorable_name
     from utils.auth_utils import get_student_class, get_current_user_info
-    from utils.job_utils import allowed_file, cleanup_old_files, cleanup_old_jobs, JOB_QUEUE, JOB_RESULTS, JOB_STATUS, job_processor
+    from utils.job_utils import allowed_file, cleanup_old_files
 
 except ImportError as e:
     print(f"Import Error: {str(e)}")
@@ -84,7 +84,7 @@ CORS(app, resources={
         "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         "allow_headers": ["Content-Type", "Authorization"],
         "supports_credentials": True,
-        "expose_headers": ["Content-Type", "Authorization"],
+        "expose_headers": ["Content-Type", "Authorization", "Cache-Control", "X-Accel-Buffering"],
         "allow_credentials": True
     }
 })
@@ -1139,87 +1139,14 @@ def start_cleanup_scheduler():
 cleanup_thread = threading.Thread(target=start_cleanup_scheduler, daemon=True)
 cleanup_thread.start()
 
-
-def process_images_job(job_id, image_paths):
-    try:
-        print(f"\nStarting job {job_id} for {len(image_paths)} images")
-        JOB_STATUS[job_id] = {
-            "status": "processing",
-            "total": 0,
-            "completed": 0,
-            "start_time": time.time()
-        }
-        print(f"Processing {len(image_paths)} images...")
-        
-        try:
-            questions = []
-            print("\nStarting image analysis stream...")
-            for update in generate.analyze_images(image_paths):
-                print(f"\nReceived update: {json.dumps(update, indent=2)}")
-                
-                if update["type"] == "total":
-                    JOB_STATUS[job_id]["total"] = update["count"]
-                    print(f"Updated total questions count: {update['count']}")
-                elif update["type"] == "progress":
-                    JOB_STATUS[job_id]["completed"] = update["count"]
-                    print(f"Updated completed questions count: {update['count']}")
-                elif update["type"] == "result":
-                    questions = update["questions"]
-                    print(f"Received final questions: {len(questions)}")
-                    print("Questions structure:")
-                    print(json.dumps(questions, indent=2))
-                elif update["type"] == "error":
-                    print(f"Received error update: {update['message']}")
-                    raise Exception(update["message"])
-            
-            if questions:
-                print(f"\nJob completed successfully with {len(questions)} questions")
-                JOB_RESULTS[job_id] = questions
-                JOB_STATUS[job_id]["status"] = "completed"
-                # Ensure final counts are accurate
-                if JOB_STATUS[job_id]["total"] == 0:
-                    JOB_STATUS[job_id]["total"] = len(questions)
-                JOB_STATUS[job_id]["completed"] = len(questions)
-            else:
-                print("\nNo questions were extracted")
-                JOB_STATUS[job_id]["status"] = "failed"
-                JOB_RESULTS[job_id] = "No questions could be extracted from the images"
-                
-        except Exception as e:
-            print(f"Error processing images: {str(e)}")
-            print("Full error details:")
-            print(traceback.format_exc())
-            JOB_STATUS[job_id]["status"] = "failed"
-            JOB_RESULTS[job_id] = str(e)
-            
-    except Exception as e:
-        print(f"Error in job {job_id}: {str(e)}")
-        print("Full error details:")
-        print(traceback.format_exc())
-        JOB_STATUS[job_id]["status"] = "failed"
-        JOB_RESULTS[job_id] = str(e)
-    finally:
-        # Calculate processing time
-        end_time = time.time()
-        processing_time = end_time - JOB_STATUS[job_id].get("start_time", end_time)
-        
-        print(f"\nFinal job status for {job_id}:")
-        print(f"Status: {JOB_STATUS[job_id]['status']}")
-        print(f"Total: {JOB_STATUS[job_id]['total']}")
-        print(f"Completed: {JOB_STATUS[job_id]['completed']}")
-        print(f"Processing time: {processing_time:.2f} seconds")
-
-# Start the job processor thread
-job_thread = threading.Thread(target=job_processor, daemon=True)
-job_thread.start()
-
 # Replace the generate_from_images route
-@app.route("/api/generate_from_images", methods=["POST"])
-@jwt_required()
+@app.route("/api/generate_from_images", methods=["GET"])
 def generate_from_images():
+    """Generate questions from uploaded images using Server-Sent Events."""
     current_user, _ = get_current_user_info()
-    data = request.get_json()
-    filenames = data.get('filenames', [])
+    
+    # Get filenames from query parameters
+    filenames = request.args.getlist('filenames')
     
     if not filenames:
         return jsonify({'message': 'No images provided'}), 400
@@ -1239,84 +1166,66 @@ def generate_from_images():
                 'message': f'Some images were not found: {", ".join(missing_files)}'
             }), 404
             
-        # Generate a unique job ID
-        job_id = str(uuid.uuid4())
+        def generate_sse():
+            """Generator function for SSE"""
+            try:
+                # Send initial message
+                yield "event: start\ndata: {\"message\": \"Starting image processing\"}\n\n"
+                
+                questions = []
+                total_count = 0
+                
+                try:
+                    for update in generate.analyze_images(image_paths):
+                        if update["type"] == "total":
+                            total_count = update["count"]
+                            yield f"event: total\ndata: {json.dumps({'count': update['count']})}\n\n"
+                        elif update["type"] == "progress":
+                            yield f"event: progress\ndata: {json.dumps({'count': update['count'], 'total': total_count})}\n\n"
+                        elif update["type"] == "result":
+                            questions = update["questions"]
+                            yield f"event: result\ndata: {json.dumps({'questions': questions})}\n\n"
+                        elif update["type"] == "error":
+                            yield f"event: error\ndata: {json.dumps({'message': update['message']})}\n\n"
+                            return
+                    
+                    # Verify we have questions
+                    if not questions:
+                        yield f"event: error\ndata: {json.dumps({'message': 'No questions could be extracted from the images'})}\n\n"
+                        return
+                    
+                    # Send completion event
+                    yield f"event: complete\ndata: {json.dumps({'message': 'Processing complete'})}\n\n"
+                    
+                except Exception as e:
+                    print(f"Error processing images: {str(e)}")
+                    print(traceback.format_exc())
+                    yield f"event: error\ndata: {json.dumps({'message': str(e)})}\n\n"
+                    
+            except Exception as e:
+                print(f"Error in SSE stream: {str(e)}")
+                print(traceback.format_exc())
+                yield f"event: error\ndata: {json.dumps({'message': str(e)})}\n\n"
         
-        # Add job to queue
-        JOB_QUEUE.put((job_id, image_paths))
-        
-        return jsonify({
-            'message': 'Image processing started',
-            'job_id': job_id
-        }), 202
+        response = Response(
+            generate_sse(),
+            mimetype='text/event-stream',
+            headers={
+                'Cache-Control': 'no-cache',
+                'Content-Type': 'text/event-stream',
+                'Connection': 'keep-alive',
+                'X-Accel-Buffering': 'no',  # For NGINX compatibility
+                'Access-Control-Allow-Origin': request.headers.get('Origin', '*'),
+                'Access-Control-Allow-Credentials': 'true'
+            }
+        )
+        return response
             
     except Exception as e:
         print(f"Error in generate_from_images: {str(e)}")
         return jsonify({
             'message': f'Error processing images: {str(e)}'
         }), 500
-
-@app.route("/api/check_job_status/<job_id>", methods=["GET"])
-@jwt_required()
-def check_job_status(job_id):
-    job_status = JOB_STATUS.get(job_id)
-    
-    if job_status is None:
-        return jsonify({
-            'status': 'not_found',
-            'message': 'Job not found'
-        }), 404
-        
-    status = job_status["status"]
-    
-    if status == "completed":
-        questions = JOB_RESULTS.get(job_id)
-        # Clean up after sending results
-        del JOB_STATUS[job_id]
-        del JOB_RESULTS[job_id]
-        
-        # Debug print
-        print(f"Questions being returned: {questions}")
-        
-        # Ensure questions is an array
-        if not isinstance(questions, list):
-            print(f"Questions is not a list, type: {type(questions)}")
-            return jsonify({
-                'status': 'failed',
-                'message': 'No questions could be extracted from the images'
-            }), 400
-            
-        if not questions:  # Empty list
-            print("Questions list is empty")
-            return jsonify({
-                'status': 'failed',
-                'message': 'No questions could be extracted from the images'
-            }), 400
-            
-        return jsonify({
-            'status': status,
-            'questions': questions
-        }), 200
-        
-    if status == "failed":
-        error = JOB_RESULTS.get(job_id)
-        # Clean up after sending error
-        del JOB_STATUS[job_id]
-        del JOB_RESULTS[job_id]
-        return jsonify({
-            'status': status,
-            'message': error or 'Failed to process images'
-        }), 400
-        
-    return jsonify({
-        'status': status,
-        'total': job_status.get('total', 0),
-        'completed': job_status.get('completed', 0),
-        'message': 'Job is still processing'
-    }), 200
-
-cleanup_thread = threading.Thread(target=cleanup_old_jobs, daemon=True)
-cleanup_thread.start()
 
 if __name__ == "__main__":
     app.run(
