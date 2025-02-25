@@ -422,6 +422,21 @@ const EnhancedSkeletonLine = styled(motion.div)`
   }
 `;
 
+const UploadProgressBar = styled.div`
+  width: 100%;
+  height: 6px;
+  background-color: #2a2a2a;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 1rem;
+
+  .progress {
+    height: 100%;
+    background-color: #2196f3;
+    transition: width 0.3s ease;
+  }
+`;
+
 const QuestionGenerationSkeleton = styled(motion.div)`
   margin: 2rem 0;
   position: relative;
@@ -499,29 +514,20 @@ const SkeletonQuestion = styled(motion.div)`
 `;
 
 const PageHeader = styled(motion.div)`
-  margin-bottom: 2rem;
-  padding-top: 1.5rem;
   text-align: center;
+  margin-bottom: 2rem;
   
   h1 {
-    font-weight: 700;
-    font-size: 2.2rem;
-    letter-spacing: -0.5px;
-    color: #ffffff;
-    margin-bottom: 1.5rem;
-    text-transform: uppercase;
-    background: linear-gradient(135deg, #ffffff 0%, #b3b3b3 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0;
   }
 `;
 
 const Container = styled.div`
-  max-width: 800px;
-  margin: 0 auto;
   padding: 2rem;
-  padding-bottom: 4rem;
-  font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 const TestInfo = styled.div`
@@ -959,24 +965,19 @@ const ImageLoadingSkeleton = styled(motion.div)`
 `;
 
 const SkeletonContent = styled.div`
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  position: relative;
-  z-index: 1;
+  padding: 1rem;
+  width: 100%;
 `;
 
-const ImagePreviewContainer = styled(motion.div)`
+const ImagePreviewContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
-  margin-top: 1rem;
-  justify-items: center;
-
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  }
+  width: 100%;
+  padding: 1rem;
 `;
 
 const ImagePreview = styled(motion.div)`
@@ -1554,6 +1555,7 @@ const CreateTest = () => {
   const [loadingMessages, setLoadingMessages] = useState([]);
   const [showProgressBar, setShowProgressBar] = useState(false);
   const [newQuestionIds, setNewQuestionIds] = useState(new Set());
+  const [uploadProgress, setUploadProgress] = useState(0);
 
   useEffect(() => {
     if (location.state?.generatedTest) {
@@ -1712,6 +1714,7 @@ const CreateTest = () => {
     
     if (files && files.length > 0) {
       setIsUploading(true);
+      setUploadProgress(0);
       const formData = new FormData();
       
       // Validate file sizes and types before upload
@@ -1731,7 +1734,9 @@ const CreateTest = () => {
       }
 
       try {
-        const response = await api.uploadImages(formData);
+        const response = await api.uploadImages(formData, (progress) => {
+          setUploadProgress(progress);
+        });
         
         if (response?.files?.length > 0) {
           const newImages = await Promise.all(response.files.map(async filename => {
@@ -1753,6 +1758,7 @@ const CreateTest = () => {
         toast.error(error.message || 'Failed to upload images. Please try again.');
       } finally {
         setIsUploading(false);
+        setUploadProgress(0);
         setPendingUploadEvent(null);
         // Reset file input if it exists
         if (event?.target) {
@@ -2069,6 +2075,15 @@ const CreateTest = () => {
                           <SkeletonLine height="20px" width="80%" />
                           <SkeletonLine height="20px" width="70%" />
                           <SkeletonLine height="20px" width="75%" />
+                          <UploadProgressBar>
+                            <div 
+                              className="progress" 
+                              style={{ width: `${uploadProgress}%` }} 
+                            />
+                          </UploadProgressBar>
+                          <div style={{ textAlign: 'center', marginTop: '0.5rem', color: '#fff' }}>
+                            {uploadProgress.toFixed(0)}% Uploaded
+                          </div>
                         </SkeletonContent>
                       </ImageLoadingSkeleton>
                     )}

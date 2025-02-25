@@ -203,10 +203,43 @@ export const api = {
     method: 'POST',
     body: JSON.stringify(data)
   }),
-  uploadImages: (formData) => apiRequest(endpoints.uploadImages, {
-    method: 'POST',
-    body: formData
-  }),
+  uploadImages: (formData, onProgress = () => {}) => {
+    return new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      
+      xhr.upload.addEventListener('progress', (event) => {
+        if (event.lengthComputable) {
+          const percentComplete = (event.loaded / event.total) * 100;
+          onProgress(percentComplete);
+        }
+      });
+
+      xhr.addEventListener('load', () => {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          resolve(JSON.parse(xhr.responseText));
+        } else {
+          reject(new Error(`Upload failed with status ${xhr.status}`));
+        }
+      });
+
+      xhr.addEventListener('error', () => {
+        reject(new Error('Upload failed'));
+      });
+
+      xhr.open('POST', `${API_BASE_URL}/api/upload_images`);
+      
+      // Add headers from getDefaultHeaders()
+      const headers = getDefaultHeaders();
+      Object.entries(headers).forEach(([key, value]) => {
+        if (key !== 'Content-Type') { // Skip Content-Type as it's set automatically for FormData
+          xhr.setRequestHeader(key, value);
+        }
+      });
+      
+      xhr.withCredentials = true;
+      xhr.send(formData);
+    });
+  },
   generateFromImages: async (filenames, {
     onProgress = () => {},
     onMessage = () => {},
