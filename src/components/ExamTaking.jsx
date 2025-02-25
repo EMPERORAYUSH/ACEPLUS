@@ -1072,7 +1072,7 @@ const handleHintRequest = async (questionId, questionText) => {
       setVisibleHints(prev => {
           const newState = { ...prev, [questionId]: !prev[questionId] };
           if (newState[questionId]) {
-              setCurrentHint({ id: questionId, text: HintContent[questionId] || hints[questionId] });
+              setCurrentHint({ id: questionId, text: hints[questionId] });
           } else {
               setCurrentHint(null);
           }

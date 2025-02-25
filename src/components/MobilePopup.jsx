@@ -106,13 +106,25 @@ const MobilePopup = ({ isOpen, onClose, children, title }) => {
   };
 
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
+    const checkIfMobile = () => window.innerWidth <= 768;
+    const updateOverflow = () => {
+      if (isOpen && checkIfMobile()) {
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = '';
+      }
+    };
+    
+    // Initial check
+    updateOverflow();
+    
+    // Add resize listener
+    window.addEventListener('resize', updateOverflow);
+    
+    // Cleanup
     return () => {
       document.body.style.overflow = '';
+      window.removeEventListener('resize', updateOverflow);
     };
   }, [isOpen]);
 
