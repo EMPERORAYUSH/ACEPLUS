@@ -347,6 +347,10 @@ export const api = {
 
                 case 'error':
                   throw new Error(data.message || 'Failed to process images');
+
+                default:
+                  console.warn(`Unhandled event type: ${eventType}`);
+                  break;
               }
             } catch (parseError) {
               console.error('Error parsing event data:', parseError);
