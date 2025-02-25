@@ -8,8 +8,7 @@ import styled from 'styled-components';
 import CopyableExamId from './CopyableExamId';
 import { api } from '../utils/api';
 import 'katex/dist/katex.min.css';
-import { InlineMath, BlockMath } from 'react-katex';
-import { IoClose } from 'react-icons/io5';
+import { InlineMath } from 'react-katex';
 import MobilePopup from './MobilePopup';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -54,30 +53,6 @@ const ReportButton = styled(motion.button)`
   
   &:disabled {
     cursor: default;
-  }
-`;
-
-const CloseButton = styled(motion.button)`
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffd700;
-  z-index: 1001;
-  
-  &:hover {
-    color: #fff;
-  }
-  
-  svg {
-    width: 24px;
-    height: 24px;
   }
 `;
 
@@ -253,51 +228,6 @@ const HintContent = styled.div`
   }
 `;
 
-const MobileHintPopup = styled(motion.div)`
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(18, 18, 18, 0.95);
-  backdrop-filter: blur(10px);
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding: 1.5rem;
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  border-top: 1px solid rgba(255, 215, 0, 0.2);
-  max-height: 70vh;
-  overflow-y: auto;
-  
-  .hint-content {
-    color: #ffd700;
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-top: 0.5rem;
-  }
-
-  .hint-header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    color: #ffd700;
-    font-weight: 600;
-  }
-
-  .drag-handle {
-    width: 40px;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 2px;
-    margin: -0.5rem auto 1rem;
-  }
-
-  @media (min-width: 769px) {
-    display: none;
-  }
-`;
-
 const ExamContainer = styled.div`
   max-width: 800px;
   margin: 0 auto;
@@ -316,10 +246,6 @@ const ExamContainer = styled.div`
   }
 `;
 
-const OptionContainer = styled(motion.div)`
-  -webkit-tap-highlight-color: transparent;
-  user-select: none;
-`;
 
 const IconContainer = ({ status, index }) => {
   return (
@@ -542,14 +468,6 @@ const RippleContainer = styled(motion.div)`
   border-radius: 8px;
 `;
 
-const Ripple = styled(motion.span)`
-  position: absolute;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3);
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-`;
-
 const Option = styled(motion.div)`
   background: rgba(255, 255, 255, 0.05);
   padding: 1rem 1.2rem;
@@ -660,10 +578,6 @@ const HintSkeletonLoader = styled(motion.div)`
   }
 `;
 
-const HintWord = styled(motion.span)`
-  display: inline-block;
-  margin-right: 4px;
-`;
 
 // Function to parse markdown tables
 const parseMarkdownTable = (text) => {
@@ -756,11 +670,6 @@ const renderLatexText = (text) => {
   });
 };
 
-// Function to render a table cell with LaTeX support
-const renderTableCell = (content) => {
-  return <TableCell>{renderLatexText(content)}</TableCell>;
-};
-
 // Update the renderTable function to support LaTeX
 const renderTable = (tableData) => {
   return (
@@ -829,10 +738,6 @@ const HintToggleButton = styled(motion.button)`
     font-size: 1.2rem;
   }
 `;
-
-const iconStyles = {
-  fontSize: '1.2rem',
-};
 
 const questionCardVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -931,9 +836,7 @@ const ExamTaking = () => {
   const [hints, setHints] = useState({});
   const [loadingHints, setLoadingHints] = useState({});
   const [visibleHints, setVisibleHints] = useState({});
-  const [currentHint, setCurrentHint] = useState(null); // For mobile view
-  const [showMobileHint, setShowMobileHint] = useState(false);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentHint, setCurrentHint] = useState(null);
 
   useEffect(() => {
     const fetchExamData = async () => {
@@ -1104,15 +1007,6 @@ const handleHintRequest = async (questionId, questionText) => {
   if (!examData) {
     return <div>Exam not found</div>;
   }
-
-  const lessonStyle = {
-    display: 'inline-block',
-    backgroundColor: '#2a2a2a',
-    padding: '4px 8px',
-    margin: '0 4px 4px 0',
-    borderRadius: '3px',
-    fontSize: '0.9em',
-  };
 
   return (
     <ExamWrapper>
