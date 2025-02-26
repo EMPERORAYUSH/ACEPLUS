@@ -1132,7 +1132,7 @@ def recalculate_leaderboard_route():
 # Run cleanup every hour
 def start_cleanup_scheduler():
     while True:
-        cleanup_old_files(os.environ.get('UPLOAD_FOLDER'))
+        cleanup_old_files(app.config['UPLOAD_FOLDER'])
         time.sleep(3600)
 
 # Start cleanup thread when app starts
@@ -1141,6 +1141,7 @@ cleanup_thread.start()
 
 # Replace the generate_from_images route
 @app.route("/api/generate_from_images", methods=["GET"])
+@jwt_required()
 def generate_from_images():
     """Generate questions from uploaded images using Server-Sent Events."""
     current_user, _ = get_current_user_info()
