@@ -578,6 +578,22 @@ const HintSkeletonLoader = styled(motion.div)`
   }
 `;
 
+// Add a styled component for the hint content wrapper
+const HintContentWrapper = styled.div`
+  position: relative;
+  
+  .hint-text {
+    color: #ffd700;
+    line-height: 1.6;
+  }
+
+  .hint-loading-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+  }
+`;
 
 // Function to parse markdown tables
 const parseMarkdownTable = (text) => {
@@ -882,7 +898,7 @@ const handleHintRequest = async (questionId, questionText) => {
   if (loadingHints[questionId]) return;
 
   setLoadingHints(prev => ({ ...prev, [questionId]: true }));
-  setVisibleHints(prev => ({ ...prev, [questionId]: false }));
+  setVisibleHints(prev => ({ ...prev, [questionId]: true }));
   setHints(prev => ({ ...prev, [questionId]: '' }));
 
   try {
@@ -890,10 +906,6 @@ const handleHintRequest = async (questionId, questionText) => {
       onProgress: (chunk) => {
         setHints(prev => {
           const newHintText = (prev[questionId] || '') + chunk;
-          // Only set visibleHints to true if it was previously false and we have content
-          if (!prev[questionId]) {
-            setVisibleHints(currentVisibleHints => ({ ...currentVisibleHints, [questionId]: true }));
-          }
           setCurrentHint({ id: questionId, text: newHintText });
           return {
             ...prev,
@@ -1209,53 +1221,62 @@ const handleHintRequest = async (questionId, questionText) => {
                   </span>
                 </HintToggleButton>
 
-                {loadingHints[question.uniqueId] && (
-                    <>
-                      <HintSkeletonLoader
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 80 }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
-                      />
-                      <LoadingDots
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        {[...Array(3)].map((_, i) => (
-                          <motion.div
-                            key={i}
-                            animate={{
-                              y: [-3, 3, -3],
-                              opacity: [0.4, 1, 0.4]
-                            }}
-                            transition={{
-                              y: {
-                                duration: 1.2,
-                                repeat: Infinity,
-                                delay: i * 0.2
-                              },
-                              opacity: {
-                                duration: 1.2,
-                                repeat: Infinity,
-                                delay: i * 0.2
-                              }
-                            }}
-                          />
-                        ))}
-                      </LoadingDots>
-                    </>
-                  )}
                 {hints[question.uniqueId] && visibleHints[question.uniqueId] && (
                   <HintContainer>
-                    <ReactMarkdown
-                      key={hints[question.uniqueId]}
-                      remarkPlugins={[remarkGfm, remarkMath]}
-                      rehypePlugins={[rehypeKatex]}
-                    >
-                      {hints[question.uniqueId]}
-                    </ReactMarkdown>
+                    <HintContentWrapper>
+                      {loadingHints[question.uniqueId] ? (
+                        <>
+                          <div className="hint-text">
+                            <ReactMarkdown
+                              key={hints[question.uniqueId]}
+                              remarkPlugins={[remarkGfm, remarkMath]}
+                              rehypePlugins={[rehypeKatex]}
+                            >
+                              {hints[question.uniqueId] || "Generating hint..."}
+                            </ReactMarkdown>
+                          </div>
+                          <LoadingDots
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="hint-loading-indicator"
+                          >
+                            {[...Array(3)].map((_, i) => (
+                              <motion.div
+                                key={i}
+                                animate={{
+                                  y: [-3, 3, -3],
+                                  opacity: [0.4, 1, 0.4]
+                                }}
+                                transition={{
+                                  y: {
+                                    duration: 1.2,
+                                    repeat: Infinity,
+                                    delay: i * 0.2
+                                  },
+                                  opacity: {
+                                    duration: 1.2,
+                                    repeat: Infinity,
+                                    delay: i * 0.2
+                                  }
+                                }}
+                              />
+                            ))}
+                          </LoadingDots>
+                        </>
+                      ) : (
+                        <div className="hint-text">
+                          <ReactMarkdown
+                            key={hints[question.uniqueId]}
+                            remarkPlugins={[remarkGfm, remarkMath]}
+                            rehypePlugins={[rehypeKatex]}
+                          >
+                            {hints[question.uniqueId]}
+                          </ReactMarkdown>
+                        </div>
+                      )}
+                    </HintContentWrapper>
                   </HintContainer>
                 )}
               </motion.div>
@@ -1415,13 +1436,60 @@ const handleHintRequest = async (questionId, questionText) => {
         <HintContent>
           <div className="hint-content">
             {currentHint && (
-              <ReactMarkdown
-                key={currentHint.text}
-                remarkPlugins={[remarkGfm, remarkMath]}
-                rehypePlugins={[rehypeKatex]}
-              >
-                {currentHint.text}
-              </ReactMarkdown>
+              <HintContentWrapper>
+                {currentHint && loadingHints[currentHint.id] ? (
+                  <>
+                    <div className="hint-text">
+                      <ReactMarkdown
+                        key={currentHint.text}
+                        remarkPlugins={[remarkGfm, remarkMath]}
+                        rehypePlugins={[rehypeKatex]}
+                      >
+                        {currentHint.text || "Generating hint..."}
+                      </ReactMarkdown>
+                    </div>
+                    <LoadingDots
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.3 }}
+                      className="hint-loading-indicator"
+                    >
+                      {[...Array(3)].map((_, i) => (
+                        <motion.div
+                          key={i}
+                          animate={{
+                            y: [-3, 3, -3],
+                            opacity: [0.4, 1, 0.4]
+                          }}
+                          transition={{
+                            y: {
+                              duration: 1.2,
+                              repeat: Infinity,
+                              delay: i * 0.2
+                            },
+                            opacity: {
+                              duration: 1.2,
+                              repeat: Infinity,
+                              delay: i * 0.2
+                            }
+                          }}
+                        />
+                      ))}
+                    </LoadingDots>
+                  </>
+                ) : (
+                  <div className="hint-text">
+                    <ReactMarkdown
+                      key={currentHint?.text}
+                      remarkPlugins={[remarkGfm, remarkMath]}
+                      rehypePlugins={[rehypeKatex]}
+                    >
+                      {currentHint?.text}
+                    </ReactMarkdown>
+                  </div>
+                )}
+              </HintContentWrapper>
             )}
           </div>
         </HintContent>

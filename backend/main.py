@@ -40,6 +40,7 @@ try:
         get_user_stats,
         get_user_subjects,
         update_exam,
+        update_exam_solution,
         update_user_stats_after_exam,
         db9,
         db10,
@@ -343,23 +344,9 @@ def submit_exam(exam_id):
                 }
             )
 
-    # Generate solutions if there are any incorrect answers
-    if questions_needing_solutions:
-        try:
-            solutions = generate.generate_solutions_batch(questions_needing_solutions)
-
-            # Map solutions back to results
-            for solution in solutions:
-                for i, result in enumerate(initial_results):
-                    if result["question"] == solution["question"]:
-                        initial_results[i]["solution"] = solution["solution"]
-                        break
-
-        except Exception as e:
-            print(f"Error generating solutions: {e}")
-            # Continue without solutions if generation fails
-            pass
-
+    # We no longer generate solutions during submission
+    # Solutions will be generated on demand via the new API endpoint
+    
     percentage = (score / total_questions) * 100
 
     # Calculate lesson-wise analytics
@@ -387,6 +374,7 @@ def submit_exam(exam_id):
         "submission_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         "test": exam.get("test", False),
         "performance_analysis": perf_analysis,
+        "questions_needing_solutions": [q["index"] for q in questions_needing_solutions],
     }
 
     # If it's a test submission
@@ -451,6 +439,7 @@ def submit_exam(exam_id):
                 "total_questions": total_questions,
                 "percentage": percentage,
                 "results": initial_results,
+                "questions_needing_solutions": [q["index"] for q in questions_needing_solutions],
             }
         ), 200
     else:
@@ -477,6 +466,98 @@ def generate_hint_route():
     except Exception as e:
         print(f"Error generating hint: {e}")
         return jsonify({"message": f"Error generating hint: {str(e)}"}), 500
+
+@app.route("/api/generate_solution", methods=["POST"])
+@jwt_required()
+def generate_solution_route():
+    """Generate a solution for a specific question in an exam and update the database."""
+    current_user, is_class10 = get_current_user_info()
+    data = request.get_json()
+    
+    exam_id = data.get("examId")
+    question_index = data.get("questionIndex")
+    
+    if not all([exam_id, question_index is not None]):
+        return jsonify({"message": "Exam ID and question index are required"}), 400
+    
+    # Convert question_index to integer if it's a string
+    if isinstance(question_index, str):
+        try:
+            question_index = int(question_index)
+        except ValueError:
+            return jsonify({"message": "Question index must be a valid integer"}), 400
+    
+    # Get the exam data
+    exam = get_exam(exam_id, is_class10)
+    if not exam:
+        return jsonify({"message": "Exam not found"}), 404
+    
+    # Check if user is authorized to access this exam
+    if exam["userId"] != current_user:
+        return jsonify({"message": "Unauthorized access to exam"}), 401
+    
+    # Check if the exam has results
+    if not exam.get("results") or question_index >= len(exam["results"]):
+        return jsonify({"message": "Invalid question index or exam has no results"}), 400
+    
+    # Get the question data
+    result = exam["results"][question_index]
+    question_text = result["question"]
+    
+    # Extract correct and selected answers (removing the option prefix like "a) ")
+    correct_answer = result["correct_answer"]
+    selected_answer = result["selected_answer"]
+    
+    # Extract just the answer text by removing the option prefix
+    correct_answer_text = correct_answer.split(") ", 1)[1] if ") " in correct_answer else correct_answer
+    selected_answer_text = selected_answer.split(") ", 1)[1] if ") " in selected_answer else selected_answer
+    
+    # Get the original question to access its options
+    original_question = None
+    for i, q in enumerate(exam["questions"]):
+        if q["question"] == question_text:
+            original_question = q
+            break
+    
+    if not original_question:
+        return jsonify({"message": "Question not found in exam"}), 404
+    
+    # Get the options
+    options = original_question["options"]
+    
+    try:
+        # Return a streaming response
+        def generate_and_save():
+            # Collect the full solution
+            full_solution = ""
+            
+            # Stream the solution
+            for chunk in generate.generate_solution_stream(
+                question_text, 
+                correct_answer_text, 
+                selected_answer_text, 
+                options
+            ):
+                # Append to the full solution
+                full_solution += chunk
+                # Yield the chunk for streaming
+                yield chunk
+            
+            # After streaming is complete, save the solution to the database
+            try:
+                update_exam_solution(exam_id, question_index, full_solution, is_class10)
+            except Exception as e:
+                print(f"Error saving solution to database: {e}")
+                # We don't want to interrupt the stream, so just log the error
+        
+        return Response(
+            generate_and_save(),
+            mimetype='text/event-stream',
+            headers={'Cache-Control': 'no-cache'} # Ensure no caching
+        )
+    except Exception as e:
+        print(f"Error generating solution: {e}")
+        return jsonify({"message": f"Error generating solution: {str(e)}"}), 500
 
 @app.route("/api/exam/<exam_id>", methods=["GET"])
 @jwt_required()
