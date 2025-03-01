@@ -388,6 +388,48 @@ def update_exam(exam_id, updated_data, class10=False):
         print(f"No exam found with id {exam_id}")
         return False
 
+def update_exam_solution(exam_id, question_index, solution, class10=False):
+    """
+    Updates a specific question's solution in an exam.
+    
+    Args:
+        exam_id: The ID of the exam
+        question_index: The index of the question in the results array
+        solution: The solution text to add
+        class10: Whether this is for class 10
+        
+    Returns:
+        bool: True if the update was successful, False otherwise
+    """
+    class_num = 10 if class10 else 9
+    db = db10 if class10 else db9
+    
+    # Get the exam first to ensure it exists and has results
+    exam = get_exam(exam_id, class10)
+    if not exam or 'results' not in exam or question_index >= len(exam['results']):
+        print(f"Exam {exam_id} not found or question index {question_index} out of range")
+        return False
+    
+    # Update the solution in the results array
+    update_field = f'results.{question_index}.solution'
+    result = db['Exams'].update_one(
+        {'exam-id': exam_id}, 
+        {'$set': {update_field: solution}}
+    )
+    
+    # Also update in RAM if available
+    if exam_id in data_store[class_num]['collections'][3]['Exams']:
+        if 'results' in data_store[class_num]['collections'][3]['Exams'][exam_id]:
+            if question_index < len(data_store[class_num]['collections'][3]['Exams'][exam_id]['results']):
+                data_store[class_num]['collections'][3]['Exams'][exam_id]['results'][question_index]['solution'] = solution
+    
+    if result.modified_count > 0:
+        print(f"Solution for question {question_index} in exam {exam_id} updated successfully")
+        return True
+    else:
+        print(f"Failed to update solution for question {question_index} in exam {exam_id}")
+        return False
+
 def get_user_exams(user_id, class10=False):
     """Retrieves all exams for a given user."""
     class_num = 10 if class10 else 9

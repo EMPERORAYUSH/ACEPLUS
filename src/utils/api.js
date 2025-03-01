@@ -122,6 +122,7 @@ export const endpoints = {
   createExam: 'api/create_exam',
   submitExam: (examId) => `api/submit_exam/${examId}`,
   generateHint: 'api/generate_hint',
+  generateSolution: 'api/generate_solution',
   getExam: (examId) => `api/exam/${examId}`,
   getLessons: (subject, isClass10) => `api/lessons?subject=${subject}${isClass10 ? '&class10=true' : ''}`,
   getTests: 'api/tests',
@@ -182,6 +183,39 @@ export const api = {
           }
       } catch (error) {
           console.error('Error reading stream:', error);
+          throw error;
+      } finally {
+          reader.releaseLock();
+      }
+    },
+    generateSolution: async (examId, questionIndex, { onProgress = () => {} } = {}) => {
+      const response = await apiRequest(endpoints.generateSolution, {
+        method: 'POST',
+        body: JSON.stringify({ examId, questionIndex }),
+      });
+
+      if (!response.ok) {
+          throw new Error(`Failed to generate solution: ${response.statusText}`);
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder('utf-8');
+      let buffer = '';
+
+      try {
+          while (true) {
+              const { done, value } = await reader.read();
+              if (done) {
+                  break;
+              }
+              buffer += decoder.decode(value, { stream: true });
+
+              // Process the buffer immediately
+              onProgress(buffer);
+              buffer = ''; // Clear the buffer after processing
+          }
+      } catch (error) {
+          console.error('Error reading solution stream:', error);
           throw error;
       } finally {
           reader.releaseLock();

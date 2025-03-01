@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { FaChartLine, FaLightbulb, FaExclamationTriangle, FaCheckCircle, FaEye, FaEyeSlash } from 'react-icons/fa';
-import { motion } from 'framer-motion';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
+import { motion, AnimatePresence } from 'framer-motion';
 import styled from 'styled-components';
 import CopyableExamId from './CopyableExamId';
 import { api } from '../utils/api';
@@ -1227,15 +1228,116 @@ const GradeIndicator = styled.div`
   }
 `;
 
+// Add new styled components for solution loading
+const LoadingDots = styled(motion.div)`
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 0;
+  margin-top: 8px;
+
+  div {
+    width: 8px;
+    height: 8px;
+    background: rgba(244, 67, 54, 0.4);
+    border-radius: 50%;
+  }
+`;
+
+const SolutionSkeletonLoader = styled(motion.div)`
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: rgba(244, 67, 54, 0.05);
+  border: 1px solid rgba(244, 67, 54, 0.1);
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+
+  &::before {
+    background: linear-gradient(
+      90deg,
+      transparent 25%,
+      rgba(244, 67, 54, 0.2) 50%,
+      transparent 75%
+    );
+    transform: translateX(-150%);
+    animation: shimmer 1.5s infinite, pulse 2s infinite;
+  }
+
+  &::after {
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(244, 67, 54, 0.03) 0px,
+      rgba(244, 67, 54, 0.03) 10px,
+      rgba(244, 67, 54, 0.06) 10px,
+      rgba(244, 67, 54, 0.06) 20px
+    );
+  }
+
+  @keyframes shimmer {
+    0% { transform: translateX(-150%); }
+    100% { transform: translateX(150%); }
+  }
+
+  @keyframes pulse {
+    0% { opacity: 0.9; }
+    50% { opacity: 0.7; }
+    100% { opacity: 0.9; }
+  }
+`;
+
+// Add a notification component
+const AutoGenerateNotification = styled(motion.div)`
+  background: rgba(33, 150, 243, 0.1);
+  border: 1px solid rgba(33, 150, 243, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #2196f3;
+  font-size: 0.95rem;
+  
+  svg {
+    font-size: 1.2rem;
+  }
+`;
+
 const ExamResults = () => {
   const { id } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [results, setResults] = useState(null);
   const [examData, setExamData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [visibleSolutions, setVisibleSolutions] = useState({});
   const [mobilePopupContent, setMobilePopupContent] = useState(null);
+  const [loadingSolutions, setLoadingSolutions] = useState({});
+  const [generatedSolutions, setGeneratedSolutions] = useState({});
+  const [showSolutionLoader, setShowSolutionLoader] = useState({});
+  const [hasReceivedFirstResponse, setHasReceivedFirstResponse] = useState({});
+
+  // Add resize listener to update isMobile state
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const fetchResults = async () => {
@@ -1270,31 +1372,174 @@ const ExamResults = () => {
     fetchResults();
   }, [id, navigate, location.state]);
 
-  const toggleSolution = (questionNo) => {
-    setVisibleSolutions(prev => ({
+  const toggleSolution = (questionNo, questionIndex) => {
+    // If solution is already visible, hide it
+    if (visibleSolutions[questionNo]) {
+      setVisibleSolutions(prev => ({
+        ...prev,
+        [questionNo]: false
+      }));
+      return;
+    }
+    
+    // If we're showing the solution and it hasn't been generated yet, generate it
+    const result = results[questionIndex];
+    const hasSolution = result.solution && result.solution.trim() !== '';
+    const hasGeneratedSolution = generatedSolutions[questionNo] && generatedSolutions[questionNo].trim() !== '';
+    const needsSolution = !hasSolution && !hasGeneratedSolution;
+    
+    if (needsSolution) {
+      // Show loader while waiting for API response
+      setShowSolutionLoader(prev => ({
+        ...prev,
+        [questionNo]: true
+      }));
+      generateSolution(questionNo, questionIndex);
+    } else {
+      // If we already have a solution, show it immediately
+      setVisibleSolutions(prev => ({
+        ...prev,
+        [questionNo]: true
+      }));
+    }
+  };
+
+  const showMobileSolution = (solution, questionNo, questionIndex) => {
+    // Check if we need to generate a solution
+    const result = results[questionIndex];
+    const hasSolution = result.solution && result.solution.trim() !== '';
+    const hasGeneratedSolution = generatedSolutions[questionNo] && generatedSolutions[questionNo].trim() !== '';
+    const needsSolution = !hasSolution && !hasGeneratedSolution;
+    
+    if (needsSolution) {
+      // Don't set mobilePopupContent yet - only show loader on button
+      setLoadingSolutions(prev => ({ ...prev, [questionNo]: true }));
+      generateSolution(questionNo, questionIndex);
+    } else {
+      // If we already have a solution, show it immediately
+      const solutionToShow = generatedSolutions[questionNo] || solution;
+      setMobilePopupContent({
+        text: solutionToShow,
+        questionNo: questionNo,
+        isLoading: false
+      });
+    }
+  };
+
+  const generateSolution = async (questionNo, questionIndex) => {
+    if (loadingSolutions[questionNo]) return;
+
+    setLoadingSolutions(prev => ({ ...prev, [questionNo]: true }));
+    // Don't set visibleSolutions to true yet - wait for first response
+    
+    // Initialize the solution text to empty string
+    setGeneratedSolutions(prev => ({
       ...prev,
-      [questionNo]: !prev[questionNo]
+      [questionNo]: ''
     }));
+
+    try {
+      await api.generateSolution(id, questionIndex, {
+        onProgress: (chunk) => {
+          // On first chunk received, show the solution
+          if (!hasReceivedFirstResponse[questionNo]) {
+            setHasReceivedFirstResponse(prev => ({
+              ...prev, 
+              [questionNo]: true
+            }));
+            
+            // Show visible solution for desktop
+            setVisibleSolutions(prev => ({
+              ...prev,
+              [questionNo]: true
+            }));
+            
+            // Show mobile popup for mobile if this was triggered from mobile
+            if (isMobile) {
+              setMobilePopupContent({
+                text: chunk,
+                questionNo: questionNo,
+                isLoading: true
+              });
+            }
+            
+            setShowSolutionLoader(prev => ({
+              ...prev,
+              [questionNo]: false
+            }));
+          }
+          
+          setGeneratedSolutions(prev => {
+            const newSolutionText = (prev[questionNo] || '') + chunk;
+            
+            // Update mobile popup content if it's open
+            if (mobilePopupContent && mobilePopupContent.questionNo === questionNo) {
+              setMobilePopupContent(prev => ({
+                ...prev,
+                text: newSolutionText
+              }));
+            }
+            
+            return {
+              ...prev,
+              [questionNo]: newSolutionText
+            };
+          });
+        }
+      });
+    } catch (error) {
+      console.error('Error generating solution:', error);
+      // If there was an error, still show the solution container with an error message
+      setVisibleSolutions(prev => ({
+        ...prev,
+        [questionNo]: true
+      }));
+      
+      const errorMessage = "Sorry, couldn't generate a solution at this time.";
+      
+      setGeneratedSolutions(prev => ({
+        ...prev,
+        [questionNo]: errorMessage
+      }));
+      
+      // Show mobile popup with error message if this was triggered from mobile
+      if (isMobile) {
+        setMobilePopupContent({
+          text: errorMessage,
+          questionNo: questionNo,
+          isLoading: false
+        });
+      }
+      
+      setShowSolutionLoader(prev => ({
+        ...prev,
+        [questionNo]: false
+      }));
+    } finally {
+      setLoadingSolutions(prev => ({ ...prev, [questionNo]: false }));
+    }
   };
 
-  const showMobileSolution = (solution) => {
-    setMobilePopupContent(solution);
-  };
-
-  const isMobile = window.innerWidth <= 768;
+  // Add an effect to update the mobile popup content when the solution is being generated
+  useEffect(() => {
+    if (mobilePopupContent && mobilePopupContent.isLoading) {
+      const questionNo = mobilePopupContent.questionNo;
+      if (generatedSolutions[questionNo]) {
+        setMobilePopupContent(prev => ({
+          ...prev,
+          text: generatedSolutions[questionNo],
+          isLoading: loadingSolutions[questionNo]
+        }));
+      }
+    }
+  }, [generatedSolutions, loadingSolutions, mobilePopupContent]);
 
   if (isLoading) {
     return (
       <ExamResultsWrapper>
         <ExamResultsContainer>
           <h1 style={{ textAlign: 'center' }}>Exam Results</h1>
-          <div className="results-summary skeleton">
-            <div className="skeleton-text" style={{ width: '40%', height: '24px', marginBottom: '10px' }}></div>
-            <div className="skeleton-text" style={{ width: '60%', height: '24px' }}></div>
-          </div>
-          {[...Array(5)].map((_, index) => (
-            <ResultSkeleton key={index} />
-          ))}
+          <ResultSkeleton />
         </ExamResultsContainer>
       </ExamResultsWrapper>
     );
@@ -1393,12 +1638,16 @@ const ExamResults = () => {
           <PerformanceAnalysis analysis={examData.performance_analysis} />
         )}
 
-        {results.map((result) => {
+        {results.map((result, index) => {
           const questionData = examData.questions.find(q => q.question === result.question);
+          const questionNo = result['question-no'];
+          const hasSolution = result.solution && result.solution.trim() !== '';
+          const hasGeneratedSolution = generatedSolutions[questionNo] && generatedSolutions[questionNo].trim() !== '';
+          const solutionToShow = hasGeneratedSolution ? generatedSolutions[questionNo] : result.solution;
           
           return (
-            <div key={result['question-no']} className={`question-result ${result.is_correct ? 'correct' : 'incorrect'}`}>
-              <h3>{result['question-no']}. {renderLatexString(result.question)}</h3>
+            <div key={questionNo} className={`question-result ${result.is_correct ? 'correct' : 'incorrect'}`}>
+              <h3>{questionNo}. {renderLatexString(result.question)}</h3>
               
               <OptionsList>
                 {['a', 'b', 'c', 'd'].map((optionKey) => {
@@ -1422,43 +1671,124 @@ const ExamResults = () => {
                 })}
               </OptionsList>
 
-              {!result.is_correct && 
-                 (isMobile ? (
+              {!result.is_correct && (
+                isMobile ? (
                   <button 
                     className="solution-button"
-                    onClick={() => showMobileSolution(result.solution)}
+                    onClick={() => {
+                      // Now we only show loading state on button until we get response
+                      if (!loadingSolutions[questionNo]) {
+                        showMobileSolution(solutionToShow, questionNo, index);
+                      }
+                    }}
+                    disabled={loadingSolutions[questionNo] && !hasReceivedFirstResponse[questionNo]}
                   >
-                    <FaEye /> View Solution
+                    {loadingSolutions[questionNo] && !hasReceivedFirstResponse[questionNo] ? (
+                      <motion.div
+                        animate={{ rotate: 360 }}
+                        transition={{ 
+                          duration: 1,
+                          repeat: Infinity,
+                          ease: "linear"
+                        }}
+                      >
+                        <AiOutlineLoading3Quarters />
+                      </motion.div>
+                    ) : (
+                      <FaEye />
+                    )}
+                    {loadingSolutions[questionNo] && !hasReceivedFirstResponse[questionNo] ? 'Generating...' : 'Get Solution'}
                   </button>
                 ) : (
                   <>
                     <button 
                       className="solution-button"
-                      onClick={() => toggleSolution(result['question-no'])}
+                      onClick={() => toggleSolution(questionNo, index)}
                     >
-                      {visibleSolutions[result['question-no']] ? <FaEyeSlash /> : <FaEye />}
-                      {visibleSolutions[result['question-no']] ? 'Hide Solution' : 'Show Solution'}
+                      {showSolutionLoader[questionNo] ? (
+                        <motion.div
+                          animate={{ rotate: 360 }}
+                          transition={{ 
+                            duration: 1,
+                            repeat: Infinity,
+                            ease: "linear"
+                          }}
+                        >
+                          <AiOutlineLoading3Quarters />
+                        </motion.div>
+                      ) : visibleSolutions[questionNo] ? (
+                        <FaEyeSlash />
+                      ) : (
+                        <FaEye />
+                      )}
+                      {showSolutionLoader[questionNo] 
+                        ? 'Generating...' 
+                        : visibleSolutions[questionNo] 
+                          ? 'Hide Solution' 
+                          : 'Get Solution'}
                     </button>
-                    <motion.div
-                      className="solution-card"
-                      initial={false}
-                      animate={{
-                        height: visibleSolutions[result['question-no']] ? 'auto' : '0',
-                       opacity: visibleSolutions[result['question-no']] ? 1 : 0,
-                        marginTop: visibleSolutions[result['question-no']] ? '1.5rem' : '0',
-                        display: visibleSolutions[result['question-no']] ? 'block' : 'none',
-                      }}
-                      transition={{
-                        duration: 0.3,
-                        ease: "easeInOut"
-                      }}
-                    >
-                        <h4>Solution:</h4>
-                        <p className="solution-text">{renderLatexString(result.solution)}</p>
-                    </motion.div>
+                    
+                    <AnimatePresence>
+                      {visibleSolutions[questionNo] && (
+                        <motion.div
+                          className="solution-card"
+                          initial={{ height: 0, opacity: 0, marginTop: 0 }}
+                          animate={{ 
+                            height: 'auto', 
+                            opacity: 1, 
+                            marginTop: '1.5rem',
+                            display: 'block'
+                          }}
+                          exit={{ 
+                            height: 0, 
+                            opacity: 0, 
+                            marginTop: 0,
+                            transitionEnd: { display: 'none' }
+                          }}
+                          transition={{ duration: 0.3, ease: "easeInOut" }}
+                        >
+                          <h4>Solution:</h4>
+                          {loadingSolutions[questionNo] ? (
+                            <>
+                              <p className="solution-text">{renderLatexString(generatedSolutions[questionNo] || "Generating solution...")}</p>
+                              <LoadingDots
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.3 }}
+                              >
+                                {[...Array(3)].map((_, i) => (
+                                  <motion.div
+                                    key={i}
+                                    animate={{
+                                      y: [-3, 3, -3],
+                                      opacity: [0.4, 1, 0.4]
+                                    }}
+                                    transition={{
+                                      y: {
+                                        duration: 1.2,
+                                        repeat: Infinity,
+                                        delay: i * 0.2
+                                      },
+                                      opacity: {
+                                        duration: 1.2,
+                                        repeat: Infinity,
+                                        delay: i * 0.2
+                                      }
+                                    }}
+                                  />
+                                ))}
+                              </LoadingDots>
+                            </>
+                          ) : (
+                            <p className="solution-text">{renderLatexString(solutionToShow)}</p>
+                          )}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
                   </>
-                ))
-              }
+                )
+              )}
             </div>
           );
         })}
@@ -1467,7 +1797,41 @@ const ExamResults = () => {
           onClose={() => setMobilePopupContent(null)}
           title="Solution"
         >
-          <p className="solution-text">{renderLatexString(mobilePopupContent)}</p>
+          {mobilePopupContent && mobilePopupContent.isLoading ? (
+            <>
+              <p className="solution-text">{renderLatexString(mobilePopupContent.text || "Generating solution...")}</p>
+              <LoadingDots
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+              >
+                {[...Array(3)].map((_, i) => (
+                  <motion.div
+                    key={i}
+                    animate={{
+                      y: [-3, 3, -3],
+                      opacity: [0.4, 1, 0.4]
+                    }}
+                    transition={{
+                      y: {
+                        duration: 1.2,
+                        repeat: Infinity,
+                        delay: i * 0.2
+                      },
+                      opacity: {
+                        duration: 1.2,
+                        repeat: Infinity,
+                        delay: i * 0.2
+                      }
+                    }}
+                  />
+                ))}
+              </LoadingDots>
+            </>
+          ) : (
+            <p className="solution-text">{renderLatexString(mobilePopupContent?.text)}</p>
+          )}
         </MobilePopup>
       </ExamResultsContainer>
     </ExamResultsWrapper>

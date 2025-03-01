@@ -10,7 +10,7 @@ SOLUTION_GENERATION_PROMPT = """As an expert tutor, help a student understand a 
         2. Breaks down the problem-solving steps
         3. Provides helpful context
         4. Uses LaTeX for:
-           - Mathematical expressions and equations (e.g. $x^2$, \\frac{1}{2})
+           - Mathematical expressions and equations (e.g. $x^2$, \\frac{{1}}{{2}})
            - Scientific formulas (e.g. $H_2O$, $CO_2$)
            - Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
            - Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
