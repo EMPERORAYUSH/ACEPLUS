@@ -365,6 +365,7 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
   const [currentPage, setCurrentPage] = useState(1);
   const [students, setStudents] = useState([]);
   const tableRef = useRef(null);
+  const popupContentRef = useRef(null);
   const [month, setMonth] = useState('');
   const [division, setDivision] = useState('');
   const [isClass10, setIsClass10] = useState(false);
@@ -380,6 +381,7 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
           setDivision(leaderboardData.division || '');
           setIsClass10(leaderboardData.class === '10');
           setHasMore(leaderboardData.pagination?.total_count > 20);
+          setCurrentPage(1); // Reset page when popup opens
         }
       }, 300);
       return () => clearTimeout(timer);
@@ -398,6 +400,8 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
         setStudents(prev => [...prev, ...response.leaderboard]);
         setCurrentPage(nextPage);
         setHasMore(response.pagination?.total_count > nextPage * 20);
+      } else {
+        setHasMore(false);
       }
     } catch (err) {
       setError('Failed to load more students');
@@ -408,25 +412,31 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
   }, [currentPage, loading, hasMore]);
 
   useEffect(() => {
-    if (tableRef.current) {
+    const handleIntersection = (entries) => {
+      if (entries[0].isIntersecting && hasMore && !loading) {
+        loadMoreData();
+      }
+    };
+
+    if (tableRef.current && popupContentRef.current && hasMore) {
       const observer = new IntersectionObserver(
-        (entries) => {
-          if (entries[0].isIntersecting && hasMore && !loading) {
-            loadMoreData().catch(console.error);
-          }
-        },
-        { threshold: 0.1 }
+        handleIntersection,
+        {
+          root: popupContentRef.current,
+          threshold: 0.1
+        }
       );
 
-      // Observe the last row instead of a separate trigger element
+      // Get the last row to observe
       const rows = tableRef.current.querySelectorAll('tbody tr');
       if (rows.length > 0) {
-        observer.observe(rows[rows.length - 1]);
+        const lastRow = rows[rows.length - 1];
+        observer.observe(lastRow);
       }
 
       return () => observer.disconnect();
     }
-  }, [loading, hasMore, tableRef.current, students.length]);
+  }, [loading, hasMore, loadMoreData, students.length]);
 
   const handleClose = () => {
     setIsClosing(true);
@@ -437,8 +447,8 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
       setTimeout(() => {
         setIsClosing(false);
         onClose();
-      }, 500);
-    }, 1000);
+      }, 200);
+    }, 100);
   };
 
   if (!isOpen) return null;
@@ -464,9 +474,10 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.2 }}
           onClick={handleClose}
           $isActive={isActive}
+          ref={popupContentRef}
         >
           <PopupContent
             initial={{ scale: 0.95, y: 20, opacity: 0 }}
@@ -478,7 +489,7 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
             }}
             exit={{ 
               opacity: 0,
-              transition: { duration: 0.5 }
+              transition: { duration: 0.2 }
             }}
             onClick={(e) => e.stopPropagation()}
             $isActive={isActive}
