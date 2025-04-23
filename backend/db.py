@@ -9,7 +9,7 @@ from datetime import datetime
 import logging
 from dotenv import load_dotenv
 import os
-
+import hashlib
 # Load environment variables
 load_dotenv()
 
@@ -662,7 +662,7 @@ def update_user_stats_after_exam(user_id, subject, score, total_questions, exam_
         logger.error(f"Error in update_user_stats_after_exam: {str(e)}")
         raise
 
-def create_user_data(user_id, password, name, roll_no, div, class10=False):
+def create_user_data(user_id, password, name, roll_no, div,teacher , class10=False) :
     """Creates user data and inserts it into appropriate MongoDB collections."""
     class_num = 10 if class10 else 9
     db = db10 if class10 else db9
@@ -721,10 +721,13 @@ def create_user_data(user_id, password, name, roll_no, div, class10=False):
     initialize_overview_stats(user_id, class10)
 
     # Create Leaderboard collection if it doesn't exist
-    if 'Leaderboard' not in db.list_collection_names():
-        db.create_collection('Leaderboard')
-        data_store[class_num]['collections'][4]['Leaderboard'] = {}
-        print("Leaderboard collection created")
+    if teacher:
+        pass
+    else:
+        if 'Leaderboard' not in db.list_collection_names():
+            db.create_collection('Leaderboard')
+            data_store[class_num]['collections'][4]['Leaderboard'] = {}
+            print("Leaderboard collection created")
 
     print(f"User data added successfully for user ID: {user_id}")
 
@@ -759,6 +762,7 @@ def update_leaderboard(user_id, score, total_questions, subject, num_lessons, cl
     class_num = 10 if class10 else 9
     current_date = datetime.now(timezone("Asia/Kolkata"))
     month_key = current_date.strftime('%Y-%m')
+    leaderboard_id = hashlib.sha256(f"{month_key}-{current_date.timestamp()}".encode()).hexdigest()[:8]
 
     # Get user details
     user = get_user(user_id, class10)
@@ -768,6 +772,8 @@ def update_leaderboard(user_id, score, total_questions, subject, num_lessons, cl
     # Update RAM
     if month_key not in data_store[class_num]['collections'][4]['Leaderboard']:
         data_store[class_num]['collections'][4]['Leaderboard'][month_key] = {}
+
+    data_store[class_num]['collections'][4]['Leaderboard'][month_key]["version"]=leaderboard_id 
 
     # Initialize user data if not exists
     if user_id not in data_store[class_num]['collections'][4]['Leaderboard'][month_key]:

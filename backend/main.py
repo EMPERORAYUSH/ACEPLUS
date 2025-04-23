@@ -53,6 +53,7 @@ try:
     from utils.name_utils import generate_memorable_name
     from utils.auth_utils import get_student_class, get_current_user_info
     from utils.job_utils import allowed_file, cleanup_old_files
+    import hashlib
 
 except ImportError as e:
     print(f"Import Error: {str(e)}")
@@ -142,7 +143,10 @@ def login():
             name = student_data["name"]
             roll = student_data["roll"]
             division = student_data["div"]
-            user = create_user_data(user_id, password, name, roll, division, is_class10)
+            if teachers_data and user_id in teachers_data:
+                user = create_user_data(user_id, password, name, roll, division, is_class10, teacher=True)
+            else:
+                user = create_user_data(user_id, password, name, roll, division, is_class10, teacher=False)
 
             # Include class10 status in JWT token
             access_token = create_access_token(
@@ -1088,7 +1092,7 @@ def get_leaderboard():
     leaderboard_data = data_store[class_num]["collections"][4]["Leaderboard"].get(
         month_key, {}
     )
-
+    version = leaderboard_data["version"]
     # Get all users from the database
     db = db10 if is_class10 else db9
     all_users = list(db['Users'].find())
@@ -1187,7 +1191,8 @@ def get_leaderboard():
             "month": current_date.strftime("%B %Y"),
             "leaderboard": leaderboard,
             "zero": False,
-            "class": "10" if is_class10 else "9"
+            "class": "10" if is_class10 else "9",
+            "leaderboard_id": version
         }
     ), 200
 
