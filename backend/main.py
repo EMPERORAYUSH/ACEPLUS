@@ -130,7 +130,7 @@ def login():
         is_class10 = teacher_info.get("current_standard") == 10
     else:
         # Regular student login flow
-        student_data, is_class10 = get_student_class(user_id)
+        student_data, is_class10 = get_student_class(user_id, student_info, class10_student_info)
         if student_data is None:
             return jsonify({"message": "Invalid User ID"}), 400
 
