@@ -88,6 +88,7 @@ function Content() {
   const [showLeaderboardPopup, setShowLeaderboardPopup] = useState(false);
   const [leaderboardData, setLeaderboardData] = useState(null);
   const [animateNumbers, setAnimateNumbers] = useState(false);
+  const [currentLeaderboardId, setCurrentLeaderboardId] = useState(null);
 
   useEffect(() => {
     const handleAnimateCards = () => {
@@ -125,7 +126,10 @@ function Content() {
   const fetchLeaderboard = async () => {
     try {
       const data = await api.getLeaderboard(1, 20);
-      const storedLeaderboard = localStorage.getItem('leaderboardData');
+      const storedLeaderboardId = localStorage.getItem('lastSeenLeaderboardId');
+      const newLeaderboardId = data.leaderboard_id;
+
+      setCurrentLeaderboardId(newLeaderboardId);
 
       // Initialize leaderboard data with first page
       const filteredLeaderboard = data.leaderboard
@@ -136,10 +140,9 @@ function Content() {
         }));
       data.leaderboard = filteredLeaderboard;
       
-      if (!storedLeaderboard || JSON.stringify(data) !== storedLeaderboard) {
+      if (newLeaderboardId && newLeaderboardId !== storedLeaderboardId) {
         setLeaderboardData(data);
         setShowLeaderboardPopup(true);
-        localStorage.setItem('leaderboardData', JSON.stringify(data));
       }
     } catch (error) {
       console.error('Failed to fetch leaderboard:', error);
@@ -200,6 +203,9 @@ function Content() {
   const handleCloseLeaderboard = () => {
     setShowLeaderboardPopup(false);
     window.dispatchEvent(new Event('animateCards'));
+    if (currentLeaderboardId) {
+      localStorage.setItem('lastSeenLeaderboardId', currentLeaderboardId);
+    }
   };
 
   return (
@@ -220,6 +226,7 @@ function Content() {
           onClose={handleCloseLeaderboard}
           leaderboardData={leaderboardData}
           updatePopupOpen={showUpdatePopup}
+          leaderboardId={currentLeaderboardId}
         />
       )}
       <motion.div 
