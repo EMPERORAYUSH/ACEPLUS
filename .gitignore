@@ -11,6 +11,7 @@
 # production
 /build
 misc
+.cursorignore
 # misc
 .DS_Store
 
