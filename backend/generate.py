@@ -5,9 +5,8 @@ import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv
-import ast
 import traceback
-from typing import Dict, List, Tuple
+from typing import Dict, Tuple
 from utils.generate_utils import (
     encode_image_to_base64,
     extract_tag_content,
@@ -20,132 +19,57 @@ from utils.prompts import (
     SOLUTION_GENERATION_PROMPT,
     PERFORMANCE_ANALYSIS_PROMPT,
     IMAGE_ANALYSIS_PROMPT,
-    
-HINT_GENERATION_PROMPT,
+    HINT_GENERATION_PROMPT,
 )
 from utils.validate_env import validate_env_config
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
-# Load environment variables
 load_dotenv()
 
 # Validate environment configuration
 valid_providers = validate_env_config()
 
-def get_provider_configs() -> Dict[str, Dict]:
+def get_provider_config(provider: str) -> Dict[str, str]:
+    """Get API key and base URL for a specific provider."""
+    return {
+        "api_key": os.getenv(f"{provider.upper()}_API_KEY"),
+        "base_url": os.getenv(f"{provider.upper()}_BASE_URL"),
+    }
+
+def get_random_model(model_type: str) -> Tuple[str, str, bool]:
     """
-    Get configurations for validated providers.
-    Returns a dictionary of provider configurations with their API keys and base URLs.
+    Selects a random model from the specified model type list in .env.
+    Handles '::nothink' suffix to disable thinking.
+    Example: model_type='IMAGE_MODELS'
     """
-    providers = {}
+    models_str = os.getenv(model_type)
+    if not models_str:
+        raise ValueError(f"Model type '{model_type}' not found in environment variables.")
     
-    # Process each validated provider
-    for provider in valid_providers:
-        base_keys = []
-        base_urls = []
+    models_list = json.loads(models_str)
+    if not models_list:
+        raise ValueError(f"No models configured for '{model_type}'.")
         
-        # Get the first key and URL
-        api_key = os.getenv(f'{provider}_API_KEY')
-        base_url = os.getenv(f'{provider}_BASE_URL')
-        base_keys.append(api_key)
-        base_urls.append(base_url)
-        
-        # Get additional keys if they exist
-        i = 2
-        while True:
-            key = f"{provider}_API_KEY_{i}"
-            base_url_key = f"{provider}_BASE_URL_{i}"
-            
-            api_key = os.getenv(key)
-            base_url = os.getenv(base_url_key)
-            
-            if not api_key or not base_url:
-                break
-                
-            base_keys.append(api_key)
-            base_urls.append(base_url)
-            i += 1
-
-        # Get models (already validated)
-        models = ast.literal_eval(os.getenv(f'{provider}_MODELS'))
-        
-        # Store configuration
-        providers[provider] = {
-            'keys': list(zip(base_keys, base_urls)),
-            'models': models
-        }
-
-    return providers
-
-# Configure OpenAI clients
-clients = {}
-provider_configs = get_provider_configs()
-
-# Initialize clients for each provider and key
-for provider, config in provider_configs.items():
-    for i, (api_key, base_url) in enumerate(config['keys'], 1):
-        client_key = f"{provider.lower()}{i}" if len(config['keys']) > 1 else provider.lower()
-        try:
-            # Create OpenAI client with only required parameters
-            clients[client_key] = OpenAI(
-                api_key=api_key,
-                base_url=base_url
-            )
-            print(f"Successfully initialized client for {provider} key {i}")
-        except Exception as e:
-            print(f"Error initializing client for {provider} key {i}: {str(e)}")
-
-# Model configurations
-MODEL_CONFIGS = {
-    provider.lower(): config['models']
-    for provider, config in provider_configs.items()
-}
-
-# Get validated model providers and models
-IMAGE_MODEL_PROVIDER = os.getenv('IMAGE_MODEL_PROVIDER', '').upper()
-IMAGE_MODEL = os.getenv('IMAGE_MODEL')
-PERFORMANCE_MODEL_PROVIDER = os.getenv('PERFORMANCE_MODEL_PROVIDER', '').upper()
-PERFORMANCE_MODEL = os.getenv('PERFORMANCE_MODEL')
-
-def get_provider_clients(provider: str) -> List[Tuple[str, OpenAI]]:
-    """Get all clients for a specific provider."""
-    provider = provider.lower()
-    provider_clients = []
+    model_full_name = random.choice(models_list)
     
-    # If single client
-    if provider in clients:
-        provider_clients.append((provider, clients[provider]))
-    
-    # If multiple clients
-    i = 1
-    while True:
-        client_key = f"{provider}{i}"
-        if client_key not in clients:
-            break
-        provider_clients.append((client_key, clients[client_key]))
-        i += 1
-    
-    if not provider_clients:
-        raise ValueError(f"No clients found for provider: {provider}")
-    
-    return provider_clients
+    nothink_enabled = False
+    if model_full_name.endswith("::nothink"):
+        nothink_enabled = True
+        model_full_name = model_full_name.removesuffix("::nothink")
 
-def get_random_provider_client(provider: str) -> Tuple[str, OpenAI]:
-    """Get a random client for a specific provider."""
-    provider_clients = get_provider_clients(provider)
-    return random.choice(provider_clients)
+    provider, model_name = model_full_name.split('/')
+    return provider, model_name, nothink_enabled
 
-# Validate providers exist
-try:
-    image_clients = get_provider_clients(IMAGE_MODEL_PROVIDER)
-except ValueError as e:
-    raise ValueError(f"Invalid IMAGE_MODEL_PROVIDER: {str(e)}")
-
-try:
-    performance_clients = get_provider_clients(PERFORMANCE_MODEL_PROVIDER)
-except ValueError as e:
-    raise ValueError(f"Invalid PERFORMANCE_MODEL_PROVIDER: {str(e)}")
+def get_client_for_model(model_type: str) -> Tuple[OpenAI, str, bool]:
+    """
+    Gets a random model for the given type and returns an initialized client,
+    the model name, and a flag indicating if 'nothink' is enabled.
+    """
+    provider, model_name, nothink_enabled = get_random_model(model_type)
+    config = get_provider_config(provider)
+    client = OpenAI(api_key=config["api_key"], base_url=config["base_url"])
+    return client, model_name, nothink_enabled
 
 # Add at the top of the file with other global variables
 user_question_history = {}  # Stores used question IDs per user
@@ -153,282 +77,202 @@ user_question_history = {}  # Stores used question IDs per user
 def generate_hint(question_text: str):
     """
     Generate a helpful hint for a given question without revealing the answer, streaming the output.
-    Uses the same provider selection and model configuration as the solution generator.
+    Uses HINT_MODELS from the environment configuration.
     """
     try:
-        # Get a random provider from available providers
-        provider = random.choice(valid_providers)
-        client_key, client = get_random_provider_client(provider)
-        logging.debug(f"Using client for hints: {client_key}")
+        client, model_name, nothink_enabled = get_client_for_model("HINT_MODELS")
+        logging.debug(f"Using model for hints: {model_name}")
 
-        # Format the hint prompt
         prompt = HINT_GENERATION_PROMPT.format(question=question_text)
+        
+        params = {
+            "messages": [{"role": "user", "content": prompt}],
+            "model": model_name,
+            "temperature": 0.7,
+            "max_tokens": 512,
+            "stream": True
+        }
 
-        # Extract the base provider name by removing any trailing digits
-        model_key = re.sub(r'\d+$', '', client_key)
-        # Use the same model selection logic as generate_solution
-        model = random.choice(MODEL_CONFIGS[model_key])
+        if nothink_enabled:
+            params['extra_body'] = {
+                "extra_body":{
+                "google": {
+                    "thinking_config": {
+                        "thinking_budget": 0
+                    }
+                }
+            }
+            }
 
-        # Generate the hint with streaming
-        stream = client.chat.completions.create(
-            messages=[{"role": "user", "content": prompt}],
-            model=model,
-            temperature=0.7,
-            max_tokens=512,
-            stream=True
-        )
+        stream = client.chat.completions.create(**params)
 
-        # Initialize an empty buffer for accumulating incomplete LaTeX blocks
         latex_buffer = ""
-
         for chunk in stream:
             if chunk.choices[0].delta.content is not None:
                 content = chunk.choices[0].delta.content
-
-                # Add the new content to the buffer
                 latex_buffer += content
-
-                # Check for complete LaTeX blocks (inline or display)
                 while True:
-                    # Search for inline LaTeX ($...$)
                     inline_match = re.search(r'\$(.+?)\$', latex_buffer)
-                    # Search for display LaTeX ($$...$$)
                     display_match = re.search(r'\$\$(.+?)\$\$', latex_buffer)
-
                     if inline_match:
-                        # Yield the complete inline LaTeX block
                         yield " " + inline_match.group(0)
-                        # Remove the yielded block from the buffer
                         latex_buffer = latex_buffer.replace(inline_match.group(0), '', 1)
                     elif display_match:
-                        # Yield the complete display LaTeX block
                         yield " " + display_match.group(0)
-                        # Remove the yielded block from the buffer
                         latex_buffer = latex_buffer.replace(display_match.group(0), '', 1)
                     else:
-                        # If no complete LaTeX block is found, break out of the inner loop
                         break
-
-                # Yield any remaining non-LaTeX text before the next LaTeX block (if any)
                 if not re.search(r'[\$]', latex_buffer):
                     yield latex_buffer
                     latex_buffer = ""
-
-        # Yield any remaining content in the buffer after processing all chunks
         if latex_buffer:
             yield latex_buffer
-
     except Exception as e:
-        print(str(e))
+        logging.error(f"Unable to generate hint: {e}")
         yield f"Unable to generate hint: {str(e)}"
 
 def generate_solution_stream(question_text: str, correct_answer: str, given_answer: str, options: dict):
     """
     Generate a solution for a given question with streaming output.
-    Uses the same provider selection and model configuration as the solution generator.
-    
-    Args:
-        question_text: The question text
-        correct_answer: The correct answer
-        given_answer: The answer given by the student
-        options: Dictionary of options (e.g., {'a': 'option1', 'b': 'option2', ...})
-        
-    Returns:
-        Generator yielding solution text chunks
+    Uses SOLUTION_MODELS from the environment configuration.
     """
     try:
-        # Get a random provider from available providers
-        provider = random.choice(valid_providers)
-        client_key, client = get_random_provider_client(provider)
-        logging.debug(f"Using client for solution streaming: {client_key}")
+        client, model_name, nothink_enabled = get_client_for_model("SOLUTION_MODELS")
+        logging.debug(f"Using model for solution streaming: {model_name}")
 
-        # Format the solution prompt
         prompt = SOLUTION_GENERATION_PROMPT.format(
             question=question_text,
             correct_answer=correct_answer,
             given_answer=given_answer,
             options=options
         )
-
-        # Extract the base provider name by removing any trailing digits
-        model_key = re.sub(r'\d+$', '', client_key)
-        # Use the same model selection logic as generate_solution
-        model = random.choice(MODEL_CONFIGS[model_key])
-
-        # Generate the solution with streaming
-        stream = client.chat.completions.create(
-            messages=[
+        
+        params = {
+            "messages": [
                 {
                     "role": "system",
                     "content": "Provide direct solutions without introductory phrases. Jump straight to the answer. Do not cheerup anyone in your responses. Dont use formatting like bold (**) etc.",
                 },
                 {"role": "user", "content": prompt}
             ],
-            model=model,
-            temperature=0.7,
-            max_tokens=1024,
-            stream=True
-        )
+            "model": model_name,
+            "temperature": 0.7,
+            "max_tokens": 1024,
+            "stream": True
+        }
 
-        # Initialize an empty buffer for accumulating incomplete LaTeX blocks
+        if nothink_enabled:
+            params['extra_body'] = {
+                "extra_body":{
+                "google": {
+                    "thinking_config": {
+                        "thinking_budget": 0
+                    }
+                }
+            }
+            }
+        
+        stream = client.chat.completions.create(**params)
+
         latex_buffer = ""
-
         for chunk in stream:
             if chunk.choices[0].delta.content is not None:
                 content = chunk.choices[0].delta.content
-
-                # Add the new content to the buffer
                 latex_buffer += content
-
-                # Check for complete LaTeX blocks (inline or display)
                 while True:
-                    # Search for inline LaTeX ($...$)
                     inline_match = re.search(r'\$(.+?)\$', latex_buffer)
-                    # Search for display LaTeX ($$...$$)
                     display_match = re.search(r'\$\$(.+?)\$\$', latex_buffer)
-
                     if inline_match:
-                        # Yield the complete inline LaTeX block
                         yield " " + inline_match.group(0)
-                        # Remove the yielded block from the buffer
                         latex_buffer = latex_buffer.replace(inline_match.group(0), '', 1)
                     elif display_match:
-                        # Yield the complete display LaTeX block
                         yield " " + display_match.group(0)
-                        # Remove the yielded block from the buffer
                         latex_buffer = latex_buffer.replace(display_match.group(0), '', 1)
                     else:
-                        # If no complete LaTeX block is found, break out of the inner loop
                         break
-
-                # Yield any remaining non-LaTeX text before the next LaTeX block (if any)
                 if not re.search(r'[\$]', latex_buffer):
                     yield latex_buffer
                     latex_buffer = ""
-
-        # Yield any remaining content in the buffer after processing all chunks
         if latex_buffer:
             yield latex_buffer
-
     except Exception as e:
-        print(str(e))
+        logging.error(f"Unable to generate solution: {e}")
         yield f"Unable to generate solution: {str(e)}"
 
-def get_random_client():
-    """Get a random client from the available clients."""
-    if not clients:
-        raise ValueError("No API clients configured")
-    return random.choice(list(clients.items()))
-
-def generate_solution(question, correct_answer, given_answer, options, client, model_name):
-    prompt = SOLUTION_GENERATION_PROMPT
-
+def generate_solution(question, correct_answer, given_answer, options):
+    """Generates a solution using a randomly selected solution model."""
+    prompt = SOLUTION_GENERATION_PROMPT.format(
+        question=question,
+        correct_answer=correct_answer,
+        given_answer=given_answer,
+        options=options
+    )
     try:
-        # Get model based on client type
-        model = random.choice(MODEL_CONFIGS[model_name])
-            
-        chat_completion = client.chat.completions.create(
-            messages=[
+        client, model_name, nothink_enabled = get_client_for_model("SOLUTION_MODELS")
+        logging.debug(f"Generating solution with {model_name}")
+        
+        params = {
+            "messages": [
                 {
                     "role": "system",
-                    "content": "Provide direct solutions without introductory phrases. Jump straight to the answer. Do not cheerup anyone in your responses. Dont use formatting like bold (**) etc.",
+                    "content": "Provide direct solutions without introductory phrases. Jump straight to the answer.",
                 },
                 {"role": "user", "content": prompt},
             ],
-            model=model,
-            temperature=0.7,
-            max_tokens=1024,
-            top_p=1,
-            stream=False,
-        )
+            "model": model_name,
+            "temperature": 0.7,
+            "max_tokens": 1024,
+            "stream": False,
+        }
+
+        if nothink_enabled:
+            params['extra_body'] = {
+                "extra_body":{
+                "google": {
+                    "thinking_config": {
+                        "thinking_budget": 0
+                    }
+                }
+            }
+            }
+
+        chat_completion = client.chat.completions.create(**params)
         return chat_completion.choices[0].message.content
     except Exception as e:
-        raise e
+        logging.error(f"Error generating solution with {model_name}: {e}")
+        raise
 
 def process_question(question_data):
     """Helper function to process individual questions for parallel execution"""
-    client_name, client = get_random_provider_client(IMAGE_MODEL_PROVIDER)
     return generate_solution(
         question_data["question"],
         question_data["correct_answer"],
         question_data["given_answer"],
         question_data["options"],
-        client,
-        client_name
     )
-
 
 def generate_solutions_batch(questions_list):
     """
-    Generate solutions for a batch of questions in parallel
-    Each question in questions_list should be a dictionary with the format:
-    {
-        'question': 'question text',
-        'correct_answer': 'correct answer',
-        'given_answer': 'student answer',
-        'options': {'A': 'option1', 'B': 'option2', ...}
-    }
+    Generate solutions for a batch of questions in parallel.
     """
-    batch_size = 10
     solutions = []
-
-    for i in range(0, len(questions_list), batch_size):
-        batch = questions_list[i : i + batch_size]
-
-        with ThreadPoolExecutor(max_workers=batch_size) as executor:
-            future_to_question = {}
-            for question in batch:
-                # Try different clients if one fails
-                available_clients = list(clients.keys())
-                random.shuffle(available_clients)
-
-                def try_with_client(client_name):
-                    selected_client = clients[client_name]
-                    return generate_solution(
-                        question["question"],
-                        question["correct_answer"],
-                        question["given_answer"],
-                        question["options"],
-                        selected_client,
-                        client_name,
-                    )
-
-                future = executor.submit(
-                    lambda q: next(
-                        (
-                            try_with_client(client)
-                            for client in available_clients
-                            if True
-                        ),
-                        "Error: All clients failed",
-                    ),
-                    question,
-                )
-                future_to_question[future] = question
-
-            # Collect results as they complete
-            for future in as_completed(future_to_question):
-                question = future_to_question[future]
-                try:
-                    solution = future.result()
-                    solutions.append(
-                        {"question": question["question"], "solution": solution}
-                    )
-                except Exception as e:
-                    solutions.append(
-                        {
-                            "question": question["question"],
-                            "solution": f"Error: {str(e)}",
-                        }
-                    )
-
+    with ThreadPoolExecutor() as executor:
+        future_to_question = {
+            executor.submit(process_question, q): q for q in questions_list
+        }
+        for future in as_completed(future_to_question):
+            question = future_to_question[future]
+            try:
+                solution = future.result()
+                solutions.append({"question": question["question"], "solution": solution})
+            except Exception as exc:
+                solutions.append({"question": question["question"], "solution": f"Error: {exc}"})
     return solutions
 
 
 def generate_exam_questions(subject, lesson_files, user_id):
     global user_question_history
     
-    # Initialize user history if not exists
     if user_id not in user_question_history:
         user_question_history[user_id] = []
     
@@ -447,15 +291,14 @@ def generate_exam_questions(subject, lesson_files, user_id):
     all_questions = {}
     lesson_question_counts = {}
 
-    # First, collect all available questions
     for lesson_index, file in enumerate(lesson_files, 1):
         try:
             questions = parse_questions_from_json(file)
-            if not questions:  # Skip if no questions were loaded
-                print(f"Warning: No questions loaded from {file}")
+            if not questions:
+                logging.warning(f"No questions loaded from {file}")
                 continue
                 
-            questions = shuffle_question_options(questions)  # Shuffle options
+            questions = shuffle_question_options(questions)
             lesson_question_counts[lesson_index] = len(questions)
             for q_index, question in enumerate(questions, 1):
                 question_id = f"L{lesson_index}Q{q_index}"
@@ -463,22 +306,20 @@ def generate_exam_questions(subject, lesson_files, user_id):
                 question["lesson"] = lesson_index
                 question["l-id"] = question_id
         except Exception as e:
-            print(f"Error processing file {file}: {e}")
+            logging.error(f"Error processing file {file}: {e}")
             continue
 
     if not all_questions:
         raise Exception("No valid questions could be loaded from any lesson file")
 
-    # Remove previously used questions
     available_questions = {
         qid: q
         for qid, q in all_questions.items()
         if qid not in user_question_history[user_id]
     }
     
-    # If we don't have enough questions, reset history for these lesson files
     if len(available_questions) < num_questions:
-        print(
+        logging.info(
             f"Resetting question history for user {user_id} due to insufficient questions"
         )
         current_lesson_ids = set(all_questions.keys())
@@ -489,14 +330,12 @@ def generate_exam_questions(subject, lesson_files, user_id):
         ]
         available_questions = all_questions
 
-    # Calculate the number of questions to select from each lesson
     total_questions = sum(lesson_question_counts.values())
     questions_per_lesson = {
         lesson: int(round(count / total_questions * num_questions))
         for lesson, count in lesson_question_counts.items()
     }
 
-    # Adjust the total number of questions if rounding caused a discrepancy
     total_selected = sum(questions_per_lesson.values())
     if total_selected < num_questions:
         questions_per_lesson[
@@ -507,7 +346,6 @@ def generate_exam_questions(subject, lesson_files, user_id):
             max(questions_per_lesson, key=questions_per_lesson.get)
         ] -= total_selected - num_questions
 
-    # Select questions from each lesson
     selected_questions = []
     for lesson, count in questions_per_lesson.items():
         lesson_questions = [
@@ -517,16 +355,12 @@ def generate_exam_questions(subject, lesson_files, user_id):
         selected = random.sample(lesson_questions, min(count, len(lesson_questions)))
         selected_questions.extend(selected)
 
-    # Remove duplicates and replace them with new questions
     selected_questions = remove_duplicates_and_replace(selected_questions, available_questions)
     
-    # Shuffle the final selection
     random.shuffle(selected_questions)
     
-    # Update user history with final selected questions
     user_question_history[user_id].extend(q["l-id"] for q in selected_questions)
 
-    # Final validation of questions
     valid_questions = [
         q for q in selected_questions
         if isinstance(q.get("options"), dict) and len(q["options"]) == 4
@@ -538,21 +372,11 @@ def generate_exam_questions(subject, lesson_files, user_id):
 def generate_performance_analysis(results, lessons, is_class10):
     """
     Generate a performance analysis based on exam results and lessons.
-
-    Args:
-        results: List of question results including correctness and solutions
-        lessons: List of lesson names the exam covered
-        is_class10: Boolean indicating if this is for class 10
-
-    Returns:
-        str: AI-generated performance analysis
     """
-    # Load lessons data
     lessons_file = "lessons10.json" if is_class10 else "lessons.json"
     with open(os.path.join("backend/data", lessons_file), "r") as f:
         all_lessons = json.load(f)
 
-    # Format lesson names
     lesson_names = []
     for lesson in lessons:
         for subject, subject_lessons in all_lessons.items():
@@ -560,12 +384,10 @@ def generate_performance_analysis(results, lessons, is_class10):
                 lesson_names.append(f"{subject}: {lesson}")
                 break
 
-    # Calculate statistics
     total_questions = len(results)
     correct_answers = sum(1 for r in results if r["is_correct"])
     percentage = (correct_answers / total_questions) * 100
     
-    # Format results into a string for analysis
     result = ""
     for r in results:
         result += f"Question: {r['question']}\n"
@@ -576,7 +398,6 @@ def generate_performance_analysis(results, lessons, is_class10):
             result += f"Solution: {r['solution']}\n"
         result += "\n"
 
-    # Create the prompt
     prompt = PERFORMANCE_ANALYSIS_PROMPT.format(
         correct_answers=correct_answers,
         total_questions=total_questions,
@@ -586,31 +407,38 @@ def generate_performance_analysis(results, lessons, is_class10):
     )
 
     try:
-        client_name, client = get_random_provider_client(PERFORMANCE_MODEL_PROVIDER)
-        print(f"Generating performance analysis using {client_name} client...")
+        client, model_name, nothink_enabled = get_client_for_model("PERFORMANCE_ANALYSIS_MODELS")
+        logging.info(f"Generating performance analysis using {model_name}...")
         
-        chat_completion = client.chat.completions.create(
-            messages=[
+        params = {
+            "messages": [
                 {
                     "role": "system",
                     "content": "You are an experienced teacher providing constructive feedback on exam performance. Be specific, encouraging, and practical in your advice.",
                 },
                 {"role": "user", "content": prompt},
             ],
-            model=PERFORMANCE_MODEL,
-            temperature=0.7,
-            max_tokens=2048,
-            top_p=1,
-            stream=False,
-        )
+            "model": model_name,
+            "temperature": 0.7,
+            "max_tokens": 2048,
+            "stream": False,
+        }
+
+        if nothink_enabled:
+            params['extra_body'] = {
+                "google": {
+                    "thinking_config": {
+                        "thinking_budget": 0
+                    }
+                }
+            }
+        
+        chat_completion = client.chat.completions.create(**params)
         return chat_completion.choices[0].message.content
     except Exception as e:
-        print(f"Error generating performance analysis with {PERFORMANCE_MODEL_PROVIDER}: {e}")
+        logging.error(f"Error generating performance analysis: {e}")
         return "Unable to generate performance analysis at this time."
 
-
-
-# Prompt for image analysis
 
 def analyze_images(image_paths):
     """
@@ -618,9 +446,8 @@ def analyze_images(image_paths):
     Yields progress updates and returns a list of questions extracted from the images.
     """
     try:
-        client_name, client = get_random_provider_client(IMAGE_MODEL_PROVIDER)
+        client, model_name, nothink_enabled = get_client_for_model("IMAGE_MODELS")
 
-        # Prepare all images
         image_contents = []
         for path in image_paths:
             try:
@@ -632,34 +459,44 @@ def analyze_images(image_paths):
                     }
                 })
             except Exception as e:
-                print(f"Error encoding image {path}: {e}")
-                print(traceback.format_exc())
+                logging.error(f"Error encoding image {path}: {e}")
+                logging.debug(traceback.format_exc())
                 continue
 
         if not image_contents:
-            print("No valid images to process")
+            logging.warning("No valid images to process")
             yield {"type": "error", "message": "No valid images to process"}
             return
 
-        # Combine prompt and all images in the content
         content = [{"type": "text", "text": IMAGE_ANALYSIS_PROMPT}]
         content.extend(image_contents)
 
-        print(f"Processing {len(image_paths)} images using {client_name} client with streaming...")
+        logging.info(f"Processing {len(image_paths)} images using {model_name} with streaming...")
 
-        chat_completion = client.chat.completions.create(
-            model=IMAGE_MODEL,
-            messages=[
+        params = {
+            "model": model_name,
+            "messages": [
                 {
                     "role": "user",
                     "content": content
                 }
             ],
-            max_tokens=8192,
-            temperature=0.1,
-            timeout=120,
-            stream=True
-        )
+            "max_tokens": 8192,
+            "temperature": 0.1,
+            "timeout": 120,
+            "stream": True
+        }
+
+        if nothink_enabled:
+            params['extra_body'] = {
+                "google": {
+                    "thinking_config": {
+                        "thinking_budget": 0
+                    }
+                }
+            }
+
+        chat_completion = client.chat.completions.create(**params)
 
         full_response = ""
         question_list = []
@@ -667,7 +504,7 @@ def analyze_images(image_paths):
         response_buffer = ""
         is_total_questions_extracted = False
 
-        print("Starting to process streaming response...")
+        logging.info("Starting to process streaming response...")
 
         for chunk in chat_completion:
             if chunk.choices[0].delta.content:
@@ -675,36 +512,31 @@ def analyze_images(image_paths):
                 full_response += chunk_content
                 response_buffer += chunk_content
         
-                # Try to extract total questions if not already done
                 if not is_total_questions_extracted:
                     total_tag_content = extract_tag_content(response_buffer, "total_questions")
                     if total_tag_content:
                         try:
                             total_questions_count = int(total_tag_content)
                             is_total_questions_extracted = True
-                            print(f"Successfully extracted total questions: {total_questions_count}")
+                            logging.info(f"Successfully extracted total questions: {total_questions_count}")
                             yield {"type": "total", "count": total_questions_count}
                         except ValueError:
-                            print(f"Invalid total_questions value: {total_tag_content}")
+                            logging.warning(f"Invalid total_questions value: {total_tag_content}")
 
-                # Try to extract complete questions
                 while "<question>" in response_buffer and "</question>" in response_buffer:
                     question_start = response_buffer.find("<question>")
                     question_end = response_buffer.find("</question>") + len("</question>")
                     question_xml = response_buffer[question_start:question_end]
                     
-                    # Parse the question
                     question_data = parse_question_xml(question_xml)
                     if question_data:
                         question_list.append(question_data)
                         yield {"type": "progress", "count": len(question_list)}
                     
-                    # Remove processed question from buffer
                     response_buffer = response_buffer[question_end:]
 
         if not question_list and full_response:
             
-            # Try to get total questions if not already done
             if not is_total_questions_extracted:
                 total_tag_content = extract_tag_content(full_response, "total_questions")
                 if total_tag_content:
@@ -712,9 +544,8 @@ def analyze_images(image_paths):
                         total_questions_count = int(total_tag_content)
                         yield {"type": "total", "count": total_questions_count}
                     except ValueError:
-                        print(f"Invalid total_questions value: {total_tag_content}")
+                        logging.warning(f"Invalid total_questions value: {total_tag_content}")
 
-            # Extract all questions
             current_pos = 0
             while True:
                 question_start = full_response.find("<question>", current_pos)
@@ -735,26 +566,22 @@ def analyze_images(image_paths):
                 current_pos = question_end
 
             if question_list:
-                print(f"Successfully extracted {len(question_list)} questions from final parse")
+                logging.info(f"Successfully extracted {len(question_list)} questions from final parse")
                 yield {"type": "progress", "count": len(question_list)}
 
-        # If we never got a total_questions count, use the number of questions found
         if not is_total_questions_extracted and question_list:
             total_questions_count = len(question_list)
             yield {"type": "total", "count": total_questions_count}
 
-        print(f"\nFound {len(question_list)} questions")
-        # Send one final progress update before the result
+        logging.info(f"\nFound {len(question_list)} questions")
         yield {"type": "progress", "count": len(question_list)}
         yield {"type": "result", "questions": question_list}
 
     except Exception as e:
-        print(f"Error in analyze_images: {e}")
-        print("Full error details:")
-        print(traceback.format_exc())
+        logging.error(f"Error in analyze_images: {e}")
+        logging.debug(f"Full error details:\n{traceback.format_exc()}")
         yield {"type": "error", "message": str(e)}
 
 
 if __name__ == "__main__":
     pass
-

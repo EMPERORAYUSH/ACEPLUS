@@ -1,673 +1,1619 @@
 [
   {
-    "question": "Which of the following is NOT a characteristic property of a pure substance?",
+    "question_number": 1,
+    "question": "According to a scientist, what does the term 'pure substance' mean?",
     "options": {
-      "a": "It has a fixed composition throughout.",
-      "b": "It can be separated into simpler substances by physical processes.",
-      "c": "It has a definite melting and boiling point.",
-      "d": "It exhibits the same characteristic properties regardless of its source."
+      "a": "It contains no adulteration.",
+      "b": "All its constituent particles are the same in their chemical nature.",
+      "c": "It is a mixture of different substances.",
+      "d": "It can be easily separated into its components by physical means."
     },
-    "answer": "b",
-    "id": 339
+    "answer": "b"
   },
   {
-    "question": "A student prepares a mixture by adding sugar to water. This mixture can be classified as:",
+    "question_number": 2,
+    "question": "Which of the following is an example of a mixture as described in the text?",
     "options": {
-      "a": "A heterogeneous mixture",
-      "b": "A homogeneous mixture",
-      "c": "A compound",
-      "d": "An element"
+      "a": "Sodium chloride",
+      "b": "Sugar",
+      "c": "Sea water",
+      "d": "Pure oxygen"
     },
-    "answer": "b",
-    "id": 340
+    "answer": "c"
   },
   {
-    "question": "Which of the following separation techniques is most suitable for separating a mixture of sand and iron filings?",
+    "question_number": 3,
+    "question": "How can dissolved sodium chloride be separated from water?",
     "options": {
-      "a": "Evaporation",
+      "a": "Centrifugation",
       "b": "Filtration",
-      "c": "Magnetic separation",
-      "d": "Distillation"
+      "c": "Evaporation",
+      "d": "Decantation"
     },
-    "answer": "c",
-    "id": 341
+    "answer": "c"
   },
   {
-    "question": "Assertion: A solution is always a homogeneous mixture.\nReason: The particles in a solution are uniformly distributed and cannot be seen with the naked eye.",
+    "question_number": 4,
+    "question": "A mixture that has a uniform composition throughout is called a:",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
+      "a": "Heterogeneous mixture",
+      "b": "Pure substance",
+      "c": "Homogeneous mixture",
+      "d": "Suspension"
     },
-    "answer": "a",
-    "id": 342
+    "answer": "c"
   },
   {
-    "question": "A solution is prepared by dissolving 20g of salt in 180g of water. Calculate the mass percentage of the solution.",
+    "question_number": 5,
+    "question": "Which of the following is NOT an example of a homogeneous mixture mentioned in the text?",
     "options": {
-      "a": "10%",
-      "b": "11.11%",
-      "c": "20%",
-      "d": "90%"
+      "a": "Salt dissolved in water",
+      "b": "Sugar dissolved in water",
+      "c": "Copper sulphate solution",
+      "d": "Sodium chloride and iron filings"
     },
-    "answer": "a",
-    "id": 343
+    "answer": "d"
   },
   {
-    "question": "Which of the following mixtures exhibits the Tyndall effect?",
+    "question_number": 6,
+    "question": "What is the approximate composition of zinc in brass, as stated in the text?",
     "options": {
-      "a": "Salt solution",
-      "b": "Sugar solution",
-      "c": "Milk",
-      "d": "Air"
+      "a": "70%",
+      "b": "30%",
+      "c": "50%",
+      "d": "20%"
     },
-    "answer": "c",
-    "id": 344
+    "answer": "b"
   },
   {
-    "question": "The process of separating cream from milk is based on the principle of:",
+    "question_number": 7,
+    "question": "In a solution, the component present in a larger amount that dissolves the other component is called the:",
     "options": {
-      "a": "Evaporation",
-      "b": "Centrifugation",
-      "c": "Filtration",
-      "d": "Sublimation"
+      "a": "Solute",
+      "b": "Solvent",
+      "c": "Mixture",
+      "d": "Precipitate"
     },
-    "answer": "b",
-    "id": 345
+    "answer": "b"
   },
   {
-    "question": "Which of the following is NOT a suitable method for separating a mixture of two miscible liquids?",
+    "question_number": 8,
+    "question": "What is the solute in 'tincture of iodine'?",
     "options": {
-      "a": "Fractional distillation",
-      "b": "Simple distillation",
-      "c": "Separating funnel",
-      "d": "Chromatography"
-    },
-    "answer": "c",
-    "id": 346
-  },
-  {
-    "question": "Assertion: Chromatography can be used to separate the components of black ink.\nReason: The different components of ink have different solubilities in the solvent.",
-    "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
-    },
-    "answer": "a",
-    "id": 347
-  },
-  {
-    "question": "Which of the following is a chemical change?",
-    "options": {
-      "a": "Melting of ice",
-      "b": "Boiling of water",
-      "c": "Dissolving sugar in water",
-      "d": "Burning of wood"
-    },
-    "answer": "d",
-    "id": 348
-  },
-  {
-    "question": "Which of the following is NOT a characteristic property of metals?",
-    "options": {
-      "a": "Lustre",
-      "b": "Malleability",
-      "c": "Ductility",
-      "d": "Poor conductivity of heat and electricity"
-    },
-    "answer": "d",
-    "id": 349
-  },
-  {
-    "question": "Assertion: Air is a mixture.\nReason: Air can be separated into its components by fractional distillation.",
-    "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
-    },
-    "answer": "a",
-    "id": 350
-  },
-  {
-    "question": "Which of the following is a compound?",
-    "options": {
-      "a": "Iron",
+      "a": "Alcohol",
       "b": "Water",
-      "c": "Oxygen",
-      "d": "Nitrogen"
-    },
-    "answer": "b",
-    "id": 351
-  },
-  {
-    "question": "The process of crystallization is used to:",
-    "options": {
-      "a": "Separate a mixture of immiscible liquids",
-      "b": "Obtain a pure solid from its solution",
-      "c": "Separate a mixture of miscible liquids",
-      "d": "Separate a mixture of a solid and a liquid"
-    },
-    "answer": "b",
-    "id": 352
-  },
-  {
-    "question": "A student adds 10g of sugar to 100ml of water at 25°C. After stirring, some sugar remains undissolved. The solution is:",
-    "options": {
-      "a": "Dilute",
-      "b": "Concentrated",
-      "c": "Saturated",
-      "d": "Unsaturated"
-    },
-    "answer": "c",
-    "id": 353
-  },
-  {
-    "question": "Which of the following is NOT a colloid?",
-    "options": {
-      "a": "Milk",
-      "b": "Fog",
-      "c": "Shaving cream",
-      "d": "Salt solution"
-    },
-    "answer": "d",
-    "id": 354
-  },
-  {
-    "question": "Assertion: When a mixture of iron filings and sulfur powder is heated strongly, a new substance with different properties is formed.\nReason: This is a physical change.",
-    "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
-    },
-    "answer": "c",
-    "id": 355
-  },
-  {
-    "question": "A mixture of sand and salt can be separated by:",
-    "options": {
-      "a": "Dissolving the mixture in water, filtering, and then evaporating the filtrate.",
-      "b": "Heating the mixture to sublime the salt.",
-      "c": "Using a magnet to separate the sand.",
-      "d": "Adding water to the mixture and then decanting the salt solution."
-    },
-    "answer": "a",
-    "id": 356
-  },
-  {
-    "question": "Which of the following statements about a suspension is NOT true?",
-    "options": {
-      "a": "The particles are visible to the naked eye.",
-      "b": "The particles settle down when left undisturbed.",
-      "c": "The particles can be separated by filtration.",
-      "d": "The particles scatter a beam of light passing through it."
-    },
-    "answer": "d",
-    "id": 357
-  },
-  {
-    "question": "Which of the following is NOT a method for separating the components of a mixture?",
-    "options": {
-      "a": "Evaporation",
-      "b": "Distillation",
-      "c": "Chromatography",
-      "d": "Condensation"
-    },
-    "answer": "d",
-    "id": 358
-  },
-  {
-    "question": "Which of the following is a metalloid?",
-    "options": {
-      "a": "Iron",
-      "b": "Silicon",
-      "c": "Oxygen",
-      "d": "Chlorine"
-    },
-    "answer": "b",
-    "id": 359
-  },
-  {
-    "question": "Assertion: Water is a compound.\nReason: Water can be broken down into hydrogen and oxygen by electrolysis.",
-    "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
-    },
-    "answer": "a",
-    "id": 360
-  },
-  {
-    "question": "Which of the following is an example of a homogeneous mixture?",
-    "options": {
-      "a": "Sand and water",
-      "b": "Oil and water",
-      "c": "Salt and water",
-      "d": "Iron filings and sulfur powder"
-    },
-    "answer": "c",
-    "id": 361
-  },
-  {
-    "question": "Which of the following is a property of a colloid?",
-    "options": {
-      "a": "It exhibits the Tyndall effect.",
-      "b": "Its particles settle down when left undisturbed.",
-      "c": "Its particles can be separated by filtration.",
-      "d": "It is a homogeneous mixture."
-    },
-    "answer": "a",
-    "id": 362
-  },
-  {
-    "question": "Which of the following separation techniques is based on the difference in the boiling points of the components of a mixture?",
-    "options": {
-      "a": "Evaporation",
-      "b": "Distillation",
-      "c": "Chromatography",
-      "d": "Centrifugation"
-    },
-    "answer": "b",
-    "id": 363
-  },
-  {
-    "question": "Which of the following is a physical change?",
-    "options": {
-      "a": "Burning of paper",
-      "b": "Rusting of iron",
-      "c": "Melting of ice",
-      "d": "Digestion of food"
-    },
-    "answer": "c",
-    "id": 364
-  },
-  {
-    "question": "Which of the following is NOT a method for purifying a solid?",
-    "options": {
-      "a": "Crystallization",
-      "b": "Sublimation",
-      "c": "Distillation",
-      "d": "Filtration"
-    },
-    "answer": "c",
-    "id": 365
-  },
-  {
-    "question": "A mixture of oil and water can be separated by using a:",
-    "options": {
-      "a": "Filter paper",
-      "b": "Separating funnel",
-      "c": "Centrifuge",
-      "d": "Distillation flask"
-    },
-    "answer": "b",
-    "id": 366
-  },
-  {
-    "question": "Which of the following is NOT an application of centrifugation?",
-    "options": {
-      "a": "Separating cream from milk",
-      "b": "Separating blood components",
-      "c": "Separating oil from water",
-      "d": "Squeezing out water from wet clothes in washing machines"
-    },
-    "answer": "c",
-    "id": 367
-  },
-  {
-    "question": "Assertion: When a beam of light is passed through a colloidal solution, its path becomes visible.\nReason: The particles in a colloidal solution are large enough to scatter light.",
-    "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
-    },
-    "answer": "a",
-    "id": 368
-  },
-  {
-    "question": "Which of the following is a characteristic property of elements?",
-    "options": {
-      "a": "They can be broken down into simpler substances by chemical reactions.",
-      "b": "They have a fixed composition.",
-      "c": "They can be separated into their components by physical methods.",
-      "d": "They are the simplest forms of matter that cannot be broken down into simpler substances by chemical reactions."
-    },
-    "answer": "d",
-    "id": 369
-  },
-  {
-    "question": "Which of the following is NOT a pure substance?",
-    "options": {
-      "a": "Gold",
-      "b": "Water",
-      "c": "Air",
+      "c": "Iodine",
       "d": "Sugar"
     },
-    "answer": "c",
-    "id": 370
+    "answer": "c"
   },
   {
-    "question": "Which of the following is a heterogeneous mixture?",
+    "question_number": 9,
+    "question": "Air is a homogeneous mixture primarily consisting of which two gases?",
     "options": {
-      "a": "Salt solution",
-      "b": "Sugar solution",
+      "a": "Carbon dioxide and Oxygen",
+      "b": "Oxygen and Hydrogen",
+      "c": "Nitrogen and Carbon dioxide",
+      "d": "Oxygen and Nitrogen"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 10,
+    "question": "What is the approximate diameter of particles in a solution?",
+    "options": {
+      "a": "Larger than 10 nm",
+      "b": "Smaller than 1 nm",
+      "c": "Between 1 nm and 100 nm",
+      "d": "Visible to the naked eye"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 11,
+    "question": "Which property describes why the path of light is NOT visible in a solution?",
+    "options": {
+      "a": "Particles are larger than 100 nm.",
+      "b": "Particles settle down when undisturbed.",
+      "c": "Particles are very small and do not scatter light.",
+      "d": "Solutions are heterogeneous mixtures."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 12,
+    "question": "What happens to solute particles in a solution when left undisturbed?",
+    "options": {
+      "a": "They settle down at the bottom.",
+      "b": "They float to the surface.",
+      "c": "They remain evenly distributed.",
+      "d": "They are separated by filtration."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 13,
+    "question": "A solution that has dissolved as much solute as it is capable of dissolving at a given temperature is called a:",
+    "options": {
+      "a": "Dilute solution",
+      "b": "Concentrated solution",
+      "c": "Unsaturated solution",
+      "d": "Saturated solution"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 14,
+    "question": "The amount of solute present in a saturated solution at a given temperature is called its:",
+    "options": {
+      "a": "Concentration",
+      "b": "Solubility",
+      "c": "Saturation level",
+      "d": "Proportion"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 15,
+    "question": "Which of the following is a characteristic of a suspension?",
+    "options": {
+      "a": "It is a homogeneous mixture.",
+      "b": "Its particles are smaller than 1 nm.",
+      "c": "Its particles settle down when left undisturbed.",
+      "d": "It does not scatter a beam of light."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "The scattering of a beam of light by colloidal particles is known as the:",
+    "options": {
+      "a": "Brownian motion",
+      "b": "Tyndall effect",
+      "c": "Photoelectric effect",
+      "d": "Diffusion effect"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 17,
+    "question": "In a colloidal solution, the solute-like component is called the:",
+    "options": {
+      "a": "Dispersion medium",
+      "b": "Solvent",
+      "c": "Dispersed phase",
+      "d": "Colloid particle"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 18,
+    "question": "Which type of colloid is formed when liquid is dispersed in gas?",
+    "options": {
+      "a": "Foam",
+      "b": "Emulsion",
+      "c": "Aerosol",
+      "d": "Sol"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 19,
+    "question": "Milk is an example of which type of colloid?",
+    "options": {
+      "a": "Sol",
+      "b": "Foam",
+      "c": "Emulsion",
+      "d": "Aerosol"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 20,
+    "question": "Which of the following is a physical property of matter?",
+    "options": {
+      "a": "Inflammability",
+      "b": "Rusting",
+      "c": "Density",
+      "d": "Burning"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 21,
+    "question": "What happens to the chemical composition of a substance during a physical change?",
+    "options": {
+      "a": "It changes significantly.",
+      "b": "It remains the same.",
+      "c": "It becomes completely new.",
+      "d": "It becomes irreversible."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 22,
+    "question": "What is another name for a chemical change?",
+    "options": {
+      "a": "Physical reaction",
+      "b": "Chemical transformation",
+      "c": "Chemical reaction",
+      "d": "Compositional alteration"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 23,
+    "question": "Who was the first scientist to use the term 'element'?",
+    "options": {
+      "a": "Antoine Laurent Lavoisier",
+      "b": "Robert Boyle",
+      "c": "John Dalton",
+      "d": "Louis Pasteur"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 24,
+    "question": "Which of the following is NOT a general property of metals?",
+    "options": {
+      "a": "They are ductile.",
+      "b": "They conduct heat and electricity.",
+      "c": "They are poor conductors of heat and electricity.",
+      "d": "They are lustrous."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 25,
+    "question": "Which metal is liquid at room temperature?",
+    "options": {
+      "a": "Gold",
+      "b": "Copper",
+      "c": "Mercury",
+      "d": "Iron"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 26,
+    "question": "Which of these elements is classified as a metalloid?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Silicon",
+      "c": "Sodium",
+      "d": "Chlorine"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 27,
+    "question": "What defines a compound?",
+    "options": {
+      "a": "Elements mixed in any proportion.",
+      "b": "Elements physically combined without reaction.",
+      "c": "Two or more elements chemically combined in a fixed proportion.",
+      "d": "A substance that shows properties of its constituents."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "How many elements are naturally occurring, according to the text?",
+    "options": {
+      "a": "More than 100",
+      "b": "92",
+      "c": "11",
+      "d": "2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 29,
+    "question": "At room temperature, which two elements are liquid?",
+    "options": {
+      "a": "Gallium and Cesium",
+      "b": "Hydrogen and Oxygen",
+      "c": "Mercury and Bromine",
+      "d": "Sodium and Potassium"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "What is a key difference between a mixture and a compound regarding their composition?",
+    "options": {
+      "a": "A mixture has a fixed composition, while a compound has variable composition.",
+      "b": "A mixture has a variable composition, while a compound has a fixed composition.",
+      "c": "Both mixtures and compounds have fixed compositions.",
+      "d": "Both mixtures and compounds have variable compositions."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 31,
+    "question": "A solution contains 50 g of sugar dissolved in 200 g of water. Calculate the concentration in terms of mass by mass percentage of the solution.",
+    "options": {
+      "a": "25%",
+      "b": "20%",
+      "c": "16.67%",
+      "d": "28.57%"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 32,
+    "question": "If a solution has a mass by mass percentage of 15% and contains 30 g of solute, what is the total mass of the solution?",
+    "options": {
+      "a": "200 g",
+      "b": "150 g",
+      "c": "450 g",
+      "d": "300 g"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 33,
+    "question": "A solution is prepared by dissolving 25 mL of alcohol in enough water to make a total solution volume of 125 mL. Calculate the volume by volume percentage of this solution.",
+    "options": {
+      "a": "25%",
+      "b": "20%",
+      "c": "15%",
+      "d": "30%"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 34,
+    "question": "A saturated solution of sodium chloride in 100 g of water at 293 K contains 36 g of sodium chloride. What is the concentration of this solution in terms of mass by mass percentage?",
+    "options": {
+      "a": "36%",
+      "b": "26.47%",
+      "c": "30%",
+      "d": "29.5%"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 35,
+    "question": "To make a solution of 10% mass by mass concentration using 45 g of solute, how much solvent (water) would be needed?",
+    "options": {
+      "a": "405 g",
+      "b": "450 g",
+      "c": "500 g",
+      "d": "495 g"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 36,
+    "question": "A solution is prepared by dissolving 20 g of a substance in 80 mL of water. If the density of the solution is 1.2 g/mL, what is the mass by volume percentage of the solution?",
+    "options": {
+      "a": "20%",
+      "b": "25%",
+      "c": "24%",
+      "d": "16%"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 37,
+    "question": "From the solubility table, what mass of potassium nitrate would be needed to produce a saturated solution in 50 grams of water at 313 K?\nSolubility data at 313 K: Potassium nitrate = 62 g in 100 g water.",
+    "options": {
+      "a": "62 g",
+      "b": "31 g",
+      "c": "124 g",
+      "d": "50 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 38,
+    "question": "Based on the solubility table, which salt has the highest solubility at 293 K?\nSolubility data at 293 K:\nPotassium nitrate: 32 g\nSodium chloride: 36 g\nPotassium chloride: 35 g\nAmmonium chloride: 37 g",
+    "options": {
+      "a": "Potassium nitrate",
+      "b": "Sodium chloride",
+      "c": "Potassium chloride",
+      "d": "Ammonium chloride"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 39,
+    "question": "A 250 g solution of sugar in water has a mass by mass percentage of 12%. What is the mass of sugar (solute) in this solution?",
+    "options": {
+      "a": "30 g",
+      "b": "220 g",
+      "c": "25 g",
+      "d": "12 g"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 40,
+    "question": "If a 500 mL aerated drink contains 5 g of dissolved carbon dioxide, what is the mass by volume percentage of carbon dioxide in the drink?",
+    "options": {
+      "a": "1%",
+      "b": "0.5%",
+      "c": "2%",
+      "d": "10%"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 41,
+    "question": "A solution is prepared using 20 mL of ethanol and 80 mL of water. What is the volume by volume percentage of ethanol in the solution?",
+    "options": {
+      "a": "20%",
+      "b": "80%",
+      "c": "25%",
+      "d": "16.67%"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 42,
+    "question": "A solution has a mass by mass concentration of 20%. If the mass of the solvent is 160 g, what is the mass of the solute?",
+    "options": {
+      "a": "32 g",
+      "b": "40 g",
+      "c": "20 g",
+      "d": "48 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 43,
+    "question": "If 42 g of a salt is dissolved in 158 g of water, what is the mass by mass percentage concentration of the solution?",
+    "options": {
+      "a": "21%",
+      "b": "26.5%",
+      "c": "21.0%",
+      "d": "26.25%"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 44,
+    "question": "At 333 K, what is the solubility of Sodium chloride in 100 g of water, according to the table?\nSolubility data:\nSodium chloride at 333 K: 37 g",
+    "options": {
+      "a": "36 g",
+      "b": "37 g",
+      "c": "106 g",
+      "d": "55 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 45,
+    "question": "A solution contains 15 g of solute and has a total volume of 300 mL. Calculate the mass by volume percentage of the solution.",
+    "options": {
+      "a": "15%",
+      "b": "5%",
+      "c": "30%",
+      "d": "1.5%"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 46,
+    "question": "How much water is needed to make a 25% (mass by mass) solution using 75 g of a solute?",
+    "options": {
+      "a": "225 g",
+      "b": "300 g",
+      "c": "150 g",
+      "d": "200 g"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 47,
+    "question": "What is the mass of solution if 60 g of sugar forms a 15% (mass by mass) solution?",
+    "options": {
+      "a": "400 g",
+      "b": "340 g",
+      "c": "540 g",
+      "d": "360 g"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 48,
+    "question": "A saturated solution of Potassium chloride is made by dissolving 54 g in 100 g of water at 353 K. Calculate the concentration of this solution.",
+    "options": {
+      "a": "54%",
+      "b": "35.06%",
+      "c": "54.0%",
+      "d": "35.0%"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 49,
+    "question": "How much potassium nitrate would be needed to saturate 200 grams of water at 283 K?\nSolubility data: Potassium nitrate at 283 K: 21 g in 100 g water.",
+    "options": {
+      "a": "21 g",
+      "b": "42 g",
+      "c": "10.5 g",
+      "d": "63 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 50,
+    "question": "A liquid solution contains 30 mL of methanol in a total solution volume of 150 mL. What is the volume by volume percentage?",
+    "options": {
+      "a": "20%",
+      "b": "30%",
+      "c": "15%",
+      "d": "10%"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 51,
+    "question": "A saturated solution of Ammonium chloride is formed by dissolving 66 g in 100 g of water at 353 K. If only 50 g of water were used, how much Ammonium chloride would be needed to form a saturated solution at the same temperature?",
+    "options": {
+      "a": "66 g",
+      "b": "33 g",
+      "c": "132 g",
+      "d": "44 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 52,
+    "question": "A solution contains 10 g of a substance dissolved in 90 g of water. Calculate the mass by mass percentage of the solution.",
+    "options": {
+      "a": "10%",
+      "b": "9%",
+      "c": "11.1%",
+      "d": "100%"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 53,
+    "question": "What is the mass of water required to prepare a 20% (mass by mass) salt solution if you have 80 g of salt?",
+    "options": {
+      "a": "320 g",
+      "b": "400 g",
+      "c": "200 g",
+      "d": "240 g"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 54,
+    "question": "A student dissolves 35 g of Potassium chloride in 100 g of water at 293 K. Is the solution saturated, unsaturated, or supersaturated based on the given solubility data?\nSolubility data for Potassium chloride at 293 K: 35 g in 100 g water.",
+    "options": {
+      "a": "Saturated",
+      "b": "Unsaturated",
+      "c": "Supersaturated",
+      "d": "Dilute"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 55,
+    "question": "If 50 g of a substance is dissolved to make a 200 mL solution, what is its mass by volume percentage?",
+    "options": {
+      "a": "25%",
+      "b": "20%",
+      "c": "40%",
+      "d": "50%"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 56,
+    "question": "Pragya makes a saturated solution of potassium chloride in water at 353 K. Based on the table, if she starts with 100g of water, how much potassium chloride would she have used?\nSolubility of potassium chloride at 353 K: 54 g in 100 g water.",
+    "options": {
+      "a": "35 g",
+      "b": "40 g",
+      "c": "46 g",
+      "d": "54 g"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 57,
+    "question": "A solution contains 80 g of solute and 240 g of solvent. Calculate the mass by mass percentage of the solution.",
+    "options": {
+      "a": "25%",
+      "b": "33.3%",
+      "c": "20%",
+      "d": "40%"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 58,
+    "question": "A total of 400 mL of a liquid mixture has a volume by volume percentage of 25%. What is the volume of the solute in this mixture?",
+    "options": {
+      "a": "100 mL",
+      "b": "25 mL",
+      "c": "300 mL",
+      "d": "50 mL"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 59,
+    "question": "At 313 K, which of the following salts has the highest solubility in 100g of water?\nSolubility data at 313 K:\nPotassium nitrate: 62 g\nSodium chloride: 36 g\nPotassium chloride: 40 g\nAmmonium chloride: 41 g",
+    "options": {
+      "a": "Sodium chloride",
+      "b": "Potassium chloride",
+      "c": "Ammonium chloride",
+      "d": "Potassium nitrate"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 60,
+    "question": "A solution has a mass by volume percentage of 10%. If the mass of solute is 25 g, what is the total volume of the solution?",
+    "options": {
+      "a": "250 mL",
+      "b": "25 mL",
+      "c": "100 mL",
+      "d": "150 mL"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 61,
+    "question": "Which of the following substances would a scientist classify as a mixture?",
+    "options": {
+      "a": "Pure water",
+      "b": "Diamond (pure carbon)",
       "c": "Milk",
-      "d": "Sand and water"
+      "d": "Copper"
     },
-    "answer": "d",
-    "id": 371
+    "answer": "c"
   },
   {
-    "question": "Which of the following is a method for separating a mixture of a solid and a liquid?",
+    "question_number": 62,
+    "question": "You are given a glass of clear lemonade. Based on its appearance and uniform taste, how would you classify it according to the lesson?",
     "options": {
-      "a": "Evaporation",
-      "b": "Distillation",
-      "c": "Chromatography",
-      "d": "Filtration"
+      "a": "A heterogeneous mixture",
+      "b": "A suspension",
+      "c": "A homogeneous mixture",
+      "d": "A compound"
     },
-    "answer": "d",
-    "id": 372
+    "answer": "c"
   },
   {
-    "question": "Which of the following is a chemical change?",
+    "question_number": 63,
+    "question": "When you observe a beam of light passing through the canopy of a dense forest, you can see its path. This phenomenon is an example of:",
     "options": {
-      "a": "Melting of wax",
-      "b": "Boiling of water",
-      "c": "Burning of wood",
-      "d": "Dissolving sugar in water"
+      "a": "Reflection",
+      "b": "Refraction",
+      "c": "Tyndall effect",
+      "d": "Absorption"
     },
-    "answer": "c",
-    "id": 373
+    "answer": "c"
   },
   {
-    "question": "Which of the following is NOT a characteristic property of non-metals?",
+    "question_number": 64,
+    "question": "A farmer observes that muddy water collected during rain eventually settles down, leaving clear water on top. This observation indicates that muddy water is likely a:",
     "options": {
-      "a": "They are poor conductors of heat and electricity.",
-      "b": "They are not lustrous.",
-      "c": "They are malleable.",
-      "d": "They are not sonorous."
+      "a": "Solution",
+      "b": "Colloid",
+      "c": "Suspension",
+      "d": "Pure substance"
     },
-    "answer": "c",
-    "id": 374
+    "answer": "c"
   },
   {
-    "question": "Assertion: A solution of copper sulfate in water is a homogeneous mixture.\nReason: The copper sulfate particles are uniformly distributed in the water.",
+    "question_number": 65,
+    "question": "A chef wants to separate butter from curd. Which separation technique mentioned implicitly or explicitly in the lesson for colloids would be most effective?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
-    },
-    "answer": "a",
-    "id": 375
-  },
-  {
-    "question": "Which of the following is a compound?",
-    "options": {
-      "a": "Carbon",
-      "b": "Carbon dioxide",
-      "c": "Oxygen",
-      "d": "Hydrogen"
-    },
-    "answer": "b",
-    "id": 376
-  },
-  {
-    "question": "The process of sublimation is used to separate a mixture of:",
-    "options": {
-      "a": "Two miscible liquids",
-      "b": "Two immiscible liquids",
-      "c": "A solid and a liquid",
-      "d": "A sublimable solid and a non-sublimable solid"
-    },
-    "answer": "d",
-    "id": 377
-  },
-  {
-    "question": "A student dissolves 50g of sugar in 200ml of water at 25°C. The solution is:",
-    "options": {
-      "a": "Dilute",
-      "b": "Concentrated",
-      "c": "Saturated",
-      "d": "Unsaturated"
-    },
-    "answer": "d",
-    "id": 378
-  },
-  {
-    "question": "A student is tasked with separating a mixture of iron filings and sand. Which method would be most effective?",
-    "options": {
-      "a": "Evaporation",
-      "b": "Filtration",
-      "c": "Magnetic Separation",
-      "d": "Distillation"
-    },
-    "answer": "c",
-    "id": 379
-  },
-  {
-    "question": "Salt is obtained from seawater through the process of:",
-    "options": {
-      "a": "Distillation",
+      "a": "Filtration",
       "b": "Evaporation",
-      "c": "Filtration",
-      "d": "Sublimation"
+      "c": "Centrifugation",
+      "d": "Decantation"
     },
-    "answer": "b",
-    "id": 380
+    "answer": "c"
   },
   {
-    "question": "A colloid is a mixture in which the dispersed phase is:",
+    "question_number": 66,
+    "question": "If you mix oil and water in a container, they form two distinct layers. This indicates that the mixture is:",
     "options": {
-      "a": "Completely dissolved in the dispersion medium",
-      "b": "Finely divided and suspended in the dispersion medium",
-      "c": "Settled at the bottom of the container",
-      "d": "Separated into distinct layers"
+      "a": "Homogeneous",
+      "b": "A solution",
+      "c": "Heterogeneous",
+      "d": "A pure substance"
     },
-    "answer": "b",
-    "id": 381
+    "answer": "c"
   },
   {
-    "question": "Which of the following is NOT a method used in the purification of water at a waterworks?",
+    "question_number": 67,
+    "question": "An ornament is made of brass. Why is brass considered a mixture despite being a solid and its components not easily separated by simple physical methods?",
     "options": {
-      "a": "Sedimentation",
-      "b": "Filtration",
-      "c": "Chlorination",
-      "d": "Distillation"
+      "a": "Because it is made of chemically combined elements.",
+      "b": "Because it is a pure substance with fixed composition.",
+      "c": "Because it shows the properties of its constituent metals and has a variable composition.",
+      "d": "Because its particles are smaller than 1 nm."
     },
-    "answer": "d",
-    "id": 382
+    "answer": "c"
   },
   {
-    "question": "Which of the following is an example of a chemical change?",
+    "question_number": 68,
+    "question": "A student heats some water until it turns into steam. This process represents a:",
     "options": {
-      "a": "Ice melting into water",
-      "b": "Iron rusting",
-      "c": "Water boiling into steam",
-      "d": "Sugar dissolving in water"
+      "a": "Chemical change, because a new substance (steam) is formed.",
+      "b": "Physical change, because the chemical composition of water remains the same.",
+      "c": "Chemical change, because energy is absorbed.",
+      "d": "Physical change, because it is irreversible."
     },
-    "answer": "b",
-    "id": 383
+    "answer": "b"
   },
   {
-    "question": "An alloy is a:",
+    "question_number": 69,
+    "question": "When a paper is burned, it turns into ash and smoke. This process is categorized as a chemical change because:",
     "options": {
-      "a": "Compound of two or more metals",
-      "b": "Mixture of two or more metals",
-      "c": "Pure metal",
-      "d": "Non-metal"
+      "a": "The paper changes its physical state.",
+      "b": "Heat is produced during the process.",
+      "c": "New substances with different chemical compositions are formed.",
+      "d": "The color of the paper changes."
     },
-    "answer": "b",
-    "id": 384
+    "answer": "c"
   },
   {
-    "question": "The Tyndall effect is the scattering of light by:",
+    "question_number": 70,
+    "question": "You observe that dust particles are visible in a beam of sunlight entering a dark room. This phenomenon is caused by:",
     "options": {
-      "a": "Solutions",
-      "b": "Suspensions",
-      "c": "Colloids",
-      "d": "Compounds"
+      "a": "The dust particles absorbing light.",
+      "b": "The dust particles being very large.",
+      "c": "The scattering of light by dust and smoke particles in the air.",
+      "d": "The light beam reflecting off the walls."
     },
-    "answer": "c",
-    "id": 385
+    "answer": "c"
   },
   {
-    "question": "Which of the following is a true solution?",
+    "question_number": 71,
+    "question": "Which of the following everyday phenomena is an example of a chemical change?",
     "options": {
-      "a": "Milk",
-      "b": "Muddy water",
-      "c": "Sugar in water",
-      "d": "Fog"
+      "a": "Melting of butter in a pan",
+      "b": "Boiling of water to form steam",
+      "c": "Making a fruit salad with raw fruits",
+      "d": "Rusting of an almirah"
     },
-    "answer": "c",
-    "id": 386
+    "answer": "d"
   },
   {
-    "question": "Rahul wants to separate a mixture of salt and sand. He dissolves the mixture in water and then filters it. What does the filtrate contain?",
+    "question_number": 72,
+    "question": "A gardener is cutting trees. This action primarily involves what type of change?",
     "options": {
-      "a": "Sand",
-      "b": "Salt",
-      "c": "Both sand and salt",
-      "d": "Neither sand nor salt"
+      "a": "Chemical change",
+      "b": "Physical change",
+      "c": "Both physical and chemical change",
+      "d": "No change"
     },
-    "answer": "b",
-    "id": 387
+    "answer": "b"
   },
   {
-    "question": "Which of the following is a characteristic of a compound?",
+    "question_number": 73,
+    "question": "When common salt is dissolved in water, the process is considered a:",
     "options": {
-      "a": "It can be separated into its components by physical methods.",
-      "b": "It has a variable composition.",
-      "c": "It has properties different from its constituent elements.",
-      "d": "It can be found in nature in its elemental form."
+      "a": "Chemical change, as a new substance is formed.",
+      "b": "Physical change, as the salt can be recovered by evaporation.",
+      "c": "Chemical change, as the salt loses its properties.",
+      "d": "Biological change."
     },
-    "answer": "c",
-    "id": 388
+    "answer": "b"
   },
   {
-    "question": "Which of the following is an example of a heterogeneous mixture?",
+    "question_number": 74,
+    "question": "Why is air considered a solution?",
     "options": {
-      "a": "Saltwater",
-      "b": "Air",
-      "c": "Brass",
-      "d": "Concrete"
+      "a": "Because its components can be easily seen.",
+      "b": "Because it contains physically distinct parts.",
+      "c": "Because it is a homogeneous mixture of gases.",
+      "d": "Because its components can be separated by filtration."
     },
-    "answer": "d",
-    "id": 389
+    "answer": "c"
   },
   {
-    "question": "A student mixes iron filings and sulfur powder, then heats the mixture strongly. She observes that a new substance is formed with properties different from both iron and sulfur. However, she claims this is a physical change. Evaluate this claim and explain the actual process occurring.",
+    "question_number": 75,
+    "question": "You are given a colourless liquid. To confirm if it is pure water, you could:",
     "options": {
-      "a": "The student is correct; this is a physical change as the original substances can be recovered.",
-      "b": "The student is incorrect; this is a chemical change resulting in the formation of iron sulfide compound.",
-      "c": "The student is partially correct; it's a physical change at first but becomes a chemical change upon heating.",
-      "d": "The student is incorrect; this is a colloidal mixture formation, not a change."
+      "a": "Check if it boils at exactly 100\u00b0C at standard pressure.",
+      "b": "See if it conducts electricity.",
+      "c": "Check if it scatters a beam of light.",
+      "d": "Taste it to check for impurities."
     },
-    "answer": "b",
-    "id": 390
+    "answer": "a"
   },
   {
-    "question": "In a water purification plant, multiple processes are used. Which combination of separation techniques would be most effective for removing suspended particles, dissolved salts, and microorganisms from river water?",
+    "question_number": 76,
+    "question": "Why is milk described as a heterogeneous mixture, even though it appears homogeneous to the naked eye?",
     "options": {
-      "a": "Sedimentation, distillation, and chlorination",
-      "b": "Centrifugation, fractional distillation, and boiling",
-      "c": "Filtration, reverse osmosis, and UV treatment",
-      "d": "Decantation, evaporation, and addition of alum"
+      "a": "Its particles are smaller than 1 nm.",
+      "b": "It can be separated by filtration.",
+      "c": "Its particles are large enough to scatter light, indicating non-uniformity at a finer level.",
+      "d": "It settles down upon standing."
     },
-    "answer": "c",
-    "id": 391
+    "answer": "c"
   },
   {
-    "question": "A chemist claims to have developed a new element that conducts electricity poorly, has a dull appearance, and is malleable. Based on your understanding of element properties, critically analyze this claim.",
+    "question_number": 77,
+    "question": "A pharmacist prepares 'milk of magnesia'. Based on the classification in the table, what type of colloid is it?",
     "options": {
-      "a": "The claim is valid; the chemist has likely discovered a new metalloid.",
-      "b": "The claim is questionable; the described properties are contradictory for a single element.",
-      "c": "The claim is valid; the chemist has discovered a new type of metal with unique properties.",
-      "d": "The claim is partially valid; it could be a new non-metal with some metallic properties."
+      "a": "Aerosol",
+      "b": "Emulsion",
+      "c": "Sol",
+      "d": "Gel"
     },
-    "answer": "b",
-    "id": 392
+    "answer": "c"
   },
   {
-    "question": "In an experiment to separate a mixture of sand, salt, and ammonium chloride, a student proposes the following steps: 1) Add water 2) Filter 3) Heat the filtrate 4) Sublime the residue. Evaluate the effectiveness of this method and suggest improvements if necessary.",
+    "question_number": 78,
+    "question": "Which of the following scenarios describes a characteristic property of a compound, as opposed to a mixture?",
     "options": {
-      "a": "The method is correct and will effectively separate all components.",
-      "b": "The method is incomplete; an additional step of distillation is needed after filtration.",
-      "c": "The method is flawed; step 3 should be replaced with evaporation to recover salt.",
-      "d": "The method is inefficient; sublimation should be done before adding water."
+      "a": "Dissolving salt in water, where salt retains its taste.",
+      "b": "Mixing iron filings and sulphur powder, where iron can still be attracted by a magnet.",
+      "c": "Heating iron and sulphur strongly to form a new substance with a rotten egg smell.",
+      "d": "Separating tea leaves from brewed tea by filtration."
     },
-    "answer": "c",
-    "id": 393
+    "answer": "c"
   },
   {
-    "question": "A solution is prepared by dissolving 20g of a solute in 180g of water. If this solution is saturated at room temperature, what can you infer about the solubility of the solute? How would increasing the temperature likely affect the solution?",
+    "question_number": 79,
+    "question": "You want to prepare a diluted sugar solution from a concentrated one. Which of the following describes the change in concentration?",
     "options": {
-      "a": "Solubility is 11.11%; increasing temperature would likely allow more solute to dissolve.",
-      "b": "Solubility is 10%; increasing temperature would have no effect as it's already saturated.",
-      "c": "Solubility is 20%; increasing temperature would cause precipitation of excess solute.",
-      "d": "Solubility cannot be determined; temperature increase would always decrease solubility."
+      "a": "Increasing the amount of solute in the solution.",
+      "b": "Decreasing the amount of solvent in the solution.",
+      "c": "Adding more solvent to the solution.",
+      "d": "Allowing the solute to settle down."
     },
-    "answer": "a",
-    "id": 394
+    "answer": "c"
   },
   {
-    "question": "Consider a mixture of oil and water. A student suggests using a separating funnel to separate them, while another proposes using fractional distillation. Critically evaluate both methods and explain which would be more appropriate and why.",
+    "question_number": 80,
+    "question": "Why are alloys considered mixtures and not compounds, even though their components cannot be separated by physical methods?",
     "options": {
-      "a": "Separating funnel is better as it's simpler and exploits the immiscibility of the liquids.",
-      "b": "Fractional distillation is better as it can separate the mixture more purely.",
-      "c": "Both methods are equally effective and can be used interchangeably.",
-      "d": "Neither method is appropriate; centrifugation should be used instead."
+      "a": "Because they are homogeneous.",
+      "b": "Because they do not conduct electricity.",
+      "c": "Because they show properties of their constituents and have variable composition.",
+      "d": "Because they are formed by chemical reactions."
     },
-    "answer": "a",
-    "id": 395
+    "answer": "c"
   },
   {
-    "question": "A student observes that when a beam of light is passed through a sample of milk, its path becomes visible, but this doesn't happen with a salt solution. Explain this phenomenon and discuss what it reveals about the nature of these substances.",
+    "question_number": 81,
+    "question": "In Activity 2.1, Group A took one spatula full of copper sulphate in 50 mL of water, while Group B took two spatula full in 50 mL of water. How would the intensity of color of their solutions compare, and what does this illustrate about homogeneous mixtures?",
     "options": {
-      "a": "Milk is a suspension while salt solution is a colloid; suspensions scatter light more.",
-      "b": "Milk is a colloid while salt solution is a true solution; colloids exhibit the Tyndall effect.",
-      "c": "Both are colloids, but milk has larger particles that scatter light more effectively.",
-      "d": "The observation is incorrect; both should scatter light equally."
+      "a": "Group A's solution would be darker, showing homogeneous mixtures have fixed composition.",
+      "b": "Group B's solution would be darker, showing homogeneous mixtures can have variable composition.",
+      "c": "Both solutions would have the same color, indicating uniform composition.",
+      "d": "Group A's solution would be darker, showing they are heterogeneous."
     },
-    "answer": "b",
-    "id": 396
+    "answer": "b"
   },
   {
-    "question": "In chromatography of black ink, different components travel different distances. Explain the principle behind this separation and discuss how factors like solvent polarity and stationary phase composition might affect the results.",
+    "question_number": 82,
+    "question": "Based on Activity 2.2, if Group C (chalk powder in water) passed a beam of light through their mixture, what would they observe regarding the path of light, and why?",
     "options": {
-      "a": "Separation is based on particle size; solvent polarity and stationary phase have no effect.",
-      "b": "Separation is based on color; changing solvent or stationary phase would not affect results.",
-      "c": "Separation is based on different solubilities and attractions; changing solvent or stationary phase would alter separation.",
-      "d": "Separation is random; results would be different each time regardless of conditions."
+      "a": "The path of light would not be visible because the particles are too small to scatter light.",
+      "b": "The path of light would be visible because the particles of a suspension scatter light.",
+      "c": "The path of light would not be visible because chalk powder dissolves completely.",
+      "d": "The mixture would appear clear and transparent, showing no light path."
     },
-    "answer": "c",
-    "id": 397
+    "answer": "b"
   },
   {
-    "question": "A mixture contains a magnetic substance, a water-soluble substance, and a sublimable substance. Design a sequence of separation methods to isolate each component, explaining your rationale for each step.",
+    "question_number": 83,
+    "question": "A scientist observes that when a certain substance is heated, it undergoes a change, resulting in a new substance with entirely different properties. This observation implies that the original substance likely underwent a:",
     "options": {
-      "a": "Magnetic separation, then dissolution in water, then sublimation of the residue.",
-      "b": "Sublimation first, then magnetic separation, then dissolution in water.",
-      "c": "Dissolution in water first, then magnetic separation of the residue, then sublimation.",
-      "d": "Centrifugation to separate all components simultaneously."
+      "a": "Physical change, because heat was applied.",
+      "b": "Homogeneous mixing, forming a solution.",
+      "c": "Chemical change, because new properties indicate a change in chemical composition.",
+      "d": "Phase transition, like melting or boiling."
     },
-    "answer": "a",
-    "id": 398
+    "answer": "c"
   },
   {
-    "question": "A student claims that all mixtures can be separated into pure substances by physical methods alone. Critically evaluate this statement, providing examples to support your argument.",
+    "question_number": 84,
+    "question": "During the burning of a candle, both physical and chemical changes take place. Which of the following observations represents a physical change?",
     "options": {
-      "a": "The statement is correct; all mixtures can be separated physically given the right method.",
-      "b": "The statement is incorrect; separation always involves both physical and chemical methods.",
-      "c": "The statement is partially correct; it applies to heterogeneous mixtures but not homogeneous ones.",
-      "d": "The statement is incorrect; some mixtures, like alloys, cannot be separated by physical methods alone."
+      "a": "The wax burning to produce carbon dioxide and water vapor.",
+      "b": "The wick turning black and getting shorter.",
+      "c": "The wax melting and flowing downwards.",
+      "d": "The release of heat and light."
     },
-    "answer": "d",
-    "id": 399
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "Pragya makes a saturated solution of potassium chloride in water at 353 K and leaves the solution to cool slowly at room temperature. What would she observe as the solution cools, and why?",
+    "options": {
+      "a": "The solution would become unsaturated because solubility increases with decreasing temperature.",
+      "b": "No change would occur, as solubility is independent of temperature.",
+      "c": "Some potassium chloride would crystallize out because solubility generally decreases with decreasing temperature.",
+      "d": "The solution would become more dilute as water evaporates."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "In Activity 2.4, Group I mixed iron filings and sulphur powder without heating, while Group II heated them strongly. When a magnet was brought near the material obtained by Group I, it was attracted. What conclusion can be drawn about the material obtained by Group I?",
+    "options": {
+      "a": "It is a compound because heating creates magnetic properties.",
+      "b": "It is a mixture because the properties of the constituents are retained.",
+      "c": "It is a pure substance because the iron reacted with sulphur.",
+      "d": "It is a solution because it is homogeneous."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "If the material obtained by Group II (heated iron and sulphur) in Activity 2.4 was tested with a magnet, what would be the expected observation and conclusion?",
+    "options": {
+      "a": "It would be strongly attracted, indicating a mixture.",
+      "b": "It would not be attracted, indicating a new substance (compound) was formed.",
+      "c": "It would be weakly attracted, indicating a partial reaction.",
+      "d": "It would be repelled, indicating a different element."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "Consider the gases obtained when dilute sulphuric acid is added to the materials from Group I (mixture) and Group II (compound) in Activity 2.4. Why did they smell differently (hydrogen vs. hydrogen sulphide)?",
+    "options": {
+      "a": "The acid reacted differently with pure elements versus a compound, forming distinct products.",
+      "b": "The difference was due to varying amounts of acid added.",
+      "c": "One gas was pure and the other was a mixture.",
+      "d": "The temperature of the reaction was different for each group."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 89,
+    "question": "A chemist is trying to classify an unknown substance. She observes that it has a fixed boiling point and cannot be broken down into simpler substances by strong heating or by reacting with acids. Based on this, how should she classify the substance?",
+    "options": {
+      "a": "As a mixture",
+      "b": "As a compound",
+      "c": "As an element",
+      "d": "As a colloid"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 90,
+    "question": "Why does stirring a mixture of chalk powder and water (a suspension) make the path of light visible, but stirring a sugar solution does not?",
+    "options": {
+      "a": "Chalk particles are larger than sugar particles and thus scatter light effectively.",
+      "b": "Sugar particles absorb light, while chalk particles reflect it.",
+      "c": "Chalk powder is soluble, while sugar is insoluble.",
+      "d": "The density of chalk powder is higher than sugar."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 91,
+    "question": "If you leave a solution of salt in water undisturbed for an extended period, you observe no settling of salt particles. However, if you leave a mixture of fine mud particles in water undisturbed, the mud settles. What is the fundamental difference implied here regarding these two mixtures?",
+    "options": {
+      "a": "Salt solution is a colloid, mud in water is a suspension.",
+      "b": "Salt solution is a pure substance, mud in water is a mixture.",
+      "c": "Salt solution is a stable mixture, mud in water is an unstable mixture.",
+      "d": "Salt solution exhibits the Tyndall effect, mud in water does not."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "A student is given a transparent liquid that appears perfectly clear. When a strong beam of light is passed through it, no path of light is visible. However, when heated, a white solid separates from the liquid. Based on these observations, how would you classify the original liquid?",
+    "options": {
+      "a": "It is a pure substance.",
+      "b": "It is a solution.",
+      "c": "It is a colloid.",
+      "d": "It is a suspension."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "Why is water a compound, whereas air is a mixture, despite both being common substances?",
+    "options": {
+      "a": "Water can be physically separated into hydrogen and oxygen, but air cannot.",
+      "b": "Water has a variable composition, while air has a fixed composition.",
+      "c": "Water's elements are chemically combined in a fixed proportion, forming new properties, unlike air.",
+      "d": "Water is a liquid and air is a gas."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "The properties of gold include lustre, malleability, and excellent conductivity. Why are these considered properties of an element rather than a compound?",
+    "options": {
+      "a": "Elements are always shiny and malleable.",
+      "b": "Compounds typically do not have these properties.",
+      "c": "Elements are the basic form of matter that cannot be broken down and retain their unique characteristics.",
+      "d": "These properties change if gold is mixed with other substances."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 96,
+    "question": "Imagine you are given a beaker containing a mixture. You shine a beam of light through it, and the path of the light is clearly visible. After some time, you observe that the particles in the mixture have settled down at the bottom. What type of mixture did you likely have?",
+    "options": {
+      "a": "A solution, because it allows light to pass through.",
+      "b": "A colloid, because it scatters light.",
+      "c": "A suspension, because it scatters light and particles settle.",
+      "d": "A pure substance, because it forms a residue."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "You are performing an experiment involving the separation of elements. You have iron filings and sulphur powder. If you mix them thoroughly without heating (Group I's method), you can separate the iron using a magnet. However, if you heat them strongly (Group II's method), you cannot separate the iron magnetically. Why is this difference in separability observed?",
+    "options": {
+      "a": "Heating changes the physical state of iron, making it non-magnetic.",
+      "b": "In the first case, a physical mixture is formed, retaining individual properties; in the second, a chemical compound is formed with new properties.",
+      "c": "The magnetic properties of sulphur interfere with iron's magnetism when heated.",
+      "d": "Iron filings become too small to be attracted by a magnet after heating."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "The text mentions that elements like gallium and cesium become liquid at temperatures slightly above room temperature (303 K). What does this imply about their melting points compared to mercury or bromine?",
+    "options": {
+      "a": "Their melting points are much lower than mercury or bromine.",
+      "b": "Their melting points are higher than mercury or bromine.",
+      "c": "They have the same melting points as mercury and bromine.",
+      "d": "They are non-metals."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "A student proposes that sea water is a pure substance because it contains only H2O. Evaluate this statement based on the lesson.",
+    "options": {
+      "a": "The statement is true, as sea water is predominantly H2O.",
+      "b": "The statement is false; sea water is a mixture of water and dissolved salts/minerals.",
+      "c": "The statement is true because it has a uniform appearance.",
+      "d": "The statement is false, but it is a compound, not a pure substance."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "In Activity 2.2, Group D obtained a colloidal solution (milk or ink in water). Why did this mixture, unlike the suspension from Group C (chalk powder), not settle down when left undisturbed, even though both scatter light?",
+    "options": {
+      "a": "Colloidal particles are denser than suspension particles.",
+      "b": "Colloidal solutions are pure substances, thus stable.",
+      "c": "Colloidal particles are smaller than suspension particles, leading to greater stability against settling.",
+      "d": "Colloidal particles carry electrical charges."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "In Activity 2.1, Group A took one spatula full of copper sulphate in 50 mL of water, while Group B took two spatula full in 50 mL of water. How would the intensity of color of their solutions compare, and what does this illustrate about homogeneous mixtures?",
+    "options": {
+      "a": "Group A's solution would be darker, showing homogeneous mixtures have fixed composition.",
+      "b": "Group B's solution would be darker, showing homogeneous mixtures can have variable composition.",
+      "c": "Both solutions would have the same color, indicating uniform composition.",
+      "d": "Group A's solution would be darker, showing they are heterogeneous."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 102,
+    "question": "Based on Activity 2.2, if Group C (chalk powder in water) passed a beam of light through their mixture, what would they observe regarding the path of light, and why?",
+    "options": {
+      "a": "The path of light would not be visible because the particles are too small to scatter light.",
+      "b": "The path of light would be visible because the particles of a suspension scatter light.",
+      "c": "The path of light would not be visible because chalk powder dissolves completely.",
+      "d": "The mixture would appear clear and transparent, showing no light path."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 103,
+    "question": "A scientist observes that when a certain substance is heated, it undergoes a change, resulting in a new substance with entirely different properties. This observation implies that the original substance likely underwent a:",
+    "options": {
+      "a": "Physical change, because heat was applied.",
+      "b": "Homogeneous mixing, forming a solution.",
+      "c": "Chemical change, because new properties indicate a change in chemical composition.",
+      "d": "Phase transition, like melting or boiling."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 104,
+    "question": "During the burning of a candle, both physical and chemical changes take place. Which of the following observations represents a physical change?",
+    "options": {
+      "a": "The wax burning to produce carbon dioxide and water vapor.",
+      "b": "The wick turning black and getting shorter.",
+      "c": "The wax melting and flowing downwards.",
+      "d": "The release of heat and light."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 105,
+    "question": "Pragya makes a saturated solution of potassium chloride in water at 353 K and leaves the solution to cool slowly at room temperature. What would she observe as the solution cools, and why?",
+    "options": {
+      "a": "The solution would become unsaturated because solubility increases with decreasing temperature.",
+      "b": "No change would occur, as solubility is independent of temperature.",
+      "c": "Some potassium chloride would crystallize out because solubility generally decreases with decreasing temperature.",
+      "d": "The solution would become more dilute as water evaporates."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 106,
+    "question": "In Activity 2.4, Group I mixed iron filings and sulphur powder without heating, while Group II heated them strongly. When a magnet was brought near the material obtained by Group I, it was attracted. What conclusion can be drawn about the material obtained by Group I?",
+    "options": {
+      "a": "It is a compound because heating creates magnetic properties.",
+      "b": "It is a mixture because the properties of the constituents are retained.",
+      "c": "It is a pure substance because the iron reacted with sulphur.",
+      "d": "It is a solution because it is homogeneous."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 107,
+    "question": "If the material obtained by Group II (heated iron and sulphur) in Activity 2.4 was tested with a magnet, what would be the expected observation and conclusion?",
+    "options": {
+      "a": "It would be strongly attracted, indicating a mixture.",
+      "b": "It would not be attracted, indicating a new substance (compound) was formed.",
+      "c": "It would be weakly attracted, indicating a partial reaction.",
+      "d": "It would be repelled, indicating a different element."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "Consider the gases obtained when dilute sulphuric acid is added to the materials from Group I (mixture) and Group II (compound) in Activity 2.4. Why did they smell differently (hydrogen vs. hydrogen sulphide)?",
+    "options": {
+      "a": "The acid reacted differently with pure elements versus a compound, forming distinct products.",
+      "b": "The difference was due to varying amounts of acid added.",
+      "c": "One gas was pure and the other was a mixture.",
+      "d": "The temperature of the reaction was different for each group."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "A chemist is trying to classify an unknown substance. She observes that it has a fixed boiling point and cannot be broken down into simpler substances by strong heating or by reacting with acids. Based on this, how should she classify the substance?",
+    "options": {
+      "a": "As a mixture",
+      "b": "As a compound",
+      "c": "As an element",
+      "d": "As a colloid"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 110,
+    "question": "Why does stirring a mixture of chalk powder and water (a suspension) make the path of light visible, but stirring a sugar solution does not?",
+    "options": {
+      "a": "Chalk particles are larger than sugar particles and thus scatter light effectively.",
+      "b": "Sugar particles absorb light, while chalk particles reflect it.",
+      "c": "Chalk powder is soluble, while sugar is insoluble.",
+      "d": "The density of chalk powder is higher than sugar."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "If you leave a solution of salt in water undisturbed for an extended period, you observe no settling of salt particles. However, if you leave a mixture of fine mud particles in water undisturbed, the mud settles. What is the fundamental difference implied here regarding these two mixtures?",
+    "options": {
+      "a": "Salt solution is a colloid, mud in water is a suspension.",
+      "b": "Salt solution is a pure substance, mud in water is a mixture.",
+      "c": "Salt solution is a stable mixture, mud in water is an unstable mixture.",
+      "d": "Salt solution exhibits the Tyndall effect, mud in water does not."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 112,
+    "question": "How would a pure substance like sugar differ from a mixture like soft drink, in terms of composition?",
+    "options": {
+      "a": "Sugar has variable composition, while soft drink has fixed composition.",
+      "b": "Sugar has a uniform composition throughout, while soft drink has non-uniform composition.",
+      "c": "Sugar contains multiple types of pure matter, while soft drink contains only one.",
+      "d": "Sugar has the same characteristic properties regardless of its source, unlike a soft drink."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 113,
+    "question": "A student is given a transparent liquid that appears perfectly clear. When a strong beam of light is passed through it, no path of light is visible. However, when heated, a white solid separates from the liquid. Based on these observations, how would you classify the original liquid?",
+    "options": {
+      "a": "It is a pure substance.",
+      "b": "It is a solution.",
+      "c": "It is a colloid.",
+      "d": "It is a suspension."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 114,
+    "question": "Why is water a compound, whereas air is a mixture, despite both being common substances?",
+    "options": {
+      "a": "Water can be physically separated into hydrogen and oxygen, but air cannot.",
+      "b": "Water has a variable composition, while air has a fixed composition.",
+      "c": "Water's elements are chemically combined in a fixed proportion, forming new properties, unlike air.",
+      "d": "Water is a liquid and air is a gas."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 115,
+    "question": "The properties of gold include lustre, malleability, and excellent conductivity. Why are these considered properties of an element rather than a compound?",
+    "options": {
+      "a": "Elements are always shiny and malleable.",
+      "b": "Compounds typically do not have these properties.",
+      "c": "Elements are the basic form of matter that cannot be broken down and retain their unique characteristics.",
+      "d": "These properties change if gold is mixed with other substances."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Imagine you are given a beaker containing a mixture. You shine a beam of light through it, and the path of the light is clearly visible. After some time, you observe that the particles in the mixture have settled down at the bottom. What type of mixture did you likely have?",
+    "options": {
+      "a": "A solution, because it allows light to pass through.",
+      "b": "A colloid, because it scatters light.",
+      "c": "A suspension, because it scatters light and particles settle.",
+      "d": "A pure substance, because it forms a residue."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 117,
+    "question": "You are performing an experiment involving the separation of elements. You have iron filings and sulphur powder. If you mix them thoroughly without heating (Group I's method), you can separate the iron using a magnet. However, if you heat them strongly (Group II's method), you cannot separate the iron magnetically. Why is this difference in separability observed?",
+    "options": {
+      "a": "Heating changes the physical state of iron, making it non-magnetic.",
+      "b": "In the first case, a physical mixture is formed, retaining individual properties; in the second, a chemical compound is formed with new properties.",
+      "c": "The magnetic properties of sulphur interfere with iron's magnetism when heated.",
+      "d": "Iron filings become too small to be attracted by a magnet after heating."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 118,
+    "question": "The text mentions that elements like gallium and cesium become liquid at temperatures slightly above room temperature (303 K). What does this imply about their melting points compared to mercury or bromine?",
+    "options": {
+      "a": "Their melting points are much lower than mercury or bromine.",
+      "b": "Their melting points are higher than mercury or bromine.",
+      "c": "They have the same melting points as mercury and bromine.",
+      "d": "They are non-metals."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 119,
+    "question": "A student proposes that sea water is a pure substance because it contains only H2O. Evaluate this statement based on the lesson.",
+    "options": {
+      "a": "The statement is true, as sea water is predominantly H2O.",
+      "b": "The statement is false; sea water is a mixture of water and dissolved salts/minerals.",
+      "c": "The statement is true because it has a uniform appearance.",
+      "d": "The statement is false, but it is a compound, not a pure substance."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 120,
+    "question": "In Activity 2.2, Group D obtained a colloidal solution (milk or ink in water). Why did this mixture, unlike the suspension from Group C (chalk powder), not settle down when left undisturbed, even though both scatter light?",
+    "options": {
+      "a": "Colloidal particles are denser than suspension particles.",
+      "b": "Colloidal solutions are pure substances, thus stable.",
+      "c": "Colloidal particles are smaller than suspension particles, leading to greater stability against settling.",
+      "d": "Colloidal particles carry electrical charges."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): A solution of sugar in water does not show the Tyndall effect.\nReason (R): The particles of a solution are smaller than 1 nm in diameter.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): Suspension is a stable mixture.\nReason (R): The solute particles of a suspension settle down when left undisturbed.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): Brass is considered a compound.\nReason (R): Brass is a mixture of approximately 30% zinc and 70% copper and shows the properties of its constituents.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): Burning of a candle involves both physical and chemical changes.\nReason (R): The melting of wax is a physical change, while the burning of the wax and wick is a chemical change.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): Elements cannot be broken down into simpler substances by chemical reactions.\nReason (R): Antoine Laurent Lavoisier established an experimentally useful definition of an element as a basic form of matter that cannot be broken down into simpler substances by chemical reactions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): Rusting of almirah is a physical change.\nReason (R): A new substance with different chemical properties is formed during rusting.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): The components of a mixture can be separated fairly easily by physical methods.\nReason (R): In a mixture, elements or compounds just mix together and no new compound is formed.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): A solution is a homogeneous mixture.\nReason (R): In a solution, there is homogeneity at the particle level, meaning particles are evenly distributed.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): Colloids are generally very unstable.\nReason (R): Colloidal particles are too small to be seen with naked eyes but are big enough to scatter light.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 131,
+    "question": "Assertion (A): An element is a pure substance.\nReason (R): A pure substance consists of a single type of particle.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 132,
+    "question": "Assertion (A): The composition of a pure substance can vary depending on its source.\nReason (R): Pure substances always have the same characteristic properties, whatever their source may be.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 133,
+    "question": "Assertion (A): Sodium chloride can be separated from water by evaporation.\nReason (R): Sodium chloride is a pure substance.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 135,
+    "question": "Assertion (A): A saturated solution contains less solute than the saturation level.\nReason (R): The amount of solute present in the saturated solution at a given temperature is called its solubility.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 136,
+    "question": "Assertion (A): Physical changes result in a change in the chemical nature of a substance.\nReason (R): Interconversion of states (like ice to water) is an example of a physical change.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 137,
+    "question": "Assertion (A): Carbon (coal, coke) is a good conductor of heat and electricity.\nReason (R): Non-metals are poor conductors of heat and electricity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 138,
+    "question": "Assertion (A): A compound has totally different properties from its constituent elements.\nReason (R): Elements react chemically to form a new compound with a fixed composition.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 139,
+    "question": "Assertion (A): Colloidal particles can be separated from the mixture by the process of filtration.\nReason (R): Colloidal particles are too small to be seen with naked eyes.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 140,
+    "question": "Assertion (A): Sea water is a pure substance.\nReason (R): Pure substances consist of a single type of particle.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 141,
+    "question": "Assertion (A): Oil burns in air while water extinguishes fire.\nReason (R): Inflammability is a chemical property that makes oil different from water.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 142,
+    "question": "Assertion (A): Mercury is a metal, and it is liquid at room temperature.\nReason (R): Gallium and Cesium are also metals that are liquid at room temperature.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 143,
+    "question": "Assertion (A): A mixture has a variable composition.\nReason (R): The composition of each new substance in a compound is always fixed.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 144,
+    "question": "Assertion (A): A solution of copper sulphate in water is homogeneous.\nReason (R): Copper sulphate particles are physically distinct from water particles.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 145,
+    "question": "Assertion (A): Alloys are considered mixtures even though they cannot be separated by physical methods.\nReason (R): Alloys show the properties of their constituents and can have variable composition.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 146,
+    "question": "Assertion (A): The concentration of a solution expresses the amount of solute present per unit volume of the solution.\nReason (R): Mass by mass percentage of a solution is calculated as (Mass of solute / Mass of solution) \u00d7 100.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 147,
+    "question": "Assertion (A): Milk of magnesia is an example of a Sol.\nReason (R): A Sol is a colloid where a liquid is dispersed in a solid.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 148,
+    "question": "Assertion (A): Elements, gallium and cesium become liquid at a temperature slightly above room temperature (303 K).\nReason (R): They are classified as non-metals due to their unique properties.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 149,
+    "question": "Assertion (A): Making a fruit salad with raw fruits is a chemical change.\nReason (R): During a chemical change, new substances with different chemical compositions are formed.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 150,
+    "question": "Assertion (A): Fog is an example of an aerosol.\nReason (R): In an aerosol, liquid droplets are dispersed in a gas.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
   }
 ]

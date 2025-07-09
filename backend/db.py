@@ -10,6 +10,7 @@ import logging
 from dotenv import load_dotenv
 import os
 import hashlib
+import json
 # Load environment variables
 load_dotenv()
 
@@ -153,6 +154,25 @@ def get_user(user_id, class10=False):
     class_num = 10 if class10 else 9
     users = data_store[class_num]['collections'][0]['Users']
     return next((user for user in users if user['id'] == user_id), None)
+def update_user_tasks(user_id, tasks, class10=False, coins=None):
+    """Updates user tasks and optionally coins in RAM and MongoDB."""
+    class_num = 10 if class10 else 9
+    db = db10 if class10 else db9
+
+    update_set = {'tasks': tasks}
+    if coins is not None:
+        update_set['coins'] = coins
+
+    # Update RAM
+    users = data_store[class_num]['collections'][0]['Users']
+    user_index = next((index for (index, d) in enumerate(users) if d["id"] == user_id), None)
+    if user_index is not None:
+        users[user_index]['tasks'] = tasks
+        if coins is not None:
+            users[user_index]['coins'] = coins
+
+    # Update MongoDB
+    db['Users'].update_one({'id': user_id}, {'$set': update_set})
 
 def get_division(user_id, class10=False):
     """Determines the division of a user."""
@@ -195,6 +215,15 @@ def get_user_exam_history(user_id, class10=False):
         return overview_stats
     else:
         return []
+
+def get_all_lessons_for_subject(subject, class10=False):
+    """Fetches all lessons for a given subject from the data files."""
+
+    lessons_file = "lessons10.json" if class10 else "lessons.json"
+    data_path = os.path.join(os.path.dirname(__file__), "data")
+    with open(os.path.join(data_path, lessons_file)) as f:
+        lessons = json.load(f)
+    return lessons.get(subject, [])
 
 def update_user_stats(user_id, new_stats, class10=False):
     """Updates user stats in RAM and queues update for MongoDB."""
@@ -662,7 +691,7 @@ def update_user_stats_after_exam(user_id, subject, score, total_questions, exam_
         logger.error(f"Error in update_user_stats_after_exam: {str(e)}")
         raise
 
-def create_user_data(user_id, password, name, roll_no, div,teacher , class10=False) :
+def create_user_data(user_id, password, name, roll_no, div, class10=False, teacher=False):
     """Creates user data and inserts it into appropriate MongoDB collections."""
     class_num = 10 if class10 else 9
     db = db10 if class10 else db9
@@ -675,7 +704,13 @@ def create_user_data(user_id, password, name, roll_no, div,teacher , class10=Fal
         "password": password,
         "rollno": roll_no,
         "division": div,
-        "class": class_num
+        "class": class_num,
+        "teacher": teacher,
+        "coins": 0,
+        "tasks": {
+            "generated_at": None,
+            "tasks_list": []
+        }
     }
     users_collection.insert_one(user_data)
     data_store[class_num]['collections'][0]['Users'].append(user_data)
@@ -1023,6 +1058,23 @@ def get_students_by_division(class_num, division):
                 'gr_number': student['id']
             })
     return sorted(students, key=lambda x: x['roll'])
+
+def set_user_password(user_id, new_password, class10=False):
+    """Sets the password for a user."""
+    class_num = 10 if class10 else 9
+    db = db10 if class10 else db9
+
+    # Update in RAM
+    users = data_store[class_num]['collections'][0]['Users']
+    for user in users:
+        if user['id'] == user_id:
+            user['password'] = new_password
+            break
+
+    # Update in MongoDB
+    result = db['Users'].update_one({'id': user_id}, {'$set': {'password': new_password}})
+    return result.modified_count > 0
+
 # delete_unsubmitted_exams()
 
 def fix_missing_lowest_marks():
@@ -1285,5 +1337,6 @@ __all__ = [
     "get_overview_stats",
     "get_user_subjects",
     "update_user_stats_after_exam",
+    "set_user_password",
     "print_database_statistics",
 ]

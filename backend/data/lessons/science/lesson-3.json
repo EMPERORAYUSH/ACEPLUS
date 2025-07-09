@@ -1,196 +1,876 @@
 [
   {
-    "question": "Who first postulated the idea of *Parmanu*?",
+    "question_number": 1,
+    "question": "Which ancient Indian philosopher first postulated that dividing matter (padarth) would ultimately lead to the smallest particles called Parmanu?",
     "options": {
-      "a": "Democritus",
-      "b": "Maharishi Kanad",
-      "c": "Lavoisier",
-      "d": "Proust"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The term \"atoms\" (meaning indivisible) was coined by:",
-    "options": {
-      "a": "Dalton",
+      "a": "Pakudha Katyayama",
       "b": "Democritus",
-      "c": "Katyayama",
-      "d": "Proust"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The Law of Conservation of Mass states that:",
-    "options": {
-      "a": "Mass can be created",
-      "b": "Mass can be destroyed",
-      "c": "Mass can be created and destroyed",
-      "d": "Mass can neither be created nor destroyed"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "The Law of Constant Proportions is also known as:",
-    "options": {
-      "a": "Law of Multiple Proportions",
-      "b": "Law of Definite Proportions",
-      "c": "Law of Reciprocal Proportions",
-      "d": "Law of Gaseous Volumes"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "In water, the ratio of the mass of hydrogen to the mass of oxygen is always:",
-    "options": {
-      "a": "1:2",
-      "b": "1:8",
-      "c": "2:1",
-      "d": "8:1"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Which of the following is NOT a postulate of Dalton's atomic theory?",
-    "options": {
-      "a": "Atoms are indivisible",
-      "b": "Atoms can be created or destroyed in a chemical reaction",
-      "c": "Atoms of different elements have different masses",
-      "d": "Atoms combine in small whole-number ratios"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The symbol for the element Lead is derived from its Latin name:",
-    "options": {
-      "a": "Ferrum",
-      "b": "Natrium",
-      "c": "Kalium",
-      "d": "Plumbum"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "What does IUPAC stand for?",
-    "options": {
-      "a": "Indian Union of Pure and Applied Chemistry",
-      "b": "International Union of Primary and Applied Chemistry",
-      "c": "International Union of Pure and Applied Chemistry",
-      "d": "Internal Union of Pure and Applied Chemistry"
+      "c": "Maharishi Kanad",
+      "d": "Leucippus"
     },
     "answer": "c"
   },
   {
-    "question": "The atomic mass unit (u) is currently defined as:",
+    "question_number": 2,
+    "question": "The term 'atoms' meaning 'indivisible' was suggested by which ancient Greek philosopher?",
     "options": {
-      "a": "1/12th the mass of a carbon-12 atom",
-      "b": "The mass of a hydrogen atom",
-      "c": "The mass of an oxygen-16 atom",
-      "d": "1/16th the mass of an oxygen-16 atom"
+      "a": "Leucippus",
+      "b": "Democritus",
+      "c": "Plato",
+      "d": "Aristotle"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 3,
+    "question": "Who laid the foundation of chemical sciences by establishing two important laws of chemical combination?",
+    "options": {
+      "a": "John Dalton",
+      "b": "Joseph L. Proust",
+      "c": "Antoine L. Lavoisier",
+      "d": "Robert Boyle"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 4,
+    "question": "The Law of Conservation of Mass states that mass can neither be created nor destroyed in a:",
+    "options": {
+      "a": "Physical change",
+      "b": "Nuclear reaction",
+      "c": "Chemical reaction",
+      "d": "Biological process"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "The Law of Constant Proportions is also known as the Law of:",
+    "options": {
+      "a": "Multiple Proportions",
+      "b": "Reciprocal Proportions",
+      "c": "Definite Proportions",
+      "d": "Conservation of Mass"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 6,
+    "question": "According to the Law of Constant Proportions, what is the ratio by mass of hydrogen to oxygen in water, irrespective of its source?",
+    "options": {
+      "a": "2:1",
+      "b": "1:16",
+      "c": "1:8",
+      "d": "1:2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 7,
+    "question": "Which British chemist provided the basic theory about the nature of matter, adopting the name 'atoms' and basing his theory on the laws of chemical combination?",
+    "options": {
+      "a": "Antoine L. Lavoisier",
+      "b": "Joseph L. Proust",
+      "c": "John Dalton",
+      "d": "Amedeo Avogadro"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 8,
+    "question": "According to Dalton\u2019s atomic theory, atoms of a given element are identical in which properties?",
+    "options": {
+      "a": "Mass and volume",
+      "b": "Mass and chemical properties",
+      "c": "Size and shape",
+      "d": "Density and color"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 9,
+    "question": "Which postulate of Dalton\u2019s atomic theory explains the Law of Conservation of Mass?",
+    "options": {
+      "a": "Atoms combine in the ratio of small whole numbers to form compounds.",
+      "b": "The relative number and kinds of atoms are constant in a given compound.",
+      "c": "Atoms are indivisible particles, which cannot be created or destroyed in a chemical reaction.",
+      "d": "Atoms of different elements have different masses and chemical properties."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 10,
+    "question": "What is the unit used to measure atomic radius?",
+    "options": {
+      "a": "Metres",
+      "b": "Centimetres",
+      "c": "Nanometres",
+      "d": "Millimetres"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 11,
+    "question": "How many nanometers are equal to 1 meter?",
+    "options": {
+      "a": "10^-9 nm",
+      "b": "10^3 nm",
+      "c": "10^6 nm",
+      "d": "10^9 nm"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 12,
+    "question": "What was the primary reason for Berzelius's suggestion regarding symbols of elements?",
+    "options": {
+      "a": "To make them aesthetically pleasing.",
+      "b": "To distinguish elements from compounds.",
+      "c": "To derive symbols from one or two letters of the name of the element.",
+      "d": "To use Latin names only."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 13,
+    "question": "According to IUPAC guidelines, what is the correct way to write the symbol for Aluminium?",
+    "options": {
+      "a": "AL",
+      "b": "Al",
+      "c": "aL",
+      "d": "A.l."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 14,
+    "question": "The symbol for Sodium (Na) is derived from its name in which language?",
+    "options": {
+      "a": "English",
+      "b": "German",
+      "c": "Greek",
+      "d": "Latin"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 15,
+    "question": "Which element was chosen as the standard reference for measuring atomic masses universally in 1961?",
+    "options": {
+      "a": "Oxygen-16",
+      "b": "Hydrogen-1",
+      "c": "Carbon-12",
+      "d": "Sulphur-32"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "What is one atomic mass unit (u) defined as?",
+    "options": {
+      "a": "Exactly one-sixteenth (1/16th) the mass of one atom of oxygen.",
+      "b": "Exactly one-twelfth (1/12th) the mass of one atom of carbon-12.",
+      "c": "The mass of one atom of hydrogen.",
+      "d": "The average mass of an atom compared to 1 gram."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 17,
+    "question": "What is the general state of existence for atoms of most elements?",
+    "options": {
+      "a": "They exist independently.",
+      "b": "They form molecules and ions.",
+      "c": "They exist as single, large particles.",
+      "d": "They always combine only with atoms of the same element."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 18,
+    "question": "What is defined as the smallest particle of an element or a compound that is capable of an independent existence and shows all the properties of that substance?",
+    "options": {
+      "a": "An atom",
+      "b": "An ion",
+      "c": "A molecule",
+      "d": "A mixture"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 19,
+    "question": "The number of atoms constituting a molecule is known as its:",
+    "options": {
+      "a": "Valency",
+      "b": "Atomic mass",
+      "c": "Atomicity",
+      "d": "Ionic charge"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 20,
+    "question": "Which of the following is an example of a diatomic molecule?",
+    "options": {
+      "a": "Argon (Ar)",
+      "b": "Ozone (O3)",
+      "c": "Oxygen (O2)",
+      "d": "Phosphorus (P4)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 21,
+    "question": "What is an ion?",
+    "options": {
+      "a": "A neutral atom that has lost electrons.",
+      "b": "A group of two or more atoms that are chemically bonded.",
+      "c": "A charged species formed by metals and nonmetals.",
+      "d": "An uncharged particle that cannot exist independently."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "A negatively charged ion is called a/an:",
+    "options": {
+      "a": "Cation",
+      "b": "Anion",
+      "c": "Proton",
+      "d": "Neutron"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 23,
+    "question": "What is the combining power (or capacity) of an element known as?",
+    "options": {
+      "a": "Atomic mass",
+      "b": "Molecular mass",
+      "c": "Valency",
+      "d": "Atomicity"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 24,
+    "question": "What is the sum of the atomic masses of all the atoms in a molecule of a substance called?",
+    "options": {
+      "a": "Formula unit mass",
+      "b": "Atomic mass unit",
+      "c": "Molar mass",
+      "d": "Molecular mass"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 25,
+    "question": "For which type of substances is 'formula unit mass' typically calculated instead of molecular mass?",
+    "options": {
+      "a": "Elements",
+      "b": "Covalent compounds",
+      "c": "Ionic compounds",
+      "d": "Mixtures"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 26,
+    "question": "In a chemical substance, elements are always present in definite proportions by mass. This law was stated by:",
+    "options": {
+      "a": "Antoine L. Lavoisier",
+      "b": "John Dalton",
+      "c": "Joseph L. Proust",
+      "d": "Maharishi Kanad"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "Which of the following is a postulate of Dalton's atomic theory?",
+    "options": {
+      "a": "Atoms can be divided into subatomic particles.",
+      "b": "Atoms of different elements are identical in mass.",
+      "c": "Atoms participate in chemical reactions.",
+      "d": "Atoms can be created or destroyed in chemical reactions."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "What is the symbol for the element Potassium?",
+    "options": {
+      "a": "P",
+      "b": "Po",
+      "c": "K",
+      "d": "Pt"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "Which of the following elements is listed as monoatomic in the provided table on atomicity?",
+    "options": {
+      "a": "Oxygen",
+      "b": "Hydrogen",
+      "c": "Argon",
+      "d": "Nitrogen"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "A group of atoms carrying a charge is known as a:",
+    "options": {
+      "a": "Compound",
+      "b": "Element",
+      "c": "Polyatomic ion",
+      "d": "Molecule"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 31,
+    "question": "In a chemical reaction, 4.9 g of substance A reacts completely with 7.1 g of substance B to form a single product C. What is the mass of product C formed?",
+    "options": {
+      "a": "2.2 g",
+      "b": "12.0 g",
+      "c": "4.9 g",
+      "d": "7.1 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 32,
+    "question": "If 9 g of water is decomposed, according to the Law of Constant Proportions, what mass of hydrogen and oxygen will always be obtained respectively?",
+    "options": {
+      "a": "8 g hydrogen, 1 g oxygen",
+      "b": "1 g hydrogen, 8 g oxygen",
+      "c": "4.5 g hydrogen, 4.5 g oxygen",
+      "d": "2 g hydrogen, 7 g oxygen"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 33,
+    "question": "Hydrogen and oxygen combine in the ratio of 1:8 by mass to form water. What mass of oxygen gas would be required to react completely with 3 g of hydrogen gas?",
+    "options": {
+      "a": "8 g",
+      "b": "16 g",
+      "c": "24 g",
+      "d": "3 g"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 34,
+    "question": "Ammonia (NH3) always contains nitrogen and hydrogen in the ratio 14:3 by mass. If a sample of ammonia contains 42 g of nitrogen, what mass of hydrogen is present in the sample?",
+    "options": {
+      "a": "3 g",
+      "b": "9 g",
+      "c": "14 g",
+      "d": "39 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 35,
+    "question": "Calculate the relative molecular mass of water (H2O), given atomic mass of hydrogen = 1 u and oxygen = 16 u.",
+    "options": {
+      "a": "17 u",
+      "b": "18 u",
+      "c": "19 u",
+      "d": "32 u"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 36,
+    "question": "Calculate the molecular mass of HNO3, given atomic masses: H=1u, N=14u, O=16u.",
+    "options": {
+      "a": "48 u",
+      "b": "53 u",
+      "c": "63 u",
+      "d": "72 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 37,
+    "question": "Calculate the formula unit mass of Sodium Chloride (NaCl), given atomic masses: Na=23u, Cl=35.5u.",
+    "options": {
+      "a": "23 u",
+      "b": "35.5 u",
+      "c": "58.5 u",
+      "d": "59.5 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 38,
+    "question": "Calculate the formula unit mass of CaCl2, given atomic masses: Ca=40u, Cl=35.5u.",
+    "options": {
+      "a": "75.5 u",
+      "b": "80 u",
+      "c": "111 u",
+      "d": "146 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 39,
+    "question": "Calculate the molecular mass of Ethyne (C2H2), given atomic masses: C=12u, H=1u.",
+    "options": {
+      "a": "13 u",
+      "b": "14 u",
+      "c": "24 u",
+      "d": "26 u"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 40,
+    "question": "Calculate the molecular mass of Sulphur molecule (S8), given atomic mass of S=32u.",
+    "options": {
+      "a": "32 u",
+      "b": "64 u",
+      "c": "128 u",
+      "d": "256 u"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 41,
+    "question": "Calculate the molecular mass of Phosphorus molecule (P4), given atomic mass of P=31u.",
+    "options": {
+      "a": "31 u",
+      "b": "62 u",
+      "c": "124 u",
+      "d": "186 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "Calculate the molecular mass of Hydrochloric acid (HCl), given atomic masses: H=1u, Cl=35.5u.",
+    "options": {
+      "a": "36.5 u",
+      "b": "35.5 u",
+      "c": "1 u",
+      "d": "71 u"
     },
     "answer": "a"
   },
   {
-    "question": "Which of the following represents a molecule of an element?",
+    "question_number": 43,
+    "question": "Calculate the molecular mass of Carbon dioxide (CO2), given atomic masses: C=12u, O=16u.",
     "options": {
-      "a": "H\u2082O",
-      "b": "CO\u2082",
-      "c": "O\u2083",
-      "d": "NaCl"
+      "a": "28 u",
+      "b": "32 u",
+      "c": "44 u",
+      "d": "48 u"
     },
     "answer": "c"
   },
   {
-    "question": "What is the atomicity of Argon?",
+    "question_number": 44,
+    "question": "Calculate the molecular mass of Methane (CH4), given atomic masses: C=12u, H=1u.",
     "options": {
-      "a": "Diatomic",
-      "b": "Monoatomic",
-      "c": "Triatomic",
-      "d": "Polyatomic"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "An anion is a:",
-    "options": {
-      "a": "Positively charged ion",
-      "b": "Negatively charged ion",
-      "c": "Neutral atom",
-      "d": "Metallic element"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The chemical formula for Magnesium Chloride is:",
-    "options": {
-      "a": "MgCl",
-      "b": "Mg\u2082Cl",
-      "c": "MgCl\u2082",
-      "d": "Mg\u2082Cl\u2082"
+      "a": "12 u",
+      "b": "13 u",
+      "c": "16 u",
+      "d": "17 u"
     },
     "answer": "c"
   },
   {
-    "question": "What is the valency of oxygen in most compounds?",
+    "question_number": 45,
+    "question": "Calculate the molecular mass of Ethane (C2H6), given atomic masses: C=12u, H=1u.",
     "options": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "a": "24 u",
+      "b": "26 u",
+      "c": "30 u",
+      "d": "32 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 46,
+    "question": "Calculate the molecular mass of Ethene (C2H4), given atomic masses: C=12u, H=1u.",
+    "options": {
+      "a": "24 u",
+      "b": "28 u",
+      "c": "30 u",
+      "d": "32 u"
     },
     "answer": "b"
   },
   {
-    "question": "If 12g of carbon burns completely in 32g of oxygen, what mass of carbon dioxide is formed?",
+    "question_number": 47,
+    "question": "Calculate the molecular mass of Ammonia (NH3), given atomic masses: N=14u, H=1u.",
     "options": {
-      "a": "20g",
-      "b": "44g",
-      "c": "54g",
-      "d": "32g"
+      "a": "15 u",
+      "b": "17 u",
+      "c": "18 u",
+      "d": "20 u"
     },
     "answer": "b"
   },
   {
-    "question": "In a compound, elements A and B are present in a ratio of 2:3 by mass. If 4g of A are present, what mass of B is present?",
-    "options": {
-      "a": "3g",
-      "b": "6g",
-      "c": "8g",
-      "d": "12g"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The formula of a metal oxide is MO. If the metal (M) has an atomic mass of 24, and oxygen has an atomic mass of 16, what is the formula mass of MO?",
+    "question_number": 48,
+    "question": "Calculate the molecular mass of Methanol (CH3OH), given atomic masses: C=12u, H=1u, O=16u.",
     "options": {
       "a": "30 u",
-      "b": "40 u",
-      "c": "48 u",
-      "d": "8 u"
+      "b": "31 u",
+      "c": "32 u",
+      "d": "34 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 49,
+    "question": "Calculate the formula unit mass of Zinc Oxide (ZnO), given atomic masses: Zn=65u, O=16u.",
+    "options": {
+      "a": "71 u",
+      "b": "81 u",
+      "c": "91 u",
+      "d": "101 u"
     },
     "answer": "b"
   },
   {
-    "question": "What is the molecular mass of H\u2082SO\u2084? (H=1 u, S=32 u, O=16 u)",
+    "question_number": 50,
+    "question": "Calculate the formula unit mass of Sodium Oxide (Na2O), given atomic masses: Na=23u, O=16u.",
     "options": {
-      "a": "49 u",
-      "b": "98 u",
-      "c": "82 u",
-      "d": "100 u"
+      "a": "39 u",
+      "b": "46 u",
+      "c": "62 u",
+      "d": "78 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 51,
+    "question": "Calculate the formula unit mass of Potassium Carbonate (K2CO3), given atomic masses: K=39u, C=12u, O=16u.",
+    "options": {
+      "a": "67 u",
+      "b": "90 u",
+      "c": "138 u",
+      "d": "154 u"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 52,
+    "question": "In a reaction, 5.3 g of sodium carbonate reacted with 6 g of acetic acid. The products were 2.2 g of carbon dioxide, 0.9 g water and 8.2 g of sodium acetate. Show that these observations are in agreement with the law of conservation of mass. What is the total mass of reactants?",
+    "options": {
+      "a": "5.3 g",
+      "b": "6.0 g",
+      "c": "11.3 g",
+      "d": "12.3 g"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 53,
+    "question": "A 0.24 g sample of a compound of oxygen and boron was found by analysis to contain 0.096 g of boron and 0.144 g of oxygen. What is the percentage composition of oxygen by weight in the compound?",
+    "options": {
+      "a": "40%",
+      "b": "60%",
+      "c": "24%",
+      "d": "96%"
     },
     "answer": "b"
   },
   {
-    "question": "What is the formula mass of Sodium Chloride (NaCl)? (Na=23 u, Cl=35.5 u)",
+    "question_number": 54,
+    "question": "A 0.24 g sample of a compound of oxygen and boron was found by analysis to contain 0.096 g of boron and 0.144 g of oxygen. What is the percentage composition of boron by weight in the compound?",
     "options": {
-      "a": "58.5 u",
-      "b": "59.5 u",
-      "c": "57.5 u",
-      "d": "60 u"
+      "a": "40%",
+      "b": "60%",
+      "c": "24%",
+      "d": "96%"
     },
     "answer": "a"
   },
   {
-    "question": "If the formula of a chloride of a metal is MCl\u2083, what is the valency of the metal M?",
+    "question_number": 55,
+    "question": "When 3.0 g of carbon is burnt in 8.00 g oxygen, 11.00 g of carbon dioxide is produced. What mass of carbon dioxide will be formed when 3.00 g of carbon is burnt in 50.00 g of oxygen?",
+    "options": {
+      "a": "11.00 g",
+      "b": "53.00 g",
+      "c": "8.00 g",
+      "d": "50.00 g"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 56,
+    "question": "Write the chemical formula for Sodium Oxide, given sodium (Na+) and oxide (O2-) ions.",
+    "options": {
+      "a": "NaO",
+      "b": "Na2O",
+      "c": "NaO2",
+      "d": "Na2O2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "Write the chemical formula for Aluminium Chloride, given aluminium (Al3+) and chloride (Cl-) ions.",
+    "options": {
+      "a": "AlCl",
+      "b": "Al2Cl3",
+      "c": "AlCl3",
+      "d": "Al3Cl"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 58,
+    "question": "Write the chemical formula for Magnesium Hydroxide, given magnesium (Mg2+) and hydroxide (OH-) ions.",
+    "options": {
+      "a": "MgOH",
+      "b": "Mg2OH",
+      "c": "Mg(OH)2",
+      "d": "MgOH2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 59,
+    "question": "Write the chemical formula for Calcium Hydroxide, given calcium (Ca2+) and hydroxide (OH-) ions.",
+    "options": {
+      "a": "CaOH",
+      "b": "Ca(OH)2",
+      "c": "Ca2OH",
+      "d": "Ca(OH)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "Write the chemical formula for Ammonium Sulphate, given ammonium (NH4+) and sulphate (SO4 2-) ions.",
+    "options": {
+      "a": "NH4SO4",
+      "b": "(NH4)2SO4",
+      "c": "NH4(SO4)2",
+      "d": "(NH4)SO4"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 61,
+    "question": "An experiment involving a chemical reaction is conducted in a sealed conical flask with a cork. What is the primary reason for putting a cork on the mouth of the flask during the reaction?",
+    "options": {
+      "a": "To prevent the solutions from mixing prematurely.",
+      "b": "To observe the change in volume easily.",
+      "c": "To ensure no mass is lost or gained from the atmosphere, thus validating the Law of Conservation of Mass.",
+      "d": "To increase the reaction rate by building pressure."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "A student observes that when a certain compound is formed, 3g of element X combines with 4g of element Y. If the student uses 6g of element X and sufficient element Y, how much of element Y will react completely to form the same compound, assuming the Law of Constant Proportions holds?",
+    "options": {
+      "a": "4 g",
+      "b": "8 g",
+      "c": "12 g",
+      "d": "6 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 63,
+    "question": "Why is it not possible to see an atom with naked eyes?",
+    "options": {
+      "a": "Atoms are transparent and have no color.",
+      "b": "Atoms constantly affect whatever we do.",
+      "c": "Atoms are extremely small, much smaller than anything we can imagine.",
+      "d": "Atoms exist independently and repel light."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "If the chemical symbol for an element starts with a capital 'A' and its second letter is 'l', which element is it most likely referring to according to IUPAC guidelines?",
+    "options": {
+      "a": "Argon",
+      "b": "Aluminium",
+      "c": "Silver",
+      "d": "Antimony"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 65,
+    "question": "The relative atomic mass of an atom of an element is defined by comparing its average mass to a specific standard. What is this standard based on?",
+    "options": {
+      "a": "The mass of one hydrogen atom.",
+      "b": "1/16th the mass of one oxygen atom.",
+      "c": "1/12th the mass of one carbon-12 atom.",
+      "d": "The mass of one proton."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 66,
+    "question": "A scientist discovers a new element and wants to assign it a chemical symbol. Following IUPAC recommendations, if the element's name is \"Nova,\" which symbol would be most appropriate?",
+    "options": {
+      "a": "NO",
+      "b": "Nv",
+      "c": "No",
+      "d": "NV"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 67,
+    "question": "A mason builds a huge building from small bricks. What concept in the lesson is analogous to the brick in the context of matter?",
+    "options": {
+      "a": "A molecule",
+      "b": "An atom",
+      "c": "An ion",
+      "d": "A compound"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 68,
+    "question": "When writing the chemical formula for an ionic compound, such as sodium chloride (NaCl), why is the symbol for sodium (Na) written before chlorine (Cl)?",
+    "options": {
+      "a": "Sodium is more abundant than chlorine.",
+      "b": "It is a convention that the metal is written first, followed by the non-metal.",
+      "c": "Sodium has a lower atomic mass than chlorine.",
+      "d": "Sodium is a monoatomic element."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 69,
+    "question": "In the formula for calcium hydroxide, Ca(OH)2, what does the subscript '2' outside the bracket indicate?",
+    "options": {
+      "a": "There are two calcium atoms for every hydroxide group.",
+      "b": "There are two atoms of oxygen and two atoms of hydrogen in the compound.",
+      "c": "The valency of calcium is 2.",
+      "d": "The calcium atom is bonded to two oxygen atoms."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 70,
+    "question": "If a compound has the formula Mg(OH)2, what does this indicate about the combining ratio of magnesium ions to hydroxide ions?",
+    "options": {
+      "a": "One magnesium ion combines with one hydroxide ion.",
+      "b": "Two magnesium ions combine with one hydroxide ion.",
+      "c": "One magnesium ion combines with two hydroxide ions.",
+      "d": "One magnesium ion combines with two oxygen atoms and two hydrogen atoms separately."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "A chemical formula of a compound shows its constituent elements and the number of atoms of each combining element. Which rule is applied when writing the formula for a compound like Na2SO4?",
+    "options": {
+      "a": "Metal symbol is written after non-metal symbol.",
+      "b": "Charges on ions must balance.",
+      "c": "Brackets are always required for polyatomic ions, even if there is only one.",
+      "d": "The symbol for the element with higher atomic mass is written first."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 72,
+    "question": "Consider the compound Calcium oxide (CaO). How is its simplified formula CaO derived from Ca2O2, given that both calcium and oxygen have a valency of 2?",
+    "options": {
+      "a": "The formula is simplified by dividing the subscripts by their greatest common divisor.",
+      "b": "The valencies are simply ignored for binary compounds.",
+      "c": "Calcium and oxygen atoms always combine in a 1:1 ratio.",
+      "d": "The formula is written based on ionic charges only, not valencies."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 73,
+    "question": "If a compound has the formula NaOH, why are no brackets used around the OH group, unlike in Mg(OH)2?",
+    "options": {
+      "a": "NaOH is a binary compound, while Mg(OH)2 is not.",
+      "b": "The valency of Na is 1, while Mg is 2.",
+      "c": "Only one polyatomic ion is present in NaOH.",
+      "d": "Hydroxide in NaOH is not a polyatomic ion."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "A substance is known to be a molecule. What property does this imply about its existence under ordinary conditions?",
+    "options": {
+      "a": "It cannot exist independently.",
+      "b": "It always contains more than two atoms.",
+      "c": "It is capable of independent existence.",
+      "d": "It only forms within living organisms."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 75,
+    "question": "An unknown chemical compound is analyzed and found to contain carbon and oxygen in a fixed ratio of 3:8 by mass. Based on the lesson, what is the most likely compound?",
+    "options": {
+      "a": "Water",
+      "b": "Ammonia",
+      "c": "Carbon monoxide",
+      "d": "Carbon dioxide"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 76,
+    "question": "An industrial process produces ammonia (NH3). According to the law of constant proportions, if the source materials or method of production change, what will remain constant about the ammonia produced?",
+    "options": {
+      "a": "The total mass of reactants used.",
+      "b": "The total volume of gases produced.",
+      "c": "The ratio by mass of nitrogen to hydrogen.",
+      "d": "The state of matter of ammonia."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "A student observes that a sealed container containing two substances loses mass after a chemical reaction takes place. What can be inferred from this observation based on the Law of Conservation of Mass?",
+    "options": {
+      "a": "The law of conservation of mass has been violated.",
+      "b": "The reaction produced a gas that escaped the container.",
+      "c": "The mass of the container itself decreased.",
+      "d": "The initial measurement of reactants was incorrect."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 78,
+    "question": "Why was the 1/16th mass of an atom of naturally occurring oxygen initially chosen as the atomic mass unit before carbon-12 was adopted?",
+    "options": {
+      "a": "Oxygen was the cheapest element available.",
+      "b": "Oxygen reacted with a large number of elements and gave masses of most elements as whole numbers.",
+      "c": "Oxygen is the most abundant element in the Earth's crust.",
+      "d": "Oxygen has the smallest atomic radius."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "In the given table of relative sizes, how many times larger is an ant compared to a grain of sand?",
+    "options": {
+      "a": "10 times",
+      "b": "100 times",
+      "c": "1000 times",
+      "d": "10000 times"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 80,
+    "question": "How many atoms are present in a H2S molecule?",
     "options": {
       "a": "1",
       "b": "2",
@@ -200,263 +880,542 @@
     "answer": "c"
   },
   {
-    "question": "What is the mass ratio of Nitrogen and Oxygen in N\u2082O? (N=14 u, O=16 u)",
+    "question_number": 81,
+    "question": "Dalton's atomic theory states that atoms are indivisible particles, which cannot be created or destroyed in a chemical reaction. How does this postulate contribute to understanding the Law of Conservation of Mass?",
     "options": {
-      "a": "7:4",
-      "b": "7:8",
-      "c": "14:8",
-      "d": "1:1"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "A reaction starts with 5g of reactant A and 3g of reactant B. If all reactants are consumed, and 6g of product C is formed, what mass of product D is formed?",
-    "options": {
-      "a": "2g",
-      "b": "8g",
-      "c": "4g",
-      "d": "1g"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "What is the ratio by number of atoms for a water molecule?",
-    "options": {
-      "a": "1:1",
-      "b": "2:1",
-      "c": "1:2",
-      "d": "3:1"
+      "a": "It suggests that atoms can change their mass during a reaction.",
+      "b": "It implies that the total number of atoms before and after a reaction remains the same, thus conserving total mass.",
+      "c": "It explains why elements combine in simple whole number ratios.",
+      "d": "It accounts for the existence of different isotopes."
     },
     "answer": "b"
   },
   {
-    "question": "What is the molecular mass of Carbon Dioxide (CO2)? (C=12u, O=16u)",
+    "question_number": 82,
+    "question": "The lesson mentions that \"atoms of most elements are not able to exist independently.\" What is the implication of this statement regarding the form in which matter typically exists?",
     "options": {
-      "a": "44u",
-      "b": "28u",
-      "c": "40u",
-      "d": "32u"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "What is the formula mass of Calcium Oxide (CaO)? (Ca = 40 u, O = 16 u)",
-    "options": {
-      "a": "54 u",
-      "b": "56 u",
-      "c": "46 u",
-      "d": "50 u"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A compound contains 3g of Carbon and 4g of Oxygen. What is the empirical formula?",
-    "options": {
-      "a": "CO",
-      "b": "CO2",
-      "c": "C2O",
-      "d": "C2O3"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "If 6 g of carbon reacts with 16 g of oxygen to form carbon dioxide, how much carbon dioxide will be formed if 12 g of carbon reacts with 32g of oxygen?",
-    "options": {
-      "a": "22g",
-      "b": "33g",
-      "c": "44g",
-      "d": "55g"
+      "a": "Matter is usually found as individual atoms, but they are too small to see.",
+      "b": "Matter primarily exists as elements in their atomic form.",
+      "c": "Atoms tend to combine to form more stable structures like molecules and ions.",
+      "d": "Atoms can only exist independently at extremely high temperatures."
     },
     "answer": "c"
   },
   {
-    "question": "Which law explains why burning magnesium ribbon in air results in an increase in mass?",
+    "question_number": 83,
+    "question": "Why was the earlier abbreviation 'amu' for atomic mass unit changed to 'u' (unified mass) according to latest IUPAC recommendations?",
     "options": {
-      "a": "Law of Definite Proportions",
-      "b": "Law of Conservation of Energy",
-      "c": "Law of Conservation of Mass",
-      "d": "Law of Multiple Proportions"
+      "a": "To simplify the pronunciation.",
+      "b": "To denote a change in the standard reference element.",
+      "c": "To signify a 'unified' system of atomic masses, possibly acknowledging isotope masses.",
+      "d": "The lesson does not provide a specific reason for this change."
     },
     "answer": "c"
   },
   {
-    "question": "The formula of Calcium Phosphate is Ca\u2083(PO\u2084)\u2082. What is the valency of Phosphate?",
+    "question_number": 84,
+    "question": "Consider a scenario where a new element is discovered. Based on the information about atomic mass determination, what would be the first step to assign its relative atomic mass?",
     "options": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "a": "Directly weigh a single atom of the new element.",
+      "b": "Compare its mass to 1/12th the mass of one carbon-12 atom.",
+      "c": "React it with oxygen and measure the mass ratio.",
+      "d": "Assign it an arbitrary mass value of 1.0 u."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 85,
+    "question": "If a compound consists of a metal and a non-metal, the metal's symbol is written first. What logical implication does this rule have for naming these compounds?",
+    "options": {
+      "a": "The non-metal is always more reactive.",
+      "b": "The name of the metal should generally precede the name of the non-metal.",
+      "c": "The compound will always be acidic.",
+      "d": "The metal atom is larger than the non-metal atom."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 86,
+    "question": "Dalton's atomic theory postulates that \"Atoms of different elements have different masses and chemical properties.\" What is a direct consequence of this postulate for chemical reactions?",
+    "options": {
+      "a": "Elements cannot combine to form compounds.",
+      "b": "Each element will react in a unique way or have a unique set of reactions.",
+      "c": "All elements will react with the same chemical properties.",
+      "d": "Atoms can be easily converted from one element to another."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "The lesson explains that relative atomic masses were determined using laws of chemical combinations and compounds formed, rather than determining the mass of an individual atom directly. What does this suggest about the technological capabilities available during Dalton's time?",
+    "options": {
+      "a": "Scientists had advanced microscopes capable of viewing individual atoms.",
+      "b": "Direct measurement of individual atomic masses was technologically challenging or impossible.",
+      "c": "Chemical reactions were not yet understood.",
+      "d": "There was no need for precise atomic mass values."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "Why is it important for IUPAC (International Union of Pure and Applied Chemistry) to approve names of elements, symbols, and units?",
+    "options": {
+      "a": "To make the study of chemistry more difficult for students.",
+      "b": "To ensure consistency and avoid confusion in scientific communication globally.",
+      "c": "To limit the number of elements discovered.",
+      "d": "To promote the use of only English names for elements."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 89,
+    "question": "If atoms could be created or destroyed in a chemical reaction, how would this affect the Law of Conservation of Mass?",
+    "options": {
+      "a": "The law would still hold true, but only for gaseous reactions.",
+      "b": "The law would be invalid as the total mass of reactants would not necessarily equal the total mass of products.",
+      "c": "The law would only apply to reactions involving pure elements.",
+      "d": "The law would be more universally applicable."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "The definition of a molecule states it is capable of independent existence under ordinary conditions. What does \"ordinary conditions\" imply in this context?",
+    "options": {
+      "a": "Conditions found only in laboratory settings.",
+      "b": "Conditions where extreme temperatures or pressures are applied.",
+      "c": "Typical ambient conditions (room temperature, atmospheric pressure).",
+      "d": "Conditions that prevent chemical reactions from occurring."
     },
     "answer": "c"
   },
   {
-    "question": "Why is the symbol for Sodium \"Na\" instead of \"S\" or \"So\"?",
+    "question_number": 91,
+    "question": "The lesson mentions that 'atoms of carbon, do not have a simple structure but consist of a very large and indefinite number of atoms bonded together'. What does this imply about their atomicity?",
     "options": {
-      "a": "It follows Dalton's symbols.",
-      "b": "It is derived from its Latin name, Natrium.",
-      "c": "\"S\" is for Sulfur.",
-      "d": "\"So\" is for an oxide."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Which of the following compounds demonstrates the law of constant proportions?",
-    "options": {
-      "a": "H\u2082O and H\u2082O\u2082",
-      "b": "CO and CO\u2082",
-      "c": "NaCl from different sources",
-      "d": "Different isotopes of Carbon"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "The formula of a compound is X\u2082Y\u2083. If X is a metal, Y is likely:",
-    "options": {
-      "a": "A metal",
-      "b": "A non-metal",
-      "c": "A noble gas",
-      "d": "An isotope of X"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why is it important to use the IUPAC name for a compound?",
-    "options": {
-      "a": "To make it easier to pronounce.",
-      "b": "To have a universally recognized name.",
-      "c": "To honor the discoverer.",
-      "d": "To make it sound scientific."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A compound has the formula XY\u2082. If X has a charge of +2, what is the likely charge on Y?",
-    "options": {
-      "a": "+1",
-      "b": "-1",
-      "c": "+2",
-      "d": "-2"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why do chemists use chemical formulas instead of common names?",
-    "options": {
-      "a": "Common names vary by region.",
-      "b": "Formulas provide composition information.",
-      "c": "Formulas are internationally understood.",
-      "d": "All of the above."
+      "a": "Carbon is monoatomic.",
+      "b": "Carbon is diatomic.",
+      "c": "Carbon has a definite, small atomicity.",
+      "d": "Carbon is poly-atomic with an indefinite number of atoms."
     },
     "answer": "d"
   },
   {
-    "question": "How does the concept of 'atomicity' apply to Noble gases?",
+    "question_number": 92,
+    "question": "How does Dalton's postulate \"Atoms combine in the ratio of small whole numbers to form compounds\" explain the Law of Definite Proportions?",
     "options": {
-      "a": "They are usually diatomic.",
-      "b": "They are usually polyatomic.",
-      "c": "They are usually monoatomic.",
-      "d": "They do not have a defined atomicity."
+      "a": "It implies that atoms can be divided into smaller parts.",
+      "b": "It suggests that mass can be created or destroyed during compound formation.",
+      "c": "It ensures that elements combine in fixed, simple numerical ratios of atoms, leading to definite mass ratios.",
+      "d": "It indicates that atoms of different elements have identical properties."
     },
     "answer": "c"
   },
   {
-    "question": "If a compound contains both a metal and a non-metal, what type of compound is it most likely to be?",
+    "question_number": 93,
+    "question": "Imagine you are given a sample of a gas and asked to determine its atomicity. What characteristic would you look for if you want to classify it as 'diatomic'?",
     "options": {
-      "a": "An organic compound",
-      "b": "An ionic compound",
-      "c": "A covalent compound",
-      "d": "A noble gas compound"
+      "a": "It consists of a single atom.",
+      "b": "It consists of two atoms of the same element.",
+      "c": "It consists of three atoms of the same element.",
+      "d": "It consists of two atoms of different elements."
     },
     "answer": "b"
   },
   {
-    "question": "If Dalton's atomic theory stated atoms were indivisible, how can we explain the existence of subatomic particles?",
+    "question_number": 94,
+    "question": "The concept of valency is introduced using an analogy of an octopus catching humans. If the octopus (O) has 8 arms and humans (H) have 2 arms, and the formula is OH4, what does this analogy suggest about valency?",
     "options": {
-      "a": "Dalton was wrong.",
-      "b": "Subatomic particles aren't part of atoms.",
-      "c": "Dalton's theory was a foundational model, later refined.",
-      "d": "Subatomic particles are indivisible."
+      "a": "Valency represents the number of elements an atom can combine with.",
+      "b": "Valency represents the combining power or number of 'arms' an atom has to bond.",
+      "c": "Valency represents the total number of electrons in an atom.",
+      "d": "Valency is always 4 for most elements."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "If you observe a polyatomic ion such as Sulphate (SO4 2-), what can you infer about its composition and charge?",
+    "options": {
+      "a": "It is a single atom with a 2- charge.",
+      "b": "It is a group of atoms with an overall neutral charge.",
+      "c": "It is a group of atoms tightly held together, carrying a net charge.",
+      "d": "It can exist independently as a stable molecule."
     },
     "answer": "c"
   },
   {
-    "question": "Two compounds have the same percentage composition by mass but different molecular formulas. What can you conclude?",
+    "question_number": 96,
+    "question": "The lesson states that \"all atoms are made up of still smaller particles\" (to be studied in the next chapter). How does this statement relate to Dalton's original atomic theory postulate about indivisibility?",
     "options": {
-      "a": "They are the same compound.",
-      "b": "They are isomers.",
-      "c": "One is an isotope of the other.",
-      "d": "They violate the law of definite proportions."
+      "a": "It confirms Dalton's postulate that atoms are indivisible.",
+      "b": "It suggests that Dalton's postulate about atoms being indivisible was later disproven.",
+      "c": "It has no relation to Dalton's atomic theory.",
+      "d": "It implies that atoms can be created and destroyed."
     },
     "answer": "b"
   },
   {
-    "question": "Why is the relative atomic mass of many elements not a whole number?",
+    "question_number": 97,
+    "question": "Why is it mentioned that \"Dalton picked up the idea of divisibility of matter, which was till then just a philosophy\"?",
     "options": {
-      "a": "Errors in measurement.",
-      "b": "The existence of isotopes.",
-      "c": "The presence of impurities.",
-      "d": "Atoms are divisible."
+      "a": "To highlight that ancient philosophers conducted extensive experimental work.",
+      "b": "To emphasize that Dalton's contribution was based on empirical evidence (laws of chemical combination).",
+      "c": "To suggest that Dalton copied the ideas without proper credit.",
+      "d": "To show that Dalton's theory was purely philosophical, like the ancient ideas."
     },
     "answer": "b"
   },
   {
-    "question": "If the law of conservation of mass always holds true, why does a log appear to lose mass when it burns?",
+    "question_number": 98,
+    "question": "According to Dalton's atomic theory, \"The relative number and kinds of atoms are constant in a given compound.\" What does this postulate imply for a specific chemical compound, like water (H2O)?",
     "options": {
-      "a": "The law is sometimes violated.",
-      "b": "Gaseous products are formed and escape.",
-      "c": "Mass is converted to energy.",
-      "d": "The ash weighs less."
+      "a": "The ratio of hydrogen atoms to oxygen atoms can vary depending on the source.",
+      "b": "Any sample of water will always have the same fixed ratio of hydrogen to oxygen atoms.",
+      "c": "Water can sometimes be formed from carbon and oxygen atoms.",
+      "d": "Water molecules can exist independently, but their composition changes."
     },
     "answer": "b"
   },
   {
-    "question": "A compound has the formula A\u2082B.  If the valency of A is +1, could B be a polyatomic ion? If so, what would be its charge?",
+    "question_number": 99,
+    "question": "The lesson states that \"Through modern techniques, we can now produce magnified images of surfaces of elements showing atoms.\" What is the significance of this development in the context of atomic theory?",
     "options": {
-      "a": "No, B must be a single atom.",
-      "b": "Yes, B would have a charge of -1.",
-      "c": "Yes, B would have a charge of -2.",
-      "d": "No, polyatomic ions cannot form binary compounds."
+      "a": "It proves that atoms are the ultimate indivisible particles.",
+      "b": "It shows that atoms are much larger than previously thought.",
+      "c": "It provides experimental verification for the physical existence of atoms.",
+      "d": "It demonstrates that atoms are visible to the naked eye."
     },
     "answer": "c"
   },
   {
-    "question": "Why is it crucial to balance charges in ionic compounds?",
+    "question_number": 100,
+    "question": "How would the determination of atomic masses be affected if Carbon-12 isotope was not universally chosen as a standard reference?",
     "options": {
-      "a": "To make the compound colorful.",
-      "b": "To ensure electrical neutrality.",
-      "c": "To make the compound more reactive.",
-      "d": "To increase the compound's melting point."
+      "a": "All atomic masses would be the same.",
+      "b": "Atomic masses could still be determined, but their values would differ numerically depending on the chosen reference.",
+      "c": "It would be impossible to determine any atomic masses.",
+      "d": "Only oxygen and hydrogen atomic masses could be determined."
     },
     "answer": "b"
   },
   {
-    "question": "How would our understanding of chemistry change if elements did *not* combine in fixed ratios?",
+    "question_number": 101,
+    "question": "Assertion (A): Mass can neither be created nor destroyed in a chemical reaction.\nReason (R): The sum of the masses of the reactants and products remains unchanged during a chemical reaction.",
     "options": {
-      "a": "It would be easier to predict reactions.",
-      "b": "Compounds would have variable properties.",
-      "c": "The concept of a molecule would be meaningless.",
-      "d": "Both B and C."
-    },
-    "answer": "d"
-  },
-  {
-    "question": "Why do we use the term \"formula unit mass\" for ionic compounds instead of \"molecular mass\"?",
-    "options": {
-      "a": "Ionic compounds do not form true molecules.",
-      "b": "Ionic compounds have higher masses.",
-      "c": "Formula unit mass is easier to calculate.",
-      "d": "Molecular mass is only for gases."
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
     },
     "answer": "a"
   },
   {
-    "question": "A student claims that two different samples of pure water might have slightly different ratios of hydrogen to oxygen. Is this possible?",
+    "question_number": 102,
+    "question": "Assertion (A): In a compound like water, the ratio of the mass of hydrogen to the mass of oxygen is always 1:8.\nReason (R): This observation is in agreement with the Law of Constant Proportions.",
     "options": {
-      "a": "Yes, due to experimental error.",
-      "b": "Yes, due to different isotopes of hydrogen and oxygen.",
-      "c": "No, it violates the law of definite proportions.",
-      "d": "Both A and B."
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
     },
-    "answer": "d"
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): Atoms are indivisible particles, which cannot be created or destroyed in a chemical reaction.\nReason (R): This postulate of Dalton's atomic theory provides an explanation for the Law of Conservation of Mass.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): Atoms of different elements have different masses and chemical properties.\nReason (R): All matter is made of very tiny particles called atoms.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The symbols of elements are made from one or two letters of the name of the element.\nReason (R): Berzilius suggested that the symbols of elements be made from one or two letters of the name of the element.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): One atomic mass unit is equal to exactly one-twelfth the mass of one atom of carbon-12.\nReason (R): Carbon-12 isotope was chosen as the standard reference for measuring atomic masses in 1961 for universal acceptance.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): Atoms of most elements are not able to exist independently.\nReason (R): Atoms form molecules and ions to achieve stability.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): A molecule of oxygen consists of two atoms of oxygen (O2) and is known as a diatomic molecule.\nReason (R): The number of atoms constituting a molecule is known as its atomicity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The symbol of iron is Fe.\nReason (R): The symbol Fe is taken from its Latin name, ferrum.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): Dalton's atomic theory failed to explain the existence of isotopes.\nReason (R): Dalton's theory postulated that atoms of a given element are identical in mass.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): The formula of calcium oxide is simplified to CaO from Ca2O2.\nReason (R): The valencies of the two elements, calcium and oxygen, are the same (valency 2).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): When writing the chemical formula Mg(OH)2, brackets are used around the OH group.\nReason (R): Brackets are used when two or more polyatomic ions are present in the formula.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): The molecular mass of a substance is the sum of the atomic masses of all atoms in a molecule of the substance.\nReason (R): Molecular mass is expressed in atomic mass units (u).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): John Dalton spent most of his life teaching and researching in Manchester.\nReason (R): He began his career as a school principal at the age of twelve.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): Earlier, the 1/16th mass of an atom of naturally occurring oxygen was chosen as the atomic mass unit.\nReason (R): Oxygen reacted with a large number of elements and gave masses of most elements as whole numbers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Valency is the combining power of an element.\nReason (R): It helps determine how atoms combine to form a chemical compound.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): In ammonia, nitrogen and hydrogen are always present in the ratio 14:3 by mass.\nReason (R): This ratio changes depending on the source of ammonia.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): Atoms of a given element are identical in mass and chemical properties.\nReason (R): This postulate helped explain why elements combine in exact whole number ratios.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): A molecule of water (H2O) has a molecular mass of 18 u.\nReason (R): Water contains two atoms of hydrogen and one atom of oxygen.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): Copper has variable valency shown by Cu+ and Cu2+.\nReason (R): Roman numerals are used to show valency in a bracket for elements with more than one valency.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): Carbon monoxide (CO) is formed when carbon combines with oxygen.\nReason (R): It was observed experimentally that 3 g of carbon combines with 4 g of oxygen to form CO.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): The Law of Constant Proportions states that elements are present in definite proportions by mass in a chemical substance.\nReason (R): This law was stated by Antoine L. Lavoisier.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): Polyatomic ions are a group of atoms carrying a charge.\nReason (R): Sodium ion (Na+) and chloride ion (Cl-) are examples of polyatomic ions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): Dalton's atomic theory was a turning point in the study of matter.\nReason (R): His theory was based on the laws of chemical combination and explained conservation of mass and definite proportions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): The symbol for Sodium is Na.\nReason (R): This symbol is derived from its English name.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): A molecule is the smallest particle of an element or a compound capable of independent existence.\nReason (R): Atoms of elements like hydrogen and oxygen always exist as individual, independent atoms under ordinary conditions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): The valency of Magnesium (Mg) is 2.\nReason (R): Magnesium typically forms compounds by combining with two monovalent atoms or groups, such as in Mg(OH)2.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): In a pure chemical compound, the elements are present in a fixed proportion by mass.\nReason (R): This is a direct consequence of Dalton's postulate that atoms combine in simple whole-number ratios to form compounds.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): Atoms are too small to be seen with the naked eye.\nReason (R): Through modern techniques like Scanning Tunnelling Microscopes, magnified images of surfaces showing atoms can now be produced.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
   }
 ]

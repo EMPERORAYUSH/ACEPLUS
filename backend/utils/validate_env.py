@@ -1,81 +1,77 @@
 from typing import List
-import ast
+import json
 from dotenv import dotenv_values
 import os
 
 def validate_env_config() -> List[str]:
     """
-    Validate all required environment variables before initializing any clients.
+    Validate all required environment variables based on the new .env structure.
     Returns a list of valid provider names.
     Raises ValueError if any required configuration is missing or invalid.
     """
-    # Read only from .env file
     env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
     if not os.path.exists(env_path):
         raise ValueError("Missing .env file in backend directory")
         
     env_vars = dotenv_values(env_path)
-    valid_providers = []
 
-    # Find all potential providers by looking for *_API_KEY pattern
-    for key in env_vars:
-        if key.endswith('_API_KEY'):
-            provider = key.replace('_API_KEY', '')
-            if provider:
-                # Validate base URL exists
-                base_url = env_vars.get(f'{provider}_BASE_URL')
-                if not base_url:
-                    raise ValueError(f"Missing base URL for provider: {provider}")
+    # 1. Validate PROVIDERS
+    providers_str = env_vars.get("PROVIDERS")
+    if not providers_str:
+        raise ValueError("PROVIDERS environment variable is not set.")
+    try:
+        providers = json.loads(providers_str)
+        if not isinstance(providers, list) or not all(isinstance(p, str) for p in providers):
+            raise ValueError("PROVIDERS must be a JSON array of strings.")
+    except json.JSONDecodeError:
+        raise ValueError("PROVIDERS environment variable is not a valid JSON array.")
 
-                # Validate models configuration
-                models_str = env_vars.get(f'{provider}_MODELS')
-                if not models_str:
-                    raise ValueError(f"Missing models configuration for provider: {provider}")
+    # 2. Validate each provider's config
+    for provider in providers:
+        if not env_vars.get(f'{provider}_API_KEY'):
+            raise ValueError(f"Missing API key for provider: {provider}")
+        if not env_vars.get(f'{provider}_BASE_URL'):
+            raise ValueError(f"Missing base URL for provider: {provider}")
 
-                try:
-                    models = ast.literal_eval(models_str)
-                    if not isinstance(models, list) or not models:
-                        raise ValueError(f"Invalid models configuration for provider: {provider}")
-                except Exception as e:
-                    raise ValueError(f"Error parsing models for provider {provider}: {str(e)}")
+        # Check for additional keys and their URLs
+        i = 2
+        while True:
+            api_key = env_vars.get(f"{provider}_API_KEY_{i}")
+            base_url = env_vars.get(f"{provider}_BASE_URL_{i}")
+            if not api_key:
+                break
+            if not base_url:
+                raise ValueError(f"Missing base URL for API key: {provider}_API_KEY_{i}")
+            i += 1
+            
+    # 3. Validate Model Assignments
+    model_assignments = [
+    "IMAGE_MODELS",
+    "PERFORMANCE_MODELS",
+    "HINT_MODELS",
+    "SOLUTION_MODELS",
+    "PERFORMANCE_ANALYSIS_MODELS"
+]
+    for assignment in model_assignments:
+        models_str = env_vars.get(assignment)
+        if not models_str:
+            raise ValueError(f"Missing model assignment environment variable: {assignment}")
+        
+        try:
+            models = json.loads(models_str)
+            if not isinstance(models, list) or not models:
+                raise ValueError(f"{assignment} must be a non-empty JSON array of strings.")
+            
+            for model_full_name in models:
+                if not isinstance(model_full_name, str) or '/' not in model_full_name:
+                    raise ValueError(f"Invalid model format in {assignment}: '{model_full_name}'. Expected 'PROVIDER/model_name'.")
+                
+                model_provider = model_full_name.split('/')[0]
+                if model_provider not in providers:
+                    raise ValueError(f"Provider '{model_provider}' from {assignment} is not listed in PROVIDERS.")
+        except json.JSONDecodeError:
+            raise ValueError(f"{assignment} environment variable is not a valid JSON array.")
+        except ValueError as e:
+            raise e
 
-                # Check additional keys if they exist
-                i = 2
-                while True:
-                    key = f"{provider}_API_KEY_{i}"
-                    base_url_key = f"{provider}_BASE_URL_{i}"
-                    
-                    api_key = env_vars.get(key)
-                    base_url = env_vars.get(base_url_key)
-                    
-                    # Break if no more keys found
-                    if not api_key:
-                        break
-                    
-                    # Validate base URL exists for additional key
-                    if not base_url:
-                        raise ValueError(f"Missing base URL for API key: {key}")
-                    
-                    i += 1
-
-                valid_providers.append(provider)
-
-    if not valid_providers:
-        raise ValueError("No valid API providers found. Please check your environment variables.")
-
-    # Validate specific use case configurations
-    image_provider = env_vars.get('IMAGE_MODEL_PROVIDER', '').upper()
-    image_model = env_vars.get('IMAGE_MODEL')
-    if not image_provider or not image_model:
-        raise ValueError("IMAGE_MODEL_PROVIDER and IMAGE_MODEL must be configured")
-    if image_provider not in valid_providers:
-        raise ValueError(f"IMAGE_MODEL_PROVIDER '{image_provider}' is not a valid provider")
-
-    perf_provider = env_vars.get('PERFORMANCE_MODEL_PROVIDER', '').upper()
-    perf_model = env_vars.get('PERFORMANCE_MODEL')
-    if not perf_provider or not perf_model:
-        raise ValueError("PERFORMANCE_MODEL_PROVIDER and PERFORMANCE_MODEL must be configured")
-    if perf_provider not in valid_providers:
-        raise ValueError(f"PERFORMANCE_MODEL_PROVIDER '{perf_provider}' is not a valid provider")
-
-    return valid_providers
+    return providers

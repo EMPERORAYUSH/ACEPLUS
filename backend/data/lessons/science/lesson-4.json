@@ -1,156 +1,359 @@
 [
   {
-    "question": "What are the fundamental building blocks of matter, as discussed in the chapter?",
-    "options": {
-      "a": "Molecules only",
-      "b": "Atoms and molecules",
-      "c": "Elements only",
-      "d": "Compounds only"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Who proposed that atoms are indivisible?",
-    "options": {
-      "a": "Thomson",
-      "b": "Rutherford",
-      "c": "Dalton",
-      "d": "Bohr"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Which subatomic particle was identified by J.J. Thomson?",
+    "question_number": 1,
+    "question": "Which sub-atomic particle was identified by J.J. Thomson?",
     "options": {
       "a": "Proton",
-      "b": "Neutron",
-      "c": "Electron",
+      "b": "Electron",
+      "c": "Neutron",
       "d": "Nucleus"
     },
-    "answer": "c"
-  },
-  {
-    "question": "What were the positively charged radiations discovered by E. Goldstein called?",
-    "options": {
-      "a": "Beta rays",
-      "b": "Canal rays",
-      "c": "Gamma rays",
-      "d": "X-rays"
-    },
     "answer": "b"
   },
   {
-    "question": "How is a proton generally represented?",
+    "question_number": 2,
+    "question": "What name was given to the positively charged radiations discovered by E. Goldstein in a gas discharge experiment?",
     "options": {
-      "a": "e-",
-      "b": "p+",
-      "c": "n",
-      "d": "a"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "According to Thomson's model, what is an atom composed of?",
-    "options": {
-      "a": "Only electrons",
-      "b": "Only protons",
-      "c": "A positively charged sphere with embedded electrons",
-      "d": "A negatively charged sphere with embedded protons"
+      "a": "Alpha rays",
+      "b": "Beta rays",
+      "c": "Canal rays",
+      "d": "Cathode rays"
     },
     "answer": "c"
   },
   {
-    "question": "In Rutherford's experiment, what type of particles were used to bombard the gold foil?",
+    "question_number": 3,
+    "question": "What is the approximate mass of a proton relative to an electron?",
     "options": {
-      "a": "Beta particles",
-      "b": "Alpha particles",
-      "c": "Gamma particles",
-      "d": "Delta particles"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "What is the approximate thickness of the gold foil used in Rutherford's experiment?",
-    "options": {
-      "a": "10 atoms thick",
-      "b": "100 atoms thick",
-      "c": "1000 atoms thick",
-      "d": "10000 atoms thick"
+      "a": "Equal to that of an electron",
+      "b": "Negligible compared to an electron",
+      "c": "Approximately 2000 times that of an electron",
+      "d": "Approximately 1/2000 times that of an electron"
     },
     "answer": "c"
   },
   {
-    "question": "According to Bohr's model, in what do electrons revolve around the nucleus?",
+    "question_number": 4,
+    "question": "According to Thomson's model of an atom, how are electrons arranged within the atom?",
     "options": {
-      "a": "Random paths",
-      "b": "Discrete orbits",
-      "c": "Spiral paths",
-      "d": "Straight lines"
+      "a": "They revolve around a central nucleus.",
+      "b": "They are embedded like seeds in a positively charged sphere.",
+      "c": "They are distributed in discrete energy levels.",
+      "d": "They are found only in the outermost shell."
     },
     "answer": "b"
   },
   {
-    "question": "What is the term for the energy levels in Bohr's atomic model?",
+    "question_number": 5,
+    "question": "Which of the following statements is a postulate of Thomson's model of an atom?",
     "options": {
-      "a": "Orbits or shells",
-      "b": "Paths or lines",
-      "c": "Zones or regions",
-      "d": "Fields or spaces"
+      "a": "Electrons do not radiate energy while revolving in discrete orbits.",
+      "b": "The negative and positive charges in an atom are equal in magnitude.",
+      "c": "Nearly all the mass of an atom resides in the nucleus.",
+      "d": "Most of the space inside the atom is empty."
     },
-    "answer": "a"
+    "answer": "b"
   },
   {
-    "question": "Who discovered the neutron?",
+    "question_number": 6,
+    "question": "Why did Ernest Rutherford select a gold foil for his alpha-particle scattering experiment?",
+    "options": {
+      "a": "Gold is a highly reactive metal.",
+      "b": "Gold is the heaviest known element.",
+      "c": "He wanted as thin a layer as possible, and gold is highly malleable.",
+      "d": "Gold atoms are the smallest, allowing for easy penetration."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 7,
+    "question": "What are alpha (\u03b1)-particles defined as in Rutherford's experiment?",
+    "options": {
+      "a": "Singly-charged hydrogen ions",
+      "b": "Doubly-charged helium ions",
+      "c": "Negatively charged particles",
+      "d": "Uncharged particles with significant mass"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 8,
+    "question": "What was the most surprising observation from Rutherford's alpha-particle scattering experiment?",
+    "options": {
+      "a": "Most \u03b1-particles passed straight through the gold foil.",
+      "b": "Some \u03b1-particles were deflected by small angles.",
+      "c": "A very small fraction of \u03b1-particles rebounded by 180 degrees.",
+      "d": "All \u03b1-particles were deflected significantly."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 9,
+    "question": "What conclusion did Rutherford draw from the observation that most alpha-particles passed straight through the gold foil without deflection?",
+    "options": {
+      "a": "The positive charge of the atom occupies very little space.",
+      "b": "Nearly all the mass of the atom is concentrated in the nucleus.",
+      "c": "Most of the space inside the atom is empty.",
+      "d": "Electrons are embedded in a positively charged sphere."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 10,
+    "question": "Which sub-atomic particle accounts for nearly all the mass of an atom, according to Rutherford's model?",
+    "options": {
+      "a": "Electrons",
+      "b": "Protons",
+      "c": "Neutrons",
+      "d": "The nucleus (protons and neutrons)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 11,
+    "question": "What was a major drawback of Rutherford's model of the atom?",
+    "options": {
+      "a": "It could not explain the electrical neutrality of the atom.",
+      "b": "It did not account for the existence of sub-atomic particles.",
+      "c": "It predicted that atoms should be unstable, contrary to observation.",
+      "d": "It failed to explain the discrete energy levels of electrons."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 12,
+    "question": "Who proposed the model of an atom that introduced the concept of \"discrete orbits\" where electrons do not radiate energy?",
     "options": {
       "a": "J.J. Thomson",
-      "b": "E. Goldstein",
-      "c": "J. Chadwick",
-      "d": "E. Rutherford"
+      "b": "Ernest Rutherford",
+      "c": "Neils Bohr",
+      "d": "J. Chadwick"
     },
     "answer": "c"
   },
   {
-    "question": "Which element's atoms, other than isotopes, do *not* contain neutrons?",
+    "question_number": 13,
+    "question": "What is the charge of a neutron?",
     "options": {
-      "a": "Helium",
-      "b": "Carbon",
-      "c": "Hydrogen",
-      "d": "Oxygen"
+      "a": "Positive",
+      "b": "Negative",
+      "c": "No charge",
+      "d": "Varies depending on the element"
     },
     "answer": "c"
   },
   {
-    "question": "What is the maximum number of electrons that the K-shell can hold?",
+    "question_number": 14,
+    "question": "In which part of the atom are neutrons generally found?",
     "options": {
-      "a": "8",
-      "b": "2",
+      "a": "Orbiting the nucleus",
+      "b": "Embedded in a positive sphere",
+      "c": "In the nucleus",
+      "d": "Only in the outermost shell"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 15,
+    "question": "Which rule determines the maximum number of electrons that can be present in a given shell (n)?",
+    "options": {
+      "a": "n^2",
+      "b": "2n",
+      "c": "2n^2",
+      "d": "n+2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "What is the maximum number of electrons that can be accommodated in the L-shell of an atom?",
+    "options": {
+      "a": "2",
+      "b": "8",
       "c": "18",
       "d": "32"
     },
     "answer": "b"
   },
   {
-    "question": "What are the electrons in the outermost shell of an atom called?",
+    "question_number": 17,
+    "question": "What are electrons present in the outermost shell of an atom known as?",
     "options": {
-      "a": "Core electrons",
-      "b": "Valence electrons",
-      "c": "Orbiting electrons",
-      "d": "Nuclear electrons"
+      "a": "Nucleons",
+      "b": "Core electrons",
+      "c": "Valence electrons",
+      "d": "Isobars"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 18,
+    "question": "What is the valency of an element whose outermost shell is completely filled with 8 electrons (or 2 for Helium)?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "8",
+      "d": "0"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 19,
+    "question": "What defines the atomic number (Z) of an element?",
+    "options": {
+      "a": "The total number of electrons in an atom.",
+      "b": "The sum of protons and neutrons in the nucleus.",
+      "c": "The total number of protons present in the nucleus of an atom.",
+      "d": "The combining capacity of an atom."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 20,
+    "question": "What are protons and neutrons collectively called?",
+    "options": {
+      "a": "Isotopes",
+      "b": "Isobars",
+      "c": "Nucleons",
+      "d": "Valence electrons"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 21,
+    "question": "The mass of an atom is primarily due to which sub-atomic particles?",
+    "options": {
+      "a": "Electrons alone",
+      "b": "Protons and electrons",
+      "c": "Protons and neutrons",
+      "d": "Neutrons alone"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "What characterizes isotopes of an element?",
+    "options": {
+      "a": "Same mass number, different atomic number.",
+      "b": "Same atomic number, different mass numbers.",
+      "c": "Different number of protons, same number of electrons.",
+      "d": "Different physical properties but also different chemical properties."
     },
     "answer": "b"
   },
   {
-    "question": "What term describes the combining capacity of an atom?",
+    "question_number": 23,
+    "question": "Which of the following is an application of an isotope mentioned in the lesson?",
     "options": {
-      "a": "Atomicity",
-      "b": "Valency",
-      "c": "Reactivity",
-      "d": "Stability"
+      "a": "An isotope of carbon is used in carbon dating.",
+      "b": "An isotope of uranium is used as a fuel in nuclear reactors.",
+      "c": "An isotope of oxygen is used in water purification.",
+      "d": "An isotope of nitrogen is used in fertilizers."
     },
     "answer": "b"
   },
   {
-    "question": "An atom has 11 protons and 12 neutrons. What is its atomic number?",
+    "question_number": 24,
+    "question": "What characterizes isobars?",
+    "options": {
+      "a": "Atoms of the same element with different mass numbers.",
+      "b": "Atoms of different elements with the same atomic number.",
+      "c": "Atoms of different elements with the same mass number.",
+      "d": "Atoms with the same number of electrons but different number of protons."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 25,
+    "question": "Which element's atom is an exception to the rule that neutrons are present in the nucleus of all atoms?",
+    "options": {
+      "a": "Carbon",
+      "b": "Oxygen",
+      "c": "Helium",
+      "d": "Hydrogen"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 26,
+    "question": "The stability of the atom could not be explained by which atomic model?",
+    "options": {
+      "a": "Dalton\u2019s atomic theory",
+      "b": "J.J. Thomson\u2019s model",
+      "c": "Rutherford\u2019s model of the atom",
+      "d": "Neils Bohr\u2019s model"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "What is the main characteristic that defines an element?",
+    "options": {
+      "a": "Its mass number",
+      "b": "The total number of electrons it possesses",
+      "c": "The number of neutrons in its nucleus",
+      "d": "The number of protons it possesses"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 28,
+    "question": "What is the charge of an electron?",
+    "options": {
+      "a": "Plus one",
+      "b": "Minus one",
+      "c": "Neutral",
+      "d": "Varies"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 29,
+    "question": "According to the Bohr-Bury scheme, how are shells filled with electrons?",
+    "options": {
+      "a": "Randomly",
+      "b": "Outermost shell first",
+      "c": "In a step-wise manner, inner shells before outer shells",
+      "d": "Simultaneously"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "Which scientist is credited with the discovery of the neutron?",
+    "options": {
+      "a": "J.J. Thomson",
+      "b": "E. Goldstein",
+      "c": "Ernest Rutherford",
+      "d": "J. Chadwick"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 31,
+    "question": "An atom has 6 protons and 6 neutrons. What is its mass number?",
+    "options": {
+      "a": "6",
+      "b": "12",
+      "c": "18",
+      "d": "0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 32,
+    "question": "If an atom has an atomic number (Z) of 8 and a mass number (A) of 16, how many neutrons does it have?",
+    "options": {
+      "a": "8",
+      "b": "16",
+      "c": "24",
+      "d": "0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 33,
+    "question": "An atom has 11 protons, 12 neutrons, and 11 electrons. What is its atomic number?",
     "options": {
       "a": "11",
       "b": "12",
@@ -160,37 +363,151 @@
     "answer": "a"
   },
   {
-    "question": "An atom has an atomic number of 8 and a mass number of 16. How many neutrons does it have?",
+    "question_number": 34,
+    "question": "What would be the total number of electrons in an atom if its K and L shells are completely full?",
     "options": {
-      "a": "4",
+      "a": "2",
       "b": "8",
-      "c": "16",
-      "d": "24"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The L-shell of an atom can hold a maximum of 8 electrons. If an atom has 10 electrons, how are they distributed in the K and L shells?",
-    "options": {
-      "a": "K=8, L=2",
-      "b": "K=5, L=5",
-      "c": "K=2, L=8",
-      "d": "K=10, L=0"
+      "c": "10",
+      "d": "18"
     },
     "answer": "c"
   },
   {
-    "question": "An element has an atomic number of 17. What is its electronic configuration?",
+    "question_number": 35,
+    "question": "Calculate the valency of a phosphorus atom (P) if its electronic configuration is 2, 8, 5.",
     "options": {
-      "a": "2, 8, 7",
-      "b": "2, 7, 8",
-      "c": "8, 2, 7",
-      "d": "7,8,2"
+      "a": "5",
+      "b": "3",
+      "c": "8",
+      "d": "2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 36,
+    "question": "An element has an atomic number of 12. What is its electronic configuration?",
+    "options": {
+      "a": "2, 8, 2",
+      "b": "2, 10",
+      "c": "2, 8, 8, 2",
+      "d": "2, 6, 4"
     },
     "answer": "a"
   },
   {
-    "question": "What is the valency of an element with an electronic configuration of 2, 4?",
+    "question_number": 37,
+    "question": "An atom of Sulphur (S) has 16 protons and 16 neutrons. What is its atomic mass?",
+    "options": {
+      "a": "16 u",
+      "b": "32 u",
+      "c": "48 u",
+      "d": "0 u"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 38,
+    "question": "What is the valency of oxygen if its electronic configuration is 2, 6?",
+    "options": {
+      "a": "6",
+      "b": "2",
+      "c": "8",
+      "d": "1"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 39,
+    "question": "A nitrogen atom has 7 protons and 7 neutrons. How many electrons does it have in a neutral state?",
+    "options": {
+      "a": "0",
+      "b": "7",
+      "c": "14",
+      "d": "2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 40,
+    "question": "Chlorine occurs in nature in two isotopic forms: 35u (75%) and 37u (25%). Calculate the average atomic mass of chlorine.",
+    "options": {
+      "a": "35.0 u",
+      "b": "35.5 u",
+      "c": "36.0 u",
+      "d": "37.0 u"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 41,
+    "question": "If K and L shells of an atom are full, what is the atomic number of that atom?",
+    "options": {
+      "a": "2",
+      "b": "8",
+      "c": "10",
+      "d": "18"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "An atom of Boron (B) has 5 protons and 6 neutrons. What is its mass number?",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "11",
+      "d": "1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 43,
+    "question": "What is the electronic configuration of a sodium atom (Na) which has an atomic number of 11?",
+    "options": {
+      "a": "2, 8",
+      "b": "2, 1, 8",
+      "c": "2, 8, 1",
+      "d": "8, 2, 1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 44,
+    "question": "Determine the valency of the element Aluminium (Al) with electronic configuration 2, 8, 3.",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "5"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 45,
+    "question": "A helium atom has an atomic mass of 4 u and two protons in its nucleus. How many neutrons does it have?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 46,
+    "question": "If an atom contains one electron and one proton, what is the net charge on the atom?",
+    "options": {
+      "a": "+1",
+      "b": "-1",
+      "c": "0",
+      "d": "+2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 47,
+    "question": "An element has a valency of 4. What is the most likely number of valence electrons it possesses?",
     "options": {
       "a": "2",
       "b": "4",
@@ -200,303 +517,883 @@
     "answer": "b"
   },
   {
-    "question": "If an atom has a mass number of 35 and 18 neutrons, what is its atomic number?",
+    "question_number": 48,
+    "question": "The atomic number of Silicon (Si) is 14. What is its electronic configuration?",
     "options": {
-      "a": "17",
-      "b": "18",
-      "c": "35",
-      "d": "53"
+      "a": "2, 8, 4",
+      "b": "2, 8, 8, 4",
+      "c": "2, 12",
+      "d": "14"
     },
     "answer": "a"
   },
   {
-    "question": "An atom 'X' has 6 protons and 6 neutrons, and another atom 'Y' has 6 protons and 8 neutrons. What is the relationship between X and Y?",
-    "options": {
-      "a": "They are isobars",
-      "b": "They are isotopes",
-      "c": "They are different elements",
-      "d": "They are isomers."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The formula to calculate the maximum number of electrons in a shell is 2n\u00b2. What is the maximum number of electrons in the M shell (n=3)?",
-    "options": {
-      "a": "2",
-      "b": "8",
-      "c": "18",
-      "d": "32"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "An element has an electronic configuration of 2, 8, 1. What is its valency?",
-    "options": {
-      "a": "1",
-      "b": "2",
-      "c": "8",
-      "d": "11"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "An atom has 12 protons, 12 electrons, and 12 neutrons. What is its mass number?",
+    "question_number": 49,
+    "question": "An element has a mass number of 24 and its nucleus contains 12 neutrons. What is the atomic number of this element?",
     "options": {
       "a": "12",
       "b": "24",
       "c": "36",
+      "d": "6"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 50,
+    "question": "An atom has 17 protons and 18 neutrons. What is the total number of nucleons in its nucleus?",
+    "options": {
+      "a": "17",
+      "b": "18",
+      "c": "35",
+      "d": "1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 51,
+    "question": "What is the valency of a hydrogen atom?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "7"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 52,
+    "question": "An atom has an electronic configuration of 2, 8, 7. What is its valency?",
+    "options": {
+      "a": "7",
+      "b": "1",
+      "c": "8",
+      "d": "3"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "Consider the isotopes 12/6 C and 14/6 C. How many neutrons are in the heavier isotope?",
+    "options": {
+      "a": "6",
+      "b": "7",
+      "c": "8",
+      "d": "14"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 54,
+    "question": "If an element X has Z=3, what is its valency?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 55,
+    "question": "The composition of the nuclei of two atomic species X and Y are given as: X: Protons = 6, Neutrons = 6. Y: Protons = 6, Neutrons = 8. What is the mass number of species Y?",
+    "options": {
+      "a": "6",
+      "b": "8",
+      "c": "12",
+      "d": "14"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 56,
+    "question": "If an atom has 18 electrons and its atomic number is 17, what is the charge on the atom?",
+    "options": {
+      "a": "+1",
+      "b": "-1",
+      "c": "0",
+      "d": "+18"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "An atom has 13 protons and 14 neutrons. What is its mass number?",
+    "options": {
+      "a": "13",
+      "b": "14",
+      "c": "27",
+      "d": "1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 58,
+    "question": "Calculate the number of electrons in the N-shell (n=4) if it were completely filled.",
+    "options": {
+      "a": "8",
+      "b": "18",
+      "c": "32",
+      "d": "50"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 59,
+    "question": "If the average atomic mass of an element X is 16.2 u, and it has two isotopes 16/8 X and 18/8 X, what are the approximate percentages of the two isotopes in the sample?",
+    "options": {
+      "a": "90% of 16X, 10% of 18X",
+      "b": "80% of 16X, 20% of 18X",
+      "c": "70% of 16X, 30% of 18X",
+      "d": "60% of 16X, 40% of 18X"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 60,
+    "question": "How many electrons are present in the outermost shell of an Argon (Ar) atom, given its electronic configuration is 2, 8, 8?",
+    "options": {
+      "a": "2",
+      "b": "8",
+      "c": "18",
       "d": "0"
     },
     "answer": "b"
   },
   {
-    "question": "An atom has an electronic configuration of 2,8,8. What is the atomic number?",
+    "question_number": 61,
+    "question": "A student rubs a plastic comb through her dry hair, and then holds it near small pieces of paper. The paper pieces are attracted to the comb. Which concept from the chapter best explains this phenomenon?",
     "options": {
-      "a": "2",
-      "b": "8",
-      "c": "10",
-      "d": "18"
-    },
-    "answer": "d"
-  },
-  {
-    "question": "An element has 7 electrons in its outermost shell. If this element gains an electron to have a full outer shell, what would be the charge of the resulting ion?",
-    "options": {
-      "a": "+1",
-      "b": "-1",
-      "c": "+7",
-      "d": "-7"
+      "a": "Dalton's atomic theory of indivisible atoms.",
+      "b": "The presence of charged particles in matter.",
+      "c": "Rutherford's model of the nucleus.",
+      "d": "Bohr's concept of discrete orbits."
     },
     "answer": "b"
   },
   {
-    "question": "Element X has a valency of 2 and element Y has a valency of 1. If they combine, how many atoms of Y will combine with one atom of X in the simplest ratio?",
+    "question_number": 62,
+    "question": "A scientist observes that when a certain type of atom undergoes a chemical reaction, it tends to lose three electrons. Based on the Bohr-Bury scheme, what would be the likely valency of this atom?",
     "options": {
-      "a": "1",
-      "b": "2",
+      "a": "0",
+      "b": "1",
       "c": "3",
-      "d": "4"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "If a neutral atom has 2 electrons in the K shell and 5 electrons in the L shell, what is its atomic number?",
-    "options": {
-      "a": "2",
-      "b": "5",
-      "c": "7",
-      "d": "3"
+      "d": "5"
     },
     "answer": "c"
   },
   {
-    "question": "Chlorine has two isotopes, Cl-35 and Cl-37. If the average atomic mass is 35.5u, and the ratio is 3:1, which isotope is more abundant?",
+    "question_number": 63,
+    "question": "If an atom is described as electrically neutral, which statement best explains this based on J.J. Thomson's model?",
     "options": {
-      "a": "Cl-35",
-      "b": "Cl-37",
-      "c": "Both are equal",
-      "d": "Cannot be determined"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "Why is Rutherford's model of the atom also called the \"nuclear model\"?",
-    "options": {
-      "a": "Because it emphasizes the electrons",
-      "b": "Because it emphasizes the positive charge concentrated in a nucleus",
-      "c": "Because it includes neutrons",
-      "d": "Because it is similar to Thomson's model"
+      "a": "It contains only neutrons.",
+      "b": "It has a perfectly balanced number of electrons and protons.",
+      "c": "Its nucleus has no charge.",
+      "d": "The positive charge is concentrated at the center."
     },
     "answer": "b"
   },
   {
-    "question": "Why is Bohr's model of the atom considered an improvement over Rutherford's model?",
+    "question_number": 64,
+    "question": "Imagine you are observing a very thin sheet of an unknown material. When a beam of fast-moving alpha-particles is directed at it, most particles pass straight through, but a very tiny fraction are deflected at large angles. Which atomic model's conclusions would best explain this observation?",
     "options": {
-      "a": "It explains the existence of isotopes.",
-      "b": "It explains the stability of the atom by introducing discrete energy levels.",
-      "c": "It explains the positive charge of the atom.",
-      "d": "It explains the mass of the atom."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why are noble gases (inert gases) generally unreactive?",
-    "options": {
-      "a": "They have incomplete outermost shells.",
-      "b": "They have complete outermost shells.",
-      "c": "They have no electrons.",
-      "d": "They have no protons."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "If an element has a valency of 1, what does this indicate about its reactivity?",
-    "options": {
-      "a": "It is very unreactive.",
-      "b": "It tends to gain or lose one electron to achieve stability.",
-      "c": "It has a complete octet.",
-      "d": "It is a noble gas."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Isotopes of an element are used in various applications. Which property of isotopes allows for their different uses?",
-    "options": {
-      "a": "Same chemical properties",
-      "b": "Different chemical properties",
-      "c": "Different physical properties",
-      "d": "Same number of electrons"
+      "a": "Dalton's indivisible atom model.",
+      "b": "Thomson's Christmas pudding model.",
+      "c": "Rutherford's nuclear model.",
+      "d": "Bohr's discrete orbit model."
     },
     "answer": "c"
   },
   {
-    "question": "An isotope of which element is used as a fuel in nuclear reactors?",
+    "question_number": 65,
+    "question": "A scientist is trying to build a stable atomic model where electrons orbit a central nucleus without losing energy. Which concept, introduced by Neils Bohr, would be crucial for this model's stability?",
     "options": {
-      "a": "Cobalt",
-      "b": "Iodine",
-      "c": "Uranium",
+      "a": "Electrons are negatively charged particles.",
+      "b": "The nucleus is positively charged.",
+      "c": "Electrons revolve in discrete orbits without radiating energy.",
+      "d": "The mass of the atom is concentrated in the nucleus."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 66,
+    "question": "You are told that an element's atom has an atomic number of 17. How would you determine its valency based on the rules for electron distribution and valency?",
+    "options": {
+      "a": "It has 17 valence electrons, so valency is 17.",
+      "b": "Its configuration is 2, 8, 7, so it gains 1 electron, making valency 1.",
+      "c": "Its configuration is 2, 8, 7, so it loses 7 electrons, making valency 7.",
+      "d": "It is an inert gas, so valency is 0."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 67,
+    "question": "An atom with 11 protons and 11 electrons. This atom is chemically reactive and readily loses one electron to form an ion. Which general category of elements would it belong to, based on its valency?",
+    "options": {
+      "a": "Inert gases",
+      "b": "Elements with valency 1",
+      "c": "Elements with valency 2",
+      "d": "Elements with valency 3"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 68,
+    "question": "A hospital uses a specific radioactive substance for the treatment of goitre. Based on the applications mentioned in the chapter, which element's isotope is most likely being used?",
+    "options": {
+      "a": "Uranium",
+      "b": "Cobalt",
+      "c": "Iodine",
       "d": "Carbon"
     },
     "answer": "c"
   },
   {
-    "question": "An isotope of which element is used in the treatment of goiter?",
+    "question_number": 69,
+    "question": "You encounter two different samples of an element, say 'X'. Both samples exhibit identical chemical reactions, but one sample is slightly denser than the other. What scientific concept best explains this difference in physical property while maintaining chemical similarity?",
     "options": {
-      "a": "Cobalt",
-      "b": "Iodine",
-      "c": "Uranium",
-      "d": "Sodium"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why is the atomic mass of chlorine often represented as 35.5 u, even though it is not a whole number?",
-    "options": {
-      "a": "Due to experimental error",
-      "b": "Due to the presence of isotopes",
-      "c": "Due to the presence of isobars",
-      "d": "Due to relativistic effects"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why are the chemical properties of all isotopes of an element generally the same?",
-    "options": {
-      "a": "Because they have the same number of neutrons.",
-      "b": "Because they have the same number of protons and electrons",
-      "c": "Because they have the same mass number.",
-      "d": "Because they have different atomic numbers."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "How does understanding valency help in predicting the formulas of compounds?",
-    "options": {
-      "a": "It indicates the mass of the atoms.",
-      "b": "It shows how many atoms of one element can combine with another.",
-      "c": "It shows the number of isotopes",
-      "d": "it indicates the atomic number."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "If Rutherford had used a foil of a much lighter element than gold in his experiment, how might his observations have differed?",
-    "options": {
-      "a": "More alpha particles would have been deflected at large angles.",
-      "b": "Fewer alpha particles would have been deflected at large angles.",
-      "c": "All alpha particles would have passed straight through.",
-      "d": "All alpha particles would have been absorbed."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why was Thomson's \"plum pudding\" model of the atom ultimately rejected?",
-    "options": {
-      "a": "It correctly predicted the existence of the neutron.",
-      "b": "It could not explain the results of Rutherford's scattering experiment.",
-      "c": "It was too complex.",
-      "d": "It was too simple."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why does Bohr's model restrict electrons to specific energy levels, unlike classical physics predictions?",
-    "options": {
-      "a": "To make the model simpler",
-      "b": "To account for the observed line spectra of elements",
-      "c": "to account for the mass of the atom.",
-      "d": "to explain the presence of neutrons."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "If an atom loses an electron, it becomes a positively charged ion. Why?",
-    "options": {
-      "a": "The number of protons becomes greater than the number of electrons.",
-      "b": "The number of neutrons changes.",
-      "c": "The mass number changes.",
-      "d": "The atomic number changes."
-    },
-    "answer": "a"
-  },
-  {
-    "question": "Why is the concept of valency crucial for understanding chemical bonding?",
-    "options": {
-      "a": "It determines the color of compounds.",
-      "b": "It dictates how atoms combine to form molecules.",
-      "c": "It determines the physical state of a substance.",
-      "d": "It determines the mass of an atom."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Two atoms have the same mass number but different atomic numbers. What are they called?",
-    "options": {
-      "a": "Isotopes",
+      "a": "Allotropy",
       "b": "Isobars",
-      "c": "Allotropes",
-      "d": "Isomers"
+      "c": "Isotopes",
+      "d": "Ionization"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "A nuclear power plant uses a certain material as fuel to generate electricity. Based on the chapter's information, which type of substance would this fuel most likely be?",
+    "options": {
+      "a": "An isotope of cobalt",
+      "b": "An isotope of iodine",
+      "c": "An isotope of uranium",
+      "d": "A neutral atom of hydrogen"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "A medical facility is using a radioactive substance for cancer therapy. Which element's isotope is specifically mentioned in the chapter for this application?",
+    "options": {
+      "a": "Iodine",
+      "b": "Uranium",
+      "c": "Cobalt",
+      "d": "Carbon"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "A student observes that some elements exhibit zero chemical activity. Based on the Bohr-Bury scheme, what common feature would these elements likely possess in their atomic structure?",
+    "options": {
+      "a": "They have only one electron in their outermost shell.",
+      "b": "Their outermost electron shell is completely filled.",
+      "c": "They have an equal number of protons and neutrons.",
+      "d": "They have a very small nucleus."
     },
     "answer": "b"
   },
   {
-    "question": "Why is the mass of an electron considered negligible when calculating the mass number of an atom?",
+    "question_number": 73,
+    "question": "Consider an atom with 12 protons and 12 electrons. Which statement correctly describes its ability to form chemical bonds based on its electronic configuration?",
     "options": {
-      "a": "Electrons have no mass",
-      "b": "Electrons are located outside the nucleus",
-      "c": "The mass of an electron is very small compared to protons and neutrons",
-      "d": "Electrons are negatively charged"
+      "a": "It is unreactive because its outermost shell is full.",
+      "b": "It will gain 6 electrons to form bonds.",
+      "c": "It will lose 2 electrons to form bonds.",
+      "d": "It will gain 2 electrons to form bonds."
     },
     "answer": "c"
   },
   {
-    "question": "Why is it important to know the number of valence electrons in an atom?",
+    "question_number": 74,
+    "question": "An atom has 6 protons, 6 neutrons, and 6 electrons. When this atom participates in bonding, it typically shares 4 electrons. What is its combining capacity or valency?",
     "options": {
-      "a": "It determines the atomic number",
-      "b": "It determines the mass number",
-      "c": "It determines the chemical reactivity",
-      "d": "it determines the number of neutrons."
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 75,
+    "question": "An element, represented by 40/20 Ca, is known. Another element, 40/18 Ar, is also known. What is the relationship between these two atomic species?",
+    "options": {
+      "a": "They are isotopes.",
+      "b": "They are isobars.",
+      "c": "They are allotropes.",
+      "d": "They are ions."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 76,
+    "question": "A common laboratory experiment involves charging objects by rubbing them together, for instance, rubbing a glass rod with a silk cloth. This activity indicates that:",
+    "options": {
+      "a": "Atoms are solid and indestructible.",
+      "b": "Atoms are neutral and cannot be charged.",
+      "c": "Atoms contain charged particles that can be transferred.",
+      "d": "Only large objects can hold an electric charge."
     },
     "answer": "c"
   },
   {
-    "question": "Why is the atomic number considered a more fundamental property of an element than its atomic mass?",
+    "question_number": 77,
+    "question": "If you perform the alpha-particle scattering experiment using a metal foil much thicker than 1000 atoms, what observation might be expected to change significantly?",
     "options": {
-      "a": "Atomic mass can vary due to isotopes, while atomic number is unique.",
-      "b": "Atomic mass is easier to measure",
-      "c": "Atomic number is always a whole number.",
-      "d": "Atomic mass is not related to the number of protons"
+      "a": "More alpha-particles would pass straight through.",
+      "b": "Fewer alpha-particles would be deflected.",
+      "c": "A higher percentage of alpha-particles would be deflected or rebound.",
+      "d": "Alpha-particles would gain mass."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 78,
+    "question": "An element is defined by its atomic number. If two atoms have the same number of protons but different numbers of neutrons, how would their chemical behavior compare?",
+    "options": {
+      "a": "They would have vastly different chemical behaviors.",
+      "b": "Their chemical behaviors would be identical.",
+      "c": "Only their physical states would differ, not chemical.",
+      "d": "They would be completely unreactive."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "A student draws a model of an atom where electrons are shown moving in random paths around a nucleus. Which part of Bohr's model would this drawing fail to accurately represent?",
+    "options": {
+      "a": "The existence of a nucleus.",
+      "b": "The presence of electrons.",
+      "c": "The concept of discrete orbits or energy levels.",
+      "d": "The overall electrical neutrality of the atom."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "If a sample of an element contains atoms with the same atomic number but varying numbers of neutrons, which of the following is most likely to vary among these atoms?",
+    "options": {
+      "a": "Number of protons",
+      "b": "Chemical reactivity",
+      "c": "Mass",
+      "d": "Number of electrons in a neutral atom"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "Dalton's atomic theory proposed that atoms are indivisible. The discovery of which sub-atomic particles directly contradicted this aspect of his theory?",
+    "options": {
+      "a": "Protons only",
+      "b": "Electrons only",
+      "c": "Protons and electrons",
+      "d": "Protons, electrons, and neutrons"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 82,
+    "question": "Rutherford\u2019s alpha-particle scattering experiment led him to conclude that the positive charge and mass of the atom were concentrated in a very small volume. What observation primarily supported this specific conclusion?",
+    "options": {
+      "a": "Most alpha-particles passed straight through.",
+      "b": "Some alpha-particles were deflected by small angles.",
+      "c": "A very small fraction of alpha-particles rebounded by 180 degrees.",
+      "d": "Alpha-particles are doubly-charged helium ions."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "J.J. Thomson's model of the atom proposed that the negative and positive charges are equal in magnitude, making the atom electrically neutral. However, this model failed to explain results of experiments carried out by other scientists. What was the fundamental conceptual limitation of Thomson's model that Rutherford's experiment exposed?",
+    "options": {
+      "a": "It did not account for the mass of the atom.",
+      "b": "It incorrectly assumed electrons were negatively charged.",
+      "c": "It described positive charge as being spread uniformly, rather than concentrated.",
+      "d": "It failed to explain the existence of sub-atomic particles."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "The mass of an electron is considered negligible compared to a proton. How does this property influence the determination of an atom's mass number?",
+    "options": {
+      "a": "Electrons are included in the mass number calculation but contribute very little.",
+      "b": "Electrons are completely ignored in the mass number calculation.",
+      "c": "The mass number is determined only by electrons.",
+      "d": "Electron mass is added to proton mass, but neutron mass is ignored."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 85,
+    "question": "A hydrogen atom (Protium, 1/1 H) is unique among atoms because its nucleus typically lacks neutrons. What implication does this have for the relationship between its atomic number and mass number?",
+    "options": {
+      "a": "Its atomic number is double its mass number.",
+      "b": "Its mass number is always greater than its atomic number.",
+      "c": "Its atomic number and mass number are equal.",
+      "d": "It cannot have a defined mass number."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "If Bohr's postulates were incorrect, and electrons did radiate energy while revolving in their orbits, what observable consequence would this have for the stability of matter?",
+    "options": {
+      "a": "Atoms would become larger and less dense.",
+      "b": "Atoms would continuously emit light of varying frequencies.",
+      "c": "Atoms would collapse, leading to unstable matter.",
+      "d": "Atoms would become superconductors."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 87,
+    "question": "Why are elements defined by the number of protons they possess rather than the number of electrons or neutrons?",
+    "options": {
+      "a": "Protons are the heaviest sub-atomic particles.",
+      "b": "The number of protons is always constant for a given element, unlike electrons (in ions) or neutrons (in isotopes).",
+      "c": "Protons determine the chemical reactivity.",
+      "d": "Protons are located in the nucleus."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "The Bohr-Bury rules state that the maximum number of electrons in the outermost orbit is 8, and shells are filled step-wise. What would happen if electrons could occupy outer shells before inner shells were full?",
+    "options": {
+      "a": "Atoms would become more stable.",
+      "b": "The concept of valency would become simpler.",
+      "c": "Chemical behavior would be less predictable.",
+      "d": "Atoms would acquire a positive charge."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 89,
+    "question": "If an element had no isotopes, what would be true about the mass of its atom?",
+    "options": {
+      "a": "Its mass would be equal to its atomic number.",
+      "b": "Its mass would be the sum of its protons and electrons.",
+      "c": "Its mass would be the same as the sum of protons and neutrons in it.",
+      "d": "It would have a fractional average atomic mass."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 90,
+    "question": "Why are chemical properties of isotopes similar, while their physical properties are different?",
+    "options": {
+      "a": "Chemical properties depend on neutrons, which vary, while physical properties depend on protons, which are constant.",
+      "b": "Chemical properties depend on electrons (determined by protons), which are the same, while physical properties (like mass) depend on neutrons, which vary.",
+      "c": "Isotopes have different atomic numbers but the same mass number, affecting only physical properties.",
+      "d": "Chemical properties are not affected by nuclear composition, only by electron arrangement."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "Consider the analogy used by Rutherford to explain his experiment: a blindfolded child throwing stones at a barbed-wire fence. What aspect of the atom does the \"lots of gaps in the fence\" analogy represent?",
+    "options": {
+      "a": "The solid, impenetrable nature of the nucleus.",
+      "b": "The empty space within the atom.",
+      "c": "The electrons revolving in circular orbits.",
+      "d": "The small size of the alpha particles."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "If the atomic number (Z) of an element is very high, say 90, but its mass number (A) is only 90, what can be inferred about this specific atom?",
+    "options": {
+      "a": "It contains a large number of neutrons.",
+      "b": "It is an isotope of hydrogen.",
+      "c": "It contains no neutrons.",
+      "d": "It is an isobar of hydrogen."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "Why was Dalton's atomic theory, particularly the idea that atoms are indivisible and indestructible, considered to have \"failed\" at the end of the 19th century?",
+    "options": {
+      "a": "New elements were discovered that did not fit his classification.",
+      "b": "Experiments showed that atoms could be broken down into smaller particles.",
+      "c": "It could not explain how atoms combine to form molecules.",
+      "d": "It failed to explain the law of conservation of mass."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "An atom is observed to have a very tiny, dense, positively charged core. This observation most directly supports which postulate of Rutherford's model?",
+    "options": {
+      "a": "Electrons revolve around the nucleus in circular paths.",
+      "b": "The size of the nucleus is very small compared to the atom.",
+      "c": "Nearly all the mass of an atom resides in the nucleus.",
+      "d": "There is a positively charged centre in an atom called the nucleus."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 96,
+    "question": "Consider an atom with a full K-shell and a full L-shell. Why would this atom be considered \"less reactive\" or \"inert\"?",
+    "options": {
+      "a": "It has an equal number of protons and neutrons.",
+      "b": "Its atomic mass is very high.",
+      "c": "It has achieved a stable electronic configuration (octet).",
+      "d": "Its nucleus is very small."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "If an experiment showed that atoms could spontaneously emit energy over time without external stimulation, which atomic model would be most directly contradicted by this finding?",
+    "options": {
+      "a": "J.J. Thomson's model",
+      "b": "Rutherford's model",
+      "c": "Bohr's model",
+      "d": "Dalton's model"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 98,
+    "question": "If an element were discovered with 15 protons, 15 electrons, and 17 neutrons, what would be its atomic number and mass number, respectively, and what would be its valency if its electron distribution is 2, 8, 5?",
+    "options": {
+      "a": "Z=15, A=32, Valency=5",
+      "b": "Z=15, A=30, Valency=3",
+      "c": "Z=15, A=32, Valency=3",
+      "d": "Z=17, A=32, Valency=1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 99,
+    "question": "The concept of valency is described as the combining capacity of an atom to achieve a fully-filled outermost shell. Why is this goal (a fully-filled outermost shell) considered desirable for an atom?",
+    "options": {
+      "a": "It increases the atom's mass.",
+      "b": "It makes the atom electrically charged.",
+      "c": "It leads to greater stability for the atom.",
+      "d": "It allows the atom to become larger in size."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 100,
+    "question": "If you have an atom with 17 protons and 17 electrons, and you want to form a stable ion, what is the most energy-efficient way for this atom to achieve an octet in its outermost shell?",
+    "options": {
+      "a": "Losing all 17 electrons.",
+      "b": "Gaining 1 electron.",
+      "c": "Losing 7 electrons.",
+      "d": "Gaining 8 electrons."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): Atoms and molecules are the fundamental building blocks of matter.\nReason (R): The existence of different kinds of matter is due to different atoms constituting them.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
     },
     "answer": "a"
   },
   {
-    "question": "If scientists discovered a new subatomic particle with a significant mass located within the nucleus, how would this discovery potentially change our understanding of atomic structure?",
+    "question_number": 102,
+    "question": "Assertion (A): The atom was known by 1900 to be an indivisible particle.\nReason (R): J.J. Thomson identified the electron, a sub-atomic particle.",
     "options": {
-      "a": "It would not affect the current model.",
-      "b": "It would affect the calculation of mass number and potentially introduce new forces within the nucleus.",
-      "c": "It would only affect the chemical properties of elements.",
-      "d": "It would disprove the existence of electrons."
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
     },
     "answer": "b"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): Electrons are negatively charged particles with negligible mass.\nReason (R): Protons are positively charged particles with a mass approximately 2000 times that of an electron.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): Rutherford's alpha-particle scattering experiment led to the discovery of the atomic nucleus.\nReason (R): Most of the fast moving \u03b1-particles passed straight through the gold foil.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): Atoms are electrically neutral as a whole.\nReason (R): According to Thomson's model, the negative and positive charges in an atom are equal in magnitude.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): Rutherford did not expect to see large deflections of alpha-particles in his experiment.\nReason (R): The alpha-particles were much heavier than the protons in the gold foil.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): Rutherford's model of the atom could not explain the stability of the atom.\nReason (R): According to classical electromagnetism, a revolving electron would radiate energy and eventually fall into the nucleus.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): Electrons do not radiate energy while revolving in discrete orbits.\nReason (R): This postulate was proposed by Neils Bohr to overcome the drawbacks of Rutherford's model.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): Neutrons are present in the nucleus of all atoms.\nReason (R): Hydrogen is the only atom that does not contain a neutron in its most common isotopic form.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The maximum number of electrons that can be accommodated in the outermost orbit of an atom is 8.\nReason (R): This rule is known as the octet rule, which explains the combining capacity of atoms.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): The valency of oxygen is 2.\nReason (R): An oxygen atom has 6 electrons in its outermost shell, and it needs to gain 2 electrons to achieve an octet.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): The atomic number of an element is the same as the number of protons in the nucleus of its atom.\nReason (R): The mass number of an atom is equal to the number of nucleons in its nucleus.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): Isotopes have similar chemical properties.\nReason (R): Isotopes of an element have the same number of valence electrons.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): Deuterium (2/1 H) and Tritium (3/1 H) are isotopes of hydrogen.\nReason (R): They have the same mass number but different atomic numbers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): The mass of an atom mainly resides in its nucleus.\nReason (R): Protons and neutrons, which constitute the nucleus, are also called nucleons.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): Chlorine (35/17 Cl and 37/17 Cl) is an example of isotopes.\nReason (R): They are atoms of the same element, having the same atomic number but different mass numbers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): J. Chadwick discovered the proton.\nReason (R): E. Goldstein discovered canal rays, which ultimately led to the discovery of another sub-atomic particle.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): The atomic structure of elements can be described by K, L, M, N shells.\nReason (R): These shells represent discrete energy levels where electrons orbit the nucleus.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): If an atom has 11 electrons and 11 protons, it is a stable element.\nReason (R): Stability is achieved when the outermost shell has 8 electrons (octet).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): The combining capacity of atoms of elements is an attempt to attain a fully-filled outermost shell.\nReason (R): Atoms would react so as to achieve an octet in the outermost shell by sharing, gaining or losing electrons.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): Dalton's atomic theory failed to explain the existence of sub-atomic particles.\nReason (R): Dalton proposed that the atom was indivisible and indestructible.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): The number of electrons in the N-shell can be up to 32.\nReason (R): The N-shell is the fourth orbit, corresponding to n=4.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): The nucleus of an atom carries a positive charge.\nReason (R): Protons, which are positively charged, are present in the nucleus.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): An atom of carbon with 6 protons and 6 neutrons has a mass of 12 u.\nReason (R): The mass number is defined as the sum of the total number of protons and neutrons present in the nucleus.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): In Rutherford's experiment, the gold foil was chosen to be as thick as possible.\nReason (R): A thicker foil would ensure more alpha-particle deflections.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): The chemical properties of isotopes are similar.\nReason (R): Isotopes have the same number of protons and hence the same electronic configuration in a neutral atom.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): Carbon (12/6 C) and Nitrogen (14/7 N) are isobars.\nReason (R): Isobars are atoms having the same mass number but different atomic numbers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): Canal rays were discovered by J.J. Thomson.\nReason (R): Canal rays were positively charged radiations.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
   }
 ]

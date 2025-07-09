@@ -37,8 +37,11 @@ try:
         get_total_students_by_class,
         get_user,
         get_user_exam_history,
+        set_user_password,
         get_user_stats,
         get_user_subjects,
+        get_all_lessons_for_subject,
+        update_user_tasks,
         update_exam,
         update_exam_solution,
         update_user_stats_after_exam,
@@ -47,13 +50,12 @@ try:
         recalculate_current_month_leaderboard,
     )
     import threading
-    import uuid
     from utils.lesson_utils import lesson2filepath
     from utils.data_utils import load_json_file, calculate_lesson_analytics, decode_unicode
     from utils.name_utils import generate_memorable_name
     from utils.auth_utils import get_student_class, get_current_user_info
     from utils.job_utils import allowed_file, cleanup_old_files
-    import hashlib
+    from datetime import timedelta
 
 except ImportError as e:
     print(f"Import Error: {str(e)}")
@@ -62,6 +64,9 @@ except ImportError as e:
 
 # Load environment variables
 load_dotenv()
+
+VERSION = "1.0.1"
+
 
 # Setup
 logging_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logging.log")
@@ -159,11 +164,15 @@ def login():
                 "token": access_token,
                 "user_id": user_id,
                 "class10": is_class10,
+                "version": VERSION,
             }
             return jsonify(response), 200
 
         except Exception as e:
             return jsonify({"message": f"Error creating new user: {str(e)}"}), 500
+
+    if user["password"] is None:
+        return jsonify({"message": "User not registered. Please register."}), 401
 
     if user["password"] == password:
         # Include class10 status in JWT token
@@ -175,10 +184,51 @@ def login():
             "token": access_token,
             "user_id": user_id,
             "class10": is_class10,
+            "version": VERSION,
         }
         return jsonify(response), 200
     else:
         return jsonify({"message": "Invalid credentials"}), 401
+
+
+@app.route("/api/register", methods=["POST"])
+def register():
+    data = request.get_json()
+    user_id = data.get("userId")
+    registration_code = data.get("registrationCode")
+    new_password = data.get("newPassword")
+
+    if not all([user_id, registration_code, new_password]):
+        return jsonify({"message": "User ID, registration code, and new password are required"}), 400
+
+    student_data, is_class10 = get_student_class(user_id, student_info, class10_student_info)
+    if student_data is None:
+        return jsonify({"message": "Invalid User ID"}), 400
+
+    user = get_user(user_id, class10=is_class10)
+    if user is None:
+        return jsonify({"message": "User not found"}), 404
+
+    if user.get("password"):
+        return jsonify({"message": "User is already registered. Please login."}), 400
+
+    if user.get("registration_code") != registration_code:
+        return jsonify({"message": "Invalid registration code"}), 401
+
+    if set_user_password(user_id, new_password, is_class10):
+        access_token = create_access_token(
+            identity={"user_id": user_id, "class10": is_class10}, expires_delta=False
+        )
+        response = {
+            "message": "Registration successful, logged in",
+            "token": access_token,
+            "user_id": user_id,
+            "class10": is_class10,
+            "version": VERSION,
+        }
+        return jsonify(response), 200
+    else:
+        return jsonify({"message": "Failed to update password"}), 500
 
 
 @app.route("/api/lessons", methods=["GET"])
@@ -436,6 +486,8 @@ def submit_exam(exam_id):
             print(f"Error updating user stats: {e}")
             # Continue even if stats update fails
 
+        # Check for task completion
+        completed_tasks = check_and_update_tasks(current_user, is_class10, exam)
         return jsonify(
             {
                 "message": "Exam submitted successfully",
@@ -444,10 +496,63 @@ def submit_exam(exam_id):
                 "percentage": percentage,
                 "results": initial_results,
                 "questions_needing_solutions": [q["index"] for q in questions_needing_solutions],
+                "completed_tasks": completed_tasks
             }
         ), 200
     else:
         return jsonify({"message": "Failed to submit exam"}), 500
+
+
+def check_and_update_tasks(user_id, is_class10, exam_data):
+    user = get_user(user_id, is_class10)
+    if not user or "tasks" not in user or "tasks_list" not in user["tasks"]:
+        return []
+
+    tasks = user["tasks"]["tasks_list"]
+    completed_tasks = []
+    coins_earned = 0
+    exam_subject = exam_data["subject"]
+    exam_lessons = exam_data["lessons"]
+    
+    for task in tasks:
+        if task["completed"]:
+            continue
+
+        task_id = task["id"]
+        task_action = task["action"]
+        
+        # Check if the task is completed
+        if task_id == 1 and task_action["type"] == "exam":
+            task["num_completed"] = task.get("num_completed", 0) + 1
+            if task["num_completed"] >= task["details"]["count"]:
+                task["completed"] = True
+        
+        elif task_id == 2 and task_action["type"] == "exam" and task_action["subject"] == exam_subject:
+            task["completed"] = True
+            
+        elif task_id == 3 and task_action["type"] == "exam" and task_action["subject"] == exam_subject and set(task_action["lessons"]) == set(exam_lessons):
+            task["completed"] = True
+
+        elif task_id == 4:
+            if task_action["type"] == "test" and exam_data["test"]:
+                test_id = "-".join(exam_data["exam-id"].split("-")[:-1])
+                if task_action["test-id"] == test_id:
+                    task["completed"] = True
+            elif task_action["type"] == "exam" and task_action["subject"] == exam_subject and set(task_action["lessons"]) == set(exam_lessons):
+                task["completed"] = True
+
+        elif task_id == 5 and task_action["type"] == "exam" and task_action["subject"] == exam_subject and set(task_action["lessons"]) == set(exam_lessons):
+            task["completed"] = True
+        
+        if task["completed"]:
+            completed_tasks.append(task)
+            coins_earned += task["reward"]
+
+    if coins_earned > 0:
+        user["coins"] = user.get("coins", 0) + coins_earned
+        update_user_tasks(user_id, user["tasks"], is_class10, coins=user.get("coins"))
+
+    return completed_tasks
 
 
 @app.route("/api/generate_hint", methods=["POST"])
@@ -848,22 +953,26 @@ def get_user_stats_route():
     stats = get_user_stats(current_user, is_class10)
 
     if not stats:
-        return jsonify(
-            [
-                {"total_exams":0},
-                {"total_marks":0},
-                {"marks_gained":0},
-                {"average_percentage":"0.00%"},
-            ]
-        ), 200
+        response = {
+            "version": VERSION,
+            "stats": [
+                {"total_exams": 0},
+                {"total_marks": 0},
+                {"marks_gained": 0},
+                {"average_percentage": "0.00%"},
+            ],
+        }
+        return jsonify(response), 200
 
     formatted_stats = [
         {"total_exams": stats.get("attempted", 0)},
         {"total_marks": stats.get("questions", 0)},
         {"marks_gained": stats.get("correct", 0)},
-        {"average_percentage": f"{stats.get('avgpercentage', 0):2.2f}%",},
+        {"average_percentage": f"{stats.get('avgpercentage', 0):2.2f}%"},
     ]
-    return jsonify(formatted_stats), 200
+
+    response = {"version": VERSION, "stats": formatted_stats}
+    return jsonify(response), 200
 
 
 @app.route("/api/overview_stats", methods=["GET"])
@@ -1065,6 +1174,171 @@ def get_analytics():
 @app.route("/api/updates", methods=["GET"])
 def get_updates():
     return jsonify(UPDATE_LOGS[0]), 200
+
+def get_pending_tests(user_id, is_class10):
+    active_tests_data = load_json_file("active_tests.json")
+    if not active_tests_data or "tests" not in active_tests_data:
+        return []
+
+    active_tests = active_tests_data["tests"]
+    pending_tests = []
+    for test in active_tests:
+        if not isinstance(test, dict):
+            continue
+
+        completed_users = test.get("completed_by", [])
+        if user_id in completed_users:
+            continue
+
+        test_standard = test.get("standard")
+        if (test_standard == 10) != is_class10:
+            continue
+        pending_tests.append(test)
+
+    return pending_tests
+@app.route("/api/fetch_coins", methods=["GET"])
+@jwt_required()
+def fetch_coins():
+    current_user, is_class10 = get_current_user_info()
+    user = get_user(current_user, is_class10)
+
+    if not user:
+        return jsonify({"message": "User not found"}), 404
+
+    tasks = user.get("tasks", {})
+    now = datetime.now()
+
+    if tasks.get("generated_at"):
+        generated_at = datetime.fromisoformat(tasks["generated_at"])
+        if (now - generated_at) < timedelta(hours=24) and tasks.get("tasks_list"):
+            return jsonify({
+                "coins": user.get("coins", 0),
+                "tasks": tasks.get("tasks_list", [])
+            })
+
+    new_tasks = []
+    
+    # Task 1: Complete 2 exams
+    new_tasks.append({
+        "id": 1,
+        "title": "Boost Your Brain",
+        "details": {"text": "Complete {count} exams today to sharpen your knowledge.", "count": 2},
+        "completed": False,
+        "reward": 5,
+        "cta": "Start Exam",
+        "action": {"type": "exam"},
+        "num_completed": 0
+    })
+
+    user_subjects_stats = get_user_subjects(current_user, class10=is_class10)
+    user_exam_history = get_user_exam_history(current_user, is_class10)
+    total_exams_attempted = len(user_exam_history)
+
+    # Task 2: Give 1 exam of {subject}
+    subject_for_task2 = "Math" # Default
+    if total_exams_attempted < 5:
+        unattempted_subjects = [s['subject'] for s in user_subjects_stats if s['attempted'] == 0]
+        if len(unattempted_subjects) > 1:
+            subject_for_task2 = random.choice(unattempted_subjects)
+        elif len(unattempted_subjects) == 1:
+            subject_for_task2 = unattempted_subjects[0]
+        else:
+            subject_for_task2 = random.choice([s['subject'] for s in user_subjects_stats]) if user_subjects_stats else random.choice(["Math", "Science", "SS"])
+    else:
+        sorted_subjects = sorted(user_subjects_stats, key=lambda x: x.get('attempted', 0))
+        least_tested_subjects = [s for s in sorted_subjects if s.get('attempted', 0) == sorted_subjects[0].get('attempted', 0)]
+        subject_for_task2 = random.choice(least_tested_subjects)['subject']
+    
+    new_tasks.append({
+        "id": 2,
+        "title": f"Focus on {subject_for_task2}",
+        "details": {"text": "Take one exam in {subject} to improve your skills.", "subject": subject_for_task2},
+        "completed": False,
+        "reward": 5,
+        "cta": f"Test {subject_for_task2}",
+        "action": {"type": "exam", "subject": subject_for_task2}
+    })
+
+    # Task 3: Give 1 exam of {lesson} {subject}
+    unattempted_subjects = [s['subject'] for s in user_subjects_stats if s['attempted'] == 0]
+    if total_exams_attempted == 0:
+        available_subjects = [s for s in ["Math", "Science", "SS"] if s != subject_for_task2]
+        random_subject = random.choice(available_subjects)
+        first_lesson = get_all_lessons_for_subject(random_subject, is_class10)[0]
+        new_tasks.append({"id": 3, "title": "New Horizons", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": first_lesson, "subject": random_subject}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": random_subject, "lessons": [first_lesson]}})
+    elif len(unattempted_subjects) >= 2:
+        available_subjects = [s for s in unattempted_subjects if s != subject_for_task2]
+        subject_for_task3 = random.choice(available_subjects)
+        first_lesson_for_task3 = get_all_lessons_for_subject(subject_for_task3, is_class10)[0]
+        new_tasks.append({"id": 3, "title": "Explore New Topics", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": first_lesson_for_task3, "subject": subject_for_task3}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": subject_for_task3, "lessons": [first_lesson_for_task3]}})
+    else:
+        sorted_subjects = sorted(user_subjects_stats, key=lambda x: x.get('attempted', 0))
+        least_tested_subject_info = sorted_subjects[0]
+        if least_tested_subject_info['subject'] == subject_for_task2 and len(sorted_subjects) > 1:
+            least_tested_subject_info = sorted_subjects[1]
+        least_tested_subject = least_tested_subject_info['subject']
+        subject_exam_history = [e for e in user_exam_history if e['subject'] == least_tested_subject]
+        all_lessons = get_all_lessons_for_subject(least_tested_subject, is_class10)
+        lesson_counts = {lesson: 0 for lesson in all_lessons}
+        for exam in subject_exam_history:
+            for lesson in exam.get('lessons', []):
+                if lesson in lesson_counts:
+                    lesson_counts[lesson] += 1
+        
+        min_attempts = min(lesson_counts.values()) if lesson_counts else 0
+        least_tested_lessons = [lesson for lesson, count in lesson_counts.items() if count == min_attempts]
+        lesson_for_task3 = random.choice(least_tested_lessons) if least_tested_lessons else all_lessons[0] if all_lessons else "a lesson"
+        new_tasks.append({"id": 3, "title": "Deepen Your Knowledge", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": lesson_for_task3, "subject": least_tested_subject}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": least_tested_subject, "lessons": [lesson_for_task3]}})
+
+    # Task 4: Pending tests or 2nd least attempted subject
+    pending_tests = get_pending_tests(current_user, is_class10)
+    if pending_tests:
+        test_to_complete = random.choice(pending_tests)
+        new_tasks.append({"id": 4, "title": "Complete Your Test", "details": {"text": "Complete the test: {subject} - {lessons}", "subject": test_to_complete.get('subject'), "lessons": test_to_complete.get('lessons', [])}, "completed": False, "reward": 10, "action": {"type": "test", "test-id": test_to_complete.get('test-id')}})
+    elif len(user_subjects_stats) > 1:
+        second_least_attempted_subject_info = sorted(user_subjects_stats, key=lambda x: x.get('attempted', 0))[1]
+        second_least_attempted_subject = second_least_attempted_subject_info['subject']
+        all_lessons_second = get_all_lessons_for_subject(second_least_attempted_subject, is_class10)
+        if all_lessons_second:
+            lesson_to_add = [all_lessons_second[0]]
+            new_tasks.append({"id": 4, "title": "Branch Out", "details": {"text": "Give exam of {lessons} from {subject}", "lessons": lesson_to_add, "subject": second_least_attempted_subject}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": second_least_attempted_subject, "lessons": lesson_to_add}})
+
+    # Task 5: Least attempted lesson of most attempted subject
+    if user_subjects_stats:
+        if total_exams_attempted == 0:
+            random_subject_for_task5 = random.choice([s['subject'] for s in user_subjects_stats])
+            all_lessons_task5 = get_all_lessons_for_subject(random_subject_for_task5, is_class10)
+            lesson_for_task5 = all_lessons_task5[0] if all_lessons_task5 else None
+            if lesson_for_task5:
+                 new_tasks.append({"id": 5, "title": "Master Your Strengths", "details": {"text": "Give exam of {lesson} from {subject}", "lesson": lesson_for_task5, "subject": random_subject_for_task5}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": random_subject_for_task5, "lessons": [lesson_for_task5]}})
+        else:
+            most_attempted_subject_info = sorted(user_subjects_stats, key=lambda x: x.get('attempted', 0), reverse=True)[0]
+            most_attempted_subject = most_attempted_subject_info['subject']
+            subject_exam_history_most = [e for e in user_exam_history if e['subject'] == most_attempted_subject]
+            all_lessons_most = get_all_lessons_for_subject(most_attempted_subject, is_class10)
+            lesson_counts_most = {lesson: 0 for lesson in all_lessons_most}
+            for exam in subject_exam_history_most:
+                for lesson in exam.get('lessons', []):
+                    if lesson in lesson_counts_most:
+                        lesson_counts_most[lesson] += 1
+            
+            min_attempts_most = min(lesson_counts_most.values()) if lesson_counts_most else 0
+            least_tested_lessons_most = [lesson for lesson, count in lesson_counts_most.items() if count == min_attempts_most]
+            
+            if least_tested_lessons_most:
+                least_tested_lessons_most.sort(key=lambda x: int(''.join(filter(str.isdigit, x))) if any(char.isdigit() for char in x) else float('inf'))
+                lesson_for_task5 = least_tested_lessons_most[0]
+                new_tasks.append({"id": 5, "title": "Refine Your Skills", "details": {"text": "Give exam of {lesson} from {subject}", "lesson": lesson_for_task5, "subject": most_attempted_subject}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": most_attempted_subject, "lessons": [lesson_for_task5]}})
+
+    user["tasks"] = {
+        "generated_at": now.isoformat(),
+        "tasks_list": new_tasks
+    }
+    
+    update_user_tasks(current_user, user["tasks"], is_class10)
+    
+    return jsonify({"coins": user.get("coins", 0), "tasks": new_tasks})
+        
 
 
 @app.route("/admin/updates", methods=["POST"])

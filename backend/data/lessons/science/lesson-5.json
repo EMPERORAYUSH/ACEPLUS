@@ -1,442 +1,1399 @@
 [
   {
-    "question": "Who made the first observation of cells and what did he observe?",
+    "question_number": 1,
+    "question": "Who first observed and named the \"cells\" from a thin slice of cork in 1665?",
     "options": {
-      "a": "Robert Hooke observed the nucleus in cork cells.",
-      "b": "Leeuwenhoek observed free-living cells in pond water.",
-      "c": "Robert Brown observed cells in a thin slice of cork.",
-      "d": "Robert Hooke observed box-like compartments in a thin slice of cork."
+      "a": "Anton van Leeuwenhoek",
+      "b": "Robert Hooke",
+      "c": "Robert Brown",
+      "d": "J.E. Purkinje"
     },
-    "answer": "d",
-    "id": 400
+    "answer": "b"
   },
   {
-    "question": "Which of the following is NOT a characteristic of a prokaryotic cell?",
+    "question_number": 2,
+    "question": "The term 'protoplasm' for the fluid substance of the cell was coined by which scientist?",
     "options": {
-      "a": "Absence of a nuclear membrane.",
-      "b": "Presence of ribosomes.",
-      "c": "Presence of membrane-bound organelles.",
-      "d": "Presence of a nucleoid."
+      "a": "Robert Hooke",
+      "b": "Anton van Leeuwenhoek",
+      "c": "Robert Brown",
+      "d": "J.E. Purkinje"
     },
-    "answer": "c",
-    "id": 401
+    "answer": "d"
   },
   {
-    "question": "Which of the following statements is TRUE about the cell wall?",
+    "question_number": 3,
+    "question": "Which component of a plant cell provides structural strength and is mainly composed of cellulose?",
     "options": {
-      "a": "It is present in all living cells.",
-      "b": "It provides flexibility to the cell.",
-      "c": "It is mainly composed of proteins.",
-      "d": "It is present in plant cells, fungi, and bacteria."
+      "a": "Plasma membrane",
+      "b": "Nucleus",
+      "c": "Cell wall",
+      "d": "Cytoplasm"
     },
-    "answer": "d",
-    "id": 402
+    "answer": "c"
   },
   {
-    "question": "What is the function of the Golgi apparatus?",
+    "question_number": 4,
+    "question": "What are the rod-shaped structures visible in the nucleus only when the cell is about to divide?",
     "options": {
-      "a": "Synthesis of proteins.",
-      "b": "Cellular respiration.",
-      "c": "Packaging and modification of cellular products.",
-      "d": "Storage of genetic material."
+      "a": "Ribosomes",
+      "b": "Plastids",
+      "c": "Chromosomes",
+      "d": "Vacuoles"
     },
-    "answer": "c",
-    "id": 403
+    "answer": "c"
   },
   {
-    "question": "Which organelle is responsible for photosynthesis in plant cells?",
+    "question_number": 5,
+    "question": "Organisms whose cells lack a nuclear membrane are called:",
     "options": {
-      "a": "Mitochondria.",
-      "b": "Chloroplasts.",
-      "c": "Vacuoles.",
-      "d": "Lysosomes."
+      "a": "Eukaryotes",
+      "b": "Multicellular",
+      "c": "Unicellular",
+      "d": "Prokaryotes"
     },
-    "answer": "b",
-    "id": 404
+    "answer": "d"
   },
   {
-    "question": "What happens to a plant cell when placed in a hypertonic solution?",
+    "question_number": 6,
+    "question": "Which part of the endoplasmic reticulum (ER) has particles called ribosomes attached to its surface?",
     "options": {
-      "a": "The cell swells up due to water intake.",
-      "b": "The cell remains unchanged.",
-      "c": "The cell shrinks due to water loss.",
-      "d": "The cell bursts due to excessive water intake."
+      "a": "Smooth Endoplasmic Reticulum (SER)",
+      "b": "Rough Endoplasmic Reticulum (RER)",
+      "c": "Golgi apparatus",
+      "d": "Lysosomes"
     },
-    "answer": "c",
-    "id": 405
+    "answer": "b"
   },
   {
-    "question": "Which of the following is NOT a function of the endoplasmic reticulum (ER)?",
+    "question_number": 7,
+    "question": "What is the primary function of leucoplasts in plant cells?",
     "options": {
-      "a": "Synthesis of lipids.",
-      "b": "Transport of proteins.",
-      "c": "Cellular respiration.",
-      "d": "Providing a framework for the cytoplasm."
+      "a": "Photosynthesis",
+      "b": "Waste disposal",
+      "c": "Storage of materials like starch, oils, and protein granules",
+      "d": "Energy production"
     },
-    "answer": "c",
-    "id": 406
+    "answer": "c"
   },
   {
-    "question": "What is the main difference between mitosis and meiosis?",
+    "question_number": 8,
+    "question": "What percentage of the cell volume can the central vacuole of some plant cells occupy?",
     "options": {
-      "a": "Mitosis produces four daughter cells, while meiosis produces two.",
-      "b": "Mitosis occurs in reproductive cells, while meiosis occurs in somatic cells.",
-      "c": "Mitosis reduces the chromosome number by half, while meiosis maintains it.",
-      "d": "Mitosis produces genetically identical daughter cells, while meiosis produces genetically diverse daughter cells."
+      "a": "10-20%",
+      "b": "25-40%",
+      "c": "50-90%",
+      "d": "Less than 10%"
     },
-    "answer": "d",
-    "id": 407
+    "answer": "c"
   },
   {
-    "question": "Assertion: Lysosomes are called ‘suicide bags’ of the cell. Reasoning: Lysosomes contain enzymes that can digest cellular components.",
+    "question_number": 9,
+    "question": "The process by which a single cell divides and forms two new cells, playing a central role in cellular reproduction, is directed by which organelle?",
     "options": {
-      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
-      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
-      "c": "Assertion is true but Reasoning is false.",
-      "d": "Assertion is false but Reasoning is true."
-    },
-    "answer": "a",
-    "id": 408
-  },
-  {
-    "question": "Problem-solving: A cell is placed in a solution with a higher concentration of solute than the cell's cytoplasm. What will happen to the cell?",
-    "options": {
-      "a": "The cell will gain water and swell.",
-      "b": "The cell will lose water and shrink.",
-      "c": "The cell will remain unchanged.",
-      "d": "The cell will burst due to excessive water intake."
-    },
-    "answer": "b",
-    "id": 409
-  },
-  {
-    "question": "Application-based: Explain how the structure of the plasma membrane is related to its function as a selectively permeable membrane.",
-    "options": {
-      "a": "The plasma membrane is composed of lipids and proteins, which allow for the transport of only certain molecules.",
-      "b": "The plasma membrane is a rigid structure, which prevents the entry and exit of all molecules.",
-      "c": "The plasma membrane is a thin layer, which allows all molecules to pass through easily.",
-      "d": "The plasma membrane is composed of carbohydrates, which allow for the selective transport of molecules."
-    },
-    "answer": "a",
-    "id": 410
-  },
-  {
-    "question": "Critical thinking: Why is it important for cells to have a division of labor? Explain using an example.",
-    "options": {
-      "a": "Division of labor is not important for cells, as they can perform all functions independently.",
-      "b": "Division of labor allows cells to specialize and become more efficient in performing specific functions, like the mitochondria for energy production.",
-      "c": "Division of labor is only important for multicellular organisms, not for single-celled organisms.",
-      "d": "Division of labor is a result of random mutations and does not contribute to the efficiency of cells."
-    },
-    "answer": "b",
-    "id": 411
-  },
-  {
-    "question": "What is the name of the fluid substance found inside the cell?",
-    "options": {
-      "a": "Protoplasm",
+      "a": "Mitochondria",
       "b": "Cytoplasm",
-      "c": "Nucleoplasm",
-      "d": "Cell sap"
+      "c": "Nucleus",
+      "d": "Plasma membrane"
     },
-    "answer": "b",
-    "id": 412
+    "answer": "c"
   },
   {
-    "question": "Which of the following statements is TRUE about the nucleus?",
+    "question_number": 10,
+    "question": "What are the two main types of cell division described in the lesson?",
     "options": {
-      "a": "It is the control center of the cell.",
-      "b": "It is the site of protein synthesis.",
-      "c": "It is responsible for cellular respiration.",
-      "d": "It is the smallest organelle in the cell."
+      "a": "Binary fission and budding",
+      "b": "Mitosis and meiosis",
+      "c": "Fragmentation and regeneration",
+      "d": "Sporulation and conjugation"
     },
-    "answer": "a",
-    "id": 413
+    "answer": "b"
   },
   {
-    "question": "What is the function of the ribosomes?",
+    "question_number": 11,
+    "question": "The cell theory, stating that all plants and animals are composed of cells and that the cell is the basic unit of life, was presented by:",
     "options": {
-      "a": "Synthesis of lipids.",
-      "b": "Synthesis of proteins.",
-      "c": "Packaging and modification of cellular products.",
-      "d": "Storage of genetic material."
+      "a": "Robert Hooke and Anton van Leeuwenhoek",
+      "b": "Schleiden and Schwann",
+      "c": "Virchow and Purkinje",
+      "d": "Robert Brown and Camillo Golgi"
     },
-    "answer": "b",
-    "id": 414
+    "answer": "b"
   },
   {
-    "question": "Which of the following is NOT a type of plastid?",
+    "question_number": 12,
+    "question": "Which scientist first discovered free-living cells in pond water using an improved microscope?",
     "options": {
-      "a": "Chromoplasts",
-      "b": "Leucoplasts",
+      "a": "Robert Hooke",
+      "b": "Anton van Leeuwenhoek",
+      "c": "Robert Brown",
+      "d": "Rudolf Virchow"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 13,
+    "question": "What is the name for the process where a cell engulfs food and other material from its external environment, as seen in Amoeba?",
+    "options": {
+      "a": "Osmosis",
+      "b": "Diffusion",
+      "c": "Plasmolysis",
+      "d": "Endocytosis"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 14,
+    "question": "The innermost membrane of the mitochondria is deeply folded to increase the surface area for what specific purpose?",
+    "options": {
+      "a": "Protein synthesis",
+      "b": "ATP-generating chemical reactions",
+      "c": "Detoxification",
+      "d": "Storage of wastes"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 15,
+    "question": "What are chromoplasts that contain the pigment chlorophyll known as?",
+    "options": {
+      "a": "Leucoplasts",
+      "b": "Ribosomes",
       "c": "Chloroplasts",
       "d": "Mitochondria"
     },
-    "answer": "d",
-    "id": 415
+    "answer": "c"
   },
   {
-    "question": "Which of the following is an example of a unicellular organism?",
+    "question_number": 16,
+    "question": "Which organelle is described as a 'waste disposal system' of the cell and contains powerful digestive enzymes?",
     "options": {
-      "a": "Onion",
-      "b": "Human",
-      "c": "Amoeba",
-      "d": "Rose"
+      "a": "Endoplasmic Reticulum",
+      "b": "Golgi Apparatus",
+      "c": "Lysosomes",
+      "d": "Vacuoles"
     },
-    "answer": "c",
-    "id": 416
+    "answer": "c"
   },
   {
-    "question": "What is the process called by which a cell divides into two identical daughter cells?",
+    "question_number": 17,
+    "question": "What is the fluid content inside the plasma membrane of a cell, which also contains many specialised cell organelles, called?",
     "options": {
-      "a": "Meiosis",
-      "b": "Mitosis",
-      "c": "Fertilization",
-      "d": "Binary fission"
+      "a": "Nucleoplasm",
+      "b": "Cytoplasm",
+      "c": "Protoplasm",
+      "d": "Cell sap"
     },
-    "answer": "b",
-    "id": 417
+    "answer": "b"
   },
   {
-    "question": "What is the main difference between a hypotonic solution and a hypertonic solution?",
+    "question_number": 18,
+    "question": "Which type of organism, like Amoeba or Paramoecium, consists of a single cell that lives on its own?",
     "options": {
-      "a": "Hypotonic solutions have a higher water concentration, while hypertonic solutions have a lower water concentration.",
-      "b": "Hypotonic solutions have a lower water concentration, while hypertonic solutions have a higher water concentration.",
-      "c": "Hypotonic solutions have a higher solute concentration, while hypertonic solutions have a lower solute concentration.",
-      "d": "Hypotonic solutions have a lower solute concentration, while hypertonic solutions have a higher solute concentration."
+      "a": "Multicellular organisms",
+      "b": "Prokaryotic organisms",
+      "c": "Eukaryotic organisms",
+      "d": "Unicellular organisms"
     },
-    "answer": "a",
-    "id": 418
+    "answer": "d"
   },
   {
-    "question": "Assertion: The cell wall is a rigid structure that provides support to plant cells. Reasoning: The cell wall is composed mainly of cellulose.",
+    "question_number": 19,
+    "question": "What is the main composition of the plasma membrane, making it flexible?",
     "options": {
-      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
-      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
-      "c": "Assertion is true but Reasoning is false.",
-      "d": "Assertion is false but Reasoning is true."
+      "a": "Carbohydrates and nucleic acids",
+      "b": "Lipids and proteins",
+      "c": "Cellulose and chitin",
+      "d": "Water and minerals"
     },
-    "answer": "a",
-    "id": 419
+    "answer": "b"
   },
   {
-    "question": "Problem-solving: A cell is placed in a solution with the same concentration of solute as the cell's cytoplasm. What will happen to the cell?",
+    "question_number": 20,
+    "question": "The phenomenon of shrinkage or contraction of the contents of a living plant cell away from the cell wall when it loses water through osmosis is known as:",
     "options": {
-      "a": "The cell will gain water and swell.",
-      "b": "The cell will lose water and shrink.",
-      "c": "The cell will remain unchanged.",
-      "d": "The cell will burst due to excessive water intake."
+      "a": "Cytokinesis",
+      "b": "Plasmolysis",
+      "c": "Turgidity",
+      "d": "Endocytosis"
     },
-    "answer": "c",
-    "id": 420
+    "answer": "b"
   },
   {
-    "question": "Application-based: Explain how the process of osmosis is important for the survival of a plant.",
+    "question_number": 21,
+    "question": "Which of the following statements about prokaryotic cells is true according to the lesson?",
     "options": {
-      "a": "Osmosis is not important for plants, as they obtain water through their roots.",
-      "b": "Osmosis allows plants to absorb water and nutrients from the soil, which is essential for their growth and survival.",
-      "c": "Osmosis only plays a role in the transportation of water within the plant, not in its absorption.",
-      "d": "Osmosis is a process that only occurs in animal cells, not in plant cells."
+      "a": "They have a well-defined nuclear membrane.",
+      "b": "They contain membrane-bound cell organelles.",
+      "c": "Their nuclear region, containing only nucleic acids, is called a nucleoid.",
+      "d": "Chlorophyll is associated with plastids in photosynthetic prokaryotes."
     },
-    "answer": "b",
-    "id": 421
+    "answer": "c"
   },
   {
-    "question": "Critical thinking: Explain how the structure of a mitochondrion is related to its function as the powerhouse of the cell.",
+    "question_number": 22,
+    "question": "What is the term for the process where some proteins and lipids help in building the cell membrane?",
     "options": {
-      "a": "Mitochondria have a simple structure, which allows them to efficiently produce energy.",
-      "b": "Mitochondria have a double membrane structure with folds, which increase the surface area for energy production.",
-      "c": "Mitochondria have a large central vacuole, which stores energy in the form of ATP.",
-      "d": "Mitochondria have a rigid cell wall, which protects them from damage during energy production."
+      "a": "Photosynthesis",
+      "b": "Respiration",
+      "c": "Membrane biogenesis",
+      "d": "Osmosis"
     },
-    "answer": "b",
-    "id": 422
+    "answer": "c"
   },
   {
-    "question": "What is the name of the process by which a cell takes in food or other materials from its surroundings?",
+    "question_number": 23,
+    "question": "Where are proteins synthesised inside the cell, as mentioned in the context of the Endoplasmic Reticulum?",
     "options": {
-      "a": "Osmosis",
-      "b": "Diffusion",
-      "c": "Endocytosis",
-      "d": "Exocytosis"
+      "a": "In the nucleus",
+      "b": "In the Golgi apparatus",
+      "c": "On the ribosomes",
+      "d": "In the mitochondria"
     },
-    "answer": "c",
-    "id": 423
+    "answer": "c"
   },
   {
-    "question": "Which of the following statements is TRUE about vacuoles?",
+    "question_number": 24,
+    "question": "The energy currency of the cell, required for various chemical activities, is released by mitochondria in the form of which molecules?",
     "options": {
-      "a": "Vacuoles are only present in animal cells.",
-      "b": "Vacuoles are the smallest organelle in the cell.",
-      "c": "Vacuoles are storage sacs for solid or liquid contents.",
-      "d": "Vacuoles are responsible for protein synthesis."
+      "a": "DNA",
+      "b": "RNA",
+      "c": "ATP",
+      "d": "ADP"
     },
-    "answer": "c",
-    "id": 424
+    "answer": "c"
   },
   {
-    "question": "What is the name of the genetic material found in chromosomes?",
+    "question_number": 25,
+    "question": "Which organelle is involved in the formation of lysosomes?",
     "options": {
-      "a": "RNA",
-      "b": "DNA",
-      "c": "Proteins",
-      "d": "Lipids"
-    },
-    "answer": "b",
-    "id": 425
-  },
-  {
-    "question": "Which of the following statements is TRUE about the cell membrane?",
-    "options": {
-      "a": "It is a rigid structure that surrounds the cell.",
-      "b": "It is a selectively permeable membrane that controls the movement of substances in and out of the cell.",
-      "c": "It is composed of only lipids.",
-      "d": "It is responsible for photosynthesis."
-    },
-    "answer": "b",
-    "id": 426
-  },
-  {
-    "question": "Assertion: The ER is a network of interconnected membranes. Reasoning: The ER helps in the transport of materials within the cell.",
-    "options": {
-      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
-      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
-      "c": "Assertion is true but Reasoning is false.",
-      "d": "Assertion is false but Reasoning is true."
-    },
-    "answer": "a",
-    "id": 427
-  },
-  {
-    "question": "Problem-solving: A cell is placed in a solution with a lower concentration of solute than the cell's cytoplasm. What will happen to the cell?",
-    "options": {
-      "a": "The cell will gain water and swell.",
-      "b": "The cell will lose water and shrink.",
-      "c": "The cell will remain unchanged.",
-      "d": "The cell will burst due to excessive water intake."
-    },
-    "answer": "a",
-    "id": 428
-  },
-  {
-    "question": "Application-based: Explain how the process of diffusion is important for the survival of a cell.",
-    "options": {
-      "a": "Diffusion is not important for cells, as they obtain all their needs through active transport.",
-      "b": "Diffusion allows cells to exchange gases, like oxygen and carbon dioxide, with their surroundings, which is essential for respiration.",
-      "c": "Diffusion only plays a role in the movement of water within the cell, not in the exchange of gases.",
-      "d": "Diffusion is a process that only occurs in plant cells, not in animal cells."
-    },
-    "answer": "b",
-    "id": 429
-  },
-  {
-    "question": "Critical thinking: Explain how the presence of a nucleus distinguishes eukaryotic cells from prokaryotic cells.",
-    "options": {
-      "a": "The nucleus is not a significant difference between eukaryotic and prokaryotic cells.",
-      "b": "Prokaryotic cells have a more complex nucleus than eukaryotic cells.",
-      "c": "The presence of a nucleus allows eukaryotic cells to perform more complex functions, such as organizing genetic material and controlling cellular activities.",
-      "d": "The nucleus is only present in plant cells, not in animal cells."
-    },
-    "answer": "c",
-    "id": 430
-  },
-  {
-    "question": "What is the name of the process by which a cell releases waste products or other materials into its surroundings?",
-    "options": {
-      "a": "Osmosis",
-      "b": "Diffusion",
-      "c": "Endocytosis",
-      "d": "Exocytosis"
-    },
-    "answer": "d",
-    "id": 431
-  },
-  {
-    "question": "Which of the following statements is TRUE about the cell wall?",
-    "options": {
-      "a": "It is present in all living cells.",
-      "b": "It provides flexibility to the cell.",
-      "c": "It is mainly composed of proteins.",
-      "d": "It is present in plant cells, fungi, and bacteria."
-    },
-    "answer": "d",
-    "id": 432
-  },
-  {
-    "question": "What is the name of the organelle that contains digestive enzymes and is responsible for breaking down cellular waste products?",
-    "options": {
-      "a": "Mitochondria",
-      "b": "Lysosomes",
-      "c": "Vacuoles",
+      "a": "Endoplasmic Reticulum",
+      "b": "Mitochondria",
+      "c": "Plastids",
       "d": "Golgi apparatus"
     },
-    "answer": "b",
-    "id": 433
+    "answer": "d"
   },
   {
-    "question": "What is the name of the green pigment found in chloroplasts that is essential for photosynthesis?",
+    "question_number": 26,
+    "question": "What is the function of the nuclear membrane's pores?",
     "options": {
-      "a": "Carotene",
-      "b": "Xanthophyll",
-      "c": "Chlorophyll",
-      "d": "Melanin"
+      "a": "To store genetic material",
+      "b": "To allow the transfer of material between the nucleus and cytoplasm",
+      "c": "To synthesize ribosomes",
+      "d": "To provide structural support to the nucleus"
     },
-    "answer": "c",
-    "id": 434
+    "answer": "b"
   },
   {
-    "question": "Which of the following statements is TRUE about the cell membrane?",
+    "question_number": 27,
+    "question": "What is the functional segment of DNA called that contains information necessary for constructing and organising cells?",
     "options": {
-      "a": "It is a rigid structure that surrounds the cell.",
-      "b": "It is a selectively permeable membrane that controls the movement of substances in and out of the cell.",
-      "c": "It is composed of only lipids.",
-      "d": "It is responsible for photosynthesis."
+      "a": "Chromatin",
+      "b": "Chromosome",
+      "c": "Gene",
+      "d": "Nucleoid"
     },
-    "answer": "b",
-    "id": 435
+    "answer": "c"
   },
   {
-    "question": "Assertion: The Golgi apparatus is involved in the packaging and modification of cellular products. Reasoning: The Golgi apparatus consists of stacks of membrane-bound vesicles.",
+    "question_number": 28,
+    "question": "Which group of animals has liver cells where the SER plays a crucial role in detoxifying many poisons and drugs?",
     "options": {
-      "a": "Both Assertion and Reasoning are true and Reasoning is the correct explanation for Assertion.",
-      "b": "Both Assertion and Reasoning are true but Reasoning is not the correct explanation for Assertion.",
-      "c": "Assertion is true but Reasoning is false.",
-      "d": "Assertion is false but Reasoning is true."
+      "a": "Invertebrates",
+      "b": "Vertebrates",
+      "c": "Arthropods",
+      "d": "Molluscs"
     },
-    "answer": "a",
-    "id": 436
+    "answer": "b"
   },
   {
-    "question": "Problem-solving: A cell is placed in a solution with a higher concentration of solute than the cell's cytoplasm. What will happen to the cell?",
+    "question_number": 29,
+    "question": "How many identical daughter cells are formed from one mother cell during mitosis?",
     "options": {
-      "a": "The cell will gain water and swell.",
-      "b": "The cell will lose water and shrink.",
-      "c": "The cell will remain unchanged.",
-      "d": "The cell will burst due to excessive water intake."
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "Four"
     },
-    "answer": "b",
-    "id": 437
+    "answer": "b"
   },
   {
-    "question": "Application-based: Explain how the process of diffusion is important for the survival of a cell.",
+    "question_number": 30,
+    "question": "What is the main purpose of meiosis cell division?",
     "options": {
-      "a": "Diffusion is not important for cells, as they obtain all their needs through active transport.",
-      "b": "Diffusion allows cells to exchange gases, like oxygen and carbon dioxide, with their surroundings, which is essential for respiration.",
-      "c": "Diffusion only plays a role in the movement of water within the cell, not in the exchange of gases.",
-      "d": "Diffusion is a process that only occurs in plant cells, not in animal cells."
+      "a": "Growth and repair of tissues",
+      "b": "Formation of gametes",
+      "c": "Increasing the number of somatic cells",
+      "d": "Detoxification processes"
     },
-    "answer": "b",
-    "id": 438
+    "answer": "b"
   },
   {
-    "question": "Critical thinking: Explain how the presence of a nucleus distinguishes eukaryotic cells from prokaryotic cells.",
+    "question_number": 31,
+    "question": "A cell containing 46 chromosomes undergoes mitosis. How many chromosomes will be present in each daughter cell?",
     "options": {
-      "a": "The nucleus is not a significant difference between eukaryotic and prokaryotic cells.",
-      "b": "Prokaryotic cells have a more complex nucleus than eukaryotic cells.",
-      "c": "The presence of a nucleus allows eukaryotic cells to perform more complex functions, such as organizing genetic material and controlling cellular activities.",
-      "d": "The nucleus is only present in plant cells, not in animal cells."
+      "a": "23",
+      "b": "46",
+      "c": "92",
+      "d": "Varies depending on the cell type"
     },
-    "answer": "c",
-    "id": 439
+    "answer": "b"
+  },
+  {
+    "question_number": 32,
+    "question": "If a cell with 2N chromosomes undergoes meiosis, how many chromosomes will be present in each of the resulting four new cells?",
+    "options": {
+      "a": "N",
+      "b": "2N",
+      "c": "4N",
+      "d": "N/2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 33,
+    "question": "A cell has a concentration of waste CO2 internally. If the external environment has a much lower concentration of CO2, by what process will the CO2 move out of the cell?",
+    "options": {
+      "a": "Osmosis",
+      "b": "Endocytosis",
+      "c": "Diffusion",
+      "d": "Plasmolysis"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 34,
+    "question": "A plant cell is placed in a solution where the water concentration outside the cell is much higher than inside. What will be the net movement of water, and what will happen to the cell?",
+    "options": {
+      "a": "Water will move out, cell will shrink.",
+      "b": "Water will move in, cell will swell.",
+      "c": "No net movement, cell will stay the same size.",
+      "d": "Water will move out, cell will burst."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 35,
+    "question": "If a de-shelled egg gains water and swells when placed in pure water, what is the change in mass of the egg after 5 minutes? Assume initial mass is M.",
+    "options": {
+      "a": "Mass remains M",
+      "b": "Mass decreases",
+      "c": "Mass increases to M + \u0394M (where \u0394M > 0)",
+      "d": "Mass changes unpredictably"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 36,
+    "question": "A dried raisin is placed in a concentrated sugar solution. If its initial volume is V, what would be the approximate change in volume after some time?",
+    "options": {
+      "a": "Volume increases",
+      "b": "Volume remains V",
+      "c": "Volume decreases",
+      "d": "Volume doubles"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 37,
+    "question": "If the internal concentration of O2 in a cell decreases significantly, and the external environment has a normal O2 level, how will O2 move into the cell?",
+    "options": {
+      "a": "Through active transport requiring energy",
+      "b": "By osmosis",
+      "c": "By diffusion",
+      "d": "By endocytosis"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 38,
+    "question": "A cell has a cell volume of 100 \u00b5m\u00b3. If it is a mature plant cell and its central vacuole occupies 75% of the cell volume, what is the approximate volume of the vacuole?",
+    "options": {
+      "a": "25 \u00b5m\u00b3",
+      "b": "50 \u00b5m\u00b3",
+      "c": "75 \u00b5m\u00b3",
+      "d": "90 \u00b5m\u00b3"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 39,
+    "question": "A prokaryotic cell has a size of 5 \u00b5m. A eukaryotic cell has a size of 75 \u00b5m. What is the approximate ratio of the eukaryotic cell's size to the prokaryotic cell's size?",
+    "options": {
+      "a": "1:15",
+      "b": "15:1",
+      "c": "1:5",
+      "d": "5:1"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 40,
+    "question": "A cell produces 100 units of protein. If 80% of these proteins are meant for building the cell membrane, how many units of protein are involved in membrane biogenesis?",
+    "options": {
+      "a": "20 units",
+      "b": "40 units",
+      "c": "80 units",
+      "d": "100 units"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 41,
+    "question": "A cell uses 10 units of ATP per minute for various activities. If the mitochondria can produce 20 units of ATP per minute, what is the net ATP surplus/deficit per minute?",
+    "options": {
+      "a": "10 units surplus",
+      "b": "10 units deficit",
+      "c": "20 units surplus",
+      "d": "0 units (equilibrium)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 42,
+    "question": "If a plant cell undergoes plasmolysis, it implies that the surrounding solution is:",
+    "options": {
+      "a": "Hypotonic",
+      "b": "Isotonic",
+      "c": "Hypertonic",
+      "d": "Pure water"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 43,
+    "question": "A de-shelled egg is placed in a solution. After 5 minutes, it shrinks. What type of solution was it placed in?",
+    "options": {
+      "a": "Pure water",
+      "b": "Dilute sugar solution",
+      "c": "Concentrated salt solution",
+      "d": "Isotonic solution"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 44,
+    "question": "If a cell is kept in an isotonic solution, and the rate of water entry is 'X' molecules per second, what is the rate of water exit from the cell?",
+    "options": {
+      "a": "Less than X",
+      "b": "Equal to X",
+      "c": "More than X",
+      "d": "Zero"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 45,
+    "question": "A single mother cell containing 'X' amount of DNA in its chromosomes divides by mitosis. After this division, how much DNA will each daughter cell contain?",
+    "options": {
+      "a": "X",
+      "b": "X/2",
+      "c": "2X",
+      "d": "X/4"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 46,
+    "question": "If a specific cell organelle produces 10 units of digestive enzymes and needs to break down 5 units of foreign material, how many units of digestive enzymes will remain unused, assuming full efficiency?",
+    "options": {
+      "a": "0 units",
+      "b": "5 units",
+      "c": "10 units",
+      "d": "15 units"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 47,
+    "question": "The nuclear membrane has pores that allow transfer of material. If 20 molecules of a substance need to be transferred from the nucleus to the cytoplasm, and each pore can transfer 2 molecules at a time, how many transfer events are required?",
+    "options": {
+      "a": "5",
+      "b": "10",
+      "c": "20",
+      "d": "40"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 48,
+    "question": "A multicellular organism starts its development from a single cell. If this single cell undergoes 'N' rounds of mitosis without any cell death, resulting in 2^N cells, how many cells would be produced after 5 rounds of mitosis?",
+    "options": {
+      "a": "10",
+      "b": "16",
+      "c": "32",
+      "d": "64"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 49,
+    "question": "If a chromosome is composed of DNA and protein, and the DNA contains functional segments called genes. If a chromosome has 100 functional segments (genes), how many DNA molecules are theoretically involved in forming these segments?",
+    "options": {
+      "a": "1",
+      "b": "50",
+      "c": "100",
+      "d": "200"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 50,
+    "question": "An experimental setup involves two solutions separated by a selectively permeable membrane. Solution A has 10% solute concentration, and Solution B has 2% solute concentration. In which direction will the net movement of water occur?",
+    "options": {
+      "a": "From Solution A to Solution B",
+      "b": "From Solution B to Solution A",
+      "c": "No net movement",
+      "d": "Both ways equally"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 51,
+    "question": "A cell organelle is composed of membrane-bound vesicles arranged in stacks. If there are 7 such flattened sacs in a stack, and the cell contains 3 such stacks, what is the total number of flattened sacs in the Golgi apparatus?",
+    "options": {
+      "a": "7",
+      "b": "10",
+      "c": "21",
+      "d": "28"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 52,
+    "question": "If a prokaryotic cell is 5 \u00b5m in size, and a eukaryotic cell is 50 \u00b5m in size, how many times larger is the eukaryotic cell compared to the prokaryotic cell?",
+    "options": {
+      "a": "5 times",
+      "b": "10 times",
+      "c": "25 times",
+      "d": "50 times"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "A cell has its nucleus controlling cellular reproduction. If a single mother cell undergoes division, how many new cells are formed in the general process of cellular reproduction (not specifying mitosis/meiosis, but referring to the outcome of one division cycle)?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 54,
+    "question": "A cell needs to synthesize a new protein and export it. Which sequence of organelles is most likely involved in this process after synthesis?",
+    "options": {
+      "a": "Lysosome -> Golgi apparatus -> ER",
+      "b": "ER -> Golgi apparatus -> Vesicles for export",
+      "c": "Mitochondria -> ER -> Nucleus",
+      "d": "Vacuole -> Lysosome -> Plasma membrane"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 55,
+    "question": "A cell membrane is composed of lipids and proteins. If the ratio of lipids to proteins by weight is approximately 1:1, and the total weight of the membrane is 200 units, what is the approximate weight of proteins in the membrane?",
+    "options": {
+      "a": "50 units",
+      "b": "100 units",
+      "c": "150 units",
+      "d": "200 units"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 56,
+    "question": "The discovery of the electron microscope in 1940 enabled observation of complex cell structures. If a particular cell structure could not be seen before 1940, but is now observable, it implies:",
+    "options": {
+      "a": "It is visible under a light microscope.",
+      "b": "It requires a higher magnification than a light microscope can provide.",
+      "c": "It is a newly evolved organelle.",
+      "d": "It is an artifact of the electron microscope."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "A plant root absorbs water. If the water potential outside the root is -0.5 MPa and inside the root cells is -1.0 MPa, in which direction will water move?",
+    "options": {
+      "a": "From root cells to outside",
+      "b": "From outside to root cells",
+      "c": "No net movement",
+      "d": "Movement is random"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 58,
+    "question": "If a cell is damaged, and its lysosomes burst, releasing digestive enzymes. What percentage of the cell's organic material is likely to be broken down if these enzymes are powerful enough to break down \"all organic material\"?",
+    "options": {
+      "a": "0%",
+      "b": "Less than 50%",
+      "c": "Exactly 50%",
+      "d": "Nearly 100%"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 59,
+    "question": "The human body has a heart to pump blood and a stomach to digest food, demonstrating division of labor. If a human has 7.5 x 10^13 cells, and 2% of these are red blood cells, approximately how many red blood cells does the human body contain?",
+    "options": {
+      "a": "1.5 x 10^11",
+      "b": "1.5 x 10^12",
+      "c": "1.5 x 10^13",
+      "d": "1.5 x 10^14"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "If the SER is manufacturing 150 units of lipids and the RER is manufacturing 200 units of proteins, what is the total amount of material synthesized by the ER?",
+    "options": {
+      "a": "50 units",
+      "b": "150 units",
+      "c": "200 units",
+      "d": "350 units"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 61,
+    "question": "A gardener notices that the leaves of his plant appear wilted after he accidentally over-fertilized the soil, making the soil water very concentrated. Which cellular process explains the wilting?",
+    "options": {
+      "a": "Diffusion",
+      "b": "Endocytosis",
+      "c": "Plasmolysis",
+      "d": "Mitosis"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "Why can plant cells withstand much greater changes in the surrounding medium than animal cells, especially in dilute solutions?",
+    "options": {
+      "a": "Due to the presence of a flexible plasma membrane",
+      "b": "Because they actively pump out excess water",
+      "c": "Due to the rigid cell wall outside the plasma membrane",
+      "d": "They have smaller vacuoles that absorb less water"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 63,
+    "question": "A doctor observes a patient's red blood cells under a microscope and notes that they have swollen significantly. This suggests the patient's blood plasma is:",
+    "options": {
+      "a": "Isotonic to the cells",
+      "b": "Hypertonic to the cells",
+      "c": "Hypotonic to the cells",
+      "d": "Saturated with salt"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "Amoeba acquires its food by engulfing it from its external environment. This process is possible due to the flexibility of its cell membrane and is known as:",
+    "options": {
+      "a": "Osmosis",
+      "b": "Diffusion",
+      "c": "Endocytosis",
+      "d": "Exocytosis"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "Why is it advised to avoid putting contact lenses in plain tap water for cleaning and storage?",
+    "options": {
+      "a": "Tap water is hypertonic, causing lens shrinkage.",
+      "b": "Tap water is isotonic, having no effect.",
+      "c": "Tap water is hypotonic, causing lens swelling and potential damage to eye cells.",
+      "d": "Tap water contains too many minerals that scratch the lens."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 66,
+    "question": "When you breathe, oxygen moves from your lungs into your blood cells, and carbon dioxide moves from your blood cells into your lungs to be exhaled. What cellular process facilitates this gaseous exchange?",
+    "options": {
+      "a": "Osmosis",
+      "b": "Endocytosis",
+      "c": "Active transport",
+      "d": "Diffusion"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 67,
+    "question": "Why are lysosomes sometimes referred to as 'suicide bags' of a cell?",
+    "options": {
+      "a": "They help the cell to form new proteins.",
+      "b": "They generate ATP for cell survival.",
+      "c": "They detoxify poisons and drugs.",
+      "d": "If damaged, their digestive enzymes can break down and digest their own cell."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 68,
+    "question": "A person is given an intravenous (IV) fluid. For the fluid to be safe and not cause the patient's red blood cells to swell or shrink, the IV fluid must be:",
+    "options": {
+      "a": "Hypotonic",
+      "b": "Hypertonic",
+      "c": "Isotonic",
+      "d": "Concentrated sugar solution"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 69,
+    "question": "Plant roots absorb water from the soil. Which process is primarily responsible for this absorption?",
+    "options": {
+      "a": "Diffusion",
+      "b": "Endocytosis",
+      "c": "Osmosis",
+      "d": "Plasmolysis"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "Why are mitochondria called the 'powerhouses of the cell'?",
+    "options": {
+      "a": "They are involved in forming lysosomes.",
+      "b": "They synthesize proteins for the cell.",
+      "c": "They release energy in the form of ATP molecules for cellular activities.",
+      "d": "They contain chlorophyll for photosynthesis."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "A scientist observes a cell under a microscope and identifies a large central vacuole occupying most of the cell volume. Based on this observation, what type of cell is it most likely to be?",
+    "options": {
+      "a": "Animal cell",
+      "b": "Bacterial cell",
+      "c": "Plant cell",
+      "d": "Human cheek cell"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "Liver cells of vertebrates play a crucial role in detoxifying many poisons and drugs. Which organelle is primarily responsible for this function?",
+    "options": {
+      "a": "Rough Endoplasmic Reticulum (RER)",
+      "b": "Smooth Endoplasmic Reticulum (SER)",
+      "c": "Golgi apparatus",
+      "d": "Lysosomes"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 73,
+    "question": "Chlorophyll is a pigment essential for photosynthesis. In which specific organelle in plant cells would you find chlorophyll?",
+    "options": {
+      "a": "Leucoplasts",
+      "b": "Chromoplasts",
+      "c": "Chloroplasts",
+      "d": "Amyloplasts"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "A cell is actively involved in synthesizing a large amount of proteins that are to be exported out of the cell. Which organelle would you expect to be highly developed and abundant in such a cell?",
+    "options": {
+      "a": "Lysosomes",
+      "b": "Smooth Endoplasmic Reticulum",
+      "c": "Mitochondria",
+      "d": "Rough Endoplasmic Reticulum and Golgi apparatus"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 75,
+    "question": "If a plant cell needs to produce new cell membrane components (lipids and proteins) rapidly for growth, which organelle would be extensively active?",
+    "options": {
+      "a": "Nucleus",
+      "b": "Vacuoles",
+      "c": "Endoplasmic Reticulum (RER and SER)",
+      "d": "Lysosomes"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 76,
+    "question": "You observe an organism that is known to be unicellular and free-living in pond water. Which scientist's discovery is most relevant to your observation?",
+    "options": {
+      "a": "Robert Hooke",
+      "b": "Robert Brown",
+      "c": "Anton van Leeuwenhoek",
+      "d": "Rudolf Virchow"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "A student is preparing a temporary mount of onion peel. They decide to use methylene blue solution instead of iodine solution for staining. What is the expected outcome regarding the visibility of cell structures?",
+    "options": {
+      "a": "The cells will not get colored at all.",
+      "b": "Only the cell wall will be visible, not the nucleus.",
+      "c": "Different regions of the cells will get colored differentially, allowing observation of structures like the nucleus.",
+      "d": "The peel will shrink due to the stain."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 78,
+    "question": "The nucleus directs the chemical activities of the cell. If a cell's nucleus is experimentally removed, what long-term consequence would be expected?",
+    "options": {
+      "a": "The cell would immediately burst.",
+      "b": "The cell would continue all its functions normally indefinitely.",
+      "c": "The cell would lose its ability to direct chemical activities and eventually die.",
+      "d": "The cell would convert into a prokaryotic cell."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 79,
+    "question": "A plant cell is kept in a solution. After some time, the cell becomes turgid and rigid. What is the most likely characteristic of the surrounding solution?",
+    "options": {
+      "a": "It is highly concentrated (hypertonic).",
+      "b": "It has a lower water concentration than the cell.",
+      "c": "It has a higher water concentration than the cell (hypotonic).",
+      "d": "It is an isotonic solution."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "A student observes a cell with a clear, defined nuclear region surrounded by a membrane and several membrane-enclosed organelles. This cell belongs to which category?",
+    "options": {
+      "a": "Prokaryotic cell",
+      "b": "Bacterial cell",
+      "c": "Eukaryotic cell",
+      "d": "Archaea cell"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "Robert Hooke's observation of cork cells was described as \"a very small and insignificant incident\" but also \"very important in the history of science.\" Why was it considered so important?",
+    "options": {
+      "a": "It proved that cork was a living material.",
+      "b": "It led to the invention of the electron microscope.",
+      "c": "It was the first time living things were observed to consist of separate units.",
+      "d": "It provided a cure for several diseases."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 82,
+    "question": "If the internal organization of a cell is destroyed due to some physical or chemical influence, what immediate consequence would result based on the lesson's description of cell organelles?",
+    "options": {
+      "a": "The cell would automatically regenerate all its organelles.",
+      "b": "The cell would instantly convert into a virus.",
+      "c": "The cell would lose its ability to perform its functions and likely die.",
+      "d": "The cell would become unicellular."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "The lesson mentions that different organisms can have cells of different kinds (e.g., human body cells like sperm, bone cell, nerve cell). What fundamental principle does this diversity illustrate?",
+    "options": {
+      "a": "All cells are identical in structure and function.",
+      "b": "Cell shape and size are unrelated to function.",
+      "c": "Division of labor exists at the cellular level, with shape and size related to specific functions.",
+      "d": "Only unicellular organisms exhibit specialized functions."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "The cell theory was expanded by Virchow (1855) by suggesting that \"all cells arise from pre-existing cells.\" How does this concept challenge the idea of spontaneous generation of life?",
+    "options": {
+      "a": "It supports the idea that cells can form from non-living matter.",
+      "b": "It suggests that new cells can only come from living cells through division.",
+      "c": "It implies that cells can be created artificially in a lab.",
+      "d": "It states that new cells only arise from dead cells."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 85,
+    "question": "Activity 5.6 involves placing Rhoeo leaves in boiling water to kill the cells before observing plasmolysis. Why is it important to kill the cells to demonstrate that only living cells absorb water by osmosis?",
+    "options": {
+      "a": "Dead cells perform plasmolysis more clearly.",
+      "b": "Boiling makes the cell wall more permeable.",
+      "c": "Only living cells maintain a selectively permeable membrane, essential for osmosis.",
+      "d": "Dead cells burst easily, making observation difficult."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "The nuclear region in bacteria is poorly defined due to the absence of a nuclear membrane, forming a 'nucleoid'. What is a direct consequence of this structural difference compared to eukaryotic cells?",
+    "options": {
+      "a": "Prokaryotic cells are larger than eukaryotic cells.",
+      "b": "Genetic material in prokaryotes is less organized.",
+      "c": "Prokaryotic cells always contain plastids.",
+      "d": "Eukaryotic cells lack cytoplasm."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "If a cell lacks any membranes, like viruses, it \"does not show characteristics of life until they enter a living body.\" What does this statement imply about the definition of \"life\"?",
+    "options": {
+      "a": "Life is purely a chemical reaction in a test tube.",
+      "b": "Life always requires a complex, multi-cellular structure.",
+      "c": "The presence of a membrane is a fundamental requirement for independent life functions.",
+      "d": "Viruses are not considered living organisms at all."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 89,
+    "question": "Mitochondria and plastids are unique among organelles because they have their own DNA and ribosomes. What critical implication arises from this characteristic?",
+    "options": {
+      "a": "They are completely independent of the rest of the cell.",
+      "b": "They can make some of their own proteins.",
+      "c": "They are larger than the nucleus.",
+      "d": "They are found in all types of cells, including prokaryotes."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "The description of cell organelles notes that \"all cells are found to have the same organelles, no matter what their function is or what organism they are found in\" (referring to the basic set in eukaryotes). However, the lesson also details 'division of labour' within a cell. How do these two statements reconcile?",
+    "options": {
+      "a": "The statements contradict each other.",
+      "b": "Cells have the same *types* of organelles, but their *number or development* can vary based on the cell's specialized function.",
+      "c": "Division of labour only applies to multicellular organisms, not within a single cell.",
+      "d": "All organelles perform the exact same function in every cell."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "The onion peel cells from onions of different sizes appear the same under a microscope. What does this observation suggest about the fundamental nature of cells and multicellular organisms?",
+    "options": {
+      "a": "The size of an organism determines the size of its individual cells.",
+      "b": "Cells are the basic building units, and the size of an organism depends on the *number* of cells, not the size of individual cells.",
+      "c": "Only plant cells exhibit this uniformity.",
+      "d": "Cell structure is highly variable even within the same tissue type."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "Why is it crucial for the cell membrane to be a \"selectively permeable membrane\"?",
+    "options": {
+      "a": "It allows all substances to pass freely, ensuring rapid exchange.",
+      "b": "It prevents any material from entering or leaving the cell, maintaining internal stability.",
+      "c": "It controls which substances enter and exit, maintaining the cell's internal environment.",
+      "d": "It solely allows water to pass through, excluding all solutes."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "If a plant cell did not have a cell wall, what would be the most significant consequence when placed in a hypotonic solution?",
+    "options": {
+      "a": "It would not absorb water at all.",
+      "b": "It would absorb water and burst like an animal cell.",
+      "c": "It would shrink rapidly.",
+      "d": "It would still maintain its shape and turgidity."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "The discovery of the electron microscope in 1940 significantly advanced cell biology. What was the primary limitation of earlier microscopes that the electron microscope overcame, leading to this advancement?",
+    "options": {
+      "a": "Inability to see living cells.",
+      "b": "Lack of staining techniques.",
+      "c": "Insufficient magnification and resolution to observe complex internal cell structures.",
+      "d": "High cost and complexity of use."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "Why is cell division essential for a multicellular organism's growth and repair, but not for its immediate daily energy needs?",
+    "options": {
+      "a": "Cell division produces energy for the cell.",
+      "b": "Cell division replaces old/dead cells and increases cell number, while daily energy needs are met by organelles like mitochondria.",
+      "c": "Growth and repair do not require energy.",
+      "d": "Cell division is only for reproduction."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 96,
+    "question": "If a cell is highly active in synthesis of enzymes and hormones, which are proteins and lipids respectively, which set of organelles would you expect to be particularly prominent and well-developed in it?",
+    "options": {
+      "a": "Lysosomes and vacuoles",
+      "b": "Chloroplasts and cell wall",
+      "c": "Mitochondria and nucleus",
+      "d": "ER (RER and SER) and Golgi apparatus"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 97,
+    "question": "How does the presence of membrane-bound organelles contribute to the complex functioning of large eukaryotic cells, as described in the lesson?",
+    "options": {
+      "a": "They fuse with the plasma membrane to form new cells.",
+      "b": "They allow different chemical activities to be kept separate within the cell.",
+      "c": "They are primarily involved in waste storage.",
+      "d": "They prevent any chemical reactions from occurring inside the cell."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "Consider the potato experiment (Activity 5.9). If cup A is kept empty, why is it necessary for the experiment's conclusion about water gathering in B and C?",
+    "options": {
+      "a": "It serves as a control to show that water gathering is due to sugar/salt and not just the potato itself.",
+      "b": "It demonstrates that potatoes cannot absorb water.",
+      "c": "It shows that the potato cup itself produces water.",
+      "d": "It is a negative control to prove the potato is dead."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 99,
+    "question": "In the potato experiment (Activity 5.9), water does not gather in cup D, which is a boiled potato cup with sugar. What critical information from the lesson helps explain this result?",
+    "options": {
+      "a": "Boiling increases the potato's internal sugar concentration.",
+      "b": "Boiled potatoes become less porous.",
+      "c": "Only living cells are able to absorb water by osmosis because they maintain a selectively permeable membrane.",
+      "d": "Boiling causes the sugar to crystallize."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 100,
+    "question": "Why is the cytoplasm often described as the \"fluid matrix\" or \"ground substance\" of the cell?",
+    "options": {
+      "a": "It is a rigid, solid structure.",
+      "b": "It contains a well-defined nuclear region.",
+      "c": "It is the fluid content inside the plasma membrane where organelles are suspended.",
+      "d": "It is the site of photosynthesis."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): Robert Hooke called the little compartments he observed in cork as 'cells'. Reason (R): He observed them through a self-designed microscope in the year 1665.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): The plasma membrane is called a selectively permeable membrane. Reason (R): It allows or permits the entry and exit of some materials in and out of the cell, and prevents movement of some others.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): Lysosomes are known as the 'suicide bags' of a cell. Reason (R): They contain powerful digestive enzymes that can digest their own cell if the cell gets damaged.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): Plant cells can withstand much greater changes in the surrounding medium than animal cells. Reason (R): Plant cells have a rigid cell wall that exerts equal pressure against the swollen cell in hypotonic media.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): Mitochondria are known as the powerhouses of the cell. Reason (R): They release energy in the form of ATP molecules required for various chemical activities of life.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): The nucleus plays a crucial part in determining the way the cell will develop. Reason (R): It contains chromosomes with DNA, which have information necessary for constructing and organising cells.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): All cells arise from pre-existing cells. Reason (R): This expansion of the cell theory was proposed by Virchow.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): The Smooth Endoplasmic Reticulum (SER) plays a crucial role in detoxifying many poisons and drugs in liver cells. Reason (R): SER helps in the manufacture of fat molecules or lipids.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The absorption of water by plant roots is an example of osmosis. Reason (R): Osmosis is the net diffusion of water across a selectively permeable membrane toward a higher solute concentration.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): A cell placed in a hypotonic solution will likely swell up. Reason (R): In a hypotonic solution, the medium surrounding the cell has a lower water concentration than the cell.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): Chromoplasts containing chlorophyll are known as chloroplasts. Reason (R): Chloroplasts are important for photosynthesis in plants.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): The Rough Endoplasmic Reticulum (RER) looks rough under a microscope. Reason (R): It has ribosomes attached to its surface, which are sites of protein manufacture.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): The nucleus contains chromatin material when the cell is not dividing. Reason (R): Chromatin material is visible as entangled mass of thread-like structures.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): Meiosis produces four new cells with half the number of chromosomes than the mother cell. Reason (R): Meiosis involves two consecutive divisions to produce gametes for reproduction.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): The flexibility of the cell membrane enables the cell to engulf food. Reason (R): This process of engulfing food is known as endocytosis.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Viruses do not show characteristics of life independently. Reason (R): Viruses lack any membranes and require a living body's cell machinery to multiply.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): All organisms observed around are made up of cells. Reason (R): There are also single cells that live on their own.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The cell is the fundamental structural unit of living organisms. Reason (R): It is also the basic functional unit of life.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): In an isotonic solution, there is no net movement of water across the cell membrane. Reason (R): Water crosses the cell membrane in both directions at equal rates.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): Prokaryotic cells lack most of the cytoplasmic organelles present in eukaryotic cells. Reason (R): Many functions of such organelles are performed by poorly organised parts of the cytoplasm in prokaryotes.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): Plant cells have vacuoles that provide turgidity and rigidity to the cell. Reason (R): These vacuoles are full of cell sap and store important substances.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): DNA is present as part of chromatin material in a cell that is not dividing. Reason (R): Whenever the cell is about to divide, the chromatin material gets organised into chromosomes.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): Every multi-cellular organism has come from a single cell. Reason (R): Cells divide to produce cells of their own kind.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): The electron microscope enabled the observation of complex cell structures and organelles. Reason (R): It was discovered by Anton van Leeuwenhoek in 1674.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): Diffusion plays an important role in gaseous exchange between cells and their external environment. Reason (R): Substances like CO2 and O2 move across the cell membrane from a region of high concentration to a region of low concentration.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): The invention of magnifying lenses led to the discovery of the microscopic world. Reason (R): Robert Hooke observed cork cells using a self-designed microscope.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): All cells found in multicellular organisms have the same shape and size. Reason (R): Each living cell has the capacity to perform certain basic functions characteristic of all living forms.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): Ribosomes are present in all active cells. Reason (R): Ribosomes are the sites of protein manufacture.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
   }
 ]

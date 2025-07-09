@@ -1,492 +1,1421 @@
 [
   {
-    "question": "Which of the following is NOT a macronutrient required by plants?",
+    "question_number": 1,
+    "question": "Which of the following is NOT a major source of food for human beings as mentioned in the text?",
     "options": {
-      "a": "Nitrogen",
-      "b": "Phosphorus",
-      "c": "Iron",
-      "d": "Potassium"
+      "a": "Agriculture",
+      "b": "Animal husbandry",
+      "c": "Wild foraging",
+      "d": "Both plants and animals"
     },
     "answer": "c"
   },
   {
-    "question": "The Green Revolution primarily focused on increasing the production of:",
+    "question_number": 2,
+    "question": "What primary nutrient do cereals like wheat, rice, and maize provide for energy requirements?",
     "options": {
-      "a": "Pulses",
-      "b": "Oilseeds",
-      "c": "Food Grains",
-      "d": "Milk"
+      "a": "Proteins",
+      "b": "Fats",
+      "c": "Carbohydrates",
+      "d": "Vitamins"
     },
     "answer": "c"
   },
   {
-    "question": "Which of these is a *rabi* crop?",
+    "question_number": 3,
+    "question": "Which of the following is an example of a Kharif crop mentioned in the text?",
     "options": {
-      "a": "Paddy",
-      "b": "Soyabean",
-      "c": "Wheat",
-      "d": "Cotton"
+      "a": "Wheat",
+      "b": "Gram",
+      "c": "Paddy",
+      "d": "Mustard"
     },
     "answer": "c"
   },
   {
-    "question": "What is the process of crossing between genetically dissimilar plants called?",
+    "question_number": 4,
+    "question": "What is the main characteristic selected for exotic or foreign cattle breeds like Jersey and Brown Swiss?",
     "options": {
-      "a": "Photosynthesis",
-      "b": "Hybridisation",
-      "c": "Respiration",
-      "d": "Transpiration"
+      "a": "Excellent disease resistance",
+      "b": "Short lactation periods",
+      "c": "Long lactation periods",
+      "d": "High draught labour capacity"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "What type of nutrient is supplied to plants by air?",
+    "options": {
+      "a": "Hydrogen and Oxygen",
+      "b": "Carbon and Oxygen",
+      "c": "Nitrogen and Phosphorus",
+      "d": "Calcium and Magnesium"
     },
     "answer": "b"
   },
   {
-    "question": "Which of the following is a biotic factor affecting crop production?",
+    "question_number": 6,
+    "question": "What are nutrients required in small quantities by plants called?",
     "options": {
-      "a": "Drought",
-      "b": "Salinity",
-      "c": "Insects",
-      "d": "Temperature"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Vermicompost is prepared using:",
-    "options": {
-      "a": "Chemicals",
-      "b": "Earthworms",
-      "c": "Bacteria",
-      "d": "Fungi"
+      "a": "Macronutrients",
+      "b": "Micronutrients",
+      "c": "Trace elements",
+      "d": "Major nutrients"
     },
     "answer": "b"
   },
   {
-    "question": "Which gas is primarily supplied to plants by the air?",
+    "question_number": 7,
+    "question": "What is the process of decomposition of farm waste material in pits known as?",
     "options": {
-      "a": "Hydrogen",
-      "b": "Oxygen",
-      "c": "Nitrogen",
-      "d": "Carbon dioxide"
+      "a": "Vermi-composting",
+      "b": "Green manuring",
+      "c": "Composting",
+      "d": "Fertilization"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 8,
+    "question": "Which of the following is a commercially produced plant nutrient that supplies nitrogen, phosphorus, and potassium?",
+    "options": {
+      "a": "Compost",
+      "b": "Green manure",
+      "c": "Vermi-compost",
+      "d": "Fertilizer"
     },
     "answer": "d"
   },
   {
-    "question": "The White Revolution is associated with an increase in the production of:",
+    "question_number": 10,
+    "question": "Which of the following are examples of biotic factors responsible for storage losses in agricultural produce?",
     "options": {
-      "a": "Eggs",
-      "b": "Fish",
-      "c": "Milk",
-      "d": "Wheat"
+      "a": "Inappropriate moisture and temperatures",
+      "b": "Fungi, mites, and bacteria",
+      "c": "Discolouration of produce",
+      "d": "Loss in weight"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 11,
+    "question": "What are milk-producing female cattle called?",
+    "options": {
+      "a": "Draught animals",
+      "b": "Milch animals",
+      "c": "Broilers",
+      "d": "Layers"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 12,
+    "question": "What is the main purpose of poultry farming for 'layers'?",
+    "options": {
+      "a": "Chicken meat production",
+      "b": "Egg production",
+      "c": "Draught labour",
+      "d": "Milk production"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 13,
+    "question": "Which type of fish is mentioned as a surface feeder in a composite fish culture system?",
+    "options": {
+      "a": "Rohu",
+      "b": "Mrigal",
+      "c": "Catla",
+      "d": "Common Carp"
     },
     "answer": "c"
   },
   {
-    "question": "Which of the following is a breed of cattle selected for long lactation periods?",
+    "question_number": 14,
+    "question": "What is the Italian bee variety commonly used for commercial honey production?",
     "options": {
-      "a": "Red Sindhi",
-      "b": "Sahiwal",
-      "c": "Jersey",
-      "d": "Aseel"
+      "a": "Apis cerana indica",
+      "b": "Apis dorsata",
+      "c": "Apis florae",
+      "d": "Apis mellifera"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 15,
+    "question": "What is the term for the flowers available to bees for nectar and pollen collection, which determines the quality and taste of honey?",
+    "options": {
+      "a": "Apiary",
+      "b": "Hive",
+      "c": "Pasturage",
+      "d": "Brood"
     },
     "answer": "c"
   },
   {
-    "question": "Xanthium and Parthenium are examples of:",
+    "question_number": 16,
+    "question": "Which type of nutrient is provided by pulses like gram and pea?",
+    "options": {
+      "a": "Carbohydrates",
+      "b": "Proteins",
+      "c": "Fats",
+      "d": "Vitamins and minerals"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 18,
+    "question": "What is the scientific name for cows among Indian cattle species mentioned in the text?",
+    "options": {
+      "a": "Bos bubalis",
+      "b": "Bos indicus",
+      "c": "Apis mellifera",
+      "d": "Macrobrachium rosenbergii"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 19,
+    "question": "What is the term for domestic fowl raised for egg production?",
+    "options": {
+      "a": "Broilers",
+      "b": "Draught animals",
+      "c": "Layers",
+      "d": "Milch animals"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 20,
+    "question": "What is the practice of culturing marine fish of high economic value in seawater called?",
+    "options": {
+      "a": "Capture fishing",
+      "b": "Aquaculture",
+      "c": "Inland fisheries",
+      "d": "Mariculture"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 21,
+    "question": "Which of the following is a macronutrient supplied by soil to plants?",
+    "options": {
+      "a": "Iron",
+      "b": "Boron",
+      "c": "Nitrogen",
+      "d": "Chlorine"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "What is the crossing between genetically dissimilar plants called?",
+    "options": {
+      "a": "Interspecific",
+      "b": "Intervarietal",
+      "c": "Hybridisation",
+      "d": "Intergeneric"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 23,
+    "question": "What is the characteristic desired in fodder crops as an agronomic characteristic?",
+    "options": {
+      "a": "Dwarfness",
+      "b": "Shorter maturity duration",
+      "c": "Tallness and profuse branching",
+      "d": "Wider adaptability"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 24,
+    "question": "Which of the following is a type of irrigation system that collects water from water bearing strata using a shallow method?",
+    "options": {
+      "a": "Tube wells",
+      "b": "Canals",
+      "c": "Dug wells",
+      "d": "River Lift Systems"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 25,
+    "question": "What is the term for unwanted plants in a cultivated field that compete for food, space, and light?",
     "options": {
       "a": "Pests",
-      "b": "Weeds",
-      "c": "Diseases",
-      "d": "Fodder Crops"
+      "b": "Pathogens",
+      "c": "Weeds",
+      "d": "Nematodes"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 26,
+    "question": "A farmer has cultivated his land intensively for several years. To maintain soil fertility and structure without using commercial chemicals, which of the following practices would be most beneficial based on the text?",
+    "options": {
+      "a": "Continuous application of fertilizers high in NPK",
+      "b": "Using green manure and vermi-compost regularly",
+      "c": "Relying solely on tube well irrigation",
+      "d": "Growing only a single crop variety each year"
     },
     "answer": "b"
   },
   {
-    "question": "Apis cerana indica is the scientific name for:",
+    "question_number": 27,
+    "question": "A farmer wants to grow crops that provide protein. Based on the lesson, which group of crops should he primarily focus on?",
     "options": {
-      "a": "Italian bee",
-      "b": "Rock bee",
-      "c": "Little bee",
-      "d": "Indian bee"
+      "a": "Wheat, maize, sorghum",
+      "b": "Groundnut, sesame, mustard",
+      "c": "Gram, pea, lentil",
+      "d": "Berseem, oats, sudan grass"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "A farmer in a region with unpredictable drought situations wants to choose a crop variety to stabilize production. Based on the lesson, which characteristic should be prioritized for variety improvement?",
+    "options": {
+      "a": "Shorter maturity duration",
+      "b": "Higher yield",
+      "c": "Wider adaptability",
+      "d": "Resistance to biotic stresses"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "If a crop has a short maturity duration, how does this benefit the farmer as described in the text?",
+    "options": {
+      "a": "It decreases the need for irrigation.",
+      "b": "It allows farmers to grow multiple rounds of crops in a year.",
+      "c": "It increases the market price of the crop.",
+      "d": "It makes the crop resistant to diseases."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 30,
+    "question": "A farmer uses earthworms to speed up the decomposition of plant and animal refuse for preparing manure. What is this specific process called?",
+    "options": {
+      "a": "Composting",
+      "b": "Green manuring",
+      "c": "Vermi-composting",
+      "d": "Organic farming"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 31,
+    "question": "A farmer is considering various irrigation systems for his agricultural land which is located far from a large river, but has access to deeper water sources. Which system would be most suitable according to the lesson?",
+    "options": {
+      "a": "River Lift System",
+      "b": "Canal system",
+      "c": "Dug wells tapping surface water",
+      "d": "Tube wells tapping deeper strata"
     },
     "answer": "d"
   },
   {
-    "question": "What is the term for the period of milk production after the birth of a calf?",
+    "question_number": 32,
+    "question": "A farmer observes that his crop field has unwanted plants like Xanthium. What kind of problem is this, and what immediate action is recommended in the early stages of crop growth?",
     "options": {
-      "a": "Gestation",
-      "b": "Incubation",
-      "c": "Lactation",
-      "d": "Maturation"
+      "a": "Insect pest infestation; apply insecticides.",
+      "b": "Disease outbreak; apply fungicides.",
+      "c": "Weed infestation; mechanical removal.",
+      "d": "Abiotic stress; adjust irrigation."
     },
     "answer": "c"
   },
   {
-    "question": "Which of these is an oilseed crop?",
+    "question_number": 33,
+    "question": "What specific quality is important in wheat for its improved quality, as described in the text?",
     "options": {
-      "a": "Lentil",
-      "b": "Gram",
-      "c": "Sunflower",
-      "d": "Maize"
+      "a": "Protein quality",
+      "b": "Oil quality",
+      "c": "Baking quality",
+      "d": "Preserving quality"
     },
     "answer": "c"
   },
   {
-    "question": "Poultry farming is undertaken to raise:",
+    "question_number": 34,
+    "question": "A farmer wants to rear cattle for both milk production and agricultural labour. Which method should he adopt for breed improvement to achieve both desirable qualities (long lactation and disease resistance)?",
     "options": {
-      "a": "Cows and buffaloes",
-      "b": "Goats and sheep",
-      "c": "Domestic fowl",
-      "d": "Fish"
+      "a": "Selecting only local breeds",
+      "b": "Selecting only exotic breeds",
+      "c": "Cross-breeding local and exotic breeds",
+      "d": "Increasing maintenance feed for existing breeds"
     },
     "answer": "c"
   },
   {
-    "question": "What is the term used for rearing of fish?",
+    "question_number": 35,
+    "question": "In a composite fish culture system, if Rohus feed in the middle-zone of the pond, where would Mrigals and Common Carps typically feed to avoid competition?",
     "options": {
-      "a": "Apiculture",
-      "b": "Sericulture",
-      "c": "Pisciculture",
-      "d": "Silviculture"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A farmer wants to grow two crops simultaneously to minimize risk. Which cropping pattern should he adopt?",
-    "options": {
-      "a": "Crop Rotation",
-      "b": "Mixed Cropping",
-      "c": "Intercropping",
-      "d": "Mono-cropping"
+      "a": "Surface of the pond",
+      "b": "Bottom of the pond",
+      "c": "On pond weeds",
+      "d": "They feed in the same zone as Rohus"
     },
     "answer": "b"
   },
   {
-    "question": "A farmer finds his crop yield decreasing due to nutrient deficiency. What is the immediate solution?",
+    "question_number": 36,
+    "question": "A farmer aims to grow multiple crops in a year from the same piece of land. Which cropping pattern is most suitable for achieving this, assuming proper planning is done?",
     "options": {
-      "a": "Crop Rotation",
-      "b": "Applying Fertilizers",
-      "c": "Mixed Cropping",
-      "d": "Fallowing"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "If a farmer wants to enrich the soil with nitrogen naturally, which practice is most suitable?",
-    "options": {
-      "a": "Using Chemical Fertilizers",
-      "b": "Growing Leguminous Plants",
-      "c": "Irrigation",
-      "d": "Deep Ploughing"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A farmer notices that his crops are being damaged by weeds. Which method is the most environmentally friendly for weed control?",
-    "options": {
-      "a": "Using Herbicides",
-      "b": "Mechanical Removal",
-      "c": "Using Insecticides",
-      "d": "Using Fungicides"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A poultry farmer observes reduced growth rate in his broilers. Which of the following is the most likely cause?",
-    "options": {
-      "a": "Excess Vitamins",
-      "b": "Protein Deficiency",
-      "c": "High Fiber Diet",
-      "d": "Adequate Fat Intake"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A fish farmer observes that fish in his pond are not growing properly due to competition for food. What should he do?",
-    "options": {
-      "a": "Introduce more fish",
-      "b": "Use Composite Fish Culture",
-      "c": "Add more feed",
-      "d": "Change the water"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A farmer's crop is affected by both fungal disease and insect pests. Which combination of control measures is most appropriate?",
-    "options": {
-      "a": "Herbicides and Insecticides",
-      "b": "Fungicides and Herbicides",
-      "c": "Fungicides and Insecticides",
-      "d": "Nematicides and Insecticides"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A farmer wants to improve the water holding capacity of his sandy soil. What should he add to the soil?",
-    "options": {
-      "a": "Sand",
-      "b": "Clay",
-      "c": "Organic Matter",
-      "d": "Gravel"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "To prevent losses during grain storage, which factor is LEAST important to control?",
-    "options": {
-      "a": "Moisture",
-      "b": "Temperature",
-      "c": "Light",
-      "d": "Rodents"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A farmer grows wheat and then wants to grow a crop that replenishes soil nitrogen. Which crop should he choose?",
-    "options": {
-      "a": "Rice",
-      "b": "Maize",
-      "c": "Gram",
-      "d": "Sugarcane"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "If a farmer wants to practice sustainable agriculture, which of the following should he minimize?",
-    "options": {
-      "a": "Crop rotation",
-      "b": "Use of manure",
-      "c": "Use of chemical fertilizers",
-      "d": "Mixed farming"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A farmer wants to grow two crops in alternating rows in the same field. This is an example of:",
-    "options": {
-      "a": "Mixed Cropping",
-      "b": "Crop Rotation",
-      "c": "Intercropping",
+      "a": "Mixed cropping",
+      "b": "Inter-cropping",
+      "c": "Crop rotation",
       "d": "Monoculture"
     },
     "answer": "c"
   },
   {
-    "question": "A farmer finds his crop yield is low due to poor soil aeration. Which practice would BEST address this?",
+    "question_number": 37,
+    "question": "To prevent losses of grains during storage, what is a crucial abiotic control measure mentioned in the text?",
     "options": {
-      "a": "Increasing Irrigation",
-      "b": "Applying more fertilizer",
-      "c": "Ploughing the field",
-      "d": "Adding more water"
+      "a": "Fumigation with chemicals",
+      "b": "Proper cleaning of the produce",
+      "c": "Controlling moisture and temperature",
+      "d": "Using pest-resistant varieties"
     },
     "answer": "c"
   },
   {
-    "question": "A farmer notices his crops are yellowing, suggesting a nutrient deficiency. If he suspects nitrogen deficiency, what color would the leaves likely be?",
+    "question_number": 40,
+    "question": "Which of the following elements are classified as micronutrients for plants according to the provided table?",
     "options": {
-      "a": "Dark Green",
-      "b": "Reddish",
-      "c": "Pale Green/Yellow",
-      "d": "Purple"
+      "a": "Nitrogen, Phosphorus, Potassium",
+      "b": "Calcium, Magnesium, Sulphur",
+      "c": "Iron, Manganese, Boron",
+      "d": "Carbon, Oxygen, Hydrogen"
     },
     "answer": "c"
   },
   {
-    "question": "A farmer in a drought-prone area wants to cultivate crops. Which characteristic should he look for in the crop variety?",
+    "question_number": 41,
+    "question": "A farmer wants to achieve higher yields in wheat cultivation. Which quality consideration for improved quality of crop products should he focus on for wheat?",
     "options": {
-      "a": "High Water Requirement",
-      "b": "Drought Resistance",
-      "c": "Long Maturity Duration",
-      "d": "High Fertilizer Response"
+      "a": "Protein quality",
+      "b": "Oil quality",
+      "c": "Baking quality",
+      "d": "Preserving quality"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "To ensure all crops get water at the right stages during their growing season, especially in rain-fed areas prone to poor monsoons, which agricultural practice is most emphasized in the lesson?",
+    "options": {
+      "a": "Crop variety improvement",
+      "b": "Nutrient management",
+      "c": "Irrigation",
+      "d": "Crop protection management"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 43,
+    "question": "A farmer has both cattle and poultry. What type of feed is low in fibre and contains relatively high levels of proteins and other nutrients for his animals?",
+    "options": {
+      "a": "Roughage",
+      "b": "Fodder",
+      "c": "Hay",
+      "d": "Concentrates"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 44,
+    "question": "A farmer is using pesticides to control insect pests. The text states that insect pests attack plants in three ways. Which of the following is NOT listed as a way insect pests attack plants?",
+    "options": {
+      "a": "They cut the root, stem, and leaf.",
+      "b": "They suck the cell sap from various parts of the plant.",
+      "c": "They bore into stem and fruits.",
+      "d": "They induce genetic mutations in plants."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 45,
+    "question": "To increase milk production, a cattle farmer wants to select an exotic breed. Which characteristic should be the primary focus for selection based on the lesson?",
+    "options": {
+      "a": "Disease resistance",
+      "b": "Long lactation periods",
+      "c": "High draught capacity",
+      "d": "Ability to consume roughage"
     },
     "answer": "b"
   },
   {
-    "question": "In a region with high soil salinity, which type of crop variety would be most suitable?",
+    "question_number": 46,
+    "question": "If a farmer cultivates two or more crops simultaneously on the same field in a definite pattern, with a few rows of one crop alternating with a few rows of another, what practice is this?",
     "options": {
-      "a": "High-yielding",
-      "b": "Salt-tolerant",
-      "c": "Disease-resistant",
-      "d": "Dwarf"
+      "a": "Mixed farming",
+      "b": "Crop rotation",
+      "c": "Mixed cropping",
+      "d": "Inter-cropping"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 47,
+    "question": "A farmer wants to improve the quality of his pulses. Based on the lesson, which quality consideration is important for pulses?",
+    "options": {
+      "a": "Baking quality",
+      "b": "Protein quality",
+      "c": "Oil quality",
+      "d": "Preserving quality"
     },
     "answer": "b"
   },
   {
-    "question": "A farmer in a region with short growing seasons should choose crop varieties with:",
+    "question_number": 48,
+    "question": "What would be the most effective strategy for a farmer to increase crop production if weather conditions like drought are unpredictable and soil salinity is high?",
     "options": {
-      "a": "Long Maturity Duration",
-      "b": "Short Maturity Duration",
-      "c": "High Water Requirement",
-      "d": "Low Yield Potential"
+      "a": "Increase the application of fertilizers.",
+      "b": "Develop varieties with desired agronomic characteristics.",
+      "c": "Choose crop varieties with wider adaptability and tolerance to salinity.",
+      "d": "Only grow crops in the rabi season."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 49,
+    "question": "What type of hybridization involves crossing between two different species of the same genus?",
+    "options": {
+      "a": "Intervarietal",
+      "b": "Interspecific",
+      "c": "Intergeneric",
+      "d": "Intravarietal"
     },
     "answer": "b"
   },
   {
-    "question": "If you want to establish an apiary, what factor is MOST crucial for its success?",
-    "options": {
-      "a": "Proximity to a city",
-      "b": "Availability of Pasturage",
-      "c": "Type of Beehive",
-      "d": "Low Rainfall"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A poultry farmer aims to produce meat efficiently. He should focus on raising:",
+    "question_number": 50,
+    "question": "A poultry farmer wants to raise birds for meat. Which type of poultry birds should he focus on producing?",
     "options": {
       "a": "Layers",
-      "b": "Broilers",
-      "c": "Desi breeds",
-      "d": "Dual-purpose breeds"
+      "b": "Milchers",
+      "c": "Broilers",
+      "d": "Draught fowls"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 51,
+    "question": "Which type of fish feeds on weeds in a composite fish culture system?",
+    "options": {
+      "a": "Catla",
+      "b": "Rohu",
+      "c": "Mrigal",
+      "d": "Grass Carp"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 52,
+    "question": "What is the primary purpose of cross-breeding Indian (indigenous) and foreign (exotic) breeds in poultry farming?",
+    "options": {
+      "a": "To reduce the number of chicks produced.",
+      "b": "To develop new varieties with desirable traits.",
+      "c": "To increase the maintenance requirements of birds.",
+      "d": "To promote a single breed for all purposes."
     },
     "answer": "b"
   },
   {
-    "question": "A coastal community wants to enhance their food production sustainably. Which practice would be MOST appropriate?",
+    "question_number": 53,
+    "question": "Which of the following is an abiotic factor responsible for storage grain losses?",
     "options": {
-      "a": "Intensive agriculture",
-      "b": "Mariculture",
-      "c": "Deforestation",
-      "d": "Overgrazing"
+      "a": "Insects",
+      "b": "Rodents",
+      "c": "Fungi",
+      "d": "Inappropriate moisture"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 54,
+    "question": "What is the main characteristic that differentiates a tube well from a dug well according to the text?",
+    "options": {
+      "a": "Tube wells use pumps, while dug wells rely on manual lifting.",
+      "b": "Tube wells collect water from water bearing strata, while dug wells from surface run-off.",
+      "c": "Tube wells can tap water from deeper strata, while dug wells collect from general water bearing strata.",
+      "d": "Tube wells are used for irrigation, while dug wells are for domestic use."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 55,
+    "question": "What quality consideration is important for oilseeds, such as soyabean and mustard?",
+    "options": {
+      "a": "Baking quality",
+      "b": "Protein quality",
+      "c": "Oil quality",
+      "d": "Preserving quality"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 56,
+    "question": "The Green Revolution successfully increased food-grain production in India. However, the text mentions a significant drawback of such revolutions. What is this drawback?",
+    "options": {
+      "a": "They decreased the availability of milk.",
+      "b": "They led to an imbalance in natural resource utilization.",
+      "c": "They reduced the income of farmers.",
+      "d": "They caused a decline in crop quality."
     },
     "answer": "b"
   },
   {
-    "question": "A farmer wants to improve the soil structure and fertility without using chemical fertilizers. Which practice is most suitable?",
+    "question_number": 57,
+    "question": "A farmer aims to grow two or more crops simultaneously on the same field in a definite pattern. He selects crops like soyabean + maize. This practice not only ensures maximum nutrient utilization but also prevents pests and diseases from spreading to all plants of one crop. What farming practice is being described here?",
     "options": {
-      "a": "Deep ploughing",
-      "b": "Monoculture",
-      "c": "Using organic manure",
-      "d": "Increasing Irrigation"
+      "a": "Mixed farming",
+      "b": "Mixed cropping",
+      "c": "Inter-cropping",
+      "d": "Crop rotation"
     },
     "answer": "c"
   },
   {
-    "question": "If a farmer wants to increase the protein content of his animal feed, he should include more:",
+    "question_number": 58,
+    "question": "Why is it stated that simply increasing grain production for storage in warehouses cannot solve the problem of malnutrition and hunger?",
     "options": {
-      "a": "Cereals",
-      "b": "Pulses",
-      "c": "Millets",
-      "d": "Oil seeds"
+      "a": "Warehouses are often affected by biotic and abiotic factors leading to losses.",
+      "b": "People may lack the financial means to purchase the available food.",
+      "c": "Grain production focuses only on carbohydrates, neglecting other nutrients.",
+      "d": "Increased production often degrades the environment."
     },
     "answer": "b"
   },
   {
-    "question": "To maximize nutrient utilization and minimize pest problems in crop production, which practice is most effective?",
+    "question_number": 59,
+    "question": "A farmer is preparing his field for a new crop. He decides to grow plants like sun hemp and guar first, then plough them back into the soil before sowing the main crop. What is the primary benefit of this practice?",
     "options": {
-      "a": "Monocropping",
-      "b": "Intercropping",
-      "c": "Continuous cropping",
-      "d": "Leaving the field fallow"
+      "a": "It acts as a bio-pesticide to control weeds.",
+      "b": "It helps in enriching the soil with nitrogen and phosphorus.",
+      "c": "It improves the water-holding capacity of clayey soils.",
+      "d": "It reduces the cost of irrigation significantly."
     },
     "answer": "b"
   },
   {
-    "question": "If a farmer observes his cattle showing signs of disease, what is the FIRST step he should take?",
+    "question_number": 60,
+    "question": "A farmer has sandy soil which has low water holding capacity. To improve this, he decides to apply large quantities of manure. How does manure specifically help in this situation?",
     "options": {
-      "a": "Administer antibiotics",
-      "b": "Isolate the affected animals",
-      "c": "Change their feed",
-      "d": "Ignore the symptoms"
+      "a": "By directly supplying water to the soil.",
+      "b": "By increasing the soil's organic matter, which enhances water retention.",
+      "c": "By repelling water, preventing waterlogging.",
+      "d": "By attracting earthworms that dig channels for water."
     },
     "answer": "b"
   },
   {
-    "question": "Why is increasing the area of land under cultivation NOT considered a sustainable solution for meeting the growing food demand?",
+    "question_number": 61,
+    "question": "A farmer notices that his crop yields are significantly reduced due to diseases caused by bacteria, fungi, and viruses. These pathogens are transmitted through soil, water, and air. What common control method involving chemicals is mentioned to combat this, though it has drawbacks?",
     "options": {
-      "a": "It leads to increased biodiversity",
-      "b": "It requires more fertilizers",
-      "c": "It can lead to deforestation and habitat loss",
-      "d": "It improves soil fertility"
+      "a": "Herbicides",
+      "b": "Insecticides",
+      "c": "Fumigation",
+      "d": "Fungicides"
     },
-    "answer": "c"
+    "answer": "d"
   },
   {
-    "question": "Why is relying solely on the Green Revolution for food security NOT sustainable in the long run?",
+    "question_number": 62,
+    "question": "To prevent the spread of diseases and maintain good health in poultry fowl, what practices are essential, as mentioned in the lesson?",
     "options": {
-      "a": "It increases biodiversity",
-      "b": "It reduces the need for irrigation",
-      "c": "It can lead to environmental degradation",
-      "d": "It promotes organic farming"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Why is food security dependent on both availability and access to food?",
-    "options": {
-      "a": "Availability is more important than access",
-      "b": "Access is more important than availability",
-      "c": "People need both food and money to buy it",
-      "d": "Food storage solves both problems"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "How does mixed farming contribute to sustainable agriculture?",
-    "options": {
-      "a": "It increases reliance on chemical inputs",
-      "b": "It reduces biodiversity",
-      "c": "It integrates crop and livestock production",
-      "d": "It promotes monoculture"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Why is genetic modification of crops a controversial topic?",
-    "options": {
-      "a": "It always leads to higher yields",
-      "b": "It is always beneficial to the environment",
-      "c": "Concerns exist about its potential impact on health and environment",
-      "d": "It reduces the need for pesticides"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Why is it important to consider both short-term and long-term benefits when choosing between fertilizers and manure?",
-    "options": {
-      "a": "Fertilizers are always better than manure",
-      "b": "Manure is always better than fertilizers",
-      "c": "Fertilizers provide quick results but can harm soil; manure is slower but more sustainable",
-      "d": "Both have identical effects"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "What is the main advantage of using composite fish culture?",
-    "options": {
-      "a": "It simplifies fish farming",
-      "b": "It uses only one species of fish",
-      "c": "It utilizes all food resources in the pond efficiently",
-      "d": "It requires less water"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "How does summer ploughing help in pest and weed control?",
-    "options": {
-      "a": "It increases soil moisture",
-      "b": "It exposes pests and weeds to harsh conditions",
-      "c": "It improves soil fertility",
-      "d": "It adds nutrients to the soil"
+      "a": "Providing protein-rich feed and vitamins A & K.",
+      "b": "Maintaining temperature and hygienic conditions in housing.",
+      "c": "Cross-breeding indigenous and exotic breeds.",
+      "d": "Reducing the size of the egg-laying bird."
     },
     "answer": "b"
   },
   {
-    "question": "Why is the choice of bee variety important for honey production?",
+    "question_number": 63,
+    "question": "A fishing community is experiencing declining yields from natural marine resources. To meet the increasing demand for fish, what sustainable practice is suggested by the text?",
     "options": {
-      "a": "All bee varieties produce the same amount of honey",
-      "b": "Different varieties have different honey collection capacities",
-      "c": "Bee variety only affects the color of honey",
-      "d": "Local varieties are always better"
+      "a": "Increasing the number of fishing boats and nets in deep seas.",
+      "b": "Relying more on inland capture fishing.",
+      "c": "Adopting mariculture practices.",
+      "d": "Collecting more fish seed from the wild."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "Why is dwarfness a desirable agronomic characteristic in cereals, as mentioned in the lesson?",
+    "options": {
+      "a": "It makes harvesting easier.",
+      "b": "It leads to better grain quality.",
+      "c": "It reduces nutrient consumption by the crop.",
+      "d": "It increases resistance to pests."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "Farmers living in areas where canal flow is insufficient or irregular often face challenges in irrigating their fields. What alternative irrigation system would be more rational for them if they are close to rivers?",
+    "options": {
+      "a": "Dug wells",
+      "b": "Tube wells",
+      "c": "River Lift Systems",
+      "d": "Tanks"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 66,
+    "question": "A farmer in a region with abundant flowing rivers needs to supplement irrigation for his agricultural land which is close to the river. However, the canal flow in his area is insufficient. Which type of irrigation system would be most rational for him?",
+    "options": {
+      "a": "Dug wells",
+      "b": "Tube wells",
+      "c": "River Lift Systems",
+      "d": "Tanks"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "A farmer is advised to adopt sustainable practices in agriculture. Which of the following actions aligns best with the concept of sustainable agriculture as described in the text?",
+    "options": {
+      "a": "Maximizing chemical fertilizer use for immediate high yields.",
+      "b": "Increasing the area of land under cultivation without concern for environment.",
+      "c": "Utilizing mixed cropping, inter-cropping, and organic manures.",
+      "d": "Focusing solely on high-cost production practices."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "Why is it crucial for farmers to be provided with good quality seeds of a particular variety for new varieties of crops to be accepted?",
+    "options": {
+      "a": "Good quality seeds consume more nutrients, leading to higher yields.",
+      "b": "They ensure the seeds are all of the same variety and germinate under the same conditions.",
+      "c": "They are typically more resistant to biotic stresses than ordinary seeds.",
+      "d": "Good quality seeds guarantee a shorter maturity duration."
     },
     "answer": "b"
   },
   {
-    "question": "Why is crop rotation considered a beneficial agricultural practice?",
+    "question_number": 69,
+    "question": "A cattle farmer is concerned about potential losses due to diseases. What is a key preventive measure mentioned in the text for protecting farm animals against major diseases?",
     "options": {
-      "a": "It depletes soil nutrients",
-      "b": "It increases pest and disease problems",
-      "c": "It helps maintain soil fertility and reduces pest/disease build-up",
-      "d": "It requires more fertilizer"
+      "a": "Increasing protein content in feed.",
+      "b": "Administering vaccinations.",
+      "c": "Only using local breeds.",
+      "d": "Providing only roughage in diet."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 70,
+    "question": "In a composite fish culture system, why is it beneficial to combine fish species like Catla, Rohu, Mrigal, Common Carp, and Grass Carp?",
+    "options": {
+      "a": "They all feed on the same type of food, maximizing competition.",
+      "b": "They are all marine species that can tolerate freshwater.",
+      "c": "They utilize food available in all parts of the pond without competing with each other.",
+      "d": "They breed only during monsoon, making seed collection easy."
     },
     "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "Consider the statement: \"Organic farming is a farming system with minimal or no use of chemicals as fertilizers, herbicides, pesticides, etc.\" Which of the following logically follows from this definition regarding pest control in organic farming?",
+    "options": {
+      "a": "Organic farming relies heavily on synthetic pesticides for pest control.",
+      "b": "Bio-pesticides like neem leaves or turmeric would be encouraged.",
+      "c": "Integrated pest management would be completely excluded.",
+      "d": "Pest control is not a concern in organic farming."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 72,
+    "question": "The text mentions that \"Food security depends on both availability of food and access to it.\" Given this, what broader societal issue is directly linked to combating hunger, beyond just increasing agricultural output?",
+    "options": {
+      "a": "Improving crop resistance to diseases.",
+      "b": "Increasing the number of warehouses for grain storage.",
+      "c": "Enhancing the purchasing power of the population.",
+      "d": "Developing new hybrid crop varieties."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 73,
+    "question": "The text describes three major groups of activities for improving crop yields: crop variety improvement, crop production improvement, and crop protection management. Why is 'crop protection management' considered equally vital alongside the other two?",
+    "options": {
+      "a": "It ensures that crops receive sufficient nutrients.",
+      "b": "It focuses on breeding crops for desirable characteristics.",
+      "c": "It prevents losses of growing and harvested crops from pests and diseases.",
+      "d": "It manages the financial conditions of farmers."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "Consider the problem statement: \"Fertilizers should be applied carefully in terms of proper dose, time, and observing pre- and post-application precautions for their complete utilisation.\" What is the primary environmental concern if this precaution is NOT followed?",
+    "options": {
+      "a": "Reduced soil fertility due to lack of organic matter.",
+      "b": "Harm to micro-organisms in the soil.",
+      "c": "Water pollution due to excessive run-off.",
+      "d": "Increased incidence of crop diseases."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 75,
+    "question": "The lesson mentions that \"Proper cleaning and shelter facilities for cows and buffaloes are required for humane farming, for the health of the animals and for production of clean milk as well.\" What can be inferred about the impact of poor hygiene in cattle farming?",
+    "options": {
+      "a": "It leads to an increase in milk production.",
+      "b": "It causes an increase in internal parasites only.",
+      "c": "It can compromise animal health and milk quality.",
+      "d": "It primarily affects the lactation period of milch animals."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 76,
+    "question": "The text states that \"Vaccinations are given to farm animals against many major viral and bacterial diseases.\" What does this practice primarily aim to achieve in animal husbandry?",
+    "options": {
+      "a": "To enhance the growth rate of animals.",
+      "b": "To improve the quality of animal products.",
+      "c": "To prevent the occurrence of infectious diseases.",
+      "d": "To increase the lactation period of milch animals."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "The lesson discusses that \"The value or quality of honey depends upon the pasturage, or the flowers available to the bees for nectar and pollen collection.\" What is a direct implication of this statement for beekeepers who want to produce high-quality honey?",
+    "options": {
+      "a": "They should focus solely on the Apis mellifera bee variety.",
+      "b": "They must ensure their apiaries are located near diverse and abundant flowering plants.",
+      "c": "They should increase the amount of feed additives given to the bees.",
+      "d": "They need to cross-breed different bee varieties regularly."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 78,
+    "question": "A farmer has both livestock and crops. To ensure sustained livelihood, the text suggests undertaking mixed farming, intercropping, and integrated farming practices. Which of the following best exemplifies 'integrated farming' based on the given example?",
+    "options": {
+      "a": "Growing wheat and gram simultaneously on the same land.",
+      "b": "Rearing cattle for milk and ploughing fields.",
+      "c": "Combining agriculture with poultry or fisheries.",
+      "d": "Growing different crops on a piece of land in pre-planned succession."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 79,
+    "question": "The text mentions that \"continuous use of fertilizers in an area can destroy soil fertility because the organic matter in the soil is not replenished and micro-organisms in the soil are harmed.\" What long-term strategy for maintaining soil fertility is suggested by this statement?",
+    "options": {
+      "a": "Increasing the dose and frequency of fertilizer application.",
+      "b": "Prioritizing fertilizers over manure for quick yields.",
+      "c": "Incorporating organic matter into the soil, for instance through manure.",
+      "d": "Shifting to high-cost production practices immediately."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "The lesson states that \"The majority of our population depends on agriculture for their livelihood.\" What problem does this fact highlight concerning national food security, even if food production increases?",
+    "options": {
+      "a": "The challenge of finding suitable land for cultivation.",
+      "b": "The potential for environmental degradation due to intensive farming.",
+      "c": "The need to ensure economic access to food for the agricultural population.",
+      "d": "The difficulty in storing large quantities of grain."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "The text notes that \"India is already intensively cultivated.\" What is the logical consequence of this fact for future food production growth in India, as per the lesson?",
+    "options": {
+      "a": "India must rely more on increasing the land area under cultivation.",
+      "b": "It is necessary to increase production efficiency for both crops and livestock.",
+      "c": "The population growth will naturally slow down.",
+      "d": "Food security will be automatically ensured."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 82,
+    "question": "The text mentions that \"Photoperiods are related to the duration of sunlight. Growth of plants and flowering are dependent on sunlight.\" What does this imply about crop cultivation in different seasons?",
+    "options": {
+      "a": "All crops can be grown year-round regardless of light duration.",
+      "b": "Specific crops require particular durations of sunlight for optimal growth and flowering.",
+      "c": "Sunlight duration primarily affects nutrient uptake, not growth or flowering.",
+      "d": "Only light-sensitive crops can perform photosynthesis."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 83,
+    "question": "Farmers use pesticides to control weeds, insect pests, and diseases. However, the text warns about the \"excessive use of these chemicals.\" What is the primary reason for this caution?",
+    "options": {
+      "a": "They increase the cost of crop production unnecessarily.",
+      "b": "They make the crops resistant to the diseases over time.",
+      "c": "They can be poisonous to many plant and animal species and cause environmental pollution.",
+      "d": "They lead to increased water holding capacity in sandy soils."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "The text discusses the feeding requirements of dairy animals, classifying them into 'maintenance requirement' and 'milk producing requirement'. What does this classification imply for feeding practices in dairy farming?",
+    "options": {
+      "a": "All dairy animals need the same type and amount of food regardless of lactation.",
+      "b": "The feed quantity and quality should be adjusted based on the animal's stage of life and milk production.",
+      "c": "Roughage is the only necessary component of animal feed.",
+      "d": "Feed additives containing micronutrients are harmful."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 85,
+    "question": "The text states that \"The floor of the cattle shed needs to be sloping so as to stay dry and to facilitate cleaning.\" What is the broader benefit of this design in cattle farming?",
+    "options": {
+      "a": "It reduces the need for vaccinations.",
+      "b": "It improves the lactation period of milch animals.",
+      "c": "It contributes to the overall health and hygiene of the animals.",
+      "d": "It helps in cross-breeding local and exotic breeds."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "Assertion (A): The Green Revolution led to increased food-grain production in India.\nReason (R): The Green Revolution significantly increased the availability and efficient use of milk.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "Assertion (A): Dwarfness is a desired agronomic characteristic for cereal crops.\nReason (R): Dwarf cereals consume less nutrients.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 88,
+    "question": "Assertion (A): Manure helps in increasing the water holding capacity in sandy soils.\nReason (R): The large quantities of organic matter in manure help in drainage and avoiding water logging in clayey soils.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 89,
+    "question": "Assertion (A): Fertilizers should be applied carefully in terms of proper dose and time.\nReason (R): Excessive use of fertilizers can lead to water pollution.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 90,
+    "question": "Assertion (A): Mixed cropping helps in reducing risk for farmers.\nReason (R): Mixed cropping provides some insurance against the failure of one of the crops.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 91,
+    "question": "Assertion (A): Inter-cropping helps prevent pests and diseases from spreading to all plants belonging to one crop in a field.\nReason (R): In inter-cropping, the crops are selected such that their nutrient requirements are different.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "Assertion (A): Weeds reduce the growth of the main crop in cultivated fields.\nReason (R): Weeds compete with the crop plants for food, space, and light.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 93,
+    "question": "Assertion (A): Storage losses in agricultural produce can be very high.\nReason (R): These losses are caused by factors like insects, rodents, fungi, inappropriate moisture, and temperature.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 94,
+    "question": "Assertion (A): Vaccinations are given to farm animals.\nReason (R): Vaccinations help prevent the occurrence of infectious diseases.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 95,
+    "question": "Assertion (A): Broiler chickens are fed with vitamin-rich supplementary feed for good growth rate.\nReason (R): Broilers are primarily raised for egg production.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 96,
+    "question": "Assertion (A): Mariculture is a necessary practice to meet the demand for fish.\nReason (R): Marine fish stocks are getting further depleted.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 97,
+    "question": "Assertion (A): Composite fish culture systems are highly efficient for increasing fish yield.\nReason (R): In a composite system, different fish species with varying food habits are combined to utilize food from all parts of the pond.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 98,
+    "question": "Assertion (A): Obtaining pure fish seed in desired quantities is a major problem in fish farming.\nReason (R): Many of the fish species used in composite fish culture breed only during monsoon, and collected wild seed can be mixed with other species.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 99,
+    "question": "Assertion (A): Bee-keeping is considered an agricultural enterprise that requires low investments.\nReason (R): Beehives are a source of wax, which is used in medicinal preparations.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "Assertion (A): The Italian bee variety, Apis mellifera, is commonly used for commercial honey production.\nReason (R): Italian bees have a high honey collection capacity, sting less, stay in beehives for long periods, and breed very well.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): Food security in India depends on both the availability of food and access to it.\nReason (R): India has already intensively cultivated its land, leaving no major scope for increasing the area under cultivation.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): Crop rotation can allow farmers to grow two or three crops in a year with good harvests.\nReason (R): Crop rotation involves growing different crops on a piece of land in a pre-planned succession.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): Organic farming involves the maximum use of chemicals like fertilizers and pesticides.\nReason (R): Organic farming relies on recycled farm-wastes and bio-agents.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): Green manure helps in enriching the soil with nitrogen and phosphorus.\nReason (R): Green manure is prepared by growing plants like sun hemp or guar and then mulching them by ploughing into the soil.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): Dug wells can tap water from deeper strata.\nReason (R): Tube wells collect water from water bearing strata.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): India's population is over one billion and growing, necessitating increased food production efficiency.\nReason (R): India has major scope for increasing the area of land under cultivation.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): Varieties of crops are selected by breeding for characteristics like disease resistance and high yields.\nReason (R): Hybridisation is a way of incorporating desirable characters into crop varieties.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): Crop production can go down due to abiotic stresses like drought and heat.\nReason (R): Varieties resistant to these stresses can improve crop production.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): Plants require nutrients for growth, similar to humans needing food.\nReason (R): Air supplies hydrogen and oxygen to plants.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): Manure is advantageous in protecting our environment from excessive use of fertilizers.\nReason (R): Manure is prepared by the decomposition of animal excreta and plant waste, using biological waste material.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): Continuous use of fertilizers can destroy soil fertility.\nReason (R): Fertilizers replenish the organic matter in the soil and harm micro-organisms.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): Most agriculture in India is rain-fed, making crops dependent on timely monsoons.\nReason (R): Poor monsoons in India often lead to crop failure.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): Rainwater harvesting and watershed management increase groundwater levels.\nReason (R): These initiatives involve building small check-dams that stop rainwater from flowing away.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): Crops selected for inter-cropping should have similar nutrient requirements.\nReason (R): This ensures maximum utilisation of the nutrients supplied in the field.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): Proper cleaning and shelter facilities for cattle are required for the health of the animals.\nReason (R): Animals require regular brushing to remove dirt and loose hair, and should be protected from rain, heat, and cold.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): Internal parasites like worms affect the stomach and intestine of cattle.\nReason (R): Flukes are external parasites that cause skin diseases in cattle.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Cross-breeding programs in poultry aim to develop new varieties for desirable traits.\nReason (R): Desirable traits in poultry include high maintenance requirements and large size of egg-laying birds.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): Fish is a cheap source of animal protein for human food.\nReason (R): Fish production includes both finned true fish and shellfish like prawns and molluscs.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): Oysters are cultivated in seawater for the pearls they make.\nReason (R): Pearl spot is a finned fish farmed in freshwater ecosystems.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): In India, there has been a four times increase in food grain production from 1952 to 2010.\nReason (R): This increase was achieved with only a 25% increase in cultivable land area.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): Food demand for India's growing population requires more than a quarter of a billion tonnes of grain every year.\nReason (R): India's cultivable land area has a major scope for increase.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): Nitrogen, phosphorus, and potassium are macronutrients supplied by soil.\nReason (R): Macronutrients are required by plants in small quantities.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): Crop protection management includes preventive methods like proper seed bed preparation and timely sowing.\nReason (R): These preventive methods help in weed control and protection against pests.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): Indian cattle belong to two different species, Bos indicus and Bos bubalis.\nReason (R): Bos indicus are cows, and Bos bubalis are buffaloes.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): Milk production in cattle can be increased by increasing the lactation period.\nReason (R): Lactation period refers to the period of milk production after the birth of a calf.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): Animal feed for dairy animals includes roughage, which is largely fibre.\nReason (R): Roughage is low in fibre and contains relatively high levels of proteins and other nutrients.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): Poultry fowl suffer from diseases caused by viruses, bacteria, fungi, parasites, and nutritional deficiencies.\nReason (R): Proper cleaning, sanitation, and vaccination are necessary to prevent losses in poultry.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): The value or quality of honey depends upon the pasturage.\nReason (R): Pasturage refers to the flowers available to the bees for nectar and pollen collection.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 131,
+    "question": "Assertion (A): India has no scope for increasing the area of land under cultivation.\nReason (R): India's population is already more than one billion and still growing.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 132,
+    "question": "Assertion (A): Food security requires both availability and access to food.\nReason (R): Increasing the incomes of people working in agriculture is necessary to combat the problem of hunger.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 133,
+    "question": "Assertion (A): Fodder crops like berseem are raised as food for livestock.\nReason (R): Fodder crops provide necessary fats for energy requirements.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 134,
+    "question": "Assertion (A): Short maturity duration of crops reduces the cost of crop production.\nReason (R): Short duration allows farmers to grow multiple rounds of crops in a year.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 135,
+    "question": "Assertion (A): To overcome the problem of lack of good-quality fish seed, hormonal stimulation is used.\nReason (R): Hormonal stimulation ensures the supply of pure fish seed in desired quantities.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
   }
 ]
