@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBook, FaSearch, FaTimes } from "react-icons/fa";
@@ -120,7 +120,8 @@ const ErrorPopup = styled(motion.div)`
 `;
 
 const Exam = () => {
-  const [subject, setSubject] = useState("");
+  const location = useLocation();
+  const [subject, setSubject] = useState(location.state?.subject || "");
   const [lessons, setLessons] = useState([]);
   const [availableLessons, setAvailableLessons] = useState([]);
   const [subjects] = useState(["Math", "Science", "SS"]);
@@ -137,6 +138,12 @@ const Exam = () => {
   const progressInterval = useRef(null);
   const startTimeRef = useRef(null);
   const lastProgressRef = useRef(0);
+
+  useEffect(() => {
+    if (location.state?.subject) {
+      setSubject(location.state.subject);
+    }
+  }, [location.state]);
 
   useEffect(() => {
     if (subject && !availableLessons.length) {

@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { HiEye, HiEyeOff } from 'react-icons/hi';
-import Spinner from './Spinner'; // Import your Spinner component
-import Notification from './Notification'; // Import your Notification component
 import { api } from '../utils/api';
 import './login.css';
 
-const Login = () => {
-  const [userId, setUserId] = useState('');
-  const [password, setPassword] = useState('');
+const Register = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [userId, setUserId] = useState(location.state?.userId || '');
+  const [registrationCode, setRegistrationCode] = useState('');
+  const [newPassword, setNewPassword] = useState('');
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const [showRegisterPopup, setShowRegisterPopup] = useState(false);
-  const navigate = useNavigate();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -47,53 +46,28 @@ const Login = () => {
     setIsLoading(true);
 
     try {
-      const data = await api.login({ userId, password });
-      localStorage.setItem('token', data.token);
-      localStorage.setItem('user_id', data.user_id);
-      if (data.version) {
-        localStorage.setItem('version', data.version);
-      }
-      navigate('/home');
-      window.location.reload();
-    } catch (error) {
-      if (error.message.includes('User not registered')) {
-        setShowRegisterPopup(true);
+      const data = await api.register({ userId, registrationCode, newPassword });
+      if (data.token) {
+        localStorage.setItem('token', data.token);
+        localStorage.setItem('user_id', data.user_id);
+        if (data.version) {
+          localStorage.setItem('version', data.version);
+        }
+        navigate('/home');
+        window.location.reload();
       } else {
-        setError(error.message || 'An error occurred during login.');
+        setError(data.message || 'An unexpected error occurred.');
       }
+    } catch (error) {
+      setError(error.message || 'An error occurred during registration.');
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleRegisterRedirect = () => {
-    navigate('/register', { state: { userId } });
-  };
-
   return (
     <div className="login-page">
-      {showRegisterPopup && (
-        <div className="register-popup-overlay">
-          <motion.div
-            className="register-popup"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.9 }}
-          >
-            <h2>Registration Required</h2>
-            <p>This account doesn't have a password. Please register to set a password and log in.</p>
-            <div className="popup-buttons">
-              <button onClick={handleRegisterRedirect} className="popup-register-button">
-                Register Now
-              </button>
-              <button onClick={() => setShowRegisterPopup(false)} className="popup-close-button">
-                Close
-              </button>
-            </div>
-          </motion.div>
-        </div>
-      )}
-      <motion.div
+      <motion.div 
         className="login-card"
         initial="hidden"
         animate="visible"
@@ -114,7 +88,7 @@ const Login = () => {
             className="login-title"
             variants={itemVariants}
           >
-            Welcome Back
+            Register
           </motion.h2>
           
           <motion.div 
@@ -137,17 +111,33 @@ const Login = () => {
             className="form-group"
             variants={itemVariants}
           >
+            <input
+              type="text"
+              id="registrationCode"
+              className="form-input"
+              value={registrationCode}
+              onChange={(e) => setRegistrationCode(e.target.value)}
+              placeholder=" "
+              required
+            />
+            <label htmlFor="registrationCode" className="form-label">Registration Code</label>
+          </motion.div>
+
+          <motion.div 
+            className="form-group"
+            variants={itemVariants}
+          >
             <div className="password-input-wrapper">
               <input
                 type={showPassword ? "text" : "password"}
-                id="password"
+                id="newPassword"
                 className="form-input"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
+                value={newPassword}
+                onChange={(e) => setNewPassword(e.target.value)}
                 placeholder=" "
                 required
               />
-              <label htmlFor="password" className="form-label">Password</label>
+              <label htmlFor="newPassword" className="form-label">New Password</label>
               <motion.button
                 type="button"
                 className="password-toggle"
@@ -173,31 +163,16 @@ const Login = () => {
             {isLoading ? (
               <>
                 <div className="spinner" />
-                <span>Logging in...</span>
+                <span>Registering...</span>
               </>
             ) : (
-              'Login'
+              'Register and Login'
             )}
           </motion.button>
-          <motion.div
-            className="form-group"
-            variants={itemVariants}
-            style={{ textAlign: 'center', marginTop: '1rem' }}
-          >
-            <p>
-              Don't have an account?{' '}
-              <span
-                onClick={() => navigate('/register')}
-                style={{ color: '#667eea', cursor: 'pointer', textDecoration: 'underline' }}
-              >
-                Register
-              </span>
-            </p>
-          </motion.div>
         </form>
       </motion.div>
     </div>
   );
 };
 
-export default Login;
+export default Register;

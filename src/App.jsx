@@ -10,6 +10,7 @@ import Content from "./components/body-content";
 import BottomNav from "./components/mobile-bottomnav";
 import Exam from "./components/Exam";
 import Login from "./components/Login";
+import Register from "./components/Register";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NotFound from "./components/NotFound";
 import Analysis from "./components/Analyse";
@@ -35,7 +36,14 @@ const ScrollToTop = () => {
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
+  const [completedTasks, setCompletedTasks] = useState([]);
+  const [refreshCoins, setRefreshCoins] = useState(false);
   const location = useLocation();
+
+  const handleTaskCompletion = (tasks) => {
+    setCompletedTasks(tasks);
+    setRefreshCoins(true); // Trigger coin refresh
+  };
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -46,7 +54,7 @@ function App() {
 
   return (
     <div className={`App ${isHeaderVisible ? "" : "header-hidden"}`}>
-      {showHeader && <Header onVisibilityChange={setIsHeaderVisible} />}
+      {showHeader && <Header onVisibilityChange={setIsHeaderVisible} completedTasks={completedTasks} />}
       {isAuthenticated && <Sidebar isHeaderHidden={!isHeaderVisible} />}
       
       <Routes>
@@ -66,6 +74,10 @@ function App() {
         <Route
           path="/login"
           element={isAuthenticated ? <Navigate to="/home" /> : <Login />}
+        />
+        <Route
+          path="/register"
+          element={isAuthenticated ? <Navigate to="/home" /> : <Register />}
         />
         <Route
           path="/create"
@@ -111,7 +123,7 @@ function App() {
           path="/exam/results/:id"
           element={
             <ProtectedRoute>
-              <ExamResults />
+              <ExamResults onTaskCompletion={handleTaskCompletion} />
             </ProtectedRoute>
           }
         />

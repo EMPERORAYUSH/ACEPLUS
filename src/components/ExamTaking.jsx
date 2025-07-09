@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect, useRef } from 'react';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { FaExclamationCircle, FaChartLine } from 'react-icons/fa';
 import { AiOutlineLoading3Quarters, AiOutlineBulb } from 'react-icons/ai';
 import { BsCheckCircleFill } from 'react-icons/bs';
@@ -14,6 +14,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import Notification from './Notification';
 
 const ExamWrapper = styled.div`
   min-height: 100vh;
@@ -812,17 +813,17 @@ const fadeTransition = {
 };
 
 const notificationVariants = {
-  hidden: { opacity: 0, y: -50 },
+  hidden: { opacity: 0, y: -20 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { type: 'spring', stiffness: 300, damping: 25 },
+    transition: { type: 'spring', stiffness: 300, damping: 20 }
   },
   exit: {
     opacity: 0,
-    y: -50,
-    transition: { duration: 0.2 },
-  },
+    y: -20,
+    transition: { duration: 0.2 }
+  }
 };
 
 const particleVariants = {
@@ -842,6 +843,8 @@ const particleVariants = {
 const ExamTaking = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
+  const autoSubmitted = useRef(false);
   const [examData, setExamData] = useState(null);
   const [answers, setAnswers] = useState({});
   const [isLoading, setIsLoading] = useState(true);
@@ -855,35 +858,59 @@ const ExamTaking = () => {
   const [currentHint, setCurrentHint] = useState(null);
 
   useEffect(() => {
-    const fetchExamData = async () => {
+    if (id === 'create' && !autoSubmitted.current) {
+      autoSubmitted.current = true;
       setIsLoading(true);
-      try {
-        const data = await api.getExam(id);
 
-        if (data.is_submitted) {
-          navigate(`/exam/results/${id}`);
-          return;
+      const { subject, lessons, testId } = location.state || {};
+
+      const handleCreateExam = async (examConfig) => {
+        try {
+          const examData = await api.createExam(examConfig);
+          navigate(`/exam/g/${examData['exam-id']}`, { replace: true });
+        } catch (error) {
+          console.error('Error auto-creating exam:', error);
+          navigate('/exam', { replace: true });
         }
+      };
 
-        const questionsWithIds = data.questions.map((question, index) => ({
-          ...question,
-          uniqueId: `q${index + 1}`,
-        }));
-        setExamData({ ...data, questions: questionsWithIds });
-
-        const storedAnswers = localStorage.getItem(`answers_${id}`);
-        if (storedAnswers) {
-          setAnswers(JSON.parse(storedAnswers));
-        }
-      } catch (error) {
-        console.error('Error fetching exam data:', error);
-      } finally {
-        setIsLoading(false);
+      if (testId) {
+        handleCreateExam({ 'test-id': testId, test: true });
+      } else if (subject && lessons) {
+        handleCreateExam({ subject, lessons });
+      } else {
+        navigate('/exam', { replace: true });
       }
-    };
+    } else if (id && id !== 'create') {
+      const fetchExamData = async () => {
+        setIsLoading(true);
+        try {
+          const data = await api.getExam(id);
 
-    fetchExamData();
-  }, [id, navigate]);
+          if (data.is_submitted) {
+            navigate(`/exam/results/${id}`);
+            return;
+          }
+
+          const questionsWithIds = data.questions.map((question, index) => ({
+            ...question,
+            uniqueId: `q${index + 1}`,
+          }));
+          setExamData({ ...data, questions: questionsWithIds });
+
+          const storedAnswers = localStorage.getItem(`answers_${id}`);
+          if (storedAnswers) {
+            setAnswers(JSON.parse(storedAnswers));
+          }
+        } catch (error) {
+          console.error('Error fetching exam data:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+      fetchExamData();
+    }
+  }, [id, location.state, navigate]);
 
   const handleAnswerChange = (questionId, selectedOption) => {
     setAnswers((prevAnswers) => {
@@ -946,7 +973,10 @@ const handleHintRequest = async (questionId, questionText) => {
         option: answers[question.uniqueId],
       }));
 
-      await api.submitExam(id, { answers: formattedAnswers });
+      const submissionResult = await api.submitExam(id, { answers: formattedAnswers });
+      if (submissionResult.completed_tasks && submissionResult.completed_tasks.length > 0) {
+        sessionStorage.setItem('completed_tasks', JSON.stringify(submissionResult.completed_tasks));
+      }
       navigate(`/exam/results/${id}`);
     } catch (error) {
       console.error('Error submitting exam:', error);
@@ -1045,17 +1075,34 @@ const handleHintRequest = async (questionId, questionText) => {
           </ExamIdContent>
         </ExamIdSection>
 
-        {showNotification && (
-          <motion.div
-            className="notification"
-            variants={notificationVariants}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-          >
-            Please answer all questions before submitting.
-          </motion.div>
-        )}
+        <AnimatePresence>
+          {showNotification && (
+            <motion.div
+              key="notification"
+              variants={notificationVariants}
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+              className="notification-wrapper"
+              style={{ 
+                position: 'fixed',
+                top: '70px',
+                left: '0',
+                right: '0',
+                margin: '0 auto',
+                display: 'flex',
+                justifyContent: 'center',
+                zIndex: 1100,
+                width: '100%'
+              }}
+            >
+              <Notification 
+                message="Please answer all questions before submitting." 
+                type="error" 
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
         {examData.questions.map((question, index) => {
           const questionId = question.id || question['l-id'];
           return (

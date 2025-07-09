@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import Notification from './Notification';
-import { Navigate } from 'react-router-dom';
+import { Navigate, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import styled from 'styled-components';
 import UpdatePopup from './UpdatePopup';
@@ -80,6 +80,7 @@ function Content() {
     { title: "Average Percentage", value: "NA" },
   ];
 
+  const navigate = useNavigate();
   const [cardData, setCardData] = useState(initialCardData);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -157,18 +158,29 @@ function Content() {
         }
 
         // Call all APIs concurrently using Promise.all
-        const [overviewData] = await Promise.all([
+        const [userStatsResponse] = await Promise.all([
           api.getOverviewStats(),
           checkForUpdates(),
           fetchLeaderboard()
         ]);
 
-        let formattedData;
+        if (userStatsResponse && userStatsResponse.version) {
+          const clientVersion = localStorage.getItem('version');
+          if (clientVersion !== userStatsResponse.version) {
+            localStorage.clear();
+            localStorage.setItem('version', userStatsResponse.version);
+            navigate('/login');
+            return;
+          }
+        }
 
-        if (overviewData && Array.isArray(overviewData)) {
+        let formattedData;
+        const overviewData = userStatsResponse.stats;
+
+        if (overviewData && Array.isArray(overviewData) && overviewData.length > 0) {
           const stats = {
             total_exams: overviewData[0]?.total_exams,
-            total_marks: overviewData[1]?.total_marks,  
+            total_marks: overviewData[1]?.total_marks,
             marks_gained: overviewData[2]?.marks_gained,
             average_percentage: overviewData[3]?.average_percentage
           };
@@ -190,7 +202,7 @@ function Content() {
       } catch (error) {
         setError(error.message);
         if (error.message === 'Unauthorized access') {
-          Navigate('/login');
+          navigate('/login');
         }
       } finally {
         setLoading(false);

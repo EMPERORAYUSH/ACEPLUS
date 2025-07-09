@@ -1,0 +1,290 @@
+.coins-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px) saturate(150%);
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: backdropFadeIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.coins-popup-overlay.closing {
+  animation: backdropFadeOut 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) forwards;
+}
+
+@keyframes backdropFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes backdropFadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes slideOutUp {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-50px) scale(0.95);
+  }
+}
+
+.coins-popup {
+  background: rgba(28, 28, 30, 0.85);
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  animation: slideInUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.coins-popup.closing {
+  animation: slideOutUp 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) forwards;
+}
+
+.popup-header {
+  position: relative;
+  margin-bottom: 1.5rem;
+  flex-shrink: 0;
+  height: 38px; /* Set height for positioning context */
+}
+
+.popup-header h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+/* --- MODIFIED STYLES FOR ALIGNMENT START --- */
+.coins-display {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  height: 38px; /* Set explicit height */
+  box-sizing: border-box;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffc107;
+  background: rgba(255, 193, 7, 0.15);
+  padding: 0 1rem; /* Use padding for horizontal spacing only */
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.close-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.2); /* Darker background to match image */
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 38px;  /* Match height for perfect circle and alignment */
+  height: 38px; /* Match coin display height */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+/* --- MODIFIED STYLES FOR ALIGNMENT END --- */
+
+.close-button:hover,
+.close-button:focus-visible {
+  background: rgba(0, 0, 0, 0.4);
+  outline: none;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: auto;
+  flex-grow: 1;
+  padding-right: 0.5rem; /* For scrollbar spacing */
+  margin-right: -0.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tasks-container::-webkit-scrollbar {
+  width: 8px;
+}
+.tasks-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+.tasks-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.tasks-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+.task-card {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  flex-shrink: 0;
+}
+
+.task-card:hover:not(.completed) {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  border-color: rgba(106, 130, 251, 0.5);
+}
+
+.task-card.completed {
+  opacity: 0.6;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.task-info {
+  flex-grow: 1;
+}
+
+
+.task-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin: 0 0 0.25rem 0;
+}
+
+
+.task-description {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #b0b0b0;
+  line-height: 1.5;
+}
+
+.task-description strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+.task-description .task-param {
+  font-weight: 600;
+  color: #8a9ffc;
+  background: rgba(138, 159, 252, 0.1);
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}
+
+.task-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.task-reward {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: #ffc107;
+  font-weight: 600;
+  background: rgba(255, 193, 7, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+}
+
+.task-reward .coins-icon {
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cta-button:hover:not(:disabled),
+.cta-button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(106, 130, 251, 0.4);
+  outline: none;
+}
+
+.cta-button:disabled {
+  background: #444;
+  cursor: not-allowed;
+  color: #888;
+}
+
+.no-tasks-message {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .coins-popup {
+    width: 95%;
+    padding: 1.5rem;
+    height:95%;
+    max-height: unset;
+    max-width: unset;
+  }
+}

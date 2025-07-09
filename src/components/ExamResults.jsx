@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
-import { FaChartLine, FaLightbulb, FaExclamationTriangle, FaCheckCircle, FaEye, FaEyeSlash } from 'react-icons/fa';
+import { FaChartLine, FaLightbulb, FaExclamationTriangle, FaCheckCircle, FaEye, FaEyeSlash, FaCoins } from 'react-icons/fa';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import { motion, AnimatePresence } from 'framer-motion';
 import styled from 'styled-components';
 import CopyableExamId from './CopyableExamId';
 import { api } from '../utils/api';
 import MobilePopup from './MobilePopup';
+import CoinsEarnedPopup from './CoinsEarnedPopup';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 
@@ -1312,7 +1313,7 @@ const AutoGenerateNotification = styled(motion.div)`
   }
 `;
 
-const ExamResults = () => {
+const ExamResults = ({ onTaskCompletion }) => {
   const { id } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
@@ -1326,6 +1327,7 @@ const ExamResults = () => {
   const [generatedSolutions, setGeneratedSolutions] = useState({});
   const [showSolutionLoader, setShowSolutionLoader] = useState({});
   const [hasReceivedFirstResponse, setHasReceivedFirstResponse] = useState({});
+  const [coinsEarned, setCoinsEarned] = useState(0);
 
   // Add resize listener to update isMobile state
   useEffect(() => {
@@ -1343,6 +1345,17 @@ const ExamResults = () => {
     const fetchResults = async () => {
       setIsLoading(true);
       try {
+        const completedTasksFromStorage = sessionStorage.getItem('completed_tasks');
+        if (completedTasksFromStorage) {
+          const completed_tasks = JSON.parse(completedTasksFromStorage);
+          if (completed_tasks && completed_tasks.length > 0) {
+            const totalCoins = completed_tasks.reduce((sum, task) => sum + task.reward, 0);
+            setCoinsEarned(totalCoins);
+            onTaskCompletion(completed_tasks);
+          }
+          sessionStorage.removeItem('completed_tasks');
+        }
+
         if (location.state && location.state.results) {
           setResults(location.state.results);
           setExamData(location.state);
@@ -1557,6 +1570,7 @@ const ExamResults = () => {
 
   return (
     <ExamResultsWrapper>
+      <CoinsEarnedPopup coins={coinsEarned} onClose={() => setCoinsEarned(0)} />
       <ExamResultsContainer>
         <h1 style={{ textAlign: 'center' }}>Exam Results</h1>
         

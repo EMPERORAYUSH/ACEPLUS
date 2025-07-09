@@ -80,12 +80,13 @@ export const apiRequest = async (endpoint, options = {}) => {
 
     if (!response.ok) {
       if (response.status === 401) {
-        localStorage.removeItem('token');
-        localStorage.removeItem('user_id');
-        window.location.href = '/login';
-        throw new Error('Unauthorized access');
+        // Don't redirect, just throw error for the component to handle
+        const errorData = await response.json().catch(() => null);
+        if (errorData && errorData.message) {
+          throw new Error(errorData.message);
+        }
+        throw new Error('Unauthorized');
       }
-      
       // Try to get error message from response
       let errorMessage = `Request failed with status ${response.status}`;
       if (isJsonResponse(response)) {
@@ -119,6 +120,7 @@ export const endpoints = {
   leaderboard: 'api/leaderboard',
   updates: 'api/updates',
   login: 'api/login',
+  register: 'api/register',
   createExam: 'api/create_exam',
   submitExam: (examId) => `api/submit_exam/${examId}`,
   generateHint: 'api/generate_hint',
@@ -133,7 +135,8 @@ export const endpoints = {
   getSubjectStats: (subject) => `api/subject_stats/${subject}`,
   reportQuestion: 'api/report',
   uploadImages: 'api/upload_images',
-  getUploadedImage: (filename) => `api/uploads/${filename}`
+  getUploadedImage: (filename) => `api/uploads/${filename}`,
+  fetchCoins: 'api/fetch_coins'
 };
 
 // API methods for common operations
@@ -145,6 +148,10 @@ export const api = {
   login: (data) => apiRequest(endpoints.login, {
     method: 'POST',
     body: JSON.stringify(data)
+  }),
+  register: (data) => apiRequest(endpoints.register, {
+    method: 'POST',
+    body: JSON.stringify(data),
   }),
   createExam: (data) => apiRequest(endpoints.createExam, {
     method: 'POST',
@@ -413,4 +420,5 @@ export const api = {
       'Accept': 'image/*'
     }
   }),
+  fetchCoins: () => apiRequest(endpoints.fetchCoins),
 }
