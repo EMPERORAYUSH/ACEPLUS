@@ -151,6 +151,7 @@ function Content() {
   };
 
   useEffect(() => {
+    let isMounted = true;
     const fetchData = async () => {
       try {
         if (!localStorage.getItem('token')) {
@@ -198,18 +199,28 @@ function Content() {
             { title: "Average Percentage", value: "0.00%" },
           ];
         }
-        setCardData(formattedData);
+        if (isMounted) {
+          setCardData(formattedData);
+        }
       } catch (error) {
-        setError(error.message);
+        if (isMounted) {
+          setError(error.message);
+        }
         if (error.message === 'Unauthorized access') {
           navigate('/login');
         }
       } finally {
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+        }
       }
     };
 
     fetchData();
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   const handleCloseLeaderboard = () => {

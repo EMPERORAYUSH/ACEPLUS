@@ -1211,10 +1211,11 @@ def fetch_coins():
     if tasks.get("generated_at"):
         generated_at = datetime.fromisoformat(tasks["generated_at"])
         if (now - generated_at) < timedelta(hours=24) and tasks.get("tasks_list"):
+            print("USiNG CACHE")
             return jsonify({
                 "coins": user.get("coins", 0),
                 "tasks": tasks.get("tasks_list", [])
-            })
+            })            
 
     new_tasks = []
     
