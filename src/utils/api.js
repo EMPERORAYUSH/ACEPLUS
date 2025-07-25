@@ -3,10 +3,10 @@ const DEV_API_URL = 'http://127.0.0.1:9027';
 const PROD_API_URL = 'https://aceplus.vercel.app';
 
 // For debugging
-console.log('Current NODE_ENV:', process.env.NODE_ENV);
-console.log('Current REACT_APP_ENV:', process.env.REACT_APP_ENV);
+console.log('Current NODE_ENV:', import.meta.env.NODE_ENV);
+console.log('Current REACT_APP_ENV:', import.meta.env.VITE_APP_ENV);
 
-export const API_BASE_URL = process.env.NODE_ENV === 'production' ? PROD_API_URL : DEV_API_URL;
+export const API_BASE_URL = import.meta.env.NODE_ENV === 'production' ? PROD_API_URL : DEV_API_URL;
 
 // Default headers that should be included in most requests
 const getDefaultHeaders = () => {

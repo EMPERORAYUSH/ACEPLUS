@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { HiEye, HiEyeOff } from 'react-icons/hi';
 import { api } from '../utils/api';
@@ -170,6 +170,12 @@ const Register = () => {
             )}
           </motion.button>
         </form>
+        <motion.p
+          variants={itemVariants}
+          className="extra-link"
+        >
+          Already registered? <Link to="/login">Login</Link>
+        </motion.p>
       </motion.div>
     </div>
   );

@@ -279,3 +279,23 @@
     padding: 0.875rem 1rem;
   }
 }
+
+
+.extra-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+}
+
+.extra-link a {
+  color: #38BDF8;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.extra-link a:hover {
+  color: #0EA5E9;
+  text-decoration: underline;
+}

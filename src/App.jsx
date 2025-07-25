@@ -13,7 +13,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NotFound from "./components/NotFound";
-import Analysis from "./components/Analyse";
+import Analysis from "./components/AnalysisView";
 import SubjectDetails from "./components/SubjectDetails";
 import ExamTaking from "./components/ExamTaking";
 import ExamResults from "./components/ExamResults";
