@@ -5,6 +5,7 @@ try:
     import os
     import random
     import time
+    import hashlib
     import traceback
     from datetime import datetime
     import generate
@@ -1367,7 +1368,17 @@ def get_leaderboard():
     leaderboard_data = data_store[class_num]["collections"][4]["Leaderboard"].get(
         month_key, {}
     )
-    version = leaderboard_data["version"]
+    version = leaderboard_data.get("version", None)
+    if not version:
+        version = hashlib.sha256(f"{month_key}-{time.time()}".encode()).hexdigest()[:8]
+        db = db10 if is_class10 else db9
+        db["Leaderboard"].update_one(
+            {"_id": month_key},
+            {"$set": {"version": version}},
+            upsert=True
+        )
+        # Update in-memory store as well
+        data_store[class_num]["collections"][4]["Leaderboard"].setdefault(month_key, {})["version"] = version
     # Get all users from the database
     db = db10 if is_class10 else db9
     all_users = list(db['Users'].find())
@@ -1395,14 +1406,13 @@ def get_leaderboard():
 
         leaderboard.append(
             {
+                "userId": user_id,
                 "name": display_name,
                 "division": division,
                 "total_exams": user_data.get("total_exams", 0)
                 if isinstance(user_data, dict)
                 else 0,
-                "average_percentage": round(user_data.get("average_percentage", 0), 2)
-                if isinstance(user_data, dict)
-                else 0,
+                "coins": next((u.get("coins", 0) for u in all_users if u.get('id') == user_id), 0),
                 "elo_score": user_data.get("elo_score", 0)
                 if isinstance(user_data, dict)
                 else 0,
@@ -1424,10 +1434,11 @@ def get_leaderboard():
 
             leaderboard.append(
                 {
+                    "userId": user_id,
                     "name": display_name,
                     "division": division,
                     "total_exams": 0,
-                    "average_percentage": 0,
+                    "coins": user.get("coins", 0),
                     "elo_score": 0,
                     "has_taken_exam": False
                 }
@@ -1438,9 +1449,9 @@ def get_leaderboard():
             {"month": current_date.strftime("%B %Y"), "leaderboard": [], "zero": True}
         ), 200
 
-    # Sort by ELO score first, then by average percentage
+    # Sort by participation, then ELO score, then by coins
     leaderboard.sort(
-        key=lambda x: (x["elo_score"], x["average_percentage"]),
+        key=lambda x: (x.get("has_taken_exam", False), x.get("elo_score", 0), x.get("coins", 0)),
         reverse=True,
     )
     

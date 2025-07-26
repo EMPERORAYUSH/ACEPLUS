@@ -232,24 +232,6 @@ const RankNumber = styled(Medal)`
   }
 `;
 
-const Score = styled(motion.span)`
-  display: inline-block;
-  color: ${props => {
-    if (props.value >= 90) return '#4CAF50';
-    if (props.value >= 70) return '#8BC34A';
-    if (props.value >= 50) return '#FFC107';
-    return '#ccc';
-  }};
-  font-size: 1rem;
-  
-  @media (max-width: 768px) {
-    font-size: 0.9rem;
-  }
-  
-  @media (max-width: 480px) {
-    font-size: 0.8rem;
-  }
-`;
 
 const CloseButton = styled.button`
   position: absolute;
@@ -364,7 +346,6 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
   const [hasMore, setHasMore] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const [students, setStudents] = useState([]);
-  const tableRef = useRef(null);
   const popupContentRef = useRef(null);
   const [month, setMonth] = useState('');
   const [division, setDivision] = useState('');
@@ -397,7 +378,11 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
       const response = await api.getLeaderboard(nextPage);
 
       if (response && response.leaderboard) {
-        setStudents(prev => [...prev, ...response.leaderboard]);
+        setStudents(prev => {
+          const existingIds = new Set(prev.map(s => s.userId));
+          const newStudents = response.leaderboard.filter(s => !existingIds.has(s.userId));
+          return [...prev, ...newStudents];
+        });
         setCurrentPage(nextPage);
         setHasMore(response.pagination?.total_count > nextPage * 20);
       } else {
@@ -411,32 +396,24 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
     }
   }, [currentPage, loading, hasMore]);
 
-  useEffect(() => {
-    const handleIntersection = (entries) => {
-      if (entries[0].isIntersecting && hasMore && !loading) {
-        loadMoreData();
-      }
-    };
+  const handleScroll = useCallback(() => {
+    if (loading || !hasMore || !popupContentRef.current) return;
 
-    if (tableRef.current && popupContentRef.current && hasMore) {
-      const observer = new IntersectionObserver(
-        handleIntersection,
-        {
-          root: popupContentRef.current,
-          threshold: 0.1
-        }
-      );
-
-      // Get the last row to observe
-      const rows = tableRef.current.querySelectorAll('tbody tr');
-      if (rows.length > 0) {
-        const lastRow = rows[rows.length - 1];
-        observer.observe(lastRow);
-      }
-
-      return () => observer.disconnect();
+    const { scrollTop, scrollHeight, clientHeight } = popupContentRef.current;
+    if (scrollTop + clientHeight >= scrollHeight * 0.8) {
+      loadMoreData();
     }
-  }, [loading, hasMore, loadMoreData, students.length]);
+  }, [loading, hasMore, loadMoreData]);
+
+  useEffect(() => {
+    const scrollableElement = popupContentRef.current;
+    if (scrollableElement) {
+      scrollableElement.addEventListener('scroll', handleScroll);
+      return () => {
+        scrollableElement.removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, [handleScroll]);
 
   const handleClose = () => {
     setIsClosing(true);
@@ -477,9 +454,9 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
           transition={{ duration: 0.2 }}
           onClick={handleClose}
           $isActive={isActive}
-          ref={popupContentRef}
         >
           <PopupContent
+            ref={popupContentRef}
             initial={{ scale: 0.95, y: 20, opacity: 0 }}
             animate={{ 
               scale: 1, 
@@ -552,7 +529,7 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                       No exams taken this month yet!
                     </NoDataMessage>
                   ) : (
-                    <TableContainer ref={tableRef}>
+                    <TableContainer>
                       <Table
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -567,14 +544,14 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                             <Th width="12%">Rank</Th>
                             <Th width="38%">Name</Th>
                             <Th width="16%">Exams</Th>
-                            <Th width="17%">Avg %</Th>
+                            <Th width="17%">Coins</Th>
                             <Th width="17%">ELO</Th>
                           </tr>
                         </motion.thead>
                         <tbody>
                           {filteredLeaderboard.map((entry, index) => (
                             <MedalRow
-                              key={entry.name}
+                              key={entry.userId}
                               rank={entry.rank}
                               noExams={entry.total_exams === 0}
                               initial={index < 20 ? { opacity: 0, x: -50 } : { opacity: 1, x: 0 }}
@@ -621,19 +598,7 @@ const LeaderboardPopup = ({ isOpen, onClose, leaderboardData, updatePopupOpen })
                               </Td>
                               <Td>{entry.total_exams}</Td>
                               <Td>
-                                <Score
-                                  value={entry.average_percentage}
-                                  initial={index < 20 ? { opacity: 0, scale: 0.5 } : { opacity: 1, scale: 1 }}
-                                  animate={{ opacity: 1, scale: 1 }}
-                                  transition={{
-                                    type: "spring",
-                                    stiffness: 200,
-                                    damping: 10,
-                                    delay: index < 20 ? 0.8 + (index * 0.1) : 0
-                                  }}
-                                >
-                                  {entry.average_percentage}%
-                                </Score>
+                                {entry.coins}
                               </Td>
                               <Td>
                                 <EloScore
