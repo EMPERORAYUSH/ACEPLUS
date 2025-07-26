@@ -47,7 +47,6 @@ def validate_env_config() -> List[str]:
     # 3. Validate Model Assignments
     model_assignments = [
     "IMAGE_MODELS",
-    "PERFORMANCE_MODELS",
     "HINT_MODELS",
     "SOLUTION_MODELS",
     "PERFORMANCE_ANALYSIS_MODELS"

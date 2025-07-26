@@ -706,8 +706,10 @@ def report_question():
 
     exam_id = data.get("examId")
     question_index = data.get("questionIndex")
+    reason = data.get("reason")
+    description = data.get("description")
 
-    if not all([exam_id, question_index]):
+    if not all([exam_id, question_index, description]):
         return jsonify({"message": "Missing required fields"}), 400
 
     try:
@@ -748,6 +750,8 @@ def report_question():
             "exam_id": exam_id,
             "question_index": question_index,
             "question_data": question_data,
+            "reason": reason,
+            "description": description,
             "subject": exam["subject"],
             "lessons": exam["lessons"],
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),

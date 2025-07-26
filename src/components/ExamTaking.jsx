@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { FaExclamationCircle, FaChartLine } from 'react-icons/fa';
+import { FaExclamationCircle, FaChartLine, FaTimes } from 'react-icons/fa';
 import { AiOutlineLoading3Quarters, AiOutlineBulb } from 'react-icons/ai';
 import { BsCheckCircleFill } from 'react-icons/bs';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -852,6 +852,10 @@ const ExamTaking = () => {
   const [showNotification, setShowNotification] = useState(false);
   const [reportedQuestions, setReportedQuestions] = useState(new Set());
   const [reportingQuestion, setReportingQuestion] = useState(null);
+  const [isReportModalOpen, setIsReportModalOpen] = useState(false);
+  const [reportReason, setReportReason] = useState('');
+  const [reportDescription, setReportDescription] = useState('');
+  const [questionToReport, setQuestionToReport] = useState(null);
   const [hints, setHints] = useState({});
   const [loadingHints, setLoadingHints] = useState({});
   const [visibleHints, setVisibleHints] = useState({});
@@ -989,18 +993,29 @@ const handleHintRequest = async (questionId, questionText) => {
     }
   };
 
-  const handleReportQuestion = async (questionId, questionIndex) => {
-    if (reportedQuestions.has(questionId) || reportingQuestion === questionId) {
+  const handleReportQuestion = (questionId, questionIndex) => {
+    if (reportedQuestions.has(questionId)) return;
+    setQuestionToReport({ questionId, questionIndex });
+    setIsReportModalOpen(true);
+  };
+
+  const handleReportSubmit = async () => {
+    if (!reportDescription.trim()) {
+      alert("Please provide a description for the issue.");
       return;
     }
 
+    const { questionId, questionIndex } = questionToReport;
     setReportingQuestion(questionId);
+    setIsReportModalOpen(false);
 
     try {
       await api.reportQuestion({
         examId: id,
         questionId: questionId,
         questionIndex: questionIndex + 1,
+        reason: reportReason,
+        description: reportDescription,
       });
 
       setReportedQuestions(prev => new Set([...prev, questionId]));
@@ -1009,7 +1024,12 @@ const handleHintRequest = async (questionId, questionText) => {
       }, 500);
     } catch (error) {
       console.error('Error reporting question:', error);
-      setReportingQuestion(null);
+      setReportingQuestion(null); // Reset on error
+    } finally {
+      // Reset report states
+      setReportReason('');
+      setReportDescription('');
+      setQuestionToReport(null);
     }
   };
 
@@ -1103,6 +1123,51 @@ const handleHintRequest = async (questionId, questionText) => {
             </motion.div>
           )}
         </AnimatePresence>
+
+        {isReportModalOpen && (
+        <div className="report-modal-overlay">
+          <div className="report-modal">
+            <div className="report-modal-header">
+              <h2>Report a Problem</h2>
+              <button onClick={() => setIsReportModalOpen(false)} className="report-modal-close-btn">
+                <FaTimes />
+              </button>
+            </div>
+            <div className="report-modal-body">
+              <div className="form-group">
+                <label htmlFor="report-reason">What is the problem?</label>
+                <select
+                  id="report-reason"
+                  value={reportReason}
+                  onChange={(e) => setReportReason(e.target.value)}
+                >
+                  <option value="">Select a reason (optional)</option>
+                  <option value="More than 1 correct answer">More than 1 correct answer</option>
+                  <option value="No correct answer is present">No correct answer is present</option>
+                  <option value="Question is incorrect / doesnt provide complete context.">Question is incorrect / doesn't provide complete context.</option>
+                  <option value="Question out of syllabus">Question out of syllabus</option>
+                </select>
+              </div>
+              <div className="form-group">
+                <label htmlFor="report-description">Problem Description</label>
+                <textarea
+                  id="report-description"
+                  value={reportDescription}
+                  onChange={(e) => setReportDescription(e.target.value)}
+                  placeholder="Please describe the issue in detail."
+                  required
+                />
+              </div>
+            </div>
+            <div className="report-modal-footer">
+              <button onClick={handleReportSubmit} className="report-modal-submit-btn">
+                Submit Report
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
         {examData.questions.map((question, index) => {
           const questionId = question.id || question['l-id'];
           return (
