@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import { ExamSkeletonLoading } from './Exam';
 import { Skeleton } from "@mui/material";
-import Select from 'react-select';
+import CreatableSelect from 'react-select/creatable';
 import { api } from '../utils/api';
 
 const TestCard = styled(motion.div)`
@@ -201,6 +201,16 @@ const DisabledInput = styled.input`
   cursor: not-allowed;
 `;
 
+const Input = styled.input`
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  background-color: #2d3748;
+  color: #ffffff;
+  font-size: 1rem;
+`;
+
 const GenerateButton = styled.button`
   padding: 0.75rem 1.5rem;
   background-color: #4CAF50;
@@ -309,15 +319,18 @@ const TestSeries = () => {
   const [selectedLessons, setSelectedLessons] = useState([]);
   const [availableLessons, setAvailableLessons] = useState([]);
   const [isLessonsLoading, setIsLessonsLoading] = useState(false);
+  const [customSubject, setCustomSubject] = useState('');
+  const [testName, setTestName] = useState('');
+  const [showSubjectWarning, setShowSubjectWarning] = useState(false);
 
   const getSubjectColor = (subject) => {
     const colors = {
       Math: '#4CAF50', 
       Science: '#2196F3', 
       English: '#FFC107', 
-      SS: '#9C27B0' 
+      SS: '#9C27B0'
     };
-    return colors[subject] || '#607D8B';
+    return colors[subject] || '#8B4513'; // Brown for custom subjects
   };
 
   const getSubjectIcon = (subject) => {
@@ -338,6 +351,7 @@ const TestSeries = () => {
         setIsTeacher(data.teacher);
         if (data.teacher) {
           setTeacherSubject(data.teacher_subject);
+          setCustomSubject(data.teacher_subject);
           if (data.teacher_standard) {
             setTeacherStandard(data.teacher_standard);
             setSelectedStandard(data.teacher_standard[0]);
@@ -377,10 +391,11 @@ const TestSeries = () => {
     
     try {
       const testData = {
-        subject: teacherSubject,
+        subject: customSubject,
         lessons: selectedLessons.map(l => l.value),
         class10: selectedStandard === 10,
-        type: 'automatic'
+        type: 'automatic',
+        test_name: testName,
       };
       
       navigate('/create-test', { state: { generatedTest: testData } });
@@ -523,10 +538,35 @@ const TestSeries = () => {
                 <form onSubmit={handleGenerateTest}>
                   <FormGroup>
                     <label>Subject</label>
-                    <DisabledInput
+                    <Input
                       type="text"
-                      value={teacherSubject}
-                      disabled
+                      value={customSubject}
+                      onChange={(e) => {
+                        const newSubject = e.target.value;
+                        setCustomSubject(newSubject);
+                        if (newSubject !== teacherSubject) {
+                          setShowSubjectWarning(true);
+                          if (selectedLessons.length > 0) {
+                            setSelectedLessons([]);
+                          }
+                        } else {
+                          setShowSubjectWarning(false);
+                        }
+                      }}
+                    />
+                    {showSubjectWarning && (
+                      <p style={{ color: '#FFC107', fontSize: '0.8rem', marginTop: '0.5rem' }}>
+                        Changing the subject will require you to manually create all questions.
+                      </p>
+                    )}
+                  </FormGroup>
+                  <FormGroup>
+                    <label>Test Name (Optional)</label>
+                    <Input
+                      type="text"
+                      value={testName}
+                      onChange={(e) => setTestName(e.target.value)}
+                      placeholder="E.g., Mid-term Practice Test"
                     />
                   </FormGroup>
                   <FormGroup isDisabled={teacherStandard.length === 1}>
@@ -551,14 +591,19 @@ const TestSeries = () => {
                   </FormGroup>
                   <FormGroup>
                     <label>Lessons</label>
-                    <Select
+                    <CreatableSelect
                       isMulti
                       options={availableLessons}
                       value={selectedLessons}
                       onChange={setSelectedLessons}
                       isLoading={isLessonsLoading}
-                      isDisabled={!selectedStandard}
-                      placeholder={selectedStandard ? "Select lessons" : "Select standard first"}
+                      isDisabled={!selectedStandard || customSubject !== teacherSubject}
+                      placeholder={
+                        !selectedStandard
+                          ? "Select standard first"
+                          : customSubject !== teacherSubject
+                          ? "Lessons disabled for custom subject"
+                          : "Select lessons"}
                       className="react-select-container"
                       classNamePrefix="react-select"
                       styles={{
@@ -575,7 +620,7 @@ const TestSeries = () => {
                   </FormGroup>
                   <GenerateButton
                     type="submit"
-                    disabled={!selectedStandard || selectedLessons.length === 0}
+                    disabled={!selectedStandard}
                   >
                     Generate Test
                   </GenerateButton>
@@ -647,22 +692,28 @@ const TestSeries = () => {
                     whileTap={{ scale: 0.98 }}
                     custom={index}
                     onClick={() => handleTestClick(test['test-id'])}
-                  >
-                    <TestInfo>
-                      <h2>{getSubjectIcon(test.subject)} {test.subject}</h2>
-                      <span className="test-id">#{test['test-id']}</span>
-                    </TestInfo>
-                    
-                    <TestDetails>
+                >
+                  <TestInfo>
+                    <h2>{test.test_name || `${getSubjectIcon(test.subject)} ${test.subject}`}</h2>
+                    <span className="test-id">#{test['test-id']}</span>
+                  </TestInfo>
+                  
+                  <TestDetails>
+                    <Badge>
+                      <span>📝</span>
+                      {test.questions} Questions
+                    </Badge>
+                    <Badge>
+                      <span>📚</span>
+                      {test.lessons.length} Lessons
+                    </Badge>
+                    {test.test_name && (
                       <Badge>
-                        <span>📝</span>
-                        {test.questions} Questions
+                        <span>{getSubjectIcon(test.subject)}</span>
+                        {test.subject}
                       </Badge>
-                      <Badge>
-                        <span>📚</span>
-                        {test.lessons.length} Lessons
-                      </Badge>
-                    </TestDetails>
+                    )}
+                  </TestDetails>
 
                     <div className="lessons-list">
                       {test.lessons.map((lesson, idx) => (

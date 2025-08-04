@@ -794,6 +794,7 @@ def get_tests():
             "test-id": test.get("test-id"),
             "lessons": test.get("lessons", []),
             "questions": len(test.get("questions", [])),
+            "test_name": test.get("test_name"),
         }
         formatted_tests.append(test_info)
 
@@ -837,18 +838,26 @@ def generate_test():
     lessons = data.get("lessons")
     class10 = data.get("class10", False)  # Allow teacher to specify class
 
-    if not subject or not lessons:
-        return jsonify({"message": "Subject and lessons are required"}), 400
+    if not subject:
+        return jsonify({"message": "Subject is required"}), 400
 
-    lesson_paths = [
-        lesson2filepath(subject, lesson, class10=class10) for lesson in lessons
-    ]
-
-    if not lesson_paths:
-        return jsonify({"message": "Invalid lessons provided"}), 400
+    if not lessons:
+        questions = []
+    else:
+        lesson_paths = [
+            lesson2filepath(subject, lesson, class10=class10) for lesson in lessons
+        ]
+        if not lesson_paths:
+            return jsonify({"message": "Invalid lessons provided"}), 400
+        try:
+            questions = generate.generate_exam_questions(
+                subject, lesson_paths, current_user
+            )
+        except Exception as e:
+            print(f"Error generating questions: {e}")
+            return jsonify({"message": f"Error generating questions: {str(e)}"}), 500
 
     try:
-        questions = generate.generate_exam_questions(subject, lesson_paths, current_user)
         # Format questions without solutions
         formatted_questions = []
         for q in questions:
@@ -892,7 +901,8 @@ def create_test():
    students = data.get("students")  # List of student IDs
    division = data.get("division")  # Specific division
    expiration_date = data.get("expiration_date")
-
+   test_name = data.get("test_name")
+ 
    if not all([subject, lessons, questions, expiration_date]):
         return jsonify({"message": "Subject, lessons, questions, and expiration date are required"}), 400
 
@@ -916,6 +926,7 @@ def create_test():
        "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
        "completed_by": [],
        "expiration_date": expiration_date,
+       "test_name": test_name,
    }
 
    if students:
