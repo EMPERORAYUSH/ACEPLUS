@@ -170,7 +170,7 @@ const CreateTest = () => {
     const [currentStep, setCurrentStep] = useState(1);
 
     // States for all steps
-    const [testDetails, setTestDetails] = useState({ subject: '', lessons: [], class10: false });
+    const [testDetails, setTestDetails] = useState({ subject: '', lessons: [], class10: false, test_name: '' });
     const [questions, setQuestions] = useState([]);
     const [assignment, setAssignment] = useState({ type: 'all', division: '', students: [] });
     const [expirationDate, setExpirationDate] = useState(null);
@@ -201,7 +201,12 @@ const CreateTest = () => {
             const { type, ...details } = location.state.generatedTest;
 
             if (type === 'automatic') {
-                setTestDetails({ subject: details.subject, lessons: details.lessons, class10: details.class10 });
+                setTestDetails({
+                    subject: details.subject,
+                    lessons: details.lessons,
+                    class10: details.class10,
+                    test_name: details.test_name
+                });
                 fetchStudents(details.class10);
             }
         }
@@ -414,6 +419,7 @@ const CreateTest = () => {
         let testPayload = {
             subject: testDetails.subject,
             lessons: testDetails.lessons,
+            test_name: testDetails.test_name,
             questions: questions.map(({ isEditing, ...q }) => q),
             class10: testDetails.class10,
         };
@@ -467,6 +473,12 @@ const CreateTest = () => {
                                     <p>The following details were selected for automatic question generation. Please confirm to proceed.</p>
                                 </div>
                                 <div className="details-grid">
+                                    {testDetails.test_name && (
+                                        <div className="detail-item">
+                                            <p>Test Name</p>
+                                            <span>{testDetails.test_name}</span>
+                                        </div>
+                                    )}
                                     <div className="detail-item">
                                         <p>Subject</p>
                                         <span>{testDetails.subject}</span>
@@ -614,6 +626,7 @@ const CreateTest = () => {
                                 <h2>Step 5: Finalize & Create</h2>
                                 <div className="summary-card">
                                     <h3>Test Summary</h3>
+                                    {testDetails.test_name && <p><strong>Test Name:</strong> {testDetails.test_name}</p>}
                                     <p><strong>Subject:</strong> {testDetails.subject}</p>
                                     <p><strong>Lessons:</strong> {testDetails.lessons.join(', ')}</p>
                                     <p><strong>Questions:</strong> {questions.length} total</p>

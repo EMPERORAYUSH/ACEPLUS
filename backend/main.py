@@ -783,6 +783,19 @@ def get_tests():
     else:
         available_tests = get_available_tests_for_user(current_user, is_class10)
 
+    # Filter out completed tests for students
+    if not is_teacher:
+        user_exam_history = get_user_exam_history(current_user, is_class10)
+        completed_test_ids = {
+            "-".join(exam["exam-id"].split("-")[:-1])
+            for exam in user_exam_history
+            if exam.get("test")
+        }
+        available_tests = [
+            test for test in available_tests
+            if test["test-id"] not in completed_test_ids
+        ]
+
     if not available_tests and not is_teacher:
         return jsonify({"message": "No tests available"}), 404
 
@@ -828,7 +841,7 @@ def get_tests():
 @jwt_required()
 def generate_test():
     current_user, _ = get_current_user_info()
-    # Verify teacher access (0001-0009)
+    # Verify teacher access
     teachers_data = load_json_file("teachers.json")
     if not teachers_data or current_user not in teachers_data:
         return jsonify({"message": "Unauthorized access"}), 401
@@ -836,51 +849,46 @@ def generate_test():
     data = request.get_json()
     subject = data.get("subject")
     lessons = data.get("lessons")
-    class10 = data.get("class10", False)  # Allow teacher to specify class
+    class10 = data.get("class10", False)
 
     if not subject:
         return jsonify({"message": "Subject is required"}), 400
 
-    if not lessons:
-        questions = []
-    else:
+    questions = []
+    if lessons:
         lesson_paths = [
             lesson2filepath(subject, lesson, class10=class10) for lesson in lessons
         ]
-        if not lesson_paths:
-            return jsonify({"message": "Invalid lessons provided"}), 400
-        try:
-            questions = generate.generate_exam_questions(
-                subject, lesson_paths, current_user
-            )
-        except Exception as e:
-            print(f"Error generating questions: {e}")
-            return jsonify({"message": f"Error generating questions: {str(e)}"}), 500
-
-    try:
-        # Format questions without solutions
-        formatted_questions = []
-        for q in questions:
-            formatted_questions.append(
-                {
-                    "question": q["question"],
-                    "options": q["options"],
-                    "answer": q["answer"],
-                }
-            )
-
-        return jsonify(
+        
+        if None in lesson_paths:
+             # This case handles custom subjects where lessons won't be found
+             pass
+        else:
+            try:
+                questions = generate.generate_exam_questions(subject, lesson_paths, current_user)
+            except Exception as e:
+                print(f"Error generating questions: {e}")
+                return jsonify({"message": f"Error generating questions: {str(e)}"}), 500
+    
+    # Format questions without solutions
+    formatted_questions = []
+    for q in questions:
+        formatted_questions.append(
             {
-                "subject": subject,
-                "lessons": lessons,
-                "questions": formatted_questions,
-                "class10": class10,
+                "question": q["question"],
+                "options": q["options"],
+                "answer": q["answer"],
             }
-        ), 200
+        )
 
-    except Exception as e:
-        print(f"Error generating questions: {e}")
-        return jsonify({"message": f"Error generating questions: {str(e)}"}), 500
+    return jsonify(
+        {
+            "subject": subject,
+            "lessons": lessons,
+            "questions": formatted_questions,
+            "class10": class10,
+        }
+    ), 200
 
 
 @app.route("/api/create_test", methods=["POST"])
@@ -903,8 +911,8 @@ def create_test():
    expiration_date = data.get("expiration_date")
    test_name = data.get("test_name")
  
-   if not all([subject, lessons, questions, expiration_date]):
-        return jsonify({"message": "Subject, lessons, questions, and expiration date are required"}), 400
+   if not all([subject, questions, expiration_date]):
+        return jsonify({"message": "Subject, questions, and expiration date are required"}), 400
 
    # Validate question format
    for q in questions:

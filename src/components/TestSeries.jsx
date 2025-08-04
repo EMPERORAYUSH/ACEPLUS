@@ -37,6 +37,13 @@ const TestDetails = styled.div`
   flex-wrap: wrap;
 `;
 
+const TestDescription = styled.p`
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+`;
+
 const Badge = styled.span`
   background: rgba(255, 255, 255, 0.2);
   padding: 0.5rem 1rem;
@@ -703,10 +710,12 @@ const TestSeries = () => {
                       <span>📝</span>
                       {test.questions} Questions
                     </Badge>
-                    <Badge>
-                      <span>📚</span>
-                      {test.lessons.length} Lessons
-                    </Badge>
+                    {test.lessons.length > 0 && (
+                      <Badge>
+                        <span>📚</span>
+                        {test.lessons.length} Lessons
+                      </Badge>
+                    )}
                     {test.test_name && (
                       <Badge>
                         <span>{getSubjectIcon(test.subject)}</span>
@@ -715,6 +724,11 @@ const TestSeries = () => {
                     )}
                   </TestDetails>
 
+                  {test.description && (
+                    <TestDescription>{test.description}</TestDescription>
+                  )}
+
+                  {test.lessons.length > 0 && (
                     <div className="lessons-list">
                       {test.lessons.map((lesson, idx) => (
                         <motion.span
@@ -722,7 +736,7 @@ const TestSeries = () => {
                           className="lesson-tag"
                           initial={{ opacity: 0, scale: 0.8, x: -20 }}
                           animate={{ opacity: 1, scale: 1, x: 0 }}
-                          transition={{ 
+                          transition={{
                             delay: index * 0.1 + idx * 0.05,
                             type: "spring",
                             stiffness: 200,
@@ -733,6 +747,7 @@ const TestSeries = () => {
                         </motion.span>
                       ))}
                     </div>
+                  )}
                   </TestCard>
                 ))
               )}
