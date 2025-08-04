@@ -130,7 +130,8 @@ export const endpoints = {
   reportQuestion: 'api/report',
   uploadImages: 'api/upload_images',
   getUploadedImage: (filename) => `api/uploads/${filename}`,
-  fetchCoins: 'api/fetch_coins'
+  fetchCoins: 'api/fetch_coins',
+  getStudentsByStandard: (isClass10) => `api/students_by_standard?class10=${isClass10}`
 };
 
 // API methods for common operations
@@ -415,4 +416,5 @@ export const api = {
     }
   }),
   fetchCoins: () => apiRequest(endpoints.fetchCoins),
+ getStudentsByStandard: (isClass10 = false) => apiRequest(endpoints.getStudentsByStandard(isClass10)),
 }
