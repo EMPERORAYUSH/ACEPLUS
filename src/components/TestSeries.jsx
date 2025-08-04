@@ -311,7 +311,7 @@ const TestSeries = () => {
   const [isLessonsLoading, setIsLessonsLoading] = useState(false);
 
   const getSubjectColor = (subject) => {
-    const colors = { 
+    const colors = {
       Math: '#4CAF50', 
       Science: '#2196F3', 
       English: '#FFC107', 
@@ -376,13 +376,14 @@ const TestSeries = () => {
     setShowSkeletonLoading(true);
     
     try {
-      const data = await api.generateTest({
+      const testData = {
         subject: teacherSubject,
         lessons: selectedLessons.map(l => l.value),
-        class10: selectedStandard === 10
-      });
+        class10: selectedStandard === 10,
+        type: 'automatic'
+      };
       
-      navigate('/create-test', { state: { generatedTest: data } });
+      navigate('/create-test', { state: { generatedTest: testData } });
     } catch (error) {
       console.error('Error:', error);
     } finally {
@@ -528,7 +529,6 @@ const TestSeries = () => {
                       disabled
                     />
                   </FormGroup>
-
                   <FormGroup isDisabled={teacherStandard.length === 1}>
                     <label>Standard</label>
                     {teacherStandard.length === 1 ? (
@@ -549,7 +549,6 @@ const TestSeries = () => {
                       </select>
                     )}
                   </FormGroup>
-
                   <FormGroup>
                     <label>Lessons</label>
                     <Select
@@ -563,53 +562,17 @@ const TestSeries = () => {
                       className="react-select-container"
                       classNamePrefix="react-select"
                       styles={{
-                        control: (base) => ({
-                          ...base,
-                          background: '#2d3748',
-                          borderColor: '#4a5568',
-                          '&:hover': {
-                            borderColor: '#4a5568'
-                          }
-                        }),
-                        menu: (base) => ({
-                          ...base,
-                          background: '#2d3748',
-                          border: '1px solid #4a5568'
-                        }),
-                        option: (base, state) => ({
-                          ...base,
-                          background: state.isFocused ? '#4a5568' : '#2d3748',
-                          color: '#ffffff',
-                          cursor: 'pointer'
-                        }),
-                        multiValue: (base) => ({
-                          ...base,
-                          background: '#4a5568'
-                        }),
-                        multiValueLabel: (base) => ({
-                          ...base,
-                          color: '#ffffff'
-                        }),
-                        multiValueRemove: (base) => ({
-                          ...base,
-                          color: '#ffffff',
-                          ':hover': {
-                            background: '#e53e3e',
-                            color: '#ffffff'
-                          }
-                        }),
-                        input: (base) => ({
-                          ...base,
-                          color: '#ffffff'
-                        }),
-                        placeholder: (base) => ({
-                          ...base,
-                          color: '#a0aec0'
-                        })
+                        control: (base) => ({ ...base, background: '#2d3748', borderColor: '#4a5568', '&:hover': { borderColor: '#4a5568' } }),
+                        menu: (base) => ({ ...base, background: '#2d3748', border: '1px solid #4a5568' }),
+                        option: (base, state) => ({ ...base, background: state.isFocused ? '#4a5568' : '#2d3748', color: '#ffffff', cursor: 'pointer' }),
+                        multiValue: (base) => ({ ...base, background: '#4a5568' }),
+                        multiValueLabel: (base) => ({ ...base, color: '#ffffff' }),
+                        multiValueRemove: (base) => ({ ...base, color: '#ffffff', ':hover': { background: '#e53e3e', color: '#ffffff' } }),
+                        input: (base) => ({ ...base, color: '#ffffff' }),
+                        placeholder: (base) => ({ ...base, color: '#a0aec0' })
                       }}
                     />
                   </FormGroup>
-
                   <GenerateButton
                     type="submit"
                     disabled={!selectedStandard || selectedLessons.length === 0}

@@ -59,8 +59,8 @@ def decode_unicode(obj):
         try:
             decoded = json.loads(f'"{obj}"')
             return decoded
-        except json.JSONDecodeError:
-            print(f"Failed to decode string: {obj}")
+        except json.JSONDecodeError as e:
+            print(f"Failed to decode string: {obj} : {e}")
             return obj
     elif isinstance(obj, dict):
         return {

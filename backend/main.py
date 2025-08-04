@@ -21,8 +21,10 @@ try:
     from dotenv import load_dotenv
     from db import (
         add_exam,
+        add_test,
         create_user_data,
         download_data,
+        get_all_tests,
         get_average_percentage,
         get_average_scores,
         get_exam,
@@ -32,10 +34,12 @@ try:
         data_store,
         get_students_by_division,
         get_subject_stats_by_division,
+        get_test,
         get_total_exams,
         get_total_exams_by_class,
         get_total_students,
         get_total_students_by_class,
+        get_all_students_by_class,
         get_user,
         get_user_exam_history,
         set_user_password,
@@ -45,10 +49,12 @@ try:
         update_user_tasks,
         update_exam,
         update_exam_solution,
+        update_test,
         update_user_stats_after_exam,
         db9,
         db10,
         recalculate_current_month_leaderboard,
+        move_expired_tests_to_inactive,
     )
     import threading
     from utils.lesson_utils import lesson2filepath
@@ -271,26 +277,9 @@ def create_exam():
         test_id = data.get("test-id")
         if not test_id:
             return jsonify({"message": "Test ID is required"}), 400
-
-        # Load test data from active_tests.json
-        active_tests = load_json_file("active_tests.json")
-        if not active_tests or "tests" not in active_tests:
-            return jsonify({"message": "Test not found"}), 404
-        print("\n\n", active_tests, "\n\n")
-        # Access the tests array inside active_tests
-        test_data = next(
-            (
-                test
-                for test in active_tests["tests"]
-                if test["test-id"] == test_id
-                and current_user not in test.get("completed_by", [])
-            ),
-            None,
-        )
-        print("\n\n", test_data, "\n\n")
+        test_data = get_test(test_id, is_class10)
         if not test_data:
             return jsonify({"message": "Test not found or already completed"}), 404
-        print(is_class10)
         exam_id = f"{test_id}-{current_user}"
         subject = test_data["subject"]
         lessons = test_data["lessons"]
@@ -440,30 +429,12 @@ def submit_exam(exam_id):
         )  # Get everything before the last segment
 
         try:
-            # Load and update active_tests.json
-            active_tests_data = load_json_file("active_tests.json")
-            if active_tests_data and "tests" in active_tests_data:
-                # Find and update the specific test
-                for test in active_tests_data["tests"]:
-                    if test["test-id"] == test_id:
-                        # Initialize completed_by if it doesn't exist
-                        if "completed_by" not in test:
-                            test["completed_by"] = []
-
-                        # Add current user if not already completed
-                        if current_user not in test["completed_by"]:
-                            test["completed_by"].append(current_user)
-
-                        # Write updates back to file
-                        with open(
-                            os.path.join(data_path, "active_tests.json"),
-                            "w",
-                            encoding="utf-8",
-                        ) as f:
-                            json.dump(
-                                active_tests_data, f, indent=4, ensure_ascii=False
-                            )
-                        break
+               test_data = get_test(test_id, is_class10)
+               if test_data:
+                   completed_by = test_data.get("completed_by", [])
+                   if current_user not in completed_by:
+                       completed_by.append(current_user)
+                       update_test(test_id, {"completed_by": completed_by}, is_class10)
         except Exception as e:
             print(f"Error updating active_tests.json: {e}")
             # Continue even if update fails
@@ -768,54 +739,65 @@ def report_question():
         return jsonify({"message": f"Error submitting report: {str(e)}"}), 500
 
 
+def get_available_tests_for_user(user_id, is_class10):
+    """Helper function to get all available tests for a specific user."""
+    all_tests = get_all_tests(is_class10)
+    user = get_user(user_id, is_class10)
+    
+    available_tests = []
+    for test in all_tests:
+        if user_id in test.get("completed_by", []):
+            continue
+
+        assigned_students = test.get("students")
+        assigned_division = test.get("division")
+        test_standard = test.get("standard")
+
+        # Check if test is for the student's class
+        if (test_standard == 10) != is_class10:
+            continue
+
+        # Check for assignment
+        if assigned_students and user_id in assigned_students:
+            available_tests.append(test)
+        elif assigned_division and user and user.get("division") == assigned_division:
+            available_tests.append(test)
+        elif not assigned_students and not assigned_division:
+            available_tests.append(test)
+            
+    return available_tests
+
+
 @app.route("/api/tests", methods=["GET"])
 @jwt_required()
 def get_tests():
     current_user, is_class10 = get_current_user_info()
-    # Load required JSON files
-    active_tests_data = load_json_file("active_tests.json")
     teachers_data = load_json_file("teachers.json")
+    is_teacher = current_user in teachers_data if teachers_data else False
+    print(is_teacher)
+    if is_teacher:
+        all_tests = get_all_tests(is_class10)
+        available_tests = [
+            test for test in all_tests if test.get("created_by") == current_user
+        ]
+    else:
+        available_tests = get_available_tests_for_user(current_user, is_class10)
 
-    if not active_tests_data or "tests" not in active_tests_data:
+    if not available_tests and not is_teacher:
         return jsonify({"message": "No tests available"}), 404
 
-    # Get the tests array from the data
-    active_tests = active_tests_data["tests"]
-
-    # Check if user is teacher
-    is_teacher = current_user in teachers_data if teachers_data else False
-
-    # Filter tests based on class
-    available_tests = []
-    for test in active_tests:
-        # Ensure test is a dictionary
-        if not isinstance(test, dict):
-            continue
-
-        # For teachers, only show tests they created
-        if is_teacher:
-            if test.get("created_by") != current_user:
-                continue
-        else:
-            # For students, skip if already completed
-            completed_users = test.get("completed_by", [])
-            if current_user in completed_users:
-                continue
-
-            # Skip if test is not for student's class
-            test_standard = test.get("standard")
-            if (test_standard == 10) != is_class10:
-                continue
-
+    # Format the response
+    formatted_tests = []
+    for test in available_tests:
         test_info = {
             "subject": test.get("subject"),
             "test-id": test.get("test-id"),
             "lessons": test.get("lessons", []),
             "questions": len(test.get("questions", [])),
         }
-        available_tests.append(test_info)
+        formatted_tests.append(test_info)
 
-    response = {"tests": available_tests, "teacher": is_teacher}
+    response = {"tests": formatted_tests, "teacher": is_teacher}
 
     # Add teacher-specific information
     if is_teacher:
@@ -895,60 +877,58 @@ def generate_test():
 @app.route("/api/create_test", methods=["POST"])
 @jwt_required()
 def create_test():
-    current_user, _ = get_current_user_info()
+   current_user, _ = get_current_user_info()
 
-    # Verify teacher access
-    teachers_data = load_json_file("teachers.json")
-    if not teachers_data or current_user not in teachers_data:
-        return jsonify({"message": "Unauthorized access"}), 401
+   # Verify teacher access
+   teachers_data = load_json_file("teachers.json")
+   if not teachers_data or current_user not in teachers_data:
+       return jsonify({"message": "Unauthorized access"}), 401
 
-    data = request.get_json()
-    subject = data.get("subject")
-    lessons = data.get("lessons")
-    questions = data.get("questions")
-    class10 = data.get("class10", False)
+   data = request.get_json()
+   subject = data.get("subject")
+   lessons = data.get("lessons")
+   questions = data.get("questions")
+   class10 = data.get("class10", False)
+   students = data.get("students")  # List of student IDs
+   division = data.get("division")  # Specific division
+   expiration_date = data.get("expiration_date")
 
-    if not all([subject, lessons, questions]):
-        return jsonify({"message": "Subject, lessons, and questions are required"}), 400
+   if not all([subject, lessons, questions, expiration_date]):
+        return jsonify({"message": "Subject, lessons, questions, and expiration date are required"}), 400
 
-    # Validate question format
-    for q in questions:
-        if not all(key in q for key in ["question", "options", "answer"]):
-            return jsonify({"message": "Invalid question format"}), 400
-        if not all(key in q["options"] for key in ["a", "b", "c", "d"]):
-            return jsonify({"message": "Invalid options format"}), 400
+   # Validate question format
+   for q in questions:
+       if not all(key in q for key in ["question", "options", "answer"]):
+           return jsonify({"message": "Invalid question format"}), 400
+       if not all(key in q["options"] for key in ["a", "b", "c", "d"]):
+           return jsonify({"message": "Invalid options format"}), 400
 
-    # Shuffle questions
-    random.shuffle(questions)
+   random.shuffle(questions)
+   test_id = f"TS-{subject}-{str(random.randint(100,999))}"
 
-    # Generate test ID using random
-    test_id = f"TS-{subject}-{str(random.randint(100,999))}"
+   test_data = {
+       "test-id": test_id,
+       "subject": subject,
+       "standard": 10 if class10 else 9,
+       "lessons": lessons,
+       "questions": questions,
+       "created_by": current_user,
+       "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
+       "completed_by": [],
+       "expiration_date": expiration_date,
+   }
 
-    # Create test data
-    test_data = {
-        "test-id": test_id,
-        "subject": subject,
-        "standard": 10 if class10 else 9,
-        "lessons": lessons,
-        "questions": questions,
-        "created_by": current_user,
-        "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "completed_by": [],
-    }
+   if students:
+       test_data["students"] = students
+   if division:
+       test_data["division"] = division
 
-    try:
-        # Load and update active_tests.json
-        active_tests = load_json_file("active_tests.json") or {"tests": []}
-        active_tests["tests"].append(test_data)
-
-        with open(os.path.join(data_path, "active_tests.json"), "w") as f:
-            json.dump(active_tests, f, indent=4)
-
-        return jsonify({"test-id": test_id}), 201
-
-    except Exception as e:
-        print(f"Error creating test: {e}")
-        return jsonify({"message": f"Error creating test: {str(e)}"}), 500
+   try:
+       add_test(test_data, class10)
+       return jsonify({"test-id": test_id}), 201
+   except Exception as e:
+       print(f"Error creating test: {e}")
+       return jsonify({"message": f"Error creating test: {str(e)}"}), 500
 
 
 @app.route("/api/user_stats", methods=["GET"])
@@ -1093,6 +1073,23 @@ def get_class_stats():
     except Exception as e:
         return jsonify({"message": f"Error fetching standard stats: {str(e)}"}), 500
 
+
+@app.route("/api/students_by_standard", methods=["GET"])
+@jwt_required()
+def get_students_by_standard_route():
+    _, is_class10 = get_current_user_info()
+    
+    # Allow teachers to specify the class
+    class10_param = request.args.get("class10")
+    if class10_param is not None:
+        is_class10 = class10_param.lower() == "true"
+        
+    try:
+        students = get_all_students_by_class(is_class10)
+        return jsonify(students), 200
+    except Exception as e:
+        return jsonify({"message": f"Error fetching students: {str(e)}"}), 500
+
 @app.route("/api/upload_images", methods=["POST"])
 @jwt_required()
 def upload_images():
@@ -1180,27 +1177,7 @@ def get_analytics():
 def get_updates():
     return jsonify(UPDATE_LOGS[0]), 200
 
-def get_pending_tests(user_id, is_class10):
-    active_tests_data = load_json_file("active_tests.json")
-    if not active_tests_data or "tests" not in active_tests_data:
-        return []
 
-    active_tests = active_tests_data["tests"]
-    pending_tests = []
-    for test in active_tests:
-        if not isinstance(test, dict):
-            continue
-
-        completed_users = test.get("completed_by", [])
-        if user_id in completed_users:
-            continue
-
-        test_standard = test.get("standard")
-        if (test_standard == 10) != is_class10:
-            continue
-        pending_tests.append(test)
-
-    return pending_tests
 @app.route("/api/fetch_coins", methods=["GET"])
 @jwt_required()
 def fetch_coins():
@@ -1297,7 +1274,7 @@ def fetch_coins():
         new_tasks.append({"id": 3, "title": "Deepen Your Knowledge", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": lesson_for_task3, "subject": least_tested_subject}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": least_tested_subject, "lessons": [lesson_for_task3]}})
 
     # Task 4: Pending tests or 2nd least attempted subject
-    pending_tests = get_pending_tests(current_user, is_class10)
+    pending_tests = get_available_tests_for_user(current_user, is_class10)
     if pending_tests:
         test_to_complete = random.choice(pending_tests)
         new_tasks.append({"id": 4, "title": "Complete Your Test", "details": {"text": "Complete the test: {subject} - {lessons}", "subject": test_to_complete.get('subject'), "lessons": test_to_complete.get('lessons', [])}, "completed": False, "reward": 10, "action": {"type": "test", "test-id": test_to_complete.get('test-id')}})
@@ -1511,9 +1488,23 @@ def start_cleanup_scheduler():
         cleanup_old_files(app.config['UPLOAD_FOLDER'])
         time.sleep(3600)
 
+def start_expiration_scheduler():
+    """Periodically checks for and moves expired tests."""
+    while True:
+        try:
+            move_expired_tests_to_inactive()
+        except Exception as e:
+            print(f"Error in expiration scheduler: {e}")
+        # Sleep for 1 day
+        time.sleep(86400)
+
 # Start cleanup thread when app starts
 cleanup_thread = threading.Thread(target=start_cleanup_scheduler, daemon=True)
 cleanup_thread.start()
+
+# Start test expiration thread when app starts
+expiration_thread = threading.Thread(target=start_expiration_scheduler, daemon=True)
+expiration_thread.start()
 
 # Replace the generate_from_images route
 @app.route("/api/generate_from_images", methods=["GET"])

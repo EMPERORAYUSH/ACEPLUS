@@ -39,7 +39,9 @@ data_store = {
             },
             {"ExamHistory": {}},
             {"Exams": {}},
-            {"Leaderboard": {}}
+            {"Leaderboard": {}},
+            {"Tests": {}},
+            {"InactiveTests": {}}
         ]
     },
     10: {
@@ -54,7 +56,9 @@ data_store = {
             },
             {"ExamHistory": {}},
             {"Exams": {}},
-            {"Leaderboard": {}}
+            {"Leaderboard": {}},
+            {"Tests": {}},
+            {"InactiveTests": {}}
         ]
     }
 }
@@ -89,6 +93,8 @@ def download_data():
             data_store[class_num]['collections'][2]['ExamHistory'].clear()
             data_store[class_num]['collections'][3]['Exams'].clear()
             data_store[class_num]['collections'][4]['Leaderboard'].clear()
+            data_store[class_num]['collections'][5]['Tests'].clear()
+            data_store[class_num]['collections'][6]['InactiveTests'].clear()
 
             # Download Users
             logger.info(f"Downloading Users for Class {class_num}")
@@ -129,6 +135,20 @@ def download_data():
                 doc['_id']: convert_mongo_doc(doc) for doc in leaderboard_data
             }
 
+            # Download Tests
+            logger.info(f"Downloading Tests for Class {class_num}")
+            tests = list(db['Tests'].find())
+            data_store[class_num]['collections'][5]['Tests'] = {
+                test['test-id']: convert_mongo_doc(test) for test in tests
+            }
+
+            # Download InactiveTests
+            logger.info(f"Downloading InactiveTests for Class {class_num}")
+            inactive_tests = list(db['InactiveTests'].find())
+            data_store[class_num]['collections'][6]['InactiveTests'] = {
+                test['test-id']: convert_mongo_doc(test) for test in inactive_tests
+            }
+
         end_time = time.time()
         logger.info(f"Data download completed in {end_time - start_time:.2f} seconds")
 
@@ -142,6 +162,8 @@ def download_data():
             logger.info(f"ExamHistory entries: {len(data_store[class_num]['collections'][2]['ExamHistory'])}")
             logger.info(f"Exams: {len(data_store[class_num]['collections'][3]['Exams'])}")
             logger.info(f"Leaderboard entries: {len(data_store[class_num]['collections'][4]['Leaderboard'])}")
+            logger.info(f"Tests: {len(data_store[class_num]['collections'][5]['Tests'])}")
+            logger.info(f"Inactive Tests: {len(data_store[class_num]['collections'][6]['InactiveTests'])}")
 
     except Exception as e:
         logger.error(f"Error during data download: {str(e)}")
@@ -397,6 +419,78 @@ def get_exam(exam_id, class10=False):
 
     print(f"Exam with id {exam_id} not found in RAM or MongoDB")
     return None
+
+def add_test(test_data, class10=False):
+    """Adds a new test to the Tests collection in both RAM and MongoDB."""
+    if not test_data.get('expiration_date'):
+        raise ValueError("Test data must include an expiration date.")
+    class_num = 10 if class10 else 9
+    test_id = test_data['test-id']
+
+   # Add to RAM
+    data_store[class_num]['collections'][5]['Tests'][test_id] = test_data
+
+   # Add to MongoDB
+    try:
+       db = db10 if class10 else db9
+       result = db['Tests'].insert_one(test_data)
+       return test_data
+    except Exception as e:
+       print(f"Error adding test to MongoDB: {e}")
+       return None
+
+def get_test(test_id, class10=False):
+   """Retrieves a test by test-id from RAM or MongoDB."""
+   class_num = 10 if class10 else 9
+
+   # Check in RAM
+   test = data_store[class_num]['collections'][5]['Tests'].get(test_id)
+   if test:
+       return convert_mongo_doc(test)
+
+   # If not in RAM, try to fetch from MongoDB
+   db = db10 if class10 else db9
+   test = db['Tests'].find_one({"test-id": test_id})
+   if test:
+       test = convert_mongo_doc(test)
+       data_store[class_num]['collections'][5]['Tests'][test_id] = test
+       return test
+
+   return None
+
+def get_all_tests(class10=False):
+   """Retrieves all tests from RAM."""
+   class_num = 10 if class10 else 9
+   return list(data_store[class_num]['collections'][5]['Tests'].values())
+
+def update_test(test_id, updated_data, class10=False):
+   """Updates an existing test in both RAM and MongoDB."""
+   class_num = 10 if class10 else 9
+
+   # Update in RAM
+   if test_id in data_store[class_num]['collections'][5]['Tests']:
+       data_store[class_num]['collections'][5]['Tests'][test_id].update(updated_data)
+
+   # Update in MongoDB
+   db = db10 if class10 else db9
+   result = db['Tests'].update_one({'test-id': test_id}, {'$set': updated_data})
+
+   return result.modified_count > 0
+
+def delete_test(test_id, class10=False):
+   """Deletes a test from active tests in both RAM and MongoDB."""
+   class_num = 10 if class10 else 9
+   
+   # Delete from RAM
+   if test_id in data_store[class_num]['collections'][5]['Tests']:
+       del data_store[class_num]['collections'][5]['Tests'][test_id]
+       
+   # Delete from MongoDB
+   db = db10 if class10 else db9
+   result = db['Tests'].delete_one({'test-id': test_id})
+   
+   return result.deleted_count > 0
+
 
 def update_exam(exam_id, updated_data, class10=False):
     """Updates an existing exam in both RAM and MongoDB."""
@@ -1059,6 +1153,24 @@ def get_students_by_division(class_num, division):
             })
     return sorted(students, key=lambda x: x['roll'])
 
+def get_all_students_by_class(class10=False):
+    """Retrieves all students for a given class from RAM."""
+    class_num = 10 if class10 else 9
+    users = data_store[class_num]['collections'][0]['Users']
+    
+    # Filter out teachers
+    students = [user for user in users if not user.get('teacher', False)]
+    
+    return [
+        {
+            "id": student["id"],
+            "name": student["name"],
+            "division": student["division"],
+            "roll": student["rollno"],
+        }
+        for student in students
+    ]
+
 def set_user_password(user_id, new_password, class10=False):
     """Sets the password for a user."""
     class_num = 10 if class10 else 9
@@ -1076,6 +1188,50 @@ def set_user_password(user_id, new_password, class10=False):
     return result.modified_count > 0
 
 # delete_unsubmitted_exams()
+
+def move_expired_tests_to_inactive():
+   """
+   Moves expired tests from the active Tests collection to the InactiveTests collection.
+   """
+   logger.info("Checking for expired tests...")
+   now = datetime.now(timezone("UTC"))
+   total_moved = 0
+
+   for class_num in [9, 10]:
+       db = db10 if class_num == 10 else db9
+       active_tests_collection = db['Tests']
+       inactive_tests_collection = db['InactiveTests']
+       
+       test_ids = list(data_store[class_num]['collections'][5]['Tests'].keys())
+       
+       for test_id in test_ids:
+           test = data_store[class_num]['collections'][5]['Tests'].get(test_id)
+           if test and 'expiration_date' in test and test.get('expiration_date'):
+               try:
+                   expiration_date = datetime.fromisoformat(test['expiration_date'].replace('Z', '+00:00'))
+                   
+                   if expiration_date.tzinfo is None:
+                       expiration_date = timezone('UTC').localize(expiration_date)
+
+                   if expiration_date < now:
+                       logger.info(f"Test {test_id} has expired. Moving to inactive tests.")
+                       
+                       inactive_tests_collection.insert_one(test)
+                       active_tests_collection.delete_one({'test-id': test_id})
+
+                       data_store[class_num]['collections'][6]['InactiveTests'][test_id] = test
+                       del data_store[class_num]['collections'][5]['Tests'][test_id]
+                       
+                       total_moved += 1
+               except (ValueError, TypeError) as e:
+                   logger.error(f"Could not parse expiration date for test {test_id}: {test['expiration_date']}. Error: {e}")
+   
+   if total_moved > 0:
+       logger.info(f"Successfully moved {total_moved} expired tests to inactive collection.")
+   else:
+       logger.info("No expired tests found.")
+   
+   return total_moved
 
 def fix_missing_lowest_marks():
     """Add lowest_marks field for users who don't have it in their overview stats"""
@@ -1339,4 +1495,5 @@ __all__ = [
     "update_user_stats_after_exam",
     "set_user_password",
     "print_database_statistics",
+    "get_all_students_by_class",
 ]
