@@ -426,11 +426,13 @@ def generate_performance_analysis(results, lessons, is_class10):
 
         if nothink_enabled:
             params['extra_body'] = {
+                "extra_body":{
                 "google": {
                     "thinking_config": {
                         "thinking_budget": 0
                     }
                 }
+            }
             }
         
         chat_completion = client.chat.completions.create(**params)
