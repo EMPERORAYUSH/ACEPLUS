@@ -1393,8 +1393,10 @@ def get_leaderboard():
     page_size = int(request.args.get('page_size', 20))
     current_date = datetime.now()
     month_key = current_date.strftime("%Y-%m")
-
-    # Get current month's leaderboard
+    
+    # Get teacher IDs to exclude them from the leaderboard
+    teachers_data = load_json_file("teachers.json")
+    teacher_ids = list(teachers_data.keys()) if teachers_data else []
     leaderboard_data = data_store[class_num]["collections"][4]["Leaderboard"].get(
         month_key, {}
     )
@@ -1419,6 +1421,8 @@ def get_leaderboard():
 
     # Add students who have taken exams
     for user_id, user_data in leaderboard_data.items():
+        if user_id in teacher_ids:
+            continue
         students_in_leaderboard.add(user_id)
         # Check if name exists before splitting
         if isinstance(user_data, dict) and user_data.get("name"):
@@ -1453,6 +1457,8 @@ def get_leaderboard():
     # Add remaining students with 0 stats
     for user in all_users:
         user_id = user.get('id')
+        if user_id in teacher_ids:
+            continue
         if user_id not in students_in_leaderboard:
             name_parts = user.get('name', '').split()
             if len(name_parts) >= 2:
