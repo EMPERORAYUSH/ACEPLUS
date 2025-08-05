@@ -319,6 +319,8 @@ def create_exam():
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         "test": is_test,
     }
+    if is_test:
+        exam_data["test_name"] = test_data.get("test_name")
 
     try:
         added_exam = add_exam(exam_data, is_class10)
@@ -420,6 +422,8 @@ def submit_exam(exam_id):
         "performance_analysis": perf_analysis,
         "questions_needing_solutions": [q["index"] for q in questions_needing_solutions],
     }
+    if updated_data.get("test"):
+        updated_data["test_name"] = exam.get("test_name")
 
     # If it's a test submission
     if exam.get("test", False):
@@ -783,17 +787,11 @@ def get_tests():
     else:
         available_tests = get_available_tests_for_user(current_user, is_class10)
 
-    # Filter out completed tests for students
+    # Filter out completed tests for students more efficiently
     if not is_teacher:
-        user_exam_history = get_user_exam_history(current_user, is_class10)
-        completed_test_ids = {
-            "-".join(exam["exam-id"].split("-")[:-1])
-            for exam in user_exam_history
-            if exam.get("test")
-        }
         available_tests = [
             test for test in available_tests
-            if test["test-id"] not in completed_test_ids
+            if current_user not in test.get("completed_by", [])
         ]
 
     if not available_tests and not is_teacher:
@@ -1296,7 +1294,20 @@ def fetch_coins():
     pending_tests = get_available_tests_for_user(current_user, is_class10)
     if pending_tests:
         test_to_complete = random.choice(pending_tests)
-        new_tasks.append({"id": 4, "title": "Complete Your Test", "details": {"text": "Complete the test: {subject} - {lessons}", "subject": test_to_complete.get('subject'), "lessons": test_to_complete.get('lessons', [])}, "completed": False, "reward": 10, "action": {"type": "test", "test-id": test_to_complete.get('test-id')}})
+        test_name = test_to_complete.get('test_name')
+
+        if test_name:
+            task_text = "Complete the test: {test_name}"
+        else:
+            task_text = "Complete the test: {subject} - {lessons}"
+
+        task_details = {
+            "text": task_text,
+            "test_name": test_name,
+            "subject": test_to_complete.get('subject'),
+            "lessons": test_to_complete.get('lessons', [])
+        }
+        new_tasks.append({"id": 4, "title": "Complete Your Test", "details": task_details, "completed": False, "reward": 10, "action": {"type": "test", "test-id": test_to_complete.get('test-id')}})
     elif len(user_subjects_stats) > 1:
         second_least_attempted_subject_info = sorted(user_subjects_stats, key=lambda x: x.get('attempted', 0))[1]
         second_least_attempted_subject = second_least_attempted_subject_info['subject']

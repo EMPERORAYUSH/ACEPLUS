@@ -713,6 +713,8 @@ def update_user_stats_after_exam(user_id, subject, score, total_questions, exam_
 
         # Update overview stats for the subject
         percentage = float(exam_data['percentage'])
+        if subject not in overview_stats['subjects']:
+            overview_stats['subjects'][subject] = {"exams_given": 0, "highest_marks": 0, "average_percentage": 0}
         subject_overview = overview_stats['subjects'][subject]
         
         current_exams_given = int(subject_overview['exams_given'])
@@ -731,12 +733,15 @@ def update_user_stats_after_exam(user_id, subject, score, total_questions, exam_
         overview_stats = {
             "exam-id": exam_id,
             "subject": subject,
-            "score": score, 
+            "score": score,
             "totalQuestions": total_questions,
             "percentage": exam_data['percentage'],
             "lessons": exam_data.get('lessons', []),
-            "date": datetime.now(timezone("Asia/Kolkata")).strftime("%d-%m-%Y")
+            "date": datetime.now(timezone("Asia/Kolkata")).strftime("%d-%m-%Y"),
+            "test": exam_data.get("test", False),
         }
+        if overview_stats["test"]:
+            overview_stats["test_name"] = exam_data.get("test_name")
 
         # Update exam history
         exam_history = data_store[class_num]['collections'][2]['ExamHistory']

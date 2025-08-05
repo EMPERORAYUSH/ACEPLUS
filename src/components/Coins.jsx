@@ -58,6 +58,9 @@ const Coins = ({ isOpen, onClose, tasks, coins }) => {
       if (part === '{subject}') {
         return <span key={index} className="task-param">{task.details.subject}</span>;
       }
+      if (part === '{test_name}') {
+        return <span key={index} className="task-param">{task.details.test_name}</span>;
+      }
       if (part === '{lesson}' || part === '{lessons}') {
         if (Array.isArray(task.details.lessons)) {
           return <span key={index} className="task-param">{task.details.lessons.join(', ')}</span>;

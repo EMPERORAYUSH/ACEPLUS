@@ -91,6 +91,7 @@ const ProgressRing = ({ percentage }) => {
 };
 
 const HistoryCard = ({ exam, onClick }) => {
+  const isTest = exam.test;
   const formatDate = (dateString) => {
     try {
       // Split the date string into components
@@ -127,7 +128,7 @@ const HistoryCard = ({ exam, onClick }) => {
 
   return (
     <motion.div
-      className="exam-card"
+      className={`exam-card ${isTest ? 'test-card' : ''}`}
       onClick={() => onClick(exam["exam-id"])}
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
@@ -166,6 +167,7 @@ const HistoryCard = ({ exam, onClick }) => {
         </div>
         <div className="exam-info">
           <h3>{exam.subject}</h3>
+          {isTest && <span className="test-name">{exam.test_name}</span>}
           <span className="exam-date">{formatDate(exam.date)}</span>
         </div>
         <ProgressRing percentage={Math.round(exam.percentage)} />

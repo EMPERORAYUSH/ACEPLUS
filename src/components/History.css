@@ -188,6 +188,18 @@
   transform: translateX(100%);
 }
 
+.test-card {
+  border-left: 4px solid #FFC107; /* Or any color that stands out */
+}
+
+.test-name {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #FFC107;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
 .exam-card-header {
   display: flex;
   align-items: center;
