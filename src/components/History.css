@@ -189,11 +189,11 @@
   transform: translateX(100%);
 }
 
-.test-card {
+.history-container .test-card {
   border-left: 4px solid #FFC107; /* Or any color that stands out */
 }
 
-.test-name {
+.history-container .test-name {
   font-size: 0.9rem;
   font-style: italic;
   color: #FFC107;
