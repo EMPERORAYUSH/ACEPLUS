@@ -464,6 +464,20 @@ def submit_exam(exam_id):
 
         # Check for task completion
         completed_tasks = check_and_update_tasks(current_user, is_class10, exam)
+
+        # Award 10 coins for test completion
+        if exam.get("test", False):
+            # Fetch user again to get latest coin count
+            user_data = get_user(current_user, is_class10)
+            if user_data:
+                new_coins = user_data.get("coins", 0) + 10
+                update_user_tasks(current_user, user_data.get("tasks", {}), is_class10, coins=new_coins)
+                
+                # Append a virtual task to show the popup on the frontend
+                completed_tasks.append({
+                    "title": "Test Completion Bonus",
+                    "reward": 10
+                })
         return jsonify(
             {
                 "message": "Exam submitted successfully",
