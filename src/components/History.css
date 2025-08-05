@@ -278,13 +278,13 @@
   padding: 1.8rem;
 }
 
-.detail-grid {
+.history-container .detail-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
-.detail-item {
+.history-container .detail-item {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;

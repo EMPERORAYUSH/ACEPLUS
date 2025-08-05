@@ -90,7 +90,7 @@
   color: var(--primary-color);
 }
 
-.details-grid {
+.create-test-page .details-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
@@ -98,12 +98,12 @@
 }
 
 @media (max-width: 768px) {
-  .details-grid {
+  .create-test-page .details-grid {
     grid-template-columns: 1fr;
   }
 }
 
-.detail-item {
+.create-test-page .detail-item {
   background: var(--input-bg-color);
   padding: 1rem;
   border-radius: 12px;
@@ -111,13 +111,13 @@
   border: 1px solid var(--border-color);
 }
 
-.detail-item p {
+.create-test-page .detail-item p {
   margin: 0;
   color: var(--text-color-secondary);
   font-size: 1rem;
 }
 
-.detail-item span {
+.create-test-page .detail-item span {
   display: block;
   color: var(--text-color);
   font-weight: 600;
@@ -213,11 +213,6 @@ textarea.form-control {
   margin-bottom: 1.5rem;
 }
 
-.options-grid {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1rem;
-}
 
 .option {
   background: rgba(255, 255, 255, 0.05);
@@ -303,6 +298,9 @@ textarea.form-control {
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .btn-primary {
@@ -597,11 +595,6 @@ textarea.form-control {
     margin-right: auto;
 }
 
-.btn-primary, .btn-secondary {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
 
 .info-box {
     display: flex;
@@ -1032,11 +1025,6 @@ textarea.form-control {
     }
 }
 
-.question-text {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
 
 .answer-select {
     margin-top: 1rem;
