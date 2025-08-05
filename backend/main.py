@@ -1250,16 +1250,21 @@ def fetch_coins():
 
     # Task 2: Give 1 exam of {subject}
     subject_for_task2 = "Math" # Default
-    if total_exams_attempted < 5:
-        unattempted_subjects = [s['subject'] for s in user_subjects_stats if s['attempted'] == 0]
-        if len(unattempted_subjects) > 1:
+    task2_subject_stats = [s for s in user_subjects_stats if s.get('subject') != 'English']
+
+    if not task2_subject_stats:
+        # Fallback if only English was in stats, or no stats at all.
+        subject_for_task2 = random.choice(["Math", "Science", "SS"])
+    elif total_exams_attempted < 5:
+        unattempted_subjects = [s['subject'] for s in task2_subject_stats if s['attempted'] == 0]
+        if unattempted_subjects:
             subject_for_task2 = random.choice(unattempted_subjects)
-        elif len(unattempted_subjects) == 1:
-            subject_for_task2 = unattempted_subjects[0]
         else:
-            subject_for_task2 = random.choice([s['subject'] for s in user_subjects_stats]) if user_subjects_stats else random.choice(["Math", "Science", "SS"])
+            # If all non-English subjects attempted, pick any non-English one.
+            subject_for_task2 = random.choice([s['subject'] for s in task2_subject_stats])
     else:
-        sorted_subjects = sorted(user_subjects_stats, key=lambda x: x.get('attempted', 0))
+        # For users with more exams, find the least tested non-English subject.
+        sorted_subjects = sorted(task2_subject_stats, key=lambda x: x.get('attempted', 0))
         least_tested_subjects = [s for s in sorted_subjects if s.get('attempted', 0) == sorted_subjects[0].get('attempted', 0)]
         subject_for_task2 = random.choice(least_tested_subjects)['subject']
     
