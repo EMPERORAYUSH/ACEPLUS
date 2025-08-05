@@ -8,15 +8,9 @@ import { api } from '../utils/api';
 const SubjectIcon = ({ subject }) => {
   const icons = {
     Math: "calculator",
-    Science: "flask", 
-    English: "book",
+    Science: "flask",
     SS: "globe-americas",
-    Physics: "atom",
-    Chemistry: "vial",
-    Biology: "dna",
-    History: "landmark",
-    Geography: "mountain",
-    Computer: "laptop-code"
+    Tests: "file-alt"
   };
   
   // No need to lowercase since we're matching exact API values
@@ -275,10 +269,27 @@ const History = () => {
 
   const filteredExams = examHistory.filter(exam => {
     if (filter === 'All') return true;
-    return exam.subject === filter;  // Exact match with API subject
+    if (filter === 'Tests') return exam.test;
+    return exam.subject === filter;
   });
 
-  const subjects = ['All', ...new Set(examHistory.map(exam => exam.subject))];
+  const hasTests = examHistory.some(exam => exam.test);
+  
+  // Get unique subjects from history
+  const uniqueSubjects = [...new Set(examHistory.map(exam => exam.subject))];
+  
+  // Define the allowed subjects
+  const allowedSubjects = ['Math', 'Science', 'SS'];
+  
+  // Filter unique subjects to only include allowed ones
+  const subjectsToDisplay = uniqueSubjects.filter(subject => allowedSubjects.includes(subject));
+  
+  // Build the final list of filters
+  const subjects = ['All', ...subjectsToDisplay];
+  
+  if (hasTests) {
+    subjects.push('Tests');
+  }
 
   return (
     <motion.div 
