@@ -9,11 +9,12 @@ SOLUTION_GENERATION_PROMPT = """As an expert tutor, help a student understand a 
         1. Explains why the correct answer is right
         2. Breaks down the problem-solving steps
         3. Provides helpful context
-        4. Uses LaTeX for:
-           - Mathematical expressions and equations (e.g. $x^2$, \\frac{{1}}{{2}})
-           - Scientific formulas (e.g. $H_2O$, $CO_2$)
-           - Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
-           - Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
+        4. You can use LaTeX (only if needed) for: 
+          - Writing Mathematical expressions and equations (e.g. $x^2$, \\frac{{1}}{{2}})
+          - Writing Scientific formulas (e.g. $H_2O$, $CO_2$)
+          - Writing Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
+          - Writing Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
+        ONLY IF NEEDED. NO NEED TO Unnessasarily include latex in areas its not even needed
 
         Use simple language and be encouraging. Here's the information:
 
@@ -77,14 +78,15 @@ HINT_GENERATION_PROMPT = """As an expert tutor, provide a helpful hint for this 
     2. Highlights key concepts or formulas to consider
     3. Suggests a problem-solving approach
     4. Does NOT reveal the answer or make it obvious
-    5. Uses LaTeX for:
-       - Mathematical expressions and equations (e.g. $x^2$, \\frac{{1}}{{2}})
-       - Scientific formulas (e.g. $H_2O$, $CO_2$)
-       - Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
-       - Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
+    5. You can use LaTeX (only if needed) for: 
+       - Writing Mathematical expressions and equations (e.g. $x^2$, \\frac{{1}}{{2}})
+       - Writing Scientific formulas (e.g. $H_2O$, $CO_2$)
+       - Writing Physical quantities and units (e.g. $9.8 \\text{{ m/s}}^2$)
+       - Writing Chemical equations (e.g. $2H_2 + O_2 \\rightarrow 2H_2O$)
+       ONLY IF NEEDED. NO NEED TO Unnessasarily include latex in areas its not even needed
 
     Keep the hint concise, encouraging, and focused on guiding rather than solving.
-    Use LaTeX notation for all mathematical and scientific expressions.
+    Use LaTeX notations for mathematical and scientific expressions.
     Format in Markdown with proper spacing.
     Start directly instead of writing "Hint: " or "### HINT" in beginning of your response.
     """
