@@ -1206,7 +1206,11 @@ def get_analytics():
 
 @app.route("/api/updates", methods=["GET"])
 def get_updates():
-    return jsonify(UPDATE_LOGS[0]), 200
+    updates = UPDATE_LOGS
+    if updates:
+        return jsonify(updates[0]), 200
+    else:
+        return jsonify({"message": "No updates found"}), 200
 
 
 @app.route("/api/fetch_coins", methods=["GET"])
@@ -1286,7 +1290,7 @@ def fetch_coins():
         first_lesson = get_all_lessons_for_subject(random_subject, is_class10)[0]
         new_tasks.append({"id": 3, "title": "New Horizons", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": first_lesson, "subject": random_subject}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": random_subject, "lessons": [first_lesson]}})
     elif len(unattempted_subjects) >= 2:
-        available_subjects = [s for s in unattempted_subjects if s != subject_for_task2]
+        available_subjects = [s for s in ["Math", "Science", "SS"] if s != subject_for_task2]
         subject_for_task3 = random.choice(available_subjects)
         first_lesson_for_task3 = get_all_lessons_for_subject(subject_for_task3, is_class10)[0]
         new_tasks.append({"id": 3, "title": "Explore New Topics", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": first_lesson_for_task3, "subject": subject_for_task3}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": subject_for_task3, "lessons": [first_lesson_for_task3]}})
