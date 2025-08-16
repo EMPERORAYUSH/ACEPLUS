@@ -3,35 +3,26 @@ import React, { useEffect, useState } from 'react';
 import Notification from './Notification';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import styled from 'styled-components';
 import UpdatePopup from './UpdatePopup';
 import LeaderboardPopup from './LeaderboardPopup';
 import { api } from '../utils/api';
-
-// Styled Components for skeleton loading
-const SkeletonPulse = styled.div`
-  .skeleton {
-    background: transparent;
-  }
-  `;
+import './body-content.css';
 
 // Animation variants
 const cardVariants = {
   hidden: { 
     opacity: 0, 
-    scale: 0.8, 
-    y: 50 
+    scale: 0.9, 
+    y: 40 
   },
-  visible: (index) => ({ 
+  visible: (index) => ({
     opacity: 1, 
     scale: 1, 
     y: 0,
     transition: {
-      duration: 0.8,
-      delay: index * 0.2,
-      type: "spring",
-      stiffness: 100,
-      damping: 15
+      duration: 0.6,
+      delay: index * 0.15,
+      ease: "easeOut"
     }
   })
 };
@@ -40,7 +31,7 @@ const fadeTransition = {
   hidden: {
     opacity: 0,
     scale: 0.95,
-    filter: 'blur(10px)',
+    filter: 'blur(10px)'
   },
   visible: {
     opacity: 1,
@@ -62,22 +53,12 @@ const fadeTransition = {
   }
 };
 
-// Skeleton Card Component
-const SkeletonCard = () => (
-  <SkeletonPulse>
-    <div className="card skeleton">
-      <div className="skeleton-title"></div>
-      <div className="skeleton-value"></div>
-    </div>
-  </SkeletonPulse>
-);
-
 function Content() {
   const initialCardData = [
     { title: "Total Exams Attempted", value: "NA" },
     { title: "Total Marks Attempted", value: "NA" },
     { title: "Total Marks Gained", value: "NA" },
-    { title: "Average Percentage", value: "NA" },
+    { title: "Average Percentage", value: "NA" }
   ];
 
   const navigate = useNavigate();
@@ -126,9 +107,9 @@ function Content() {
 
   const fetchLeaderboard = async () => {
     try {
-      const data = await api.getLeaderboard(1, 20);
-      const storedLeaderboardId = localStorage.getItem('lastSeenLeaderboardId');
-      const newLeaderboardId = data.leaderboard_id;
+      const data = await api.getLeaderboard(1, 20); 
+      const storedLeaderboardId = localStorage.getItem('lastSeenLeaderboardId'); 
+      const newLeaderboardId = data.leaderboard_id; 
 
       setCurrentLeaderboardId(newLeaderboardId);
 
@@ -136,11 +117,10 @@ function Content() {
       const filteredLeaderboard = data.leaderboard
         .filter(entry => entry.name !== 'UNKNOWN')
         .map((entry, index) => ({
-          ...entry,
-          rank: index + 1
-        }));
+          ...entry, rank: index + 1 
+        })); 
       data.leaderboard = filteredLeaderboard;
-      
+
       if (newLeaderboardId && newLeaderboardId !== storedLeaderboardId) {
         setLeaderboardData(data);
         setShowLeaderboardPopup(true);
@@ -151,7 +131,7 @@ function Content() {
   };
 
   useEffect(() => {
-    let isMounted = true;
+    let isMounted = true; 
     const fetchData = async () => {
       try {
         if (!localStorage.getItem('token')) {
@@ -189,17 +169,16 @@ function Content() {
             { title: "Total Exams Attempted", value: stats.total_exams || 0 },
             { title: "Total Marks Attempted", value: stats.total_marks || 0 },
             { title: "Total Marks Gained", value: stats.marks_gained || 0 },
-            { title: "Average Percentage", value: stats.average_percentage || "0.00%" },
+            { title: "Average Percentage", value: stats.average_percentage || "0.00%" }
           ];
         } else {
           formattedData = [
             { title: "Total Exams Attempted", value: 0 },
             { title: "Total Marks Attempted", value: 0 },
             { title: "Total Marks Gained", value: 0 },
-            { title: "Average Percentage", value: "0.00%" },
+            { title: "Average Percentage", value: "0.00%" }
           ];
-        }
-        if (isMounted) {
+        } if (isMounted) {
           setCardData(formattedData);
         }
       } catch (error) {
@@ -252,7 +231,7 @@ function Content() {
           leaderboardId={currentLeaderboardId}
         />
       )}
-      <motion.div 
+      <motion.div
         className="content"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -268,7 +247,6 @@ function Content() {
               initial="hidden"
               animate="visible"
               custom={index}
-              whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
               <AnimatePresence mode="wait">
@@ -280,7 +258,10 @@ function Content() {
                     exit="exit"
                     variants={fadeTransition}
                   >
-                    <SkeletonCard />
+                    <div className="card skeleton">
+                      <div className="skeleton-title"></div>
+                      <div className="skeleton-value"></div>
+                    </div>
                   </motion.div>
                 ) : (
                   <motion.div
@@ -290,9 +271,12 @@ function Content() {
                     variants={fadeTransition}
                   >
                     <div className="info-text">{card.title}</div>
-                    <motion.div 
+                    <motion.div
                       className="number"
-                      initial={{ scale: animateNumbers ? 0 : 1, opacity: animateNumbers ? 0 : 1 }}
+                      initial={{
+                        scale: animateNumbers ? 0 : 1,
+                        opacity: animateNumbers ? 0 : 1
+                      }}
                       animate={{ scale: 1, opacity: 1 }}
                       transition={{
                         type: "spring",

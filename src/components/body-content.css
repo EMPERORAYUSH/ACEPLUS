@@ -1,0 +1,197 @@
+/* Body Content Component Styles */
+
+/* Content container styles */
+.content {
+  margin-left: 80px;
+  padding: 20px;
+  padding-top: 80px; /* Adjust for sticky header */
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+/* Container grid styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  align-items: start;
+  perspective: 1000px;
+}
+
+/* Card styles */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  height: 200px;
+  transition: opacity 2s ease, transform 0.3s ease, box-shadow 0.3s ease, background-color 2s ease;
+  transform-origin: center center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-size: 400% 400%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover::before {
+  opacity: 1;
+  animation: rainbow 15s linear infinite;
+}
+
+.container:hover .card:not(:hover) {
+  transform: scale(0.95);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4),
+              0 0 20px rgba(255, 255, 255, 0.4);
+  z-index: 1;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Card color variations */
+.card:nth-child(1) { background-color: #667eea; }
+.card:nth-child(2) { background-color: #f093fb; }
+.card:nth-child(3) { background-color: #43e97b; }
+.card:nth-child(4) { background-color: #fa709a; }
+
+.card:nth-child(1)::before { background-image: linear-gradient(45deg, #667eea,#667eea,#667eea,#0000ff, #ff7f00, #ffff00, #00ff00, #8b00ff, #667eea); }
+.card:nth-child(2)::before { background-image: linear-gradient(45deg, #f093fb,#f093fb,#f093fb, #ffff00, #00ff00, #0000ff, #8b00ff, #ff0000, #f093fb); }
+.card:nth-child(3)::before { background-image: linear-gradient(45deg, #43e97b,#43e97b,#43e97b , #00ff00, #ffff00 , #8b00ff, #ff0000, #ff7f00, #43e97b); }
+.card:nth-child(4)::before { background-image: linear-gradient(45deg, #fa709a,#fa709a,#fa709a,  #ff0000, #8b00ff, #ff7f00, #ffff00, #fa709a); }
+
+/* Text styles */
+.info-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.number {
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 2;
+  cursor: default;
+}
+
+/* Skeleton styles */
+.skeleton {
+  background: transparent;
+}
+
+.skeleton-title {
+  width: 150px;
+  height: 36px;
+  border-radius: 12px;
+  background: #2a2a2a;
+  background-image: linear-gradient(
+    110deg,
+    #2a2a2a 25%,
+    #3a3a3a 37%,
+    #2a2a2a 63%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.skeleton-value {
+  width: 100px;
+  height: 24px;
+  border-radius: 12px;
+  background: #2a2a2a;
+  background-image: linear-gradient(
+    110deg,
+    #2a2a2a 25%,
+    #3a3a3a 37%,
+    #2a2a2a 63%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0;
+    height: 90%;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+    overflow-y: auto;
+    height: 100%;
+    padding-bottom: 60px;
+  }
+
+  .card {
+    height: 180px;
+    transform: none !important;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: none !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .container:hover .card:not(:hover) {
+    transform: none !important;
+  }
+}
+
+@media (max-height: 600px) {
+  .card {
+    height: 150px;
+  }
+  .card:hover {
+    transform: none !important;
+  }
+  .container:hover .card:not(:hover) {
+    transform: none !important;
+  }
+}
+
+/* Sidebar hover effect on content */
+.sidebar:hover ~ .content {
+  margin-left: 220px;
+}
