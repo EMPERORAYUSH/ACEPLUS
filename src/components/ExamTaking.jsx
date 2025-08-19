@@ -52,6 +52,7 @@ const ReportButton = styled(motion.button)`
   -webkit-touch-callout: none;
   height: 32px;
   
+  
   &:disabled {
     cursor: default;
   }
@@ -651,7 +652,7 @@ const parseMarkdownTable = (text) => {
   };
 };
 
-// Update renderLatexText function to handle bold markdown
+// Simplified renderLatexText function without animations
 const renderLatexText = (text) => {
   if (!text) return null;
 
@@ -664,30 +665,19 @@ const renderLatexText = (text) => {
       const latex = part.slice(1, -1);
       return <InlineMath key={`latex-${index}`} math={latex} />;
     } else {
-      // Split non-LaTeX parts into words and process bold
-      const words = part.split(/\s+/);
-      return words.map((word, wordIndex) => {
-        const processedWord = word.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-        return word.trim() ? (
-          <motion.span
-            key={`word-${index}-${wordIndex}`}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ 
-              delay: (index + wordIndex) * 0.05,
-              duration: 0.3,
-              ease: "easeOut"
-            }}
-            style={{ display: 'inline-block', marginRight: '4px' }}
-            dangerouslySetInnerHTML={{ __html: processedWord }}
-          />
-        ) : ' ';
-      });
+      // Process bold markdown and return without animation
+      const processedText = part.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      return (
+        <span
+          key={`text-${index}`}
+          dangerouslySetInnerHTML={{ __html: processedText }}
+        />
+      );
     }
   });
 };
 
-// Update the renderTable function to support LaTeX
+// Simplified renderTable function without animations
 const renderTable = (tableData) => {
   return (
     <TableContainer>
@@ -756,59 +746,20 @@ const HintToggleButton = styled(motion.button)`
   }
 `;
 
+// Simplified animation variants - just fade in
 const questionCardVariants = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    y: 0,
-    transition: { duration: 0.3 },
-  },
-  exit: {
-    opacity: 0,
-    y: -20,
-    transition: { duration: 0.2 },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
-const buttonVariants = {
-  hidden: { opacity: 0, scale: 0.8, y: 50 },
-  visible: (index) => ({
-    opacity: 1,
-    scale: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      delay: index * 0.2,
-      type: 'spring',
-      stiffness: 100,
-      damping: 15,
-    },
-  }),
-};
-
-const fadeTransition = {
-  hidden: {
-    opacity: 0,
-    scale: 0.95,
-    filter: 'blur(10px)',
-  },
+const fadeInVariants = {
+  hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    scale: 1,
-    filter: 'blur(0px)',
-    transition: {
-      duration: 0.5,
-      ease: 'easeOut',
-    },
-  },
-  exit: {
-    opacity: 0,
-    scale: 1.05,
-    filter: 'blur(10px)',
-    transition: {
-      duration: 0.3,
-      ease: 'easeIn',
-    },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
@@ -824,20 +775,6 @@ const notificationVariants = {
     y: -20,
     transition: { duration: 0.2 }
   }
-};
-
-const particleVariants = {
-  animate: (i) => ({
-    y: [0, -15, 0],
-    x: [0, Math.sin(i * Math.PI) * 10, 0],
-    opacity: [0.8, 1, 0.8],
-    scale: [1, 1.2, 1],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      delay: i * 0.2,
-    }
-  })
 };
 
 const ExamTaking = () => {
@@ -1073,27 +1010,39 @@ const handleHintRequest = async (questionId, questionText) => {
   return (
     <ExamWrapper>
       <ExamContainer className="exam-taking-container">
-        <ExamHeader>
-          <ExamTitle>{examData.subject} Exam</ExamTitle>
-          <LessonsContainer>
-            {examData.lessons.map((lesson, index) => (
-              <LessonTag key={index}>
-                {lesson}
-              </LessonTag>
-            ))}
-          </LessonsContainer>
-        </ExamHeader>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <ExamHeader>
+            <ExamTitle>{examData.subject} Exam</ExamTitle>
+            <LessonsContainer>
+              {examData.lessons.map((lesson, index) => (
+                <LessonTag key={index}>
+                  {lesson}
+                </LessonTag>
+              ))}
+            </LessonsContainer>
+          </ExamHeader>
+        </motion.div>
 
-        <ExamIdSection>
-          <ExamIdTitle>
-            <FaChartLine />
-            Exam Details
-          </ExamIdTitle>
-          <ExamIdContent>
-            <ExamIdLabel>Exam ID:</ExamIdLabel>
-            <CopyableExamId examId={examData['exam-id']} />
-          </ExamIdContent>
-        </ExamIdSection>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <ExamIdSection>
+            <ExamIdTitle>
+              <FaChartLine />
+              Exam Details
+            </ExamIdTitle>
+            <ExamIdContent>
+              <ExamIdLabel>Exam ID:</ExamIdLabel>
+              <CopyableExamId examId={examData['exam-id']} />
+            </ExamIdContent>
+          </ExamIdSection>
+        </motion.div>
 
         <AnimatePresence>
           {showNotification && (
@@ -1173,45 +1122,23 @@ const handleHintRequest = async (questionId, questionText) => {
           return (
             <QuestionCard
               key={question.uniqueId}
-              variants={questionCardVariants}
-              initial="hidden"
-              animate="visible"
-              exit="exit"
-              custom={index}
-              transition={{ delay: index * 0.1 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                duration: 0.5,
+                delay: index < 5 ? 0.7 + (index * 0.4) : 1.9
+              }}
             >
               <ReportButton
-                onClick={() => handleReportQuestion(questionId, index)}
-                disabled={reportedQuestions.has(questionId) || reportingQuestion === questionId}
-                title={reportedQuestions.has(questionId) ? "Question reported" : "Report issue with question"}
-                variants={buttonVariants}
-                initial="hidden"
-                animate="visible"
-                custom={index}
-                whileHover={!reportedQuestions.has(questionId) ? { scale: 1.1 } : {}}
-                whileTap={!reportedQuestions.has(questionId) ? { scale: 0.9 } : {}}
-              >
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={
-                      reportingQuestion === questionId
-                        ? 'loading'
-                        : reportedQuestions.has(questionId)
-                        ? 'done'
-                        : 'initial'
-                    }
-                    variants={fadeTransition}
-                    initial="hidden"
-                    animate="visible"
-                    exit="exit"
-                  >
-                    <IconContainer
-                      status={reportingQuestion === questionId ? questionId : reportedQuestions.has(questionId) ? `${questionId}-done` : null}
-                      index={questionId}
-                    />
-                  </motion.div>
-                </AnimatePresence>
-              </ReportButton>
+               onClick={() => handleReportQuestion(questionId, index)}
+               disabled={reportedQuestions.has(questionId) || reportingQuestion === questionId}
+               title={reportedQuestions.has(questionId) ? "Question reported" : "Report issue with question"}
+             >
+               <IconContainer
+                 status={reportingQuestion === questionId ? questionId : reportedQuestions.has(questionId) ? `${questionId}-done` : null}
+                 index={questionId}
+               />
+             </ReportButton>
               
               <QuestionHeader>
                 <QuestionNumber>{index + 1}</QuestionNumber>
@@ -1224,11 +1151,7 @@ const handleHintRequest = async (questionId, questionText) => {
                 </div>
               </QuestionHeader>
 
-              <OptionsContainer
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: index * 0.1 + 0.3 }}
-              >
+              <OptionsContainer>
                 {question.options ? (
                   Object.entries(question.options).map(([key, value], optionIndex) => {
                     const isSelected = answers[question.uniqueId] === key;
@@ -1255,16 +1178,6 @@ const handleHintRequest = async (questionId, questionText) => {
                       >
                         <Option
                           className={isSelected ? 'selected' : ''}
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0 }}
-                          transition={{
-                            duration: 0.1,
-                            ease: "easeOut"
-                          }}
-                          whileTap={{
-                            scale: 0.98,
-                          }}
                         >
                           {`${key.toUpperCase()}. `}{renderLatexText(value)}
                         </Option>
@@ -1276,12 +1189,7 @@ const handleHintRequest = async (questionId, questionText) => {
                 )}
               </OptionsContainer>
               
-              <motion.div
-                style={{ marginTop: '1.5rem' }}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: index * 0.1 + 0.4 }}
-              >
+              <div style={{ marginTop: '1.5rem' }}>
                 <HintToggleButton
                   onClick={() => {
                     if (hints[question.uniqueId]) {
@@ -1292,42 +1200,18 @@ const handleHintRequest = async (questionId, questionText) => {
                   }}
                   disabled={loadingHints[question.uniqueId]}
                   isGenerated={hints[question.uniqueId]}
-                  variants={buttonVariants}
-                  initial="hidden"
-                  animate="visible"
-                  custom={index}
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
                 >
-                  <AnimatePresence mode="wait">
-                    <motion.div
-                      key={loadingHints[question.uniqueId] ? 'loading' : 'bulb'}
-                      variants={fadeTransition}
-                      initial="hidden"
-                      animate="visible"
-                      exit="exit"
-                      style={{ display: 'flex', alignItems: 'center' }}
-                    >
-                      {loadingHints[question.uniqueId] ? (
-                        <motion.div
-                          animate={{ rotate: 360 }}
-                          transition={{ 
-                            duration: 1,
-                            repeat: Infinity,
-                            ease: "linear"
-                          }}
-                        >
-                          <AiOutlineLoading3Quarters style={{ fontSize: '1.2rem' }} />
-                        </motion.div>
-                      ) : (
-                        <AiOutlineBulb />
-                      )}
-                    </motion.div>
-                  </AnimatePresence>
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
+                    {loadingHints[question.uniqueId] ? (
+                      <AiOutlineLoading3Quarters style={{ fontSize: '1.2rem' }} />
+                    ) : (
+                      <AiOutlineBulb />
+                    )}
+                  </div>
                   <span>
                     {loadingHints[question.uniqueId] ? 'Generating...' :
-                      hints[question.uniqueId] ? 
-                        (visibleHints[question.uniqueId] ? 'Hide Hint' : 'Show Hint') : 
+                      hints[question.uniqueId] ?
+                        (visibleHints[question.uniqueId] ? 'Hide Hint' : 'Show Hint') :
                         'Get Hint'
                     }
                   </span>
@@ -1391,7 +1275,7 @@ const handleHintRequest = async (questionId, questionText) => {
                     </HintContentWrapper>
                   </HintContainer>
                 )}
-              </motion.div>
+              </div>
             </QuestionCard>
           );
         })}
@@ -1469,9 +1353,17 @@ const handleHintRequest = async (questionId, questionText) => {
                     key={i}
                     r={1.5}
                     fill="#ffffff"
-                    custom={i}
-                    variants={particleVariants}
-                    animate="animate"
+                    animate={{
+                      y: [0, -15, 0],
+                      x: [0, Math.sin(i * Math.PI) * 10, 0],
+                      opacity: [0.8, 1, 0.8],
+                      scale: [1, 1.2, 1],
+                    }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      delay: i * 0.2,
+                    }}
                     style={{
                       originX: 0.5,
                       originY: 0.5,
