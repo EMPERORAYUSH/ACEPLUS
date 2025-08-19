@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
-import { ExamSkeletonLoading } from './Exam';
-import { Skeleton } from "@mui/material";
+import { Skeleton } from '@mui/material';
 import CreatableSelect from 'react-select/creatable';
 import { api } from '../utils/api';
+import ElegantLoader from './ElegantLoader';
 
 const TestCard = styled(motion.div)`
   background: ${props => props.bgColor};
@@ -112,16 +112,16 @@ const TeacherForm = styled(motion.div)`
 
 const FormGroup = styled.div`
   margin-bottom: 1.5rem;
-  
+
   label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #e2e8f0;
   }
-  
+
   select {
-    width: 100%;
+    width: 100px;
     padding: 0.75rem;
     border: 1px solid #2d3748;
     border-radius: 8px;
@@ -129,14 +129,12 @@ const FormGroup = styled.div`
     color: #ffffff;
     font-size: 1rem;
     cursor: ${props => props.isDisabled ? 'not-allowed' : 'pointer'};
-
     &:disabled {
       background-color: #1a1a1a;
       border-color: #2d3748;
       color: #718096;
       cursor: not-allowed;
     }
-
     option {
       background-color: #2d3748;
       color: #ffffff;
@@ -149,7 +147,6 @@ const FormGroup = styled.div`
       border-color: #4a5568;
       position: relative;
       z-index: 101;
-      
       &:hover {
         border-color: #4a5568;
       }
@@ -164,22 +161,19 @@ const FormGroup = styled.div`
     .react-select__option {
       background-color: #2d3748;
       color: #ffffff;
-
       &:hover {
         background-color: #4a5568;
       }
     }
-
     .react-select__multi-value {
       background-color: #4a5568;
-      
+
       .react-select__multi-value__label {
         color: #ffffff;
       }
-      
+
       .react-select__multi-value__remove {
         color: #ffffff;
-        
         &:hover {
           background-color: #e53e3e;
           color: #ffffff;
@@ -196,6 +190,7 @@ const FormGroup = styled.div`
     }
   }
 `;
+
 
 const DisabledInput = styled.input`
   width: 100%;
@@ -229,74 +224,19 @@ const GenerateButton = styled.button`
   font-size: 1rem;
   font-weight: 600;
   transition: background-color 0.2s ease;
-
   &:disabled {
     background-color: #2d3748;
-    opacity: 0.7;
+    opacity: 0.7; 
   }
-
   &:hover:not(:disabled) {
     background-color: #3d8b40;
   }
 `;
 
-const TestCardSkeleton = () => (
-  <motion.div 
-    className="test-card skeleton"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ duration: 0.3 }}
-    style={{
-      background: '#2a2a2a',
-      borderRadius: '15px',
-      padding: '2rem',
-      marginBottom: '1.5rem',
-      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-      height: '200px'
-    }}
-  >
-    {/* Header with subject and ID */}
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-      <Skeleton variant="text" width={120} height={32} style={{ background: 'rgba(255, 255, 255, 0.1)' }} />
-      <Skeleton variant="text" width={60} height={24} style={{ background: 'rgba(255, 255, 255, 0.1)' }} />
-    </div>
-
-    {/* Badges */}
-    <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
-      <Skeleton 
-        variant="rounded" 
-        width={120} 
-        height={35} 
-        style={{ background: 'rgba(255, 255, 255, 0.1)', borderRadius: '20px' }} 
-      />
-      <Skeleton 
-        variant="rounded" 
-        width={120} 
-        height={35} 
-        style={{ background: 'rgba(255, 255, 255, 0.1)', borderRadius: '20px' }} 
-      />
-    </div>
-
-    {/* Lesson tags */}
-    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-      {[1, 2, 3].map((n) => (
-        <Skeleton 
-          key={n}
-          variant="rounded" 
-          width={80} 
-          height={24} 
-          style={{ background: 'rgba(255, 255, 255, 0.1)', borderRadius: '15px' }} 
-        />
-      ))}
-    </div>
-  </motion.div>
-);
-
 const PageHeader = styled(motion.div)`
   margin-bottom: 2rem;
   padding-top: 1.5rem;
   text-align: center;
-  
   h1 {
     font-weight: 700;
     font-size: 2.2rem;
@@ -310,7 +250,7 @@ const PageHeader = styled(motion.div)`
   }
 `;
 
-const TestSeries = () => {
+function TestSeries() {
   const [tests, setTests] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [showSkeletonLoading, setShowSkeletonLoading] = useState(false);
@@ -320,14 +260,14 @@ const TestSeries = () => {
   const startTimeRef = useRef(null);
   const lastProgressRef = useRef(0);
   const [isTeacher, setIsTeacher] = useState(false);
-  const [teacherSubject, setTeacherSubject] = useState('');
+  const [teacherSubject, setTeacherSubject] = useState("");
   const [teacherStandard, setTeacherStandard] = useState([]);
-  const [selectedStandard, setSelectedStandard] = useState('');
+  const [selectedStandard, setSelectedStandard] = useState("");
   const [selectedLessons, setSelectedLessons] = useState([]);
   const [availableLessons, setAvailableLessons] = useState([]);
   const [isLessonsLoading, setIsLessonsLoading] = useState(false);
-  const [customSubject, setCustomSubject] = useState('');
-  const [testName, setTestName] = useState('');
+  const [customSubject, setCustomSubject] = useState("");
+  const [testName, setTestName] = useState("");
   const [showSubjectWarning, setShowSubjectWarning] = useState(false);
 
   const getSubjectColor = (subject) => {
@@ -336,7 +276,7 @@ const TestSeries = () => {
       Science: '#2196F3', 
       English: '#FFC107', 
       SS: '#9C27B0'
-    };
+    }; 
     return colors[subject] || '#8B4513'; // Brown for custom subjects
   };
 
@@ -346,28 +286,30 @@ const TestSeries = () => {
       Science: '🧪', 
       English: '📚', 
       SS: '🌍' 
-    };
+    }; 
     return icons[subject] || '📚';
   };
 
   useEffect(() => {
     const fetchTests = async () => {
       try {
-        const data = await api.getTests();
+        const data = await api.getTests();  
         setTests(data.tests);
         setIsTeacher(data.teacher);
+
         if (data.teacher) {
           setTeacherSubject(data.teacher_subject);
           setCustomSubject(data.teacher_subject);
+
           if (data.teacher_standard) {
             setTeacherStandard(data.teacher_standard);
             setSelectedStandard(data.teacher_standard[0]);
           }
-        }
+        } 
       } catch (error) {
-        console.error('Error fetching tests:', error);
+        console.error('Error fetching tests:', error); 
       } finally {
-        setIsLoading(false);
+        setIsLoading(false); 
       }
     };
 
@@ -382,6 +324,7 @@ const TestSeries = () => {
 
   const fetchLessons = async () => {
     setIsLessonsLoading(true);
+
     try {
       const data = await api.getLessons(teacherSubject, selectedStandard === 10);
       setAvailableLessons(data.map(lesson => ({ value: lesson, label: lesson })));
@@ -404,8 +347,8 @@ const TestSeries = () => {
         type: 'automatic',
         test_name: testName,
       };
-      
-      navigate('/create-test', { state: { generatedTest: testData } });
+
+      navigate('/create-test', { state: { generatedTest: testData } }); 
     } catch (error) {
       console.error('Error:', error);
     } finally {
@@ -418,9 +361,9 @@ const TestSeries = () => {
       opacity: 0, 
       scale: 0.8, 
       y: 50,
-      rotateX: -15
+      rotateX: -15 
     },
-    visible: (index) => ({ 
+    visible: (index) => ({
       opacity: 1, 
       scale: 1, 
       y: 0,
@@ -432,7 +375,7 @@ const TestSeries = () => {
         stiffness: 100,
         damping: 15
       }
-    }),
+    }), 
     hover: {
       scale: 1.03,
       rotateX: 5,
@@ -450,7 +393,7 @@ const TestSeries = () => {
     hidden: {
       opacity: 0,
       scale: 0.95,
-      filter: 'blur(10px)',
+      filter: 'blur(10px)'
     },
     visible: {
       opacity: 1,
@@ -493,9 +436,9 @@ const TestSeries = () => {
     try {
       const examData = await api.createExam({
         test: true,
-        'test-id': testId
+        'test-id': testId,
       });
-      
+
       clearInterval(progressInterval.current);
       setProgress(100);
       
@@ -516,14 +459,19 @@ const TestSeries = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="test-series-container"
     >
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait">    
         {showSkeletonLoading ? (
           <SkeletonWrapper
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <ExamSkeletonLoading progress={progress} />
+            <ElegantLoader 
+              message="Preparing Your Test..." 
+              subMessage="Setting up questions and generating content"
+              progress={progress}
+              fullHeight={true}
+            />
           </SkeletonWrapper>
         ) : (
           <>
@@ -536,11 +484,7 @@ const TestSeries = () => {
             </PageHeader>
 
             {isTeacher && (
-              <TeacherForm
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-              >
+              <TeacherForm initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
                 <h2>Create New Test</h2>
                 <form onSubmit={handleGenerateTest}>
                   <FormGroup>
@@ -554,7 +498,7 @@ const TestSeries = () => {
                         if (newSubject !== teacherSubject) {
                           setShowSubjectWarning(true);
                           if (selectedLessons.length > 0) {
-                            setSelectedLessons([]);
+                            setSelectedLessons([]); // Clear if changed
                           }
                         } else {
                           setShowSubjectWarning(false);
@@ -606,11 +550,11 @@ const TestSeries = () => {
                       isLoading={isLessonsLoading}
                       isDisabled={!selectedStandard || customSubject !== teacherSubject}
                       placeholder={
-                        !selectedStandard
-                          ? "Select standard first"
-                          : customSubject !== teacherSubject
+                        !selectedStandard ? "Select standard first"
+                        : customSubject !== teacherSubject
                           ? "Lessons disabled for custom subject"
-                          : "Select lessons"}
+                          : "Select lessons"
+                      }
                       className="react-select-container"
                       classNamePrefix="react-select"
                       styles={{
@@ -621,21 +565,17 @@ const TestSeries = () => {
                         multiValueLabel: (base) => ({ ...base, color: '#ffffff' }),
                         multiValueRemove: (base) => ({ ...base, color: '#ffffff', ':hover': { background: '#e53e3e', color: '#ffffff' } }),
                         input: (base) => ({ ...base, color: '#ffffff' }),
-                        placeholder: (base) => ({ ...base, color: '#a0aec0' })
+                        placeholder: (base) => ({ ...base, color: '#a0aec0' }),
                       }}
                     />
                   </FormGroup>
-                  <GenerateButton
-                    type="submit"
-                    disabled={!selectedStandard}
-                  >
+                  <GenerateButton type="submit" disabled={!selectedStandard}>
                     Generate Test
                   </GenerateButton>
                 </form>
               </TeacherForm>
             )}
-
-            <motion.div 
+            <motion.div
               key="content"
               initial="hidden"
               animate="visible"
@@ -644,11 +584,10 @@ const TestSeries = () => {
               className="tests-grid"
             >
               {isLoading ? (
-                <div className="tests-grid">
-                  {[1, 2, 3].map((n) => (
-                    <TestCardSkeleton key={n} />
-                  ))}
-                </div>
+                <ElegantLoader 
+                  message="Loading Tests..." 
+                  subMessage="Fetching your test series"
+                />
               ) : tests.length === 0 ? (
                 <EmptyStateWrapper
                   initial={{ opacity: 0, y: 50 }}
@@ -699,55 +638,55 @@ const TestSeries = () => {
                     whileTap={{ scale: 0.98 }}
                     custom={index}
                     onClick={() => handleTestClick(test['test-id'])}
-                >
-                  <TestInfo>
-                    <h2>{test.test_name || `${getSubjectIcon(test.subject)} ${test.subject}`}</h2>
-                    <span className="test-id">#{test['test-id']}</span>
-                  </TestInfo>
-                  
-                  <TestDetails>
-                    <Badge>
-                      <span>📝</span>
-                      {test.questions} Questions
-                    </Badge>
+                  >
+                    <TestInfo>
+                      <h2>{test.test_name || `${getSubjectIcon(test.subject)} ${test.subject}`}</h2>
+                      <span className="test-id">#{test['test-id']}</span>
+                    </TestInfo>
+                    
+                    <TestDetails>
+                      <Badge>
+                        <span>📝</span>
+                        {test.questions} Questions
+                      </Badge>
+                      {test.lessons.length > 0 && (
+                        <Badge>
+                          <span>📚</span>
+                          {test.lessons.length} Lessons
+                        </Badge>
+                      )}
+                      {test.test_name && (
+                        <Badge>
+                          <span>{getSubjectIcon(test.subject)}</span>
+                          {test.subject}
+                        </Badge>
+                      )}
+                    </TestDetails>
+
+                    {test.description && (
+                      <TestDescription>{test.description}</TestDescription>
+                    )}
+
                     {test.lessons.length > 0 && (
-                      <Badge>
-                        <span>📚</span>
-                        {test.lessons.length} Lessons
-                      </Badge>
+                      <div className="lessons-list">
+                        {test.lessons.map((lesson, idx) => (
+                          <motion.span
+                            key={idx}
+                            className="lesson-tag"
+                            initial={{ opacity: 0, scale: 0.8, x: -20 }}
+                            animate={{ opacity: 1, scale: 1, x: 0 }}
+                            transition={{
+                              delay: index * 0.1 + idx * 0.05,
+                              type: "spring",
+                              stiffness: 200,
+                              damping: 15
+                            }}
+                          >
+                            {lesson}
+                          </motion.span>
+                        ))}
+                      </div>
                     )}
-                    {test.test_name && (
-                      <Badge>
-                        <span>{getSubjectIcon(test.subject)}</span>
-                        {test.subject}
-                      </Badge>
-                    )}
-                  </TestDetails>
-
-                  {test.description && (
-                    <TestDescription>{test.description}</TestDescription>
-                  )}
-
-                  {test.lessons.length > 0 && (
-                    <div className="lessons-list">
-                      {test.lessons.map((lesson, idx) => (
-                        <motion.span
-                          key={idx}
-                          className="lesson-tag"
-                          initial={{ opacity: 0, scale: 0.8, x: -20 }}
-                          animate={{ opacity: 1, scale: 1, x: 0 }}
-                          transition={{
-                            delay: index * 0.1 + idx * 0.05,
-                            type: "spring",
-                            stiffness: 200,
-                            damping: 15
-                          }}
-                        >
-                          {lesson}
-                        </motion.span>
-                      ))}
-                    </div>
-                  )}
                   </TestCard>
                 ))
               )}
