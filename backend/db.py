@@ -216,7 +216,6 @@ def get_user_subjects(user_id, subject=None, class10=False):
     if not division:
         return None
     subjects = data_store[class_num]['collections'][1][f'Div{division}']['Subjects'].get(user_id, [])
-    print(subjects)
     if subject:
         subject_stats = next((subj for subj in subjects if subj['subject'].lower() == subject.lower()), None)
         if subject_stats:
@@ -228,12 +227,8 @@ def get_user_exam_history(user_id, class10=False):
     """Fetches user exam history from the data store."""
     class_num = 10 if class10 else 9
     user_exam_history = data_store[class_num]['collections'][2]['ExamHistory'].get(user_id, {})
-
-    print(f"User exam history for {user_id}: {user_exam_history}")  # Debug print
-
     if user_exam_history:
         overview_stats = user_exam_history.get('overview-stats', [])
-        print(f"Overview stats for {user_id}: {overview_stats}")  # Debug print
         return overview_stats
     else:
         return []
@@ -547,7 +542,6 @@ def update_exam_solution(exam_id, question_index, solution, class10=False):
                 data_store[class_num]['collections'][3]['Exams'][exam_id]['results'][question_index]['solution'] = solution
     
     if result.modified_count > 0:
-        print(f"Solution for question {question_index} in exam {exam_id} updated successfully")
         return True
     else:
         print(f"Failed to update solution for question {question_index} in exam {exam_id}")
@@ -1119,12 +1113,10 @@ def get_average_percentage():
             i += 1
             if exam.get('is_submitted', False):
                 try:
-                    print(exam['percentage'])
                     percentages.append(exam['percentage'])
                 except:  # noqa: E722
                     pass
     if percentages:
-        print(i)
         return statistics.median(percentages)
     return 0
 
