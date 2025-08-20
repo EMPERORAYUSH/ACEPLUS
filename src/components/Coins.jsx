@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FaTimes, FaCoins, FaArrowRight } from 'react-icons/fa';
+import { FaTimes, FaCoins, FaArrowRight, FaCheck } from 'react-icons/fa';
 import './Coins.css';
 
 const Coins = ({ isOpen, onClose, tasks, coins }) => {
   const [isRendered, setIsRendered] = useState(false);
+  const [isGoAnimating, setIsGoAnimating] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     if (isOpen) {
       setIsRendered(true);
+      setIsGoAnimating(false);
     }
   }, [isOpen]);
 
@@ -22,8 +24,9 @@ const Coins = ({ isOpen, onClose, tasks, coins }) => {
       setIsRendered(false);
     }
   };
-
-  const handleActionClick = (action) => {
+const handleActionClick = (action) => {
+  // Local helper to perform navigation based on action type
+  const navigateFor = (action) => {
     if (action.type === 'exam') {
       if (action.lessons && action.lessons.length > 0) {
         navigate('/exam/g/create', { state: { subject: action.subject, lessons: action.lessons } });
@@ -35,9 +38,29 @@ const Coins = ({ isOpen, onClose, tasks, coins }) => {
     } else if (action.type === 'test') {
       navigate('/exam/g/create', { state: { testId: action['test-id'] } });
     }
-    handleClose();
   };
 
+  // Respect reduced-motion preferences: skip animation and delay
+  const prefersReduced =
+    typeof window !== 'undefined' &&
+    window.matchMedia &&
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (prefersReduced) {
+    navigateFor(action);
+    handleClose();
+    setIsRendered(false);
+    return;
+  }
+
+  // Trigger a short pulse-and-fade on the entire popup, then navigate/close
+  setIsGoAnimating(true);
+  setTimeout(() => {
+    navigateFor(action);
+    handleClose();
+    setIsRendered(false);
+  }, 200);
+};
   const generateTaskDescription = (task) => {
     if (!task.details || !task.details.text) {
       return <p className="task-description">{task.description}</p>;
@@ -73,11 +96,28 @@ const Coins = ({ isOpen, onClose, tasks, coins }) => {
     return <p className="task-description">{parts}</p>;
   };
 
+  const computeProgress = (task) => {
+    // Use details.completed/details.total when present
+    if (task.details?.completed !== null && task.details?.total) {
+      const percent = Math.round((task.details.completed / task.details.total) * 100);
+      return { percent, label: `${task.details.completed}/${task.details.total}` };
+    }
+    
+    // Otherwise fall back to num_completed/details.count
+    if (typeof task.num_completed === 'number' && task.details?.count) {
+      const percent = Math.round((task.num_completed / task.details.count) * 100);
+      return { percent, label: `${task.num_completed}/${task.details.count}` };
+    }
+    
+    // Gracefully handle missing/invalid values
+    return { percent: 0, label: '0/0' };
+  };
+
   if (!isRendered) return null;
 
   return (
     <div
-      className={`coins-popup-overlay ${!isOpen ? 'closing' : ''}`}
+      className={`coins-popup-overlay ${!isOpen && !isGoAnimating ? 'closing' : ''}`}
       onClick={(e) => {
         if (e.target === e.currentTarget) {
           handleClose();
@@ -88,7 +128,7 @@ const Coins = ({ isOpen, onClose, tasks, coins }) => {
       aria-labelledby="daily-tasks-title"
     >
       <div
-        className={`coins-popup ${!isOpen ? 'closing' : ''}`}
+        className={`coins-popup ${isGoAnimating ? 'go-anim' : ''} ${!isOpen && !isGoAnimating ? 'closing' : ''}`}
         onAnimationEnd={onAnimationEnd}
         role="document"
       >
@@ -107,8 +147,37 @@ const Coins = ({ isOpen, onClose, tasks, coins }) => {
             tasks.map((task) => (
               <div key={task.id} className={`task-card ${task.completed ? 'completed' : ''}`}>
                 <div className="task-info">
-                  <h3 className="task-title">{task.title}</h3>
+                  <div className="task-title-container">
+                    <h3 className="task-title">{task.title}</h3>
+                    {task.completed && (
+                      <span className="completed-chip">
+                        <FaCheck /> Completed
+                      </span>
+                    )}
+                  </div>
                   {generateTaskDescription(task)}
+                  {typeof task.num_completed === 'number' || (task.details?.completed !== null && task.details?.total) ? (
+                    (() => {
+                      const { percent, label } = computeProgress(task);
+                      return (
+                        <div className="task-progress-container">
+                          <div
+                            className="task-progress-track"
+                            role="progressbar"
+                            aria-valuenow={percent}
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          >
+                            <div
+                              className="task-progress-fill"
+                              style={{ width: `${Math.min(Math.max(percent, 0), 100)}%` }}
+                            ></div>
+                          </div>
+                          <span className="task-progress-label">{label}</span>
+                        </div>
+                      );
+                    })()
+                  ) : null}
                 </div>
                 <div className="task-meta">
                   <div className="task-reward">
@@ -120,8 +189,9 @@ const Coins = ({ isOpen, onClose, tasks, coins }) => {
                     onClick={() => handleActionClick(task.action)}
                     disabled={task.completed}
                     aria-label={`${task.cta} - ${task.title}`}
+                    title={task.completed ? "Already completed today" : ""}
                   >
-                    <span>{task.completed ? 'Completed' : typeof task.num_completed === 'number' ? `${task.num_completed}/${task.details.count} Done` : task.cta || 'Go'}</span>
+                    <span>{task.completed ? 'Completed' : (typeof task.num_completed === 'number' || (task.details?.completed !== null && task.details?.total)) ? 'Go' : task.cta || 'Go'}</span>
                     {!task.completed && <FaArrowRight />}
                   </button>
                 </div>
