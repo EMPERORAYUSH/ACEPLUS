@@ -45,12 +45,61 @@ function BottomNav() {
   };
 
   useEffect(() => {
-    const activeButton = navRef.current.querySelector('.nav-item.active');
-    if (activeButton && highlightRef.current) {
-      highlightRef.current.style.width = `${activeButton.offsetWidth}px`;
-      highlightRef.current.style.left = `${activeButton.offsetLeft}px`;
+    const navEl = navRef.current;
+    const highlightEl = highlightRef.current;
+    if (!navEl || !highlightEl) return;
+
+    const compute = () => {
+      const activeButton = navEl.querySelector('.nav-item.active');
+      if (!activeButton) return;
+
+      const navRect = navEl.getBoundingClientRect();
+      const btnRect = activeButton.getBoundingClientRect();
+      const left = btnRect.left - navRect.left + navEl.scrollLeft;
+
+      // Apply only when expanded to avoid applying during contract state
+      if (navEl.classList.contains('expand')) {
+        highlightEl.style.width = `${btnRect.width}px`;
+        highlightEl.style.left = `${left}px`;
+      }
+    };
+
+    // Initial compute and a couple of post-layout frames
+    compute();
+    const raf1 = requestAnimationFrame(compute);
+    const raf2 = requestAnimationFrame(compute);
+
+    const onResize = () => compute();
+    window.addEventListener('resize', onResize);
+    window.addEventListener('orientationchange', onResize);
+
+    // Observe element size changes, including class-driven max-width/media-query effects
+    let ro = null;
+    if ('ResizeObserver' in window) {
+      ro = new ResizeObserver(() => {
+        requestAnimationFrame(compute);
+      });
+      ro.observe(navEl);
     }
-  }, [location]);
+
+    // React to contract <-> expand class changes on the nav itself
+    const mo = new MutationObserver(() => {
+      requestAnimationFrame(() => {
+        compute();
+        requestAnimationFrame(compute);
+      });
+    });
+    mo.observe(navEl, { attributes: true, attributeFilter: ['class'] });
+
+    return () => {
+      window.removeEventListener('resize', onResize);
+      window.removeEventListener('orientationchange', onResize);
+      if (ro) ro.disconnect();
+      mo.disconnect();
+      cancelAnimationFrame(raf1);
+      cancelAnimationFrame(raf2);
+    };
+  }, [location.pathname]);
 
   return (
     <div className={`bottom-nav ${isScrolled ? 'scrolled' : ''}`}>
