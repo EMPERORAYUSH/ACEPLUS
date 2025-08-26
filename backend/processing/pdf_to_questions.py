@@ -16,6 +16,7 @@ from pdf_prompts import (
     get_format_prompt,
 )
 import copy
+import concurrent.futures
 from typing import Dict, List, Tuple, Any
 from pdftext.extraction import plain_text_output
 # Get the script's directory
@@ -173,22 +174,23 @@ def load_lessons_data(class10=False):
         logger.error(f"Error loading lessons data: {str(e)}\n{traceback.format_exc()}")
         return None
 
-def remove_delimited_text(text, delimiter):
+def remove_delimited_text(text, start_delimiter, end_delimiter):
     result = []
     last_index = 0
-    delimiter_len = len(delimiter)
+    start_delimiter_len = len(start_delimiter)
+    end_delimiter_len = len(end_delimiter)
 
     while True:
-        start_index = text.find(delimiter, last_index)
+        start_index = text.find(start_delimiter, last_index)
         if start_index == -1:
             break
 
-        end_index = text.find(delimiter, start_index + delimiter_len)
+        end_index = text.find(end_delimiter, start_index + start_delimiter_len)
         if end_index == -1:
             break
 
         result.append(text[last_index:start_index])
-        last_index = end_index + delimiter_len
+        last_index = end_index + end_delimiter_len
 
     result.append(text[last_index:])
     return "".join(result)
@@ -376,9 +378,9 @@ def process_pdf(pdf_path, subject, class_num):
         logger.error(f"Error generating questions: {e}")
     if not questions_str:
         raise ValueError("No response received")
-    questions_str = remove_delimited_text(questions_str, "<explaination>")
+    questions_str = remove_delimited_text(questions_str, "<explaination>", "</explaination>")
     print(f"\n\n\n\n {questions_str} \n\n\n\n")
-    logger.info(f"Starting validation for {lesson_name}") 
+    logger.info(f"Starting formatting for {lesson_name}") 
 
     #initialzing vars
     try_count = 0
@@ -406,6 +408,7 @@ def process_pdf(pdf_path, subject, class_num):
         validation = validate_questions(questions_json)
         logger.info(f"validation: {validation}")
         if validation[2]:
+            print(validation)
             question_issues = validation[0]
             logger.info(f"Found Question issues: {question_issues}")
             distribution_issues = validation[1]
@@ -422,6 +425,7 @@ def process_pdf(pdf_path, subject, class_num):
             new_questions = model_inference(mode="ADDITIONAL_QUESTIONS", system_prompt=system_prompt, prompt=prompt, reasoning_effort="medium")
             print(f"\n\n\n\n {new_questions} \n\n\n\n")
             question_js = format_questions_as_json(new_questions)
+            print(question_js)
             if question_js is None:
                 logger.error("Question formatting failed. cheack previous logs for details.")
                 error_count += 1
@@ -432,9 +436,12 @@ def process_pdf(pdf_path, subject, class_num):
             continue
     
         questions_json = add_new_questions_to_json(questions_json, question_js)
-        print(f"\n\n\n\n {questions_json} \n\n\n\n")
-        print(validate_questions(questions_json))
-        continue
+        validation2  = validate_questions(questions_json)
+        if validation2[2]:
+            print(validation)
+            continue
+        else:
+            break
     # Verify answers using randomly selected model
     logger.info("Verifying answers for given questions...")
     formatted_questions = []

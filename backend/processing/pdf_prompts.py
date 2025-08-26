@@ -30,7 +30,7 @@ common_instructions_mcq = """
     *   `(B) [Text for Option B]`
     *   `(C) [Text for Option C]`
     *   `(D) [Text for Option D]`
-*   `<explaination [Provide detailed step-by-step solution for problem-solving/numerical questions. For other types, provide a clear justification for the correct answer, referencing "the Lesson."] <explaination>` 
+*   `<explaination> [Provide detailed step-by-step solution for problem-solving/numerical questions. For other types, provide a clear justification for the correct answer, referencing "the Lesson."] </explaination>` 
 *   `Correct Answer: [Specify A, B, C, or D]`
 Clearly mark heading before starting each category of questions and use '---' to separate question categories.
 BEFORE BEGINNING EACH QUESTION CATEGORY, write category code for the category in json. like this : {{"category_code": "A"}}
