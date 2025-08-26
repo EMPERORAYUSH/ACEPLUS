@@ -1,378 +1,1432 @@
 [
   {
-    "question": "What is the reference point for describing the location of an object?",
+    "question_number": 1,
+    "question": "According to the lesson, what is the most common way we perceive an object to be in motion?",
     "options": {
-      "a": "The starting point of the object's motion",
-      "b": "Any point on the object's path of motion",
-      "c": "A fixed point with respect to which the object's position is measured",
-      "d": "The final point of the object's motion"
+      "a": "When its mass changes with time.",
+      "b": "When its position changes with time.",
+      "c": "When its color changes with time.",
+      "d": "When its temperature changes with time."
     },
-    "answer": "c",
-    "id": 485
+    "answer": "b"
   },
   {
-    "question": "A car travels 400 km in 8 hours. What is its average speed?",
+    "question_number": 2,
+    "question": "To describe the position of an object, what is the essential requirement mentioned in the lesson?",
     "options": {
-      "a": "40 km/h",
-      "b": "50 km/h",
-      "c": "60 km/h",
-      "d": "80 km/h"
+      "a": "Its exact mass.",
+      "b": "Its speed and direction.",
+      "c": "A reference point, also called the origin.",
+      "d": "The total distance it has covered."
     },
-    "answer": "b",
-    "id": 486
+    "answer": "c"
   },
   {
-    "question": "Assertion: An object moving in a circular path with constant speed is accelerating. \nReason: Its direction of motion is changing continuously.",
+    "question_number": 3,
+    "question": "What is defined as the total path length covered by an object?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "Displacement",
+      "b": "Velocity",
+      "c": "Distance",
+      "d": "Acceleration"
     },
-    "answer": "a",
-    "id": 487
+    "answer": "c"
   },
   {
-    "question": "A bus traveling at 20 m/s applies its brakes and comes to a stop in 5 seconds. What is the acceleration of the bus?",
+    "question_number": 4,
+    "question": "Which physical quantity is described by specifying only its numerical value and not the direction of motion?",
     "options": {
-      "a": "4 m/s²",
-      "b": "-4 m/s²",
-      "c": "2 m/s²",
-      "d": "-2 m/s²"
+      "a": "Displacement",
+      "b": "Velocity",
+      "c": "Acceleration",
+      "d": "Distance"
     },
-    "answer": "b",
-    "id": 488
+    "answer": "d"
   },
   {
-    "question": "Explain how the distance-time graph can be used to determine the speed of an object.",
-    "answer": "The speed of an object can be determined from its distance-time graph by calculating the slope of the graph. The slope is equal to the change in distance divided by the change in time, which is the definition of speed.",
-    "id": 489
-  },
-  {
-    "question": "A train travels from city A to city B with a speed of 60 km/h and returns to city A with a speed of 80 km/h. What is the average speed of the train for the entire journey?",
+    "question_number": 5,
+    "question": "What is the shortest distance measured from the initial to the final position of an object known as?",
     "options": {
-      "a": "70 km/h",
-      "b": "68.57 km/h",
-      "c": "75 km/h",
-      "d": "Cannot be determined without knowing the distance between A and B"
+      "a": "Path length",
+      "b": "Distance",
+      "c": "Displacement",
+      "d": "Trajectory"
     },
-    "answer": "d",
-    "id": 490
+    "answer": "c"
   },
   {
-    "question": "Assertion: The displacement of an object can be equal to or less than the distance traveled by the object.\nReason: Displacement is the shortest distance between the initial and final positions of an object, while distance is the actual path length covered.",
+    "question_number": 6,
+    "question": "When is an object said to be in uniform motion according to the lesson?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "When it covers unequal distances in equal intervals of time.",
+      "b": "When it covers equal distances in equal intervals of time.",
+      "c": "When its velocity changes at a non-uniform rate.",
+      "d": "When its speed is not constant."
     },
-    "answer": "a",
-    "id": 491
+    "answer": "b"
   },
   {
-    "question": "A cyclist travels a distance of 10 km in the first hour, 8 km in the second hour, and 6 km in the third hour. Calculate the average speed of the cyclist.",
+    "question_number": 7,
+    "question": "What type of motion occurs when an object covers unequal distances in equal intervals of time?",
     "options": {
-      "a": "6 km/h",
-      "b": "8 km/h",
-      "c": "10 km/h",
-      "d": "24 km/h"
+      "a": "Uniform motion",
+      "b": "Constant velocity motion",
+      "c": "Non-uniform motion",
+      "d": "Uniform acceleration"
     },
-    "answer": "b",
-    "id": 492
+    "answer": "c"
   },
   {
-    "question": "Analyze the following scenarios and determine if they describe uniform or non-uniform motion:\n(a) A car moving at a constant speed on a straight road.\n(b) A ball rolling down an inclined plane.\n(c) A pendulum swinging back and forth.",
-    "answer": "(a) Uniform motion\n(b) Non-uniform motion\n(c) Non-uniform motion",
-    "id": 493
-  },
-  {
-    "question": "The velocity-time graph of a car is a straight line inclined to the time axis. What can you conclude about the motion of the car?",
+    "question_number": 8,
+    "question": "What is the quantity referred to as speed?",
     "options": {
-      "a": "The car is at rest.",
-      "b": "The car is moving with uniform velocity.",
-      "c": "The car is moving with uniform acceleration.",
-      "d": "The car is moving with non-uniform acceleration."
+      "a": "The total time taken to cover a distance.",
+      "b": "The displacement per unit time.",
+      "c": "The distance travelled by the object in unit time.",
+      "d": "The change in velocity per unit time."
     },
-    "answer": "c",
-    "id": 494
+    "answer": "c"
   },
   {
-    "question": "A ball is thrown vertically upwards with an initial velocity of 20 m/s. Take g = 10 m/s². Calculate:\n(a) the maximum height reached by the ball.\n(b) the time taken to reach the maximum height.",
-    "answer": "(a) 20 m\n(b) 2 s",
-    "id": 495
-  },
-  {
-    "question": "Assertion: The average speed of an object in a journey can never be zero.\nReason: The average speed is the total distance traveled divided by the total time taken.",
+    "question_number": 9,
+    "question": "What is the SI unit of speed?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "km h\u207b\u00b9",
+      "b": "cm s\u207b\u00b9",
+      "c": "m s\u207b\u00b9",
+      "d": "m s\u207b\u00b2"
     },
-    "answer": "c",
-    "id": 496
+    "answer": "c"
   },
   {
-    "question": "Explain why the motion of a freely falling body is considered uniformly accelerated motion.",
-    "answer": "The motion of a freely falling body is considered uniformly accelerated motion because the acceleration due to gravity is constant near the Earth's surface. This means that the velocity of a freely falling body increases at a constant rate.",
-    "id": 497
-  },
-  {
-    "question": "A car starts from rest and accelerates uniformly at 2 m/s² for 10 seconds. Calculate the distance covered by the car during this time.",
+    "question_number": 10,
+    "question": "What is the quantity that specifies both the speed of an object and its direction of motion?",
     "options": {
-      "a": "50 m",
-      "b": "100 m",
-      "c": "200 m",
+      "a": "Distance",
+      "b": "Acceleration",
+      "c": "Velocity",
+      "d": "Magnitude"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 11,
+    "question": "How can the velocity of an object be changed?",
+    "options": {
+      "a": "By changing only its mass.",
+      "b": "By changing its speed, direction of motion, or both.",
+      "c": "By changing only the reference point.",
+      "d": "By changing the time interval."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 12,
+    "question": "For an object whose velocity is changing at a uniform rate, how is average velocity calculated?",
+    "options": {
+      "a": "Total distance travelled divided by total time taken.",
+      "b": "Product of initial and final velocity.",
+      "c": "Initial velocity minus final velocity.",
+      "d": "Arithmetic mean of initial velocity and final velocity."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 13,
+    "question": "What is the SI unit of acceleration?",
+    "options": {
+      "a": "m s\u207b\u00b9",
+      "b": "km h\u207b\u00b9",
+      "c": "m s\u207b\u00b2",
+      "d": "cm s\u207b\u00b2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 14,
+    "question": "When is acceleration taken to be negative?",
+    "options": {
+      "a": "When it is in the direction of velocity.",
+      "b": "When it is perpendicular to the direction of velocity.",
+      "c": "When it is opposite to the direction of velocity.",
+      "d": "When the velocity is constant."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 15,
+    "question": "What is an example of uniformly accelerated motion according to the lesson?",
+    "options": {
+      "a": "A car moving on a crowded street.",
+      "b": "A person jogging in a park.",
+      "c": "The motion of a freely falling body.",
+      "d": "A car travelling along a straight road increasing its speed by unequal amounts."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "In a distance-time graph, what is plotted along the x-axis?",
+    "options": {
+      "a": "Distance",
+      "b": "Speed",
+      "c": "Time",
+      "d": "Velocity"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 17,
+    "question": "What does a straight line graph represent for uniform speed on a distance-time graph?",
+    "options": {
+      "a": "Distance is decreasing at a uniform rate.",
+      "b": "Distance is increasing at a non-uniform rate.",
+      "c": "Distance is increasing at a uniform rate.",
+      "d": "Object is at rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 18,
+    "question": "What does the slope of a distance-time graph represent?",
+    "options": {
+      "a": "Acceleration",
+      "b": "Velocity (or speed magnitude)",
+      "c": "Displacement",
+      "d": "Time interval"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 19,
+    "question": "What does the area enclosed by the velocity-time graph and the time axis represent?",
+    "options": {
+      "a": "Speed",
+      "b": "Acceleration",
+      "c": "Displacement (or distance magnitude)",
+      "d": "Time"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 20,
+    "question": "Which equation of motion describes the velocity-time relation for an object moving with uniform acceleration?",
+    "options": {
+      "a": "s = ut + \u00bd at\u00b2",
+      "b": "v = u + at",
+      "c": "2as = v\u00b2 \u2013 u\u00b2",
+      "d": "v = s/t"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 21,
+    "question": "Which equation of motion represents the position-time relation?",
+    "options": {
+      "a": "v = u + at",
+      "b": "s = ut + \u00bd at\u00b2",
+      "c": "2as = v\u00b2 \u2013 u\u00b2",
+      "d": "a = (v-u)/t"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 22,
+    "question": "What is the motion of an object called if it moves in a circular path with uniform speed?",
+    "options": {
+      "a": "Non-uniform motion",
+      "b": "Uniform linear motion",
+      "c": "Uniform circular motion",
+      "d": "Rectilinear motion"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 23,
+    "question": "Why is uniform circular motion considered an accelerated motion?",
+    "options": {
+      "a": "Because the speed is constant.",
+      "b": "Because the direction of motion continuously changes.",
+      "c": "Because the radius of the path changes.",
+      "d": "Because the time period is constant."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 24,
+    "question": "An odometer is a device fitted in automobiles. What does it measure?",
+    "options": {
+      "a": "The speed of the vehicle.",
+      "b": "The time taken for a journey.",
+      "c": "The distance travelled.",
+      "d": "The acceleration of the vehicle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 25,
+    "question": "What is the numerical value of a physical quantity called?",
+    "options": {
+      "a": "Direction",
+      "b": "Unit",
+      "c": "Magnitude",
+      "d": "Dimension"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 26,
+    "question": "Which of the following is true for the object moving back to its initial position O, as described in Fig. 7.1?",
+    "options": {
+      "a": "Displacement is 120 km.",
+      "b": "Distance covered is 0 km.",
+      "c": "Displacement is zero.",
+      "d": "Distance covered is 60 km."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "For an object moving along a straight line with uniform velocity, how does the velocity change with time?",
+    "options": {
+      "a": "It decreases with time.",
+      "b": "It increases with time.",
+      "c": "It remains constant with time.",
+      "d": "It changes non-uniformly with time."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "When describing motion, what is the 'origin'?",
+    "options": {
+      "a": "The final position of the object.",
+      "b": "The point where the object changes its direction.",
+      "c": "The reference point from which the position of an object is specified.",
+      "d": "The point where the object comes to rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "What does a straight line parallel to the x-axis on a velocity-time graph represent?",
+    "options": {
+      "a": "Uniformly accelerated motion.",
+      "b": "Non-uniform velocity.",
+      "c": "Uniform velocity.",
+      "d": "Object at rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "Which of the following physical quantities is always positive or zero?",
+    "options": {
+      "a": "Displacement",
+      "b": "Velocity",
+      "c": "Acceleration",
+      "d": "Distance"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 31,
+    "question": "An object travels 16 m in 4 s and then another 16 m in 2 s. What is the average speed of the object?",
+    "options": {
+      "a": "4 m s\u207b\u00b9",
+      "b": "5.33 m s\u207b\u00b9",
+      "c": "8 m s\u207b\u00b9",
+      "d": "2.67 m s\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 32,
+    "question": "The odometer of a car reads 2000 km at the start of a trip and 2400 km at the end of the trip. If the trip took 8 h, calculate the average speed of the car in km h\u207b\u00b9.",
+    "options": {
+      "a": "25 km h\u207b\u00b9",
+      "b": "40 km h\u207b\u00b9",
+      "c": "50 km h\u207b\u00b9",
+      "d": "60 km h\u207b\u00b9"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 33,
+    "question": "Usha swims in a 90 m long pool. She covers 180 m in one minute by swimming from one end to the other and back along the same straight path. What is Usha's average speed?",
+    "options": {
+      "a": "0 m s\u207b\u00b9",
+      "b": "1.5 m s\u207b\u00b9",
+      "c": "3 m s\u207b\u00b9",
+      "d": "4.5 m s\u207b\u00b9"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 34,
+    "question": "Usha swims in a 90 m long pool. She covers 180 m in one minute by swimming from one end to the other and back along the same straight path. What is Usha's average velocity?",
+    "options": {
+      "a": "0 m s\u207b\u00b9",
+      "b": "1.5 m s\u207b\u00b9",
+      "c": "3 m s\u207b\u00b9",
+      "d": "4.5 m s\u207b\u00b9"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 35,
+    "question": "Starting from a stationary position, Rahul paddles his bicycle to attain a velocity of 6 m s\u207b\u00b9 in 30 s. Calculate the acceleration of the bicycle in this case.",
+    "options": {
+      "a": "0.1 m s\u207b\u00b2",
+      "b": "0.2 m s\u207b\u00b2",
+      "c": "0.3 m s\u207b\u00b2",
+      "d": "0.4 m s\u207b\u00b2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 36,
+    "question": "After attaining a velocity of 6 m s\u207b\u00b9, Rahul applies brakes such that the velocity of the bicycle comes down to 4 m s\u207b\u00b9 in the next 5 s. Calculate the acceleration of the bicycle during braking.",
+    "options": {
+      "a": "-0.2 m s\u207b\u00b2",
+      "b": "-0.4 m s\u207b\u00b2",
+      "c": "0.4 m s\u207b\u00b2",
+      "d": "-0.8 m s\u207b\u00b2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "A train starting from rest attains a velocity of 72 km h\u207b\u00b9 in 5 minutes. Assuming uniform acceleration, what is the acceleration of the train?",
+    "options": {
+      "a": "1/15 m s\u207b\u00b2",
+      "b": "1/30 m s\u207b\u00b2",
+      "c": "1/60 m s\u207b\u00b2",
+      "d": "1/120 m s\u207b\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 38,
+    "question": "A train starting from rest attains a velocity of 72 km h\u207b\u00b9 in 5 minutes. Assuming uniform acceleration, what is the distance travelled by the train for attaining this velocity?",
+    "options": {
+      "a": "1 km",
+      "b": "2 km",
+      "c": "3 km",
+      "d": "4 km"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 39,
+    "question": "A car accelerates uniformly from 18 km h\u207b\u00b9 to 36 km h\u207b\u00b9 in 5 s. Calculate the acceleration of the car.",
+    "options": {
+      "a": "0.5 m s\u207b\u00b2",
+      "b": "1 m s\u207b\u00b2",
+      "c": "1.5 m s\u207b\u00b2",
+      "d": "2 m s\u207b\u00b2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 40,
+    "question": "A car accelerates uniformly from 18 km h\u207b\u00b9 to 36 km h\u207b\u00b9 in 5 s. Calculate the distance covered by the car in that time.",
+    "options": {
+      "a": "25 m",
+      "b": "30 m",
+      "c": "37.5 m",
+      "d": "40 m"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 41,
+    "question": "The brakes applied to a car produce an acceleration of 6 m s\u207b\u00b2 in the opposite direction to the motion. If the car takes 2 s to stop after the application of brakes, calculate the initial speed of the car before braking.",
+    "options": {
+      "a": "6 m s\u207b\u00b9",
+      "b": "10 m s\u207b\u00b9",
+      "c": "12 m s\u207b\u00b9",
+      "d": "18 m s\u207b\u00b9"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "A car with an initial speed of 12 m s\u207b\u00b9 applies brakes producing an acceleration of -6 m s\u207b\u00b2. If it takes 2 s to stop, what distance does it travel during this time?",
+    "options": {
+      "a": "6 m",
+      "b": "12 m",
+      "c": "18 m",
+      "d": "24 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 43,
+    "question": "A bus starts from rest and moves with a uniform acceleration of 0.1 m s\u207b\u00b2 for 2 minutes. What is the speed acquired by the bus?",
+    "options": {
+      "a": "6 m s\u207b\u00b9",
+      "b": "12 m s\u207b\u00b9",
+      "c": "18 m s\u207b\u00b9",
+      "d": "24 m s\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 44,
+    "question": "A bus starts from rest and moves with a uniform acceleration of 0.1 m s\u207b\u00b2 for 2 minutes. What is the distance travelled by the bus?",
+    "options": {
+      "a": "360 m",
+      "b": "720 m",
+      "c": "1440 m",
+      "d": "2880 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 45,
+    "question": "A train is travelling at a speed of 90 km h\u207b\u00b9. Brakes are applied to produce a uniform acceleration of -0.5 m s\u207b\u00b2. How far will the train go before it is brought to rest?",
+    "options": {
+      "a": "312.5 m",
+      "b": "625 m",
+      "c": "937.5 m",
+      "d": "1250 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 46,
+    "question": "A trolley, while going down an inclined plane, has an acceleration of 2 cm s\u207b\u00b2. What will be its velocity 3 s after the start?",
+    "options": {
+      "a": "6 cm s\u207b\u00b9",
+      "b": "8 cm s\u207b\u00b9",
+      "c": "12 cm s\u207b\u00b9",
+      "d": "18 cm s\u207b\u00b9"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 47,
+    "question": "A racing car has a uniform acceleration of 4 m s\u207b\u00b2. What distance will it cover in 10 s after start?",
+    "options": {
+      "a": "100 m",
+      "b": "200 m",
+      "c": "300 m",
       "d": "400 m"
     },
-    "answer": "b",
-    "id": 498
+    "answer": "b"
   },
   {
-    "question": "The distance-time graph of an object is a curved line. What can you infer about the motion of the object?",
+    "question_number": 48,
+    "question": "A signal from a spaceship reached the ground station in five minutes. If the signal travels at the speed of light, that is, 3 \u00d7 10\u2078 m s\u207b\u00b9, what was the distance of the spaceship from the ground station?",
+    "options": {
+      "a": "9 \u00d7 10\u2077 m",
+      "b": "9 \u00d7 10\u2078 m",
+      "c": "9 \u00d7 10\u2079 m",
+      "d": "9 \u00d7 10\u00b9\u2070 m"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 49,
+    "question": "An athlete completes one round of a circular track of diameter 200 m in 40 s. What is the distance covered by the athlete in one round?",
+    "options": {
+      "a": "100\u03c0 m",
+      "b": "200\u03c0 m",
+      "c": "400\u03c0 m",
+      "d": "5\u03c0 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 50,
+    "question": "An athlete completes one round of a circular track of diameter 200 m in 40 s. What will be the magnitude of displacement at the end of 40 s?",
+    "options": {
+      "a": "0 m",
+      "b": "100 m",
+      "c": "200 m",
+      "d": "40\u03c0 m"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 51,
+    "question": "Joseph jogs from one end A to the other end B of a straight 300 m road in 2 minutes 30 seconds. What is Joseph\u2019s average speed from A to B?",
+    "options": {
+      "a": "1 m s\u207b\u00b9",
+      "b": "2 m s\u207b\u00b9",
+      "c": "3 m s\u207b\u00b9",
+      "d": "4 m s\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 52,
+    "question": "Joseph jogs from one end A to the other end B of a straight 300 m road in 2 minutes 30 seconds. What is Joseph\u2019s average velocity from A to B?",
+    "options": {
+      "a": "1 m s\u207b\u00b9",
+      "b": "2 m s\u207b\u00b9",
+      "c": "3 m s\u207b\u00b9",
+      "d": "4 m s\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "Joseph jogs from one end A to the other end B of a straight 300 m road in 2 minutes 30 seconds and then turns around and jogs 100 m back to point C in another 1 minute. What is Joseph's average speed from A to C?",
+    "options": {
+      "a": "1.5 m s\u207b\u00b9",
+      "b": "1.6 m s\u207b\u00b9",
+      "c": "1.75 m s\u207b\u00b9",
+      "d": "2 m s\u207b\u00b9"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 54,
+    "question": "Joseph jogs from one end A to the other end B of a straight 300 m road in 2 minutes 30 seconds and then turns around and jogs 120 m back to point C in another 1 minute. What is Joseph's average velocity from A to C?",
+    "options": {
+      "a": "0.5 m s\u207b\u00b9",
+      "b": "0.75 m s\u207b\u00b9",
+      "c": "0.86 m s\u207b\u00b9",
+      "d": "1.0 m s\u207b\u00b9"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 55,
+    "question": "Abdul drives to school, computing his average speed for the trip to be 20 km h\u207b\u00b9. On his return trip along the same route, the average speed is 30 km h\u207b\u00b9. What is the average speed for Abdul\u2019s entire trip?",
+    "options": {
+      "a": "24 km h\u207b\u00b9",
+      "b": "25 km h\u207b\u00b9",
+      "c": "26 km h\u207b\u00b9",
+      "d": "27 km h\u207b\u00b9"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 56,
+    "question": "A motorboat starting from rest on a lake accelerates in a straight line at a constant rate of 3.0 m s\u207b\u00b2 for 8.0 s. How far does the boat travel during this time?",
+    "options": {
+      "a": "48 m",
+      "b": "64 m",
+      "c": "96 m",
+      "d": "192 m"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 57,
+    "question": "A ball is gently dropped from a height of 20 m. If its velocity increases uniformly at the rate of 10 m s\u207b\u00b2, with what velocity will it strike the ground?",
+    "options": {
+      "a": "10 m s\u207b\u00b9",
+      "b": "15 m s\u207b\u00b9",
+      "c": "20 m s\u207b\u00b9",
+      "d": "25 m s\u207b\u00b9"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 58,
+    "question": "A ball is gently dropped from a height of 20 m. If its velocity increases uniformly at the rate of 10 m s\u207b\u00b2, how much time will it take to strike the ground?",
+    "options": {
+      "a": "1 s",
+      "b": "2 s",
+      "c": "3 s",
+      "d": "4 s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 59,
+    "question": "An artificial satellite is moving in a circular orbit of radius 42250 km. Calculate its speed if it takes 24 hours to revolve around the earth.",
+    "options": {
+      "a": "2.76 km s\u207b\u00b9",
+      "b": "3.07 km s\u207b\u00b9",
+      "c": "11066 km h\u207b\u00b9",
+      "d": "12000 km h\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "A bus decreases its speed from 80 km h\u207b\u00b9 to 60 km h\u207b\u00b9 in 5 s. Find the acceleration of the bus.",
+    "options": {
+      "a": "-1.11 m s\u207b\u00b2",
+      "b": "-2.22 m s\u207b\u00b2",
+      "c": "1.11 m s\u207b\u00b2",
+      "d": "2.22 m s\u207b\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 61,
+    "question": "When a person is standing on the roadside and perceives a bus along with its passengers as moving, while a passenger inside the bus sees his fellow passengers at rest, this scenario best illustrates:",
+    "options": {
+      "a": "That motion is an absolute phenomenon.",
+      "b": "That all objects are always in motion.",
+      "c": "The relative nature of motion.",
+      "d": "The concept of uniform acceleration."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "Why are average speed and average velocity often used to describe the rate of motion in everyday life, for instance, when a car is moving on a crowded street?",
+    "options": {
+      "a": "Because cars always maintain a uniform speed.",
+      "b": "Because actual speed and velocity are too difficult to measure.",
+      "c": "Because motion in such situations is typically non-uniform.",
+      "d": "Because average values are always equal to instantaneous values."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 63,
+    "question": "The sound of thunder takes some time to reach you after you see the lightning. This phenomenon is an application of understanding:",
+    "options": {
+      "a": "The concept of relative motion.",
+      "b": "The difference in speed of light and sound.",
+      "c": "Uniform acceleration.",
+      "d": "The constant velocity of objects."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 64,
+    "question": "Why are drivers cautioned to maintain some distance between vehicles while travelling on the road?",
+    "options": {
+      "a": "To prevent uniform acceleration.",
+      "b": "To ensure a comfortable ride.",
+      "c": "To account for the distance a vehicle travels before stopping after brakes are applied.",
+      "d": "To reduce the average speed of the vehicle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "The motion of the moon around the earth and a satellite in a circular orbit around the earth are examples of:",
+    "options": {
+      "a": "Non-uniform acceleration.",
+      "b": "Uniform linear motion.",
+      "c": "Uniform circular motion.",
+      "d": "Motion at rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 66,
+    "question": "When an athlete throws a hammer or a discus in a sports meet, it moves along the direction it was moving at the time it was released. This demonstrates that:",
+    "options": {
+      "a": "The object stops immediately upon release.",
+      "b": "Objects in circular motion are always at rest.",
+      "c": "Objects tend to continue moving tangentially to their circular path upon release.",
+      "d": "The acceleration of the object is zero upon release."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "The generation of hydro-electric power by the flow of water is given as an example of:",
+    "options": {
+      "a": "Erratic and uncontrolled motion.",
+      "b": "Motion endangered by objects.",
+      "c": "Controlled motion serving human beings.",
+      "d": "Motion that does not require study."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "If you infer the motion of air by observing the movement of dust and the movement of leaves and branches of trees, this is an example of:",
+    "options": {
+      "a": "Directly perceiving motion.",
+      "b": "Inferring motion through indirect evidences.",
+      "c": "Measuring speed using an odometer.",
+      "d": "Describing motion using a reference point."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 69,
+    "question": "In which of the following scenarios is the magnitude of average velocity of an object equal to its average speed?",
+    "options": {
+      "a": "A car moving on a crowded street.",
+      "b": "A person jogging in a park (non-uniform path).",
+      "c": "An object moving along a straight line without changing direction.",
+      "d": "A farmer completing one round of a square field."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "If a cricket bowler bowls at 143 km h\u207b\u00b9, this value specifies:",
+    "options": {
+      "a": "The displacement of the ball.",
+      "b": "The average velocity of the ball.",
+      "c": "The speed of the ball.",
+      "d": "The acceleration of the ball."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "When an object's velocity is decreasing with time, as shown in Fig. 7.7(a) velocity-time graph, it represents:",
+    "options": {
+      "a": "Uniform acceleration.",
+      "b": "Non-uniform acceleration.",
+      "c": "Deceleration or retardation.",
+      "d": "Constant speed."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "Consider a car that is increasing its speed by unequal amounts in equal intervals of time while travelling along a straight road. This type of motion is best described as:",
+    "options": {
+      "a": "Uniform motion.",
+      "b": "Uniformly accelerated motion.",
+      "c": "Non-uniform acceleration.",
+      "d": "Motion with constant velocity."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 73,
+    "question": "The phenomenon of sunrise, sunset, and changing of seasons is caused by:",
+    "options": {
+      "a": "The motion of the moon.",
+      "b": "The motion of the sun.",
+      "c": "The motion of the earth.",
+      "d": "The change in atmospheric conditions."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "We sometimes are endangered by the motion of objects around us, especially if that motion is erratic and uncontrolled. Examples provided in the lesson include:",
+    "options": {
+      "a": "A train on a track.",
+      "b": "A satellite in orbit.",
+      "c": "A flooded river, a hurricane, or a tsunami.",
+      "d": "A bicycle moving on a straight road."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 75,
+    "question": "To determine the speed of an object from a distance-time graph, one should calculate:",
+    "options": {
+      "a": "The area under the graph.",
+      "b": "The slope of the graph.",
+      "c": "The x-intercept.",
+      "d": "The y-intercept."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 76,
+    "question": "If an object travels in a straight line and its velocity increases or decreases by equal amounts in equal intervals of time, its motion is described as:",
+    "options": {
+      "a": "Uniform speed.",
+      "b": "Non-uniform motion.",
+      "c": "Uniformly accelerated motion.",
+      "d": "Uniform circular motion."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "What could be the motion of an object if its velocity-time graph is a curved line?",
+    "options": {
+      "a": "Uniform velocity.",
+      "b": "Uniformly accelerated motion.",
+      "c": "Non-uniformly accelerated motion.",
+      "d": "Object at rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 78,
+    "question": "A linear equation having two variables can be solved using which type of graph as studied in mathematics?",
+    "options": {
+      "a": "Bar graphs.",
+      "b": "Pie charts.",
+      "c": "Straight line graphs.",
+      "d": "Histograms."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 79,
+    "question": "In a cricket match telecast, what type of graph is typically used to show the run rate of a team in each over?",
+    "options": {
+      "a": "Line graph.",
+      "b": "Pie chart.",
+      "c": "Vertical bar graph.",
+      "d": "Scatter plot."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "Which type of motion is considered the simplest?",
+    "options": {
+      "a": "Motion along a circular path.",
+      "b": "Motion involving vibration.",
+      "c": "Motion along a straight line.",
+      "d": "Motion involving rotation."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "An object has moved through a distance. Based on the lesson, under what condition can it have zero displacement?",
+    "options": {
+      "a": "Only if the object did not move at all.",
+      "b": "Only if the object moved in a perfect circle.",
+      "c": "If the object's final position coincides with its initial position.",
+      "d": "If the object travelled at a very slow speed."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 82,
+    "question": "Consider the data in Table 7.1 for two objects, A and B. Object A's distances are 10, 20, 30, 40, 50, 60, 70 m at 15-minute intervals. Object B's distances are 12, 19, 23, 35, 37, 41, 44 m at 15-minute intervals. What can be concluded about their motions?",
+    "options": {
+      "a": "Both objects are in non-uniform motion.",
+      "b": "Both objects are in uniform motion.",
+      "c": "Object A is in uniform motion, and Object B is in non-uniform motion.",
+      "d": "Object A is in non-uniform motion, and Object B is in uniform motion."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "An object's distance-time graph is a straight line parallel to the time axis. What can be concluded about the motion of this object?",
+    "options": {
+      "a": "The object is moving with uniform speed.",
+      "b": "The object is accelerating uniformly.",
+      "c": "The object is at rest.",
+      "d": "The object is moving with non-uniform speed."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "An object's speed-time graph is a straight line parallel to the time axis. What can be concluded about the motion of this object?",
     "options": {
       "a": "The object is at rest.",
       "b": "The object is moving with uniform velocity.",
-      "c": "The object is moving with uniform acceleration.",
-      "d": "The object is moving with non-uniform velocity."
+      "c": "The object is undergoing non-uniform acceleration.",
+      "d": "The object is moving with uniform acceleration."
     },
-    "answer": "d",
-    "id": 499
+    "answer": "b"
   },
   {
-    "question": "Explain with an example how the controlled motion of objects can be beneficial to human beings.",
-    "answer": "The controlled motion of water in hydroelectric power plants is an example of how controlled motion can be beneficial to human beings. The water is allowed to flow through turbines, which rotate and generate electricity.",
-    "id": 500
-  },
-  {
-    "question": "A train is moving with a velocity of 36 km/h. It is accelerated to a velocity of 54 km/h in 10 seconds. Calculate the acceleration of the train.",
+    "question_number": 85,
+    "question": "In the context of the rectangular, hexagonal, and octagonal tracks discussed for an athlete, what happens to the number of times the athlete has to change direction as the number of sides of the track increases indefinitely?",
     "options": {
-      "a": "0.5 m/s²",
-      "b": "1 m/s²",
-      "c": "1.5 m/s²",
-      "d": "2 m/s²"
+      "a": "The number of changes decreases.",
+      "b": "The number of changes remains constant.",
+      "c": "The number of changes increases, approaching continuous change.",
+      "d": "The athlete stops changing direction."
     },
-    "answer": "a",
-    "id": 501
+    "answer": "c"
   },
   {
-    "question": "Assertion: The velocity of an object can be negative.\nReason: Velocity is a vector quantity and has both magnitude and direction.",
+    "question_number": 86,
+    "question": "The velocity-time graph for a car shows a straight line sloping downwards (as in Fig. 7.7a). What does this graph indicate about the car's motion?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "The car is accelerating uniformly.",
+      "b": "The car is decelerating uniformly.",
+      "c": "The car is moving with uniform velocity.",
+      "d": "The car is at rest."
     },
-    "answer": "a",
-    "id": 502
+    "answer": "b"
   },
   {
-    "question": "A stone is dropped from a height of 100 m. Calculate the time taken by the stone to reach the ground. (Take g = 10 m/s²).",
+    "question_number": 87,
+    "question": "If the initial and final positions of an object coincide, but it covered a certain path length, which of the following statements is true based on the lesson?",
     "options": {
-      "a": "2 s",
-      "b": "4.5 s",
-      "c": "10 s",
-      "d": "20 s"
+      "a": "Its distance covered is zero, but displacement is non-zero.",
+      "b": "Both its distance and displacement are zero.",
+      "c": "Its distance covered is non-zero, and its displacement is also non-zero.",
+      "d": "Its distance covered is non-zero, but its displacement is zero."
     },
-    "answer": "b",
-    "id": 503
+    "answer": "d"
   },
   {
-    "question": "The velocity-time graph of an object is a straight line parallel to the time axis. What does this indicate about the acceleration of the object?",
+    "question_number": 88,
+    "question": "Why is it difficult to directly perceive the motion of the Earth, even though it causes phenomena like sunrise and sunset?",
     "options": {
-      "a": "The object has zero acceleration.",
-      "b": "The object has uniform acceleration.",
-      "c": "The object has non-uniform acceleration.",
-      "d": "The acceleration of the object cannot be determined from the graph."
+      "a": "Earth's motion is too slow to be noticed.",
+      "b": "We are also moving along with the Earth at the same velocity.",
+      "c": "Earth's motion is erratic and uncontrolled.",
+      "d": "Motion only occurs relative to other planets."
     },
-    "answer": "a",
-    "id": 504
+    "answer": "b"
   },
   {
-    "question": "Describe how you would use a stopwatch and a measuring tape to measure the average speed of a car moving along a straight road.",
-    "answer": "To measure the average speed of a car, you would first need to mark out a known distance along the straight road. Then, using the stopwatch, measure the time it takes for the car to travel that distance. Finally, divide the distance by the time to get the average speed.",
-    "id": 505
-  },
-  {
-    "question": "A car is traveling at a speed of 72 km/h. The driver applies the brakes and the car comes to rest in 20 seconds. Calculate the retardation of the car.",
+    "question_number": 89,
+    "question": "An object is observed to be vibrating. According to the lesson, what type of motion is this?",
     "options": {
-      "a": "-1 m/s²",
-      "b": "-2 m/s²",
-      "c": "-3 m/s²",
-      "d": "-4 m/s²"
+      "a": "Motion along a straight line.",
+      "b": "Circular motion.",
+      "c": "A complex motion.",
+      "d": "Uniform acceleration."
     },
-    "answer": "a",
-    "id": 506
+    "answer": "c"
   },
   {
-    "question": "Assertion: The displacement of an object can be zero even if the distance traveled by the object is not zero.\nReason: Displacement is a vector quantity, while distance is a scalar quantity.",
+    "question_number": 90,
+    "question": "How can the change in velocity of an object be expressed mathematically?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "Product of initial and final velocity.",
+      "b": "Final velocity divided by initial velocity.",
+      "c": "Initial velocity plus final velocity.",
+      "d": "Final velocity minus initial velocity."
     },
-    "answer": "a",
-    "id": 507
+    "answer": "d"
   },
   {
-    "question": "A ball is thrown vertically upwards. What is its velocity at the highest point?",
+    "question_number": 91,
+    "question": "If a distance-time graph shows a non-linear variation of the distance travelled by an object with time, what kind of motion does it represent?",
     "options": {
-      "a": "Maximum",
-      "b": "Zero",
-      "c": "Equal to the initial velocity",
-      "d": "Cannot be determined"
+      "a": "Uniform speed.",
+      "b": "Non-uniform speed.",
+      "c": "Constant acceleration.",
+      "d": "Object at rest."
     },
-    "answer": "b",
-    "id": 508
+    "answer": "b"
   },
   {
-    "question": "The distance-time graph of a body is parallel to the distance axis. What is the speed of the body?",
+    "question_number": 92,
+    "question": "An object travels from point O to A (60km) and then back to B (35km from O) along the same straight path. If the total time taken is T, how would you calculate the average velocity?",
     "options": {
-      "a": "Zero",
-      "b": "Constant",
-      "c": "Infinite",
-      "d": "Cannot be determined"
+      "a": "(60 km + 35 km) / T",
+      "b": "(60 km - 35 km) / T",
+      "c": "35 km / T",
+      "d": "60 km / T"
     },
-    "answer": "c",
-    "id": 509
+    "answer": "c"
   },
   {
-    "question": "The velocity-time graph of a body is a straight line passing through the origin. What does this indicate about the motion of the body?",
+    "question_number": 93,
+    "question": "What distinguishes speed from velocity?",
     "options": {
-      "a": "The body is at rest.",
-      "b": "The body is moving with uniform velocity.",
-      "c": "The body is moving with uniform acceleration.",
-      "d": "The body is moving with non-uniform acceleration."
+      "a": "Speed can be negative, but velocity cannot.",
+      "b": "Speed is a vector quantity, while velocity is a scalar quantity.",
+      "c": "Speed only requires magnitude, while velocity requires both magnitude and direction.",
+      "d": "Speed is measured in m/s\u00b2, while velocity is measured in m/s."
     },
-    "answer": "c",
-    "id": 510
+    "answer": "c"
   },
   {
-    "question": "A car is moving with a velocity of 10 m/s. It accelerates at a rate of 2 m/s² for 5 seconds. Calculate the final velocity of the car.",
+    "question_number": 94,
+    "question": "If a body is undergoing uniform acceleration, what can be said about its velocity?",
     "options": {
-      "a": "10 m/s",
-      "b": "15 m/s",
-      "c": "20 m/s",
-      "d": "25 m/s"
+      "a": "Its velocity remains constant.",
+      "b": "Its velocity changes by unequal amounts in equal intervals of time.",
+      "c": "Its velocity changes by equal amounts in equal intervals of time.",
+      "d": "Its velocity is always zero."
     },
-    "answer": "c",
-    "id": 511
+    "answer": "c"
   },
   {
-    "question": "Assertion: A body can have zero velocity and still be accelerating.\nReason: Acceleration is the rate of change of velocity.",
+    "question_number": 95,
+    "question": "The length of each side of a multi-sided track decreases to a point as the number of sides increases indefinitely. What shape does the track approach?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "A straight line.",
+      "b": "A rectangle.",
+      "c": "A hexagon.",
+      "d": "A circle."
     },
-    "answer": "a",
-    "id": 512
+    "answer": "d"
   },
   {
-    "question": "A body is thrown vertically upwards with a velocity of 20 m/s. Calculate the maximum height reached by the body. (Take g = 10 m/s²)",
+    "question_number": 96,
+    "question": "Which type of motion would be represented by a velocity-time graph that is a straight line sloping upwards from the origin?",
     "options": {
-      "a": "10 m",
-      "b": "20 m",
-      "c": "30 m",
-      "d": "40 m"
+      "a": "An object at rest.",
+      "b": "An object moving with uniform velocity.",
+      "c": "An object moving with uniform acceleration, starting from rest.",
+      "d": "An object moving with non-uniform acceleration."
     },
-    "answer": "b",
-    "id": 513
+    "answer": "c"
   },
   {
-    "question": "The distance-time graph of a body is a curve. What can you say about the velocity of the body?",
+    "question_number": 97,
+    "question": "Why is it necessary to specify a reference point (origin) to describe the location of an object?",
     "options": {
-      "a": "The velocity is zero.",
-      "b": "The velocity is constant.",
-      "c": "The velocity is increasing.",
-      "d": "The velocity is decreasing."
+      "a": "To calculate its mass accurately.",
+      "b": "To determine its exact color.",
+      "c": "To have a fixed position relative to which the object's position can be stated.",
+      "d": "To know the type of material the object is made of."
     },
-    "answer": "c",
-    "id": 514
+    "answer": "c"
   },
   {
-    "question": "A car is moving with a velocity of 20 m/s. It decelerates at a rate of 2 m/s² for 5 seconds. Calculate the final velocity of the car.",
+    "question_number": 98,
+    "question": "Which of the following conditions ensures that an object's speed is constant, but its velocity is changing?",
     "options": {
-      "a": "0 m/s",
-      "b": "5 m/s",
-      "c": "10 m/s",
-      "d": "15 m/s"
+      "a": "Moving in a straight line at constant acceleration.",
+      "b": "Moving along a straight line at constant speed.",
+      "c": "Moving in a circular path at constant speed.",
+      "d": "Remaining at rest."
     },
-    "answer": "c",
-    "id": 515
+    "answer": "c"
   },
   {
-    "question": "Assertion: The area under the velocity-time graph gives the displacement of the body.\nReason: The slope of the velocity-time graph gives the acceleration of the body.",
+    "question_number": 99,
+    "question": "If a train appears to move while you are sitting in it at a station, but it is actually at rest, this experience highlights:",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "Optical illusion caused by sunlight.",
+      "b": "The concept of relative motion and perception.",
+      "c": "A flaw in the train's braking system.",
+      "d": "The influence of Earth's rotation on perception."
     },
-    "answer": "b",
-    "id": 516
+    "answer": "b"
   },
   {
-    "question": "A ball is thrown vertically upwards and it reaches a height of 45 m. Calculate the velocity with which it was thrown. (Take g = 10 m/s²)",
+    "question_number": 100,
+    "question": "A car travels a distance of 100 km in 2 h. The lesson states its average speed is 50 km h\u207b\u00b9. What can be concluded about the car's instantaneous speed during this trip?",
     "options": {
-      "a": "15 m/s",
-      "b": "30 m/s",
-      "c": "45 m/s",
-      "d": "90 m/s"
+      "a": "The car travelled exactly at 50 km h\u207b\u00b9 all the time.",
+      "b": "The car travelled faster than 50 km h\u207b\u00b9 at all times.",
+      "c": "The car might have travelled faster or slower than 50 km h\u207b\u00b9 at different times.",
+      "d": "The car was always at rest for parts of the journey."
     },
-    "answer": "b",
-    "id": 517
+    "answer": "c"
   },
   {
-    "question": "What is the difference between uniform and non-uniform circular motion?",
-    "answer": "In uniform circular motion, the speed of the object remains constant while its direction changes continuously. In non-uniform circular motion, both the speed and direction of the object change continuously.",
-    "id": 518
-  },
-  {
-    "question": "A body is moving in a circular path of radius 10 m. If it completes one revolution in 5 seconds, calculate its speed.",
+    "question_number": 101,
+    "question": "Assertion (A): An object in uniform circular motion is considered to be in accelerated motion. Reason (R): In uniform circular motion, the direction of motion changes continuously.",
     "options": {
-      "a": "2π m/s",
-      "b": "4π m/s",
-      "c": "6π m/s",
-      "d": "8π m/s"
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
     },
-    "answer": "b",
-    "id": 519
+    "answer": "a"
   },
   {
-    "question": "Assertion: The velocity of a body moving in a circular path is constantly changing.\nReason: The direction of motion of the body is constantly changing.",
+    "question_number": 102,
+    "question": "Assertion (A): The magnitude of displacement for a course of motion may be zero. Reason (R): The total distance covered by an object is always positive.",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion",
-      "c": "Assertion is true but Reason is false",
-      "d": "Assertion is false but Reason is true"
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
     },
-    "answer": "a",
-    "id": 520
+    "answer": "b"
   },
   {
-    "question": "A car is moving with a velocity of 10 m/s. It accelerates uniformly at a rate of 2 m/s² for 5 seconds. Calculate the distance covered by the car during this time.",
+    "question_number": 103,
+    "question": "Assertion (A): Speed is a vector quantity. Reason (R): Speed specifies only the numerical value and not the direction of motion.",
     "options": {
-      "a": "25 m",
-      "b": "50 m",
-      "c": "75 m",
-      "d": "100 m"
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
     },
-    "answer": "c",
-    "id": 521
+    "answer": "d"
   },
   {
-    "question": "A body is moving in a circular path of radius 5 m. If its speed is 10 m/s, calculate its centripetal acceleration.",
+    "question_number": 104,
+    "question": "Assertion (A): A car moving on a crowded street is an example of non-uniform motion. Reason (R): In non-uniform motion, objects cover unequal distances in equal intervals of time.",
     "options": {
-      "a": "10 m/s²",
-      "b": "20 m/s²",
-      "c": "30 m/s²",
-      "d": "40 m/s²"
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
     },
-    "answer": "b",
-    "id": 522
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The SI unit of acceleration is m s\u207b\u00b2. Reason (R): Acceleration is defined as the change in velocity per unit time.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): The motion of a freely falling body is an example of uniformly accelerated motion. Reason (R): A freely falling body's velocity changes by unequal amounts in equal intervals of time.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): The area under the velocity-time graph gives the magnitude of displacement. Reason (R): Displacement is the product of velocity and time for uniform velocity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): The distance-time graph for uniform speed is a straight line. Reason (R): For uniform speed, the distance travelled by the object is directly proportional to time taken.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): An odometer measures the speed of an automobile. Reason (R): An odometer is a device that shows the distance travelled.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): Velocity can be changed by changing the object's speed or direction of motion. Reason (R): Velocity is a scalar quantity, requiring only magnitude for its specification.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): For an object moving in a straight line, if its final position coincides with its initial position, its distance covered is zero. Reason (R): Distance is the total path length covered by the object.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): A bus travelling at 80 km h\u207b\u00b9 decreases its speed to 60 km h\u207b\u00b9 in 5 s. This indicates a negative acceleration. Reason (R): Acceleration is negative when it is opposite to the direction of velocity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): The velocity-time graph for uniform velocity is a straight line parallel to the x-axis. Reason (R): For uniform velocity, the object's acceleration is zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): The location of an object can be described by specifying a reference point. Reason (R): A reference point is also called the origin.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): For motion of an object from O to A (60km) and back to B (35km from O), the distance covered is 85 km. Reason (R): Distance is the sum of magnitudes of individual paths taken.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): The distance of the final position C (35km from O) of the object from the initial position O is equal to the magnitude of the displacement of the object from O to C through A. Reason (R): Displacement is the shortest distance measured from the initial to the final position of an object.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): The velocity-time graph for a car moving with uniform accelerations is a straight line. Reason (R): In uniformly accelerated motion, velocity changes by equal amounts in equal intervals of time.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): The phenomena of sunrise, sunset, and changing of seasons are due to the motion of the Earth. Reason (R): We directly perceive the motion of the Earth.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The rate of motion of an object can be more comprehensive if we specify its direction of motion along with its speed. Reason (R): The quantity that specifies both these aspects is called velocity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): The acceleration of the bicycle in Rahul's first case (starting from stationary) is positive. Reason (R): Acceleration is taken to be positive if it is in the direction of velocity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): The speed of an object need not be constant. Reason (R): In most cases, objects will be in non-uniform motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): When an object is moving along a straight line at a variable speed, its rate of motion can be expressed in terms of average velocity. Reason (R): Average velocity is calculated as the arithmetic mean of initial and final velocity when velocity changes at a uniform rate.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): The velocity of an object in uniform motion along a straight line remains constant with time. Reason (R): In uniform motion, the change in velocity of the object for any time interval is zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): For an object moving with non-uniform acceleration, its velocity-time graph can have any shape. Reason (R): Non-uniform acceleration implies that the velocity changes at a non-uniform rate.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): The position-velocity relation equation 2as = v\u00b2 \u2013 u\u00b2 can be obtained from the other two equations of motion. Reason (R): This equation is derived by eliminating time (t) from the velocity-time and position-time relations.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): The acceleration of a car that accelerates uniformly from 18 km h\u207b\u00b9 to 36 km h\u207b\u00b9 in 5 s is 1 m s\u207b\u00b2. Reason (R): Acceleration is calculated as (final velocity - initial velocity) / time.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): In a one-day cricket match telecast, vertical bar graphs show the run rate of a team in each over. Reason (R): Graphs provide a convenient method to present basic information about a variety of events.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): If the time interval in uniform motion is very large, the condition of covering equal distances in equal intervals of time may not hold true. Reason (R): The time interval in uniform motion should be small.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): When a stone is released from a circular path, it moves along a straight line tangential to the circular path. Reason (R): Once released, the stone continues to move along the direction it has been moving at that instant due to inertia.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): Average velocity can be calculated by dividing total distance travelled by total time taken. Reason (R): Average speed is calculated by dividing total distance travelled by total time taken.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
   }
 ]

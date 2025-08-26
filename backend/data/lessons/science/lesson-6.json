@@ -1,497 +1,1399 @@
 [
   {
-    "question": "Which of the following is NOT a characteristic of meristematic tissue?",
+    "question_number": 1,
+    "question": "What is the primary characteristic of cells in unicellular organisms?",
     "options": {
-      "a": "Dense cytoplasm",
-      "b": "Thin cellulose walls",
-      "c": "Large vacuoles",
-      "d": "Prominent nuclei"
+      "a": "They are specialized to carry out only a particular function.",
+      "b": "A single cell performs all basic functions.",
+      "c": "They show distinct division of labour.",
+      "d": "They are grouped together to form tissues."
     },
-    "answer": "c",
-    "id": 440
+    "answer": "b"
   },
   {
-    "question": "A student observes a plant tissue under a microscope and finds that the cells are loosely arranged with large intercellular spaces. The tissue most likely is:",
+    "question_number": 2,
+    "question": "In multicellular organisms, what does division of labour refer to?",
     "options": {
-      "a": "Collenchyma",
-      "b": "Sclerenchyma",
+      "a": "The process of cells becoming dead to provide support.",
+      "b": "The uniform growth pattern observed throughout the body.",
+      "c": "Specialised functions being taken up by different groups of cells.",
+      "d": "The ability of cells to absorb water from the environment."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 3,
+    "question": "Which of the following is an example of a tissue mentioned in the introductory part of the lesson?",
+    "options": {
+      "a": "Kidney",
+      "b": "Bone marrow",
+      "c": "Phloem",
+      "d": "Stomach"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 4,
+    "question": "Which characteristic distinguishes plants from animals regarding their mobility?",
+    "options": {
+      "a": "Plants move around in search of food, mates, and shelter, unlike animals.",
+      "b": "Animals are stationary or fixed, while plants move constantly.",
+      "c": "Plants are stationary or fixed, whereas animals move around.",
+      "d": "Both plants and animals exhibit active locomotion."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "The supportive tissue in plants generally consists of what type of cells?",
+    "options": {
+      "a": "Living cells with large vacuoles.",
+      "b": "Dead cells.",
+      "c": "Actively dividing cells.",
+      "d": "Cells with prominent nuclei and dense cytoplasm."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 6,
+    "question": "Where is growth in plants primarily limited to?",
+    "options": {
+      "a": "The entire body uniformly.",
+      "b": "Certain specific regions.",
+      "c": "Only the reproductive parts.",
+      "d": "Regions exposed to sunlight."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 7,
+    "question": "Which type of plant tissue is responsible for increasing the length of the stem and the root?",
+    "options": {
+      "a": "Lateral meristem",
+      "b": "Intercalary meristem",
+      "c": "Apical meristem",
+      "d": "Permanent tissue"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 8,
+    "question": "The girth of the stem or root increases due to the activity of which meristematic tissue?",
+    "options": {
+      "a": "Apical meristem",
+      "b": "Intercalary meristem",
+      "c": "Lateral meristem",
+      "d": "Primary meristem"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 9,
+    "question": "What is a defining characteristic of cells in meristematic tissue?",
+    "options": {
+      "a": "They are loosely arranged with large intercellular spaces.",
+      "b": "They possess large, prominent vacuoles.",
+      "c": "They have thick cell walls due to lignin deposition.",
+      "d": "They have dense cytoplasm, thin cellulose walls, and prominent nuclei."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 10,
+    "question": "What happens to cells formed by meristematic tissue when they form a permanent tissue?",
+    "options": {
+      "a": "They increase their ability to divide.",
+      "b": "They regain the ability to divide.",
+      "c": "They lose the ability to divide and take up a specific role.",
+      "d": "They become more active and continue to grow indefinitely."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 11,
+    "question": "Which of the following is the most common simple permanent tissue?",
+    "options": {
+      "a": "Sclerenchyma",
+      "b": "Collenchyma",
       "c": "Parenchyma",
-      "d": "Xylem"
+      "d": "Epidermis"
     },
-    "answer": "c",
-    "id": 441
+    "answer": "c"
   },
   {
-    "question": "Which type of tissue provides flexibility to plants, allowing them to bend without breaking?",
+    "question_number": 12,
+    "question": "Which type of parenchyma tissue contains chlorophyll and performs photosynthesis?",
+    "options": {
+      "a": "Aerenchyma",
+      "b": "Chlorenchyma",
+      "c": "Sclerenchyma",
+      "d": "Collenchyma"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 13,
+    "question": "The flexibility in plants, allowing bending without breaking, is primarily due to which tissue?",
     "options": {
       "a": "Parenchyma",
       "b": "Sclerenchyma",
       "c": "Collenchyma",
       "d": "Xylem"
     },
-    "answer": "c",
-    "id": 442
+    "answer": "c"
   },
   {
-    "question": "The husk of a coconut is made up of which type of tissue?",
+    "question_number": 14,
+    "question": "Which tissue makes the plant hard and stiff and is found in the husk of a coconut?",
     "options": {
       "a": "Parenchyma",
       "b": "Collenchyma",
       "c": "Sclerenchyma",
       "d": "Phloem"
     },
-    "answer": "c",
-    "id": 443
+    "answer": "c"
   },
   {
-    "question": "Which of the following is NOT a component of xylem?",
+    "question_number": 15,
+    "question": "The walls of sclerenchyma cells are thickened due to the deposition of which substance?",
     "options": {
-      "a": "Tracheids",
-      "b": "Vessels",
-      "c": "Sieve tubes",
-      "d": "Xylem parenchyma"
+      "a": "Cellulose",
+      "b": "Suberin",
+      "c": "Cutin",
+      "d": "Lignin"
     },
-    "answer": "c",
-    "id": 444
+    "answer": "d"
   },
   {
-    "question": "Which tissue is responsible for transporting food from leaves to other parts of the plant?",
+    "question_number": 16,
+    "question": "What is the outermost layer of cells covering the entire surface of a plant called?",
     "options": {
-      "a": "Xylem",
-      "b": "Phloem",
-      "c": "Parenchyma",
-      "d": "Collenchyma"
+      "a": "Cortex",
+      "b": "Epidermis",
+      "c": "Vascular bundle",
+      "d": "Pericycle"
     },
-    "answer": "b",
-    "id": 445
+    "answer": "b"
   },
   {
-    "question": "Which of the following is a characteristic of the epidermis in desert plants?",
+    "question_number": 17,
+    "question": "Small pores found in the epidermis of a leaf, necessary for gas exchange, are called:",
     "options": {
-      "a": "Thin cell walls",
-      "b": "Large intercellular spaces",
-      "c": "Thick waxy coating",
-      "d": "Presence of chloroplasts"
+      "a": "Lenticels",
+      "b": "Guard cells",
+      "c": "Stomata",
+      "d": "Trichomes"
     },
-    "answer": "c",
-    "id": 446
+    "answer": "c"
   },
   {
-    "question": "Stomata are enclosed by two kidney-shaped cells called:",
+    "question_number": 18,
+    "question": "Which cells enclose the stomata in leaves?",
     "options": {
       "a": "Epidermal cells",
-      "b": "Guard cells",
-      "c": "Companion cells",
-      "d": "Palisade cells"
+      "b": "Companion cells",
+      "c": "Guard cells",
+      "d": "Sieve cells"
     },
-    "answer": "b",
-    "id": 447
+    "answer": "c"
   },
   {
-    "question": "Which of the following is NOT a function of stomata?",
-    "options": {
-      "a": "Gas exchange",
-      "b": "Transpiration",
-      "c": "Food transport",
-      "d": "Water absorption"
-    },
-    "answer": "c",
-    "id": 448
-  },
-  {
-    "question": "Cork cells are impervious to gases and water due to the presence of:",
+    "question_number": 19,
+    "question": "In desert plants, what chemical substance forms a thick waxy coating on the outer surface of the epidermis to prevent water loss?",
     "options": {
       "a": "Lignin",
       "b": "Suberin",
       "c": "Cutin",
       "d": "Cellulose"
     },
-    "answer": "b",
-    "id": 449
+    "answer": "c"
   },
   {
-    "question": "Which type of animal tissue forms a barrier to keep different body systems separate?",
+    "question_number": 20,
+    "question": "What substance makes the walls of cork cells impervious to gases and water?",
+    "options": {
+      "a": "Lignin",
+      "b": "Suberin",
+      "c": "Cutin",
+      "d": "Cellulose"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 21,
+    "question": "Xylem and phloem are examples of which type of plant tissue?",
+    "options": {
+      "a": "Simple permanent tissue",
+      "b": "Meristematic tissue",
+      "c": "Complex permanent tissue",
+      "d": "Protective tissue"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "Which component of xylem is mainly supportive in function?",
+    "options": {
+      "a": "Tracheids",
+      "b": "Vessels",
+      "c": "Xylem parenchyma",
+      "d": "Xylem fibres"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 23,
+    "question": "Which of the following phloem components are described as tubular cells with perforated walls?",
+    "options": {
+      "a": "Sieve cells",
+      "b": "Sieve tubes",
+      "c": "Companion cells",
+      "d": "Phloem parenchyma"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 24,
+    "question": "Which type of animal tissue covers most organs and cavities within the body and forms a barrier?",
     "options": {
       "a": "Connective tissue",
       "b": "Muscular tissue",
       "c": "Nervous tissue",
       "d": "Epithelial tissue"
     },
-    "answer": "d",
-    "id": 450
+    "answer": "d"
   },
   {
-    "question": "The lining of the mouth and oesophagus is made up of which type of epithelium?",
+    "question_number": 25,
+    "question": "Where would you typically find simple squamous epithelium in the human body, according to the text?",
     "options": {
-      "a": "Cuboidal epithelium",
-      "b": "Columnar epithelium",
-      "c": "Squamous epithelium",
-      "d": "Ciliated epithelium"
+      "a": "Skin surface",
+      "b": "Lining of kidney tubules",
+      "c": "Inner lining of the intestine",
+      "d": "Lining of blood vessels"
     },
-    "answer": "c",
-    "id": 451
+    "answer": "d"
   },
   {
-    "question": "Which type of epithelium facilitates movement across the epithelial barrier and is found in the inner lining of the intestine?",
+    "question_number": 26,
+    "question": "The skin, which protects the body and prevents wear and tear, is made of which type of epithelial tissue?",
     "options": {
-      "a": "Squamous epithelium",
-      "b": "Cuboidal epithelium",
-      "c": "Columnar epithelium",
-      "d": "Ciliated epithelium"
+      "a": "Simple squamous epithelium",
+      "b": "Stratified squamous epithelium",
+      "c": "Cuboidal epithelium",
+      "d": "Ciliated columnar epithelium"
     },
-    "answer": "c",
-    "id": 452
+    "answer": "b"
   },
   {
-    "question": "Which type of epithelium has hair-like projections called cilia that help in clearing mucus?",
+    "question_number": 27,
+    "question": "Which type of epithelium is responsible for facilitating movement across the epithelial barrier in the inner lining of the intestine?",
     "options": {
-      "a": "Squamous epithelium",
-      "b": "Cuboidal epithelium",
-      "c": "Columnar epithelium",
-      "d": "Ciliated epithelium"
+      "a": "Simple squamous",
+      "b": "Stratified squamous",
+      "c": "Columnar",
+      "d": "Cuboidal"
     },
-    "answer": "d",
-    "id": 453
+    "answer": "c"
   },
   {
-    "question": "Which type of epithelium forms the lining of kidney tubules and provides mechanical support?",
-    "options": {
-      "a": "Squamous epithelium",
-      "b": "Cuboidal epithelium",
-      "c": "Columnar epithelium",
-      "d": "Ciliated epithelium"
-    },
-    "answer": "b",
-    "id": 454
-  },
-  {
-    "question": "Which of the following is NOT a function of connective tissue?",
-    "options": {
-      "a": "Binding and support",
-      "b": "Protection",
-      "c": "Transportation",
-      "d": "Movement"
-    },
-    "answer": "d",
-    "id": 455
-  },
-  {
+    "question_number": 28,
     "question": "Which type of connective tissue has a fluid matrix called plasma?",
-    "options": {
-      "a": "Blood",
-      "b": "Bone",
-      "c": "Cartilage",
-      "d": "Areolar tissue"
-    },
-    "answer": "a",
-    "id": 456
-  },
-  {
-    "question": "Which type of connective tissue is strong and non-flexible, forming the framework of the body?",
-    "options": {
-      "a": "Blood",
-      "b": "Bone",
-      "c": "Cartilage",
-      "d": "Areolar tissue"
-    },
-    "answer": "b",
-    "id": 457
-  },
-  {
-    "question": "Which type of connective tissue connects bones to each other and is very elastic?",
-    "options": {
-      "a": "Tendon",
-      "b": "Ligament",
-      "c": "Cartilage",
-      "d": "Areolar tissue"
-    },
-    "answer": "b",
-    "id": 458
-  },
-  {
-    "question": "Which type of connective tissue connects muscles to bones and has great strength but limited flexibility?",
-    "options": {
-      "a": "Tendon",
-      "b": "Ligament",
-      "c": "Cartilage",
-      "d": "Areolar tissue"
-    },
-    "answer": "a",
-    "id": 459
-  },
-  {
-    "question": "Which type of connective tissue smoothens bone surfaces at joints and is also present in the nose and ear?",
-    "options": {
-      "a": "Tendon",
-      "b": "Ligament",
-      "c": "Cartilage",
-      "d": "Areolar tissue"
-    },
-    "answer": "c",
-    "id": 460
-  },
-  {
-    "question": "Which type of connective tissue fills the space inside organs, supports internal organs, and helps in tissue repair?",
-    "options": {
-      "a": "Tendon",
-      "b": "Ligament",
-      "c": "Cartilage",
-      "d": "Areolar tissue"
-    },
-    "answer": "d",
-    "id": 461
-  },
-  {
-    "question": "Which type of connective tissue stores fat and acts as an insulator?",
-    "options": {
-      "a": "Adipose tissue",
-      "b": "Bone",
-      "c": "Cartilage",
-      "d": "Areolar tissue"
-    },
-    "answer": "a",
-    "id": 462
-  },
-  {
-    "question": "Which type of muscle tissue is responsible for voluntary movements like walking and running?",
-    "options": {
-      "a": "Striated muscle",
-      "b": "Smooth muscle",
-      "c": "Cardiac muscle",
-      "d": "Skeletal muscle"
-    },
-    "answer": "a",
-    "id": 463
-  },
-  {
-    "question": "Which type of muscle tissue is responsible for involuntary movements like the movement of food in the alimentary canal?",
-    "options": {
-      "a": "Striated muscle",
-      "b": "Smooth muscle",
-      "c": "Cardiac muscle",
-      "d": "Skeletal muscle"
-    },
-    "answer": "b",
-    "id": 464
-  },
-  {
-    "question": "Which type of muscle tissue is found in the heart and shows rhythmic contraction and relaxation throughout life?",
-    "options": {
-      "a": "Striated muscle",
-      "b": "Smooth muscle",
-      "c": "Cardiac muscle",
-      "d": "Skeletal muscle"
-    },
-    "answer": "c",
-    "id": 465
-  },
-  {
-    "question": "Which of the following is NOT a characteristic of striated muscle?",
-    "options": {
-      "a": "Long, cylindrical cells",
-      "b": "Unbranched cells",
-      "c": "Multinucleate cells",
-      "d": "Uninucleate cells"
-    },
-    "answer": "d",
-    "id": 466
-  },
-  {
-    "question": "Which of the following is NOT a characteristic of smooth muscle?",
-    "options": {
-      "a": "Spindle-shaped cells",
-      "b": "Uninucleate cells",
-      "c": "Striated appearance",
-      "d": "Involuntary control"
-    },
-    "answer": "c",
-    "id": 467
-  },
-  {
-    "question": "Which of the following is NOT a characteristic of cardiac muscle?",
-    "options": {
-      "a": "Cylindrical cells",
-      "b": "Branched cells",
-      "c": "Uninucleate cells",
-      "d": "Multinucleate cells"
-    },
-    "answer": "d",
-    "id": 468
-  },
-  {
-    "question": "Which type of tissue is highly specialized for being stimulated and transmitting stimuli rapidly within the body?",
-    "options": {
-      "a": "Epithelial tissue",
-      "b": "Connective tissue",
-      "c": "Muscular tissue",
-      "d": "Nervous tissue"
-    },
-    "answer": "d",
-    "id": 469
-  },
-  {
-    "question": "The basic unit of nervous tissue is called:",
-    "options": {
-      "a": "Neuron",
-      "b": "Nephron",
-      "c": "Nerve",
-      "d": "Ganglion"
-    },
-    "answer": "a",
-    "id": 470
-  },
-  {
-    "question": "Which part of a neuron is a long, thin process that carries nerve impulses away from the cell body?",
-    "options": {
-      "a": "Dendrite",
-      "b": "Axon",
-      "c": "Synapse",
-      "d": "Myelin sheath"
-    },
-    "answer": "b",
-    "id": 471
-  },
-  {
-    "question": "Which part of a neuron receives signals from other neurons?",
-    "options": {
-      "a": "Dendrite",
-      "b": "Axon",
-      "c": "Synapse",
-      "d": "Myelin sheath"
-    },
-    "answer": "a",
-    "id": 472
-  },
-  {
-    "question": "The signal that passes along a nerve fiber is called:",
-    "options": {
-      "a": "Action potential",
-      "b": "Nerve impulse",
-      "c": "Synaptic transmission",
-      "d": "Neurotransmitter"
-    },
-    "answer": "b",
-    "id": 473
-  },
-  {
-    "question": "The functional combination of nerve and muscle tissue enables animals to:",
-    "options": {
-      "a": "Digest food",
-      "b": "Breathe efficiently",
-      "c": "Move rapidly in response to stimuli",
-      "d": "Reproduce effectively"
-    },
-    "answer": "c",
-    "id": 474
-  },
-  {
-    "question": "Which of the following is a function of the epithelial tissue in the respiratory tract?",
-    "options": {
-      "a": "Absorption of nutrients",
-      "b": "Secretion of hormones",
-      "c": "Movement of mucus",
-      "d": "Contraction of muscles"
-    },
-    "answer": "c",
-    "id": 475
-  },
-  {
-    "question": "Which type of connective tissue is responsible for the storage of minerals like calcium and phosphorus?",
     "options": {
       "a": "Bone",
       "b": "Cartilage",
-      "c": "Adipose tissue",
-      "d": "Blood"
+      "c": "Blood",
+      "d": "Ligament"
     },
-    "answer": "a",
-    "id": 476
+    "answer": "c"
   },
   {
-    "question": "Which type of muscle tissue is responsible for the movement of the iris in the eye?",
+    "question_number": 29,
+    "question": "What compounds compose the hard matrix of bone tissue?",
     "options": {
-      "a": "Striated muscle",
-      "b": "Smooth muscle",
-      "c": "Cardiac muscle",
-      "d": "Skeletal muscle"
+      "a": "Proteins and sugars",
+      "b": "Calcium and phosphorus",
+      "c": "Lignin and suberin",
+      "d": "Cellulose and cutin"
     },
-    "answer": "b",
-    "id": 477
+    "answer": "b"
   },
   {
-    "question": "Which type of tissue is responsible for the transmission of nerve impulses from the brain to the muscles?",
+    "question_number": 31,
+    "question": "An onion bulb's roots were measured daily. On Day 3, the roots in jar 1 measured 3.5 cm, and in jar 2, 3.2 cm. On Day 4, the root tips of jar 2 were cut by 1 cm. If the roots in jar 1 continued to grow at an average rate of 0.5 cm per day, what would be the approximate length of roots in jar 1 on Day 5?",
     "options": {
-      "a": "Epithelial tissue",
-      "b": "Connective tissue",
-      "c": "Muscular tissue",
-      "d": "Nervous tissue"
+      "a": "3.0 cm",
+      "b": "3.5 cm",
+      "c": "4.0 cm",
+      "d": "4.5 cm"
     },
-    "answer": "d",
-    "id": 478
+    "answer": "d"
   },
   {
-    "question": "Which type of cell in nervous tissue is responsible for receiving signals from other neurons?",
+    "question_number": 32,
+    "question": "A plant stem has a diameter of 2 cm. Over a growing season, the lateral meristem causes the girth to increase by 50%. What would be the approximate new diameter of the stem?",
     "options": {
-      "a": "Neuron",
-      "b": "Glial cell",
-      "c": "Schwann cell",
-      "d": "Astrocyte"
+      "a": "2.5 cm",
+      "b": "3.0 cm",
+      "c": "4.0 cm",
+      "d": "4.5 cm"
     },
-    "answer": "a",
-    "id": 479
+    "answer": "b"
   },
   {
-    "question": "Which type of connective tissue is found in the bone marrow and helps in the production of blood cells?",
+    "question_number": 33,
+    "question": "If a tissue, initially having cells capable of division, undergoes differentiation and loses its dividing capacity, what percentage of its original cells would still be dividing after differentiation?",
+    "options": {
+      "a": "100%",
+      "b": "50%",
+      "c": "25%",
+      "d": "0%"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 34,
+    "question": "A scientist observes a plant tissue under a microscope. She notes that the cells are unspecialised, have thin walls, and are loosely arranged with large intercellular spaces. Based on this description, what percentage of this tissue type is likely to be parenchyma?",
+    "options": {
+      "a": "Less than 25%",
+      "b": "Approximately 50%",
+      "c": "More than 75%",
+      "d": "Highly likely to be 100% or very close."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 36,
+    "question": "The husk of a coconut is made of sclerenchymatous tissue. If sclerenchyma cells have no internal space (lumen) due to thickened walls, how much internal volume would a typical sclerenchyma cell contribute to the overall functional transport in the plant?",
+    "options": {
+      "a": "A significant amount, facilitating nutrient flow.",
+      "b": "A small amount, mainly for water storage.",
+      "c": "Negligible amount, as they are dead and impervious.",
+      "d": "Variable, depending on the plant's hydration."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 37,
+    "question": "A plant is experiencing increased water loss through transpiration. If 100 stomata are normally present per square millimeter of leaf epidermis, and due to extreme conditions, 50% of these stomata are non-functional, how many functional stomata remain per square millimeter?",
+    "options": {
+      "a": "25",
+      "b": "50",
+      "c": "75",
+      "d": "100"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 38,
+    "question": "A young stem has a single layer of epidermis. As it grows older, a cork layer develops, which is described as being impervious to gases and water. If the cork replaces the epidermis in protective function, what is the expected gas exchange capacity of the older stem's outer layer compared to the young stem's epidermis?",
+    "options": {
+      "a": "Significantly increased",
+      "b": "Slightly increased",
+      "c": "Significantly reduced",
+      "d": "Unchanged"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 39,
+    "question": "Xylem tissue consists of tracheids, vessels, xylem parenchyma, and xylem fibres. If tracheids and vessels, which are dead cells when mature, constitute 80% of the xylem's volume, and the remaining 20% is living xylem parenchyma and fibres, what is the approximate percentage of living cells responsible for food storage within the xylem?",
+    "options": {
+      "a": "80%",
+      "b": "20%",
+      "c": "Less than 20%",
+      "d": "Exactly 0%"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 40,
+    "question": "Phloem transports food from leaves to other parts of the plant. If a phloem sample is found to be 10% phloem fibres (which are non-living), what percentage of the phloem tissue is generally composed of living cells?",
+    "options": {
+      "a": "10%",
+      "b": "50%",
+      "c": "90%",
+      "d": "100%"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 41,
+    "question": "If a tissue forms a continuous sheet with almost no intercellular spaces and acts as a barrier, and 1 square cm of this tissue in a specific area contains 10,000 cells, how many cells would be expected to be missing from this continuous sheet within that area due to large intercellular spaces?",
+    "options": {
+      "a": "1000 cells",
+      "b": "500 cells",
+      "c": "100 cells",
+      "d": "Approximately 0 cells"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 42,
+    "question": "A region of the body requires selective permeability for substance exchange. If 10 units of material pass through a simple squamous epithelium per minute, how many units would likely pass through a stratified squamous epithelium in the same time, assuming similar concentration gradients?",
+    "options": {
+      "a": "More than 10 units",
+      "b": "Approximately 10 units",
+      "c": "Less than 5 units",
+      "d": "Exactly 0 units"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 43,
+    "question": "If the inner lining of the intestine has columnar epithelial cells to facilitate movement across the epithelial barrier, and a disease reduces the height of these cells by 50%, what would be the expected impact on absorption efficiency?",
+    "options": {
+      "a": "Absorption efficiency would double.",
+      "b": "Absorption efficiency would remain unchanged.",
+      "c": "Absorption efficiency would decrease.",
+      "d": "Absorption efficiency would increase slightly."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 44,
+    "question": "Blood, a connective tissue, has a fluid matrix. If a patient's blood plasma volume reduces by 20%, what immediate effect would this have on the transport capacity of digested food and hormones?",
+    "options": {
+      "a": "Increased transport capacity due to higher cell concentration.",
+      "b": "No significant change in transport capacity.",
+      "c": "Decreased transport capacity.",
+      "d": "Transport capacity would be limited to gases only."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 45,
+    "question": "Bone forms the framework that supports the body. If a bone's composition of calcium and phosphorus compounds reduces by 30%, how would its strength and non-flexibility likely be affected?",
+    "options": {
+      "a": "Increased strength and flexibility.",
+      "b": "No change in properties.",
+      "c": "Decreased strength and increased flexibility.",
+      "d": "Increased strength and decreased flexibility."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 46,
+    "question": "A ligament connects two bones. If a ligament's elasticity is reduced by 70%, how much of its original strength would be retained, assuming strength is not directly proportional to elasticity?",
+    "options": {
+      "a": "Exactly 70%",
+      "b": "Less than 30%",
+      "c": "The strength would remain considerable.",
+      "d": "The strength would be entirely lost."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 47,
+    "question": "Tendons connect muscles to bones and are described as having great strength but limited flexibility. If a tendon is subjected to a force that exceeds its limited flexibility, what is the most likely outcome?",
+    "options": {
+      "a": "It will stretch indefinitely without damage.",
+      "b": "It will break or tear.",
+      "c": "It will become more elastic.",
+      "d": "It will convert into a ligament."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 48,
+    "question": "Cartilage has widely spaced cells and a solid matrix composed of proteins and sugars. If 40% of the proteins and sugars in the matrix are lost, what percentage of the original bone surface smoothing function at joints would you expect to be impaired?",
+    "options": {
+      "a": "0%",
+      "b": "20%",
+      "c": "40%",
+      "d": "More than 40%"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 49,
+    "question": "Adipose tissue, which stores fat, acts as an insulator. If an individual gains enough fat to double their adipose tissue volume, what would be the expected change in their body's insulation capacity?",
+    "options": {
+      "a": "No change.",
+      "b": "Halved.",
+      "c": "Doubled.",
+      "d": "Reduced by 25%."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 50,
+    "question": "If a smooth muscle cell is 50 micrometers long, and a striated muscle cell is 100 micrometers long, what is the ratio of the length of the smooth muscle cell to the striated muscle cell?",
+    "options": {
+      "a": "1:1",
+      "b": "1:2",
+      "c": "2:1",
+      "d": "1:4"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 51,
+    "question": "A nerve impulse travels along a neuron. If a neuron has an axon 0.8 meters long and a message needs to travel the entire length of the axon, what is the length of the axon in centimeters?",
+    "options": {
+      "a": "0.008 cm",
+      "b": "8 cm",
+      "c": "80 cm",
+      "d": "800 cm"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 52,
+    "question": "If a nerve signal reaches the cell body of a neuron, and then travels through its axon to the nerve ending, which is 50 cm away, and then needs to transmit to another neuron's dendrites, what is the total distance the signal traveled within the first neuron's axon in meters?",
+    "options": {
+      "a": "0.05 meters",
+      "b": "0.5 meters",
+      "c": "5 meters",
+      "d": "50 meters"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "A plant grows 1.5 cm in length in a week due to apical meristematic activity. Assuming a consistent growth rate, how much would it grow in 10 days?",
+    "options": {
+      "a": "1.5 cm",
+      "b": "2.0 cm",
+      "c": "2.14 cm (approximately)",
+      "d": "2.5 cm"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 54,
+    "question": "A plant cell has large air cavities due to aerenchyma, occupying 60% of its volume. If the total volume of the cell is 100 cubic micrometers, what is the volume occupied by the cellular material (excluding air cavities)?",
+    "options": {
+      "a": "60 cubic micrometers",
+      "b": "40 cubic micrometers",
+      "c": "100 cubic micrometers",
+      "d": "160 cubic micrometers"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 55,
+    "question": "If an epithelial tissue has 5 layers of cells, and each layer is approximately 0.01 mm thick, what is the total thickness of this epithelial tissue?",
+    "options": {
+      "a": "0.001 mm",
+      "b": "0.05 mm",
+      "c": "0.1 mm",
+      "d": "0.5 mm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 56,
+    "question": "A muscular tissue sample contains 100 muscle fibres. If 70% of these fibres are responsible for voluntary movement, how many fibres are involuntary?",
+    "options": {
+      "a": "70",
+      "b": "30",
+      "c": "50",
+      "d": "100"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "A specific type of plant tissue, collenchyma, is found in leaf stalks. If a leaf stalk measures 10 cm in length and collenchyma makes up 20% of its total length, what is the length of the collenchyma tissue within that leaf stalk?",
+    "options": {
+      "a": "0.2 cm",
+      "b": "2 cm",
+      "c": "5 cm",
+      "d": "8 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 58,
+    "question": "A plant stem contains vascular bundles where xylem and phloem are located. If a specific vascular bundle has a cross-sectional area of 0.5 mm\u00b2, and xylem constitutes 60% of this area, what is the area occupied by xylem in that vascular bundle?",
+    "options": {
+      "a": "0.1 mm\u00b2",
+      "b": "0.2 mm\u00b2",
+      "c": "0.3 mm\u00b2",
+      "d": "0.4 mm\u00b2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 59,
+    "question": "The entire surface of a plant has an outer covering epidermis. If this epidermis protects against 80% of water loss under normal conditions, and in a very dry habitat, the protection against water loss becomes 95% due to a thicker epidermis, what is the percentage increase in water loss protection?",
+    "options": {
+      "a": "5%",
+      "b": "15%",
+      "c": "20%",
+      "d": "25%"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "A neuron typically has a single long axon and many short dendrites. If a neuron has 1 axon and 15 dendrites, what is the ratio of dendrites to axons?",
+    "options": {
+      "a": "1:15",
+      "b": "15:1",
+      "c": "1:1",
+      "d": "15:15"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 61,
+    "question": "A farmer observes that a particular plant species thrives well in marshy, waterlogged areas. Which specific plant tissue would likely be abundant in this plant to support its existence in such an environment?",
+    "options": {
+      "a": "Sclerenchyma, for stiffness.",
+      "b": "Chlorenchyma, for increased photosynthesis.",
+      "c": "Aerenchyma, for buoyancy and air circulation.",
+      "d": "Collenchyma, for flexibility."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "When you peel off the skin of a banana, it is relatively easy to tear but still holds its shape. Which plant tissue in the peel contributes to its slight flexibility and support, allowing it to bend rather than snap immediately?",
+    "options": {
+      "a": "Sclerenchyma",
+      "b": "Xylem",
+      "c": "Collenchyma",
+      "d": "Cork"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 63,
+    "question": "A chef is preparing coconut curry and notices how difficult it is to break the hard outer shell (husk) of the coconut. This hardness is primarily due to the presence of which plant tissue?",
+    "options": {
+      "a": "Parenchyma",
+      "b": "Collenchyma",
+      "c": "Sclerenchyma",
+      "d": "Epidermis"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "A desert plant needs to conserve water efficiently. Which adaptation in its epidermal tissue, mentioned in the text, would be crucial for its survival in such dry conditions?",
+    "options": {
+      "a": "Presence of numerous stomata for gas exchange.",
+      "b": "Thin and flat epidermal cells to maximize light absorption.",
+      "c": "A thick waxy coating of cutin on its outer surface.",
+      "d": "Epidermal cells bearing long hair-like parts for water absorption."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "An old tree branch is much harder and rougher than a young, green stem. This change in the outer protective tissue of the old branch is due to the formation of which specific tissue?",
+    "options": {
+      "a": "Aerenchyma",
+      "b": "Cork",
+      "c": "Epidermis",
+      "d": "Sclerenchyma (only)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 66,
+    "question": "During strenuous exercise, your breathing rate increases significantly to take in more oxygen and remove carbon dioxide. Which specific muscle cells are responsible for the conscious control of movements in your limbs, allowing you to run or lift weights?",
+    "options": {
+      "a": "Cardiac muscle cells",
+      "b": "Smooth muscle cells",
+      "c": "Striated muscle cells",
+      "d": "Unstriated muscle cells"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "A doctor is examining a patient's inner lining of the intestine for proper nutrient absorption. Which type of epithelial tissue would the doctor be primarily interested in, given its role in facilitating movement across the epithelial barrier?",
+    "options": {
+      "a": "Simple squamous epithelium",
+      "b": "Stratified squamous epithelium",
+      "c": "Columnar epithelium",
+      "d": "Cuboidal epithelium"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "A person is suffering from a condition where their blood is not effectively transporting oxygen to their body cells. Which component of the blood, explicitly mentioned as suspended in plasma, is directly responsible for carrying oxygen?",
+    "options": {
+      "a": "White blood corpuscles (WBCs)",
+      "b": "Platelets",
+      "c": "Proteins",
+      "d": "Red blood corpuscles (RBCs)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 69,
+    "question": "An athlete is lifting heavy weights, putting significant stress on the connections between their muscles and bones. Which type of connective tissue is primarily responsible for forming these strong, fibrous connections?",
+    "options": {
+      "a": "Ligament",
+      "b": "Cartilage",
+      "c": "Tendon",
+      "d": "Areolar tissue"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "A child falls and scrapes their knee. The body's immediate response involves filling the space inside the wound and initiating tissue repair. Which type of connective tissue would be actively involved in this process, as described in the text?",
+    "options": {
+      "a": "Adipose tissue",
+      "b": "Ligament",
+      "c": "Areolar connective tissue",
+      "d": "Bone"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "During winter, a person with more fat reserves tends to feel warmer. This insulating property is attributed to which specific type of connective tissue?",
     "options": {
       "a": "Areolar tissue",
       "b": "Adipose tissue",
-      "c": "Bone",
-      "d": "Cartilage"
+      "c": "Cartilage",
+      "d": "Tendon"
     },
-    "answer": "a",
-    "id": 480
+    "answer": "b"
   },
   {
-    "question": "Which of the following is NOT a type of epithelial tissue?",
+    "question_number": 72,
+    "question": "A person experiences an involuntary twitch in their eyelid. Which type of muscular tissue would be responsible for such an uncontrollable movement?",
     "options": {
-      "a": "Squamous epithelium",
-      "b": "Cuboidal epithelium",
-      "c": "Columnar epithelium",
-      "d": "Connective epithelium"
+      "a": "Striated muscle",
+      "b": "Skeletal muscle",
+      "c": "Voluntary muscle",
+      "d": "Smooth muscle"
     },
-    "answer": "d",
-    "id": 481
+    "answer": "d"
   },
   {
-    "question": "Which type of muscle tissue is responsible for the peristaltic movement of food in the digestive system?",
+    "question_number": 73,
+    "question": "When a person touches a hot object, they immediately withdraw their hand. This rapid response to a stimulus is a fundamental function enabled by the combination of which two animal tissues?",
+    "options": {
+      "a": "Epithelial and connective tissue",
+      "b": "Muscular and epithelial tissue",
+      "c": "Nervous and muscular tissue",
+      "d": "Connective and nervous tissue"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "A botanist examines the cross-section of a plant stem and identifies a vascular bundle. What is the primary function of the xylem component within this bundle?",
+    "options": {
+      "a": "To transport food from leaves to other parts.",
+      "b": "To store food.",
+      "c": "To conduct water and minerals vertically.",
+      "d": "To provide mechanical support only."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 75,
+    "question": "During a plant's growth, new leaves emerge from buds at the tips of stems. This increase in the length of the stem is directly facilitated by the continuous division of cells in which specific meristematic tissue?",
+    "options": {
+      "a": "Lateral meristem",
+      "b": "Intercalary meristem",
+      "c": "Apical meristem",
+      "d": "Permanent tissue"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 76,
+    "question": "A patient's joints feel rough and painful due to friction between bones. Which type of connective tissue, responsible for smoothening bone surfaces at joints, might be damaged or degraded in this patient?",
+    "options": {
+      "a": "Bone",
+      "b": "Ligament",
+      "c": "Cartilage",
+      "d": "Tendon"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "A plant is grown in a dark environment. While its length still increases, its leaves are pale. The increase in length is due to which tissue type, even in the absence of light affecting color?",
+    "options": {
+      "a": "Permanent tissue",
+      "b": "Apical meristem",
+      "c": "Lateral meristem",
+      "d": "Chlorenchyma"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 78,
+    "question": "A gardener notices that the stems of their climbing plants can bend around supports without breaking. This characteristic is a testament to the presence and function of which tissue?",
+    "options": {
+      "a": "Sclerenchyma, for rigidity.",
+      "b": "Parenchyma, for storage.",
+      "c": "Collenchyma, for flexibility.",
+      "d": "Xylem, for water transport."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 79,
+    "question": "Imagine you are observing a plant that has large, hollow stems. This adaptation might be beneficial for floating in water. Which tissue would you expect to be highly developed in such a plant?",
+    "options": {
+      "a": "Chlorenchyma",
+      "b": "Aerenchyma",
+      "c": "Sclerenchyma",
+      "d": "Collenchyma"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 80,
+    "question": "A person's heart continues to beat rhythmically without conscious thought throughout their life. This continuous, involuntary contraction and relaxation is solely managed by which specialized muscle tissue?",
     "options": {
       "a": "Striated muscle",
       "b": "Smooth muscle",
       "c": "Cardiac muscle",
       "d": "Skeletal muscle"
     },
-    "answer": "b",
-    "id": 482
+    "answer": "c"
   },
   {
-    "question": "Which of the following is a function of the epidermis in plants?",
+    "question_number": 81,
+    "question": "If meristematic cells were to possess large vacuoles, how might this impact their function as actively dividing cells?",
     "options": {
-      "a": "Photosynthesis",
-      "b": "Water transport",
-      "c": "Protection against water loss",
-      "d": "Food storage"
+      "a": "It would enhance their ability to store food and water for rapid division.",
+      "b": "It would increase their cytoplasmic density, supporting faster metabolic rates.",
+      "c": "It might hinder their dense cytoplasm and thin walls, making cell division less efficient.",
+      "d": "It would improve their structural rigidity, preventing damage during growth."
     },
-    "answer": "c",
-    "id": 483
+    "answer": "c"
   },
   {
-    "question": "Which type of connective tissue forms the tendons that connect muscles to bones?",
+    "question_number": 82,
+    "question": "Consider a scenario where a plant's collenchyma tissue becomes lignified, similar to sclerenchyma. What would be the most significant functional consequence for the plant?",
     "options": {
-      "a": "Dense regular connective tissue",
-      "b": "Dense irregular connective tissue",
-      "c": "Elastic connective tissue",
-      "d": "Reticular connective tissue"
+      "a": "Increased flexibility, allowing for greater bending.",
+      "b": "Enhanced storage capacity for food and water.",
+      "c": "Loss of flexibility, leading to brittleness and susceptibility to breaking.",
+      "d": "Improved gas exchange efficiency due to thicker walls."
     },
-    "answer": "a",
-    "id": 484
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "A plant is genetically modified so its epidermal cells contain small intercellular spaces, unlike normal epidermal tissue. How might this modification affect the plant's protective role against water loss and mechanical injury?",
+    "options": {
+      "a": "It would enhance protection by allowing more fluid movement within the layer.",
+      "b": "It would reduce protection by compromising the continuous barrier.",
+      "c": "It would have no effect, as intercellular spaces are irrelevant to protection.",
+      "d": "It would increase light penetration, thereby improving photosynthesis."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 84,
+    "question": "If an animal tissue, which normally has loosely spaced cells embedded in a fluid matrix, were to instead have tightly packed cells with no intercellular matrix, what functional category would it most likely transform into?",
+    "options": {
+      "a": "Connective tissue",
+      "b": "Muscular tissue",
+      "c": "Epithelial tissue",
+      "d": "Nervous tissue"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "Consider a hypothetical scenario where the nerve impulses could no longer be transmitted from nerve endings to the dendrites of the next nerve cell. What would be the most immediate and profound impact on an animal's ability to respond to its environment?",
+    "options": {
+      "a": "Enhanced muscle contraction leading to uncontrolled movements.",
+      "b": "Complete loss of sensory perception only, but motor function remains.",
+      "c": "Inability to coordinate muscle movements in response to stimuli.",
+      "d": "Increased insulation of nerve fibres, speeding up impulse transmission."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "In an experiment, a plant's apical meristem is continuously damaged. What long-term observation would confirm the specific role of this tissue as described in the text?",
+    "options": {
+      "a": "The plant's stem and roots would increase significantly in girth.",
+      "b": "The plant would stop increasing in length but might still grow wider.",
+      "c": "New branches would form exclusively at the nodes.",
+      "d": "The plant would become exceptionally flexible and resistant to breaking."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "If an aquatic plant were engineered to lack aerenchyma, what would be the likely observable effect on its interaction with its environment?",
+    "options": {
+      "a": "It would grow taller due to increased water absorption.",
+      "b": "It would sink more easily and struggle with flotation.",
+      "c": "It would become more rigid and less susceptible to water currents.",
+      "d": "Its photosynthetic rate would significantly decrease."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "A scientist discovers a new plant species with extremely thick and lignified cell walls in its vascular tissues, resembling sclerenchyma. What implication would this have for the efficiency of water transport through its xylem?",
+    "options": {
+      "a": "Water transport would be enhanced due to increased structural integrity.",
+      "b": "Water transport would be inhibited due to reduced internal space in vessels.",
+      "c": "Water transport would become unidirectional, from leaves to roots.",
+      "d": "Water transport would shift to the phloem due to xylem dysfunction."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 89,
+    "question": "An experiment involves exposing a human subject to extreme cold. The body responds by storing more fat. How does this physiological response relate to the function of adipose tissue as described in the text?",
+    "options": {
+      "a": "Increased fat storage helps the body generate more heat through metabolism.",
+      "b": "Increased fat storage leads to better insulation, reducing heat loss.",
+      "c": "Increased fat storage primarily provides more energy for muscle contraction.",
+      "d": "Increased fat storage enhances the body's structural support."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "If the cuboidal epithelium lining the kidney tubules were to become simple squamous epithelium, what functional consequence would be expected?",
+    "options": {
+      "a": "Decreased mechanical support but increased efficiency in secretion.",
+      "b": "Increased mechanical support but decreased efficiency in filtration.",
+      "c": "Decreased mechanical support but increased efficiency in filtration/exchange.",
+      "d": "No significant change in function, as both are epithelial."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 91,
+    "question": "A plant's ability to heal wounds is crucial for its survival. Which type of plant tissue is primarily involved in forming new cells to repair damaged regions, even though it's not explicitly stated as a 'repair tissue' like areolar tissue in animals?",
+    "options": {
+      "a": "Permanent tissue, due to its specialized functions.",
+      "b": "Meristematic tissue, due to its dividing capacity.",
+      "c": "Protective tissue, by forming a new barrier.",
+      "d": "Complex tissue, by transporting necessary materials."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "In a laboratory experiment, the lignin is chemically removed from the cell walls of sclerenchyma tissue in a plant stem. What change in the plant's physical characteristics would be observed?",
+    "options": {
+      "a": "The stem would become more flexible.",
+      "b": "The stem would become harder and stiffer.",
+      "c": "The stem would increase in length.",
+      "d": "The stem would gain buoyancy."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 93,
+    "question": "If blood vessels were lined with stratified squamous epithelium instead of simple squamous epithelium, what would be the most immediate effect on substance exchange between blood and surrounding tissues?",
+    "options": {
+      "a": "Exchange would be enhanced due to multiple layers.",
+      "b": "Exchange would be inhibited due to increased barrier thickness.",
+      "c": "Exchange would remain unchanged as both are squamous.",
+      "d": "Exchange would only occur through active transport."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "A patient is diagnosed with a condition where the connections between their bones are weakened and less elastic. Which connective tissue is most likely affected, causing this problem?",
+    "options": {
+      "a": "Tendon",
+      "b": "Cartilage",
+      "c": "Ligament",
+      "d": "Bone"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "If a plant's phloem fibres, which are typically non-living, were to become living cells while retaining their structure, how would this change impact the overall efficiency of food transport?",
+    "options": {
+      "a": "It would significantly decrease food transport efficiency.",
+      "b": "It would not significantly impact food transport efficiency.",
+      "c": "It would enhance food transport efficiency.",
+      "d": "It would lead to the phloem transporting water instead of food."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 96,
+    "question": "A scientist is studying a plant that can survive extreme desiccation (drying out). Which structural feature of its outer layer would the scientist expect to be prominently developed to aid in survival?",
+    "options": {
+      "a": "Highly porous epidermis with many stomata.",
+      "b": "A thin, single-layered epidermis with large intercellular spaces.",
+      "c": "A thick epidermis with a waxy, water-resistant layer.",
+      "d": "Absence of any protective outer layer to allow rapid water intake."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "If the cilia in the respiratory tract's columnar epithelial tissue became rigid and unable to move, what would be the immediate consequence for the respiratory system?",
+    "options": {
+      "a": "Improved gas exchange efficiency due to increased surface area.",
+      "b": "Accumulation of mucus and foreign particles, impeding airway clearance.",
+      "c": "Enhanced absorption of oxygen into the bloodstream.",
+      "d": "Reduced likelihood of infection due to stronger barrier function."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "A new type of muscle tissue is discovered in an animal that exhibits constant, rhythmic contractions, similar to the heart, but it is found in the diaphragm. Based on the text, how would you classify this new muscle tissue type?",
+    "options": {
+      "a": "Striated muscle, due to its location.",
+      "b": "Smooth muscle, as diaphragm movement is involuntary.",
+      "c": "Cardiac muscle, due to its rhythmic and involuntary nature.",
+      "d": "Voluntary muscle, as it aids in breathing."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 99,
+    "question": "If an entire plant body's growth was uniform, similar to animals, instead of being localized to specific regions, what would this imply about its meristematic tissues?",
+    "options": {
+      "a": "Meristematic tissues would be distributed throughout the plant.",
+      "b": "Meristematic tissues would be completely absent.",
+      "c": "Meristematic tissues would be replaced by permanent tissues.",
+      "d": "Meristematic tissues would lose their ability to divide."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 100,
+    "question": "If the bone marrow, an area where areolar connective tissue is found, were to lose its ability to support internal organs and help in tissue repair, which component of the areolar tissue's function would be directly compromised?",
+    "options": {
+      "a": "Storage of fat globules as an insulator.",
+      "b": "Formation of the body's framework for support.",
+      "c": "Filling spaces inside organs and aiding tissue repair.",
+      "d": "Transportation of gases and hormones."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): In Amoeba, a single cell performs all basic functions like movement and intake of food.\nReason (R): Amoeba is a multicellular organism and exhibits division of labour among its cells.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): Multicellular organisms show division of labour.\nReason (R): In multicellular organisms, specialised functions are taken up by different groups of cells.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): Plants have a large quantity of supportive tissue compared to animals.\nReason (R): Plants are stationary or fixed and need to be upright.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): The growth in plants is limited to certain regions.\nReason (R): There are some tissues in plants that divide throughout their life, and these tissues are localised.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): Differentiation leads to the development of various types of permanent tissues.\nReason (R): Permanent tissues lose the ability to divide after differentiation.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): Parenchyma tissue generally stores food.\nReason (R): Parenchyma cells are loosely arranged with large intercellular spaces.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): Collenchyma tissue provides flexibility to plants.\nReason (R): Collenchyma cells are living, elongated, and irregularly thickened at the corners.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): Sclerenchyma makes the plant hard and stiff.\nReason (R): The walls of sclerenchyma cells are thickened due to lignin, often leaving no internal space.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The entire surface of a plant has an outer covering epidermis.\nReason (R): Epidermal cells secrete a waxy, water-resistant layer to aid in protection against water loss and mechanical injury.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): Stomata are necessary for gas exchange with the atmosphere.\nReason (R): Stomata are enclosed by two kidney-shaped guard cells that regulate their opening and closing.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): Root epidermal cells commonly bear long hair-like parts.\nReason (R): These hair-like parts greatly increase the total absorptive surface area for water absorption.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): Older plant stems have cork as their outer protective tissue.\nReason (R): Cork cells are living and contain chloroplasts for photosynthesis.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): Xylem and phloem are examples of complex permanent tissues.\nReason (R): Complex tissues are made of more than one type of cells that coordinate to perform a common function.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): Xylem transports water and minerals vertically in plants.\nReason (R): Xylem contains tracheids and vessels which are tubular structures and often dead when mature.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): Phloem transports food from leaves to other parts of the plant.\nReason (R): All five types of cells making up phloem are living cells.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Muscle cells contract and relax to cause movement in human beings.\nReason (R): Muscles contain special proteins called contractile proteins.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): Epithelial tissue forms a continuous sheet with almost no intercellular spaces.\nReason (R): This arrangement helps epithelial tissue to form a barrier and keep different body systems separate.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The skin is made of stratified squamous epithelium.\nReason (R): Skin epithelial cells are arranged in many layers to prevent wear and tear.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): Columnar epithelium with cilia is found in the inner lining of the intestine.\nReason (R): Cilia help in pushing mucus forward to clear the respiratory tract.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): Blood is considered a type of connective tissue.\nReason (R): The cells of connective tissue are loosely spaced and embedded in an intercellular matrix.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): Bone is a strong and nonflexible tissue.\nReason (R): Bone cells are embedded in a hard matrix composed of calcium and phosphorus compounds.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): Ligaments connect muscles to bones.\nReason (R): Ligaments are very elastic and have considerable strength.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): Cartilage smoothens bone surfaces at joints.\nReason (R): Cartilage has widely spaced cells and a solid matrix composed of proteins and sugars.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): Adipose tissue acts as an insulator in the body.\nReason (R): The cells of adipose tissue are filled with fat globules.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): Striated muscles are also called voluntary muscles.\nReason (R): Their movement is under conscious will, such as muscles in our limbs.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): Smooth muscles are also known as unstriated muscles.\nReason (R): Under the microscope, these muscles show alternate light and dark bands.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): Cardiac muscles are involuntary muscles.\nReason (R): They show rhythmic contraction and relaxation throughout life and cannot be consciously controlled.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): Nervous tissue is highly specialised for transmitting stimuli very rapidly.\nReason (R): A neuron consists of a cell body, a single long axon, and many short dendrites that facilitate impulse transmission.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): The functional combination of nerve and muscle tissue enables animals to move rapidly in response to stimuli.\nReason (R): Nerve cells (neurons) are responsible for secreting hormones that regulate muscle contraction.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
   }
 ]

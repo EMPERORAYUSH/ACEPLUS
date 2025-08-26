@@ -1,332 +1,1278 @@
 [
   {
-    "question": "Which of these is NOT an undefined term in Euclidean geometry?",
+    "question_number": 1,
+    "question": "The word 'geometry' is derived from which language?",
     "options": {
-      "a": "Point",
-      "b": "Line",
-      "c": "Plane",
-      "d": "Angle"
+      "a": "Latin",
+      "b": "Greek",
+      "c": "Sanskrit",
+      "d": "Egyptian"
     },
-    "answer": "d",
-    "id": 145
+    "answer": "b"
   },
   {
-    "question": "How many lines can be drawn through two distinct points?",
+    "question_number": 2,
+    "question": "In the word 'geometry', what does 'geo' mean?",
     "options": {
-      "a": "None",
+      "a": "Measure",
+      "b": "Shape",
+      "c": "Earth",
+      "d": "Land"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 3,
+    "question": "What does 'metrein' mean in the context of geometry?",
+    "options": {
+      "a": "Shape",
+      "b": "Structure",
+      "c": "Measurement",
+      "d": "Earth"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 4,
+    "question": "Which ancient civilization made extensive use of geometry for highly developed and well-planned cities with parallel roads and underground drainage systems?",
+    "options": {
+      "a": "Egyptian",
+      "b": "Babylonian",
+      "c": "Indus Valley Civilisation",
+      "d": "Greek"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "What was the approximate ratio of length : breadth : thickness of bricks used for constructions in the Indus Valley Civilisation?",
+    "options": {
+      "a": "2 : 1 : 1",
+      "b": "4 : 2 : 1",
+      "c": "3 : 2 : 1",
+      "d": "5 : 3 : 2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 6,
+    "question": "What were the Sulbasutras primarily known for in ancient India?",
+    "options": {
+      "a": "Philosophical texts",
+      "b": "Medical treatises",
+      "c": "Manuals of geometrical constructions",
+      "d": "Astronomical observations"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 7,
+    "question": "Which type of altars were used for household rituals in the Vedic period?",
+    "options": {
+      "a": "Only square altars",
+      "b": "Only circular altars",
+      "c": "Square and circular altars",
+      "d": "Altars combining rectangles, triangles, and trapeziums"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 8,
+    "question": "Which Greek mathematician is credited with giving the first known proof in geometry?",
+    "options": {
+      "a": "Pythagoras",
+      "b": "Euclid",
+      "c": "Thales",
+      "d": "Archimedes"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 10,
+    "question": "What was the name of Euclid's famous treatise on geometry?",
+    "options": {
+      "a": "The Principles",
+      "b": "The Axioms",
+      "c": "The Elements",
+      "d": "The Geometry"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 11,
+    "question": "How many chapters or 'books' did Euclid divide his 'Elements' into?",
+    "options": {
+      "a": "7",
+      "b": "10",
+      "c": "13",
+      "d": "23"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 12,
+    "question": "According to Euclid, how many dimensions does a solid have?",
+    "options": {
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "None"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 13,
+    "question": "What is the number of dimensions a surface possesses, according to Euclid?",
+    "options": {
+      "a": "Zero",
       "b": "One",
       "c": "Two",
-      "d": "Infinite"
+      "d": "Three"
     },
-    "answer": "b",
-    "id": 146
+    "answer": "c"
   },
   {
-    "question": "Which of Euclid's postulates allows for extending a line segment indefinitely?",
+    "question_number": 14,
+    "question": "What is Euclid's definition of a line?",
+    "options": {
+      "a": "That which has no part.",
+      "b": "A breadthless length.",
+      "c": "The ends of a surface.",
+      "d": "A continuous series of points."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 15,
+    "question": "What is Euclid's definition of a point?",
+    "options": {
+      "a": "A dot on a paper.",
+      "b": "A location with coordinates.",
+      "c": "That which has no part.",
+      "d": "An intersection of two lines."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "Which of the following is considered an undefined term in modern geometry?",
+    "options": {
+      "a": "Triangle",
+      "b": "Square",
+      "c": "Circle",
+      "d": "Plane"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 17,
+    "question": "What did Euclid call assumptions that were specific to geometry?",
+    "options": {
+      "a": "Theorems",
+      "b": "Axioms",
+      "c": "Propositions",
+      "d": "Postulates"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 18,
+    "question": "Assumptions used throughout mathematics and not specifically linked to geometry were called what by Euclid?",
+    "options": {
+      "a": "Postulates",
+      "b": "Common notions",
+      "c": "Theorems",
+      "d": "Principles"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 19,
+    "question": "Euclid's Axiom (1) states: \"Things which are equal to the ______ are equal to one another.\"",
+    "options": {
+      "a": "sum",
+      "b": "same thing",
+      "c": "double",
+      "d": "half"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 20,
+    "question": "Which of Euclid's axioms states that \"The whole is greater than the part\"?",
+    "options": {
+      "a": "Axiom (2)",
+      "b": "Axiom (3)",
+      "c": "Axiom (4)",
+      "d": "Axiom (5)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 21,
+    "question": "What does Euclid's Axiom (4) primarily justify?",
+    "options": {
+      "a": "The transitivity of equality.",
+      "b": "The principle of superposition.",
+      "c": "The addition of equal quantities.",
+      "d": "The comparison of magnitudes."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 22,
+    "question": "What is Euclid's Postulate 1?",
+    "options": {
+      "a": "A terminated line can be produced indefinitely.",
+      "b": "All right angles are equal to one another.",
+      "c": "A straight line may be drawn from any one point to any other point.",
+      "d": "A circle can be drawn with any centre and any radius."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 23,
+    "question": "What did Euclid mean by a 'terminated line'?",
+    "options": {
+      "a": "A ray",
+      "b": "A line segment",
+      "c": "An infinite line",
+      "d": "A curve"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 24,
+    "question": "Which of Euclid's postulates implies that all 90-degree angles are equivalent?",
     "options": {
       "a": "Postulate 1",
       "b": "Postulate 2",
       "c": "Postulate 3",
       "d": "Postulate 4"
     },
-    "answer": "b",
-    "id": 147
+    "answer": "d"
   },
   {
-    "question": "What is the name of the book written by Euclid that compiles geometrical knowledge?",
+    "question_number": 25,
+    "question": "Which of Euclid's postulates is described as \"far more complex than any other postulate\"?",
     "options": {
-      "a": "Principia Mathematica",
-      "b": "Elements",
-      "c": "Geometry",
-      "d": "Arithmetica"
+      "a": "Postulate 1",
+      "b": "Postulate 3",
+      "c": "Postulate 5",
+      "d": "Postulate 2"
     },
-    "answer": "b",
-    "id": 148
+    "answer": "c"
   },
   {
-    "question": "Euclid's axioms deal with:",
+    "question_number": 26,
+    "question": "In modern geometry, how are the terms 'postulates' and 'axioms' generally used?",
     "options": {
-      "a": "Only geometric concepts",
-      "b": "Only algebraic concepts",
-      "c": "General mathematical truths",
-      "d": "Unprovable theories"
+      "a": "They have distinct and non-overlapping meanings.",
+      "b": "'Postulate' is a verb, while 'axiom' is a noun.",
+      "c": "They are used interchangeably and in the same sense.",
+      "d": "Axioms are proved, while postulates are not."
     },
-    "answer": "a",
-    "id": 149
+    "answer": "c"
   },
   {
-    "question": "Which postulate is considered more complex and has led to the development of non-Euclidean geometries?",
+    "question_number": 27,
+    "question": "What is a statement that is proved using definitions, axioms, and previously proved statements called in Euclidean geometry?",
+    "options": {
+      "a": "Postulate",
+      "b": "Axiom",
+      "c": "Theorem",
+      "d": "Definition"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "What is the main characteristic of a consistent system of axioms?",
+    "options": {
+      "a": "All axioms can be proved true.",
+      "b": "It is impossible to deduce a statement that contradicts any axiom.",
+      "c": "It contains only undefined terms.",
+      "d": "All theorems derived from it are practical applications."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 29,
+    "question": "Which of the following historical figures was a student of Thales?",
+    "options": {
+      "a": "Euclid",
+      "b": "Pythagoras",
+      "c": "Archimedes",
+      "d": "Hippocrates"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 30,
+    "question": "The knowledge of geometry in ancient civilisations like Babylonia and Egypt was mainly used for what purpose?",
+    "options": {
+      "a": "Developing abstract theories.",
+      "b": "Establishing proofs by deductive reasoning.",
+      "c": "Practical purposes such as measuring land and construction.",
+      "d": "Studying celestial bodies."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 31,
+    "question": "If A, B, and C are three points on a line such that B lies between A and C, and AC coincides with AB + BC, then according to Euclid's Axiom (4), what is the relationship between AC and (AB + BC)?",
+    "options": {
+      "a": "AC < (AB + BC)",
+      "b": "AC > (AB + BC)",
+      "c": "AC = (AB + BC)",
+      "d": "AC is unrelated to (AB + BC)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 32,
+    "question": "A line segment PQ is 10 cm long. If a line segment RS is also 10 cm long, and another line segment XY is also 10 cm long, which Euclidean axiom allows us to conclude that PQ = XY?",
+    "options": {
+      "a": "If equals are added to equals, the wholes are equal.",
+      "b": "Things which are equal to the same thing are equal to one another.",
+      "c": "The whole is greater than the part.",
+      "d": "Things which coincide with one another are equal to one another."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 33,
+    "question": "If x = y, and a constant 'c' is added to both sides, so x + c = y + c. Which of Euclid's axioms supports this operation?",
+    "options": {
+      "a": "If equals are subtracted from equals, the remainders are equal.",
+      "b": "Things which are double of the same things are equal to one another.",
+      "c": "If equals are added to equals, the wholes are equal.",
+      "d": "The whole is greater than the part."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 34,
+    "question": "Given that AB = 7 cm. If a point C is the midpoint of AB, what is the length of AC?",
+    "options": {
+      "a": "3.0 cm",
+      "b": "3.5 cm",
+      "c": "7.0 cm",
+      "d": "14.0 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 35,
+    "question": "You have a line segment CD. According to Euclid's Postulate 2, what can be done with this segment?",
+    "options": {
+      "a": "It can be bisected at its midpoint.",
+      "b": "It can be produced indefinitely on both sides to form a line.",
+      "c": "It can be rotated around a point.",
+      "d": "It can be used as a radius to draw only one circle."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 36,
+    "question": "If two distinct points P and Q are given, how many unique straight lines can pass through them?",
+    "options": {
+      "a": "Zero",
+      "b": "One",
+      "c": "Two",
+      "d": "Infinitely many"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "An angle measures 90 degrees. Another angle also measures 90 degrees. Which of Euclid's postulates supports the conclusion that these two angles are equal?",
     "options": {
       "a": "Postulate 1",
       "b": "Postulate 2",
+      "c": "Postulate 3",
+      "d": "Postulate 4"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 38,
+    "question": "If a quantity A is 12 units and a quantity B is a part of A, such that B = 5 units. What is the remaining part, C, if A = B + C, based on Euclidean principles?",
+    "options": {
+      "a": "5 units",
+      "b": "7 units",
+      "c": "12 units",
+      "d": "17 units"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 39,
+    "question": "Consider two line segments, AB and CD. If AB = CD. Now, if a segment XY is cut from AB, and a segment PQ is cut from CD such that XY = PQ. What can be concluded about the remainders (AB - XY) and (CD - PQ)?",
+    "options": {
+      "a": "(AB - XY) > (CD - PQ)",
+      "b": "(AB - XY) < (CD - PQ)",
+      "c": "(AB - XY) = (CD - PQ)",
+      "d": "No conclusion can be drawn."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 40,
+    "question": "If a circle C1 has radius R and another circle C2 has radius R, which statement about these circles is true based on Euclidean principles?",
+    "options": {
+      "a": "C1 is larger than C2.",
+      "b": "C1 is smaller than C2.",
+      "c": "C1 and C2 are equal.",
+      "d": "C1 and C2 are concentric."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 41,
+    "question": "Given a line segment AB. To construct an equilateral triangle ABC, you would draw a circle with A as centre and AB as radius. Then, what would be the centre and radius of the second circle?",
+    "options": {
+      "a": "Centre B, radius AC",
+      "b": "Centre C, radius AB",
+      "c": "Centre B, radius BA",
+      "d": "Centre A, radius BC"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "If two quantities, P and Q, are such that P is double of X, and Q is also double of X. What is the relation between P and Q?",
+    "options": {
+      "a": "P is greater than Q.",
+      "b": "P is less than Q.",
+      "c": "P is equal to Q.",
+      "d": "P and Q are unrelated."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 43,
+    "question": "If two quantities, M and N, are such that M is half of Y, and N is also half of Y. What is the relation between M and N?",
+    "options": {
+      "a": "M is greater than N.",
+      "b": "M is less than N.",
+      "c": "M is equal to N.",
+      "d": "M and N are unrelated."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 44,
+    "question": "If AB = PQ and PQ = XY (as shown in Fig. 5.9 in the lesson), then AB = XY. Which Euclid's axiom supports this statement?",
+    "options": {
+      "a": "Axiom (2)",
+      "b": "Axiom (3)",
+      "c": "Axiom (1)",
+      "d": "Axiom (5)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 45,
+    "question": "Suppose point C is the midpoint of line segment AB. You want to prove that this midpoint is unique. Which method of proof would be most appropriate, based on the lesson's examples?",
+    "options": {
+      "a": "Direct proof",
+      "b": "Proof by construction",
+      "c": "Proof by contradiction",
+      "d": "Proof by induction"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 46,
+    "question": "Given two line segments AC and BD. If AC = BD, and point B lies on AC, and point C lies on BD such that BC is a common segment. Using Euclid's axioms, what can be concluded about AB and CD?",
+    "options": {
+      "a": "AB > CD",
+      "b": "AB < CD",
+      "c": "AB = CD",
+      "d": "AB + CD = AC"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 47,
+    "question": "If a straight line falling on two straight lines makes the interior angles on the same side of it together sum up to 170 degrees (which is less than two right angles). What will happen to the two straight lines if produced indefinitely?",
+    "options": {
+      "a": "They will remain parallel.",
+      "b": "They will diverge.",
+      "c": "They will meet on the side where the sum of angles is less than two right angles.",
+      "d": "They will meet on the side where the sum of angles is greater than two right angles."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 48,
+    "question": "A geometric figure P completely covers another identical geometric figure Q when placed over it. Which of Euclid's axioms supports the conclusion that P and Q are equal?",
+    "options": {
+      "a": "The whole is greater than the part.",
+      "b": "If equals are added to equals, the wholes are equal.",
+      "c": "Things which coincide with one another are equal to one another.",
+      "d": "Things which are halves of the same things are equal to one another."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 49,
+    "question": "A long rope has a total length of L. If a segment of length 's' is cut from it, and 's' is smaller than L, then which axiom states that L > s?",
+    "options": {
+      "a": "Things which are equal to the same thing are equal to one another.",
+      "b": "If equals are added to equals, the wholes are equal.",
+      "c": "The whole is greater than the part.",
+      "d": "Things which are double of the same things are equal to one another."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 50,
+    "question": "A carpenter measures two wooden planks. Plank A is 100 cm long. Plank B is 100 cm long. He uses these two planks to construct two identical tables. He concludes that the tables will have equal length. Which axiom applies?",
+    "options": {
+      "a": "Axiom (3)",
+      "b": "Axiom (6)",
+      "c": "Axiom (1)",
+      "d": "Axiom (5)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 51,
+    "question": "If angle X is 60 degrees, and angle Y is 60 degrees. If angle Z is also 60 degrees. Based on Euclidean axioms, what can be stated about angle X and angle Z?",
+    "options": {
+      "a": "Angle X is greater than Angle Z.",
+      "b": "Angle X is smaller than Angle Z.",
+      "c": "Angle X is equal to Angle Z.",
+      "d": "Angle X and Angle Z are complementary."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 52,
+    "question": "A baker has 1 kg of flour. He uses a portion of it, say 400 grams, for a cake. What can be said about the remaining flour compared to the total flour, according to Euclid's Axiom (5)?",
+    "options": {
+      "a": "The remaining flour is equal to the total flour.",
+      "b": "The total flour is equal to the remaining flour.",
+      "c": "The total flour is greater than the remaining flour.",
+      "d": "The remaining flour is double the total flour."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 53,
+    "question": "If a line segment AB is 5 cm long, and it is extended indefinitely in one direction, say to point C. What type of geometric figure is formed?",
+    "options": {
+      "a": "A ray",
+      "b": "A line",
+      "c": "A segment",
+      "d": "A curve"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 54,
+    "question": "A geometric proof starts by assuming two distinct lines intersect at two distinct points, P and Q. This assumption immediately leads to a contradiction with which Euclidean axiom?",
+    "options": {
+      "a": "Axiom (1): Things equal to the same thing are equal.",
+      "b": "Axiom (5): The whole is greater than the part.",
+      "c": "Axiom 5.1: Given two distinct points, there is a unique line that passes through them.",
+      "d": "Postulate 4: All right angles are equal."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 55,
+    "question": "Consider a point X. To draw a circle with X as the center and a given radius of 4 cm, which Euclidean postulate allows this construction?",
+    "options": {
+      "a": "Postulate 1",
+      "b": "Postulate 2",
+      "c": "Postulate 3",
+      "d": "Postulate 4"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 56,
+    "question": "If a line segment is 16 units long and is divided into two equal halves, what is the length of each half?",
+    "options": {
+      "a": "4 units",
+      "b": "8 units",
+      "c": "16 units",
+      "d": "32 units"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "If three points A, B, and C are collinear, and AB = 5 units, BC = 3 units, and B lies between A and C. What is the length of AC?",
+    "options": {
+      "a": "2 units",
+      "b": "5 units",
+      "c": "8 units",
+      "d": "15 units"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 58,
+    "question": "A and B are two distinct points. A straight line is drawn passing through both A and B. Which Euclidean postulate justifies the drawing of such a line?",
+    "options": {
+      "a": "Postulate 2",
+      "b": "Postulate 3",
       "c": "Postulate 4",
+      "d": "Postulate 1"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 59,
+    "question": "If the length of segment XY is half the length of segment AB, and the length of segment PQ is also half the length of segment AB. What can be concluded about the lengths of XY and PQ?",
+    "options": {
+      "a": "XY > PQ",
+      "b": "XY < PQ",
+      "c": "XY = PQ",
+      "d": "XY + PQ = AB"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 60,
+    "question": "An object has a volume V. A smaller object has a volume v, which is a part of V. If V = v + v', where v' is the remaining volume, what relationship must hold between V and v according to Euclid's Axiom (5)?",
+    "options": {
+      "a": "V = v",
+      "b": "V < v",
+      "c": "V > v",
+      "d": "V = 2v"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 61,
+    "question": "A land owner in ancient Egypt needed to redefine the boundaries of his field after the river Nile overflowed. This practical problem led to the development of which area of mathematics?",
+    "options": {
+      "a": "Algebra",
+      "b": "Arithmetic",
+      "c": "Geometry",
+      "d": "Statistics"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "An ancient Indian priest is following strict instructions for constructing a sacred fireplace for public worship. The instructions specify a shape that is a combination of rectangles, triangles, and trapeziums. Which text would likely contain such instructions?",
+    "options": {
+      "a": "The Rigveda",
+      "b": "The Sulbasutras",
+      "c": "The Upanishads",
+      "d": "The Puranas"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 63,
+    "question": "An urban planner designs a new city where all main roads are laid out parallel to each other, and an intricate underground drainage system is put in place. This design philosophy is reminiscent of which ancient civilization mentioned in the text?",
+    "options": {
+      "a": "Greek Civilization",
+      "b": "Roman Empire",
+      "c": "Indus Valley Civilisation",
+      "d": "Babylonian Civilization"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "A sculptor is working on a new statue. From a block of stone, he carves out a three-dimensional figure. What would Euclid refer to the outer limits of this carved figure as?",
+    "options": {
+      "a": "Points",
+      "b": "Lines",
+      "c": "Surfaces",
+      "d": "Volumes"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "A cartographer needs to draw the shortest distance between two cities on a map. He marks the cities as two distinct points and draws a straight line connecting them. Which axiom implicitly guarantees that this is the unique shortest path for a straight line?",
+    "options": {
+      "a": "Euclid's Postulate 1",
+      "b": "Euclid's Axiom 5.1",
+      "c": "Euclid's Postulate 4",
+      "d": "Euclid's Axiom (5)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 66,
+    "question": "A builder orders bricks for construction, specifying a very precise ratio of their dimensions (length:breadth:thickness). This attention to exact ratios in brick dimensions is a characteristic observed in the constructions of which ancient civilization?",
+    "options": {
+      "a": "Egyptian",
+      "b": "Greek",
+      "c": "Indus Valley Civilisation",
+      "d": "Chinese"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "A geometry student is asked to draw a circle that passes through a specific point P and has a specific radius R. Which of Euclid's postulates would the student use for this construction?",
+    "options": {
+      "a": "A straight line may be drawn from any one point to any other point.",
+      "b": "A terminated line can be produced indefinitely.",
+      "c": "A circle can be drawn with any centre and any radius.",
+      "d": "All right angles are equal to one another."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 69,
+    "question": "A civil engineer is designing a long bridge. He needs to conceptually extend a support beam infinitely from its current termination point. Which Euclidean postulate allows for this theoretical extension?",
+    "options": {
+      "a": "Postulate 1",
+      "b": "Postulate 2",
+      "c": "Postulate 3",
       "d": "Postulate 5"
     },
-    "answer": "d",
-    "id": 150
+    "answer": "b"
   },
   {
-    "question": "What do you call a statement that is proven using previously established axioms, definitions, and theorems?",
+    "question_number": 70,
+    "question": "A tailor cuts a piece of fabric into two sections. He then gives away one section, which is a proper part of the original fabric. Which of Euclid's axioms dictates that the original fabric was larger than the section he gave away?",
     "options": {
-      "a": "Axiom",
-      "b": "Postulate",
-      "c": "Theorem",
-      "d": "Corollary"
+      "a": "If equals are added to equals, the wholes are equal.",
+      "b": "The whole is greater than the part.",
+      "c": "Things which coincide with one another are equal to one another.",
+      "d": "Things which are halves of the same things are equal to one another."
     },
-    "answer": "c",
-    "id": 151
+    "answer": "b"
   },
   {
-    "question": "Which of the following statements describes Playfair's Axiom?",
+    "question_number": 71,
+    "question": "In a computer graphics program, two digital images are considered \"equal\" if one can be perfectly overlaid onto the other, covering it completely. This concept is analogous to which of Euclid's axioms?",
     "options": {
-      "a": "A line can be drawn from any point to any other point.",
-      "b": "All right angles are equal to one another.",
-      "c": "A circle can be drawn with any center and any radius.",
-      "d": "Given a line and a point not on the line, there exists a unique line through the point parallel to the given line."
+      "a": "If equals are added to equals, the wholes are equal.",
+      "b": "The whole is greater than the part.",
+      "c": "Things which coincide with one another are equal to one another.",
+      "d": "Things which are double of the same things are equal to one another."
     },
-    "answer": "d",
-    "id": 152
+    "answer": "c"
   },
   {
-    "question": "Why are some geometric terms left undefined?",
+    "question_number": 72,
+    "question": "If two different building designs both specify interior angles of 90 degrees for their corners, an architect can confidently assume these corners are equally 'sharp'. Which Euclidean postulate supports this assumption?",
     "options": {
-      "a": "Mathematicians couldn't agree on their definitions.",
-      "b": "They are self-evident and don't require definitions.",
-      "c": "Defining them would lead to circular reasoning.",
-      "d": "They are only relevant in advanced mathematics."
+      "a": "Postulate 1",
+      "b": "Postulate 2",
+      "c": "Postulate 3",
+      "d": "Postulate 4"
     },
-    "answer": "c",
-    "id": 153
+    "answer": "d"
   },
   {
-    "question": "Which of these is NOT true about non-Euclidean geometries?",
+    "question_number": 73,
+    "question": "A legal document states that a specific parcel of land, Area A, is equal in size to another parcel, Area B. And Area B is stated to be equal in size to a third parcel, Area C. Based on this, it can be logically concluded that Area A is equal to Area C. This reasoning is an application of which of Euclid's common notions?",
     "options": {
-      "a": "They developed from attempts to prove Euclid's fifth postulate.",
-      "b": "They contradict some of Euclid's postulates.",
-      "c": "Spherical geometry is a type of non-Euclidean geometry.",
-      "d": "They are less logical than Euclidean geometry."
+      "a": "If equals are subtracted from equals, the remainders are equal.",
+      "b": "Things which are equal to the same thing are equal to one another.",
+      "c": "Things which are halves of the same things are equal to one another.",
+      "d": "The whole is greater than the part."
     },
-    "answer": "d",
-    "id": 154
+    "answer": "b"
   },
   {
-    "question": "Which axiom states that 'Things which coincide with one another are equal to one another'?",
+    "question_number": 74,
+    "question": "Imagine you are writing a computer program for a geometric drawing tool. When a user draws a \"point,\" how should your program internally represent it to align with modern geometric understanding?",
     "options": {
-      "a": "Axiom 1",
-      "b": "Axiom 3",
-      "c": "Axiom 4",
-      "d": "Axiom 5"
+      "a": "As a very small circle.",
+      "b": "As a pixel on the screen.",
+      "c": "As an object with length and breadth.",
+      "d": "As an undefined location with no dimension."
     },
-    "answer": "c",
-    "id": 155
+    "answer": "d"
   },
   {
-    "question": "What can be said about two lines that are equidistant from each other at all points?",
+    "question_number": 75,
+    "question": "A child cuts a chocolate bar into two pieces. If the original chocolate bar weighed 'W' grams, and one piece weighs 'P1' grams, and the other 'P2' grams, then W = P1 + P2. If the child then doubles the weight of P1 to get P1_double and doubles the weight of P2 to get P2_double, what axiom implies P1_double + P2_double = 2W?",
     "options": {
-      "a": "They are intersecting lines.",
-      "b": "They are perpendicular lines.",
-      "c": "They are parallel lines.",
-      "d": "They are coincident lines."
+      "a": "Things which are halves of the same things are equal to one another.",
+      "b": "The whole is greater than the part.",
+      "c": "If equals are added to equals, the wholes are equal.",
+      "d": "Things which coincide with one another are equal to one another."
     },
-    "answer": "c",
-    "id": 156
+    "answer": "c"
   },
   {
-    "question": "Which civilization used geometry primarily for practical purposes, such as measuring land and building pyramids?",
+    "question_number": 76,
+    "question": "A mathematician wants to develop a new geometric system. To ensure its logical soundness, she must verify that it is 'consistent'. What does this mean she must ensure?",
     "options": {
-      "a": "Greeks",
-      "b": "Egyptians",
-      "c": "Babylonians",
-      "d": "Indians"
+      "a": "That all her definitions are perfectly clear and non-ambiguous.",
+      "b": "That she cannot deduce any statement that contradicts a previously established axiom or theorem within her system.",
+      "c": "That her system can be fully derived from Euclid's original postulates.",
+      "d": "That her geometry accurately models the physical world."
     },
-    "answer": "b",
-    "id": 157
+    "answer": "b"
   },
   {
-    "question": "What were the Sulbasutras in ancient India?",
+    "question_number": 77,
+    "question": "A teacher asks students to compare the length of a line segment with the area of a square. Why would this comparison be considered invalid in Euclidean geometry?",
     "options": {
-      "a": "Philosophical texts",
-      "b": "Mathematical treatises",
-      "c": "Manuals of geometric constructions",
-      "d": "Astronomical charts"
+      "a": "Because a line segment is a part of a line, and a square is a whole figure.",
+      "b": "Because one is a definition and the other is a theorem.",
+      "c": "Because magnitudes of different kinds cannot be compared or added.",
+      "d": "Because one is a dimension and the other is a boundary."
     },
-    "answer": "c",
-    "id": 158
+    "answer": "c"
   },
   {
-    "question": "According to Euclid, a surface is defined as:",
+    "question_number": 78,
+    "question": "A surveyor is trying to extend a property line beyond the existing markers. He applies the concept that the existing \"terminated line\" (the known property boundary) can be stretched infinitely. Which of Euclid's postulates is he applying?",
     "options": {
-      "a": "That which has length only",
-      "b": "That which has breadth only",
-      "c": "That which has length and breadth only",
-      "d": "That which has height, length, and breadth"
+      "a": "Postulate 1",
+      "b": "Postulate 2",
+      "c": "Postulate 3",
+      "d": "Postulate 5"
     },
-    "answer": "c",
-    "id": 159
+    "answer": "b"
   },
   {
-    "question": "What is the significance of Euclid's first 28 theorems?",
+    "question_number": 79,
+    "question": "In a debate about the origins of mathematical thought, someone argues that the Greeks focused on the 'why' behind mathematical constructions. This aligns with which unique aspect of Greek geometry mentioned in the text?",
     "options": {
-      "a": "They form the basis of algebra.",
-      "b": "They are proven without using the fifth postulate.",
-      "c": "They are only applicable to triangles.",
-      "d": "They were later found to be incorrect."
+      "a": "Their use of practical measurements for land.",
+      "b": "Their collection of works into comprehensive treatises.",
+      "c": "Their emphasis on deductive reasoning to establish truth.",
+      "d": "Their adoption of an unsystematic approach."
     },
-    "answer": "b",
-    "id": 160
+    "answer": "c"
   },
   {
-    "question": "Which of Euclid's axioms justifies the principle of superposition?",
+    "question_number": 80,
+    "question": "A chef has a recipe that calls for doubling the amount of sugar and doubling the amount of flour. If the original sugar amount was equal to the original flour amount, which Euclidean axiom would imply that the doubled sugar amount is equal to the doubled flour amount?",
     "options": {
-      "a": "Axiom 1",
-      "b": "Axiom 2",
-      "c": "Axiom 4",
-      "d": "Axiom 5"
+      "a": "Things which are halves of the same things are equal to one another.",
+      "b": "Things which are double of the same things are equal to one another.",
+      "c": "The whole is greater than the part.",
+      "d": "If equals are subtracted from equals, the remainders are equal."
     },
-    "answer": "c",
-    "id": 161
+    "answer": "b"
   },
   {
-    "question": "In which geometry are lines considered parts of great circles?",
+    "question_number": 81,
+    "question": "Why is Euclid's definition of a point as \"that which has no part\" considered problematic in modern mathematics?",
     "options": {
-      "a": "Euclidean geometry",
-      "b": "Spherical geometry",
-      "c": "Hyperbolic geometry",
-      "d": "Analytical geometry"
+      "a": "It contradicts the existence of a point.",
+      "b": "The term 'part' itself needs further definition, leading to an infinite regress.",
+      "c": "It implies points can be divided.",
+      "d": "It makes the concept of a point too intuitive."
     },
-    "answer": "b",
-    "id": 162
+    "answer": "b"
   },
   {
-    "question": "If a line PQ falls on lines AB and CD such that the interior angles on one side of PQ add up to 180°, what can be said about lines AB and CD?",
+    "question_number": 82,
+    "question": "The statement \"A straight line may be drawn from any one point to any other point\" (Euclid's Postulate 1) implies the existence of at least one line. However, to guarantee a unique line through two distinct points, what was implicitly assumed by Euclid and later stated as an axiom?",
     "options": {
-      "a": "They are parallel.",
-      "b": "They are perpendicular.",
-      "c": "They intersect on the same side where the angles add up to 180°.",
-      "d": "They intersect on the opposite side where the angles add up to 180°."
+      "a": "That two lines can intersect at infinite points.",
+      "b": "That only one line can pass through two distinct points.",
+      "c": "That a line has no breadth.",
+      "d": "That all points on a line lie evenly."
     },
-    "answer": "a",
-    "id": 163
+    "answer": "b"
   },
   {
-    "question": "What does it mean for a system of axioms to be consistent?",
+    "question_number": 83,
+    "question": "What is the primary difference in the approach to geometry between ancient civilizations like Babylonia and Egypt, and that of the Greeks?",
     "options": {
-      "a": "They can be proven using empirical evidence.",
-      "b": "They apply to both Euclidean and non-Euclidean geometries.",
-      "c": "They do not lead to any contradictory statements.",
-      "d": "They are independent of each other."
+      "a": "Babylonians and Egyptians used deductive reasoning, while Greeks did not.",
+      "b": "Greeks focused on practical applications, while Babylonians and Egyptians focused on systematic science.",
+      "c": "Greek geometry emphasized the reasoning behind constructions and proofs, while others were mainly practical and result-oriented.",
+      "d": "Only Greeks had written records of their geometric knowledge."
     },
-    "answer": "c",
-    "id": 164
+    "answer": "c"
   },
   {
-    "question": "In Euclidean geometry, the sum of the angles of a triangle is always:",
+    "question_number": 84,
+    "question": "Why is Euclid's Postulate 5 considered qualitatively different from his first four postulates?",
     "options": {
-      "a": "Less than 180°",
-      "b": "Equal to 180°",
-      "c": "Greater than 180°",
-      "d": "Dependent on the size of the triangle"
+      "a": "It is the only postulate that can be proved.",
+      "b": "It deals with circles, unlike others that deal with lines.",
+      "c": "It is far more complex and not as 'self-evident' as the others.",
+      "d": "It was added much later than the first four."
     },
-    "answer": "b",
-    "id": 165
+    "answer": "c"
   },
   {
-    "question": "Which of the following is NOT a valid definition for parallel lines?",
+    "question_number": 85,
+    "question": "The construction of altars in the Vedic period (India) involved accurate geometric methods. What key aspect of mathematical rigor, present in Greek geometry, was notably absent in this Indian approach?",
     "options": {
-      "a": "Two lines in the same plane that never intersect.",
-      "b": "Two lines that are always the same distance apart.",
-      "c": "Two lines that have the same slope.",
-      "d": "Two lines that intersect at a right angle."
+      "a": "Use of specific ratios for dimensions.",
+      "b": "Application to practical problems.",
+      "c": "Discussion of the principles behind the constructions.",
+      "d": "Use of basic shapes like squares and circles."
     },
-    "answer": "d",
-    "id": 166
+    "answer": "c"
   },
   {
-    "question": "What is the difference between axioms and postulates in modern mathematics?",
+    "question_number": 86,
+    "question": "A system of axioms is called 'consistent'. What is the practical implication of a system being inconsistent?",
     "options": {
-      "a": "Axioms are specific to geometry, postulates are general.",
-      "b": "Postulates are specific to geometry, axioms are general.",
-      "c": "Axioms are proven, postulates are assumed.",
-      "d": "There is no significant difference, the terms are used interchangeably."
+      "a": "It means the axioms are not universal truths.",
+      "b": "It implies that some definitions are ambiguous.",
+      "c": "It allows for the deduction of contradictory statements, rendering the system logically unsound.",
+      "d": "It means the system cannot be applied to real-world problems."
     },
-    "answer": "d",
-    "id": 167
+    "answer": "c"
   },
   {
-    "question": "According to Euclid, what lies at the ends of a line?",
+    "question_number": 87,
+    "question": "What is the main reason that terms like 'part', 'breadth', and 'evenly' are not defined in modern geometry, even though Euclid attempted to use them in his definitions?",
     "options": {
-      "a": "Nothing",
-      "b": "Other lines",
-      "c": "Points",
-      "d": "Angles"
+      "a": "They are too abstract to be defined.",
+      "b": "Their meaning is universally understood without definition.",
+      "c": "Defining them would lead to a never-ending chain of new definitions.",
+      "d": "They are not relevant to modern geometric concepts."
     },
-    "answer": "c",
-    "id": 168
+    "answer": "c"
   },
   {
-    "question": "Why did ancient civilizations develop geometry?",
+    "question_number": 88,
+    "question": "Euclid's Axiom (5) states, \"The whole is greater than the part.\" If we have a quantity X and a quantity Y, and Y is part of X, this axiom implies that X can be written as X = Y + Z, where Z is some positive quantity. Why is this axiom considered a 'universal truth'?",
     "options": {
-      "a": "To create complex artwork",
-      "b": "To study the stars and planets",
-      "c": "To solve practical problems like measuring land and constructing buildings",
-      "d": "To develop new philosophical theories"
+      "a": "It is applicable only to geometric figures.",
+      "b": "It is a fundamental observation that holds true in all contexts involving magnitudes.",
+      "c": "It requires complex mathematical proof.",
+      "d": "It depends on the specific units of measurement."
     },
-    "answer": "c",
-    "id": 169
+    "answer": "b"
   },
   {
-    "question": "What is the key characteristic of a straight line according to Euclid's definition?",
+    "question_number": 89,
+    "question": "What distinguishes a 'postulate' from an 'axiom' (common notion) in Euclid's original framework?",
     "options": {
-      "a": "It has no breadth.",
-      "b": "It can be extended infinitely.",
-      "c": "It lies evenly with the points on itself.",
-      "d": "It connects two distinct points."
+      "a": "Postulates are proved, while axioms are not.",
+      "b": "Postulates are specific to geometry, while axioms are general mathematical assumptions.",
+      "c": "Axioms are statements, while postulates are actions.",
+      "d": "Axioms are more complex than postulates."
     },
-    "answer": "c",
-    "id": 170
+    "answer": "b"
   },
   {
-    "question": "Which of the following statements is NOT a direct consequence of Euclid's postulates?",
+    "question_number": 90,
+    "question": "The proof of \"Two distinct lines cannot have more than one point in common\" (Theorem 5.1) is given as a 'proof by contradiction'. What does this method involve?",
     "options": {
-      "a": "A triangle can have at most one right angle.",
-      "b": "Two circles can intersect in at most two points.",
-      "c": "The sum of the angles of a quadrilateral is 360°.",
-      "d": "Parallel lines exist."
+      "a": "Starting with definitions and logically building up to the conclusion.",
+      "b": "Constructing a diagram to visually demonstrate the truth.",
+      "c": "Assuming the opposite of what needs to be proved and showing it leads to an absurdity or contradiction with a known truth.",
+      "d": "Providing several examples that support the statement."
     },
-    "answer": "d",
-    "id": 171
+    "answer": "c"
   },
   {
-    "question": "What is the modern term for what Euclid referred to as a 'terminated line'?",
+    "question_number": 91,
+    "question": "Why is it stated that in ancient civilisations like Babylonia and Egypt, geometry remained \"a very practical oriented discipline\"?",
     "options": {
-      "a": "Ray",
-      "b": "Line segment",
-      "c": "Perpendicular",
-      "d": "Transversal"
+      "a": "They did not have the tools for abstract thinking.",
+      "b": "They lacked the concept of shapes and forms.",
+      "c": "Their geometric knowledge mainly consisted of results and rules for specific problems, without generalized procedures or systematic development.",
+      "d": "They were not interested in any form of mathematics."
     },
-    "answer": "b",
-    "id": 172
+    "answer": "c"
   },
   {
-    "question": "Euclid's work was crucial in establishing which approach to geometry?",
+    "question_number": 92,
+    "question": "If someone claims that a two-dimensional object like a flat piece of paper has thickness, which of Euclid's initial definitions would this statement directly contradict?",
     "options": {
-      "a": "Empirical",
-      "b": "Deductive",
-      "c": "Inductive",
-      "d": "Probabilistic"
+      "a": "A point is that which has no part.",
+      "b": "A line is breadthless length.",
+      "c": "A surface is that which has length and breadth only, and no thickness.",
+      "d": "The edges of a surface are lines."
     },
-    "answer": "b",
-    "id": 173
+    "answer": "c"
   },
   {
-    "question": "What can be said about two distinct lines that are both parallel to a third line?",
+    "question_number": 93,
+    "question": "When Euclid proved that an equilateral triangle could be constructed on any given line segment (Example 2), he implicitly assumed that the two circles drawn would meet at a point. Why is this an important detail to acknowledge?",
     "options": {
-      "a": "They are parallel to each other.",
-      "b": "They intersect at a single point.",
-      "c": "They are perpendicular to each other.",
-      "d": "They are skew lines."
+      "a": "It proves the existence of such a triangle.",
+      "b": "It highlights an unstated assumption that is necessary for the construction to work.",
+      "c": "It demonstrates the complexity of geometric constructions.",
+      "d": "It shows that Euclid's geometry is flawed."
     },
-    "answer": "a",
-    "id": 174
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "The Indus Valley Civilisation's use of kiln-fired bricks with a consistent 4:2:1 ratio of length:breadth:thickness primarily indicates their skill in which mathematical domain mentioned in the text?",
+    "options": {
+      "a": "Deductive reasoning",
+      "b": "Abstract geometry",
+      "c": "Mensuration and practical arithmetic",
+      "d": "Theoretical principles"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "If it were discovered that Euclid's Postulate 4, \"All right angles are equal to one another,\" was false, what would be a significant consequence for geometric proofs?",
+    "options": {
+      "a": "Circles would cease to exist.",
+      "b": "The concept of parallelism would be invalidated.",
+      "c": "Many theorems relying on angles of 90 degrees (e.g., in squares, rectangles, perpendicular lines) would need re-evaluation or might become false.",
+      "d": "The definition of a point would change."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 96,
+    "question": "Euclid summarized statements as definitions. However, modern geometry leaves some terms undefined. What is the main benefit of leaving certain fundamental terms like 'point', 'line', and 'plane' undefined?",
+    "options": {
+      "a": "It makes the study of geometry simpler for beginners.",
+      "b": "It avoids an infinite regress of definitions and allows for a foundation for the system.",
+      "c": "It makes geometry more abstract and theoretical.",
+      "d": "It means these terms are not important for the subject."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 97,
+    "question": "The example of the Nile river overflowing and necessitating the redrawing of land boundaries illustrates what core aspect of geometry's origin?",
+    "options": {
+      "a": "Its purely theoretical nature.",
+      "b": "Its origin from practical needs and real-world problems.",
+      "c": "Its development primarily for religious rituals.",
+      "d": "Its invention as a form of abstract art."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "The sriyantra is described as consisting of nine interwoven isosceles triangles that produce 43 subsidiary triangles. What does this complexity, in the absence of explicit discussion of principles, suggest about ancient Indian geometry?",
+    "options": {
+      "a": "It was primitive and unsophisticated.",
+      "b": "It was highly advanced in terms of construction and application, even without formal proofs or theoretical discussions.",
+      "c": "It relied heavily on external, unstated knowledge.",
+      "d": "It was primarily for artistic purposes, not mathematical."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "What is the significance of Euclid deducing 465 propositions (theorems) in a logical chain using his axioms, postulates, definitions, and earlier theorems?",
+    "options": {
+      "a": "It shows he was the first to invent these geometric concepts.",
+      "b": "It demonstrates the power and systematic nature of deductive reasoning in building a coherent mathematical system from basic assumptions.",
+      "c": "It proves that all geometric truths are self-evident.",
+      "d": "It implies that no new theorems could be discovered after his work."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "In a philosophical discussion about mathematics, one might argue that geometry is an 'abstract model of the world'. How does this view align with the description of geometry in Euclid's time?",
+    "options": {
+      "a": "It contradicts Euclid's focus on purely practical applications.",
+      "b": "Euclid's contemporaries also thought of geometry as an abstract model derived from observations of the physical world.",
+      "c": "Euclid believed geometry was only about numbers, not shapes.",
+      "d": "This view emerged long after Euclid's time and has no relation to his work."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): The word 'geometry' comes from the Greek words 'geo' and 'metrein'.\nReason (R): 'Geo' means 'earth' and 'metrein' means 'to measure'.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): Point, line, and plane are considered undefined terms in modern geometry.\nReason (R): Euclid's definitions for these terms were ambiguous, leading to an endless chain of new definitions for the terms used within his definitions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): A solid has three dimensions, a surface has two dimensions, and a line has one dimension.\nReason (R): In each step from solids to points (solids-surfaces-lines-points), one extension or dimension is lost.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): Things which are equal to the same thing are equal to one another.\nReason (R): This statement is Euclid's first common notion (axiom).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The whole is greater than the part.\nReason (R): If a quantity B is a part of another quantity A, then A can be written as the sum of B and some third quantity C (A = B + C).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): Two distinct lines cannot have more than one point in common.\nReason (R): Given two distinct points, there is a unique line that passes through them.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): A terminated line can be produced indefinitely on both sides.\nReason (R): Euclid's Postulate 2 states that a terminated line can be produced indefinitely.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): All right angles are equal to one another.\nReason (R): A right angle is defined as an angle measuring exactly 90 degrees.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): The geometry developed by Egyptians mainly consisted of general rules of procedure.\nReason (R): Egyptians used geometry mostly for practical purposes like computing volumes and constructing canals.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): Euclid's Postulate 5 is considered more complex than his other postulates.\nReason (R): Postulates 1 through 4 are simple and obvious 'self-evident truths' that are accepted without proof.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): A system of axioms is called consistent if it is impossible to deduce a statement that contradicts any axiom or previously proved statement.\nReason (R): Consistency ensures the logical validity and coherence of the mathematical system.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): Euclid's Axiom (4), \"Things which coincide with one another are equal to one another,\" justifies the principle of superposition.\nReason (R): The principle of superposition involves placing one geometric figure directly over another to compare them for equality.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): Magnitudes of different kinds can be compared and added, such as comparing a line to a rectangle.\nReason (R): Magnitudes of the same kind can be compared and added.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): In the Indus Valley Civilisation, the roads were parallel to each other and there was an underground drainage system.\nReason (R): The town dwellers were skilled in mensuration and practical arithmetic.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Theorems are statements which are proved.\nReason (R): Theorems are proved using definitions, axioms, and previously proved statements through deductive reasoning.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): The Greeks were interested in establishing the truth of statements they discovered using deductive reasoning.\nReason (R): Deductive reasoning starts from general statements and moves to specific conclusions, establishing truth through logical necessity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): Euclid assumed, without mentioning, that there is a unique line joining two distinct points.\nReason (R): Postulate 1 states that a straight line may be drawn from any one point to any other point.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): A point has no dimension.\nReason (R): A point is that which has no part.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
   }
 ]

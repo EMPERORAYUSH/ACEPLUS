@@ -1,167 +1,1300 @@
 [
   {
-    "question": "A point lies on the y-axis. What can you say about its x-coordinate?",
+    "question_number": 1,
+    "question": "What is the name of the horizontal line used to determine the position of any point in the Cartesian plane?",
     "options": {
-      "a": "It is positive.",
-      "b": "It is negative.",
-      "c": "It is zero.",
-      "d": "It can be any number."
+      "a": "x-axis",
+      "b": "y-axis",
+      "c": "origin",
+      "d": "quadrant"
     },
-    "answer": "c",
-    "id": 91
+    "answer": "a"
   },
   {
-    "question": "The point (-5, -2) lies in which quadrant?",
+    "question_number": 2,
+    "question": "What is the name of the vertical line used to determine the position of any point in the Cartesian plane?",
     "options": {
-      "a": "Quadrant I",
-      "b": "Quadrant II",
-      "c": "Quadrant III",
-      "d": "Quadrant IV"
+      "a": "x-axis",
+      "b": "y-axis",
+      "c": "origin",
+      "d": "quadrant"
     },
-    "answer": "c",
-    "id": 92
+    "answer": "b"
   },
   {
-    "question": "If the ordinate of a point is -3 and the abscissa is 2, then the coordinates of the point are:",
-    "options": {
-      "a": "(-3, 2)",
-      "b": "(2, -3)",
-      "c": "(3, -2)",
-      "d": "(-2, 3)"
-    },
-    "answer": "b",
-    "id": 93
-  },
-  {
-    "question": "Which of these points lies on the x-axis?",
-    "options": {
-      "a": "(0, 4)",
-      "b": "(-2, 0)",
-      "c": "(3, 3)",
-      "d": "(0, -1)"
-    },
-    "answer": "b",
-    "id": 94
-  },
-  {
-    "question": "The point (0, 0) is called the:",
+    "question_number": 3,
+    "question": "What is the point of intersection of the x-axis and the y-axis called?",
     "options": {
       "a": "Abscissa",
       "b": "Ordinate",
       "c": "Origin",
       "d": "Quadrant"
     },
-    "answer": "c",
-    "id": 95
+    "answer": "c"
   },
   {
-    "question": "A point is at a distance of 4 units from the x-axis and 3 units from the y-axis. Which of these could be its coordinates?",
+    "question_number": 4,
+    "question": "How many parts do the coordinate axes divide the plane into?",
     "options": {
-      "a": "(4, 3)",
-      "b": "(-4, 3)",
-      "c": "(3, -4)",
-      "d": "All of the above"
+      "a": "One",
+      "b": "Two",
+      "c": "Three",
+      "d": "Four"
     },
-    "answer": "d",
-    "id": 96
+    "answer": "d"
   },
   {
-    "question": "What is the perpendicular distance of the point P (5, -2) from the x-axis?",
+    "question_number": 5,
+    "question": "What are these four parts of the plane formed by the coordinate axes called?",
     "options": {
-      "a": "5 units",
-      "b": "-2 units",
-      "c": "2 units",
-      "d": "-5 units"
+      "a": "Quadrants",
+      "b": "Halves",
+      "c": "Sections",
+      "d": "Divisions"
     },
-    "answer": "c",
-    "id": 97
+    "answer": "a"
   },
   {
-    "question": "If (a, -3) and (5, b) represent the same point, then the values of a and b are:",
+    "question_number": 6,
+    "question": "In which direction are the quadrants numbered?",
     "options": {
-      "a": "a = 5, b = -3",
-      "b": "a = -3, b = 5",
-      "c": "a = 5, b = 3",
-      "d": "a = -5, b = -3"
+      "a": "Clockwise from OY",
+      "b": "Anticlockwise from OX",
+      "c": "Clockwise from OX",
+      "d": "Anticlockwise from OY"
     },
-    "answer": "a",
-    "id": 98
+    "answer": "b"
   },
   {
-    "question": "Assertion: The points (2, 3) and (3, 2) represent different locations in the Cartesian plane. Reason: Interchanging the x and y coordinates of a point does not change its position.",
+    "question_number": 7,
+    "question": "What is another name for the x-coordinate of a point?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
+      "a": "Ordinate",
+      "b": "Quadrant",
+      "c": "Abscissa",
+      "d": "Origin"
     },
-    "answer": "c",
-    "id": 99
+    "answer": "c"
   },
   {
-    "question": "The point which lies on the line y = x is:",
+    "question_number": 8,
+    "question": "What is another name for the y-coordinate of a point?",
     "options": {
-      "a": "(2, -2)",
-      "b": "(-3, 3)",
+      "a": "Abscissa",
+      "b": "Quadrant",
+      "c": "Origin",
+      "d": "Ordinate"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 9,
+    "question": "What are the coordinates of the origin?",
+    "options": {
+      "a": "(0, 0)",
+      "b": "(1, 1)",
+      "c": "(0, 1)",
+      "d": "(1, 0)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 10,
+    "question": "If a point lies on the x-axis, what is always its y-coordinate?",
+    "options": {
+      "a": "Positive",
+      "b": "Zero",
+      "c": "Negative",
+      "d": "Undefined"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 11,
+    "question": "If a point lies on the y-axis, what is always its x-coordinate?",
+    "options": {
+      "a": "Positive",
+      "b": "Negative",
+      "c": "Zero",
+      "d": "Undefined"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 12,
+    "question": "What are the signs of the coordinates of a point in the first quadrant?",
+    "options": {
+      "a": "(\u2013, +)",
+      "b": "(\u2013, \u2013)",
+      "c": "(+, \u2013)",
+      "d": "(+, +)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 13,
+    "question": "What are the signs of the coordinates of a point in the second quadrant?",
+    "options": {
+      "a": "(\u2013, +)",
+      "b": "(\u2013, \u2013)",
+      "c": "(+, +)",
+      "d": "(+, \u2013)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 14,
+    "question": "What are the signs of the coordinates of a point in the third quadrant?",
+    "options": {
+      "a": "(+, +)",
+      "b": "(\u2013, \u2013)",
+      "c": "(\u2013, +)",
+      "d": "(+, \u2013)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 15,
+    "question": "What are the signs of the coordinates of a point in the fourth quadrant?",
+    "options": {
+      "a": "(\u2013, \u2013)",
+      "b": "(\u2013, +)",
+      "c": "(+, \u2013)",
+      "d": "(+, +)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "Who is credited with the initial development of the system used for describing the position of a point in a plane, also known as the Cartesian system?",
+    "options": {
+      "a": "Euclid",
+      "b": "Pythagoras",
+      "c": "Archimedes",
+      "d": "Ren\u00e9 D\u00e9scartes"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 17,
+    "question": "In stating the coordinates of a point in the coordinate plane, which coordinate comes first by convention?",
+    "options": {
+      "a": "The x-coordinate",
+      "b": "The y-coordinate",
+      "c": "The origin",
+      "d": "The quadrant"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 18,
+    "question": "What is another term used to refer to the Cartesian plane?",
+    "options": {
+      "a": "The horizontal plane",
+      "b": "The coordinate plane",
+      "c": "The number line plane",
+      "d": "The quadrant plane"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 19,
+    "question": "The perpendicular distance of a point from the y-axis, measured along the x-axis, gives which coordinate?",
+    "options": {
+      "a": "Ordinate",
+      "b": "Quadrant",
+      "c": "x-coordinate",
+      "d": "y-coordinate"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 20,
+    "question": "The perpendicular distance of a point from the x-axis, measured along the y-axis, gives which coordinate?",
+    "options": {
+      "a": "x-coordinate",
+      "b": "Abscissa",
+      "c": "Origin",
+      "d": "y-coordinate"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 21,
+    "question": "If x \u2260 y, then which of the following statements is true about the points (x, y) and (y, x)?",
+    "options": {
+      "a": "They are not the same point.",
+      "b": "They represent the same point.",
+      "c": "They are always on the x-axis.",
+      "d": "They are always on the y-axis."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 22,
+    "question": "What happens if x = y for two points (x, y) and (y, x)?",
+    "options": {
+      "a": "They are in different quadrants.",
+      "b": "They represent the same point.",
+      "c": "They are only distinct if x is negative.",
+      "d": "They cannot exist."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 23,
+    "question": "In the Cartesian system, where do positive numbers lie on the x-axis?",
+    "options": {
+      "a": "On the left side of the origin",
+      "b": "Below the origin",
+      "c": "On the right side of the origin",
+      "d": "Above the origin"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 24,
+    "question": "In the Cartesian system, where do positive numbers lie on the y-axis?",
+    "options": {
+      "a": "On the left side of the origin",
+      "b": "On the right side of the origin",
+      "c": "Below the origin",
+      "d": "Above the origin"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 25,
+    "question": "The coordinate axes are obtained by combining two number lines in such a way that they cross each other at their:",
+    "options": {
+      "a": "Zeroes, or origins",
+      "b": "Maximum values",
+      "c": "Positive ends",
+      "d": "Negative ends"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 26,
+    "question": "What does the notation 'O' typically represent in a Cartesian coordinate system?",
+    "options": {
+      "a": "The ordinate",
+      "b": "The origin",
+      "c": "The x-axis",
+      "d": "The y-axis"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 27,
+    "question": "When describing the position of an object or a point in a plane, how many perpendicular lines are generally required according to the lesson?",
+    "options": {
+      "a": "One",
+      "b": "Three",
+      "c": "Two",
+      "d": "Four"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "The terms 'Cartesian plane', 'coordinate plane', and 'xy-plane' all refer to:",
+    "options": {
+      "a": "The horizontal axis only",
+      "b": "The vertical axis only",
+      "c": "The intersection point of the axes",
+      "d": "The entire plane containing the coordinate system"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 29,
+    "question": "The perpendicular lines X\u2032X and Y\u2032Y are collectively called the:",
+    "options": {
+      "a": "Coordinate axes",
+      "b": "Quadrant lines",
+      "c": "Origin lines",
+      "d": "Reference points"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 30,
+    "question": "If the x-coordinate of a point is positive and the y-coordinate is negative, in which quadrant does it lie?",
+    "options": {
+      "a": "First quadrant",
+      "b": "Fourth quadrant",
+      "c": "Second quadrant",
+      "d": "Third quadrant"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 31,
+    "question": "A point has an abscissa of 5 and an ordinate of -3. What are its coordinates?",
+    "options": {
+      "a": "(5, -3)",
+      "b": "(-3, 5)",
+      "c": "(5, 3)",
+      "d": "(-5, -3)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 32,
+    "question": "If a point is located at (\u20132, 7), what is its perpendicular distance from the y-axis?",
+    "options": {
+      "a": "-2 units",
+      "b": "2 units",
+      "c": "7 units",
+      "d": "-7 units"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 33,
+    "question": "If a point is located at (\u20132, 7), what is its perpendicular distance from the x-axis?",
+    "options": {
+      "a": "-2 units",
+      "b": "2 units",
+      "c": "7 units",
+      "d": "-7 units"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 34,
+    "question": "In which quadrant does the point (\u20138, 12) lie?",
+    "options": {
+      "a": "First quadrant",
+      "b": "Third quadrant",
+      "c": "Fourth quadrant",
+      "d": "Second quadrant"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 35,
+    "question": "A point has coordinates (6, 0). On which axis does this point lie?",
+    "options": {
+      "a": "x-axis",
+      "b": "y-axis",
+      "c": "Both x and y axes",
+      "d": "Origin"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 36,
+    "question": "If a point lies at (0, \u20139), on which axis does it lie?",
+    "options": {
+      "a": "x-axis",
+      "b": "y-axis",
+      "c": "Both x and y axes",
+      "d": "Neither axis"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "What is the x-coordinate of the point (\u20134, \u20135)?",
+    "options": {
+      "a": "5",
+      "b": "-5",
+      "c": "-4",
+      "d": "4"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 38,
+    "question": "What is the y-coordinate of the point (10, \u20131)?",
+    "options": {
+      "a": "10",
+      "b": "1",
+      "c": "-10",
+      "d": "-1"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 39,
+    "question": "Consider a point P(-3, 2). To locate P, how many units must one move along the negative x-axis from the origin?",
+    "options": {
+      "a": "3 units",
+      "b": "2 units",
+      "c": "-3 units",
+      "d": "-2 units"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 40,
+    "question": "Consider a point P(-3, 2). To locate P, how many units must one move along the positive y-axis from the origin?",
+    "options": {
+      "a": "3 units",
+      "b": "2 units",
+      "c": "-3 units",
+      "d": "-2 units"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 41,
+    "question": "A point is 5 units to the right of the y-axis and 3 units below the x-axis. What are its coordinates?",
+    "options": {
+      "a": "(-5, 3)",
+      "b": "(-5, -3)",
+      "c": "(5, -3)",
+      "d": "(5, 3)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "A point is 2 units to the left of the y-axis and 4 units above the x-axis. What are its coordinates?",
+    "options": {
+      "a": "(2, 4)",
+      "b": "(2, -4)",
+      "c": "(-2, -4)",
+      "d": "(-2, 4)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 43,
+    "question": "In which quadrant would a point with coordinates (negative, negative) be found?",
+    "options": {
+      "a": "Third quadrant",
+      "b": "First quadrant",
+      "c": "Second quadrant",
+      "d": "Fourth quadrant"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 44,
+    "question": "If a point is in the second quadrant, its coordinates will have which signs?",
+    "options": {
+      "a": "(+, +)",
+      "b": "(\u2013, +)",
+      "c": "(+, \u2013)",
+      "d": "(\u2013, \u2013)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 45,
+    "question": "A point M is located at (-5, -4). What is its abscissa?",
+    "options": {
+      "a": "4",
+      "b": "-4",
+      "c": "-5",
+      "d": "5"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 46,
+    "question": "A point L is located at (-5, -4). What is its ordinate?",
+    "options": {
+      "a": "-5",
+      "b": "5",
+      "c": "4",
+      "d": "-4"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 47,
+    "question": "Which of the following points lies on the y-axis?",
+    "options": {
+      "a": "(5, 0)",
+      "b": "(0, 5)",
       "c": "(5, 5)",
-      "d": "(4, -3)"
+      "d": "(-5, 0)"
     },
-    "answer": "c",
-    "id": 100
+    "answer": "b"
   },
   {
-    "question": "Which of the following is true for a point lying in Quadrant IV?",
+    "question_number": 48,
+    "question": "Which of the following points lies on the x-axis?",
     "options": {
-      "a": "x-coordinate is positive and y-coordinate is negative.",
-      "b": "x-coordinate is negative and y-coordinate is positive.",
-      "c": "Both x and y coordinates are positive.",
-      "d": "Both x and y coordinates are negative."
+      "a": "(0, -2)",
+      "b": "(3, 3)",
+      "c": "(-4, 0)",
+      "d": "(0, 0)"
     },
-    "answer": "a",
-    "id": 101
+    "answer": "c"
   },
   {
-    "question": "The abscissa of a point is twice its ordinate. If its ordinate is k, then its coordinates are:",
+    "question_number": 49,
+    "question": "What are the coordinates of a point whose distance from the y-axis is 6 units in the positive x-direction and distance from the x-axis is 1 unit in the positive y-direction?",
     "options": {
-      "a": "(k, 2k)",
-      "b": "(2k, k)",
-      "c": "(k/2, k)",
-      "d": "(k, k/2)"
+      "a": "(-6, 1)",
+      "b": "(6, -1)",
+      "c": "(-1, 6)",
+      "d": "(6, 1)"
     },
-    "answer": "b",
-    "id": 102
+    "answer": "d"
   },
   {
-    "question": "Assertion: All points with x-coordinate as -4 lie on a line parallel to the y-axis. Reason: A line parallel to the y-axis has a constant x-coordinate.",
+    "question_number": 50,
+    "question": "A point (a, b) lies in the third quadrant. What can be said about the values of 'a' and 'b'?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
+      "a": "a < 0 and b < 0",
+      "b": "a > 0 and b > 0",
+      "c": "a < 0 and b > 0",
+      "d": "a > 0 and b < 0"
     },
-    "answer": "a",
-    "id": 103
+    "answer": "a"
   },
   {
-    "question": "A house is located 7 blocks north and 3 blocks east of a school. If the school is considered the origin, what is the ordered pair representing the house's location?",
+    "question_number": 51,
+    "question": "If the ordinate of a point is 0, where does the point lie?",
     "options": {
-      "a": "(7, 3)",
-      "b": "(3, 7)",
-      "c": "(-7, 3)",
-      "d": "(3, -7)"
+      "a": "In the first quadrant",
+      "b": "On the x-axis",
+      "c": "On the y-axis",
+      "d": "At the origin"
     },
-    "answer": "b",
-    "id": 104
+    "answer": "b"
   },
   {
-    "question": "If the points (p, q), (r, s) and (t, u) lie on a straight line, then which of the following is not possible?",
+    "question_number": 52,
+    "question": "If the abscissa of a point is 0, where does the point lie?",
     "options": {
-      "a": "p = r = t",
-      "b": "q = s = u",
-      "c": "p = q and r = s",
-      "d": "p + r = q + s"
+      "a": "In the second quadrant",
+      "b": "On the x-axis",
+      "c": "On the y-axis",
+      "d": "At the origin"
     },
-    "answer": "d",
-    "id": 105
+    "answer": "c"
+  },
+  {
+    "question_number": 53,
+    "question": "The point (0, 0) represents which special location in the Cartesian plane?",
+    "options": {
+      "a": "X-axis positive direction",
+      "b": "Y-axis negative direction",
+      "c": "First quadrant",
+      "d": "Origin"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 54,
+    "question": "A point has coordinates (\u20131.5, 2.5). In which quadrant does it lie?",
+    "options": {
+      "a": "Second quadrant",
+      "b": "First quadrant",
+      "c": "Third quadrant",
+      "d": "Fourth quadrant"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 55,
+    "question": "If point P has coordinates (x, y) such that x > 0 and y < 0, in which quadrant does P lie?",
+    "options": {
+      "a": "First quadrant",
+      "b": "Fourth quadrant",
+      "c": "Second quadrant",
+      "d": "Third quadrant"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 56,
+    "question": "What are the coordinates of point D if it is 4 units away from the x-axis along the negative y-axis?",
+    "options": {
+      "a": "(4, 0)",
+      "b": "(0, 4)",
+      "c": "(0, -4)",
+      "d": "(-4, 0)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 57,
+    "question": "What are the coordinates of point C if it is 5 units away from the y-axis along the negative x-axis?",
+    "options": {
+      "a": "(0, -5)",
+      "b": "(5, 0)",
+      "c": "(0, 5)",
+      "d": "(-5, 0)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 58,
+    "question": "A point (x,y) is such that x=y. Which of the following points satisfies this condition?",
+    "options": {
+      "a": "(3, -3)",
+      "b": "(-2, 2)",
+      "c": "(4, 4)",
+      "d": "(4, 0)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 59,
+    "question": "If a point has coordinates (p, q) and it lies in the fourth quadrant, which of the following is true?",
+    "options": {
+      "a": "p < 0, q > 0",
+      "b": "p > 0, q < 0",
+      "c": "p < 0, q < 0",
+      "d": "p > 0, q > 0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "The distance of a point (x, y) from the y-axis is given by:",
+    "options": {
+      "a": "The x-coordinate of the point",
+      "b": "The y-coordinate of the point",
+      "c": "The sum of x and y coordinates",
+      "d": "The difference of x and y coordinates"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 61,
+    "question": "A classroom seating plan describes student positions using (column number, row number). If Amit is at (3, 2) and Priyanka is at (2, 3), are they sitting at the same desk?",
+    "options": {
+      "a": "No, because the order of coordinates matters.",
+      "b": "Yes, because they use the same numbers.",
+      "c": "Only if the classroom is square.",
+      "d": "Cannot be determined without a diagram."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 62,
+    "question": "In a street plan, a cross-street is defined by (street number in North-South direction, street number in East-West direction). How many unique cross-streets can be referred to as (4, 3)?",
+    "options": {
+      "a": "Zero",
+      "b": "One",
+      "c": "Two",
+      "d": "It depends on the number of streets."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 63,
+    "question": "A map shows a treasure chest located 10 km east and 5 km north of a landmark. If the landmark is the origin (0,0) and East corresponds to the positive x-axis and North to the positive y-axis, what are the coordinates of the treasure chest?",
+    "options": {
+      "a": "(-10, 5)",
+      "b": "(10, -5)",
+      "c": "(10, 5)",
+      "d": "(-10, -5)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "To pinpoint the location of a dot on a paper, two pieces of information are given: its distance from the left edge and its distance from the bottom line. This method is analogous to what mathematical concept?",
+    "options": {
+      "a": "Number System",
+      "b": "Algebra",
+      "c": "Geometry",
+      "d": "Coordinate Geometry"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 65,
+    "question": "A meteorologist is tracking a weather balloon. At one point, it is reported to be 5 units west and 7 units north of the observation station. If the station is at the origin, and West is negative x-direction and North is positive y-direction, what are the coordinates of the balloon?",
+    "options": {
+      "a": "(-5, 7)",
+      "b": "(5, -7)",
+      "c": "(5, 7)",
+      "d": "(-5, -7)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 66,
+    "question": "A game board uses a coordinate system where pieces are placed. If a player places a piece at (\u20132, \u20134), which quadrant of the board is this piece in?",
+    "options": {
+      "a": "First quadrant",
+      "b": "Third quadrant",
+      "c": "Second quadrant",
+      "d": "Fourth quadrant"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 67,
+    "question": "Imagine a robot moving on a grid. It starts at (0,0), moves 3 units right, then 2 units up. What are its final coordinates?",
+    "options": {
+      "a": "(-3, 2)",
+      "b": "(3, -2)",
+      "c": "(3, 2)",
+      "d": "(-3, -2)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "A city planner uses a coordinate system for buildings. Building A is at (\u20136, 5). Which statement accurately describes its location relative to the city center (origin)?",
+    "options": {
+      "a": "6 units right and 5 units up",
+      "b": "6 units right and 5 units down",
+      "c": "6 units left and 5 units down",
+      "d": "6 units left and 5 units up"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 69,
+    "question": "A ship navigator reports a vessel's position as (\u201315, \u201320) relative to a port (origin). In which direction is the ship primarily from the port? (Assume standard North-East positive quadrant mapping).",
+    "options": {
+      "a": "South-West",
+      "b": "North-West",
+      "c": "South-East",
+      "d": "North-East"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 70,
+    "question": "A carpenter marks a point on a wooden board at a distance of 8 cm from the left edge and 12 cm from the bottom edge. If the bottom-left corner is the origin, what are the coordinates of the marked point?",
+    "options": {
+      "a": "(12, 8)",
+      "b": "(8, 12)",
+      "c": "(-8, 12)",
+      "d": "(8, -12)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 71,
+    "question": "In a digital image, each pixel is identified by its row and column number. If the top-left pixel is considered (0,0), how would a pixel in the 5th column and 10th row be represented as a coordinate (column, row)?",
+    "options": {
+      "a": "(10, 5)",
+      "b": "(-5, 10)",
+      "c": "(5, 10)",
+      "d": "(5, -10)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "A drone is controlled to fly to a point with coordinates (50, -30) relative to its launch pad (origin). This means the drone flies:",
+    "options": {
+      "a": "50 units left and 30 units up",
+      "b": "50 units left and 30 units down",
+      "c": "50 units right and 30 units up",
+      "d": "50 units right and 30 units down"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 73,
+    "question": "If a street plan defines a cross-street as (street in North-South direction, street in East-West direction), and there are 5 streets in each direction. How many distinct cross-streets can be formed where both coordinates are positive (assuming streets are 1-indexed, i.e., street 1 to street 5)?",
+    "options": {
+      "a": "25",
+      "b": "10",
+      "c": "5",
+      "d": "20"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 74,
+    "question": "A student is told their seat is in 'column 1, row 4'. If (column, row) represents coordinates, what are their seat's coordinates?",
+    "options": {
+      "a": "(4, 1)",
+      "b": "(1, 4)",
+      "c": "(-1, 4)",
+      "d": "(1, -4)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 75,
+    "question": "A surveyor plots points on a site. Point A is (7, 0) and Point B is (0, -3). Point A is located on which axis and Point B is located on which axis?",
+    "options": {
+      "a": "A on y-axis, B on x-axis",
+      "b": "Both on origin",
+      "c": "A on x-axis, B on y-axis",
+      "d": "Both on fourth quadrant"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 76,
+    "question": "If a cell in a spreadsheet is identified by its column letter and row number (e.g., A1, B5), and we convert this to a numerical coordinate system (e.g., A=1, B=2), which mathematical concept is this analogous to?",
+    "options": {
+      "a": "Number line",
+      "b": "Basic arithmetic",
+      "c": "Probability",
+      "d": "Cartesian System"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 77,
+    "question": "A temperature map uses coordinates to show locations. A town is at (-10, -5). What general region is it in based on a standard coordinate system?",
+    "options": {
+      "a": "South-West region",
+      "b": "North-West region",
+      "c": "South-East region",
+      "d": "North-East region"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 78,
+    "question": "A coordinate system is used to plot positions of stars. If Star Alpha is at (positive x, negative y) coordinates, in which celestial quadrant is it observed?",
+    "options": {
+      "a": "First quadrant",
+      "b": "Fourth quadrant",
+      "c": "Second quadrant",
+      "d": "Third quadrant"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "A drawing software uses coordinates to place objects. If you place an object at (0, 7), where does it appear on the screen relative to the center (origin)?",
+    "options": {
+      "a": "On the positive x-axis",
+      "b": "On the negative x-axis",
+      "c": "On the positive y-axis",
+      "d": "On the negative y-axis"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "A person gives directions by saying \"Go 3 blocks west and 4 blocks south\". If the starting point is (0,0), and West corresponds to negative x and South to negative y, what are the coordinates of the destination?",
+    "options": {
+      "a": "(3, 4)",
+      "b": "(-3, 4)",
+      "c": "(3, -4)",
+      "d": "(-3, -4)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 81,
+    "question": "Why are two independent pieces of information necessary to precisely locate a point in a plane, as opposed to just one on a number line?",
+    "options": {
+      "a": "A plane has two dimensions.",
+      "b": "To make the system more complex.",
+      "c": "Because one line is horizontal and the other is vertical.",
+      "d": "To avoid confusion with 3D space."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 82,
+    "question": "The coordinates (4, 3) and (3, 4) represent different points. What fundamental concept of coordinate geometry does this illustrate?",
+    "options": {
+      "a": "The flexibility of the coordinate system.",
+      "b": "The importance of order in coordinate pairs.",
+      "c": "The existence of multiple origins.",
+      "d": "The nature of perpendicular lines."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 83,
+    "question": "If a point's abscissa is positive and its ordinate is positive, it lies in the first quadrant. What would be the most precise description of its location if only its ordinate was zero?",
+    "options": {
+      "a": "On the negative y-axis.",
+      "b": "In the second quadrant.",
+      "c": "On the positive x-axis.",
+      "d": "At the origin."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "Consider a point P with coordinates (x, y). If P lies on the positive x-axis, what must be true about x and y?",
+    "options": {
+      "a": "x > 0 and y = 0",
+      "b": "x = 0 and y > 0",
+      "c": "x < 0 and y = 0",
+      "d": "x = 0 and y < 0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 86,
+    "question": "If a point does not lie in any of the four quadrants, where must it be located?",
+    "options": {
+      "a": "In the center of the plane.",
+      "b": "On one of the coordinate axes.",
+      "c": "It is impossible for a point to not be in a quadrant.",
+      "d": "In a fifth undefined region."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "A student correctly states that the origin has coordinates (0,0). Which of the following statements about the origin is also true based on its definition in the lesson?",
+    "options": {
+      "a": "It has a positive abscissa and ordinate.",
+      "b": "It is always in the first quadrant.",
+      "c": "It has zero distance from both axes.",
+      "d": "It is the only point with an undefined coordinate."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 88,
+    "question": "The lesson mentions that the system could also have been 'ordinate first, and abscissa second'. What is the primary reason given for sticking to the (x, y) convention worldwide?",
+    "options": {
+      "a": "It is mathematically simpler.",
+      "b": "It was the original system proposed by D\u00e9scartes.",
+      "c": "It leads to better visual representation.",
+      "d": "To avoid any confusion."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 89,
+    "question": "Point A is (\u2013a, b) and Point B is (\u2013a, \u2013b). If 'a' and 'b' are positive numbers, what is the relationship between A and B regarding their position relative to the x-axis?",
+    "options": {
+      "a": "They are reflections across the x-axis.",
+      "b": "They are reflections across the y-axis.",
+      "c": "They are the same point.",
+      "d": "They are reflections across the origin."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 90,
+    "question": "A point P has coordinates (k, -k) where k > 0. In which quadrant does P lie?",
+    "options": {
+      "a": "First quadrant",
+      "b": "Fourth quadrant",
+      "c": "Second quadrant",
+      "d": "Third quadrant"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "If point Q lies on the negative y-axis, which of the following describes its coordinates?",
+    "options": {
+      "a": "(x, 0) where x < 0",
+      "b": "(0, y) where y > 0",
+      "c": "(0, -y) where y > 0",
+      "d": "(-x, -y) where x, y > 0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 92,
+    "question": "Why is the statement \"(3, 4) is not the same as (4, 3)\" significant in coordinate geometry?",
+    "options": {
+      "a": "It proves the commutative property of addition.",
+      "b": "It shows that the axes can be swapped.",
+      "c": "It demonstrates that coordinates are always integers.",
+      "d": "It highlights that the order of coordinates determines the unique position of a point."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 93,
+    "question": "If the product of the x and y coordinates of a point is positive, in which quadrants could the point lie?",
+    "options": {
+      "a": "First or Third quadrant",
+      "b": "Second or Fourth quadrant",
+      "c": "Only first quadrant",
+      "d": "Only third quadrant"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 94,
+    "question": "If the product of the x and y coordinates of a point is negative, in which quadrants could the point lie?",
+    "options": {
+      "a": "First or Third quadrant",
+      "b": "Second or Fourth quadrant",
+      "c": "Only second quadrant",
+      "d": "Only fourth quadrant"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "A point (p, q) is located such that it is equidistant from the x-axis and y-axis. Which of the following points could represent (p, q)?",
+    "options": {
+      "a": "(5, 0)",
+      "b": "(0, -5)",
+      "c": "(5, 5)",
+      "d": "(5, -3)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 96,
+    "question": "The concept of latitude and longitude for Earth's surface is described as an older idea that influenced D\u00e9scartes. How does it relate to the Cartesian system principles discussed?",
+    "options": {
+      "a": "Both systems use a single circular line for reference.",
+      "b": "Both systems require only one measurement for precise location.",
+      "c": "Both systems only work for flat surfaces.",
+      "d": "Both use two perpendicular reference quantities/lines to define a unique position."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 97,
+    "question": "What is the implication of the statement \"the coordinates describe a point in the plane uniquely\"?",
+    "options": {
+      "a": "Each distinct pair of coordinates corresponds to exactly one point.",
+      "b": "Each point can be described by multiple sets of coordinates.",
+      "c": "Only points on the axes have unique descriptions.",
+      "d": "Coordinates must always be positive."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 98,
+    "question": "If you have a point (x, y) and you swap its coordinates to get (y, x), under what specific condition will these two points be the same?",
+    "options": {
+      "a": "When x is positive.",
+      "b": "When x = y.",
+      "c": "When y is negative.",
+      "d": "When x = 0."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "What is the fundamental difference between describing a point on a number line and describing a point in a plane?",
+    "options": {
+      "a": "A number line only uses positive values, a plane uses negative.",
+      "b": "A number line uses units, a plane does not.",
+      "c": "A number line requires one reference point/value, a plane requires two perpendicular reference lines/values.",
+      "d": "A number line is for integers, a plane is for real numbers."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 100,
+    "question": "The lesson refers to 'axes' as the plural of 'axis'. How many axes are necessary and sufficient to form a Cartesian plane according to the definition?",
+    "options": {
+      "a": "One",
+      "b": "Three",
+      "c": "Four",
+      "d": "Two"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): The coordinates of the origin are (0, 0).\nReason (R): The origin has zero distance from both the x-axis and the y-axis.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): The x-coordinate of a point is also called its abscissa.\nReason (R): It represents the perpendicular distance of the point from the y-axis, measured along the x-axis.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): A point (\u20133, 5) lies in the second quadrant.\nReason (R): The second quadrant is enclosed by the negative x-axis and the positive y-axis, leading to (\u2013, +) coordinates.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): The y-coordinate of every point lying on the x-axis is always zero.\nReason (R): Every point on the x-axis has zero distance from the x-axis itself.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The Cartesian plane is also known as the coordinate plane or xy-plane.\nReason (R): In this system, positions are determined using two perpendicular coordinate axes, traditionally x and y.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): The coordinates of point P(4, 3) are different from Q(3, 4).\nReason (R): Ren\u00e9 D\u00e9scartes was a French philosopher and mathematician.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): A point (x, y) where x > 0 and y < 0 lies in the fourth quadrant.\nReason (R): The system used for describing the position of a point in a plane is known as the Cartesian system.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): To locate a point in a plane, two perpendicular lines are required.\nReason (R): A single number line is sufficient to locate a point in one dimension.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The coordinates of a point in the first quadrant are of the form (+, +).\nReason (R): The quadrants are numbered I, II, III, and IV anticlockwise from OX.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): The coordinates of any point on the y-axis are of the form (0, y).\nReason (R): The x-coordinate of a point is its perpendicular distance from the x-axis.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): The point (2, -4) lies in the fourth quadrant.\nReason (R): The coordinates of points in the fourth quadrant are of the form (\u2013, \u2013).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): The y-coordinate of a point is also called the ordinate.\nReason (R): It represents the perpendicular distance of the point from the y-axis.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): The point (\u20135, 0) lies on the negative x-axis.\nReason (R): Points on the x-axis always have positive y-coordinates.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): If the abscissa of a point is 0, the point lies on the y-axis.\nReason (R): The y-axis is a horizontal line in the Cartesian plane.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): The positive direction of the x-axis is OY.\nReason (R): OX and OY are called the positive directions of the x-axis and the y-axis, respectively.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): The coordinates of a point (x, y) can be equal to (y, x) only if x and y are positive.\nReason (R): If x \u2260 y, then (x, y) \u2260 (y, x).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): The point (4, -2) lies in the third quadrant.\nReason (R): The third quadrant is enclosed by the negative x-axis and the negative y-axis.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The perpendicular distance of point P(5, -3) from the y-axis is -3 units.\nReason (R): The perpendicular distance of a point from the y-axis is its x-coordinate.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): The coordinate system was developed by Isaac Newton.\nReason (R): In honour of D\u00e9scartes, the system used for describing the position of a point in a plane is also known as the Cartesian system.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
   }
 ]

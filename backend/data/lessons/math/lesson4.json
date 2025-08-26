@@ -1,431 +1,1289 @@
 [
   {
-    "question": "If the cost of a pen is represented by 'x' and the cost of an eraser is represented by 'y', which equation represents the statement 'A pen costs 3 rupees more than an eraser'?",
+    "question_number": 1,
+    "question": "Which of the following is the standard form of a linear equation in two variables?",
     "options": {
-      "a": "x + 3 = y",
-      "b": "x = y + 3",
-      "c": "x - y = -3",
-      "d": "y = 3x"
+      "a": "ax\u00b2 + by + c = 0",
+      "b": "ax + by + c = 0",
+      "c": "ax + b = 0",
+      "d": "ax + by = c"
     },
-    "answer": "b",
-    "id": 106
+    "answer": "b"
   },
   {
-    "question": "Which of the following is NOT a linear equation in two variables?",
+    "question_number": 2,
+    "question": "In the standard form of a linear equation in two variables, ax + by + c = 0, what is the condition for a and b?",
     "options": {
-      "a": "2x + y = 5",
-      "b": "x = 3y - 1",
-      "c": "x² + y = 7",
-      "d": "5x - 2y + 3 = 0"
+      "a": "a = 0 and b = 0",
+      "b": "a \u2260 0 and b \u2260 0",
+      "c": "a and b are not both zero",
+      "d": "a or b must be zero"
     },
-    "answer": "c",
-    "id": 107
+    "answer": "c"
   },
   {
-    "question": "The equation 3x = 5 can be written in the form ax + by + c = 0 as:",
+    "question_number": 3,
+    "question": "How many solutions does a linear equation in one variable have?",
     "options": {
-      "a": "3x + 0y + 5 = 0",
-      "b": "3x + y - 5 = 0",
-      "c": "3x + 0y - 5 = 0",
-      "d": "3x - y + 5 = 0"
+      "a": "Two solutions",
+      "b": "Infinitely many solutions",
+      "c": "No solution",
+      "d": "A unique solution"
     },
-    "answer": "c",
-    "id": 108
+    "answer": "d"
   },
   {
-    "question": "If (1, -2) is a solution of the equation 2x - ky = 6, then the value of k is:",
+    "question_number": 4,
+    "question": "What does a solution of a linear equation involving two variables mean?",
     "options": {
-      "a": "-2",
-      "b": "2",
-      "c": "-1",
-      "d": "1"
+      "a": "A single value for x",
+      "b": "A single value for y",
+      "c": "A pair of values, one for x and one for y, that satisfies the equation",
+      "d": "Any real number that makes the equation true"
     },
-    "answer": "b",
-    "id": 109
+    "answer": "c"
   },
   {
-    "question": "Which of the following points lies on the x-axis?",
-    "options": {
-      "a": "(0, 5)",
-      "b": "(-3, 0)",
-      "c": "(2, 2)",
-      "d": "(0, -4)"
-    },
-    "answer": "b",
-    "id": 110
-  },
-  {
-    "question": "The point (-4, 3) lies in which quadrant of the Cartesian plane?",
-    "options": {
-      "a": "Quadrant I",
-      "b": "Quadrant II",
-      "c": "Quadrant III",
-      "d": "Quadrant IV"
-    },
-    "answer": "b",
-    "id": 111
-  },
-  {
-    "question": "The point whose ordinate is 4 and which lies on the y-axis is:",
-    "options": {
-      "a": "(4, 0)",
-      "b": "(0, 4)",
-      "c": "(0, -4)",
-      "d": "(-4, 0)"
-    },
-    "answer": "b",
-    "id": 112
-  },
-  {
+    "question_number": 5,
     "question": "How many solutions does a linear equation in two variables have?",
     "options": {
-      "a": "Only one",
-      "b": "Two",
-      "c": "Finite but more than two",
-      "d": "Infinitely many"
+      "a": "One solution",
+      "b": "Two solutions",
+      "c": "Infinitely many solutions",
+      "d": "No solution"
     },
-    "answer": "d",
-    "id": 113
+    "answer": "c"
   },
   {
-    "question": "If x = 2 and y = -1 is a solution of the equation px + 3y = 5, then the value of p is:",
+    "question_number": 6,
+    "question": "Which of the following is NOT an example of a linear equation in two variables as per its definition?",
+    "options": {
+      "a": "2x + 3y = 5",
+      "b": "\u03c0u + 5v = 9",
+      "c": "3 = 2x \u2013 7y",
+      "d": "x\u00b2 + y = 1"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 7,
+    "question": "The equation x = -5 can be expressed as a linear equation in two variables in which form?",
+    "options": {
+      "a": "1.x + 0.y - 5 = 0",
+      "b": "1.x + 0.y + 5 = 0",
+      "c": "x + y = -5",
+      "d": "0.x + 1.y + 5 = 0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 8,
+    "question": "Which statement is true regarding the representation of a solution for a linear equation in two variables?",
+    "options": {
+      "a": "It is written as (y, x)",
+      "b": "It is written as (x, y)",
+      "c": "It is written as x followed by y",
+      "d": "It is written as y followed by x"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 10,
+    "question": "An equation of the type ax + b = 0 (where a \u2260 0) can also be considered a linear equation in two variables. What is the value of 'b' in the two-variable form (ax + by + c = 0) in this context?",
     "options": {
       "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "b": "0",
+      "c": "-1",
+      "d": "The original 'b' from ax + b = 0"
     },
-    "answer": "d",
-    "id": 114
+    "answer": "b"
   },
   {
-    "question": "The equation representing the y-axis is:",
+    "question_number": 11,
+    "question": "Which term is NOT allowed to be raised to a power greater than one in a linear equation in two variables?",
     "options": {
-      "a": "x = 0",
-      "b": "y = 0",
-      "c": "x = y",
-      "d": "x = -y"
+      "a": "Only the constant term",
+      "b": "Only the variable 'x'",
+      "c": "Both variables 'x' and 'y'",
+      "d": "The coefficients 'a', 'b', and 'c'"
     },
-    "answer": "a",
-    "id": 115
+    "answer": "c"
   },
   {
-    "question": "If (a, 4) lies on the graph of 3x + y = 10, then the value of a is:",
+    "question_number": 12,
+    "question": "If the values of a and b are both zero in the expression ax + by + c = 0, what does the equation simplify to?",
     "options": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "a": "x + y + c = 0",
+      "b": "c = 0",
+      "c": "0 = 0",
+      "d": "It is no longer an equation"
     },
-    "answer": "b",
-    "id": 116
+    "answer": "b"
   },
   {
-    "question": "Which of the following is a solution of the equation 2x + 3y = 12?",
+    "question_number": 13,
+    "question": "When a linear equation in one variable, like 2y + 3 = 0, is represented on a number line, how many points represent its solution?",
     "options": {
-      "a": "(1, 3)",
-      "b": "(3, 2)",
-      "c": "(2, 3)",
-      "d": "(4, 1)"
+      "a": "Two points",
+      "b": "Infinitely many points",
+      "c": "Exactly one point",
+      "d": "No points"
     },
-    "answer": "b",
-    "id": 117
+    "answer": "c"
   },
   {
-    "question": "Assertion: The points (2, 0), (5, 0), and (-3, 0) lie on a straight line. \nReason: All points having y-coordinate as 0 lie on the x-axis.",
+    "question_number": 14,
+    "question": "Consider the equation 5x - 3y - 4 = 0. If this equation is written as -5x + 3y + 4 = 0, what can be said about the values of a, b, and c?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
+      "a": "Only 'a' changes its sign.",
+      "b": "Only 'b' changes its sign.",
+      "c": "'a', 'b', and 'c' all change their signs.",
+      "d": "No values change, only the arrangement."
     },
-    "answer": "a",
-    "id": 118
+    "answer": "c"
   },
   {
-    "question": "Assertion: The point (-5, 0) lies in the second quadrant. \nReason: In the second quadrant, the x-coordinate is negative and the y-coordinate is positive.",
+    "question_number": 15,
+    "question": "The equation y = 2 can be written in the form 0.x + 1.y - 2 = 0. What are the values of a, b, and c respectively in this representation?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation of Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
+      "a": "a = 1, b = 0, c = -2",
+      "b": "a = 0, b = 1, c = -2",
+      "c": "a = 0, b = 1, c = 2",
+      "d": "a = 1, b = 1, c = -2"
     },
-    "answer": "d",
-    "id": 119
+    "answer": "b"
   },
   {
-    "question": "A point lies on the y-axis. Can you find the x-coordinate of the point?",
+    "question_number": 16,
+    "question": "Which of the following is a key characteristic of the solution of a linear equation when represented on the Cartesian plane?",
     "options": {
-      "a": "Yes, it depends on the equation of the line.",
-      "b": "No, we need more information to find it.",
-      "c": "Yes, it will always be 0.",
-      "d": "No, because it can be any real number."
+      "a": "It forms a parabola.",
+      "b": "It forms a single point for all solutions.",
+      "c": "Every point on the graph of a linear equation is a solution.",
+      "d": "Only two points are solutions."
     },
-    "answer": "c",
-    "id": 120
+    "answer": "c"
   },
   {
-    "question": "Ram plotted the point (3, 4) on the Cartesian plane, but he mistakenly marked the y-coordinate on the x-axis and the x-coordinate on the y-axis. In which quadrant does the actual point (3, 4) lie?",
+    "question_number": 17,
+    "question": "If the coefficient 'a' is zero in ax + by + c = 0 (and b is non-zero), what kind of line does the equation represent on a graph?",
     "options": {
-      "a": "Quadrant I",
-      "b": "Quadrant II",
-      "c": "Quadrant III",
-      "d": "Quadrant IV"
+      "a": "A horizontal line",
+      "b": "A vertical line",
+      "c": "A line passing through the origin",
+      "d": "A curve"
     },
-    "answer": "a",
-    "id": 121
+    "answer": "a"
   },
   {
-    "question": "The sum of two numbers is 15. If one number is represented by 'x', which equation represents the other number?",
+    "question_number": 18,
+    "question": "What is the primary method suggested in the lesson for finding a solution to a linear equation in two variables?",
     "options": {
-      "a": "15 - x",
-      "b": "x - 15",
-      "c": "15x",
-      "d": "x/15"
+      "a": "Using a graphing calculator.",
+      "b": "By inspection, or by choosing a value for one variable and solving for the other.",
+      "c": "By applying the quadratic formula.",
+      "d": "By always setting both x and y to zero."
     },
-    "answer": "a",
-    "id": 122
+    "answer": "b"
   },
   {
-    "question": "A rectangle has a perimeter of 24 units. If its length is 'l' units and breadth is 'b' units, which equation represents the perimeter?",
+    "question_number": 19,
+    "question": "The equation 3x + 2 = 0 can be written in the form ax + by + c = 0. What are the values of a, b, and c respectively?",
     "options": {
-      "a": "l + b = 24",
-      "b": "2l + b = 24",
-      "c": "2(l + b) = 24",
-      "d": "l * b = 24"
+      "a": "a = 3, b = 2, c = 0",
+      "b": "a = 3, b = 0, c = 2",
+      "c": "a = 0, b = 3, c = 2",
+      "d": "a = 2, b = 3, c = 0"
     },
-    "answer": "c",
-    "id": 123
+    "answer": "b"
   },
   {
-    "question": "The cost of 2 kg of apples and 3 kg of oranges is Rs. 120. If the cost of 1 kg of apples is Rs. x and 1 kg of oranges is Rs. y, which linear equation represents this situation?",
-    "options": {
-      "a": "2x + y = 120",
-      "b": "x + 3y = 120",
-      "c": "2x + 3y = 120",
-      "d": "3x + 2y = 120"
-    },
-    "answer": "c",
-    "id": 124
-  },
-  {
-    "question": "A taxi charges Rs. 10 per km and a fixed charge of Rs. 20. If 'x' represents the distance travelled in km and 'y' represents the total fare, find the linear equation representing this situation.",
-    "options": {
-      "a": "y = 10x",
-      "b": "y = 10x + 20",
-      "c": "y = 20x + 10",
-      "d": "y = x + 30"
-    },
-    "answer": "b",
-    "id": 125
-  },
-  {
-    "question": "In a school, the number of girls is twice the number of boys. If the total number of students is 150, form a linear equation to represent this situation. (Let 'x' be the number of boys and 'y' be the number of girls)",
-    "options": {
-      "a": "x + 2y = 150",
-      "b": "2x = y",
-      "c": "x + y = 150",
-      "d": "2x + y = 150"
-    },
-    "answer": "a",
-    "id": 126
-  },
-  {
-    "question": "The point (0, -3) lies:",
-    "options": {
-      "a": "on the x-axis",
-      "b": "in the second quadrant",
-      "c": "on the y-axis",
-      "d": "in the fourth quadrant"
-    },
-    "answer": "c",
-    "id": 127
-  },
-  {
-    "question": "The graph of the linear equation y = 4 is a line which is:",
-    "options": {
-      "a": "parallel to y-axis",
-      "b": "passing through origin",
-      "c": "parallel to x-axis",
-      "d": "making an angle of 45° with x-axis"
-    },
-    "answer": "c",
-    "id": 128
-  },
-  {
-    "question": "Which of these equations will have (1, 1) as a solution?",
-    "options": {
-      "a": "x - y = 1",
-      "b": "2x + y = 1",
-      "c": "x + y = 2",
-      "d": "x = 2y"
-    },
-    "answer": "c",
-    "id": 129
-  },
-  {
-    "question": "The cost of a pencil is Rs. 2 less than twice the cost of an eraser. Express this statement as a linear equation in two variables. (Take the cost of a pencil to be Rs. x and that of an eraser to be Rs. y)",
-    "options": {
-      "a": "x = 2y - 2",
-      "b": "x - 2y = -2",
-      "c": "x + 2 = 2y",
-      "d": "2x = y - 2"
-    },
-    "answer": "a",
-    "id": 130
-  },
-  {
-    "question": "Five years ago, Salman was thrice as old as his son. Ten years later, Salman will be twice as old as his son. Let Salman's present age be 'x' years and his son's age be 'y' years. Which of the following linear equations represents the situation ten years later?",
-    "options": {
-      "a": "x + 10 = 2(y + 10)",
-      "b": "x + 5 = 2(y + 15)",
-      "c": "x - 5 = 3(y - 5)",
-      "d": "x = 2y"
-    },
-    "answer": "a",
-    "id": 131
-  },
-  {
-    "question": "The sum of the abscissa and ordinate of a point is 5. If the abscissa is represented by 'x' and the ordinate by 'y', what is the linear equation representing this statement?",
-    "options": {
-      "a": "x - y = 5",
-      "b": "x * y = 5",
-      "c": "x / y = 5",
-      "d": "x + y = 5"
-    },
-    "answer": "d",
-    "id": 132
-  },
-  {
-    "question": "Points (1, -2), (2, -3), (3, -4) lie on the graph of:",
-    "options": {
-      "a": "x + y = 1",
-      "b": "x - y = 3",
-      "c": "y = x - 3",
-      "d": "y = 2x"
-    },
-    "answer": "c",
-    "id": 133
-  },
-  {
-    "question": "The taxi fare in a city is Rs. 8 for the first kilometer and Rs. 5 for each additional kilometer. Taking the distance covered as 'x' km and total fare as Rs. 'y', write a linear equation for this information.",
-    "options": {
-      "a": "y = 8 + 5x",
-      "b": "y = 8 + 5(x-1)",
-      "c": "y = 8x + 5",
-      "d": "y = 5x + 8(x-1)"
-    },
-    "answer": "b",
-    "id": 134
-  },
-  {
-    "question": "If the point (3, 4) lies on the graph of the equation 3y = ax + 7, find the value of 'a'.",
-    "options": {
-      "a": "2/3",
-      "b": "5/3",
-      "c": "7/3",
-      "d": "11/3"
-    },
-    "answer": "b",
-    "id": 135
-  },
-  {
-    "question": "The point where the line 2x - 3y = 6 intersects the x-axis is:",
-    "options": {
-      "a": "(0, -2)",
-      "b": "(3, 0)",
-      "c": "(0, 3)",
-      "d": "(-2, 0)"
-    },
-    "answer": "b",
-    "id": 136
-  },
-  {
-    "question": "For what value of k, the linear equation 2x + ky = 8 has (0, 4) as a solution?",
+    "question_number": 20,
+    "question": "If (0, 0) is a solution to a linear equation in two variables, which constant term 'c' (in ax + by + c = 0) must be equal to?",
     "options": {
       "a": "1",
-      "b": "2",
-      "c": "4",
+      "b": "-1",
+      "c": "0",
+      "d": "Any real number"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 21,
+    "question": "Which property ensures that 2x + 5 = 0 and 2x + 5 - 3 = -3 have the same solution?",
+    "options": {
+      "a": "Multiplying both sides by the same non-zero number.",
+      "b": "Dividing both sides by the same non-zero number.",
+      "c": "Adding the same number to (or subtracting from) both sides.",
+      "d": "Rearranging terms on one side."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "For the equation 2x + 3y = 12, if (4, 0) is a point, is it a solution?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, because 2(4) + 3(0) = 8, which is not 12.",
+      "c": "Yes, because it's an ordered pair.",
+      "d": "No, because x must be 0 for it to be a solution."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 23,
+    "question": "If an equation is given as p + 4q = 7, which variables are being used in this linear equation?",
+    "options": {
+      "a": "x and y",
+      "b": "a and b",
+      "c": "p and q",
+      "d": "s and t"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 24,
+    "question": "What is the primary difference between a linear equation in one variable and a linear equation in two variables regarding their graphical representation?",
+    "options": {
+      "a": "One variable equations are points; two variable equations are lines.",
+      "b": "One variable equations are circles; two variable equations are lines.",
+      "c": "One variable equations are lines; two variable equations are planes.",
+      "d": "Both are represented as points."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 25,
+    "question": "Which of the following equations represents a linear equation in two variables where the coefficient of x is zero?",
+    "options": {
+      "a": "2x + 3y = 5",
+      "b": "3y + 4 = 0",
+      "c": "x = 4y",
+      "d": "2x = 0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 26,
+    "question": "If the equation 2x = y is written in the form ax + by + c = 0, what is the value of c?",
+    "options": {
+      "a": "2",
+      "b": "-1",
+      "c": "0",
+      "d": "1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "Which statement correctly describes the relationship between solutions and points on the graph of a linear equation in two variables?",
+    "options": {
+      "a": "Only some points on the graph are solutions.",
+      "b": "Only solutions are points on the graph.",
+      "c": "Every point on the graph is a solution, and every solution is a point on the graph.",
+      "d": "There is no direct relationship between solutions and graph points."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "Consider the equation y - 2 = 0. When expressed in the form ax + by + c = 0, what are the values of a, b, and c?",
+    "options": {
+      "a": "a = 1, b = 1, c = -2",
+      "b": "a = 0, b = 1, c = -2",
+      "c": "a = 1, b = 0, c = -2",
+      "d": "a = 0, b = 0, c = -2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 29,
+    "question": "Why is 2x + 3y = 4.37 considered a linear equation in two variables?",
+    "options": {
+      "a": "Because it has more than one solution.",
+      "b": "Because x and y have exponents of 1, and it can be written as ax + by + c = 0.",
+      "c": "Because 4.37 is a real number.",
+      "d": "Because it contains two terms."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 30,
+    "question": "The equation 5 = 2x, when expressed in the form ax + by + c = 0, has which of the following set of coefficients (a, b, c)?",
+    "options": {
+      "a": "(2, 0, 5)",
+      "b": "(2, 0, -5)",
+      "c": "(5, 0, -2)",
+      "d": "(-2, 0, 5)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 31,
+    "question": "Express the equation 2x + 3y = 9.35 in the form ax + by + c = 0 and indicate the values of a, b, and c.",
+    "options": {
+      "a": "a = 2, b = 3, c = 9.35",
+      "b": "a = 2, b = 3, c = -9.35",
+      "c": "a = 2, b = 3, c = 0",
+      "d": "a = -2, b = -3, c = 9.35"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 32,
+    "question": "Write the equation x \u2013 (y/5) \u2013 10 = 0 in the form ax + by + c = 0 and determine the values of a, b, and c.",
+    "options": {
+      "a": "a = 1, b = -1/5, c = -10",
+      "b": "a = 1, b = 1/5, c = -10",
+      "c": "a = 1, b = -5, c = -10",
+      "d": "a = 1, b = -1/5, c = 10"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 33,
+    "question": "Find four different solutions for the equation 2x + y = 7.",
+    "options": {
+      "a": "(0, 7), (1, 5), (2, 3), (3, 1)",
+      "b": "(0, 7), (1, 6), (2, 5), (3, 4)",
+      "c": "(7, 0), (5, 1), (3, 2), (1, 3)",
+      "d": "(0, 7), (1, 4), (2, 2), (3, 0)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 34,
+    "question": "Which of the following ordered pairs is a solution of the equation x \u2013 2y = 4?",
+    "options": {
+      "a": "(0, 2)",
+      "b": "(2, 0)",
+      "c": "(4, 0)",
+      "d": "(1, 1)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 35,
+    "question": "If x = 2, y = 1 is a solution of the equation 2x + 3y = k, find the value of k.",
+    "options": {
+      "a": "5",
+      "b": "6",
+      "c": "7",
       "d": "8"
     },
-    "answer": "b",
-    "id": 137
+    "answer": "c"
   },
   {
-    "question": "If the points (k, 3) and (2, -5) lie on a line parallel to the x-axis, then the value of k is:",
+    "question_number": 36,
+    "question": "Convert the equation -2x + 3y = 6 into the form ax + by + c = 0 and identify a, b, and c.",
+    "options": {
+      "a": "a = -2, b = 3, c = 6",
+      "b": "a = -2, b = 3, c = -6",
+      "c": "a = 2, b = -3, c = 6",
+      "d": "a = 2, b = -3, c = -6"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "Find two solutions for the equation 4x + 3y = 12.",
+    "options": {
+      "a": "(0, 3) and (4, 0)",
+      "b": "(0, 4) and (3, 0)",
+      "c": "(1, 8/3) and (2, 4/3)",
+      "d": "(4, 0) and (0, 3)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 38,
+    "question": "Determine two solutions for the equation 2x + 5y = 0.",
+    "options": {
+      "a": "(0, 0) and (1, 2/5)",
+      "b": "(0, 0) and (1, -2/5)",
+      "c": "(0, 0) and (2, -5/2)",
+      "d": "(0, 0) and (-2, 5/2)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 39,
+    "question": "Write the equation x = 3y in the form ax + by + c = 0 and identify a, b, and c.",
+    "options": {
+      "a": "a = 1, b = 3, c = 0",
+      "b": "a = 1, b = -3, c = 0",
+      "c": "a = 1, b = -3, c = 1",
+      "d": "a = 1, b = 3, c = 1"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 40,
+    "question": "Check if the ordered pair (\u221a2, 4\u221a2) is a solution of the equation x \u2013 2y = 4.",
+    "options": {
+      "a": "Yes, it is a solution.",
+      "b": "No, it is not a solution.",
+      "c": "It is a solution only if x = 0.",
+      "d": "It is a solution only if y = 0."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 41,
+    "question": "If the equation 2x = -5y is written in the form ax + by + c = 0, find the values of a, b, and c.",
+    "options": {
+      "a": "a = 2, b = 5, c = 0",
+      "b": "a = 2, b = -5, c = 0",
+      "c": "a = -2, b = -5, c = 0",
+      "d": "a = 2, b = 5, c = 1"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 42,
+    "question": "Find four different solutions of the equation \u03c0x + y = 9.",
+    "options": {
+      "a": "(0, 9), (1, 9-\u03c0), (2, 9-2\u03c0), (3, 9-3\u03c0)",
+      "b": "(0, 9), (1, 9+\u03c0), (2, 9+2\u03c0), (3, 9+3\u03c0)",
+      "c": "(9, 0), (9-\u03c0, 1), (9-2\u03c0, 2), (9-3\u03c0, 3)",
+      "d": "(0, 9), (9/\u03c0, 0), (1, 9-\u03c0), (2, 9+2\u03c0)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 43,
+    "question": "Determine the values of a, b, and c for the equation 3x + 2 = 0 when written in the form ax + by + c = 0.",
+    "options": {
+      "a": "a = 3, b = 2, c = 0",
+      "b": "a = 3, b = 0, c = 2",
+      "c": "a = 0, b = 3, c = 2",
+      "d": "a = 3, b = 0, c = -2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 44,
+    "question": "Find a value for 'm' such that (2, 5) is a solution to the equation mx - y = 1.",
     "options": {
       "a": "2",
       "b": "3",
-      "c": "-5",
-      "d": "Any real number"
+      "c": "-2",
+      "d": "-3"
     },
-    "answer": "d",
-    "id": 138
+    "answer": "b"
   },
   {
-    "question": "The linear equation 3x - 5y = 15 has:",
+    "question_number": 45,
+    "question": "Which of the following is NOT a solution of the equation x = 4y?",
     "options": {
-      "a": "a unique solution",
-      "b": "exactly two solutions",
-      "c": "infinitely many solutions",
-      "d": "no solution"
+      "a": "(0, 0)",
+      "b": "(4, 1)",
+      "c": "(-4, -1)",
+      "d": "(1, 4)"
     },
-    "answer": "c",
-    "id": 139
+    "answer": "d"
   },
   {
-    "question": "Which of the following is true for the graph of the equation x = -3?",
+    "question_number": 46,
+    "question": "If (1, 4) is NOT a solution for 2x + 3y = 12, what value does 2x + 3y evaluate to when x=1, y=4?",
     "options": {
-      "a": "It is a line parallel to the x-axis.",
-      "b": "It is a line passing through the origin.",
-      "c": "It is a line parallel to the y-axis.",
-      "d": "It is a line making an angle of 45° with the x-axis."
+      "a": "12",
+      "b": "10",
+      "c": "14",
+      "d": "16"
     },
-    "answer": "c",
-    "id": 140
+    "answer": "c"
   },
   {
-    "question": "The age of a father is twice the sum of the ages of his two children. If the present age of the father is 48 years and the age of one child is 'x' years, then the age of the other child is:",
+    "question_number": 47,
+    "question": "If the equation 5y = 2 is written in the form ax + by + c = 0, what are the values of a, b, and c?",
     "options": {
-      "a": "(24 - x) years",
-      "b": "(x - 24) years",
-      "c": "(48 - x) years",
-      "d": "(x/2) years"
+      "a": "a = 0, b = 5, c = -2",
+      "b": "a = 5, b = 0, c = -2",
+      "c": "a = 0, b = 5, c = 2",
+      "d": "a = 5, b = 2, c = 0"
     },
-    "answer": "a",
-    "id": 141
+    "answer": "a"
   },
   {
-    "question": "If we add 1 to the numerator and subtract 1 from the denominator, a fraction reduces to 1. It becomes 1/2 if we only add 1 to the denominator. The fraction is:",
+    "question_number": 48,
+    "question": "Find two solutions for the equation 3y + 4 = 0.",
     "options": {
-      "a": "2/3",
-      "b": "3/4",
-      "c": "4/5",
-      "d": "5/6"
+      "a": "(0, -4/3) and (1, -4/3)",
+      "b": "(-4/3, 0) and (-4/3, 1)",
+      "c": "(0, 4/3) and (1, 4/3)",
+      "d": "(0, -3/4) and (1, -3/4)"
     },
-    "answer": "c",
-    "id": 142
+    "answer": "a"
   },
   {
-    "question": "The cost of a table is 3 times the cost of a chair. Write a linear equation in two variables to represent this statement. (Take the cost of a table to be Rs. 't' and that of a chair to be Rs. 'c')",
+    "question_number": 49,
+    "question": "Express the equation x - 4 = 3y in the form ax + by + c = 0 and indicate the values of a, b, and c.",
     "options": {
-      "a": "t = 3c",
-      "b": "c = 3t",
-      "c": "t + c = 3",
-      "d": "t - c = 3"
+      "a": "a = 1, b = 3, c = -4",
+      "b": "a = 1, b = -3, c = -4",
+      "c": "a = 1, b = -3, c = 4",
+      "d": "a = 1, b = 3, c = 4"
     },
-    "answer": "a",
-    "id": 143
+    "answer": "b"
   },
   {
-    "question": "The sum of the digits of a two-digit number is 8. If the digits are reversed, the number is decreased by 18. Find the number.",
+    "question_number": 50,
+    "question": "If (3, 2) is a solution to 2x + 3y = 12, what value do you get when you substitute x=3 and y=2 into 2x + 3y?",
     "options": {
-      "a": "35",
-      "b": "53",
-      "c": "44",
-      "d": "62"
+      "a": "6",
+      "b": "12",
+      "c": "10",
+      "d": "18"
     },
-    "answer": "b",
-    "id": 144
+    "answer": "b"
+  },
+  {
+    "question_number": 51,
+    "question": "Find four different solutions for the equation x = 4y.",
+    "options": {
+      "a": "(0, 0), (4, 1), (8, 2), (12, 3)",
+      "b": "(0, 0), (1, 4), (2, 8), (3, 12)",
+      "c": "(0, 0), (-4, -1), (4, 1), (1, 4)",
+      "d": "(0, 0), (1, 4), (2, 1/2), (3, 3/4)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 52,
+    "question": "Express the equation 4 = 5x \u2013 3y in the form ax + by + c = 0.",
+    "options": {
+      "a": "5x - 3y + 4 = 0",
+      "b": "5x + 3y - 4 = 0",
+      "c": "5x - 3y - 4 = 0",
+      "d": "-5x + 3y - 4 = 0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 53,
+    "question": "Consider the equation 2x + 3y = 12. If x = 2 is chosen, what is the corresponding value of y?",
+    "options": {
+      "a": "8/3",
+      "b": "4/3",
+      "c": "16/3",
+      "d": "2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 54,
+    "question": "For the equation 2x + 3y = 12, if x = -5 is chosen, what is the corresponding value of y?",
+    "options": {
+      "a": "22/3",
+      "b": "-2/3",
+      "c": "2/3",
+      "d": "-22/3"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 55,
+    "question": "A linear equation 4x + ky = 20 has (3, 2) as one of its solutions. Find the value of k.",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 56,
+    "question": "Which of the following equations has (0,0) as a solution?",
+    "options": {
+      "a": "2x + 3y = 5",
+      "b": "x - 4y = 8",
+      "c": "5x + 7y = 0",
+      "d": "3x - 2y = 6"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 57,
+    "question": "Find the value of 'a' if (1, -1) is a solution of the equation ax + 5y = 3.",
+    "options": {
+      "a": "8",
+      "b": "2",
+      "c": "-8",
+      "d": "-2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 58,
+    "question": "If (k, 3k) is a solution to the equation 3x - y = 6, find the value of k.",
+    "options": {
+      "a": "3",
+      "b": "6",
+      "c": "Any real number",
+      "d": "Not possible"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 59,
+    "question": "Given the equation 2x + 5y = 10, find a solution where x is an integer and y is a fraction.",
+    "options": {
+      "a": "(0, 2)",
+      "b": "(1, 8/5)",
+      "c": "(2, 6/5)",
+      "d": "(5, 0)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "For the equation x + 2y = 6, which of the following is NOT a solution?",
+    "options": {
+      "a": "(2, 2)",
+      "b": "(0, 3)",
+      "c": "(6, 0)",
+      "d": "(1, 4)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 61,
+    "question": "The cost of a notebook (x) is twice the cost of a pen (y). Which linear equation represents this statement?",
+    "options": {
+      "a": "x + y = 2",
+      "b": "2x = y",
+      "c": "x = 2y",
+      "d": "x - y = 2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "In a One-day International Cricket match, two Indian batsmen together scored 176 runs. If the runs scored by the batsmen are x and y, express this information as a linear equation in two variables.",
+    "options": {
+      "a": "x - y = 176",
+      "b": "x + y = 176",
+      "c": "xy = 176",
+      "d": "x/y = 176"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 63,
+    "question": "A father's current age (F) is 5 more than three times his son's current age (S). Which linear equation represents this relationship?",
+    "options": {
+      "a": "F = 3S - 5",
+      "b": "F = 5S + 3",
+      "c": "F = 3S + 5",
+      "d": "F + S = 5"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "The total cost of 5 chairs and 3 tables is \u20b93500. If the cost of one chair is \u20b9x and the cost of one table is \u20b9y, form a linear equation.",
+    "options": {
+      "a": "5x + 3y = 3500",
+      "b": "3x + 5y = 3500",
+      "c": "x + y = 3500",
+      "d": "5x - 3y = 3500"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 65,
+    "question": "The perimeter of a rectangle is 40 cm. If its length is 'L' cm and its width is 'W' cm, which equation represents this?",
+    "options": {
+      "a": "L + W = 40",
+      "b": "2L + W = 40",
+      "c": "2(L + W) = 40",
+      "d": "L W = 40"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 66,
+    "question": "A number 'N' is 10 less than twice another number 'M'. Express this relationship as a linear equation.",
+    "options": {
+      "a": "N = 2M + 10",
+      "b": "N = 2M - 10",
+      "c": "N = M - 10",
+      "d": "M = 2N - 10"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 67,
+    "question": "In a class, the number of boys (B) is half the number of girls (G). Write this as a linear equation.",
+    "options": {
+      "a": "B = 2G",
+      "b": "2B = G",
+      "c": "B + G = 0.5",
+      "d": "B = G - 0.5"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 68,
+    "question": "A bag contains 'x' \u20b910 notes and 'y' \u20b920 notes. The total value of the money in the bag is \u20b9200. Form a linear equation.",
+    "options": {
+      "a": "x + y = 200",
+      "b": "10x + 20y = 200",
+      "c": "20x + 10y = 200",
+      "d": "30(x+y) = 200"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 69,
+    "question": "The sum of two numbers, x and y, is 15. Form a linear equation.",
+    "options": {
+      "a": "xy = 15",
+      "b": "x - y = 15",
+      "c": "x + y = 15",
+      "d": "x/y = 15"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "A certain amount of work (W) is done by a worker earning a fixed daily wage (w) and a bonus (b). If total earnings for 'd' days of work is E, formulate an equation involving two variables (assume E and d are given constants, and w and b are the variables).",
+    "options": {
+      "a": "d * w + b = E",
+      "b": "w + b = E/d",
+      "c": "w + b = E",
+      "d": "w * d = E + b"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 71,
+    "question": "The difference between the ages of a mother (M) and her daughter (D) is 25 years. Express this as a linear equation.",
+    "options": {
+      "a": "M + D = 25",
+      "b": "M - D = 25",
+      "c": "D - M = 25",
+      "d": "M / D = 25"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 72,
+    "question": "A store sells apples for \u20b915 each and bananas for \u20b95 each. If a customer buys 'x' apples and 'y' bananas for a total of \u20b9100, which equation represents this?",
+    "options": {
+      "a": "x + y = 100",
+      "b": "15x + 5y = 100",
+      "c": "5x + 15y = 100",
+      "d": "20(x+y) = 100"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 73,
+    "question": "The sum of the current ages of two friends, A (age x) and B (age y), is 28 years. Form the linear equation.",
+    "options": {
+      "a": "x - y = 28",
+      "b": "x + y = 28",
+      "c": "xy = 28",
+      "d": "2x + 2y = 28"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 74,
+    "question": "A person travels 'x' km by bus at \u20b912 per km and 'y' km by auto at \u20b915 per km. If the total fare paid is \u20b9240, write the equation.",
+    "options": {
+      "a": "x + y = 240",
+      "b": "12x + 15y = 240",
+      "c": "15x + 12y = 240",
+      "d": "27(x+y) = 240"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 75,
+    "question": "The weight of a bag containing 'p' kg of potatoes and 'q' kg of onions is 10 kg. Which equation represents this?",
+    "options": {
+      "a": "p = 10q",
+      "b": "p + q = 10",
+      "c": "p - q = 10",
+      "d": "pq = 10"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 76,
+    "question": "A student reads 'x' pages on Monday and 'y' pages on Tuesday. If the total number of pages read in two days is 50, which equation expresses this?",
+    "options": {
+      "a": "x - y = 50",
+      "b": "xy = 50",
+      "c": "x + y = 50",
+      "d": "2x + 2y = 50"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "The cost of a chair (C) is \u20b9200 less than three times the cost of a stool (S). Form a linear equation.",
+    "options": {
+      "a": "C = 3S + 200",
+      "b": "C = 3S - 200",
+      "c": "S = 3C - 200",
+      "d": "C - S = 200"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 78,
+    "question": "A factory produces 'x' units of Product A and 'y' units of Product B. If each unit of Product A costs \u20b950 to produce and each unit of Product B costs \u20b970 to produce, and the total production cost for a day is \u20b95000, write the linear equation.",
+    "options": {
+      "a": "x + y = 5000",
+      "b": "50x + 70y = 5000",
+      "c": "70x + 50y = 5000",
+      "d": "120(x+y) = 5000"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "The sum of two angles of a triangle is 90 degrees. If the angles are x and y, write the equation.",
+    "options": {
+      "a": "x - y = 90",
+      "b": "x + y = 90",
+      "c": "2x + 2y = 90",
+      "d": "x = 90y"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 80,
+    "question": "A student's score in Maths (M) and Science (S) total 150. Form a linear equation.",
+    "options": {
+      "a": "M - S = 150",
+      "b": "M / S = 150",
+      "c": "M + S = 150",
+      "d": "M * S = 150"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "Consider the equation 2x + 0y + 5 = 0. Which statement is TRUE about this equation?",
+    "options": {
+      "a": "It is a linear equation in one variable, x.",
+      "b": "It is a linear equation in two variables, x and y, where b=0.",
+      "c": "It is not a linear equation because it has a zero coefficient.",
+      "d": "It is a linear equation in two variables, but has no solution."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 82,
+    "question": "Why does a linear equation in two variables have infinitely many solutions?",
+    "options": {
+      "a": "Because it contains two variables, each with a unique solution.",
+      "b": "Because for every value chosen for one variable, there is a corresponding unique value for the other, and real numbers are infinite.",
+      "c": "Because its graph is a curve that extends infinitely.",
+      "d": "Because it can be solved using different mathematical operations."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 83,
+    "question": "A student states that if an equation has both x and y terms, it must be a linear equation in two variables. Which of the following examples contradicts this statement?",
+    "options": {
+      "a": "x + y = 5",
+      "b": "2x - 3y = 0",
+      "c": "x\u00b2 + y = 7",
+      "d": "x = y + 1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "If the equation ax + by + c = 0 represents a line passing through the origin, which of the following statements must be true?",
+    "options": {
+      "a": "a = 0",
+      "b": "b = 0",
+      "c": "c = 0",
+      "d": "a + b + c = 0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "Consider two distinct linear equations in two variables. Can they have the exact same set of infinitely many solutions?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, unless they are essentially the same equation (e.g., one is a multiple of the other).",
+      "c": "Yes, if their coefficients are simply swapped.",
+      "d": "Only if they are both parallel to the x-axis."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 86,
+    "question": "A student obtained two solutions for a linear equation in two variables: (0, y1) and (x1, 0). Which property of linear equations did the student likely use to find these solutions easily?",
+    "options": {
+      "a": "The property that a linear equation has infinitely many solutions.",
+      "b": "The property of substituting zero for one variable to find the other's intercept.",
+      "c": "The property that a linear equation represents a straight line.",
+      "d": "The property of adding the same number to both sides of the equation."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "If a linear equation in two variables is given as 0.x + 0.y + c = 0, and c is a non-zero constant, what can be concluded?",
+    "options": {
+      "a": "It is a valid linear equation in two variables.",
+      "b": "It has infinitely many solutions.",
+      "c": "It has no solution.",
+      "d": "It implies that c must be zero."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 88,
+    "question": "Which statement accurately differentiates a linear equation in one variable from one in two variables based on their solution count?",
+    "options": {
+      "a": "One variable has one solution, two variables have two solutions.",
+      "b": "One variable has one solution, two variables have infinitely many solutions.",
+      "c": "One variable has no solution, two variables have infinitely many solutions.",
+      "d": "Both have infinitely many solutions."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 89,
+    "question": "A linear equation is given by ax + by + c = 0. If we divide the entire equation by a non-zero number 'k', say (ax/k) + (by/k) + (c/k) = 0. How does this new equation relate to the original one?",
+    "options": {
+      "a": "It has a different set of solutions.",
+      "b": "It represents a different line.",
+      "c": "It is an equivalent equation and has the same set of solutions.",
+      "d": "It only changes the values of a, b, c but not the solution."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 90,
+    "question": "If a linear equation in two variables is used to represent a real-world scenario, what does each 'solution' (ordered pair) of the equation signify in that context?",
+    "options": {
+      "a": "A single fixed outcome for the scenario.",
+      "b": "A specific pair of values for the two quantities involved that satisfies the given condition.",
+      "c": "The maximum possible value for one of the quantities.",
+      "d": "The average value of the two quantities."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "When determining the values of a, b, and c for an equation like 4 = 5x \u2013 3y, why is it acceptable to write it as either 5x \u2013 3y \u2013 4 = 0 or \u20135x + 3y + 4 = 0?",
+    "options": {
+      "a": "Because 'a', 'b', 'c' are always positive.",
+      "b": "Because multiplying the entire equation by -1 does not change the solutions.",
+      "c": "Because the order of terms does not matter.",
+      "d": "Because 4 is a variable."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "Which characteristic of a linear equation in two variables prevents it from being represented by a curve on a graph?",
+    "options": {
+      "a": "It has a constant term 'c'.",
+      "b": "The coefficients 'a' and 'b' are real numbers.",
+      "c": "The maximum power of each variable is one.",
+      "d": "It involves two variables."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "If you have an equation 0.x + by + c = 0 where b \u2260 0, what can you infer about the nature of its graph?",
+    "options": {
+      "a": "It is a vertical line.",
+      "b": "It is a horizontal line.",
+      "c": "It passes through the origin.",
+      "d": "It is impossible to graph."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "Suppose you are given an equation that is stated to be a linear equation in two variables. If after rearrangement, you find it can be written as 0x + 0y + 7 = 0, what would you conclude?",
+    "options": {
+      "a": "The equation has infinite solutions.",
+      "b": "The equation simplifies to 7 = 0, which is a contradiction, so it is not a linear equation in two variables and has no solution.",
+      "c": "The equation is actually a linear equation in one variable.",
+      "d": "The values of a, b, and c are 0, 0, and 7, respectively."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "Why is it important that 'a' and 'b' are not both zero in the general form ax + by + c = 0 for a linear equation in two variables?",
+    "options": {
+      "a": "To ensure that 'c' is always zero.",
+      "b": "To guarantee that the equation has at least one variable term.",
+      "c": "To make sure the equation can be easily solved.",
+      "d": "To ensure it represents a single point."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 96,
+    "question": "A linear equation has solution (3,2). Which statement is necessarily true about another pair (x,y) if it is also a solution?",
+    "options": {
+      "a": "x must be 3.",
+      "b": "y must be 2.",
+      "c": "The pair (x,y) must lie on the same line as (3,2).",
+      "d": "The pair (x,y) must be (2,3)."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "What distinguishes a linear equation in one variable from a linear equation in two variables when represented on a graph?",
+    "options": {
+      "a": "One is a single point on a number line, the other is a straight line on a Cartesian plane.",
+      "b": "One is a circle, the other is a parabola.",
+      "c": "Both are straight lines but in different dimensions.",
+      "d": "One is a line segment, the other is a ray."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 98,
+    "question": "If a real-world problem is modeled by a linear equation, and some of the coefficients (a, b, or c) are negative, what does this usually imply?",
+    "options": {
+      "a": "The problem has no valid solution.",
+      "b": "It implies a subtraction or a deficit in the relationship between quantities.",
+      "c": "The variables must also be negative.",
+      "d": "The equation is not truly linear."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "Why is it helpful to express linear equations in the form ax + by + c = 0?",
+    "options": {
+      "a": "It makes the equation easier to solve for 'x'.",
+      "b": "It provides a standard format for comparison and identification of coefficients.",
+      "c": "It ensures that 'c' is always zero.",
+      "d": "It is the only way to find solutions."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "A linear equation has (x1, y1) as a solution. If a new equation is formed by adding a constant 'k' to only the left side (ax + by + c + k = 0), will (x1, y1) still be a solution to the new equation?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, unless k = 0.",
+      "c": "Only if x1 = 0 and y1 = 0.",
+      "d": "Only if k is a very small number."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): The equation 5x + 0.y + 7 = 0 is a linear equation in two variables.\nReason (R): Any equation of the form ax + by + c = 0, where a, b, c are real numbers and a and b are not both zero, is called a linear equation in two variables.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): The equation 2x + 3y = 12 has only two solutions, (3, 2) and (0, 4).\nReason (R): A linear equation in two variables has infinitely many solutions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): The point (4, 0) is a solution of the equation x \u2013 2y = 4.\nReason (R): When x=4 and y=0 are substituted into x \u2013 2y = 4, the Left Hand Side equals the Right Hand Side.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): The cost of a notebook (x) is twice the cost of a pen (y) can be represented by the equation x - 2y = 0.\nReason (R): The standard form of a linear equation in two variables is ax + by + c = 0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The equation y = 2 can be written as 0.x + 1.y \u2013 2 = 0.\nReason (R): Any linear equation in one variable can be expressed as a linear equation in two variables by including a term with a zero coefficient for the missing variable.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): If x = 2, y = 1 is a solution of 2x + 3y = k, then k = 7.\nReason (R): To check if a pair of values is a solution, substitute them into the equation and verify if the equation holds true.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): The equation x + y = 176 is an example of a linear equation in two variables.\nReason (R): In a linear equation in two variables, the powers of the variables are always 1.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): An equation like x\u00b2 + 2y + 3 = 0 cannot be classified as a linear equation in two variables.\nReason (R): In a linear equation in two variables (ax + by + c = 0), the highest power of any variable must be 1.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The solution of a linear equation is affected when the same number is added to only one side of the equation.\nReason (R): To maintain equality in an equation, any operation (addition, subtraction, multiplication, division) must be applied to both sides.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): The equation 3x + 0y - 4 = 0 represents a vertical line on the Cartesian plane.\nReason (R): If b = 0 in ax + by + c = 0, the equation simplifies to ax + c = 0, which means x = -c/a, representing a constant x-value.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): (0, 0) is always a solution for any linear equation in two variables.\nReason (R): For (0, 0) to be a solution of ax + by + c = 0, the constant term 'c' must be zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): The equation 2x + 3y = 4.37 is a linear equation in two variables.\nReason (R): The constants a, b, and c in a linear equation in two variables must always be integers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): If (1, 1) is a solution for x + 2y = k, then k = 3.\nReason (R): A linear equation in two variables has a unique solution.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): The solution of a linear equation is affected when both sides of the equation are multiplied by zero.\nReason (R): Multiplying by zero on both sides would result in 0 = 0, making the original variables and constants irrelevant for finding a solution.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): The equation 5 = 2x can be written as 2x - 0.y - 5 = 0.\nReason (R): Any linear equation in one variable can be written in the ax + by + c = 0 form.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): If (2, 2) is a solution to x + 2y = 6, then (0, 3) must also be a solution.\nReason (R): A linear equation in two variables has infinitely many solutions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The equation 2x + 3y = 4.37 can be expressed in the form ax + by + c = 0 where c = 4.37.\nReason (R): To write an equation in the form ax + by + c = 0, all terms including the constant must be on the left side, setting the right side to zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): The solution of x + 2 = 0 is unique and can be represented on a number line.\nReason (R): A linear equation in one variable has a unique solution.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
   }
 ]

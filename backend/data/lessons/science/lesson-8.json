@@ -1,519 +1,1410 @@
 [
   {
-    "question": "A constant force acts on a 10 kg object for 5 seconds, changing its velocity from 5 m/s to 15 m/s. What is the magnitude of the force?",
-    "options": {
-      "a": "5 N",
-      "b": "10 N",
-      "c": "20 N",
-      "d": "50 N"
-    },
-    "answer": "c",
-    "id": 523
-  },
-  {
-    "question": "Which of the following statements is NOT true about inertia?",
-    "options": {
-      "a": "Inertia is the tendency of an object to resist a change in its state of motion.",
-      "b": "Inertia depends only on the mass of an object.",
-      "c": "A heavier object has more inertia than a lighter object.",
-      "d": "Inertia is a measure of how difficult it is to accelerate an object."
-    },
-    "answer": "b",
-    "id": 524
-  },
-  {
-    "question": "A passenger in a moving bus is thrown forward when the bus suddenly brakes. This is an example of:",
-    "options": {
-      "a": "Newton's First Law of Motion",
-      "b": "Newton's Second Law of Motion",
-      "c": "Newton's Third Law of Motion",
-      "d": "Law of Conservation of Momentum"
-    },
-    "answer": "a",
-    "id": 525
-  },
-  {
-    "question": "A force of 10 N acts on a 2 kg object. What is the acceleration produced?",
-    "options": {
-      "a": "0.2 m/s²",
-      "b": "2 m/s²",
-      "c": "5 m/s²",
-      "d": "20 m/s²"
-    },
-    "answer": "c",
-    "id": 526
-  },
-  {
-    "question": "A rocket propels itself forward by expelling hot gases backward. This is an example of:",
-    "options": {
-      "a": "Newton's First Law of Motion",
-      "b": "Newton's Second Law of Motion",
-      "c": "Newton's Third Law of Motion",
-      "d": "Law of Conservation of Energy"
-    },
-    "answer": "c",
-    "id": 527
-  },
-  {
-    "question": "Which of the following has the highest inertia?",
-    "options": {
-      "a": "A feather",
-      "b": "A tennis ball",
-      "c": "A cricket ball",
-      "d": "A bowling ball"
-    },
-    "answer": "d",
-    "id": 528
-  },
-  {
-    "question": "A car accelerates from rest to 20 m/s in 10 seconds. What is its acceleration?",
-    "options": {
-      "a": "0.5 m/s²",
-      "b": "1 m/s²",
-      "c": "2 m/s²",
-      "d": "4 m/s²"
-    },
-    "answer": "c",
-    "id": 529
-  },
-  {
-    "question": "A force of 50 N is applied to an object of mass 10 kg.  What is the change in momentum of the object if the force acts for 2 seconds?",
-    "options": {
-      "a": "25 kg m/s",
-      "b": "50 kg m/s",
-      "c": "100 kg m/s",
-      "d": "200 kg m/s"
-    },
-    "answer": "c",
-    "id": 530
-  },
-  {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. What is its momentum?",
-    "options": {
-      "a": "0.5 kg m/s",
-      "b": "2 kg m/s",
-      "c": "50 kg m/s",
-      "d": "100 kg m/s"
-    },
-    "answer": "c",
-    "id": 531
-  },
-  {
-    "question": "Two objects of equal mass are moving with the same velocity. Which statement is true about their momentum?",
-    "options": {
-      "a": "The object with the larger surface area has more momentum.",
-      "b": "The object with the higher density has more momentum.",
-      "c": "Both objects have the same momentum.",
-      "d": "Momentum cannot be determined without knowing the shape of the objects."
-    },
-    "answer": "c",
-    "id": 532
-  },
-  {
-    "question": "A force of 20 N acts on a 5 kg object for 4 seconds. What is the change in velocity of the object?",
-    "options": {
-      "a": "4 m/s",
-      "b": "8 m/s",
-      "c": "16 m/s",
-      "d": "20 m/s"
-    },
-    "answer": "c",
-    "id": 533
-  },
-  {
-    "question": "When a bullet is fired from a gun, the gun recoils. This recoil is an example of:",
-    "options": {
-      "a": "Newton's First Law of Motion",
-      "b": "Newton's Second Law of Motion",
-      "c": "Newton's Third Law of Motion",
-      "d": "Law of Conservation of Momentum"
-    },
-    "answer": "c",
-    "id": 534
-  },
-  {
-    "question": "A car of mass 1000 kg is moving at a speed of 20 m/s. The brakes are applied, and the car comes to a stop in 5 seconds. What is the average braking force?",
-    "options": {
-      "a": "1000 N",
-      "b": "2000 N",
-      "c": "4000 N",
-      "d": "8000 N"
-    },
-    "answer": "c",
-    "id": 535
-  },
-  {
-    "question": "A 2 kg ball is dropped from a height of 10 meters. What is its velocity just before it hits the ground (neglecting air resistance)? Take g = 10 m/s².",
-    "options": {
-      "a": "10 m/s",
-      "b": "14.14 m/s",
-      "c": "20 m/s",
-      "d": "28.28 m/s"
-    },
-    "answer": "b",
-    "id": 536
-  },
-  {
-    "question": "A force of 10 N acts on a 2 kg object, initially at rest, for 5 seconds. What is the final velocity of the object?",
-    "options": {
-      "a": "10 m/s",
-      "b": "25 m/s",
-      "c": "50 m/s",
-      "d": "100 m/s"
-    },
-    "answer": "b",
-    "id": 537
-  },
-  {
-    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 20 m/s. What is its momentum at the highest point of its trajectory?",
-    "options": {
-      "a": "0 kg m/s",
-      "b": "5 kg m/s",
-      "c": "10 kg m/s",
-      "d": "20 kg m/s"
-    },
-    "answer": "a",
-    "id": 538
-  },
-  {
-    "question": "Which of the following is NOT a unit of force?",
+    "question_number": 1,
+    "question": "What is the SI unit of momentum?",
     "options": {
       "a": "Newton (N)",
-      "b": "Kilogram-meter per second squared (kg m/s²)",
-      "c": "Dyne",
+      "b": "Kilogram-metre per second (kg m s\u207b\u00b9)",
+      "c": "Kilogram per second (kg s\u207b\u00b9)",
       "d": "Joule (J)"
     },
-    "answer": "d",
-    "id": 539
+    "answer": "b"
   },
   {
-    "question": "Two forces of 5 N and 10 N act on an object in the same direction. What is the net force acting on the object?",
+    "question_number": 2,
+    "question": "What is another name for Newton's first law of motion?",
     "options": {
-      "a": "0 N",
-      "b": "5 N",
-      "c": "10 N",
-      "d": "15 N"
+      "a": "Law of Conservation of Momentum",
+      "b": "Law of Inertia",
+      "c": "Law of Acceleration",
+      "d": "Law of Action and Reaction"
     },
-    "answer": "d",
-    "id": 540
+    "answer": "b"
   },
   {
-    "question": "Two forces of 8 N and 6 N act on an object at an angle of 90 degrees to each other. What is the magnitude of the resultant force?",
+    "question_number": 3,
+    "question": "What is the effect of balanced forces on an object?",
     "options": {
-      "a": "2 N",
-      "b": "10 N",
-      "c": "14 N",
-      "d": "48 N"
+      "a": "They change the state of rest or motion of an object.",
+      "b": "They always cause acceleration in the object.",
+      "c": "They do not change the state of rest or of motion of an object.",
+      "d": "They change only the direction of motion."
     },
-    "answer": "b",
-    "id": 541
+    "answer": "c"
   },
   {
-    "question": "A 10 kg box is placed on a horizontal surface. The coefficient of friction between the box and the surface is 0.2. What is the minimum force required to move the box?",
+    "question_number": 5,
+    "question": "What is the common experience that forms the basis of the concept of force?",
     "options": {
-      "a": "2 N",
-      "b": "10 N",
-      "c": "19.6 N",
-      "d": "98 N"
+      "a": "Observing objects at rest",
+      "b": "Muscular effort to push, hit, or pull an object",
+      "c": "Objects always slowing down to a stop",
+      "d": "Measuring the mass of an object"
     },
-    "answer": "c",
-    "id": 542
+    "answer": "b"
   },
   {
-    "question": "A car is moving with a velocity of 36 km/h. It is brought to rest in 5 seconds by applying brakes. What is the retardation produced?",
+    "question_number": 6,
+    "question": "What happens to the velocity of a marble when it rolls down an inclined plane?",
     "options": {
-      "a": "1 m/s²",
-      "b": "2 m/s²",
-      "c": "3 m/s²",
-      "d": "4 m/s²"
+      "a": "Its velocity decreases.",
+      "b": "Its velocity remains constant.",
+      "c": "Its velocity increases.",
+      "d": "It comes to a sudden stop."
     },
-    "answer": "b",
-    "id": 543
+    "answer": "c"
   },
   {
-    "question": "A ball of mass 0.1 kg is thrown vertically upwards with an initial velocity of 20 m/s. What is the potential energy of the ball at its highest point?",
+    "question_number": 7,
+    "question": "What is the value of the proportionality constant 'k' in the equation F = kma, when SI units are used?",
     "options": {
-      "a": "0 J",
-      "b": "10 J",
-      "c": "20 J",
-      "d": "40 J"
+      "a": "0",
+      "b": "1",
+      "c": "9.8",
+      "d": "It varies depending on the object."
     },
-    "answer": "c",
-    "id": 544
+    "answer": "b"
   },
   {
-    "question": "A body of mass 5 kg is moving with a velocity of 10 m/s.  A force is applied to it for 2 seconds, and its velocity increases to 15 m/s. What is the magnitude of the applied force?",
+    "question_number": 8,
+    "question": "What is the SI unit of force?",
     "options": {
-      "a": "6.25 N",
-      "b": "12.5 N",
-      "c": "25 N",
-      "d": "50 N"
+      "a": "Kilogram-metre per second (kg m s\u207b\u00b9)",
+      "b": "Kilogram (kg)",
+      "c": "Newton (N)",
+      "d": "Metre per second squared (m s\u207b\u00b2)"
     },
-    "answer": "b",
-    "id": 545
+    "answer": "c"
   },
   {
-    "question": "A force of 10 N is applied to a 2 kg object for 5 seconds. What is the work done by the force?",
+    "question_number": 9,
+    "question": "On which objects do action and reaction forces act according to Newton's third law of motion?",
     "options": {
-      "a": "25 J",
-      "b": "50 J",
-      "c": "125 J",
-      "d": "625 J"
+      "a": "They act on the same object.",
+      "b": "They act on two different objects.",
+      "c": "They act only on stationary objects.",
+      "d": "They act only on moving objects."
     },
-    "answer": "d",
-    "id": 546
+    "answer": "b"
   },
   {
-    "question": "A 10 kg object is placed on a frictionless surface. A force of 5 N is applied to it for 10 seconds. What is the distance travelled by the object?",
+    "question_number": 10,
+    "question": "What is the direction of frictional force relative to the direction of motion?",
     "options": {
-      "a": "2.5 m",
-      "b": "12.5 m",
-      "c": "25 m",
-      "d": "125 m"
+      "a": "In the same direction as motion",
+      "b": "Perpendicular to the direction of motion",
+      "c": "Opposite to the direction of motion",
+      "d": "At a 45-degree angle to the direction of motion"
     },
-    "answer": "b",
-    "id": 547
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is dropped from a height of 10 meters. What is its kinetic energy just before it hits the ground (neglecting air resistance)? Take g = 10 m/s².",
+    "question_number": 11,
+    "question": "What quantity combines an object\u2019s mass and its velocity, introduced by Newton?",
     "options": {
-      "a": "10 J",
-      "b": "20 J",
-      "c": "100 J",
-      "d": "200 J"
+      "a": "Force",
+      "b": "Acceleration",
+      "c": "Momentum",
+      "d": "Inertia"
     },
-    "answer": "d",
-    "id": 548
+    "answer": "c"
   },
   {
-    "question": "A force of 10 N is applied to a 2 kg object, initially at rest, for 5 seconds. What is the impulse imparted to the object?",
+    "question_number": 12,
+    "question": "If an object is to be accelerated, what type of force is required?",
     "options": {
-      "a": "10 Ns",
-      "b": "20 Ns",
-      "c": "50 Ns",
-      "d": "100 Ns"
+      "a": "A balanced force",
+      "b": "A net zero external force",
+      "c": "An unbalanced force",
+      "d": "A frictional force only"
     },
-    "answer": "c",
-    "id": 549
+    "answer": "c"
   },
   {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides with a stationary 2 kg object, and they stick together after the collision. What is the velocity of the combined object after the collision?",
+    "question_number": 13,
+    "question": "What is the natural tendency of an object to resist a change in its state of motion or of rest called?",
     "options": {
-      "a": "2.86 m/s",
-      "b": "7.14 m/s",
-      "c": "10 m/s",
-      "d": "14.29 m/s"
+      "a": "Momentum",
+      "b": "Force",
+      "c": "Acceleration",
+      "d": "Inertia"
     },
-    "answer": "b",
-    "id": 550
+    "answer": "d"
   },
   {
-    "question": "A 10 kg object is placed on a frictionless inclined plane that makes an angle of 30 degrees with the horizontal. What is the component of the object's weight acting parallel to the plane?",
+    "question_number": 14,
+    "question": "What happens to the acceleration of a ball if the time taken for its high velocity to decrease to zero is increased, as demonstrated by a fielder catching a ball?",
     "options": {
-      "a": "49 N",
-      "b": "84.9 N",
-      "c": "98 N",
-      "d": "196 N"
+      "a": "The acceleration increases.",
+      "b": "The acceleration decreases.",
+      "c": "The acceleration remains constant.",
+      "d": "The acceleration becomes infinite."
     },
-    "answer": "a",
-    "id": 551
+    "answer": "b"
   },
   {
-    "question": "A 2 kg object is attached to a spring with a spring constant of 100 N/m. The object is displaced by 0.1 m from its equilibrium position and released. What is the maximum velocity of the object?",
+    "question_number": 15,
+    "question": "What is the SI unit of mass?",
     "options": {
-      "a": "0.5 m/s",
-      "b": "0.707 m/s",
-      "c": "1 m/s",
-      "d": "1.414 m/s"
+      "a": "Gram (g)",
+      "b": "Newton (N)",
+      "c": "Kilogram (kg)",
+      "d": "Kilogram-metre per second (kg m s\u207b\u00b9)"
     },
-    "answer": "b",
-    "id": 552
+    "answer": "c"
   },
   {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides elastically with a stationary 2 kg object. What is the velocity of the 2 kg object after the collision?",
+    "question_number": 16,
+    "question": "What kind of velocity does an object have if the forces acting on the object are balanced and there is no net external force on it?",
     "options": {
-      "a": "4.44 m/s",
-      "b": "8.89 m/s",
-      "c": "10 m/s",
-      "d": "17.78 m/s"
+      "a": "Constantly decreasing velocity",
+      "b": "Constantly increasing velocity",
+      "c": "Uniform velocity",
+      "d": "Zero velocity only"
     },
-    "answer": "d",
-    "id": 553
+    "answer": "c"
   },
   {
-    "question": "A 10 kg object is placed on a frictionless inclined plane that makes an angle of 30 degrees with the horizontal. What is the acceleration of the object down the plane?",
+    "question_number": 17,
+    "question": "What are the three fundamental laws that govern the motion of objects known as?",
     "options": {
-      "a": "2.45 m/s²",
-      "b": "4.9 m/s²",
-      "c": "9.8 m/s²",
-      "d": "19.6 m/s²"
+      "a": "Galileo's Laws of Motion",
+      "b": "Einstein's Laws of Relativity",
+      "c": "Newton's Laws of Motion",
+      "d": "Kepler's Laws of Planetary Motion"
     },
-    "answer": "b",
-    "id": 554
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is attached to a string and swung in a horizontal circle of radius 1 meter. If the string breaks when the tension exceeds 50 N, what is the maximum speed the object can have?",
+    "question_number": 18,
+    "question": "Who formulated the correct law for uniformly accelerated objects, stating that the distance the object moves is proportional to the square of the time taken?",
     "options": {
-      "a": "2.5 m/s",
-      "b": "5 m/s",
-      "c": "7.07 m/s",
-      "d": "10 m/s"
+      "a": "Isaac Newton",
+      "b": "Galileo Galilei",
+      "c": "Archimedes",
+      "d": "Johannes Kepler"
     },
-    "answer": "b",
-    "id": 555
+    "answer": "b"
   },
   {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. It experiences a constant retarding force of 2 N for 10 seconds. What is its final velocity?",
+    "question_number": 19,
+    "question": "What happens to a car's velocity if a continuous push is applied over some time?",
     "options": {
-      "a": "6 m/s",
-      "b": "8 m/s",
-      "c": "10 m/s",
-      "d": "12 m/s"
+      "a": "It decreases gradually.",
+      "b": "It remains constant.",
+      "c": "It starts abruptly then stops.",
+      "d": "It results in a gradual acceleration to a certain speed."
     },
-    "answer": "a",
-    "id": 556
+    "answer": "d"
   },
   {
-    "question": "A 10 kg object is dropped from a height of 10 meters. What is its momentum just before it hits the ground (neglecting air resistance)? Take g = 10 m/s².",
+    "question_number": 20,
+    "question": "What is the purpose of safety belts in a motorcar?",
     "options": {
-      "a": "44.7 kg m/s",
+      "a": "To increase the car's speed.",
+      "b": "To prevent passengers from being thrown forward during sudden braking.",
+      "c": "To reduce friction between the seat and the passenger.",
+      "d": "To activate airbags."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 21,
+    "question": "What force balances the pushing force on a box on a rough floor, preventing its initial motion?",
+    "options": {
+      "a": "Gravitational force",
+      "b": "Normal force",
+      "c": "Frictional force",
+      "d": "Magnetic force"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "How is the effect of frictional force minimized in Galileo's inclined plane experiment?",
+    "options": {
+      "a": "By increasing the angle of inclination.",
+      "b": "By using a rough marble and rough plane.",
+      "c": "By using a smooth marble, a smooth plane, and providing a lubricant.",
+      "d": "By applying a large external force."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 23,
+    "question": "What is meant by \"momentum\" (p) of an object?",
+    "options": {
+      "a": "The sum of its mass and velocity.",
+      "b": "The difference between its mass and velocity.",
+      "c": "The product of its mass and velocity.",
+      "d": "The square of its velocity divided by its mass."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 24,
+    "question": "What is the primary function of a force when applied to an object?",
+    "options": {
+      "a": "To keep the object stationary indefinitely.",
+      "b": "To always decrease the object's velocity.",
+      "c": "To change the magnitude or direction of velocity, or the shape/size of objects.",
+      "d": "To reduce the object's mass."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 25,
+    "question": "If the angle of inclination of the right-side plane in Galileo's experiment were gradually decreased, what would happen to the distance the marble travels?",
+    "options": {
+      "a": "It would travel shorter distances.",
+      "b": "It would travel further distances.",
+      "c": "It would travel the same distance.",
+      "d": "It would immediately come to rest."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 26,
+    "question": "What happens if an unbalanced force applied to an object is removed completely?",
+    "options": {
+      "a": "The object immediately stops.",
+      "b": "The object continues to accelerate.",
+      "c": "The object continues to move with the velocity it has acquired.",
+      "d": "The object reverses its direction of motion."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "What does the first law of motion qualitatively describe as \"inertia\"?",
+    "options": {
+      "a": "The tendency of objects to accelerate due to gravity.",
+      "b": "The tendency of undisturbed objects to stay at rest or keep moving with the same velocity.",
+      "c": "The force exerted by an object on another.",
+      "d": "The change in momentum of an object over time."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 28,
+    "question": "What is the relationship between the inertia of an object and its mass?",
+    "options": {
+      "a": "Inertia is inversely proportional to mass.",
+      "b": "Inertia is independent of mass.",
+      "c": "Mass is a measure of inertia.",
+      "d": "Mass is the opposite of inertia."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "How is the rate of change of momentum related to the applied unbalanced force, according to Newton's second law of motion?",
+    "options": {
+      "a": "Directly proportional in the opposite direction.",
+      "b": "Inversely proportional in the same direction.",
+      "c": "Directly proportional in the direction of force.",
+      "d": "Inversely proportional in the opposite direction."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "What is the relationship between action and reaction forces in terms of magnitude and direction?",
+    "options": {
+      "a": "Equal in magnitude, same in direction.",
+      "b": "Unequal in magnitude, opposite in direction.",
+      "c": "Equal in magnitude, opposite in direction.",
+      "d": "Unequal in magnitude, same in direction."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 31,
+    "question": "Calculate the momentum of an object of mass 20 kg moving with a velocity of 5 m/s.",
+    "options": {
+      "a": "4 kg m/s",
       "b": "100 kg m/s",
-      "c": "141.4 kg m/s",
-      "d": "200 kg m/s"
+      "c": "25 kg m/s",
+      "d": "0.25 kg m/s"
     },
-    "answer": "c",
-    "id": 557
+    "answer": "b"
   },
   {
-    "question": "A 2 kg object is attached to a spring with a spring constant of 100 N/m. The object is displaced by 0.1 m from its equilibrium position and released. What is the period of oscillation?",
+    "question_number": 32,
+    "question": "A force of 15 N acts on an object of mass 3 kg. What acceleration does it produce?",
     "options": {
-      "a": "0.28 s",
-      "b": "0.56 s",
-      "c": "0.89 s",
-      "d": "1.78 s"
+      "a": "5 m/s\u00b2",
+      "b": "45 m/s\u00b2",
+      "c": "0.2 m/s\u00b2",
+      "d": "12 m/s\u00b2"
     },
-    "answer": "c",
-    "id": 558
+    "answer": "a"
   },
   {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides inelastically with a stationary 2 kg object. What is the kinetic energy lost in the collision?",
+    "question_number": 33,
+    "question": "An object of mass 10 kg is accelerated uniformly from a velocity of 2 m/s to 6 m/s in 4 s. Calculate the magnitude of the force exerted on the object.",
     "options": {
-      "a": "71.4 J",
-      "b": "142.9 J",
-      "c": "178.6 J",
-      "d": "250 J"
+      "a": "40 N",
+      "b": "10 N",
+      "c": "15 N",
+      "d": "20 N"
     },
-    "answer": "c",
-    "id": 559
+    "answer": "b"
   },
   {
-    "question": "A 10 kg object is placed on a frictionless horizontal surface. A force of 5 N is applied to it at an angle of 30 degrees above the horizontal. What is the acceleration of the object?",
+    "question_number": 34,
+    "question": "A motorcar has a mass of 1200 kg. What force is required to stop it with a negative acceleration of 2.5 m/s\u00b2?",
     "options": {
-      "a": "0.25 m/s²",
-      "b": "0.43 m/s²",
-      "c": "0.5 m/s²",
-      "d": "0.87 m/s²"
+      "a": "3000 N",
+      "b": "-3000 N",
+      "c": "480 N",
+      "d": "-480 N"
     },
-    "answer": "b",
-    "id": 560
+    "answer": "b"
   },
   {
-    "question": "A 2 kg object is attached to a string and swung in a vertical circle of radius 1 meter. What is the minimum speed the object must have at the top of the circle to prevent the string from going slack?",
+    "question_number": 35,
+    "question": "An engine exerts a force of 50000 N and pulls a train of 6 wagons, each of 2000 kg. If the track offers a friction force of 8000 N, what is the net accelerating force?",
+    "options": {
+      "a": "58000 N",
+      "b": "42000 N",
+      "c": "32000 N",
+      "d": "50000 N"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 36,
+    "question": "An engine of mass 8000 kg exerts a force of 50000 N and pulls a train of 6 wagons, each of 2000 kg. If the track offers a friction force of 8000 N, what is the acceleration of the train?",
+    "options": {
+      "a": "2.1 m/s\u00b2",
+      "b": "3.5 m/s\u00b2",
+      "c": "4.2 m/s\u00b2",
+      "d": "1.5 m/s\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 37,
+    "question": "A constant force acts on an object of mass 8 kg for a duration of 3 s. It increases the object\u2019s velocity from 4 m/s to 10 m/s. Find the magnitude of the applied force.",
+    "options": {
+      "a": "16 N",
+      "b": "8 N",
+      "c": "48 N",
+      "d": "64 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 38,
+    "question": "If a force of 12 N is applied for 4 s on an object of mass 6 kg, which initially moves at 2 m/s, what would be the final velocity of the object?",
+    "options": {
+      "a": "8 m/s",
+      "b": "10 m/s",
+      "c": "6 m/s",
+      "d": "4 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 39,
+    "question": "Which would require a greater force: accelerating a 3 kg mass at 6 m/s\u00b2 or a 5 kg mass at 3 m/s\u00b2?",
+    "options": {
+      "a": "Accelerating 3 kg mass at 6 m/s\u00b2",
+      "b": "Accelerating 5 kg mass at 3 m/s\u00b2",
+      "c": "Both require the same force",
+      "d": "Cannot be determined"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 40,
+    "question": "A motorcar is moving with a velocity of 72 km/h and it takes 5 s to stop after the brakes are applied. Calculate the force exerted by the brakes on the motorcar if its mass along with the passengers is 1500 kg.",
+    "options": {
+      "a": "-6000 N",
+      "b": "6000 N",
+      "c": "-4500 N",
+      "d": "4500 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 41,
+    "question": "A force of 10 N gives a mass m1, an acceleration of 5 m/s\u00b2 and a mass m2, an acceleration of 10 m/s\u00b2. What acceleration would it give if both the masses were tied together?",
+    "options": {
+      "a": "3.33 m/s\u00b2",
+      "b": "4 m/s\u00b2",
+      "c": "6.67 m/s\u00b2",
+      "d": "2.5 m/s\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 42,
+    "question": "A ball of mass 100 g is moving along a straight line on a long table. Its initial velocity is 15 cm/s and it comes to rest in 5 s due to frictional force. How much force does the table exert on the ball?",
+    "options": {
+      "a": "-0.0003 N",
+      "b": "0.0003 N",
+      "c": "-0.003 N",
+      "d": "0.003 N"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 43,
+    "question": "A train starts from rest and rolls down a hill with a constant acceleration. It travels a distance of 200 m in 10 s. Find its acceleration.",
+    "options": {
+      "a": "2 m/s\u00b2",
+      "b": "4 m/s\u00b2",
+      "c": "1 m/s\u00b2",
+      "d": "0.5 m/s\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 44,
+    "question": "Using the acceleration from the previous question (2 m/s\u00b2), find the force acting on the train if its mass is 5 tonnes (1 tonne = 1000 kg).",
+    "options": {
+      "a": "10000 N",
+      "b": "5000 N",
+      "c": "2500 N",
+      "d": "20000 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 45,
+    "question": "Calculate the total momentum just before impact if an object of mass 2 kg travelling at 5 m/s collides with a stationary wooden block of mass 8 kg.",
+    "options": {
+      "a": "10 kg m/s",
+      "b": "40 kg m/s",
+      "c": "50 kg m/s",
+      "d": "0 kg m/s"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 46,
+    "question": "In the previous scenario (Q15), if the object and the block stick together and move in the same straight line, calculate the velocity of the combined object just after impact.",
     "options": {
       "a": "1 m/s",
-      "b": "3.13 m/s",
-      "c": "4.47 m/s",
-      "d": "9.8 m/s"
+      "b": "0.5 m/s",
+      "c": "2 m/s",
+      "d": "1.5 m/s"
     },
-    "answer": "b",
-    "id": 561
+    "answer": "a"
   },
   {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. It experiences a constant retarding force of 2 N for 10 seconds. What is the distance travelled by the object during this time?",
+    "question_number": 47,
+    "question": "An object of mass 50 kg is accelerated uniformly from a velocity of 4 m/s to 9 m/s in 5 s. Calculate the initial momentum of the object.",
     "options": {
-      "a": "40 m",
-      "b": "60 m",
-      "c": "80 m",
-      "d": "100 m"
+      "a": "200 kg m/s",
+      "b": "450 kg m/s",
+      "c": "250 kg m/s",
+      "d": "100 kg m/s"
     },
-    "answer": "c",
-    "id": 562
+    "answer": "a"
   },
   {
-    "question": "Which of the following statements is NOT correct according to Newton's third law of motion?",
+    "question_number": 48,
+    "question": "Using data from Q17 (mass 50 kg, u=4 m/s, v=9 m/s, t=5 s), calculate the final momentum of the object.",
     "options": {
-      "a": "Action and reaction forces are always equal in magnitude.",
-      "b": "Action and reaction forces always act on different objects.",
-      "c": "Action and reaction forces always act in the same direction.",
-      "d": "Action and reaction forces always occur in pairs."
+      "a": "200 kg m/s",
+      "b": "450 kg m/s",
+      "c": "250 kg m/s",
+      "d": "100 kg m/s"
     },
-    "answer": "c",
-    "id": 563
+    "answer": "b"
   },
   {
-    "question": "A 10 kg object is placed on a rough horizontal surface. The coefficient of static friction between the object and the surface is 0.5. What is the maximum force that can be applied horizontally to the object without it moving?",
+    "question_number": 49,
+    "question": "Using data from Q17 (mass 50 kg, u=4 m/s, v=9 m/s, t=5 s), calculate the magnitude of the force exerted on the object.",
     "options": {
-      "a": "24.5 N",
-      "b": "49 N",
-      "c": "98 N",
-      "d": "196 N"
-    },
-    "answer": "b",
-    "id": 564
-  },
-  {
-    "question": "A 2 kg object is attached to a spring with a spring constant of 100 N/m. The object is displaced by 0.1 m from its equilibrium position and released. What is the total energy of the system?",
-    "options": {
-      "a": "0.1 J",
-      "b": "0.5 J",
-      "c": "1 J",
-      "d": "2 J"
-    },
-    "answer": "b",
-    "id": 565
-  },
-  {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. It collides perfectly inelastically with a stationary 2 kg object. What is the percentage loss of kinetic energy in the collision?",
-    "options": {
-      "a": "28.6%",
-      "b": "42.9%",
-      "c": "57.1%",
-      "d": "71.4%"
-    },
-    "answer": "a",
-    "id": 566
-  },
-  {
-    "question": "A 10 kg object is placed on a frictionless inclined plane that makes an angle of 30 degrees with the horizontal. A force of 20 N is applied to the object up the plane. What is the acceleration of the object?",
-    "options": {
-      "a": "-2.9 m/s²",
-      "b": "-0.9 m/s²",
-      "c": "0.9 m/s²",
-      "d": "2.9 m/s²"
-    },
-    "answer": "a",
-    "id": 567
-  },
-  {
-    "question": "A 2 kg object is attached to a string and swung in a vertical circle of radius 1 meter. What is the tension in the string at the bottom of the circle if the object is moving with a speed of 5 m/s?",
-    "options": {
-      "a": "29 N",
+      "a": "25 N",
       "b": "50 N",
-      "c": "69 N",
-      "d": "79 N"
+      "c": "10 N",
+      "d": "100 N"
     },
-    "answer": "c",
-    "id": 568
+    "answer": "b"
   },
   {
-    "question": "A 5 kg object is moving with a velocity of 10 m/s. It experiences a constant retarding force of 2 N for 10 seconds. What is the average power dissipated by the retarding force?",
+    "question_number": 50,
+    "question": "A hockey ball of mass 150 g travelling at 12 m/s is struck by a hockey stick so as to return it along its original path with a velocity of 8 m/s. Calculate the magnitude of change of momentum occurred in the motion of the hockey ball.",
     "options": {
-      "a": "-2 W",
-      "b": "-4 W",
-      "c": "-6 W",
-      "d": "-8 W"
+      "a": "3 kg m/s",
+      "b": "1.8 kg m/s",
+      "c": "1.2 kg m/s",
+      "d": "0.6 kg m/s"
     },
-    "answer": "b",
-    "id": 569
+    "answer": "a"
+  },
+  {
+    "question_number": 51,
+    "question": "A bullet of mass 20 g travelling horizontally with a velocity of 200 m/s strikes a stationary wooden block and comes to rest in 0.02 s. Calculate the magnitude of the force exerted by the wooden block on the bullet.",
+    "options": {
+      "a": "200 N",
+      "b": "-200 N",
+      "c": "2000 N",
+      "d": "-2000 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 52,
+    "question": "An automobile vehicle has a mass of 1000 kg and is moving along a straight line with a uniform velocity of 72 km/h. If an unbalanced external force slows it down to 18 km/h in 5 s, calculate the acceleration.",
+    "options": {
+      "a": "-3 m/s\u00b2",
+      "b": "-4 m/s\u00b2",
+      "c": "-5 m/s\u00b2",
+      "d": "-6 m/s\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 53,
+    "question": "Using data from Q22 (m=1000 kg, u=20 m/s, v=5 m/s, t=5 s), calculate the change in momentum of the vehicle.",
+    "options": {
+      "a": "-15000 kg m/s",
+      "b": "15000 kg m/s",
+      "c": "-5000 kg m/s",
+      "d": "-20000 kg m/s"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 54,
+    "question": "Using data from Q22 (m=1000 kg, u=20 m/s, v=5 m/s, t=5 s), calculate the magnitude of the force required to slow down the vehicle.",
+    "options": {
+      "a": "3000 N",
+      "b": "4000 N",
+      "c": "5000 N",
+      "d": "6000 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 55,
+    "question": "A hammer of mass 600 g, moving at 40 m/s, strikes a nail. The nail stops the hammer in 0.005 s. What is the force of the nail on the hammer?",
+    "options": {
+      "a": "-2400 N",
+      "b": "-4800 N",
+      "c": "-24000 N",
+      "d": "-48000 N"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 56,
+    "question": "Two persons push a motorcar of mass 1000 kg at a uniform velocity along a level road. Three persons push the same car to produce an acceleration of 0.3 m/s\u00b2. Assuming each person pushes with the same muscular effort, what force does each person push with?",
+    "options": {
+      "a": "100 N",
+      "b": "300 N",
+      "c": "150 N",
+      "d": "200 N"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "How much momentum will a dumb-bell of mass 10 kg transfer to the floor if it falls from a height of 80 cm? Take its downward acceleration to be 10 m s\u207b\u00b2.",
+    "options": {
+      "a": "40 kg m/s",
+      "b": "80 kg m/s",
+      "c": "10 kg m/s",
+      "d": "0 kg m/s"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 58,
+    "question": "A horizontal force of 250 N is applied to move a wooden cabinet across a floor at a constant velocity. What is the magnitude of the friction force that will be exerted on the cabinet?",
+    "options": {
+      "a": "250 N",
+      "b": "0 N",
+      "c": "500 N",
+      "d": "125 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 59,
+    "question": "An object of mass 10 kg is moving with a constant acceleration such that its velocity changes from 10 m/s to 20 m/s in 5 seconds. Calculate the force acting on the object.",
+    "options": {
+      "a": "10 N",
+      "b": "20 N",
+      "c": "50 N",
+      "d": "100 N"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "A 5000 kg truck initially moving at 10 m/s is brought to rest in 5 seconds by applying brakes. Calculate the force exerted by the brakes.",
+    "options": {
+      "a": "-10000 N",
+      "b": "-5000 N",
+      "c": "-25000 N",
+      "d": "-1000 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 61,
+    "question": "Why does a fast-moving cricket ball hurt a spectator more than a table tennis ball hitting a player?",
+    "options": {
+      "a": "The cricket ball has greater surface area.",
+      "b": "The cricket ball has larger mass and velocity, resulting in greater momentum and impact.",
+      "c": "The table tennis ball is softer.",
+      "d": "The cricket ball is made of a harder material."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 62,
+    "question": "Explain why a fielder pulls his hands backward while catching a fast-moving cricket ball.",
+    "options": {
+      "a": "To increase the force of impact on his hands.",
+      "b": "To decrease the time during which the ball's velocity decreases to zero.",
+      "c": "To increase the time during which the ball's momentum changes, reducing the force.",
+      "d": "To reduce the mass of the ball."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 63,
+    "question": "Why are athletes in a high jump event made to fall on a cushioned bed or sand bed?",
+    "options": {
+      "a": "To increase the rebound height of the athlete.",
+      "b": "To decrease the time of the athlete's fall, increasing the force.",
+      "c": "To increase the rate of change of momentum.",
+      "d": "To increase the time of the athlete's fall to stop, decreasing the rate of change of momentum and impact force."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 64,
+    "question": "How do safety belts in a motorcar prevent injuries during sudden braking?",
+    "options": {
+      "a": "They increase the car's braking power.",
+      "b": "They make the driver more alert.",
+      "c": "They exert a force on the body to make the forward motion slower, counteracting inertia.",
+      "d": "They absorb all the impact energy."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "Explain why dust comes out of a carpet when it is beaten with a stick.",
+    "options": {
+      "a": "The beating action creates static electricity that repels dust.",
+      "b": "The carpet's inertia causes it to move, while dust's inertia makes it stay, detaching it.",
+      "c": "The stick breaks the dust particles into smaller pieces.",
+      "d": "The force of the stick directly pushes the dust out."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 66,
+    "question": "Why is it advised to tie any luggage kept on the roof of a bus with a rope?",
+    "options": {
+      "a": "To prevent the luggage from becoming wet.",
+      "b": "To ensure the luggage doesn't increase air resistance.",
+      "c": "To prevent the luggage from falling off due to inertia during sudden starts or stops.",
+      "d": "To make the bus more aerodynamic."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "Explain why you fall in the forward direction when a moving bus brakes to a stop.",
+    "options": {
+      "a": "The bus pushes you forward.",
+      "b": "Your body tends to continue in its state of motion due to inertia.",
+      "c": "The bus accelerates in the forward direction.",
+      "d": "Friction between your feet and the floor pulls you forward."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 68,
+    "question": "Explain why you fall backward when a bus accelerates from rest.",
+    "options": {
+      "a": "The bus pushes you backward.",
+      "b": "Your body tends to oppose the sudden motion due to its inertia.",
+      "c": "The bus applies a force in the backward direction.",
+      "d": "Air resistance pushes you backward."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 69,
+    "question": "Describe how the action-reaction principle is observed when a person walks on a road.",
+    "options": {
+      "a": "The person pushes the road backward, and the road pushes the person forward.",
+      "b": "The person pulls the road forward, and the road pulls the person backward.",
+      "c": "The person pushes the road downward, and the road pushes the person upward.",
+      "d": "The person exerts friction on the road, which causes motion."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 70,
+    "question": "Why does a gun recoil when a bullet is fired from it?",
+    "options": {
+      "a": "The gun pushes the bullet forward, and the bullet pushes the gun backward with an equal and opposite force.",
+      "b": "The bullet's spin causes the gun to rotate.",
+      "c": "The gun's spring mechanism pulls it backward.",
+      "d": "Air pressure pushes the gun backward."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 71,
+    "question": "Explain how the principle of inertia applies when a carom coin at the bottom of a pile is removed by a sharp horizontal hit.",
+    "options": {
+      "a": "The other coins are pulled down by gravity.",
+      "b": "The bottom coin's inertia is overcome, while the other coins' inertia keeps them at rest.",
+      "c": "The hit creates a vacuum below the pile.",
+      "d": "The coins are attracted to the table surface."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 72,
+    "question": "Why does a five-rupee coin fall vertically into a glass tumbler when the card it's on is flicked away sharply?",
+    "options": {
+      "a": "The card creates a downward air current.",
+      "b": "The coin is pushed downward by the finger.",
+      "c": "The coin's inertia tries to maintain its state of rest, causing it to fall when support is removed.",
+      "d": "The coin is attracted to the glass."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 73,
+    "question": "If you place a water-filled tumbler on a tray and turn around fast, why does the water spill?",
+    "options": {
+      "a": "The tray's motion creates a vortex in the water.",
+      "b": "The water's inertia causes it to resist the change in direction and spill.",
+      "c": "The tumbler is not stable on the tray.",
+      "d": "The water experiences a decrease in gravity."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 74,
+    "question": "Why is a groove provided in a saucer for placing a tea cup?",
+    "options": {
+      "a": "To make the cup look more aesthetic.",
+      "b": "To prevent the cup from toppling over in case of sudden jerks.",
+      "c": "To allow heat to dissipate faster.",
+      "d": "To increase the capacity of the cup."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 75,
+    "question": "If children push a box on a rough floor but it doesn't move initially, what force prevents its motion?",
+    "options": {
+      "a": "Applied force",
+      "b": "Gravitational force",
+      "c": "Unbalanced force",
+      "d": "Frictional force"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 76,
+    "question": "When a bicycle is pedalled and then stops, it slows down. Why?",
+    "options": {
+      "a": "The pedalling force is still acting on it.",
+      "b": "It is due to the force of gravity.",
+      "c": "It is due to friction forces acting opposite to the direction of motion.",
+      "d": "The bicycle loses its inertia."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "Why is a greater force required to push a box full of books compared to an empty box of the same size?",
+    "options": {
+      "a": "The full box has less friction.",
+      "b": "The full box has more inertia due to its greater mass.",
+      "c": "The empty box has more air resistance.",
+      "d": "The full box is lighter."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 78,
+    "question": "Explain why kicking a stone of the same size as a football with equal force causes less movement and potential injury.",
+    "options": {
+      "a": "The stone has a smoother surface.",
+      "b": "The stone has greater inertia due to its greater mass.",
+      "c": "The stone is harder than the football.",
+      "d": "The football experiences more air resistance."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "If a wooden block is pulled from both sides with equal forces, why will it not move?",
+    "options": {
+      "a": "The forces are unbalanced.",
+      "b": "The forces are balanced, resulting in no change in its state of rest.",
+      "c": "The block has zero mass.",
+      "d": "The pulling forces are less than the friction."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 80,
+    "question": "In what direction would a wooden block move if pulled by two opposite forces of different magnitudes?",
+    "options": {
+      "a": "In the direction of the smaller force.",
+      "b": "It would not move at all.",
+      "c": "In the direction of the greater force.",
+      "d": "It would move perpendicular to the forces."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "An object experiences a net zero external unbalanced force. Is it possible for the object to be travelling with a non-zero velocity? If yes, state the conditions.",
+    "options": {
+      "a": "No, it must be at rest.",
+      "b": "Yes, if it is moving with a uniform velocity along a straight line.",
+      "c": "Yes, if it is moving with decreasing velocity.",
+      "d": "Yes, if it is accelerating."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 82,
+    "question": "A student justifies why a massive truck parked along the roadside does not move when a small person pushes it, even though the person pushes back with an equal and opposite force, by saying the two opposite and equal forces cancel each other. Comment on this logic.",
+    "options": {
+      "a": "The logic is correct because action-reaction pairs always cancel each other.",
+      "b": "The logic is flawed because action and reaction forces act on different objects and cannot cancel each other.",
+      "c": "The logic is flawed because the force exerted by the person is too small to begin with.",
+      "d": "The logic is correct because the truck's mass is too large."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 83,
+    "question": "When a motorcar and an insect collide, compare the force experienced by the motorcar and the insect. Justify your answer based on Newton's laws.",
+    "options": {
+      "a": "The motorcar experiences a larger force than the insect.",
+      "b": "The insect experiences a larger force than the motorcar.",
+      "c": "Both the motorcar and the insect experience the same magnitude of force.",
+      "d": "The forces cannot be compared."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "In the motorcar-insect collision scenario, compare the change in momentum experienced by the motorcar and the insect.",
+    "options": {
+      "a": "The motorcar experiences a larger change in momentum.",
+      "b": "The insect experiences a larger change in momentum.",
+      "c": "Both experience the same change in momentum but in opposite directions.",
+      "d": "The change in momentum cannot be determined without specific values."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "Galileo argued that if the right-side plane in his inclined plane experiment were made horizontal, a marble released from a certain height on the left would continue to travel forever. Why is this an ideal condition not achievable in practice?",
+    "options": {
+      "a": "Because the marble would eventually lose all its mass.",
+      "b": "Because of the presence of the frictional force acting opposite to the direction of motion.",
+      "c": "Because gravity would eventually pull the marble off the plane.",
+      "d": "Because the plane would not be perfectly horizontal."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 86,
+    "question": "How does the concept of inertia explain why a sudden application of brakes in a car may cause injury?",
+    "options": {
+      "a": "The car's inertia pushes passengers forward into the dashboard.",
+      "b": "Passengers' bodies, due to inertia, tend to continue in their state of motion while the car slows down, causing them to move forward.",
+      "c": "The brakes cause the car's inertia to increase, resulting in a sudden jolt.",
+      "d": "Inertia causes the car to accelerate rapidly."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "If an object is moving with a uniform velocity, what can be concluded about the net external force acting on it?",
+    "options": {
+      "a": "A constant unbalanced force is acting on it.",
+      "b": "The net external force is zero.",
+      "c": "The net external force is increasing.",
+      "d": "The net external force is decreasing."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "Consider an experiment where two children on carts throw a sandbag to each other. How would this arrangement show different accelerations for the same force if one cart has two children and the other has one?",
+    "options": {
+      "a": "The cart with two children would experience greater acceleration.",
+      "b": "The cart with two children would experience lesser acceleration.",
+      "c": "Both carts would experience the same acceleration.",
+      "d": "The acceleration would depend on the height of the children."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 89,
+    "question": "A ball on the ground, when given a small hit, does not move forever. What was the historical belief based on such observations, and how did Galileo and Newton challenge it?",
+    "options": {
+      "a": "Historical belief: Motion is natural; Challenge: Rest is natural.",
+      "b": "Historical belief: Rest is the natural state; Challenge: Motion can be sustained without continuous force in ideal conditions.",
+      "c": "Historical belief: Friction causes motion; Challenge: Gravity causes motion.",
+      "d": "Historical belief: Force is not required for motion; Challenge: Force is always required."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "The text states \"no one has seen, tasted or felt a force.\" How then can force be explained or understood?",
+    "options": {
+      "a": "Force is a theoretical concept with no real-world manifestation.",
+      "b": "Force can only be explained by describing what happens when it is applied to an object.",
+      "c": "Force is a property of matter itself, not an interaction.",
+      "d": "Force can only be measured directly by instruments."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "If an unbalanced force is applied to an object, what changes might occur in its motion?",
+    "options": {
+      "a": "Only its speed will change.",
+      "b": "Only its direction of motion will change.",
+      "c": "Either its speed or its direction of motion, or both, will change.",
+      "d": "It will always come to rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 92,
+    "question": "What happens to the motion of an object if the unbalanced force applied to it is removed completely, according to the text?",
+    "options": {
+      "a": "The object will immediately stop.",
+      "b": "The object would continue to move with the velocity it has acquired till then.",
+      "c": "The object will reverse its direction.",
+      "d": "The object will start accelerating in the opposite direction."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 93,
+    "question": "Why does the train have more inertia than a cart of the same size?",
+    "options": {
+      "a": "Because the train moves faster.",
+      "b": "Because the train has more mass.",
+      "c": "Because the train has more wheels.",
+      "d": "Because the train is made of metal."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "What does the negative sign in the calculation of force exerted by brakes on a motorcar imply?",
+    "options": {
+      "a": "The force is weaker than a positive force.",
+      "b": "The force is in the opposite direction to the motion of the motorcar.",
+      "c": "The force is causing the motorcar to accelerate.",
+      "d": "The force is applied by the engine."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "A football player kicks a football to another player of his team who kicks the football towards the goal. The goalkeeper of the opposite team collects the football and kicks it towards a player of his own team. How many times does the velocity of the ball change, and what are the agents supplying the force in each case?",
+    "options": {
+      "a": "2 times; Player, Goalkeeper.",
+      "b": "3 times; Player 1, Player 2, Goalkeeper.",
+      "c": "4 times; Player 1, Player 2, Goalkeeper, Gravity.",
+      "d": "4 times; Player 1, Player 2, Goalkeeper, Goalkeeper again."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 96,
+    "question": "Based on Galileo's observations, what would happen if a marble was released from a certain height on an ideal frictionless double inclined plane where the angle of inclination of the right-side plane was gradually decreased?",
+    "options": {
+      "a": "The marble would travel shorter distances and stop.",
+      "b": "The marble would climb to a greater height on the right side.",
+      "c": "The marble would travel further distances to reach the original height.",
+      "d": "The marble's velocity would decrease to zero instantly."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "What distinguishes \"unbalanced forces\" from \"balanced forces\" in terms of their effect on an object's motion?",
+    "options": {
+      "a": "Balanced forces cause acceleration, while unbalanced forces cause rest.",
+      "b": "Unbalanced forces cause a change in the state of motion, while balanced forces do not.",
+      "c": "Balanced forces are always larger than unbalanced forces.",
+      "d": "Unbalanced forces only affect direction, while balanced forces only affect speed."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "Can action and reaction forces produce accelerations of equal magnitudes? Explain why or why not.",
+    "options": {
+      "a": "Yes, always, because the forces are equal.",
+      "b": "Yes, if the objects involved have equal masses.",
+      "c": "No, never, because they act on different objects.",
+      "d": "No, because acceleration is proportional to force, not mass."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "How can the first law of motion be mathematically stated from the mathematical expression for the second law of motion?",
+    "options": {
+      "a": "By setting mass (m) to zero in F=ma.",
+      "b": "By setting velocity (v) to zero in p=mv.",
+      "c": "By setting force (F) to zero in F=m(v-u)/t, which implies v=u.",
+      "d": "By assuming constant acceleration."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 100,
+    "question": "Why is it more difficult to maintain straight-line motion using skateboards compared to carts constructed with hard ball-bearing wheels in the activity described in the text?",
+    "options": {
+      "a": "Skateboards are heavier.",
+      "b": "Skateboards have less friction.",
+      "c": "It is difficult to maintain straight-line motion with skateboards.",
+      "d": "Skateboards have larger wheels."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): A fielder pulls his hands backward while catching a fast-moving cricket ball.\nReason (R): Pulling hands backward increases the time during which the high velocity of the ball decreases to zero, thereby reducing the force of impact.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): When a gun is fired, it recoils backward.\nReason (R): The bullet exerts an equal and opposite force on the gun as the gun exerts a forward force on the bullet.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): It is easier to push an empty box than a box full of books.\nReason (R): A box full of books has more mass and thus offers larger inertia, making it harder to change its state of motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): Safety belts are worn in motorcars to prevent injury during sudden braking.\nReason (R): Safety belts exert a force on our body to make the forward motion slower, counteracting the body's inertia.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): An unbalanced force is required to accelerate the motion of an object.\nReason (R): An unbalanced force causes a change in either the speed or the direction of an object's motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): Momentum has both direction and magnitude.\nReason (R): Momentum is defined as the product of mass and velocity, and velocity has both direction and magnitude.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): Dust comes out of a carpet when it is beaten with a stick.\nReason (R): A force can change the shape and size of objects.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): The first law of motion is also known as the law of inertia.\nReason (R): All objects resist a change in their state of motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): The SI unit of force is newton (N).\nReason (R): One newton is defined as the amount of force that produces an acceleration of 1 m/s\u00b2 in an object of 1 kg mass.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): A bicycle begins to slow down when we stop pedalling.\nReason (R): An object moves with a uniform velocity when the forces acting on it are balanced.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): Action and reaction forces always act on two different objects.\nReason (R): Action and reaction forces cancel each other out because they are equal and opposite.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): If an object is moving with a uniform velocity, the net external force on it is zero.\nReason (R): An object maintains its motion under the continuous application of an unbalanced force.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): The magnitude of velocity of an object can be changed by applying a force.\nReason (R): A force cannot change the direction of motion of an object.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): The mass of an object is a measure of its inertia.\nReason (R): Inertia is the tendency of an object to accelerate.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): Galileo deduced that objects move with a constant speed when no force acts on them.\nReason (R): Galileo observed that when a marble rolls down an inclined plane, its velocity decreases.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Rest is the natural state of an object, and objects always return to rest.\nReason (R): Galileo Galilei and Isaac Newton developed a different approach to understand motion, stating that objects continue in uniform motion unless acted upon by an external force.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): To sustain the uniform motion of a marble, a net unbalanced force is needed.\nReason (R): An unbalanced external force is required to change the motion of an object.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The first law of motion indicates that an object gets an acceleration when an unbalanced external force acts on it.\nReason (R): The second law of motion states that the rate of change of momentum of an object is proportional to the applied unbalanced force.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): When a sailor jumps out of a rowing boat forward, the boat moves forward due to action-reaction forces.\nReason (R): The sailor exerts a force on the boat, and the boat exerts an equal and opposite force on the sailor.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): A constant force acting on an object results in its uniform acceleration.\nReason (R): According to Newton's second law, force is directly proportional to acceleration (F=ma), assuming mass is constant.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): A truck at rest does not require any attention when parked along a roadside.\nReason (R): The impact produced by an object depends on its mass and velocity, and a truck at rest has zero velocity, hence zero momentum.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): The inertia of a coin tries to maintain its state of rest when the card below it is flicked away.\nReason (R): Inertia is quantitatively measured by mass.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): An object moves with a uniform velocity when the forces acting on the object are balanced.\nReason (R): The frictional force always opposes the motion of objects.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): The negative sign in the calculated force for a braking car indicates that the force is less than zero.\nReason (R): The negative sign implies that the force exerted by the brakes is in the same direction as the motion of the motorcar.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): It is difficult to achieve a zero unbalanced force in practical situations.\nReason (R): This is primarily due to the presence of the frictional force acting opposite to the direction of motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): If the inclination of the right-side plane in Galileo's experiment were gradually increased, the marble would travel further distances to reach the original height.\nReason (R): The marble would roll down the slope and go up on the opposite side to the same height from which it was released in an ideal frictionless plane.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): When children push a box on a rough floor, the box might not move initially.\nReason (R): The friction force acting opposite to the push balances the pushing force, resulting in zero net force.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): When we are standing in a bus and it begins to move suddenly, we tend to fall backwards.\nReason (R): Our body opposes the sudden motion due to its inertia, while our feet move with the bus.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): The second law of motion states that the applied unbalanced force is proportional to the rate of change of momentum in the direction opposite to the force.\nReason (R): The unit of force is kilogram-metre per second (kg m s\u207b\u00b9).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d"
   }
 ]

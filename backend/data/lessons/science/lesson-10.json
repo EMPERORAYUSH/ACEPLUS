@@ -1,502 +1,1410 @@
 [
   {
+    "question_number": 1,
+    "question": "According to the scientific definition, which of the following activities involves work being done?",
+    "options": {
+      "a": "Reading a book while sitting on a chair.",
+      "b": "Pushing a huge rock that does not move.",
+      "c": "Standing still for a few minutes with a heavy load on your head.",
+      "d": "Lifting a book through a certain height."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 2,
+    "question": "What are the two essential conditions that must be satisfied for work to be done in science?",
+    "options": {
+      "a": "An object must be moving and exert a force.",
+      "b": "A force must act on an object, and the object must be displaced.",
+      "c": "Energy must be consumed, and the object must change its shape.",
+      "d": "The object must be stationary, and a force must be applied."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 3,
     "question": "What is the SI unit of work?",
     "options": {
-      "a": "Newton",
-      "b": "Watt",
-      "c": "Joule",
-      "d": "Pascal"
+      "a": "Newton (N)",
+      "b": "Metre (m)",
+      "c": "Joule (J)",
+      "d": "Watt (W)"
     },
     "answer": "c"
   },
   {
-    "question": "Which of the following is NOT a form of mechanical energy?",
+    "question_number": 4,
+    "question": "When is the work done by a force considered positive?",
     "options": {
-      "a": "Kinetic Energy",
-      "b": "Potential Energy",
-      "c": "Chemical Energy",
-      "d": "Gravitational Potential Energy"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "According to the scientific definition, work is NOT done if:",
-    "options": {
-      "a": "Force is applied, and the object moves.",
-      "b": "Force is applied, and the object does not move.",
-      "c": "Force is zero, but the object moves.",
-      "d": "Both B and C"
+      "a": "When the force and displacement are perpendicular to each other.",
+      "b": "When the force acts opposite to the direction of displacement.",
+      "c": "When the object is moving with uniform velocity.",
+      "d": "When the force is in the direction of displacement."
     },
     "answer": "d"
   },
   {
-    "question": "The energy possessed by a body due to its motion is called:",
+    "question_number": 5,
+    "question": "Which of the following statements about energy transfer is true according to the lesson?",
     "options": {
-      "a": "Potential energy",
-      "b": "Thermal energy",
-      "c": "Kinetic energy",
-      "d": "Chemical energy"
+      "a": "The object which does the work loses energy.",
+      "b": "An object having a capability to do work is said to possess power.",
+      "c": "The object on which the work is done loses energy.",
+      "d": "The unit of energy is different from that of work."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 6,
+    "question": "What is the definition of kinetic energy?",
+    "options": {
+      "a": "The energy possessed by an object due to its position or configuration.",
+      "b": "The energy possessed by an object due to its motion.",
+      "c": "The energy transferred to an object that is stored as potential energy.",
+      "d": "The work done on an object against gravity."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 7,
+    "question": "The kinetic energy of an object increases with its:",
+    "options": {
+      "a": "Height",
+      "b": "Configuration",
+      "c": "Speed",
+      "d": "Force applied"
     },
     "answer": "c"
   },
   {
-    "question": "The law of conservation of energy states that:",
+    "question_number": 8,
+    "question": "What is the mathematical expression for kinetic energy (Ek) of an object of mass 'm' moving with a uniform velocity 'v'?",
     "options": {
-      "a": "Energy can be created but not destroyed.",
-      "b": "Energy can be destroyed but not created.",
-      "c": "Energy can be created and destroyed.",
-      "d": "Energy cannot be created or destroyed."
+      "a": "Ek = mgh",
+      "b": "Ek = Fs",
+      "c": "Ek = 1/2 mv^2",
+      "d": "Ek = mv"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 9,
+    "question": "Which of the following examples represents potential energy as described in the lesson?",
+    "options": {
+      "a": "A car moving at high speed.",
+      "b": "A cricket ball hitting a wicket.",
+      "c": "Flowing water in a river.",
+      "d": "A wound spring of a toy car."
     },
     "answer": "d"
   },
   {
-    "question": "What is the unit of power?",
+    "question_number": 10,
+    "question": "For gravitational potential energy, what is the minimum force required to raise an object?",
     "options": {
-      "a": "Joule",
-      "b": "Newton",
-      "c": "Watt",
-      "d": "Erg"
+      "a": "Equal to the weight of the object.",
+      "b": "Greater than the weight of the object.",
+      "c": "Less than the weight of the object.",
+      "d": "Dependent on the speed of lifting."
     },
-    "answer": "c"
+    "answer": "a"
   },
   {
-    "question": "Which of the following is the biggest natural source of energy for us?",
+    "question_number": 11,
+    "question": "What is the main outcome of energy transformation according to the law of conservation of energy?",
     "options": {
-      "a": "The Earth's core",
-      "b": "The Sun",
-      "c": "The Moon",
-      "d": "Wind"
+      "a": "Total energy decreases.",
+      "b": "Total energy increases.",
+      "c": "Energy is created or destroyed.",
+      "d": "Total energy remains unchanged."
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
-    "question": "If an object is raised to a certain height, it gains:",
+    "question_number": 12,
+    "question": "What is the total mechanical energy of an object?",
     "options": {
-      "a": "Kinetic Energy",
-      "b": "Chemical Energy",
-      "c": "Gravitational Potential Energy",
-      "d": "Electrical Energy"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Power is defined as:",
-    "options": {
-      "a": "The total energy consumed.",
-      "b": "The rate of doing work.",
-      "c": "The force applied over a distance.",
-      "d": "The product of force and displacement."
+      "a": "The sum of its heat energy and chemical energy.",
+      "b": "The sum of its kinetic energy and potential energy.",
+      "c": "The total work done by the object.",
+      "d": "The rate at which the object does work."
     },
     "answer": "b"
   },
   {
-    "question": "1 kilowatt (kW) is equal to:",
+    "question_number": 13,
+    "question": "Power is defined as the rate of doing work or the rate of transfer of what?",
     "options": {
-      "a": "100 Watts",
-      "b": "10 Watts",
-      "c": "1000 Watts",
-      "d": "10000 Watts"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Work done is considered negative when the force and displacement are:",
-    "options": {
-      "a": "In the same direction.",
-      "b": "Perpendicular to each other.",
-      "c": "In opposite directions.",
-      "d": "At an acute angle to each other."
-    },
-    "answer": "c"
-  },
-  {
-    "question": "The ability to do work is defined as:",
-    "options": {
-      "a": "Power",
-      "b": "Force",
+      "a": "Force",
+      "b": "Displacement",
       "c": "Energy",
       "d": "Momentum"
     },
     "answer": "c"
   },
   {
-    "question": "If the displacement of an object is zero, the work done on the object is:",
+    "question_number": 14,
+    "question": "What is the SI unit of power?",
     "options": {
-      "a": "Positive.",
-      "b": "Negative.",
-      "c": "Zero.",
-      "d": "Cannot be determined."
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Which of these is an example of potential energy being converted to kinetic energy?",
-    "options": {
-      "a": "A stretched rubber band.",
-      "b": "A compressed spring",
-      "c": "An arrow released from a bow.",
-      "d": "A car moving at constant speed."
-    },
-    "answer": "c"
-  },
-  {
-    "question": "1 Joule is the amount of work done when a force of ____ displaces an object by _____.",
-    "options": {
-      "a": "1 N, 1 cm",
-      "b": "1 N, 1 m",
-      "c": "1 dyne, 1 cm",
-      "d": "1 N, 1 mm"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A force of 10 N displaces an object by 5 m. What is the work done?",
-    "options": {
-      "a": "2 J",
-      "b": "5 J",
-      "c": "50 J",
-      "d": "15 J"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A porter lifts a luggage of 20 kg from the ground and puts it on his head 2 m above the ground. Calculate the work done (g = 10 m/s\u00b2).",
-    "options": {
-      "a": "40 J",
-      "b": "400 J",
-      "c": "200 J",
-      "d": "100J"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "An object of mass 5 kg is moving with a uniform velocity of 2 m/s. What is its kinetic energy?",
-    "options": {
-      "a": "10 J",
-      "b": "5 J",
-      "c": "20 J",
-      "d": "2.5 J"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "A car's velocity increases from 10 m/s to 20 m/s. If the mass of the car is 1000 kg, what is the work done?",
-    "options": {
-      "a": "50,000 J",
-      "b": "100,000 J",
-      "c": "150,000 J",
-      "d": "200,000 J"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A body of mass 10 kg is at a height of 10 m above the ground. If g = 10 m/s\u00b2, calculate the potential Energy.",
-    "options": {
-      "a": "10J",
-      "b": "100J",
-      "c": "1000J",
-      "d": "0J"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Two persons A and B, do the same amount of work. A takes 10 seconds and B takes 20 seconds. What is the ratio of power of A to power of B?",
-    "options": {
-      "a": "1:1",
-      "b": "1:2",
-      "c": "2:1",
-      "d": "1:4"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "An electric bulb consumes 7200 J of electrical energy in 2 minutes. What is its power?",
-    "options": {
-      "a": "60 W",
-      "b": "120 W",
-      "c": "3600 W",
-      "d": "14400 W"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "An object of mass 2kg is thrown upwards with a velocity such that it's kinetic energy is 400J. Ignoring air resistance, what is its initial velocity?",
-    "options": {
-      "a": "10 m/s",
-      "b": "20 m/s",
-      "c": "40 m/s",
-      "d": "100 m/s"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A force of 15N acts on a body, and the body is displaced by 2m in a direction opposite to the force. Find the work done.",
-    "options": {
-      "a": "30 J",
-      "b": "-30 J",
-      "c": "7.5 J",
-      "d": "-7.5 J"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "An object has a potential energy of 500 J and a mass of 10 kg. What is its height above the ground (g = 10 m/s\u00b2)?",
-    "options": {
-      "a": "0.5 m",
-      "b": "5 m",
-      "c": "50 m",
-      "d": "2.5m"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "If a 500W electric motor is used for 5 hours, how much energy does it consume in kilowatt-hours(kWh)?",
-    "options": {
-      "a": "0.5 Kwh",
-      "b": "1 Kwh",
-      "c": "2.5 Kwh",
-      "d": "2500 Kwh"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A force of 20 N acts on an object, and the object moves 5 m. If the work done is 50 J, what is the angle between the force and displacement?",
-    "options": {
-      "a": "0 degrees.",
-      "b": "30 degrees",
-      "c": "60 degrees.",
-      "d": "90 degrees."
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A 1000 kg car is traveling at 36 km/h. What is its kinetic energy in Joules?",
-    "options": {
-      "a": "36000 J",
-      "b": "50000 J",
-      "c": "100000J",
-      "d": "129600 J"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A ball of mass 0.5 kg slows down from 5 m/s to 3 m/s. Calculate the change in its kinetic energy.",
-    "options": {
-      "a": "4 J",
-      "b": "-4 J",
-      "c": "8 J",
-      "d": "-8 J"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "An electric heater has a power rating of 2000 W. How long does it take to consume 10,000 J of energy?",
-    "options": {
-      "a": "2 seconds",
-      "b": "5 seconds",
-      "c": "200 seconds",
-      "d": "500 seconds"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "When a person climbs stairs, the work done is primarily against:",
-    "options": {
-      "a": "Friction",
-      "b": "Air resistance",
-      "c": "Gravity",
-      "d": "Tension"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "In a hydroelectric power plant, the primary energy conversion is from:",
-    "options": {
-      "a": "Kinetic energy to potential energy.",
-      "b": "Potential energy to kinetic energy.",
-      "c": "Chemical energy to electrical energy.",
-      "d": "Solar energy to electrical energy"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "When you brake a bicycle, the kinetic energy is mostly converted into:",
-    "options": {
-      "a": "Sound Energy",
-      "b": "Heat Energy",
-      "c": "Potential Energy",
-      "d": "Chemical Energy"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A stretched bow and arrow system primarily possesses:",
-    "options": {
-      "a": "Kinetic Energy",
-      "b": "Potential Energy",
-      "c": "Chemical Energy",
-      "d": "Heat Energy"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "When a ball is thrown upwards, at the highest point, it has:",
-    "options": {
-      "a": "Maximum kinetic energy",
-      "b": "Maximum potential energy",
-      "c": "Equal kinetic and potential energy",
-      "d": "Zero kinetic and potential energy"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Which of the following actions does NOT involve the conversion of chemical energy into mechanical energy?",
-    "options": {
-      "a": "A person walking",
-      "b": "A gasoline engine running",
-      "c": "A battery powering a light bulb",
-      "d": "A steam engine moving a train"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "A wind-up toy car stores energy in the form of:",
-    "options": {
-      "a": "Kinetic Energy",
-      "b": "Gravitational Potential Energy",
-      "c": "Elastic Potential Energy",
-      "d": "Chemical Energy"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "When a book falls off a table, which of the following is true?",
-    "options": {
-      "a": "Potential energy increases.",
-      "b": "Kinetic energy decreases.",
-      "c": "Potential energy is converted to kinetic energy.",
-      "d": "Kinetic energy is converted to potential energy."
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Which of the following is an example of work being done?",
-    "options": {
-      "a": "A person standing still holding a heavy box.",
-      "b": "A person pushing against a wall that doesn't move.",
-      "c": "A person carrying a box horizontally across a room.",
-      "d": "A person lifting a box vertically."
+      "a": "Joule (J)",
+      "b": "Newton (N)",
+      "c": "Kilogram (kg)",
+      "d": "Watt (W)"
     },
     "answer": "d"
   },
   {
-    "question": "When a person is running, the chemical energy of food is primarily converted into:",
+    "question_number": 15,
+    "question": "How many watts are equal to 1 kilowatt (kW)?",
     "options": {
-      "a": "Potential Energy",
-      "b": "Kinetic Energy",
-      "c": "Sound Energy",
-      "d": "Light Energy"
+      "a": "10 watts",
+      "b": "100 watts",
+      "c": "1000 watts",
+      "d": "10000 watts"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "Which of the following is NOT a form of energy explicitly listed in the lesson?",
+    "options": {
+      "a": "Mechanical energy",
+      "b": "Heat energy",
+      "c": "Sound energy",
+      "d": "Chemical energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 17,
+    "question": "When is the work done on an object by a force equal to zero?",
+    "options": {
+      "a": "When the object is displaced very slowly.",
+      "b": "If the displacement of the object is zero.",
+      "c": "When the force acting on the object is very small.",
+      "d": "If the object is displaced rapidly."
     },
     "answer": "b"
   },
   {
-    "question": "If both the force and displacement are doubled, how does the work done change?",
+    "question_number": 18,
+    "question": "What is 1 Joule (J) of work?",
     "options": {
-      "a": "Remains the same",
-      "b": "Doubles",
-      "c": "Quadruples",
-      "d": "Halves"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "If an object is moving at a constant velocity on a frictionless horizontal surface, the net work done on the object is:",
-    "options": {
-      "a": "Positive",
-      "b": "Negative",
-      "c": "Zero",
-      "d": "Cannot be determined"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "If the speed of an object is doubled, its kinetic energy becomes:",
-    "options": {
-      "a": "Double",
-      "b": "Half",
-      "c": "Four times",
-      "d": "Remains the same"
-    },
-    "answer": "c"
-  },
-  {
-    "question": "Two objects have the same kinetic energy. Object A has twice the mass of Object B. Which object is moving faster?",
-    "options": {
-      "a": "Object A",
-      "b": "Object B",
-      "c": "They have the same speed",
-      "d": "Cannot be determined"
+      "a": "The work done when a force of 1 N displaces an object by 1 m against the direction of force.",
+      "b": "The work done on an object when a force of 1 N displaces it by 1 m along the line of action of the force.",
+      "c": "The work done when an object moves 1 m with a velocity of 1 m/s.",
+      "d": "The energy required to lift 1 kg object by 1 meter."
     },
     "answer": "b"
   },
   {
-    "question": "A machine can do work faster than another machine. This implies that the first machine has:",
+    "question_number": 19,
+    "question": "Why do living beings and machines need energy?",
     "options": {
-      "a": "Higher Energy",
-      "b": "Lower Energy",
-      "c": "Higher Power",
-      "d": "Lower Power"
+      "a": "To produce sounds and vibrations.",
+      "b": "To generate heat for warmth.",
+      "c": "To perform various activities and work.",
+      "d": "To increase their mass and stability."
     },
     "answer": "c"
   },
   {
-    "question": "If an object is thrown vertically upwards, and air resistance is NOT negligible, the work done by air resistance during the upward motion is:",
+    "question_number": 20,
+    "question": "What is the continuous transformation of energy observed during the free fall of an object (ignoring air resistance)?",
     "options": {
-      "a": "Positive",
-      "b": "Negative",
-      "c": "Zero",
-      "d": "Cannot be determined"
+      "a": "Kinetic energy into heat energy.",
+      "b": "Potential energy into chemical energy.",
+      "c": "Mechanical energy into sound energy.",
+      "d": "Gravitational potential energy into kinetic energy."
     },
-    "answer": "b"
+    "answer": "d"
   },
   {
-    "question": "Two objects, one heavy and one light, are dropped from the same height. Neglecting air resistance, which one reaches the ground with greater kinetic energy?",
+    "question_number": 21,
+    "question": "If an agent does work at different rates at different intervals of time, which concept is most useful for overall measurement?",
     "options": {
-      "a": "The heavier object.",
-      "b": "The lighter object.",
-      "c": "Both have the same kinetic energy.",
-      "d": "Cannot be determined."
+      "a": "Average power.",
+      "b": "Instantaneous power.",
+      "c": "Peak power.",
+      "d": "Total work done."
     },
     "answer": "a"
   },
   {
-    "question": "If the angle between the force and displacement is 90 degrees, the work done is:",
+    "question_number": 22,
+    "question": "Which source is explicitly stated as the biggest natural source of energy for humans in the lesson?",
+    "options": {
+      "a": "The Sun.",
+      "b": "Nuclei of atoms.",
+      "c": "Tides.",
+      "d": "Interior of the earth."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 23,
+    "question": "When an object is raised to a certain height, it acquires the capability to do work. What is this capability most directly associated with in the lesson?",
+    "options": {
+      "a": "Kinetic energy.",
+      "b": "Gravitational potential energy.",
+      "c": "Heat energy.",
+      "d": "Electrical energy."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 24,
+    "question": "The law of conservation of energy states that energy is neither created nor destroyed, but rather it can only be:",
+    "options": {
+      "a": "Released or absorbed.",
+      "b": "Measured or calculated.",
+      "c": "Stored or used.",
+      "d": "Converted from one form to another."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 25,
+    "question": "In the free fall of an object, if its velocity is zero at the start, its initial kinetic energy will be:",
     "options": {
       "a": "Maximum",
-      "b": "Minimum (but not zero)",
+      "b": "Equal to its potential energy",
       "c": "Zero",
       "d": "Negative"
     },
     "answer": "c"
   },
   {
-    "question": "Can potential energy ever be negative?",
+    "question_number": 26,
+    "question": "What is 1 Watt equal to in terms of Joules and seconds?",
     "options": {
-      "a": "No, it is always positive.",
-      "b": "Yes, relative to a chosen reference point.",
-      "c": "No, it is always zero.",
-      "d": "Only if the object is moving downwards."
+      "a": "1 J s\u207b\u00b9",
+      "b": "1 J\u00b7s",
+      "c": "1 N/s",
+      "d": "1 N\u00b7m"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 27,
+    "question": "What does 'average power' signify?",
+    "options": {
+      "a": "The total energy consumed divided by the total time taken.",
+      "b": "The maximum power achieved during an activity.",
+      "c": "The instantaneous rate of doing work.",
+      "d": "The average force applied over time."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 28,
+    "question": "What is the relationship between work done and the change in kinetic energy of an object, as stated in the lesson?",
+    "options": {
+      "a": "Work done is inversely proportional to the change in kinetic energy.",
+      "b": "Work done is always negative of the change in kinetic energy.",
+      "c": "Work done is equal to the change in the kinetic energy of an object.",
+      "d": "Work done is independent of the change in kinetic energy."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "Which statement accurately describes the directionality of work?",
+    "options": {
+      "a": "Work has both magnitude and direction.",
+      "b": "Work has only direction but no magnitude.",
+      "c": "Work has only magnitude and no direction.",
+      "d": "Work has no magnitude and no direction."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "When is the work done by a force considered negative?",
+    "options": {
+      "a": "When the force and displacement are in the same direction.",
+      "b": "When the force acts opposite to the direction of displacement.",
+      "c": "When the object is moving at a very high speed.",
+      "d": "When the displacement of the object is zero."
     },
     "answer": "b"
   },
   {
-    "question": "A pendulum swings back and forth. At what point(s) in its swing is its kinetic energy equal to its potential energy?",
+    "question_number": 31,
+    "question": "A force of 10 N is applied to an object, causing it to move 5 meters in the direction of the force. Calculate the work done on the object.",
     "options": {
-      "a": "At the highest points only.",
-      "b": "At the lowest point only.",
-      "c": "At the midpoints between the highest and lowest points.",
-      "d": "At all points."
+      "a": "0.5 J",
+      "b": "2 J",
+      "c": "15 J",
+      "d": "50 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 32,
+    "question": "A porter lifts a luggage of 20 kg from the ground and puts it on his head 2.5 m above the ground. Calculate the work done by him on the luggage. (Take g = 10 m s\u207b\u00b2).",
+    "options": {
+      "a": "50 J",
+      "b": "200 J",
+      "c": "500 J",
+      "d": "2000 J"
     },
     "answer": "c"
+  },
+  {
+    "question_number": 33,
+    "question": "An object of mass 10 kg is moving with a uniform velocity of 5 m s\u207b\u00b9. What is the kinetic energy possessed by the object?",
+    "options": {
+      "a": "25 J",
+      "b": "50 J",
+      "c": "125 J",
+      "d": "250 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 34,
+    "question": "What is the work to be done to increase the velocity of a car of mass 1000 kg from 10 m s\u207b\u00b9 to 20 m s\u207b\u00b9?",
+    "options": {
+      "a": "50 kJ",
+      "b": "100 kJ",
+      "c": "150 kJ",
+      "d": "200 kJ"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 35,
+    "question": "Find the energy possessed by an object of mass 5 kg when it is at a height of 10 m above the ground. (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "49 J",
+      "b": "50 J",
+      "c": "490 J",
+      "d": "500 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 36,
+    "question": "An object of mass 15 kg is at a certain height above the ground. If the potential energy of the object is 600 J, find the height at which the object is with respect to the ground. (Take g = 10 m s\u207b\u00b2).",
+    "options": {
+      "a": "2 m",
+      "b": "4 m",
+      "c": "6 m",
+      "d": "8 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "A lamp consumes 1200 J of electrical energy in 10 s. What is its power?",
+    "options": {
+      "a": "12 W",
+      "b": "120 W",
+      "c": "1200 W",
+      "d": "12000 W"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 38,
+    "question": "A boy of mass 40 kg runs up a staircase of 30 steps in 6 s. If the height of each step is 20 cm, find his power. (Take g = 10 m s\u207b\u00b2).",
+    "options": {
+      "a": "200 W",
+      "b": "300 W",
+      "c": "400 W",
+      "d": "500 W"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 39,
+    "question": "A certain household has consumed 200 units of energy during a month. How much energy is this in Joules? (1 unit = 3.6 \u00d7 10\u2076 J).",
+    "options": {
+      "a": "7.2 \u00d7 10\u2076 J",
+      "b": "7.2 \u00d7 10\u2077 J",
+      "c": "7.2 \u00d7 10\u2078 J",
+      "d": "7.2 \u00d7 10\u2079 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 40,
+    "question": "An object of mass 50 kg is raised to a height of 4 m above the ground. What is its potential energy? (Take g = 10 m s\u207b\u00b2).",
+    "options": {
+      "a": "200 J",
+      "b": "500 J",
+      "c": "2000 J",
+      "d": "5000 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 41,
+    "question": "Calculate the work required to be done to stop a car of 1000 kg moving at a velocity of 54 km/h.",
+    "options": {
+      "a": "-112.5 kJ",
+      "b": "112.5 kJ",
+      "c": "-225 kJ",
+      "d": "225 kJ"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 42,
+    "question": "An electric heater is rated 2000 W. How much energy does it use in 5 hours?",
+    "options": {
+      "a": "10 kWh",
+      "b": "2000 J",
+      "c": "10000 J",
+      "d": "3.6 \u00d7 10\u2077 J"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 43,
+    "question": "A pair of bullocks exerts a force of 150 N on a plough. The field being ploughed is 20 m long. How much work is done in ploughing the length of the field?",
+    "options": {
+      "a": "7.5 J",
+      "b": "30 J",
+      "c": "300 J",
+      "d": "3000 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 44,
+    "question": "An object of mass 2 kg is dropped from a height of 5 m. What is its kinetic energy just before it hits the ground? (Assume g = 10 m s\u207b\u00b2 and neglect air resistance).",
+    "options": {
+      "a": "0 J",
+      "b": "10 J",
+      "c": "50 J",
+      "d": "100 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 45,
+    "question": "If the kinetic energy of an object of mass 'm' moving with a velocity of 5 m s\u207b\u00b9 is 25 J, what will be its kinetic energy when its velocity is doubled?",
+    "options": {
+      "a": "50 J",
+      "b": "100 J",
+      "c": "150 J",
+      "d": "200 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 46,
+    "question": "What will be the kinetic energy of the object from the previous question (mass 'm', initial KE 25 J at 5 m/s) when its velocity is increased three times?",
+    "options": {
+      "a": "75 J",
+      "b": "150 J",
+      "c": "225 J",
+      "d": "300 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 47,
+    "question": "A person weighs 600 N and climbs a height of 5 m in 15 seconds. What is the power exerted by the person?",
+    "options": {
+      "a": "20 W",
+      "b": "40 W",
+      "c": "200 W",
+      "d": "300 W"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 48,
+    "question": "A force of 20 N acts on an object. The object is displaced through 4 m in the direction opposite to the force. What is the work done?",
+    "options": {
+      "a": "80 J",
+      "b": "-80 J",
+      "c": "5 J",
+      "d": "-5 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 49,
+    "question": "An object of mass 100 kg is moving with a constant velocity of 10 m/s. If a retarding force is applied that brings it to rest in 5 m, what is the magnitude of the retarding force?",
+    "options": {
+      "a": "1000 N",
+      "b": "5000 N",
+      "c": "100 N",
+      "d": "500 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 50,
+    "question": "A pump is used to lift 500 kg of water to a height of 20 m in 20 seconds. What is the power of the pump? (Take g = 10 m s\u207b\u00b2).",
+    "options": {
+      "a": "500 W",
+      "b": "1000 W",
+      "c": "5000 W",
+      "d": "10000 W"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 51,
+    "question": "A ball of mass 0.5 kg is thrown vertically upwards with an initial velocity of 20 m/s. What is its potential energy at the highest point? (Assume g = 10 m s\u207b\u00b2 and neglect air resistance).",
+    "options": {
+      "a": "50 J",
+      "b": "100 J",
+      "c": "200 J",
+      "d": "500 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 52,
+    "question": "An object of mass 4 kg has a kinetic energy of 200 J. What is its velocity?",
+    "options": {
+      "a": "5 m/s",
+      "b": "10 m/s",
+      "c": "15 m/s",
+      "d": "20 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "A 60 W light bulb operates for 5 minutes. How much energy does it consume?",
+    "options": {
+      "a": "300 J",
+      "b": "1800 J",
+      "c": "18000 J",
+      "d": "30000 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 54,
+    "question": "A force of 50 N is applied to a block that remains stationary. What is the work done by the force?",
+    "options": {
+      "a": "50 J",
+      "b": "0 J",
+      "c": "25 J",
+      "d": "-50 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 55,
+    "question": "A car of mass 1200 kg is moving at 72 km/h. What is its kinetic energy?",
+    "options": {
+      "a": "240 kJ",
+      "b": "480 kJ",
+      "c": "120 kJ",
+      "d": "216 kJ"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 56,
+    "question": "An object of mass 25 kg is lifted by a crane to a height where its potential energy becomes 1250 J. What is the height to which it was lifted? (Take g = 10 m s\u207b\u00b2).",
+    "options": {
+      "a": "2 m",
+      "b": "5 m",
+      "c": "10 m",
+      "d": "12.5 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "How much work is done by the force of gravity on a 5 kg object that is moved horizontally across a distance of 10 m on a table?",
+    "options": {
+      "a": "50 J",
+      "b": "500 J",
+      "c": "0 J",
+      "d": "-500 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 58,
+    "question": "Four devices, each of power 500 W, are used for 10 hours. What is the total energy consumed by these devices in Joules?",
+    "options": {
+      "a": "1.8 \u00d7 10\u2077 J",
+      "b": "3.6 \u00d7 10\u2077 J",
+      "c": "7.2 \u00d7 10\u2077 J",
+      "d": "1.44 \u00d7 10\u2078 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 59,
+    "question": "An object of mass 40 kg is raised to a height of 5 m above the ground. If the object is allowed to fall, find its kinetic energy when it is half-way down. (Take g = 10 m s\u207b\u00b2).",
+    "options": {
+      "a": "0 J",
+      "b": "1000 J",
+      "c": "2000 J",
+      "d": "4000 J"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "A person applies a force of 100 N to a wall for 5 minutes. The wall does not move. What is the work done by the person on the wall?",
+    "options": {
+      "a": "500 J",
+      "b": "25000 J",
+      "c": "30000 J",
+      "d": "0 J"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 61,
+    "question": "A boy attempts to lift a heavy box but fails to move it. Scientifically, why is no work done by the boy on the box?",
+    "options": {
+      "a": "The force applied by the boy is not strong enough.",
+      "b": "The boy gets tired quickly.",
+      "c": "There is no displacement of the box.",
+      "d": "The box is too heavy."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "When a cricket ball moving fast hits a stationary wicket, the wicket is thrown away. This demonstrates that the cricket ball possesses:",
+    "options": {
+      "a": "Potential energy",
+      "b": "Chemical energy",
+      "c": "Kinetic energy",
+      "d": "Heat energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 63,
+    "question": "A stretched rubber band, when released, tends to regain its original length. This illustrates that the band acquired energy due to:",
+    "options": {
+      "a": "Its motion",
+      "b": "Its chemical composition",
+      "c": "Its change in configuration",
+      "d": "Its heat content"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "When you wind the key of a toy car, and it starts moving, the energy initially transferred to the spring inside is stored as:",
+    "options": {
+      "a": "Kinetic energy",
+      "b": "Electrical energy",
+      "c": "Potential energy",
+      "d": "Light energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "A person climbs up the steps of a staircase to reach the second floor. From a scientific perspective, this activity involves:",
+    "options": {
+      "a": "Zero work because the person is moving slowly.",
+      "b": "A lot of work because force is applied and displacement occurs against gravity.",
+      "c": "No work because it's a daily life activity.",
+      "d": "Only mental work, not physical work."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 66,
+    "question": "A donkey carrying a load on its back is walking on a horizontal road. From a scientific point of view, is work done by the donkey on the load?",
+    "options": {
+      "a": "Yes, because the donkey is exerting force.",
+      "b": "Yes, because the donkey is moving.",
+      "c": "No, because the displacement of the load is perpendicular to the force applied by the donkey to hold it up.",
+      "d": "No, because the donkey is not doing useful work."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "When you push a huge rock, and it does not move despite all your effort, you get completely exhausted. Where does the energy you spend go?",
+    "options": {
+      "a": "It is destroyed as no work is done.",
+      "b": "It is converted entirely into potential energy within the rock.",
+      "c": "It is transferred to your body, causing fatigue and heat generation.",
+      "d": "It disappears without any transformation."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "Why is life impossible without energy?",
+    "options": {
+      "a": "Energy is required for machines to function.",
+      "b": "Energy is only needed for strenuous activities like playing.",
+      "c": "Living beings require energy for all basic activities and life processes to survive.",
+      "d": "Energy makes organisms grow taller."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 69,
+    "question": "A freely falling object decreases its potential energy progressively. This phenomenon:",
+    "options": {
+      "a": "Violates the law of conservation of energy because energy is being lost.",
+      "b": "Violates the law of conservation of energy because kinetic energy is also decreasing.",
+      "c": "Does not violate the law of conservation of energy because potential energy converts into kinetic energy.",
+      "d": "Is only true for objects with large mass."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "When you are riding a bicycle, which primary energy transformation takes place in your body to propel the bicycle forward?",
+    "options": {
+      "a": "Kinetic energy to potential energy.",
+      "b": "Electrical energy to mechanical energy.",
+      "c": "Chemical energy to muscular/mechanical energy.",
+      "d": "Heat energy to light energy."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "A windmill is lifting water from a well. Scientifically, why is work being done by the windmill?",
+    "options": {
+      "a": "The windmill blades are rotating.",
+      "b": "The wind is blowing.",
+      "c": "The windmill applies force to the water and displaces it.",
+      "d": "The water is gaining potential energy."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "When a battery lights a bulb, describe the energy changes involved in the process, as per the lesson's context.",
+    "options": {
+      "a": "Light energy \u2192 Heat energy \u2192 Electrical energy",
+      "b": "Electrical energy \u2192 Chemical energy \u2192 Light energy",
+      "c": "Chemical energy \u2192 Electrical energy \u2192 Light energy + Heat energy",
+      "d": "Mechanical energy \u2192 Electrical energy \u2192 Light energy"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 73,
+    "question": "Why would a sailboat be considered as 'doing work' due to wind energy, scientifically?",
+    "options": {
+      "a": "The wind applies a force on the sails, causing the boat to be displaced.",
+      "b": "The boat is simply floating on water.",
+      "c": "The wind is a form of kinetic energy.",
+      "d": "Sailboats are designed to be efficient."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 74,
+    "question": "Consider an object dropped from a height. As it falls, its potential energy decreases. What happens to this lost potential energy according to the law of conservation of energy?",
+    "options": {
+      "a": "It is destroyed.",
+      "b": "It is converted into heat energy due to air resistance.",
+      "c": "It is converted into kinetic energy.",
+      "d": "It is transferred to the ground below."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 75,
+    "question": "Why is it that in common parlance, 'studying hard' might involve very little 'work' if we go by the scientific definition?",
+    "options": {
+      "a": "Studying is not a physical activity.",
+      "b": "Studying doesn't require much effort.",
+      "c": "There is no physical displacement of the person or object being acted upon.",
+      "d": "Intellectual activities are not considered work."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 76,
+    "question": "Why does a raised hammer, when falling on a nail, drive the nail into the wood?",
+    "options": {
+      "a": "The hammer possesses chemical energy.",
+      "b": "The hammer has gained kinetic energy due to its motion.",
+      "c": "The hammer's mass increases as it falls.",
+      "d": "The nail pulls the hammer down."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 77,
+    "question": "A person holds a bundle of hay over his head for 30 minutes and gets tired. Has he done some work on the bundle of hay?",
+    "options": {
+      "a": "Yes, because he gets tired.",
+      "b": "Yes, because he is exerting a force.",
+      "c": "No, because there is no displacement of the bundle.",
+      "d": "No, because muscular force is not considered in scientific work."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 78,
+    "question": "The demand for energy is ever increasing. Where do we primarily get most of our energy sources from, as mentioned in the lesson?",
+    "options": {
+      "a": "The Earth's interior",
+      "b": "The Sun",
+      "c": "Nuclei of atoms",
+      "d": "Tides"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "A boy throws an object at a certain angle to the ground. The object moves in a curved path and falls back to the ground at the same horizontal level as the initial point. What is the work done by the force of gravity on the object during its entire path?",
+    "options": {
+      "a": "Positive, as gravity acts downwards.",
+      "b": "Negative, as the object moves up initially.",
+      "c": "Zero, because the net vertical displacement is zero.",
+      "d": "Cannot be determined without mass."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "If an object is moving with a uniform velocity along a particular direction and a retarding force is applied in the opposite direction, the work done by this force is taken as negative. This is because:",
+    "options": {
+      "a": "The force is not constant.",
+      "b": "The object eventually stops.",
+      "c": "The angle between the force and displacement is 180 degrees.",
+      "d": "Negative work slows down the object."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "Consider two individuals, P and Q, who perform the same amount of work. P completes the work in less time than Q. What can be concluded about their power?",
+    "options": {
+      "a": "P has more power than Q.",
+      "b": "Q has more power than P.",
+      "c": "Both P and Q have the same power.",
+      "d": "Power cannot be determined without knowing the force involved."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 82,
+    "question": "An object is dropped from a height. As it falls, its potential energy decreases, and its kinetic energy increases. If we were to plot total mechanical energy against time, what would the graph look like (assuming no air resistance)?",
+    "options": {
+      "a": "A steadily increasing line.",
+      "b": "A steadily decreasing line.",
+      "c": "A horizontal line.",
+      "d": "A curve that first increases then decreases."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "Suppose a force is acting on an object, but the object's velocity remains constant. What can be inferred about the work done by this force on the object?",
+    "options": {
+      "a": "Work must be positive.",
+      "b": "Work must be negative.",
+      "c": "Work must be zero.",
+      "d": "Work done cannot be determined from this information."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "An object's potential energy depends on the chosen \"zero level.\" What is the implication of this statement?",
+    "options": {
+      "a": "Potential energy is an absolute quantity.",
+      "b": "Potential energy can be positive or negative.",
+      "c": "Potential energy is always measured from the center of the Earth.",
+      "d": "Potential energy is constant for a given object."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 85,
+    "question": "If the power of an agent varies with time, why is the concept of average power useful?",
+    "options": {
+      "a": "To calculate the maximum power output.",
+      "b": "To determine the peak efficiency of the agent.",
+      "c": "To find the total work done over a period when the rate of work is not constant.",
+      "d": "To simplify calculations by assuming constant power."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "A person walks along a circular path. If the force applied by the person is always directed towards the center of the circle, what is the work done by this force over one complete revolution?",
+    "options": {
+      "a": "Positive work.",
+      "b": "Negative work.",
+      "c": "Zero work.",
+      "d": "Work cannot be determined without knowing the radius."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 87,
+    "question": "How does the depth of the depression created by a falling ball in sand relate to the height from which it is dropped?",
+    "options": {
+      "a": "Deeper depression for lower heights.",
+      "b": "Deeper depression for higher heights.",
+      "c": "Depth is independent of height.",
+      "d": "Depression is only affected by the ball's mass."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "If the total energy of a system remains constant during transformations, but we observe a decrease in its mechanical energy, what is the most likely reason?",
+    "options": {
+      "a": "The law of conservation of energy has been violated.",
+      "b": "Potential energy has converted to kinetic energy.",
+      "c": "Some mechanical energy has been converted into non-mechanical forms like heat or sound.",
+      "d": "The system is doing work on its surroundings."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 89,
+    "question": "Soni says that the acceleration in an object could be zero even when several forces are acting on it. Do you agree with her, and why?",
+    "options": {
+      "a": "No, because multiple forces always cause acceleration.",
+      "b": "No, because acceleration requires only one force.",
+      "c": "Yes, if the net force acting on the object is zero.",
+      "d": "Yes, if the object is at rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 90,
+    "question": "If two identical objects are moving, one faster than the other, which one can do more work, and why?",
+    "options": {
+      "a": "The slower object, because it has more potential to slow down.",
+      "b": "The faster object, because it possesses more kinetic energy.",
+      "c": "Both can do the same work, as their mass is identical.",
+      "d": "Neither can do work as they are moving."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "Why is it crucial to consider air resistance when discussing the precise application of the law of conservation of mechanical energy to a falling object?",
+    "options": {
+      "a": "Air resistance increases the object's potential energy.",
+      "b": "Air resistance converts mechanical energy into non-mechanical forms like heat and sound.",
+      "c": "Air resistance makes the object fall faster.",
+      "d": "Air resistance is negligible in most real-world scenarios."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "A person is studying late at night and gets very tired. Why is this considered 'hard work' in common parlance but 'very little work' scientifically?",
+    "options": {
+      "a": "Common parlance focuses on physical exertion, while science focuses on mental exertion.",
+      "b": "Common parlance refers to mental effort, while science requires physical displacement by force.",
+      "c": "Scientifically, studying means gaining knowledge, which is not 'work'.",
+      "d": "The person did not use any machines."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 93,
+    "question": "A wind turbine generates electricity. What is the fundamental principle enabling it to do this?",
+    "options": {
+      "a": "It converts heat energy from the wind into electrical energy.",
+      "b": "It converts the potential energy of wind into electrical energy.",
+      "c": "It uses the kinetic energy of blowing wind to do work, which then converts to electrical energy.",
+      "d": "It creates energy from the wind."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 94,
+    "question": "Why does a moving bullet pierce a target?",
+    "options": {
+      "a": "It has a very small mass.",
+      "b": "It exerts a large static force.",
+      "c": "It possesses significant kinetic energy due to its high speed.",
+      "d": "The target is very soft."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 96,
+    "question": "An object is lifted from point A to point B. The work done by gravity is stated to depend only on the vertical height difference, not the path taken. What principle does this demonstrate about the gravitational force?",
+    "options": {
+      "a": "It is a frictional force.",
+      "b": "It is a conservative force.",
+      "c": "It is a non-conservative force.",
+      "d": "It causes an increase in total energy."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 97,
+    "question": "An object of mass 20 kg is dropped from a height of 4 m. At a height of 2 m, its potential energy is 400 J (assuming g=10 m/s^2). What must be its kinetic energy at this 2 m height, assuming no air resistance?",
+    "options": {
+      "a": "0 J",
+      "b": "200 J",
+      "c": "400 J",
+      "d": "800 J"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 98,
+    "question": "Soni says that the acceleration in an object could be zero even when several forces are acting on it. Do you agree with her, and why?",
+    "options": {
+      "a": "No, because multiple forces always cause acceleration.",
+      "b": "No, because acceleration requires only one force.",
+      "c": "Yes, if the net force acting on the object is zero.",
+      "d": "Yes, if the object is at rest."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 99,
+    "question": "What is the primary reason for a trolley, initially set in motion, to displace a wooden block on a table, as described in Activity 10.7?",
+    "options": {
+      "a": "The trolley's mass.",
+      "b": "The trolley's potential energy.",
+      "c": "The trolley's kinetic energy.",
+      "d": "The friction between the trolley and the table."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 100,
+    "question": "If a force is acting on an object, but it does not cause any displacement, what can be inferred about the work done by that force?",
+    "options": {
+      "a": "The work done is positive.",
+      "b": "The work done is negative.",
+      "c": "The work done is zero.",
+      "d": "The work done depends on the magnitude of the force."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): It is possible for a person to get completely exhausted after pushing a huge rock for a long time, yet no work is done on the rock.\nReason (R): Scientifically, work is defined as the product of force and displacement, and if there is no displacement, no work is done.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): The unit of energy is the same as that of work.\nReason (R): Energy is defined as the capacity of doing work.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): Work done by a constant force can be either positive or negative.\nReason (R): Work done is positive when the force is in the direction of displacement and negative when the force acts opposite to the direction of displacement.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): A moving object possesses kinetic energy.\nReason (R): Kinetic energy is the energy possessed by an object due to its motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The total mechanical energy of a freely falling object remains constant throughout its fall (neglecting air resistance).\nReason (R): Potential energy is continually transformed into kinetic energy, and their sum remains constant.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): Potential energy of an object at a height depends on the ground level chosen.\nReason (R): The potential energy of an object in a given position can have a different value with respect to another level.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): When a rubber band is stretched, it acquires potential energy.\nReason (R): Energy is transferred to the rubber band and is stored due to its change in configuration.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): Power measures the speed of work done.\nReason (R): Power is defined as the rate of doing work.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): An object cannot have kinetic energy if its velocity is zero.\nReason (R): Kinetic energy is proportional to the square of the object's velocity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): The Sun is the biggest natural source of energy to us.\nReason (R): Many of our energy sources are derived from the Sun.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): In day-to-day life, studying hard is considered work.\nReason (R): In science, 'work' involves only mental labor, not physical displacement.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): When an engine pulls a train, work is done.\nReason (R): An engine exerts a force on the train, and the train undergoes displacement.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): A kilojoule (kJ) is a larger unit of energy than a Joule (J).\nReason (R): 1 kJ equals 1000 J.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): When lifting an object upwards, the work done by the force of gravity is positive.\nReason (R): The force of gravity acts downwards, opposite to the upward displacement.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): An object with a uniform velocity along a particular direction will eventually stop if no net force acts on it.\nReason (R): Work is not done if there is no force acting on an object.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): The speed of work done can be measured by power.\nReason (R): Power is the product of work and time.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): An object having a capability to do work is said to possess energy.\nReason (R): When an object does work, it loses energy.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): When a pendulum bob oscillates, its total mechanical energy eventually decreases and it comes to rest.\nReason (R): The law of conservation of energy is violated in an oscillating pendulum.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): Photosynthesis carried out by green plants involves energy conversion.\nReason (R): Green plants produce food using light energy from the Sun.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): The work done by the force of gravity on a satellite moving in a circular orbit around the earth is zero.\nReason (R): The force of gravity on the satellite is always perpendicular to its displacement.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): When an object is moving with a constant velocity, the net force acting on it is zero.\nReason (R): A non-zero net force causes acceleration.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 123,
+    "question": "Assertion (A): Lifting a book through a height involves work being done.\nReason (R): A force is applied on the book, and the book is displaced upwards.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): The kinetic energy of an object of mass 'm' moving with velocity 'v' is given by 1/2 mv\u00b2.\nReason (R): This expression is derived from the work-energy relationship, assuming the object starts from rest.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): A lamp consuming 1000 J of electrical energy in 10 s has a power of 100 W.\nReason (R): Power is calculated as energy consumed divided by time taken.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): An object can be displaced through a distance even in the absence of any force acting on it.\nReason (R): If there is no force acting on an object, then no work is done by that force.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): It is difficult to distinguish between useful physical and mental labor in day-to-day life as 'work'.\nReason (R): The term 'work' is used and defined differently in science compared to common parlance.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): When an object falls freely, its potential energy continually decreases.\nReason (R): As the object falls, its height (h) above the ground decreases, and potential energy is given by Ep = mgh.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): The total energy of the universe is always conserved.\nReason (R): According to the law of conservation of energy, energy can neither be created nor destroyed.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): A moving bullet can do work.\nReason (R): A moving bullet possesses kinetic energy.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
   }
 ]

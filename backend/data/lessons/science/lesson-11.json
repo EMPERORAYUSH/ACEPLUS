@@ -1,46 +1,161 @@
 [
   {
-    "question": "Sound is a form of:",
+    "question_number": 1,
+    "question": "Which form of energy produces a sensation of hearing in our ears?",
     "options": {
-      "a": "Light",
-      "b": "Energy",
-      "c": "Heat",
-      "d": "Magnetism"
+      "a": "Mechanical energy",
+      "b": "Light energy",
+      "c": "Electrical energy",
+      "d": "Sound energy"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 2,
+    "question": "What is the primary cause of sound production according to the activities described?",
+    "options": {
+      "a": "Heating of objects",
+      "b": "Rapid to and fro motion of an object",
+      "c": "Emission of light from an object",
+      "d": "Absorption of energy by an object"
     },
     "answer": "b"
   },
   {
-    "question": "Which of the following is essential for sound to travel?",
+    "question_number": 3,
+    "question": "What is the matter or substance through which sound is transmitted called?",
     "options": {
-      "a": "Vacuum",
-      "b": "Medium",
-      "c": "Light",
-      "d": "Darkness"
+      "a": "Source",
+      "b": "Receiver",
+      "c": "Medium",
+      "d": "Propagator"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 4,
+    "question": "Sound waves are characterized by the motion of particles in the medium and are classified as what type of waves?",
+    "options": {
+      "a": "Electromagnetic waves",
+      "b": "Transverse waves",
+      "c": "Mechanical waves",
+      "d": "Standing waves"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "What is the region of high pressure created when a vibrating object moves forward in the air called?",
+    "options": {
+      "a": "Rarefaction",
+      "b": "Compression",
+      "c": "Amplitude",
+      "d": "Wavelength"
     },
     "answer": "b"
   },
   {
-    "question": "The SI unit of frequency is:",
+    "question_number": 6,
+    "question": "What is the region of low pressure created when a vibrating object moves backwards in the air called?",
     "options": {
-      "a": "Meter",
-      "b": "Second",
-      "c": "Hertz",
-      "d": "Newton"
+      "a": "Compression",
+      "b": "Rarefaction",
+      "c": "Pitch",
+      "d": "Frequency"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 7,
+    "question": "In a sound wave, what do the particles of the medium primarily do?",
+    "options": {
+      "a": "They travel all the way from the source to the ear.",
+      "b": "They move forward with the wave.",
+      "c": "They oscillate back and forth about their position of rest.",
+      "d": "They remain stationary."
     },
     "answer": "c"
   },
   {
-    "question": "Sound waves are classified as:",
+    "question_number": 8,
+    "question": "What is the distance between two consecutive compressions or two consecutive rarefactions called?",
     "options": {
-      "a": "Transverse waves",
-      "b": "Electromagnetic waves",
-      "c": "Longitudinal waves",
-      "d": "Light waves"
+      "a": "Amplitude",
+      "b": "Frequency",
+      "c": "Wavelength",
+      "d": "Time period"
     },
     "answer": "c"
   },
   {
-    "question": "The speed of sound is generally highest in:",
+    "question_number": 9,
+    "question": "What is the SI unit of frequency?",
+    "options": {
+      "a": "Metre (m)",
+      "b": "Second (s)",
+      "c": "Hertz (Hz)",
+      "d": "Decibel (dB)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 10,
+    "question": "What is the time taken for one complete oscillation of the density or pressure of the medium called?",
+    "options": {
+      "a": "Frequency",
+      "b": "Wavelength",
+      "c": "Amplitude",
+      "d": "Time period"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 11,
+    "question": "What does the pitch of a sound primarily depend on?",
+    "options": {
+      "a": "Amplitude",
+      "b": "Wavelength",
+      "c": "Frequency",
+      "d": "Speed"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 12,
+    "question": "What does the loudness or softness of a sound primarily depend on?",
+    "options": {
+      "a": "Frequency",
+      "b": "Pitch",
+      "c": "Amplitude",
+      "d": "Wavelength"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 13,
+    "question": "What is a sound of a single frequency called?",
+    "options": {
+      "a": "Note",
+      "b": "Noise",
+      "c": "Tone",
+      "d": "Music"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 14,
+    "question": "What is the characteristic of sound that enables us to distinguish one sound from another having the same pitch and loudness?",
+    "options": {
+      "a": "Speed",
+      "b": "Quality or timbre",
+      "c": "Intensity",
+      "d": "Frequency"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 15,
+    "question": "In which state of matter does sound generally travel the fastest?",
     "options": {
       "a": "Gases",
       "b": "Liquids",
@@ -50,433 +165,1257 @@
     "answer": "c"
   },
   {
-    "question": "The number of oscillations per unit time is called:",
+    "question_number": 16,
+    "question": "What is the speed of sound in air at 22 \u00baC mentioned in the lesson?",
     "options": {
-      "a": "Amplitude",
-      "b": "Wavelength",
-      "c": "Frequency",
-      "d": "Time period"
+      "a": "331 m s\u207b\u00b9",
+      "b": "344 m s\u207b\u00b9",
+      "c": "346 m s\u207b\u00b9",
+      "d": "1498 m s\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 17,
+    "question": "What happens to the speed of sound in a medium as the temperature increases?",
+    "options": {
+      "a": "It decreases.",
+      "b": "It increases.",
+      "c": "It remains constant.",
+      "d": "It depends on the frequency."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 18,
+    "question": "For hearing a distinct echo, what is the minimum time interval required between the original sound and the reflected one?",
+    "options": {
+      "a": "0.01 s",
+      "b": "0.1 s",
+      "c": "1.0 s",
+      "d": "10 s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 19,
+    "question": "What is the minimum distance an obstacle must be from the source of sound to hear a distinct echo in air at 22 \u00baC (speed of sound = 344 m/s)?",
+    "options": {
+      "a": "34.4 m",
+      "b": "17.2 m",
+      "c": "68.8 m",
+      "d": "8.6 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 20,
+    "question": "What is the phenomenon of persistence of sound in a big hall due to repeated reflections called?",
+    "options": {
+      "a": "Echo",
+      "b": "Refraction",
+      "c": "Reverberation",
+      "d": "Diffraction"
     },
     "answer": "c"
   },
   {
-    "question": "The region of high pressure in a sound wave is called:",
+    "question_number": 21,
+    "question": "What is the audible range of sound frequencies for an average human being?",
     "options": {
-      "a": "Rarefaction",
-      "b": "Trough",
-      "c": "Compression",
-      "d": "Crest"
+      "a": "0 Hz to 20 Hz",
+      "b": "20 Hz to 200 Hz",
+      "c": "20 Hz to 20000 Hz",
+      "d": "Above 20000 Hz"
     },
     "answer": "c"
   },
   {
-    "question": "The Greek letter lambda (\u03bb) represents:",
+    "question_number": 22,
+    "question": "Sounds with frequencies below 20 Hz are termed as what?",
     "options": {
-      "a": "Frequency",
-      "b": "Amplitude",
-      "c": "Wavelength",
-      "d": "Speed"
+      "a": "Ultrasonic sound",
+      "b": "Infrasonic sound",
+      "c": "Supersonic sound",
+      "d": "Hypersonic sound"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 23,
+    "question": "Sounds with frequencies higher than 20 kHz are termed as what?",
+    "options": {
+      "a": "Infrasound",
+      "b": "Audible sound",
+      "c": "Ultrasonic sound",
+      "d": "Resonant sound"
     },
     "answer": "c"
   },
   {
-    "question": "A sound of single frequency is called a:",
+    "question_number": 24,
+    "question": "Which animals are mentioned in the lesson as producing ultrasound?",
     "options": {
-      "a": "Note",
-      "b": "Tone",
-      "c": "Noise",
-      "d": "Music"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The audible range of hearing for average humans is:",
-    "options": {
-      "a": "2 Hz - 200 Hz",
-      "b": "20 Hz - 20,000 Hz",
-      "c": "200 Hz - 2,000 Hz",
-      "d": "2,000 Hz - 200,000Hz"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Frequencies higher than 20 kHz are called:",
-    "options": {
-      "a": "Infrasonic",
-      "b": "Audible",
-      "c": "Ultrasonic",
-      "d": "Subsonic"
+      "a": "Rhinoceroses and elephants",
+      "b": "Whales and rats",
+      "c": "Dolphins, bats and porpoises",
+      "d": "Birds and humans"
     },
     "answer": "c"
   },
   {
-    "question": "Which instrument uses multiple reflections of sound to amplify the heartbeat?",
+    "question_number": 25,
+    "question": "What is the primary function of a microphone in a hearing aid?",
     "options": {
-      "a": "Megaphone",
-      "b": "Stethoscope",
-      "c": "Soundboard",
-      "d": "Tuning fork"
+      "a": "To convert electrical signals to sound.",
+      "b": "To amplify electrical signals.",
+      "c": "To convert sound waves to electrical signals.",
+      "d": "To produce high-frequency waves."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 26,
+    "question": "Which application of ultrasound is used to form images of various parts of the heart?",
+    "options": {
+      "a": "Ultrasonography",
+      "b": "Sonar",
+      "c": "Echocardiography",
+      "d": "CT Scan"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "What is the technique called that uses ultrasonic waves to get images of internal organs like liver, gall bladder, kidney, etc.?",
+    "options": {
+      "a": "X-ray imaging",
+      "b": "Endoscopy",
+      "c": "Ultrasonography",
+      "d": "Fluoroscopy"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 28,
+    "question": "How are small kidney stones broken into fine grains using ultrasound?",
+    "options": {
+      "a": "By surgical removal",
+      "b": "By heating the stones",
+      "c": "By employing ultrasound to break them",
+      "d": "By dissolving them with chemicals"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "What is a crest in a sound wave represented by in a graphical form?",
+    "options": {
+      "a": "Region of low pressure",
+      "b": "Valley or trough",
+      "c": "Peak representing maximum compression",
+      "d": "Equilibrium position"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "What is the relationship between frequency (\u03bd) and time period (T) of a wave?",
+    "options": {
+      "a": "\u03bd = T",
+      "b": "\u03bd = 1/T",
+      "c": "T = \u03bd + 1",
+      "d": "\u03bd = T\u00b2"
     },
     "answer": "b"
   },
   {
-    "question": "Reverberation is a phenomenon related to:",
+    "question_number": 31,
+    "question": "A sound wave has a frequency of 2 kHz and a wavelength of 35 cm. What is the speed of this sound wave?",
     "options": {
-      "a": "Single reflection of sound",
-      "b": "Multiple reflections of sound",
-      "c": "Refraction of sound",
-      "d": "Interference of sound"
+      "a": "7 m/s",
+      "b": "70 m/s",
+      "c": "700 m/s",
+      "d": "7000 m/s"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 32,
+    "question": "How long will it take for the sound wave from the previous question (speed = 700 m/s) to travel a distance of 1.5 km?",
+    "options": {
+      "a": "0.21 s",
+      "b": "2.1 s",
+      "c": "21 s",
+      "d": "210 s"
     },
     "answer": "b"
   },
   {
-    "question": "The speed of sound in air at 0\u00b0C is approximately:",
+    "question_number": 33,
+    "question": "Calculate the wavelength of a sound wave whose frequency is 220 Hz and speed is 440 m/s in a given medium.",
     "options": {
-      "a": "344 m/s",
-      "b": "331 m/s",
-      "c": "300 m/s",
-      "d": "1500 m/s"
+      "a": "0.5 m",
+      "b": "1.0 m",
+      "c": "2.0 m",
+      "d": "4.0 m"
     },
-    "answer": "b"
+    "answer": "c"
   },
   {
-    "question": "A sound wave has a frequency of 500 Hz and a wavelength of 0.68 m. What is its speed?",
+    "question_number": 34,
+    "question": "A person is listening to a tone of 500 Hz. What is the time interval between successive compressions from the source?",
     "options": {
-      "a": "340 m/s",
-      "b": "680 m/s",
-      "c": "735 m/s",
-      "d": "1470 m/s"
+      "a": "0.002 s",
+      "b": "0.02 s",
+      "c": "0.2 s",
+      "d": "2.0 s"
     },
     "answer": "a"
   },
   {
-    "question": "If the time period of a sound wave is 0.02 seconds, what is its frequency?",
+    "question_number": 35,
+    "question": "An echo is heard in 3 s. What is the distance of the reflecting surface from the source, given that the speed of sound is 342 m/s?",
+    "options": {
+      "a": "1026 m",
+      "b": "513 m",
+      "c": "171 m",
+      "d": "342 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 36,
+    "question": "A person clapped his hands near a cliff and heard the echo after 2 s. What is the distance of the cliff from the person if the speed of the sound is 346 m s\u207b\u00b9?",
+    "options": {
+      "a": "173 m",
+      "b": "346 m",
+      "c": "692 m",
+      "d": "86.5 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "A sound wave travels at a speed of 339 m s\u207b\u00b9. If its wavelength is 1.5 cm, what is the frequency of the wave?",
+    "options": {
+      "a": "226 Hz",
+      "b": "2260 Hz",
+      "c": "22600 Hz",
+      "d": "226000 Hz"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 38,
+    "question": "The frequency of a source of sound is 100 Hz. How many times does it vibrate in a minute?",
+    "options": {
+      "a": "100 times",
+      "b": "600 times",
+      "c": "6000 times",
+      "d": "10000 times"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 39,
+    "question": "A person has a hearing range from 20 Hz to 20 kHz. If the speed of sound in air is 344 m s\u207b\u00b9, what is the wavelength corresponding to the lower frequency limit?",
+    "options": {
+      "a": "0.0172 m",
+      "b": "1.72 m",
+      "c": "17.2 m",
+      "d": "172 m"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 40,
+    "question": "A person has a hearing range from 20 Hz to 20 kHz. If the speed of sound in air is 344 m s\u207b\u00b9, what is the wavelength corresponding to the upper frequency limit?",
+    "options": {
+      "a": "0.0172 m",
+      "b": "0.172 m",
+      "c": "1.72 m",
+      "d": "17.2 m"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 41,
+    "question": "An observer notes a sound in the air travels a distance of 688 meters in 2 seconds. What is the frequency of the sound if its wavelength is 0.8 meters?",
+    "options": {
+      "a": "430 Hz",
+      "b": "215 Hz",
+      "c": "172 Hz",
+      "d": "860 Hz"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 42,
+    "question": "A ship sends out ultrasound that returns from the seabed in 3.42 s. If the speed of ultrasound in seawater is 1531 m/s, what is the distance of the seabed from the ship?",
+    "options": {
+      "a": "2616.86 m",
+      "b": "5233.72 m",
+      "c": "1308.43 m",
+      "d": "765.5 m"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 43,
+    "question": "If the time period of a sound wave is 0.005 seconds, what is its frequency?",
     "options": {
       "a": "20 Hz",
       "b": "50 Hz",
-      "c": "100 Hz",
-      "d": "200 Hz"
+      "c": "200 Hz",
+      "d": "500 Hz"
     },
-    "answer": "b"
+    "answer": "c"
   },
   {
-    "question": "A sound wave travels at 340 m/s. If its wavelength is 1.7 meters, what is its frequency?",
+    "question_number": 44,
+    "question": "The speed of sound in steel is approximately 5960 m/s. If a hammer strike produces a sound wave with a frequency of 500 Hz, what is the wavelength of this sound in steel?",
     "options": {
-      "a": "100 Hz",
-      "b": "200 Hz",
-      "c": "340 Hz",
-      "d": "578 Hz"
+      "a": "1.192 m",
+      "b": "11.92 m",
+      "c": "119.2 m",
+      "d": "0.1192 m"
     },
     "answer": "b"
   },
   {
-    "question": "An echo is heard after 3 seconds. If the speed of sound is 340 m/s, what is the distance to the reflecting surface?",
+    "question_number": 45,
+    "question": "How long would it take for sound to travel 10 meters in distilled water at 25\u00baC? (Refer to Table 11.1)",
+    "options": {
+      "a": "0.0066 s",
+      "b": "0.00067 s",
+      "c": "0.000067 s",
+      "d": "0.067 s"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 46,
+    "question": "A sound wave has a time period of 0.01 seconds and a wavelength of 3.4 meters. What is its speed?",
+    "options": {
+      "a": "34 m/s",
+      "b": "340 m/s",
+      "c": "3.4 m/s",
+      "d": "3400 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 47,
+    "question": "How many oscillations does a sound wave with a frequency of 400 Hz complete in 5 seconds?",
+    "options": {
+      "a": "80",
+      "b": "400",
+      "c": "2000",
+      "d": "200"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 48,
+    "question": "If the speed of sound in hydrogen gas is 1284 m/s (from Table 11.1), how long would it take for a sound wave to travel 2568 meters in hydrogen?",
+    "options": {
+      "a": "0.5 s",
+      "b": "1 s",
+      "c": "2 s",
+      "d": "4 s"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 49,
+    "question": "A sonar device on a submarine sends out a signal and receives an echo 5 seconds later. If the speed of sound in water is 1500 m/s, what is the depth of the object causing the echo?",
+    "options": {
+      "a": "7500 m",
+      "b": "3750 m",
+      "c": "1500 m",
+      "d": "750 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 50,
+    "question": "A sound wave has a wavelength of 0.25 m and its speed is 340 m/s. What is its frequency?",
+    "options": {
+      "a": "85 Hz",
+      "b": "1360 Hz",
+      "c": "340 Hz",
+      "d": "0.00073 Hz"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 51,
+    "question": "A person shouts near a well and hears an echo after 0.5 s. If the speed of sound in air is 340 m/s, what is the distance to the water surface in the well?",
     "options": {
       "a": "170 m",
-      "b": "340 m",
-      "c": "510 m",
-      "d": "1020 m"
+      "b": "85 m",
+      "c": "340 m",
+      "d": "42.5 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 52,
+    "question": "If the wavelength of a sound wave is 5 m and its frequency is 68 Hz, what is the speed of the wave?",
+    "options": {
+      "a": "13.6 m/s",
+      "b": "340 m/s",
+      "c": "0.0735 m/s",
+      "d": "34 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "What is the time period of a sound wave with a frequency of 20 kHz?",
+    "options": {
+      "a": "0.05 s",
+      "b": "0.005 s",
+      "c": "0.00005 s",
+      "d": "0.00002 s"
     },
     "answer": "c"
   },
   {
-    "question": "A tuning fork produces a sound wave with a speed of 330 m/s and a frequency of 440 Hz. Calculate the wavelength.",
+    "question_number": 54,
+    "question": "A stone is dropped from the top of a tower 500 m high into a pond of water at the base. Given g = 10 m s\u207b\u00b2 and speed of sound = 340 m s\u207b\u00b9. When is the splash heard at the top? (Ignore air resistance for the stone)",
     "options": {
-      "a": "0.5 m",
-      "b": "0.75 m",
-      "c": "1.0 m",
-      "d": "1.5 m"
+      "a": "10 s",
+      "b": "11.47 s",
+      "c": "1.47 s",
+      "d": "10.47 s"
     },
     "answer": "b"
   },
   {
-    "question": "A sound wave has a frequency of 1 kHz and a speed of 340 m/s. What is its wavelength?",
+    "question_number": 55,
+    "question": "Two children are at opposite ends of an aluminium rod. One strikes the end of the rod with a stone. Find the ratio of times taken by the sound wave in air and in aluminium to reach the second child. Assume speed of sound in air = 344 m/s and in aluminium = 6420 m/s.",
     "options": {
-      "a": "0.17 m",
-      "b": "0.34 m",
-      "c": "0.68 m",
-      "d": "3.4 m"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "The time interval between a sound and its echo is 1 second. If the speed of sound is 344 m/s, what is the distance to the reflecting surface?",
-    "options": {
-      "a": "86 m",
-      "b": "172 m",
-      "c": "344 m",
-      "d": "688 m"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A bat emits an ultrasonic wave with a frequency of 30 kHz. If the speed of sound is 340 m/s, what is the wavelength of this wave?",
-    "options": {
-      "a": "0.0113 m",
-      "b": "0.113 m",
-      "c": "1.13 m",
-      "d": "11.3 m"
+      "a": "18.66 : 1",
+      "b": "1 : 18.66",
+      "c": "0.0536 : 1",
+      "d": "1 : 0.0536"
     },
     "answer": "a"
   },
   {
-    "question": "A person claps their hands near a cliff and hears the echo after 4 seconds. The speed of sound is 340 m/s. What is the distance to the cliff?",
+    "question_number": 56,
+    "question": "If a sound wave travels 688 m in 2 seconds and has a frequency of 200 Hz, what is its wavelength?",
     "options": {
-      "a": "340 m",
-      "b": "680 m",
-      "c": "1020 m",
-      "d": "1360 m"
+      "a": "1.72 m",
+      "b": "3.44 m",
+      "c": "0.86 m",
+      "d": "6.88 m"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 57,
+    "question": "An object vibrates 150 times in 3 seconds. What is the frequency of its vibration?",
+    "options": {
+      "a": "50 Hz",
+      "b": "150 Hz",
+      "c": "450 Hz",
+      "d": "0.02 Hz"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 58,
+    "question": "If the speed of sound in a medium is 1200 m/s and its wavelength is 2.4 m, what is the time period of the sound wave?",
+    "options": {
+      "a": "0.002 s",
+      "b": "0.02 s",
+      "c": "0.2 s",
+      "d": "2 s"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 59,
+    "question": "A student sets up an experiment to measure the speed of sound. They stand 200 m from a wall and clap their hands. They hear the echo 1.2 seconds later. What is the calculated speed of sound?",
+    "options": {
+      "a": "166.67 m/s",
+      "b": "333.33 m/s",
+      "c": "400 m/s",
+      "d": "240 m/s"
     },
     "answer": "b"
   },
   {
-    "question": "A sound wave travels a distance of 1000 m in 2 seconds. What is the speed of the sound wave?",
+    "question_number": 60,
+    "question": "Sound travels at 346 m/s in air. A high frequency sound wave has a time period of 0.001 s. What is its wavelength?",
     "options": {
-      "a": "200 m/s",
-      "b": "500 m/s",
-      "c": "1000 m/s",
-      "d": "2000 m/s"
+      "a": "0.346 m",
+      "b": "3.46 m",
+      "c": "34.6 m",
+      "d": "0.0346 m"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 61,
+    "question": "Why does sound not travel on the moon, where you and your friend might be present?",
+    "options": {
+      "a": "The moon's temperature is too low for sound propagation.",
+      "b": "Sound waves require a medium to travel, and the moon has no atmosphere.",
+      "c": "The moon's gravity is too weak to support sound waves.",
+      "d": "Sound waves are absorbed by the moon's rocky surface."
     },
     "answer": "b"
   },
   {
-    "question": "A sound wave has a wavelength of 2 meters and a frequency of 170 Hz. What is its speed?",
+    "question_number": 62,
+    "question": "When a school bell rings, which part of the bell is primarily responsible for producing the sound?",
     "options": {
-      "a": "85 m/s",
-      "b": "170 m/s",
-      "c": "340 m/s",
-      "d": "680 m/s"
+      "a": "The clapper that strikes the bell remains stationary.",
+      "b": "The bell itself vibrates rapidly.",
+      "c": "The air around the bell is heated.",
+      "d": "The sound is produced by electromagnetic waves."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 63,
+    "question": "You are in a dark room and want to identify your friend by their voice. Which characteristic of sound primarily helps you do this, assuming your friend speaks at the same pitch and loudness as others?",
+    "options": {
+      "a": "Speed",
+      "b": "Frequency",
+      "c": "Quality or timbre",
+      "d": "Wavelength"
     },
     "answer": "c"
   },
   {
-    "question": "If the speed of sound is 340 m/s and the frequency is 250 Hz, what is the wavelength?",
+    "question_number": 64,
+    "question": "Why is thunder heard a few seconds after the flash of lightning is seen, even though they are produced simultaneously?",
     "options": {
-      "a": "0.735 m",
-      "b": "1.36 m",
-      "c": "2.72 m",
-      "d": "590 m"
+      "a": "Thunder travels through more resistant air layers.",
+      "b": "Light travels much faster than sound.",
+      "c": "Sound waves are generated later than light waves.",
+      "d": "The human ear perceives light faster than sound."
     },
     "answer": "b"
   },
   {
-    "question": "A sound wave travels at 350 m/s. If its frequency is 500 Hz, find its wavelength.",
-    "options": {
-      "a": "0.35 m",
-      "b": "0.7 m",
-      "c": "1.4 m",
-      "d": "175 m"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "A sound wave in a steel rod has a frequency of 5 kHz and a speed of 5000 m/s. Calculate its wavelength.",
-    "options": {
-      "a": "0.1 m",
-      "b": "1 m",
-      "c": "10 m",
-      "d": "100 m"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "An echo is heard after 0.8 seconds. Given that the speed of sound is 340 m/s, calculate the distance of the reflecting surface.",
-    "options": {
-      "a": "136 m",
-      "b": "272 m",
-      "c": "425 m",
-      "d": "544 m"
-    },
-    "answer": "a"
-  },
-  {
-    "question": "Which of the following is an application of ultrasound?",
-    "options": {
-      "a": "Measuring the speed of light",
-      "b": "Detecting cracks in metal blocks",
-      "c": "Generating electricity",
-      "d": "Creating a vacuum"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why are the ceilings of concert halls generally curved?",
-    "options": {
-      "a": "To make them look beautiful",
-      "b": "To reflect sound to all corners",
-      "c": "To absorb sound completely",
-      "d": "To make the hall stronger"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Megaphones are based on the principle of:",
+    "question_number": 65,
+    "question": "A megaphone is designed to send sound in a particular direction without spreading it in all directions. Which principle of sound is primarily utilized in its design?",
     "options": {
       "a": "Refraction of sound",
-      "b": "Diffraction of sound",
+      "b": "Absorption of sound",
       "c": "Multiple reflection of sound",
       "d": "Interference of sound"
     },
     "answer": "c"
   },
   {
-    "question": "Why do we use sound-absorbing materials in auditoriums?",
+    "question_number": 66,
+    "question": "Why are the ceilings of concert halls often curved?",
     "options": {
-      "a": "To increase reverberation",
-      "b": "To reduce reverberation",
-      "c": "To make the sound louder",
-      "d": "To create echoes"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Stethoscopes work on the principle of:",
-    "options": {
-      "a": "Single reflection",
-      "b": "Multiple reflections",
-      "c": "Refraction",
-      "d": "Diffraction"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Which phenomenon explains why we hear thunder after seeing lightning?",
-    "options": {
-      "a": "Reflection of sound",
-      "b": "Refraction of sound",
-      "c": "Difference in speeds of light and sound",
-      "d": "Interference of sound"
+      "a": "To increase sound absorption for better acoustics.",
+      "b": "To prevent any reflection of sound.",
+      "c": "To ensure sound reaches all corners of the hall after reflection.",
+      "d": "To produce echoes for special effects."
     },
     "answer": "c"
   },
   {
-    "question": "What is the purpose of a soundboard in a large hall?",
+    "question_number": 67,
+    "question": "How does a stethoscope allow a doctor to hear a patient's heartbeat clearly?",
     "options": {
-      "a": "To absorb sound",
-      "b": "To reflect sound and distribute it evenly",
-      "c": "To create echoes",
-      "d": "To reduce the speed of sound"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Echolocation used by bats is based on:",
-    "options": {
-      "a": "Infrasonic sound",
-      "b": "Ultrasonic sound",
-      "c": "Audible sound",
-      "d": "Light waves"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why is it difficult to hear an echo in a small room?",
-    "options": {
-      "a": "The speed of sound is too slow.",
-      "b": "The distance to the reflecting surface is too short.",
-      "c": "The sound is absorbed too quickly.",
-      "d": "The frequency of sound is too low."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Which of the following uses ultrasound for imaging internal organs?",
-    "options": {
-      "a": "Stethoscope",
-      "b": "Megaphone",
-      "c": "Ultrasound scanner",
-      "d": "Tuning fork"
+      "a": "It amplifies the sound without reflection.",
+      "b": "It converts the sound to electrical signals directly.",
+      "c": "It uses multiple reflection of sound to guide the sound to the doctor's ears.",
+      "d": "It creates a vacuum to reduce background noise."
     },
     "answer": "c"
   },
   {
-    "question": "If you shout in a canyon and hear the echo, how does the speed of sound affect the time it takes to hear the echo?",
+    "question_number": 68,
+    "question": "Certain animals like rhinoceroses communicate using infrasound. Why might this be advantageous for them?",
     "options": {
-      "a": "Higher speed, longer time",
-      "b": "Lower speed, shorter time",
-      "c": "Higher speed, shorter time",
-      "d": "Speed has no effect on echo time"
+      "a": "Infrasound has very high pitch, allowing for clear communication.",
+      "b": "Infrasound can travel over very long distances due to its low frequency.",
+      "c": "Infrasound is easily absorbed by obstacles, ensuring privacy.",
+      "d": "Infrasound can be heard by all animals, facilitating widespread communication."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 69,
+    "question": "Moths of certain families can hear the high frequency squeaks of bats. What does this ability allow them to do?",
+    "options": {
+      "a": "Locate food sources more effectively.",
+      "b": "Communicate with bats for mutual benefit.",
+      "c": "Know when a bat is flying nearby and escape capture.",
+      "d": "Mimic bat sounds to confuse predators."
     },
     "answer": "c"
   },
   {
-    "question": "Two sounds have the same pitch but different loudness. What can you say about their amplitudes?",
+    "question_number": 70,
+    "question": "How are ultrasound waves used to detect flaws and cracks in metal blocks?",
     "options": {
-      "a": "Same amplitudes",
-      "b": "Different amplitudes",
-      "c": "Amplitudes are unrelated to loudness",
-      "d": "The louder sound has a lower amplitude"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Two sound waves have different frequencies.  Which of the following is also likely to be different?",
-    "options": {
-      "a": "Amplitude",
-      "b": "Speed (in the same medium)",
-      "c": "Pitch",
-      "d": "Medium"
+      "a": "They cause the metal to vibrate and produce audible sound.",
+      "b": "They are absorbed by the defects, indicating their presence.",
+      "c": "They are reflected back from the defective locations, indicating a flaw.",
+      "d": "They generate heat at the flaw sites, making them visible."
     },
     "answer": "c"
   },
   {
-    "question": "Why is the speed of sound different in different mediums?",
+    "question_number": 71,
+    "question": "Why are ordinary sound waves (longer wavelengths) not suitable for detecting cracks in metal blocks, unlike ultrasound?",
     "options": {
-      "a": "Because of different frequencies",
-      "b": "Because of different amplitudes",
-      "c": "Because of the different properties of the mediums",
-      "d": "Because of the source of sound"
+      "a": "They are too low in frequency to interact with metal.",
+      "b": "They would bend around the corners of the defective location and enter the detector.",
+      "c": "They are too high in energy and could damage the metal.",
+      "d": "They get completely absorbed by the metal, yielding no reflection."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 72,
+    "question": "How does an ultrasound scanner create images of internal organs like the liver or kidney?",
+    "options": {
+      "a": "By emitting visible light and capturing its reflection.",
+      "b": "By using X-rays to penetrate the tissues.",
+      "c": "By sending ultrasonic waves that reflect from regions of tissue density change, then converting them to electrical signals for imaging.",
+      "d": "By directly measuring the temperature variations within organs."
     },
     "answer": "c"
   },
   {
-    "question": "If you increase the amplitude of a sound wave, what happens to its loudness?",
+    "question_number": 73,
+    "question": "Why do sound waves spread out from their source and decrease in loudness as they move away?",
     "options": {
-      "a": "Loudness decreases",
-      "b": "Loudness increases",
-      "c": "Loudness stays the same",
-      "d": "Loudness becomes zero"
-    },
-    "answer": "b"
-  },
-  {
-    "question": "Why does sound travel faster in solids than in gases?",
-    "options": {
-      "a": "Solids have lower density.",
-      "b": "Solids have higher elasticity.",
-      "c": "Gases have higher elasticity.",
-      "d": "Solids have lower temperature."
-    },
-    "answer": "b"
-  },
-  {
-    "question": "How does temperature affect the speed of sound in air?",
-    "options": {
-      "a": "Higher temperature, lower speed",
-      "b": "Lower temperature, higher speed",
-      "c": "Higher temperature, higher speed",
-      "d": "Temperature has no effect"
+      "a": "Their frequency decreases, causing them to spread.",
+      "b": "Their speed decreases as they travel further.",
+      "c": "The energy associated with the sound wave spreads over a larger area, causing amplitude and loudness to decrease.",
+      "d": "The medium particles are used up as the sound travels."
     },
     "answer": "c"
   },
   {
-    "question": "If you double the frequency of a sound wave, what happens to its wavelength (assuming the speed remains constant)?",
+    "question_number": 74,
+    "question": "You strike a table lightly and hear a soft sound. If you then hit the table hard, you hear a louder sound. What fundamental wave property explains this difference?",
     "options": {
-      "a": "Doubles",
-      "b": "Halves",
-      "c": "Remains the same",
-      "d": "Quadruples"
+      "a": "The frequency of the sound wave.",
+      "b": "The wavelength of the sound wave.",
+      "c": "The amplitude of the sound wave.",
+      "d": "The speed of the sound wave."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 75,
+    "question": "A violin and a flute are played simultaneously in an orchestra. Both sounds reach your ear at the same time, but you can distinguish between them. What characteristic of sound allows this distinction?",
+    "options": {
+      "a": "Speed",
+      "b": "Pitch",
+      "c": "Loudness",
+      "d": "Quality"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 76,
+    "question": "Which component of a hearing aid is responsible for converting amplified electrical signals back into sound waves for clear hearing?",
+    "options": {
+      "a": "Microphone",
+      "b": "Amplifier",
+      "c": "Speaker",
+      "d": "Battery"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "When a bird flaps its wings, a sound is not always heard. Why does the buzzing sound accompanying a bee or mosquito occur, but not typically a bird's flapping wings?",
+    "options": {
+      "a": "Bees and mosquitoes flap their wings at a higher speed than birds.",
+      "b": "The frequency of wing flapping for bees and mosquitoes falls within the audible range.",
+      "c": "Birds flap their wings in a vacuum, preventing sound.",
+      "d": "Bees and mosquitoes produce light energy along with sound."
     },
     "answer": "b"
   },
   {
-    "question": "Why can't sound travel through a vacuum?",
+    "question_number": 78,
+    "question": "Why is it advised to cover the walls and roof of an auditorium with sound-absorbent materials like compressed fibreboard?",
     "options": {
-      "a": "Vacuum has no temperature",
-      "b": "Vacuum has no particles to vibrate",
-      "c": "Vacuum has too much pressure",
-      "d": "Vacuum absorbs all sound"
+      "a": "To enhance the echo effect for a richer sound.",
+      "b": "To reduce excessive reverberation which is undesirable.",
+      "c": "To increase the speed of sound propagation in the hall.",
+      "d": "To reflect sound more effectively to the audience."
     },
     "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "If you touch the prong of a vibrating tuning fork with your finger, what would you likely experience and why?",
+    "options": {
+      "a": "You would feel nothing, as sound is only heard.",
+      "b": "You would feel a steady pressure, indicating sound energy.",
+      "c": "You would feel vibrations, confirming sound is produced by vibration.",
+      "d": "You would feel a cooling sensation due to energy transfer."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "Some animals get disturbed before earthquakes. According to the lesson, what could be the scientific reason for this?",
+    "options": {
+      "a": "Animals have a sixth sense for disasters.",
+      "b": "Earthquakes produce high-frequency ultrasound waves that disturb them.",
+      "c": "Earthquakes produce low-frequency infrasound before the main shock waves, alerting the animals.",
+      "d": "Animals can see the earth tremors before humans."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "Activity 11.2 describes touching the surface of water with a vibrating tuning fork and then dipping the prongs in water. What general conclusion about sound production can be drawn from observing the water's behavior in both cases?",
+    "options": {
+      "a": "Sound travels faster in water than in air.",
+      "b": "Water particles vibrate at the same frequency as the tuning fork.",
+      "c": "A vibrating object transfers energy to the medium, causing disturbances.",
+      "d": "Sound can be produced without a medium."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 82,
+    "question": "If you were to conduct Activity 11.4 with a slinky in space (a vacuum), what would you observe when pushing and pulling the slinky?",
+    "options": {
+      "a": "Compressions and rarefactions would still form, but no sound would be heard.",
+      "b": "The slinky would not be able to form compressions and rarefactions because there's no medium.",
+      "c": "The slinky would oscillate, but the disturbance would not propagate as a wave.",
+      "d": "The slinky would break due to the lack of pressure."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 83,
+    "question": "Given that the speed of sound in air increases with temperature, what can be inferred about the minimum distance required to hear a distinct echo on a hotter day compared to a colder day?",
+    "options": {
+      "a": "It would increase, as the sound travels faster.",
+      "b": "It would decrease, as the sound travels faster.",
+      "c": "It would remain the same, as the time interval is fixed.",
+      "d": "It would become impossible to hear an echo."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 84,
+    "question": "Imagine you are conducting the reflection of sound activity (Activity 11.5) with pipes near a wall. If you replace the wall with a thick, soft curtain, what would be the most likely observation?",
+    "options": {
+      "a": "The sound of the clock would be heard louder through the other pipe.",
+      "b": "The sound of the clock would be heard softer or not at all through the other pipe.",
+      "c": "The sound would be converted into light energy by the curtain.",
+      "d": "The angles of incidence and reflection would no longer be equal."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 85,
+    "question": "Two sound waves, P and Q, have the same frequency and travel in the same medium. Wave P has a larger amplitude than Wave Q. What can you conclude about the sound produced by wave P compared to wave Q?",
+    "options": {
+      "a": "Wave P produces a higher pitch sound than wave Q.",
+      "b": "Wave P produces a louder sound than wave Q.",
+      "c": "Wave P travels faster than wave Q.",
+      "d": "Wave P has a longer wavelength than wave Q."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 86,
+    "question": "A bat emits ultrasound to navigate and hunt. If the bat is chasing a flying insect, and the time taken for the echo to return from the insect decreases, what does this imply about the bat's distance from the insect?",
+    "options": {
+      "a": "The bat is moving away from the insect.",
+      "b": "The bat is moving closer to the insect.",
+      "c": "The insect is stationary.",
+      "d": "The insect is moving towards the bat, but the bat is stationary."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 87,
+    "question": "Consider the propagation of sound through air. If the density of particles in a particular region of air is very high, what can be inferred about the pressure in that region?",
+    "options": {
+      "a": "The pressure in that region will be low, indicating a rarefaction.",
+      "b": "The pressure will be zero, as particles are crowded.",
+      "c": "The pressure is unrelated to the density of particles.",
+      "d": "The pressure in that region will be high, indicating a compression."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 88,
+    "question": "Why is ultrasonography a valuable tool for examining a foetus during pregnancy to detect congenital defects and growth abnormalities?",
+    "options": {
+      "a": "It provides a direct view of the foetus using visible light.",
+      "b": "It uses high-energy radiation that can directly correct defects.",
+      "c": "Ultrasonic waves are non-ionizing and can travel through tissues, reflecting to form images without harming the foetus.",
+      "d": "It measures the electrical activity of the foetus."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 89,
+    "question": "A person has hearing loss and uses a hearing aid. The hearing aid suddenly stops working. Upon inspection, it is found that the battery is dead. Which part of the hearing aid's function is directly affected by this issue?",
+    "options": {
+      "a": "The microphone's ability to convert sound waves to electrical signals.",
+      "b": "The amplifier's ability to amplify electrical signals.",
+      "c": "The speaker's ability to convert electrical signals to sound.",
+      "d": "All of the above, as the device is electronic and battery-operated."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 90,
+    "question": "If a sound wave's frequency is halved while its speed remains constant, what must happen to its wavelength?",
+    "options": {
+      "a": "It will be halved.",
+      "b": "It will be doubled.",
+      "c": "It will remain the same.",
+      "d": "It will be quadrupled."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "When you observe waves on the surface of water after dropping a pebble, you see particles moving up and down. How does this compare to the motion of particles in a sound wave?",
+    "options": {
+      "a": "Both water waves and sound waves have particles moving parallel to wave propagation.",
+      "b": "Water waves are transverse, with particles moving perpendicular, while sound waves are longitudinal, with particles moving parallel.",
+      "c": "Both water waves and sound waves have particles moving perpendicular to wave propagation.",
+      "d": "Water waves are mechanical, but sound waves are not."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "An orchestra has various instruments. If a trumpet and a shehnai are played, both producing notes of similar pitch and loudness, how does the sound from these two instruments typically differ?",
+    "options": {
+      "a": "They will have different speeds in air.",
+      "b": "They will have different frequencies.",
+      "c": "They will have different amplitudes.",
+      "d": "They will have different qualities or timbers."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 93,
+    "question": "A person is shouting loudly in an open field, and another person at a distance can hear them. If the first person whispers, the sound would not travel as far. What wave characteristic is primarily responsible for this difference in how far the sound travels?",
+    "options": {
+      "a": "Frequency",
+      "b": "Wavelength",
+      "c": "Amplitude",
+      "d": "Speed"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 94,
+    "question": "The process of cleaning hard-to-reach parts like spiral tubes using ultrasound is mentioned. What property of ultrasound makes it effective for this purpose?",
+    "options": {
+      "a": "Its ability to be easily absorbed by dirt particles.",
+      "b": "Its high frequency causing particles of dust, grease, and dirt to detach.",
+      "c": "Its low speed allowing for thorough cleaning.",
+      "d": "Its ability to heat up the cleaning solution rapidly."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "If a person is listening to sound in a room with highly reflective surfaces, what might be the undesirable effect mentioned in the lesson?",
+    "options": {
+      "a": "Reduced sound clarity due to excessive reverberation.",
+      "b": "Sound waves being completely absorbed by the surfaces.",
+      "c": "Conversion of sound energy into light energy.",
+      "d": "Increase in the pitch of the sound."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 96,
+    "question": "How can the sound produced by human vocal cords be described in terms of vibration?",
+    "options": {
+      "a": "The vocal cords vibrate only in one direction.",
+      "b": "The vocal cords produce vibrations but do not directly produce sound.",
+      "c": "The human voice is produced due to rapid to and fro vibrations in the vocal cords.",
+      "d": "The vocal cords vibrate due to external air currents."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "A wave is described as a disturbance that moves through a medium, setting neighbouring particles into motion, but the particles themselves do not move forward. This characteristic suggests that sound can be visualised as what?",
+    "options": {
+      "a": "A particle stream.",
+      "b": "An energy transfer without mass transfer.",
+      "c": "A stationary phenomenon.",
+      "d": "A continuous flow of matter."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "If a large needle and thread are used to suspend a small plastic ball, and a vibrating tuning fork gently touches it (as in Fig. 11.1), what is the most significant observation for understanding sound?",
+    "options": {
+      "a": "The ball heats up due to the vibrating fork.",
+      "b": "The ball is repelled by the fork, showing energy transfer.",
+      "c": "The ball is set into motion, demonstrating that the vibrating fork transfers its vibration to the ball.",
+      "d": "The thread breaks due to the strong vibration."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 99,
+    "question": "Why is it that sounds produced by whales and elephants, which are described as being in the infrasound range, are not audible to human ears?",
+    "options": {
+      "a": "Their frequencies are too high for human hearing.",
+      "b": "Their frequencies are too low for human hearing.",
+      "c": "Their sounds are produced in a vacuum.",
+      "d": "Their sounds have very low amplitude."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "Imagine you are trying to listen to very faint sounds. Would you prefer a medium where sound travels very fast or very slow?",
+    "options": {
+      "a": "Very fast, to hear it quickly.",
+      "b": "Very slow, to allow more time for absorption.",
+      "c": "Speed of sound does not directly affect the ability to hear faint sounds.",
+      "d": "Very fast, to increase the frequency of the sound."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): Sound is produced due to vibrations of objects. Reason (R): When an object vibrates, it sets the particles of the medium around it into rapid to and fro motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): Sound waves are called mechanical waves. Reason (R): Sound waves require a material medium for their propagation.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): Compressions are regions of high pressure in a medium. Reason (R): Compressions are formed when a vibrating object moves backward, creating low pressure.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): The pitch of a sound is determined by its frequency. Reason (R): A high pitch sound corresponds to more number of compressions and rarefactions passing a fixed point per unit time.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The loudness of a sound is basically determined by its amplitude. Reason (R): Louder sound can travel a larger distance as it is associated with higher energy.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): The speed of sound decreases when we go from solid to gaseous state. Reason (R): The speed of sound in air is 344 m s\u207b\u00b9 at 22 \u00baC.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): For hearing a distinct echo, the minimum distance of the obstacle from the source of sound must be 17.2 m at 22 \u00baC. Reason (R): The sensation of sound persists in our brain for about 0.1 s.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): Excessive reverberation in a big hall is highly undesirable. Reason (R): Sound-absorbent materials are used on the roof and walls of auditoriums to reduce reverberation.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): The audible range of sound for human beings extends from about 20 Hz to 20000 Hz. Reason (R): Children under the age of five can hear up to 25 kHz.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): Earthquakes produce low-frequency infrasound before the main shock waves begin. Reason (R): This infrasound possibly alerts animals before earthquakes.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): Ultrasonic waves are used to detect cracks and flaws in metal blocks. Reason (R): Ordinary sound of longer wavelengths bends around the corners of defective locations.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): Ultrasonography is used for examining the foetus during pregnancy. Reason (R): It helps in detecting congenital defects and growth abnormalities without harmful radiation.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): Light is a transverse wave. Reason (R): For light, oscillations are of the medium particles or their pressure or density.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): Sound travels as successive compressions and rarefactions in the medium. Reason (R): A compression is a region of high pressure, while a rarefaction is a region of low pressure.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): The quality or timbre of sound enables us to distinguish one sound from another. Reason (R): Pitch and loudness are the only characteristics that define a sound.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): The speed of sound remains almost the same for all frequencies in a given medium under the same physical conditions. Reason (R): Speed of sound depends primarily on the nature and temperature of the transmitting medium.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Stethoscopes utilize multiple reflection of sound. Reason (R): They are used to send sound in a particular direction without spreading it in all directions.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): The SI unit of frequency is hertz (Hz). Reason (R): Heinrich Rudolph Hertz confirmed J.C. Maxwell\u2019s electromagnetic theory.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): A sound of single frequency is called a tone. Reason (R): Music is pleasant to hear and is of rich quality.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): Sound waves are longitudinal waves. Reason (R): In longitudinal waves, the individual particles of the medium move in a direction perpendicular to the direction of propagation of the disturbance.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): People with hearing loss may need a hearing aid. Reason (R): A hearing aid converts amplified electrical signals to sound and sends it to the ear for clear hearing.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): The wavelength of a sound wave is inversely proportional to its frequency when speed is constant. Reason (R): The speed (v), frequency (\u03bd), and wavelength (\u03bb) of sound are related by the equation, v = \u03bb\u03bd.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 124,
+    "question": "Assertion (A): Sound can be heard faster on a hotter day. Reason (R): In any medium, as temperature increases, the speed of sound increases.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): The period of oscillation of a pendulum can be heard by humans if it is vibrating. Reason (R): Rhinoceroses communicate using infrasound of frequency as low as 5 Hz.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): Sound travels through the medium by particles moving from the source to the listener. Reason (R): Sound is a wave that carries disturbance, not matter, forward.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): The intensity of sound is a measure of the response of the ear to the sound. Reason (R): Loudness is the amount of sound energy passing each second through unit area.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): Megaphones are designed to send sound in a particular direction. Reason (R): They use reflection of sound to guide most of the sound waves from the source in the forward direction.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): Ultrasound is generally used to clean parts located in hard-to-reach places. Reason (R): Due to the high frequency of ultrasonic waves, particles of dust, grease, and dirt get detached and drop out.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): The density of the medium oscillates between a maximum and a minimum value during sound propagation. Reason (R): Sound propagates as density variations or pressure variations in the medium.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
   }
 ]

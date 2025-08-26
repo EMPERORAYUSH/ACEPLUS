@@ -1,0 +1,1454 @@
+[
+  {
+    "question_number": 1,
+    "question": "Which of the following defines a parallelogram?",
+    "options": {
+      "a": "A quadrilateral with four equal sides.",
+      "b": "A quadrilateral with four equal angles.",
+      "c": "A quadrilateral in which both pairs of opposite sides are parallel.",
+      "d": "A quadrilateral in which only one pair of opposite sides is parallel."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 2,
+    "question": "How does a diagonal divide a parallelogram?",
+    "options": {
+      "a": "Into two equal triangles.",
+      "b": "Into two congruent triangles.",
+      "c": "Into two similar triangles.",
+      "d": "Into two triangles with equal areas but not necessarily congruent."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 3,
+    "question": "In a parallelogram, what is the relationship between its opposite sides?",
+    "options": {
+      "a": "They are perpendicular.",
+      "b": "They are equal.",
+      "c": "They bisect each other.",
+      "d": "They are parallel but not necessarily equal."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 4,
+    "question": "What is the converse of the statement: \"If a quadrilateral is a parallelogram, then each pair of its opposite sides is equal\"?",
+    "options": {
+      "a": "If each pair of opposite sides of a quadrilateral is equal, then it is a parallelogram.",
+      "b": "If a quadrilateral is a parallelogram, then its diagonals bisect each other.",
+      "c": "If a quadrilateral has equal opposite sides, then its opposite angles are equal.",
+      "d": "If a quadrilateral is not a parallelogram, then its opposite sides are not equal."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 5,
+    "question": "Which property describes the opposite angles of a parallelogram?",
+    "options": {
+      "a": "They are supplementary.",
+      "b": "They are complementary.",
+      "c": "They are equal.",
+      "d": "They bisect each other."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 6,
+    "question": "If in a quadrilateral, each pair of opposite angles is equal, what kind of quadrilateral is it?",
+    "options": {
+      "a": "A rhombus.",
+      "b": "A trapezium.",
+      "c": "A rectangle.",
+      "d": "A parallelogram."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 7,
+    "question": "What is true about the diagonals of a parallelogram?",
+    "options": {
+      "a": "They are equal.",
+      "b": "They are perpendicular.",
+      "c": "They bisect each other.",
+      "d": "They are parallel."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 8,
+    "question": "What is a rectangle defined as, based on the lesson?",
+    "options": {
+      "a": "A parallelogram in which one angle is a right angle.",
+      "b": "A quadrilateral with all four sides equal.",
+      "c": "A quadrilateral with equal diagonals.",
+      "d": "A parallelogram with perpendicular diagonals."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 9,
+    "question": "What specific property do the diagonals of a rhombus possess?",
+    "options": {
+      "a": "They are equal in length.",
+      "b": "They are perpendicular to each other.",
+      "c": "They bisect the angles of the rhombus.",
+      "d": "They form four right-angled triangles."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 10,
+    "question": "What does the Mid-point Theorem (Theorem 8.8) state about the line segment joining the mid-points of two sides of a triangle?",
+    "options": {
+      "a": "It is perpendicular to the third side.",
+      "b": "It is equal to the third side.",
+      "c": "It is parallel to the third side.",
+      "d": "It bisects the third side."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 11,
+    "question": "According to Theorem 8.8, what is the length relationship between the line segment joining the mid-points of two sides of a triangle and the third side?",
+    "options": {
+      "a": "It is equal to the third side.",
+      "b": "It is half of the third side.",
+      "c": "It is twice the third side.",
+      "d": "It is one-third of the third side."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 12,
+    "question": "What is the converse of Theorem 8.8 (Mid-point Theorem)?",
+    "options": {
+      "a": "The line segment joining the mid-points of two sides of a triangle is perpendicular to the third side.",
+      "b": "A line drawn through the mid-point of one side of a triangle, parallel to another side, bisects the third side.",
+      "c": "If a line bisects two sides of a triangle, it is parallel to the third side.",
+      "d": "If a line is parallel to one side of a triangle, it must pass through the mid-point of another side."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 13,
+    "question": "In the proof of Theorem 8.1 (diagonal divides parallelogram into congruent triangles), what congruence rule is primarily used?",
+    "options": {
+      "a": "SSS rule.",
+      "b": "SAS rule.",
+      "c": "ASA rule.",
+      "d": "RHS rule."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 14,
+    "question": "If the diagonals of a quadrilateral bisect each other, then the quadrilateral is necessarily a:",
+    "options": {
+      "a": "Rhombus.",
+      "b": "Rectangle.",
+      "c": "Parallelogram.",
+      "d": "Trapezium."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 15,
+    "question": "According to the summary, what is true about the diagonals of a rectangle?",
+    "options": {
+      "a": "They are perpendicular.",
+      "b": "They are equal and bisect each other.",
+      "c": "They bisect each other at right angles.",
+      "d": "They are parallel."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 16,
+    "question": "According to the summary, what is true about the diagonals of a square?",
+    "options": {
+      "a": "They are equal but do not bisect each other.",
+      "b": "They bisect each other at right angles but are not necessarily equal.",
+      "c": "They are equal and bisect each other at right angles.",
+      "d": "They are perpendicular but do not bisect each other."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 17,
+    "question": "When a parallelogram ABCD is given, and AB || DC, which other pair of sides must also be parallel by definition?",
+    "options": {
+      "a": "AC || BD.",
+      "b": "AD || BC.",
+      "c": "AB || AD.",
+      "d": "BC || CD."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 18,
+    "question": "What is the sum of any two adjacent angles in a parallelogram?",
+    "options": {
+      "a": "90\u00b0.",
+      "b": "180\u00b0.",
+      "c": "270\u00b0.",
+      "d": "360\u00b0."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 20,
+    "question": "In a rhombus ABCD, if O is the intersection point of diagonals, what can be said about \u2220AOD?",
+    "options": {
+      "a": "It is acute.",
+      "b": "It is obtuse.",
+      "c": "It is a right angle.",
+      "d": "It varies depending on the rhombus."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 21,
+    "question": "Which of the following is NOT a property of a parallelogram listed in the summary?",
+    "options": {
+      "a": "Opposite sides are equal.",
+      "b": "Diagonals are perpendicular.",
+      "c": "Opposite angles are equal.",
+      "d": "Diagonals bisect each other."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 22,
+    "question": "What type of quadrilateral is formed by the bisectors of the interior angles when two parallel lines are intersected by a transversal?",
+    "options": {
+      "a": "A rhombus.",
+      "b": "A square.",
+      "c": "A rectangle.",
+      "d": "A parallelogram that is not a rectangle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 24,
+    "question": "If D, E, and F are respectively the mid-points of sides AB, BC, and CA of a triangle ABC, how many congruent triangles are formed by joining D, E, and F?",
+    "options": {
+      "a": "Two.",
+      "b": "Three.",
+      "c": "Four.",
+      "d": "Six."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 25,
+    "question": "In triangle ABC, if M is the mid-point of hypotenuse AB and a line through M is parallel to BC, intersecting AC at D, what can be concluded about D?",
+    "options": {
+      "a": "D is the mid-point of BC.",
+      "b": "D is the mid-point of AC.",
+      "c": "D is the vertex of a parallelogram.",
+      "d": "D is the foot of the altitude from A."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 26,
+    "question": "In a trapezium ABCD where AB || CD and AD = BC, which angles are equal according to the lesson's exercise?",
+    "options": {
+      "a": "\u2220A = \u2220C.",
+      "b": "\u2220B = \u2220D.",
+      "c": "\u2220A = \u2220B.",
+      "d": "\u2220C = \u2220B."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "What is the main characteristic that differentiates a square from a rhombus?",
+    "options": {
+      "a": "A square has equal sides, a rhombus does not.",
+      "b": "A square has right angles, a rhombus does not necessarily.",
+      "c": "A square's diagonals bisect each other, a rhombus's do not.",
+      "d": "A square is a parallelogram, a rhombus is not."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 28,
+    "question": "What is the minimum number of conditions required to prove a quadrilateral is a parallelogram based on its opposite sides?",
+    "options": {
+      "a": "One pair of opposite sides equal.",
+      "b": "One pair of opposite sides parallel.",
+      "c": "Both pairs of opposite sides equal.",
+      "d": "Both pairs of adjacent sides equal."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "If ABCD is a parallelogram, and AC is a diagonal, then \u2206ABC \u2245 \u2206CDA. This congruence is due to the equality of which pairs of angles?",
+    "options": {
+      "a": "\u2220BAC = \u2220DCA and \u2220ABC = \u2220ADC.",
+      "b": "\u2220BAC = \u2220DCA and \u2220BCA = \u2220DAC.",
+      "c": "\u2220BCA = \u2220DAC and \u2220ABC = \u2220CDA.",
+      "d": "\u2220BAC = \u2220BCA and \u2220DAC = \u2220DCA."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 30,
+    "question": "In parallelogram ABCD, if diagonals AC and BD intersect at O, what is true about the segments OA and OC?",
+    "options": {
+      "a": "OA > OC.",
+      "b": "OA < OC.",
+      "c": "OA = OC.",
+      "d": "OA is perpendicular to OC."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 31,
+    "question": "If a quadrilateral has opposite sides that are equal in length, what can be concluded about this quadrilateral?",
+    "options": {
+      "a": "It must be a rhombus.",
+      "b": "It must be a rectangle.",
+      "c": "It must be a parallelogram.",
+      "d": "It must be a square."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 32,
+    "question": "What is the term for interior angles on the same side of a transversal intersecting parallel lines?",
+    "options": {
+      "a": "Alternate interior angles.",
+      "b": "Corresponding angles.",
+      "c": "Consecutive interior angles.",
+      "d": "Vertically opposite angles."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 33,
+    "question": "If the diagonals of a parallelogram are equal, what type of parallelogram is it?",
+    "options": {
+      "a": "A rhombus.",
+      "b": "A square.",
+      "c": "A rectangle.",
+      "d": "A general parallelogram."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 34,
+    "question": "What specific property makes a square different from a rectangle?",
+    "options": {
+      "a": "Its diagonals bisect each other.",
+      "b": "Its opposite sides are equal.",
+      "c": "All its sides are equal.",
+      "d": "All its angles are 90 degrees."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 35,
+    "question": "What is the relationship between the perimeter of a triangle and the perimeter of the triangle formed by joining the mid-points of its sides?",
+    "options": {
+      "a": "The perimeter of the inner triangle is equal to the outer triangle.",
+      "b": "The perimeter of the inner triangle is half of the outer triangle.",
+      "c": "The perimeter of the inner triangle is twice the outer triangle.",
+      "d": "There is no fixed relationship."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 36,
+    "question": "In a parallelogram ABCD, if \u2220A = 75\u00b0, what is the measure of \u2220B?",
+    "options": {
+      "a": "75\u00b0",
+      "b": "105\u00b0",
+      "c": "90\u00b0",
+      "d": "150\u00b0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "In parallelogram PQRS, if PQ = 8 cm, what is the length of RS?",
+    "options": {
+      "a": "4 cm",
+      "b": "8 cm",
+      "c": "12 cm",
+      "d": "16 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 38,
+    "question": "The diagonals of a parallelogram ABCD intersect at O. If AO = 5 cm, what is the length of AC?",
+    "options": {
+      "a": "5 cm",
+      "b": "10 cm",
+      "c": "2.5 cm",
+      "d": "15 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 39,
+    "question": "In triangle XYZ, M and N are the mid-points of sides XY and XZ respectively. If YZ = 12 cm, what is the length of MN?",
+    "options": {
+      "a": "6 cm",
+      "b": "12 cm",
+      "c": "8 cm",
+      "d": "24 cm"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 40,
+    "question": "In a rectangle ABCD, if one angle, \u2220A, is 90\u00b0, what is the measure of \u2220C?",
+    "options": {
+      "a": "45\u00b0",
+      "b": "90\u00b0",
+      "c": "180\u00b0",
+      "d": "Cannot be determined."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 41,
+    "question": "A quadrilateral has opposite sides measuring 7 cm and 7 cm, and 9 cm and 9 cm. What type of quadrilateral is it?",
+    "options": {
+      "a": "Rhombus",
+      "b": "Rectangle",
+      "c": "Parallelogram",
+      "d": "Trapezium"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "In parallelogram DEFG, if \u2220D = (3x + 10)\u00b0 and \u2220F = (5x - 20)\u00b0, find the value of x.",
+    "options": {
+      "a": "10",
+      "b": "15",
+      "c": "20",
+      "d": "25"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 43,
+    "question": "The perimeter of a parallelogram is 40 cm. If one side measures 12 cm, what is the length of the adjacent side?",
+    "options": {
+      "a": "8 cm",
+      "b": "12 cm",
+      "c": "10 cm",
+      "d": "16 cm"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 44,
+    "question": "In triangle PQR, T is the midpoint of PQ. A line is drawn through T parallel to QR, intersecting PR at U. If PR = 10 cm, what is the length of PU?",
+    "options": {
+      "a": "2.5 cm",
+      "b": "5 cm",
+      "c": "10 cm",
+      "d": "7.5 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 45,
+    "question": "If the diagonals of a quadrilateral bisect each other, and one diagonal is 16 cm while the other is 10 cm, what type of quadrilateral is it?",
+    "options": {
+      "a": "Rhombus",
+      "b": "Rectangle",
+      "c": "Square",
+      "d": "Parallelogram"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 46,
+    "question": "In a rhombus KLMN, diagonals intersect at O. What is the measure of \u2220KOL?",
+    "options": {
+      "a": "45\u00b0",
+      "b": "60\u00b0",
+      "c": "90\u00b0",
+      "d": "180\u00b0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 47,
+    "question": "If the diagonals of a parallelogram are equal, and one diagonal is 15 cm, what is the length of the other diagonal?",
+    "options": {
+      "a": "7.5 cm",
+      "b": "10 cm",
+      "c": "15 cm",
+      "d": "30 cm"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 48,
+    "question": "In parallelogram ABCD, \u2220A = (x + 30)\u00b0 and \u2220C = (2x - 10)\u00b0. Find the value of x.",
+    "options": {
+      "a": "20",
+      "b": "30",
+      "c": "40",
+      "d": "50"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 49,
+    "question": "Triangle ABC has D, E, and F as mid-points of sides AB, BC, and CA respectively. If the perimeter of \u2206ABC is 24 cm, what is the perimeter of \u2206DEF?",
+    "options": {
+      "a": "6 cm",
+      "b": "12 cm",
+      "c": "18 cm",
+      "d": "24 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 50,
+    "question": "In parallelogram ABCD, if AB = 10 cm and AD = 6 cm, what is the length of CD?",
+    "options": {
+      "a": "6 cm",
+      "b": "8 cm",
+      "c": "10 cm",
+      "d": "12 cm"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 51,
+    "question": "If a quadrilateral has opposite angles measuring 60\u00b0, 120\u00b0, 60\u00b0, and 120\u00b0, what type of quadrilateral is it?",
+    "options": {
+      "a": "Rectangle",
+      "b": "Rhombus",
+      "c": "Parallelogram",
+      "d": "Trapezium"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 52,
+    "question": "ABCD is a square. If AC is a diagonal with length 8 cm, what is the length of BD?",
+    "options": {
+      "a": "4 cm",
+      "b": "8 cm",
+      "c": "16 cm",
+      "d": "Cannot be determined."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "In a triangle XYZ, P is the mid-point of XY. A line through P parallel to YZ intersects XZ at Q. If XQ = 4 cm, what is the length of XZ?",
+    "options": {
+      "a": "2 cm",
+      "b": "4 cm",
+      "c": "8 cm",
+      "d": "12 cm"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 54,
+    "question": "If the diagonals of a quadrilateral are 10 cm and 10 cm, and they bisect each other, what specific type of quadrilateral is it?",
+    "options": {
+      "a": "Rhombus",
+      "b": "Rectangle",
+      "c": "Square",
+      "d": "Parallelogram"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 55,
+    "question": "In a parallelogram ABCD, \u2220A = 2x + 10 and \u2220B = 3x - 30. Find the measure of \u2220A.",
+    "options": {
+      "a": "70\u00b0",
+      "b": "80\u00b0",
+      "c": "100\u00b0",
+      "d": "110\u00b0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 56,
+    "question": "In parallelogram ABCD, if diagonal AC bisects \u2220A, what is the specific type of parallelogram ABCD?",
+    "options": {
+      "a": "Rectangle",
+      "b": "Square",
+      "c": "Rhombus",
+      "d": "Trapezium"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 57,
+    "question": "Three parallel lines l, m, and n cut off equal intercepts on transversal p. If line l and m cut off 5 cm on transversal p, what length will m and n cut off on p?",
+    "options": {
+      "a": "2.5 cm",
+      "b": "5 cm",
+      "c": "10 cm",
+      "d": "Cannot be determined."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 58,
+    "question": "In triangle ABC, D is the mid-point of AB and E is the mid-point of BC. If AC = 14 cm, what is the length of DE?",
+    "options": {
+      "a": "7 cm",
+      "b": "14 cm",
+      "c": "3.5 cm",
+      "d": "28 cm"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 59,
+    "question": "If a quadrilateral has diagonals that bisect each other at right angles, and one diagonal is 10 cm while the other is 10 cm, what type of quadrilateral is it?",
+    "options": {
+      "a": "Rhombus but not a square",
+      "b": "Rectangle but not a square",
+      "c": "Square",
+      "d": "Parallelogram only"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 60,
+    "question": "In a trapezium ABCD, AB || DC, and E is the mid-point of AD. A line is drawn through E parallel to AB, intersecting BC at F. What can be concluded about F?",
+    "options": {
+      "a": "F is the mid-point of DC.",
+      "b": "F is the mid-point of AB.",
+      "c": "F is the mid-point of BC.",
+      "d": "F is the mid-point of BD."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 61,
+    "question": "In parallelogram ABCD, if \u2220A = 90\u00b0, what is the measure of \u2220D?",
+    "options": {
+      "a": "45\u00b0",
+      "b": "90\u00b0",
+      "c": "180\u00b0",
+      "d": "0\u00b0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 62,
+    "question": "A parallelogram ABCD has sides AB = 7 cm and AD = 4 cm. What is the perimeter of the parallelogram?",
+    "options": {
+      "a": "11 cm",
+      "b": "22 cm",
+      "c": "14 cm",
+      "d": "28 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 64,
+    "question": "Given a parallelogram with diagonals AC and BD intersecting at O. If OC = (2x - 3) cm and OA = (x + 2) cm, find the value of x.",
+    "options": {
+      "a": "1",
+      "b": "3",
+      "c": "5",
+      "d": "7"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "In \u2206ABC, M is the mid-point of hypotenuse AB and MD || BC, where D is on AC. What is the measure of \u2220MDA?",
+    "options": {
+      "a": "30\u00b0",
+      "b": "45\u00b0",
+      "c": "60\u00b0",
+      "d": "90\u00b0"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 66,
+    "question": "A quadrilateral has opposite sides equal, and its diagonals are equal. What type of quadrilateral is it?",
+    "options": {
+      "a": "Rhombus",
+      "b": "Square",
+      "c": "Rectangle",
+      "d": "Parallelogram"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "In parallelogram ABCD, AP and CQ are perpendiculars from vertices A and C on diagonal BD. Which pair of triangles are congruent?",
+    "options": {
+      "a": "\u2206 APB and \u2206 CQB",
+      "b": "\u2206 APD and \u2206 CQD",
+      "c": "\u2206 APB and \u2206 CQD",
+      "d": "\u2206 APD and \u2206 CQB"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "If a quadrilateral has opposite angles of (2y+10)\u00b0 and (3y-40)\u00b0, and it is a parallelogram, find the value of y.",
+    "options": {
+      "a": "50",
+      "b": "30",
+      "c": "60",
+      "d": "40"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 69,
+    "question": "In an isosceles triangle ABC where AB=AC, AD bisects exterior angle PAC, and CD || AB. Which pair of angles are equal due to the angle bisector?",
+    "options": {
+      "a": "\u2220DAC = \u2220BAC",
+      "b": "\u2220DAC = \u2220ABC",
+      "c": "\u2220DAC = \u2220BCA",
+      "d": "\u2220DAC = \u2220ACD"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "If a quadrilateral has all sides equal, and one angle is 90 degrees, what is it?",
+    "options": {
+      "a": "Rhombus",
+      "b": "Rectangle",
+      "c": "Square",
+      "d": "Parallelogram"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "A carpenter needs to verify if a wooden frame is a perfect parallelogram. Which of the following measurements would be sufficient to confirm it's a parallelogram?",
+    "options": {
+      "a": "Measure all four interior angles.",
+      "b": "Measure the lengths of all four sides.",
+      "c": "Measure the lengths of the two diagonals and check if they are equal.",
+      "d": "Measure the lengths of the two diagonals and check if they bisect each other."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 72,
+    "question": "A gardener is planning a triangular flower bed. She wants to plant a row of special flowers along a line segment connecting the midpoints of two sides of the triangle. If the third side of the flower bed is 10 meters long, what will be the length of this row of special flowers?",
+    "options": {
+      "a": "5 meters",
+      "b": "10 meters",
+      "c": "15 meters",
+      "d": "20 meters"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 73,
+    "question": "A student is drawing a quadrilateral. They ensure that the diagonals intersect each other exactly at their midpoints. What type of quadrilateral has the student drawn?",
+    "options": {
+      "a": "A rhombus.",
+      "b": "A rectangle.",
+      "c": "A parallelogram.",
+      "d": "A trapezium."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "A map designer needs to draw a rectangular region. To ensure it is rectangular, he first ensures it is a parallelogram. What additional check, related to angles, must he perform to guarantee it's a rectangle?",
+    "options": {
+      "a": "Check if all angles are acute.",
+      "b": "Check if one angle is 90\u00b0.",
+      "c": "Check if opposite angles are supplementary.",
+      "d": "Check if the sum of all angles is 360\u00b0."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 75,
+    "question": "A robotic arm is designed to move its joints such that its base, two intermediate points, and the end effector form a quadrilateral. If the design requires this quadrilateral to always be a parallelogram, and the angle formed at the base is 80\u00b0, what should be the angle formed at the opposite joint?",
+    "options": {
+      "a": "80\u00b0",
+      "b": "100\u00b0",
+      "c": "90\u00b0",
+      "d": "160\u00b0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 76,
+    "question": "A tailor is cutting fabric for a design. She has a piece of cloth shaped like a parallelogram. She wants to cut it into two congruent pieces along one of its diagonals. Why will these two pieces be congruent?",
+    "options": {
+      "a": "Because corresponding sides of the parallelogram are equal.",
+      "b": "Because the diagonal creates two triangles with equal areas.",
+      "c": "Because a diagonal divides a parallelogram into two congruent triangles.",
+      "d": "Because the cut ensures all angles are equal."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "A city square has a quadrilateral shape. The city council wants to verify if it is a perfect rhombus. They measure all four sides and find them equal. What additional measurement related to diagonals would confirm it's a rhombus, not just a square (if it also has right angles)?",
+    "options": {
+      "a": "Check if diagonals bisect each other.",
+      "b": "Check if diagonals are equal.",
+      "c": "Check if diagonals are perpendicular to each other.",
+      "d": "Check if diagonals are parallel."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 78,
+    "question": "A person is walking a path that forms a quadrilateral ABCD. They observe that AB is parallel to CD, and AD is parallel to BC. What can they immediately conclude about the shape of their path?",
+    "options": {
+      "a": "It is a rectangle.",
+      "b": "It is a rhombus.",
+      "c": "It is a parallelogram.",
+      "d": "It is a trapezium."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 79,
+    "question": "A student is constructing a quadrilateral using sticks. He has two sticks of 5 cm and two sticks of 8 cm. He arranges them so that opposite sticks are of the same length. What type of quadrilateral will he form?",
+    "options": {
+      "a": "Rhombus.",
+      "b": "Rectangle.",
+      "c": "Square.",
+      "d": "Parallelogram."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 80,
+    "question": "To design a flag in the shape of a rhombus, an artist needs to ensure its diagonals have a specific relationship. Which relationship is crucial for a rhombus?",
+    "options": {
+      "a": "They are equal in length.",
+      "b": "They are parallel.",
+      "c": "They bisect each other at right angles.",
+      "d": "They bisect the angles only."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "A land surveyor finds that a plot of land is triangular. He wants to divide it into two smaller plots by drawing a line from the midpoint of one side, parallel to another side, until it meets the third side. What effect will this line have on the third side?",
+    "options": {
+      "a": "It will bisect the third side.",
+      "b": "It will be perpendicular to the third side.",
+      "c": "It will be equal in length to the third side.",
+      "d": "It will be twice the length of the third side."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 82,
+    "question": "A craftsman is making a square window frame. He has already ensured all four sides are equal. What additional property of diagonals must he check to confirm it is a square, and not just a rhombus?",
+    "options": {
+      "a": "Diagonals bisect each other.",
+      "b": "Diagonals are perpendicular.",
+      "c": "Diagonals are equal.",
+      "d": "Diagonals are parallel."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "A piece of cardboard is shaped like a parallelogram. If one interior angle is measured as 110 degrees, what is the measure of the angle adjacent to it?",
+    "options": {
+      "a": "110 degrees",
+      "b": "70 degrees",
+      "c": "90 degrees",
+      "d": "250 degrees"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 84,
+    "question": "A civil engineer is designing a section of road. He plans to use three parallel lines for the road markings. If these parallel lines cut off equal segments on a crossing pedestrian path, what can he expect about the segments cut off on a crossing bicycle lane?",
+    "options": {
+      "a": "They will be half the length.",
+      "b": "They will also be equal in length.",
+      "c": "They will be twice the length.",
+      "d": "They will be perpendicular to the road."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 85,
+    "question": "A quadrilateral-shaped plot of land has its midpoints of its sides connected to form an inner quadrilateral. What kind of shape will this inner quadrilateral always be, regardless of the outer quadrilateral's specific type?",
+    "options": {
+      "a": "A rectangle.",
+      "b": "A rhombus.",
+      "c": "A parallelogram.",
+      "d": "A square."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "A puzzle piece is shaped like a triangle. If you connect the midpoints of its three sides, you form a smaller triangle inside. How many congruent triangles are formed within the original puzzle piece by this action?",
+    "options": {
+      "a": "One.",
+      "b": "Two.",
+      "c": "Three.",
+      "d": "Four."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 87,
+    "question": "A gardener observes that a rectangular flower bed has diagonals that are equal in length. Which property of a rectangle does this observation confirm?",
+    "options": {
+      "a": "Its sides are equal.",
+      "b": "Its angles are right angles.",
+      "c": "Its diagonals bisect each other.",
+      "d": "Its diagonals are equal."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 88,
+    "question": "A graphic designer wants to create a logo that is a parallelogram with one angle exactly 90 degrees. What specific type of parallelogram will this logo be?",
+    "options": {
+      "a": "A rhombus.",
+      "b": "A square.",
+      "c": "A rectangle.",
+      "d": "A trapezium."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 90,
+    "question": "A chef is cutting a piece of dough shaped like a rhombus. To get precise triangular pieces, she cuts along both diagonals. How will these diagonals intersect each other?",
+    "options": {
+      "a": "They will be parallel.",
+      "b": "They will be equal in length.",
+      "c": "They will bisect each other at right angles.",
+      "d": "They will bisect each other at acute angles."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 91,
+    "question": "A surveyor measures a field and finds that its opposite angles are equal. What type of field shape is this?",
+    "options": {
+      "a": "Rhombus",
+      "b": "Square",
+      "c": "Parallelogram",
+      "d": "Rectangle"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 92,
+    "question": "A student wants to draw a square. They first draw a parallelogram with all sides equal. What additional property must they ensure to make it a square?",
+    "options": {
+      "a": "Diagonals bisect each other.",
+      "b": "Opposite angles are equal.",
+      "c": "One angle is 90 degrees.",
+      "d": "Diagonals are perpendicular."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "A quadrilateral has diagonals that bisect each other. What property does this imply about the quadrilateral's opposite sides?",
+    "options": {
+      "a": "They are equal in length.",
+      "b": "They are perpendicular.",
+      "c": "They are parallel.",
+      "d": "They bisect each other."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 94,
+    "question": "If a quadrilateral has equal diagonals that bisect each other, what can be concluded about its angles?",
+    "options": {
+      "a": "All angles are acute.",
+      "b": "All angles are obtuse.",
+      "c": "All angles are right angles.",
+      "d": "Only opposite angles are equal."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "A frame is in the shape of a rhombus. If its midpoints of sides are joined to form an inner quadrilateral, what type of shape will this inner quadrilateral be?",
+    "options": {
+      "a": "A square.",
+      "b": "A rectangle.",
+      "c": "A rhombus.",
+      "d": "A parallelogram that is not a rectangle."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 97,
+    "question": "A quadrilateral ABCD is given where AB || CD and AD || BC. If you are also told that AC = BD, what specific type of quadrilateral is ABCD?",
+    "options": {
+      "a": "A rhombus.",
+      "b": "A square.",
+      "c": "A rectangle.",
+      "d": "A general parallelogram."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 98,
+    "question": "Can a quadrilateral have opposite sides equal but opposite angles not equal?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, if opposite sides are equal, it must be a parallelogram, and thus opposite angles are equal.",
+      "c": "Only if it is a trapezium.",
+      "d": "Only if it is a kite."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "Why is a square classified as both a rectangle and a rhombus?",
+    "options": {
+      "a": "Because it has four equal sides (rhombus property) and four right angles (rectangle property).",
+      "b": "Because its diagonals bisect each other (parallelogram property).",
+      "c": "Because its opposite sides are parallel and equal (parallelogram property).",
+      "d": "Because it is the most general type of quadrilateral."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 100,
+    "question": "If the diagonals of a quadrilateral bisect each other, does it necessarily mean that the diagonals are equal in length?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, only if the quadrilateral is a rectangle or a square.",
+      "c": "Yes, if it is a rhombus.",
+      "d": "No, only if the quadrilateral is a trapezium."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 101,
+    "question": "Why is the sum of any two adjacent angles in a parallelogram always 180 degrees?",
+    "options": {
+      "a": "Because opposite angles are equal.",
+      "b": "Because the diagonals bisect each other.",
+      "c": "Because they are interior angles on the same side of a transversal intersecting parallel lines.",
+      "d": "Because the parallelogram has 360 degrees in total."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 102,
+    "question": "If a quadrilateral is shown to have diagonals that bisect each other at right angles, what is the most specific classification that can be made without further information about side lengths?",
+    "options": {
+      "a": "It is a rectangle.",
+      "b": "It is a square.",
+      "c": "It is a rhombus.",
+      "d": "It is a parallelogram."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 103,
+    "question": "What is the significance of proving that a diagonal divides a parallelogram into two congruent triangles?",
+    "options": {
+      "a": "It directly proves that the diagonals are equal.",
+      "b": "It shows that opposite angles are supplementary.",
+      "c": "It establishes that opposite sides and opposite angles are equal through CPCTC.",
+      "d": "It proves that the parallelogram is also a rectangle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 105,
+    "question": "If a line segment connects the midpoints of two sides of a triangle, it is parallel to the third side and half its length. What is the fundamental reason it is half the length?",
+    "options": {
+      "a": "It's a property of congruent triangles formed.",
+      "b": "It's derived from similar triangles.",
+      "c": "It's a consequence of forming a parallelogram (BCDE in Fig 8.16).",
+      "d": "It's an arbitrary mathematical definition."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 106,
+    "question": "Why is it sufficient for a parallelogram to have only one right angle to be classified as a rectangle?",
+    "options": {
+      "a": "Because a single right angle implies all sides are equal.",
+      "b": "Because a single right angle means diagonals are equal.",
+      "c": "Because in a parallelogram, adjacent angles are supplementary and opposite angles are equal.",
+      "d": "Because a parallelogram already has all angles equal."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 107,
+    "question": "A quadrilateral has all four sides equal. Can it always be classified as a square?",
+    "options": {
+      "a": "Yes, by definition.",
+      "b": "No, it could be a rhombus that is not a square.",
+      "c": "Yes, if its diagonals are perpendicular.",
+      "d": "No, it could be a rectangle that is not a square."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "If the bisectors of the interior angles of a quadrilateral form a rectangle, what can be inferred about the original quadrilateral?",
+    "options": {
+      "a": "It must be a square.",
+      "b": "It must be a rhombus.",
+      "c": "It must be a rectangle.",
+      "d": "It must be a parallelogram."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 109,
+    "question": "Why are the diagonals of a square equal and bisect each other at right angles?",
+    "options": {
+      "a": "Because a square is a rectangle, and a square is a rhombus.",
+      "b": "Because all sides are equal.",
+      "c": "Because all angles are 90 degrees.",
+      "d": "Because it is a general quadrilateral."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 110,
+    "question": "Is it possible for a parallelogram to have unequal adjacent angles that are not 90 degrees?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, adjacent angles in a parallelogram are always supplementary.",
+      "c": "Yes, only if it is a rhombus.",
+      "d": "No, adjacent angles must be equal."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 111,
+    "question": "Why can't a trapezium generally be classified as a parallelogram?",
+    "options": {
+      "a": "Because its diagonals never bisect each other.",
+      "b": "Because only one pair of its opposite sides is parallel, not both.",
+      "c": "Because its angles are always unequal.",
+      "d": "Because its sides are never equal."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 112,
+    "question": "Suppose a quadrilateral has diagonals that are equal in length and bisect each other. Is this sufficient to conclude that it is a square?",
+    "options": {
+      "a": "Yes, these conditions define a square.",
+      "b": "No, it could be a rectangle that is not a square.",
+      "c": "No, it could be a rhombus that is not a square.",
+      "d": "Yes, if it also has all sides equal."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 113,
+    "question": "In Example 6, when D, E, and F are mid-points of the sides of \u2206ABC, it states that ADEF, BDFE, and DFCE are all parallelograms. Why is BDFE a parallelogram?",
+    "options": {
+      "a": "Because its opposite sides are equal.",
+      "b": "Because its diagonals bisect each other.",
+      "c": "Because both pairs of its opposite sides are parallel.",
+      "d": "Because it has one right angle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 114,
+    "question": "If a quadrilateral has all four angles equal to 90 degrees, why is it necessarily a rectangle and not just a general quadrilateral?",
+    "options": {
+      "a": "Because equal angles imply equal sides.",
+      "b": "Because the sum of angles being 360 degrees forces it to be a parallelogram.",
+      "c": "Because having all angles 90 degrees means it has parallel opposite sides.",
+      "d": "Because its diagonals must be perpendicular."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 115,
+    "question": "In the proof of Theorem 8.1, the diagonal AC divides parallelogram ABCD into \u2206ABC and \u2206CDA. If the diagonal chosen was BD instead of AC, would the conclusion still hold?",
+    "options": {
+      "a": "No, only AC divides it into congruent triangles.",
+      "b": "Yes, because any diagonal of a parallelogram divides it into two congruent triangles.",
+      "c": "No, because the congruence rule would change.",
+      "d": "Yes, but only for squares and rectangles."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): A diagonal of a parallelogram divides it into two congruent triangles.\nReason (R): When a transversal intersects two parallel lines, alternate interior angles are equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): In a parallelogram, opposite sides are equal.\nReason (R): A diagonal divides the parallelogram into two congruent triangles, and corresponding parts of congruent triangles are equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): If in a quadrilateral, each pair of opposite angles is equal, then it is a parallelogram.\nReason (R): This is the converse of the theorem stating that in a parallelogram, opposite angles are equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The diagonals of a parallelogram bisect each other.\nReason (R): The intersection point of diagonals divides each diagonal into two equal parts.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): Each angle of a rectangle is a right angle.\nReason (R): A rectangle is a parallelogram with one angle being 90 degrees, and consecutive angles of a parallelogram are supplementary.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 121,
+    "question": "Assertion (A): The line segment joining the mid-points of two sides of a triangle is parallel to the third side.\nReason (R): This is a direct statement of the Mid-point Theorem (Theorem 8.8).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 122,
+    "question": "Assertion (A): The diagonals of a rhombus are perpendicular to each other.\nReason (R): In a rhombus, all sides are equal, and this property helps in proving the congruence of triangles formed by the diagonals, leading to perpendicularity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 125,
+    "question": "Assertion (A): The quadrilateral formed by the bisectors of interior angles of two parallel lines intersected by a transversal is a rectangle.\nReason (R): The bisectors create a parallelogram with one angle being 90 degrees due to sums of linear pairs and corresponding angles.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "Assertion (A): If the diagonals of a quadrilateral bisect each other, then it is a parallelogram.\nReason (R): In a parallelogram, opposite angles are equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 127,
+    "question": "Assertion (A): In a parallelogram, opposite angles are equal.\nReason (R): A parallelogram has two pairs of parallel sides.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 128,
+    "question": "Assertion (A): The line drawn through the mid-point of one side of a triangle, parallel to another side, bisects the third side.\nReason (R): The sum of angles in a triangle is 180 degrees.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 129,
+    "question": "Assertion (A): The diagonals of a square bisect each other at right angles.\nReason (R): All angles in a square are 90 degrees.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 130,
+    "question": "Assertion (A): A rhombus is a parallelogram.\nReason (R): The diagonals of a rhombus are perpendicular.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 131,
+    "question": "Assertion (A): The quadrilateral formed by joining the mid-points of the sides of any quadrilateral is a parallelogram.\nReason (R): A quadrilateral has four sides and four vertices.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 132,
+    "question": "Assertion (A): A diagonal of a parallelogram divides it into two congruent triangles.\nReason (R): This is proven using the SSS congruence rule for all parallelograms.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 133,
+    "question": "Assertion (A): The bisectors of angles of a parallelogram form a rectangle.\nReason (R): The bisectors of angles of a parallelogram always intersect at 60 degrees.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 134,
+    "question": "Assertion (A): If the diagonals of a quadrilateral bisect each other, then this quadrilateral must be a rectangle.\nReason (R): If the diagonals of a quadrilateral bisect each other, it is a parallelogram.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 135,
+    "question": "Assertion (A): A quadrilateral in which all four sides are equal is always a square.\nReason (R): A rhombus is a quadrilateral with all four sides equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 136,
+    "question": "Assertion (A): The line segment joining the mid-points of any two sides of a triangle is half of the third side.\nReason (R): This is a direct consequence of the formation of a parallelogram and properties of its diagonal in the proof of the Mid-point Theorem.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 137,
+    "question": "Assertion (A): If a parallelogram has one right angle, then it is a rectangle.\nReason (R): In a parallelogram, opposite angles are equal and adjacent angles are supplementary.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 138,
+    "question": "Assertion (A): In a trapezium ABCD with AB || CD and AD = BC, the diagonals AC and BD are equal.\nReason (R): This is a specific property of an isosceles trapezium.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 139,
+    "question": "Assertion (A): If a quadrilateral has all four angles equal to 90 degrees, then its opposite sides are parallel.\nReason (R): Interior angles on the same side of a transversal are supplementary if and only if the lines are parallel.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 140,
+    "question": "Assertion (A): If ABCD is a parallelogram, and diagonal AC bisects \u2220A, then ABCD is a rhombus.\nReason (R): In a rhombus, diagonals bisect the angles.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true, but R is not the correct explanation of A.",
+      "c": "A is true, but R is false.",
+      "d": "A is false, but R is true."
+    },
+    "answer": "b"
+  }
+]

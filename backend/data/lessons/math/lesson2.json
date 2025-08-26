@@ -1,0 +1,1289 @@
+[
+  {
+    "question_number": 1,
+    "question": "In algebraic expressions, a symbol that can take any real value is known as a:",
+    "options": {
+      "a": "Constant",
+      "b": "Variable",
+      "c": "Coefficient",
+      "d": "Term"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 2,
+    "question": "Which of the following conditions must be true for an algebraic expression to be classified as a polynomial in one variable?",
+    "options": {
+      "a": "Exponents of the variable must be integers.",
+      "b": "Exponents of the variable must be rational numbers.",
+      "c": "Exponents of the variable must be whole numbers.",
+      "d": "Exponents of the variable must be natural numbers."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 3,
+    "question": "An algebraic expression consisting of only one term is called a:",
+    "options": {
+      "a": "Binomial",
+      "b": "Trinomial",
+      "c": "Monomial",
+      "d": "Polynomial"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 4,
+    "question": "What is the degree of a non-zero constant polynomial?",
+    "options": {
+      "a": "1",
+      "b": "Any real number",
+      "c": "Not defined",
+      "d": "0"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 5,
+    "question": "The highest power of the variable in a polynomial is referred to as its:",
+    "options": {
+      "a": "Coefficient",
+      "b": "Term",
+      "c": "Degree",
+      "d": "Constant"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 6,
+    "question": "A polynomial of degree one is specifically named as a:",
+    "options": {
+      "a": "Quadratic polynomial",
+      "b": "Cubic polynomial",
+      "c": "Linear polynomial",
+      "d": "Zero polynomial"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 7,
+    "question": "What type of polynomial is defined by having exactly three terms?",
+    "options": {
+      "a": "Monomial",
+      "b": "Binomial",
+      "c": "Trinomial",
+      "d": "Constant polynomial"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 8,
+    "question": "If p(c) = 0 for a given polynomial p(x), then 'c' is known as a:",
+    "options": {
+      "a": "Coefficient",
+      "b": "Constant",
+      "c": "Root",
+      "d": "Degree"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 9,
+    "question": "How many distinct zeroes does every linear polynomial in one variable possess?",
+    "options": {
+      "a": "No zero",
+      "b": "Exactly one zero",
+      "c": "More than one zero",
+      "d": "Any real number as a zero"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 10,
+    "question": "Which of the following expressions is NOT a polynomial?",
+    "options": {
+      "a": "3x^2 + 5x - 2",
+      "b": "y^3 + y + sqrt(2)",
+      "c": "x + 1/x",
+      "d": "t^2 + 4"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 11,
+    "question": "What is the coefficient of x in the polynomial x^2 - x + 7?",
+    "options": {
+      "a": "1",
+      "b": "7",
+      "c": "-1",
+      "d": "0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 12,
+    "question": "According to the Factor Theorem, if p(a) = 0, then which of the following is a factor of p(x)?",
+    "options": {
+      "a": "x + a",
+      "b": "x - a",
+      "c": "a - x",
+      "d": "ax"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 13,
+    "question": "Which algebraic identity correctly represents (x - y)^2?",
+    "options": {
+      "a": "x^2 + y^2 + 2xy",
+      "b": "x^2 - y^2",
+      "c": "x^2 - 2xy + y^2",
+      "d": "x^2 + xy + y^2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 14,
+    "question": "The identity (x + a)(x + b) expands to:",
+    "options": {
+      "a": "x^2 + abx + (a+b)",
+      "b": "x^2 + (a+b)x + ab",
+      "c": "x^2 + ax + bx + ab",
+      "d": "x^2 + a^2 + b^2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 15,
+    "question": "What is the expanded form of (x + y + z)^2?",
+    "options": {
+      "a": "x^2 + y^2 + z^2 + 2xyz",
+      "b": "x^2 + y^2 + z^2 + xy + yz + zx",
+      "c": "x^2 + y^2 + z^2 + 2xy + 2yz + 2zx",
+      "d": "x^2 + y^2 + z^2 - 2xy - 2yz - 2zx"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "The algebraic identity for (x + y)^3 is:",
+    "options": {
+      "a": "x^3 + y^3 + 3xy",
+      "b": "x^3 + y^3 + 3xy(x - y)",
+      "c": "x^3 + y^3 + 3xy(x + y)",
+      "d": "x^3 + y^3"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 17,
+    "question": "What is the degree of the polynomial x^3 - x^2 + 4x + 7?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "7"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 18,
+    "question": "A polynomial denoted as p(x) = ax^2 + bx + c, where a \u2260 0, is classified as a:",
+    "options": {
+      "a": "Linear polynomial",
+      "b": "Quadratic polynomial",
+      "c": "Cubic polynomial",
+      "d": "Constant polynomial"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 19,
+    "question": "What is the conventional classification of the constant polynomial 0?",
+    "options": {
+      "a": "Monomial",
+      "b": "Zero polynomial",
+      "c": "Constant term",
+      "d": "Binomial"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 20,
+    "question": "Which of the following observations about zeroes of polynomials is correct?",
+    "options": {
+      "a": "A zero of a polynomial must always be 0.",
+      "b": "A non-zero constant polynomial always has one zero.",
+      "c": "Every real number is a zero of the zero polynomial.",
+      "d": "A polynomial can have at most one zero."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 21,
+    "question": "When factorising a quadratic polynomial ax^2 + bx + c by splitting the middle term, the sum of the two numbers should be 'b' and their product should be:",
+    "options": {
+      "a": "a",
+      "b": "c",
+      "c": "ac",
+      "d": "a+c"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "The identity x^3 + y^3 + z^3 - 3xyz is equal to:",
+    "options": {
+      "a": "(x + y + z)(x^2 + y^2 + z^2 + xy + yz + zx)",
+      "b": "(x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx)",
+      "c": "(x - y - z)(x^2 + y^2 + z^2 - xy - yz - zx)",
+      "d": "(x + y + z)(x^2 + y^2 + z^2)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 23,
+    "question": "If x + y + z = 0, then the value of x^3 + y^3 + z^3 is:",
+    "options": {
+      "a": "xyz",
+      "b": "-3xyz",
+      "c": "0",
+      "d": "3xyz"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 24,
+    "question": "A polynomial having only two terms is called a:",
+    "options": {
+      "a": "Monomial",
+      "b": "Binomial",
+      "c": "Trinomial",
+      "d": "Quadrinomial"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 25,
+    "question": "What is the relationship between a zero of a polynomial p(x) and a root of the polynomial equation p(x) = 0?",
+    "options": {
+      "a": "They are inverse concepts.",
+      "b": "A zero is a type of root, but not all roots are zeroes.",
+      "c": "They are the same concept.",
+      "d": "A root is a type of zero, but not all zeroes are roots."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 26,
+    "question": "The expression x^2 - y^2 is factorised as:",
+    "options": {
+      "a": "(x - y)(x - y)",
+      "b": "(x + y)(x + y)",
+      "c": "(x + y)(x - y)",
+      "d": "x(x - y) + y(x - y)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 27,
+    "question": "Which of the following is an example of a constant polynomial?",
+    "options": {
+      "a": "x + 5",
+      "b": "2x",
+      "c": "0",
+      "d": "7"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 28,
+    "question": "The degree of the zero polynomial is:",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "Undefined",
+      "d": "Any natural number"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "A polynomial in one variable x of degree n is an expression of the form a_n x^n + a_(n\u20131)x^(n\u20131) + . . . + a_1 x + a_0. What is the condition for a_n?",
+    "options": {
+      "a": "a_n must be 0",
+      "b": "a_n must be a positive integer",
+      "c": "a_n must be a constant",
+      "d": "a_n must not be 0"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 30,
+    "question": "The statement \"A polynomial can have more than one zero\" is:",
+    "options": {
+      "a": "Always false",
+      "b": "Always true",
+      "c": "True only for linear polynomials",
+      "d": "True for some polynomials, like quadratic or cubic"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 31,
+    "question": "Find the value of the polynomial p(x) = 5x^2 - 3x + 7 at x = 1.",
+    "options": {
+      "a": "5",
+      "b": "7",
+      "c": "9",
+      "d": "1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 32,
+    "question": "What is the value of the polynomial q(y) = 3y^3 - 4y + 11 when y = 2?",
+    "options": {
+      "a": "16",
+      "b": "27",
+      "c": "11",
+      "d": "19"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 33,
+    "question": "For the polynomial p(x) = x + 2, determine the value of p(-2).",
+    "options": {
+      "a": "4",
+      "b": "0",
+      "c": "2",
+      "d": "-4"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 34,
+    "question": "Find the zero of the polynomial p(x) = 2x + 1.",
+    "options": {
+      "a": "1/2",
+      "b": "-1/2",
+      "c": "1",
+      "d": "-1"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 35,
+    "question": "Verify whether 0 is a zero of the polynomial p(x) = x^2 - 2x.",
+    "options": {
+      "a": "Yes, because p(0) = 0.",
+      "b": "No, because p(0) = 2.",
+      "c": "Yes, because 0 is always a zero.",
+      "d": "No, because x^2 is always positive."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 36,
+    "question": "Determine if x + 2 is a factor of x^3 + 3x^2 + 5x + 6.",
+    "options": {
+      "a": "Yes, because p(-2) = 0.",
+      "b": "No, because p(2) = 0.",
+      "c": "Yes, because p(2) = 4.",
+      "d": "No, because p(-2) = 4."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 37,
+    "question": "Find the value of k if x - 1 is a factor of p(x) = 4x^3 + 3x^2 - 4x + k.",
+    "options": {
+      "a": "4",
+      "b": "3",
+      "c": "-3",
+      "d": "-4"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 38,
+    "question": "Factorise the quadratic polynomial y^2 - 5y + 6.",
+    "options": {
+      "a": "(y + 2)(y + 3)",
+      "b": "(y - 2)(y + 3)",
+      "c": "(y + 2)(y - 3)",
+      "d": "(y - 2)(y - 3)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 39,
+    "question": "Expand (x + 3)^2 using a suitable identity.",
+    "options": {
+      "a": "x^2 + 9",
+      "b": "x^2 + 3x + 9",
+      "c": "x^2 + 6x + 9",
+      "d": "x^2 + 6x + 6"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 40,
+    "question": "Expand (x - 3)(x + 5) using a suitable identity.",
+    "options": {
+      "a": "x^2 - 2x - 15",
+      "b": "x^2 + 2x + 15",
+      "c": "x^2 + 2x - 15",
+      "d": "x^2 - 15"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 41,
+    "question": "Evaluate 105 \u00d7 106 without direct multiplication, using an identity.",
+    "options": {
+      "a": "11030",
+      "b": "11100",
+      "c": "11130",
+      "d": "10030"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "Factorise 49a^2 + 70ab + 25b^2 using an identity.",
+    "options": {
+      "a": "(7a - 5b)^2",
+      "b": "(7a + 5b)^2",
+      "c": "(7a + 5b)(7a - 5b)",
+      "d": "(49a + 25b)^2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 43,
+    "question": "Factorise (x^2)/4 - (y^2)/9.",
+    "options": {
+      "a": "(x/2 - y/3)^2",
+      "b": "(x/2 + y/3)^2",
+      "c": "(x/2 + y/3)(x/2 - y/3)",
+      "d": "(x - y)(x + y)/36"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 44,
+    "question": "Expand (3a + 4b + 5c)^2 using a suitable identity.",
+    "options": {
+      "a": "9a^2 + 16b^2 + 25c^2 + 24ab + 40bc + 30ac",
+      "b": "9a^2 + 16b^2 + 25c^2 + 12ab + 20bc + 15ac",
+      "c": "9a^2 + 16b^2 + 25c^2 + 24ab + 40bc + 60ac",
+      "d": "9a^2 + 16b^2 + 25c^2 + 24ab + 40bc + 50ac"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 45,
+    "question": "Expand (4a - 2b - 3c)^2.",
+    "options": {
+      "a": "16a^2 + 4b^2 + 9c^2 - 16ab - 12bc - 24ac",
+      "b": "16a^2 + 4b^2 + 9c^2 - 16ab + 12bc - 24ac",
+      "c": "16a^2 + 4b^2 + 9c^2 + 16ab + 12bc + 24ac",
+      "d": "16a^2 + 4b^2 + 9c^2 - 8ab + 6bc - 12ac"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 46,
+    "question": "Write (2x + 1)^3 in expanded form.",
+    "options": {
+      "a": "8x^3 + 1 + 6x(2x + 1)",
+      "b": "8x^3 + 1 + 12x^2 + 6x",
+      "c": "8x^3 + 1 + 6x^2 + 12x",
+      "d": "8x^3 + 1"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 47,
+    "question": "Write (2a - 3b)^3 in expanded form.",
+    "options": {
+      "a": "8a^3 - 27b^3 - 18ab(2a - 3b)",
+      "b": "8a^3 + 27b^3 - 18ab(2a - 3b)",
+      "c": "8a^3 - 27b^3 + 18ab(2a - 3b)",
+      "d": "8a^3 - 27b^3"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 48,
+    "question": "Evaluate (99)^3 using a suitable identity.",
+    "options": {
+      "a": "970299",
+      "b": "9702999",
+      "c": "970299000",
+      "d": "970299"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 50,
+    "question": "Factorise 8x^3 + y^3 + 27z^3 - 18xyz.",
+    "options": {
+      "a": "(2x + y + 3z)(4x^2 + y^2 + 9z^2 + 2xy + 3yz + 6xz)",
+      "b": "(2x + y + 3z)(4x^2 + y^2 + 9z^2 - 2xy - 3yz - 6xz)",
+      "c": "(2x - y - 3z)(4x^2 + y^2 + 9z^2 - 2xy - 3yz - 6xz)",
+      "d": "(2x + y + 3z)(4x^2 + y^2 + 9z^2 - xy - yz - zx)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 51,
+    "question": "Find the zero of the polynomial p(x) = cx + d, where c \u2260 0.",
+    "options": {
+      "a": "c/d",
+      "b": "-d/c",
+      "c": "d/c",
+      "d": "-c/d"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 52,
+    "question": "If p(x) = x^3, find p(2).",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 53,
+    "question": "Factorise 12x^2 - 7x + 1.",
+    "options": {
+      "a": "(3x - 1)(4x - 1)",
+      "b": "(3x + 1)(4x + 1)",
+      "c": "(3x - 1)(4x + 1)",
+      "d": "(3x + 1)(4x - 1)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 54,
+    "question": "Find the value of k if x - 1 is a factor of p(x) = x^2 + x + k.",
+    "options": {
+      "a": "2",
+      "b": "-2",
+      "c": "1",
+      "d": "-1"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 55,
+    "question": "Without calculating cubes, find the value of (-12)^3 + (7)^3 + (5)^3.",
+    "options": {
+      "a": "-1260",
+      "b": "1260",
+      "c": "0",
+      "d": "-840"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 56,
+    "question": "Factorise 27y^3 + 125z^3.",
+    "options": {
+      "a": "(3y + 5z)(9y^2 - 15yz + 25z^2)",
+      "b": "(3y - 5z)(9y^2 + 15yz + 25z^2)",
+      "c": "(3y + 5z)(9y^2 + 15yz + 25z^2)",
+      "d": "(3y + 5z)^3"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 57,
+    "question": "Factorise 64m^3 - 343n^3.",
+    "options": {
+      "a": "(4m - 7n)(16m^2 + 28mn + 49n^2)",
+      "b": "(4m + 7n)(16m^2 - 28mn + 49n^2)",
+      "c": "(4m - 7n)(16m^2 - 28mn + 49n^2)",
+      "d": "(4m - 7n)(16m^2 + 49n^2)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 58,
+    "question": "When expanding (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx) to verify Identity VIII, which of the following terms *cancels out* in the process?",
+    "options": {
+      "a": "x^3",
+      "b": "y^3",
+      "c": "3xyz",
+      "d": "x^2y"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 59,
+    "question": "Factorise the polynomial x^3 - 2x^2 - x + 2.",
+    "options": {
+      "a": "(x - 1)(x + 1)(x + 2)",
+      "b": "(x - 1)(x + 1)(x - 2)",
+      "c": "(x - 1)^2(x + 2)",
+      "d": "(x + 1)^2(x - 2)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "Factorise 2x^2 + 7x + 3.",
+    "options": {
+      "a": "(2x + 1)(x + 3)",
+      "b": "(2x - 1)(x + 3)",
+      "c": "(2x + 3)(x + 1)",
+      "d": "(2x - 3)(x - 1)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 61,
+    "question": "If the side length of a square is represented by the polynomial (x + 5) units, what is the algebraic expression for its perimeter?",
+    "options": {
+      "a": "4x + 5",
+      "b": "x^2 + 25",
+      "c": "4x + 20",
+      "d": "x^2 + 10x + 25"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "A painter is calculating the area of a square canvas. If the side of the canvas is (3a + 5b) units, which expression represents the area of the canvas?",
+    "options": {
+      "a": "9a^2 + 25b^2",
+      "b": "9a^2 + 30ab + 25b^2",
+      "c": "3a^2 + 5b^2",
+      "d": "(3a + 5b)^2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 63,
+    "question": "A rectangular garden has its length given by (x + 10) meters and its width by (x + 4) meters. Which identity should be used to find the algebraic expression for the garden's area?",
+    "options": {
+      "a": "(x + y)^2",
+      "b": "x^2 - y^2",
+      "c": "(x + a)(x + b)",
+      "d": "(x + y + z)^2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "An engineer calculates a specific dimension using the expression 104 units. To find its cube (104)^3 without direct multiplication, which mathematical approach is most efficient?",
+    "options": {
+      "a": "Repeated multiplication: 104 \u00d7 104 \u00d7 104.",
+      "b": "Using the identity (x - y)^3 by setting x=100 and y=4.",
+      "c": "Using the identity (x + y)^3 by setting x=100 and y=4.",
+      "d": "Approximating to 100^3 and adjusting."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "The volume of a cuboidal box is given by the expression 3x^2 - 12x. If one of its dimensions is 3x, what could be the expression for the product of the other two dimensions?",
+    "options": {
+      "a": "x - 4",
+      "b": "x^2 - 4x",
+      "c": "x + 4",
+      "d": "3x(x - 4)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 66,
+    "question": "A company's profit P(x) is modeled by the polynomial x^3 - 23x^2 + 142x - 120. If market analysis suggests (x - 1) is a critical factor influencing profit, what would be the next step in analyzing the profit function using polynomial factorisation?",
+    "options": {
+      "a": "Find zeroes by trial and error for other factors.",
+      "b": "Divide P(x) by (x - 1) to find the remaining quadratic factor.",
+      "c": "Use the identity (x - y)^3 to simplify P(x).",
+      "d": "Immediately conclude (x - 1) is the only factor."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 67,
+    "question": "An engineer is designing a cubic container. If the length of one side is (2x + 3y) units, which expression gives the total volume of the container?",
+    "options": {
+      "a": "8x^3 + 27y^3",
+      "b": "(2x)^3 + (3y)^3 + 3(2x)^2(3y) + 3(2x)(3y)^2",
+      "c": "8x^3 + 27y^3 + 36x^2y + 54xy^2",
+      "d": "(2x + 3y)(4x^2 - 6xy + 9y^2)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "An architect has designed a building with a complex surface described by the expression 4x^2 + y^2 + z^2 \u2013 4xy \u2013 2yz + 4xz. This expression needs to be simplified to a squared form. Which form is correct?",
+    "options": {
+      "a": "(2x + y + z)^2",
+      "b": "(2x - y + z)^2",
+      "c": "(2x + y - z)^2",
+      "d": "(-2x + y + z)^2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 69,
+    "question": "A new variable 'a' is introduced into a situation. If its value needs to remain constant throughout a specific problem, how should it be treated?",
+    "options": {
+      "a": "As a variable that can change.",
+      "b": "As a constant.",
+      "c": "As a coefficient.",
+      "d": "As an exponent."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 70,
+    "question": "A student is asked to determine if an algebraic expression is a polynomial. They are given x^(1/2) + 3. What should be their conclusion?",
+    "options": {
+      "a": "It is a polynomial because it has whole number coefficients.",
+      "b": "It is a polynomial because it has a constant term.",
+      "c": "It is not a polynomial because the exponent 1/2 is not a whole number.",
+      "d": "It is not a polynomial because it involves a square root."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "The current cost of production for an item is represented by P(y) = 3y^2 + 5y + 7. If 'y' represents the number of units produced, and '7' represents a fixed cost, what mathematical term best describes '7' in this polynomial?",
+    "options": {
+      "a": "Variable",
+      "b": "Coefficient of y",
+      "c": "Constant term",
+      "d": "Degree of the polynomial"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "A function representing the height of a projectile is given by h(t) = -t^2 + 4t + 5. If we find h(5) = 0, what does this tell us about the value t=5 in the context of the polynomial?",
+    "options": {
+      "a": "It is the maximum height.",
+      "b": "It is a constant of the function.",
+      "c": "It is a zero of the polynomial.",
+      "d": "It is the coefficient of the leading term."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 73,
+    "question": "A manufacturer determines that the quality control parameter 'k' must be set such that (x - 1) is a factor of the material's polynomial property p(x) = kx^2 - sqrt(2)x + 1. What value of k should be set?",
+    "options": {
+      "a": "1 + sqrt(2)",
+      "b": "sqrt(2) - 1",
+      "c": "-1 - sqrt(2)",
+      "d": "1 - sqrt(2)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 74,
+    "question": "The area of a rectangular plot is given by the expression 25a^2 - 35a + 12. If this expression can be factored into two linear polynomials representing its length and breadth, what are the possible expressions for the length and breadth?",
+    "options": {
+      "a": "(5a - 3) and (5a - 4)",
+      "b": "(5a + 3) and (5a + 4)",
+      "c": "(5a - 3) and (5a + 4)",
+      "d": "(25a - 12) and (a - 1)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 75,
+    "question": "A storage tank has a volume represented by 12ky^2 + 8ky - 20k. To find its dimensions, we first notice that '4k' is a common factor. What is the remaining quadratic expression after factoring out 4k?",
+    "options": {
+      "a": "3y^2 + 2y - 5",
+      "b": "12y^2 + 8y - 20",
+      "c": "3y^2 + 2y + 5",
+      "d": "4k(3y^2 + 2y - 5)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 76,
+    "question": "In the polynomial p(x) = x^150 + x^149 + ... + x^2 + x + 1, what is the number of terms?",
+    "options": {
+      "a": "150",
+      "b": "149",
+      "c": "151",
+      "d": "The terms are infinite."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "A linear polynomial is generally written as ax + b. What restriction is put on the value of 'a' and why?",
+    "options": {
+      "a": "a = 0, because it simplifies the expression.",
+      "b": "a = 1, to make it a standard form.",
+      "c": "a \u2260 0, because if a=0, it would no longer be a linear polynomial.",
+      "d": "a > 0, to ensure a positive slope."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 78,
+    "question": "Consider the expression (3 - 2x)(3 + 2x). Which identity is most appropriate to simplify this product?",
+    "options": {
+      "a": "(x + y)^2",
+      "b": "(x - y)^2",
+      "c": "x^2 - y^2",
+      "d": "(x + a)(x + b)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 79,
+    "question": "You have a polynomial p(x) = x^3 - 4x^2 + x + 6. You want to verify if (x - 3) is a factor. Which calculation confirms this using the Factor Theorem?",
+    "options": {
+      "a": "p(-3) = 0",
+      "b": "p(3) = 0",
+      "c": "p(1) = 0",
+      "d": "p(0) = 6"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 80,
+    "question": "If the area of a rectangle is 9x^2 + 6xy + y^2, what are the possible expressions for its length and breadth?",
+    "options": {
+      "a": "(3x - y) and (3x - y)",
+      "b": "(3x + y) and (3x + y)",
+      "c": "(9x + y) and (x + y)",
+      "d": "(3x + y) and (3x - y)"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 81,
+    "question": "Consider the three expressions: (i) x^2 + 2x, (ii) x + 1/x, and (iii) 3\u221ay + y^2. Which statement correctly categorizes these expressions as polynomials or not, based on their definitions?",
+    "options": {
+      "a": "All three are polynomials.",
+      "b": "Only (i) is a polynomial; (ii) and (iii) are not.",
+      "c": "Only (i) and (ii) are polynomials; (iii) is not.",
+      "d": "Only (i) and (iii) are polynomials; (ii) is not."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 82,
+    "question": "Why is the degree of the zero polynomial (0) considered 'not defined'?",
+    "options": {
+      "a": "Because it has no terms.",
+      "b": "Because any real number can be its zero.",
+      "c": "Because it can be expressed as 0x^n for any whole number n, making its highest power ambiguous.",
+      "d": "Because it is a constant polynomial."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "A student claims that a linear polynomial in 'x' can have exactly three terms. Evaluate this statement based on the definition of a linear polynomial.",
+    "options": {
+      "a": "True, if the coefficients are very small.",
+      "b": "False, because a linear polynomial can have at most two terms.",
+      "c": "True, if one of the terms is a constant.",
+      "d": "False, because linear polynomials only have one term."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 84,
+    "question": "Consider the properties of zeroes for constant polynomials. Which statement is the most accurate comparison between a non-zero constant polynomial (e.g., 5) and the zero polynomial (0)?",
+    "options": {
+      "a": "Both have no zeroes.",
+      "b": "Both have infinitely many zeroes.",
+      "c": "A non-zero constant polynomial has no zero, while every real number is a zero of the zero polynomial.",
+      "d": "A non-zero constant polynomial has one zero, while the zero polynomial has no zero."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "When factorising a quadratic polynomial ax^2 + bx + c by splitting the middle term, the process involves finding two numbers whose product is 'ac'. Why is the product 'ac' significant in this method?",
+    "options": {
+      "a": "It represents the sum of the constant terms of the factors.",
+      "b": "It is derived from comparing the coefficient of x^2 and the constant term in the expanded form of (px+q)(rx+s).",
+      "c": "It ensures that the middle term splits correctly.",
+      "d": "It is a random numerical requirement for the method."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 86,
+    "question": "Why is the \"splitting the middle term\" method generally not the primary approach to initiate the factorisation of cubic polynomials, unlike quadratic polynomials?",
+    "options": {
+      "a": "Cubic polynomials do not have a middle term.",
+      "b": "It is too complex to find three numbers for splitting.",
+      "c": "The Factor Theorem is usually used first to find one linear factor, reducing it to a quadratic problem.",
+      "d": "Cubic polynomials can only be factored using algebraic identities."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 87,
+    "question": "An algebraic identity is defined as an algebraic equation that is true for all values of the variables occurring in it. How does this differ from a general algebraic equation?",
+    "options": {
+      "a": "An identity is always linear, while an equation can be of any degree.",
+      "b": "An identity has only one variable, while an equation can have many.",
+      "c": "An identity holds true for infinite values, whereas a general equation is true only for specific values (roots/solutions).",
+      "d": "An identity never has coefficients, while an equation always does."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 88,
+    "question": "If you are asked to evaluate 95 \u00d7 96 without direct multiplication, which strategy would be the most effective according to the learned identities?",
+    "options": {
+      "a": "Use (100 - 5) \u00d7 (100 - 4) and Identity IV.",
+      "b": "Use (90 + 5) \u00d7 (90 + 6) and Identity IV.",
+      "c": "Use (95 + 1)(95 - 1) and Identity III.",
+      "d": "Direct multiplication is fastest for these numbers."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 89,
+    "question": "When expanding (x + y + z)^2, the expansion consists of three square terms and three product terms. What property ensures this specific structure?",
+    "options": {
+      "a": "The commutative property of addition.",
+      "b": "The distributive property of multiplication over addition.",
+      "c": "The associative property of multiplication.",
+      "d": "The property of real numbers."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "Consider the identity (x + y)^3 = x^3 + y^3 + 3xy(x + y). How can the identity (x - y)^3 be most directly derived from this one?",
+    "options": {
+      "a": "By replacing x with -x.",
+      "b": "By replacing y with -y.",
+      "c": "By multiplying both sides by -1.",
+      "d": "By subtracting 2xy(x+y) from both sides."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "Which of the following statements about polynomial zeroes is NOT always true?",
+    "options": {
+      "a": "A zero of a polynomial need not be 0.",
+      "b": "0 may be a zero of a polynomial.",
+      "c": "A polynomial can have more than one zero.",
+      "d": "Every non-zero constant polynomial has exactly one zero."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 92,
+    "question": "You are factorising a cubic polynomial p(x) = x^3 - 23x^2 + 142x - 120. After finding that x = 1 is a zero, you determine that (x-1) is a factor. What is the most appropriate next step to fully factorise p(x)?",
+    "options": {
+      "a": "Try to find another zero by substituting random integer values for x.",
+      "b": "Divide p(x) by (x-1) to obtain a quadratic polynomial, then factorise the quadratic.",
+      "c": "Assume that (x-1) is the only factor.",
+      "d": "Add (x-1) to p(x) to simplify."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 93,
+    "question": "Given the polynomial p(x) = 2x^3 + x^2 - 2x - 1, and g(x) = x + 1. Without performing polynomial division, how can one determine if g(x) is a factor of p(x)?",
+    "options": {
+      "a": "By checking if p(0) = 1.",
+      "b": "By checking if p(1) = 0.",
+      "c": "By checking if p(-1) = 0.",
+      "d": "By checking if the coefficients sum to zero."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 94,
+    "question": "When expressing a polynomial in one variable x of degree n as a_n x^n + a_(n-1)x^(n-1) + ... + a_0, what is the significance of the coefficients a_0, a_1, ..., a_n?",
+    "options": {
+      "a": "They are all variables that can change.",
+      "b": "They are terms of the polynomial.",
+      "c": "They are constants, and a_n is the leading coefficient.",
+      "d": "They represent the degree of each term."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "In the polynomial \u2013x^3 + 4x^2 + 7x \u2013 2, identify the coefficient of x^2 and the constant term, respectively.",
+    "options": {
+      "a": "4, -2",
+      "b": "-1, 7",
+      "c": "4, 7",
+      "d": "-1, -2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 96,
+    "question": "The identity x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx) can be used to prove a special case. If x + y + z = 0, what can be logically concluded about the relationship between x^3, y^3, and z^3?",
+    "options": {
+      "a": "x^3 + y^3 + z^3 = 0",
+      "b": "x^3 + y^3 + z^3 = xyz",
+      "c": "x^3 + y^3 + z^3 = 3xyz",
+      "d": "x^3 + y^3 + z^3 = -3xyz"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "If you have to evaluate 103 x 107 without direct multiplication, which algebraic identity would be most appropriate for this calculation?",
+    "options": {
+      "a": "(x+y)^2",
+      "b": "(x-y)^2",
+      "c": "x^2-y^2",
+      "d": "(x+a)(x+b)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 98,
+    "question": "Consider the polynomial p(x) = x^2 - x + 7. If you were asked to find the coefficient of x^0, what would it be?",
+    "options": {
+      "a": "1",
+      "b": "-1",
+      "c": "7",
+      "d": "0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 99,
+    "question": "Given a polynomial p(x) = x^2 - 2x. Why are both 2 and 0 considered zeroes of this polynomial?",
+    "options": {
+      "a": "Because they are factors of the constant term.",
+      "b": "Because p(2) = 0 and p(0) = 0.",
+      "c": "Because they are consecutive whole numbers.",
+      "d": "Because the polynomial is quadratic."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "Which of the following statements about algebraic expressions and polynomials is correct?",
+    "options": {
+      "a": "All algebraic expressions are polynomials.",
+      "b": "All polynomials are algebraic expressions.",
+      "c": "Algebraic expressions are a subset of polynomials.",
+      "d": "Polynomials and algebraic expressions are completely distinct concepts."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): The expression 4x^2 - 3x + 7 is a polynomial in one variable.\nReason (R): In this expression, the exponents of the variable x are whole numbers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): The degree of the polynomial 5x^3 + 4x^2 + 7x is 3.\nReason (R): The highest power of the variable x in the polynomial is 3.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): The expression y + 2/y is not a polynomial.\nReason (R): The term 2/y can be written as 2y^-1, and the exponent -1 is not a whole number.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): Every real number is a zero of the zero polynomial.\nReason (R): A non-zero constant polynomial has no zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): If p(x) = x - 2, then 2 is a zero of p(x).\nReason (R): A zero of a polynomial p(x) is a number c such that p(c) = 0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): x - 1 is a factor of the polynomial p(x) = x^2 + x - 2.\nReason (R): According to the Factor Theorem, if p(a) = 0, then x - a is a factor of p(x).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): The polynomial p(x) = 2x + 1 has only one zero.\nReason (R): Every linear polynomial in one variable has a unique zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): The expanded form of (x + y)^2 is x^2 + y^2 + 2xy.\nReason (R): This is one of the fundamental algebraic identities.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): To factorise ax^2 + bx + c by splitting the middle term, we write 'b' as the sum of two numbers whose product is 'ac'.\nReason (R): In the expansion of (px+q)(rx+s) = prx^2 + (ps+qr)x + qs, 'b' corresponds to (ps+qr) and 'ac' corresponds to (pr)(qs).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The product (100 + 5) \u00d7 (100 + 6) can be evaluated using Identity IV.\nReason (R): Identity IV is (x + a)(x + b) = x^2 + (a + b)x + ab.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): The degree of the polynomial x^150 + x^149 + ... + x^2 + x + 1 is 150.\nReason (R): The degree of a polynomial is the highest power of the variable in it.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): The value of p(t) = 4t^4 + 5t^3 - t^2 + 6 at t = a is 4a^4 + 5a^3 - a^2 + 6.\nReason (R): To find the value of a polynomial at a specific variable value, substitute that value for the variable everywhere in the polynomial.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): (x + 3)(x + 3) = x^2 + 6x + 9.\nReason (R): This product is an application of Identity II: (x - y)^2 = x^2 - 2xy + y^2.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): If x + y + z = 0, then x^3 + y^3 + z^3 = 3xyz.\nReason (R): Identity VIII states x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): A linear polynomial in x can have at most two terms.\nReason (R): A linear polynomial is of the form ax + b, where a \u2260 0 and a, b are constants.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): The expression 3\u221at + t\u221a2 is a polynomial.\nReason (R): For an expression to be a polynomial, the exponents of the variable must be whole numbers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The constant polynomial 0 is called the zero polynomial.\nReason (R): It plays a very important role in the collection of all polynomials.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): Factorising a cubic polynomial often begins by finding at least one factor using the Factor Theorem.\nReason (R): Splitting the middle term is typically more efficient for factorising cubic polynomials directly.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  }
+]

@@ -1,442 +1,1806 @@
 [
   {
-    "question": "Which of the following statements about inertia is INCORRECT?",
+    "question_number": 1,
+    "question": "Who was the scientist who first grasped that the same force is responsible for an apple falling to the earth, the moon going around the earth, and planets going around the Sun?",
     "options": {
-      "a": "Inertia is the tendency of an object to resist changes in its state of motion.",
-      "b": "Inertia depends on the mass of the object.",
-      "c": "Inertia is a force that keeps objects at rest.",
-      "d": "Heavier objects have greater inertia than lighter objects."
+      "a": "Galileo Galilei",
+      "b": "Isaac Newton",
+      "c": "Henry Cavendish",
+      "d": "Blaise Pascal"
     },
-    "answer": "c",
-    "id": 570
+    "answer": "b"
   },
   {
-    "question": "A car is moving at a constant speed of 20 m/s. What is the net force acting on the car?",
+    "question_number": 2,
+    "question": "What is the nature of the force that keeps a body moving along a circular path and is directed towards the centre?",
     "options": {
-      "a": "20 N",
-      "b": "0 N",
-      "c": "Cannot be determined without knowing the mass of the car.",
-      "d": "Depends on the direction of motion."
+      "a": "Tangential force",
+      "b": "Centrifugal force",
+      "c": "Centripetal force",
+      "d": "Gravitational force"
     },
-    "answer": "b",
-    "id": 571
+    "answer": "c"
   },
   {
-    "question": "A force of 10 N is applied to a 2 kg object. What is the acceleration of the object?",
+    "question_number": 3,
+    "question": "According to the universal law of gravitation, the force between two objects is directly proportional to what?",
     "options": {
-      "a": "20 m/s²",
-      "b": "5 m/s²",
-      "c": "0.2 m/s²",
-      "d": "10 m/s²"
+      "a": "The sum of their masses",
+      "b": "The square of the distance between them",
+      "c": "The product of their masses",
+      "d": "The difference in their masses"
     },
-    "answer": "b",
-    "id": 572
+    "answer": "c"
   },
   {
-    "question": "A bullet is fired from a gun. Which of the following experiences a greater force?",
+    "question_number": 4,
+    "question": "What is the relationship between the gravitational force and the distance between two objects, according to the universal law of gravitation?",
     "options": {
-      "a": "The bullet",
-      "b": "The gun",
-      "c": "Both experience the same force.",
-      "d": "It depends on the mass of the bullet and gun."
+      "a": "Directly proportional to the distance",
+      "b": "Inversely proportional to the distance",
+      "c": "Directly proportional to the square of the distance",
+      "d": "Inversely proportional to the square of the distance"
     },
-    "answer": "c",
-    "id": 573
+    "answer": "d"
   },
   {
-    "question": "Which of the following is an example of Newton's third law of motion?",
+    "question_number": 5,
+    "question": "What is the SI unit of the universal gravitational constant (G)?",
     "options": {
-      "a": "A ball rolling down a hill.",
-      "b": "A rocket launching into space.",
-      "c": "A book resting on a table.",
-      "d": "A swimmer pushing off the wall of a pool."
+      "a": "N m kg\u207b\u00b9",
+      "b": "N m\u00b2 kg\u207b\u00b2",
+      "c": "N m\u207b\u00b2 kg\u00b2",
+      "d": "N kg m\u207b\u00b9"
     },
-    "answer": "d",
-    "id": 574
+    "answer": "b"
   },
   {
-    "question": "A 5 kg object is moving with a momentum of 25 kg m/s. What is its velocity?",
+    "question_number": 6,
+    "question": "What is the accepted value of the universal gravitational constant (G)?",
     "options": {
-      "a": "5 m/s",
-      "b": "125 m/s",
-      "c": "0.2 m/s",
-      "d": "25 m/s"
+      "a": "9.8 m s\u207b\u00b2",
+      "b": "6.0 \u00d7 10\u00b2\u2074 kg",
+      "c": "6.673 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2",
+      "d": "3.84 \u00d7 10\u2078 m"
     },
-    "answer": "a",
-    "id": 575
+    "answer": "c"
   },
   {
-    "question": "Two objects with equal masses collide and stick together. If the initial velocity of one object was 10 m/s and the other was at rest, what is the velocity of the combined object after the collision?",
+    "question_number": 7,
+    "question": "Which of the following phenomena is NOT explained by the universal law of gravitation?",
     "options": {
-      "a": "0 m/s",
-      "b": "5 m/s",
-      "c": "10 m/s",
-      "d": "20 m/s"
+      "a": "The force that binds us to the earth",
+      "b": "The motion of planets around the Sun",
+      "c": "The tides due to the moon and the Sun",
+      "d": "The phenomenon of light dispersion"
     },
-    "answer": "b",
-    "id": 576
+    "answer": "d"
   },
   {
-    "question": "Which of the following situations demonstrates the principle of conservation of momentum?",
+    "question_number": 8,
+    "question": "What term describes objects falling towards the earth under the influence of gravitational force alone?",
     "options": {
-      "a": "A car accelerating from rest.",
-      "b": "A ball bouncing off a wall.",
-      "c": "A book falling from a table.",
-      "d": "A person walking on a frictionless surface."
+      "a": "Accelerated motion",
+      "b": "Uniform motion",
+      "c": "Free fall",
+      "d": "Projectile motion"
     },
-    "answer": "b",
-    "id": 577
+    "answer": "c"
   },
   {
-    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the final velocity of the object?",
+    "question_number": 9,
+    "question": "What is the SI unit of acceleration due to gravity (g)?",
     "options": {
-      "a": "2 m/s",
-      "b": "0.5 m/s",
-      "c": "20 m/s",
-      "d": "50 m/s"
+      "a": "N kg\u207b\u00b9",
+      "b": "m s\u207b\u00b9",
+      "c": "m s\u207b\u00b2",
+      "d": "N m\u207b\u00b2"
     },
-    "answer": "a",
-    "id": 578
+    "answer": "c"
   },
   {
-    "question": "A 2 kg ball is dropped from a height of 10 meters. What is its momentum just before it hits the ground? (Assume g = 10 m/s²)",
+    "question_number": 10,
+    "question": "What is the approximate value of acceleration due to gravity (g) on the surface of the Earth?",
     "options": {
-      "a": "20 kg m/s",
-      "b": "200 kg m/s",
-      "c": "14.14 kg m/s",
-      "d": "28.28 kg m/s"
+      "a": "6.7 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2",
+      "b": "9.8 m s\u207b\u00b2",
+      "c": "10 m s\u207b\u00b2 (for simplified calculations)",
+      "d": "Both B and C are correct, depending on context."
     },
-    "answer": "d",
-    "id": 579
+    "answer": "d"
   },
   {
-    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 20 m/s. What is its momentum at the highest point of its trajectory?",
+    "question_number": 11,
+    "question": "How does the value of acceleration due to gravity (g) change from the poles to the equator on Earth?",
     "options": {
-      "a": "0 kg m/s",
-      "b": "10 kg m/s",
-      "c": "20 kg m/s",
-      "d": "40 kg m/s"
+      "a": "It increases from poles to equator.",
+      "b": "It decreases from poles to equator.",
+      "c": "It remains constant.",
+      "d": "It is zero at the equator."
     },
-    "answer": "a",
-    "id": 580
+    "answer": "b"
   },
   {
-    "question": "A car of mass 1000 kg is moving at a speed of 20 m/s. It collides with a stationary truck of mass 2000 kg. If the two vehicles stick together after the collision, what is their combined velocity?",
+    "question_number": 12,
+    "question": "What does the mass of an object measure?",
     "options": {
-      "a": "0 m/s",
-      "b": "6.67 m/s",
-      "c": "10 m/s",
-      "d": "20 m/s"
+      "a": "Its weight",
+      "b": "Its inertia",
+      "c": "Its volume",
+      "d": "Its density"
     },
-    "answer": "b",
-    "id": 581
+    "answer": "b"
   },
   {
-    "question": "A force of 10 N acts on an object for 5 seconds. If the object's initial velocity was 2 m/s, what is its final velocity? (Assume the object has a mass of 2 kg)",
+    "question_number": 13,
+    "question": "How does the mass of an object change when it is moved from Earth to the Moon or outer space?",
     "options": {
-      "a": "27 m/s",
-      "b": "25 m/s",
-      "c": "12 m/s",
-      "d": "7 m/s"
+      "a": "It decreases on the Moon and becomes zero in outer space.",
+      "b": "It increases on the Moon but remains constant in outer space.",
+      "c": "It remains the same everywhere.",
+      "d": "It depends on the gravitational force acting on it."
     },
-    "answer": "a",
-    "id": 582
+    "answer": "c"
   },
   {
-    "question": "A 1 kg ball is thrown horizontally with a velocity of 10 m/s from a height of 5 meters. What is its momentum just before it hits the ground? (Assume g = 10 m/s²)",
+    "question_number": 14,
+    "question": "What is the force with which the Earth attracts an object known as?",
     "options": {
-      "a": "10 kg m/s",
-      "b": "14.14 kg m/s",
-      "c": "17.32 kg m/s",
-      "d": "22.36 kg m/s"
+      "a": "Thrust",
+      "b": "Pressure",
+      "c": "Mass",
+      "d": "Weight"
     },
-    "answer": "b",
-    "id": 583
+    "answer": "d"
   },
   {
-    "question": "A 50 kg person is standing on a frictionless surface. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the recoil velocity of the person?",
+    "question_number": 15,
+    "question": "What is the SI unit of weight?",
     "options": {
-      "a": "0.4 m/s",
-      "b": "-0.4 m/s",
-      "c": "2.5 m/s",
-      "d": "-2.5 m/s"
+      "a": "Kilogram (kg)",
+      "b": "Newton (N)",
+      "c": "Pascal (Pa)",
+      "d": "Joule (J)"
     },
-    "answer": "b",
-    "id": 584
+    "answer": "b"
   },
   {
-    "question": "Which of the following has the greatest momentum?",
+    "question_number": 16,
+    "question": "How is the weight of an object related to its mass at a given place?",
     "options": {
-      "a": "A 1000 kg car moving at 10 m/s",
-      "b": "A 100 kg motorcycle moving at 100 m/s",
-      "c": "A 10 kg bicycle moving at 1000 m/s",
-      "d": "All have the same momentum"
+      "a": "Inversely proportional",
+      "b": "Directly proportional",
+      "c": "Not related",
+      "d": "Exponentionally related"
     },
-    "answer": "d",
-    "id": 585
+    "answer": "b"
   },
   {
-    "question": "A 2 kg object is at rest on a frictionless surface. A force of 4 N is applied to it for 2 seconds. What is the change in momentum of the object?",
+    "question_number": 17,
+    "question": "What is the approximate ratio of the weight of an object on the Moon to its weight on the Earth?",
     "options": {
-      "a": "2 kg m/s",
-      "b": "4 kg m/s",
-      "c": "8 kg m/s",
-      "d": "16 kg m/s"
+      "a": "1:2",
+      "b": "1:4",
+      "c": "1:6",
+      "d": "1:10"
     },
-    "answer": "c",
-    "id": 586
+    "answer": "c"
   },
   {
-    "question": "A 10 kg object is moving with a velocity of 5 m/s. A force of -2 N is applied to it for 5 seconds. What is the final velocity of the object?",
+    "question_number": 18,
+    "question": "What is 'thrust' defined as?",
     "options": {
-      "a": "4 m/s",
-      "b": "5 m/s",
-      "c": "6 m/s",
-      "d": "7 m/s"
+      "a": "Force acting parallel to a surface",
+      "b": "Force acting perpendicular to a surface",
+      "c": "Force per unit area",
+      "d": "Force due to gravity"
     },
-    "answer": "a",
-    "id": 587
+    "answer": "b"
   },
   {
-    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is their combined velocity?",
+    "question_number": 19,
+    "question": "What is 'pressure' defined as?",
     "options": {
-      "a": "1.33 m/s",
-      "b": "2.67 m/s",
-      "c": "4 m/s",
-      "d": "8 m/s"
+      "a": "Thrust multiplied by area",
+      "b": "Thrust divided by area",
+      "c": "Area divided by thrust",
+      "d": "Weight per unit area"
     },
-    "answer": "b",
-    "id": 588
+    "answer": "b"
   },
   {
-    "question": "A 50 kg person is standing on a skateboard. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the recoil velocity of the person and skateboard?",
+    "question_number": 20,
+    "question": "What is the SI unit of pressure?",
     "options": {
-      "a": "-0.4 m/s",
-      "b": "0.4 m/s",
-      "c": "-2.5 m/s",
-      "d": "2.5 m/s"
+      "a": "N m\u00b2",
+      "b": "kg m\u207b\u00b3",
+      "c": "Pascal (Pa)",
+      "d": "Newton (N)"
     },
-    "answer": "a",
-    "id": 589
+    "answer": "c"
   },
   {
-    "question": "A 0.1 kg bullet is fired from a rifle with a velocity of 500 m/s. If the rifle has a mass of 5 kg, what is the recoil velocity of the rifle?",
+    "question_number": 21,
+    "question": "What happens to pressure if the same force acts on a smaller area?",
     "options": {
-      "a": "-1 m/s",
-      "b": "1 m/s",
-      "c": "-10 m/s",
-      "d": "10 m/s"
+      "a": "Pressure decreases.",
+      "b": "Pressure increases.",
+      "c": "Pressure remains the same.",
+      "d": "Pressure becomes zero."
     },
-    "answer": "a",
-    "id": 590
+    "answer": "b"
   },
   {
-    "question": "A 1000 kg car is moving at a speed of 20 m/s. It brakes and comes to a stop in 5 seconds. What is the average braking force acting on the car?",
+    "question_number": 22,
+    "question": "Which of the following are considered fluids according to the lesson?",
     "options": {
-      "a": "-4000 N",
-      "b": "4000 N",
-      "c": "-8000 N",
-      "d": "8000 N"
+      "a": "Only liquids",
+      "b": "Only gases",
+      "c": "Both liquids and gases",
+      "d": "Solids, liquids, and gases"
     },
-    "answer": "a",
-    "id": 591
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is moving with a velocity of 4 m/s. It experiences a constant force of -2 N for 2 seconds. What is the final velocity of the object?",
+    "question_number": 23,
+    "question": "What is the upward force exerted by a fluid on an object immersed in it called?",
     "options": {
-      "a": "2 m/s",
-      "b": "4 m/s",
-      "c": "6 m/s",
-      "d": "8 m/s"
+      "a": "Gravitational force",
+      "b": "Centripetal force",
+      "c": "Buoyant force",
+      "d": "Normal force"
     },
-    "answer": "a",
-    "id": 592
+    "answer": "c"
   },
   {
-    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 10 m/s. What is its maximum height? (Assume g = 10 m/s²)",
+    "question_number": 24,
+    "question": "The magnitude of buoyant force depends on the density of what?",
     "options": {
-      "a": "2.5 m",
-      "b": "5 m",
-      "c": "10 m",
-      "d": "20 m"
+      "a": "The object immersed",
+      "b": "The container holding the fluid",
+      "c": "The fluid",
+      "d": "The atmospheric pressure"
     },
-    "answer": "b",
-    "id": 593
+    "answer": "c"
   },
   {
-    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the distance traveled by the object?",
+    "question_number": 25,
+    "question": "What determines whether an object floats or sinks in a liquid?",
     "options": {
-      "a": "2 m",
-      "b": "4 m",
-      "c": "8 m",
-      "d": "10 m"
+      "a": "Its mass",
+      "b": "Its volume",
+      "c": "Its density compared to the liquid's density",
+      "d": "Its shape"
     },
-    "answer": "b",
-    "id": 594
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is the kinetic energy lost in the collision?",
+    "question_number": 26,
+    "question": "What is Archimedes' principle?",
     "options": {
-      "a": "2.67 J",
-      "b": "5.33 J",
-      "c": "8 J",
-      "d": "16 J"
+      "a": "The pressure exerted in any confined mass of fluid is transmitted undiminished in all directions.",
+      "b": "When a body is immersed fully or partially in a fluid, it experiences an upward force equal to the weight of the fluid displaced by it.",
+      "c": "Every object attracts every other object with a force proportional to the product of their masses.",
+      "d": "For every action, there is an equal and opposite reaction."
     },
-    "answer": "b",
-    "id": 595
+    "answer": "b"
   },
   {
-    "question": "A 50 kg person is standing on a skateboard. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the change in momentum of the person and skateboard?",
+    "question_number": 27,
+    "question": "Lactometers and hydrometers are based on which scientific principle?",
     "options": {
-      "a": "-20 kg m/s",
-      "b": "20 kg m/s",
-      "c": "-100 kg m/s",
-      "d": "100 kg m/s"
+      "a": "Newton's Law of Gravitation",
+      "b": "Pascal's Principle",
+      "c": "Archimedes' Principle",
+      "d": "Conservation of Momentum"
     },
-    "answer": "a",
-    "id": 596
+    "answer": "c"
   },
   {
-    "question": "A 0.1 kg bullet is fired from a rifle with a velocity of 500 m/s. If the rifle has a mass of 5 kg, what is the kinetic energy of the bullet?",
+    "question_number": 28,
+    "question": "Who discovered the principle named after him after noticing water overflowed from a bathtub when he stepped into it?",
     "options": {
-      "a": "1250 J",
-      "b": "2500 J",
-      "c": "6250 J",
-      "d": "12500 J"
+      "a": "Isaac Newton",
+      "b": "Blaise Pascal",
+      "c": "Henry Cavendish",
+      "d": "Archimedes"
     },
-    "answer": "d",
-    "id": 597
+    "answer": "d"
   },
   {
-    "question": "A 1000 kg car is moving at a speed of 20 m/s. It brakes and comes to a stop in 5 seconds. What is the work done by the braking force?",
+    "question_number": 29,
+    "question": "The force of gravity is considered a weak force unless what is involved?",
     "options": {
-      "a": "-200000 J",
-      "b": "200000 J",
-      "c": "-400000 J",
-      "d": "400000 J"
+      "a": "Small distances",
+      "b": "High velocities",
+      "c": "Large masses",
+      "d": "Low temperatures"
     },
-    "answer": "a",
-    "id": 598
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is moving with a velocity of 4 m/s. It experiences a constant force of -2 N for 2 seconds. What is the change in kinetic energy of the object?",
+    "question_number": 30,
+    "question": "The weight of a body is defined as the product of its mass and what other quantity?",
     "options": {
-      "a": "-8 J",
-      "b": "8 J",
-      "c": "-12 J",
-      "d": "12 J"
+      "a": "Velocity",
+      "b": "Acceleration",
+      "c": "Acceleration due to gravity",
+      "d": "Force"
     },
-    "answer": "a",
-    "id": 599
+    "answer": "c"
   },
   {
-    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 10 m/s. What is its kinetic energy at the highest point of its trajectory?",
+    "question_number": 31,
+    "question": "If the thread is released while a stone is whirling in a circular path, what path will the stone take?",
     "options": {
-      "a": "0 J",
-      "b": "12.5 J",
-      "c": "25 J",
-      "d": "50 J"
+      "a": "It will fall straight down.",
+      "b": "It will continue in a circular path.",
+      "c": "It will fly off along a straight line tangent to the circular path.",
+      "d": "It will fly off along a straight line towards the center."
     },
-    "answer": "a",
-    "id": 600
+    "answer": "c"
   },
   {
-    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the work done by the force?",
+    "question_number": 32,
+    "question": "According to the third law of motion, if a falling apple is attracted towards the earth, what can be said about the apple's attraction to the earth?",
     "options": {
-      "a": "20 J",
-      "b": "40 J",
-      "c": "80 J",
-      "d": "100 J"
+      "a": "The apple does not attract the earth.",
+      "b": "The apple attracts the earth with a lesser force.",
+      "c": "The apple attracts the earth with an equal and opposite force.",
+      "d": "The apple attracts the earth only if its mass is comparable to Earth's."
     },
-    "answer": "b",
-    "id": 601
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is the kinetic energy of the combined object?",
+    "question_number": 33,
+    "question": "Why do we not observe the Earth moving towards a falling apple?",
     "options": {
-      "a": "5.33 J",
-      "b": "10.67 J",
-      "c": "16 J",
-      "d": "32 J"
+      "a": "Earth's gravitational force is too weak.",
+      "b": "The apple's mass is negligibly small compared to Earth's.",
+      "c": "Air resistance prevents Earth's movement.",
+      "d": "Earth is fixed in space."
     },
-    "answer": "a",
-    "id": 602
+    "answer": "b"
   },
   {
-    "question": "A 50 kg person is standing on a skateboard. They throw a 2 kg ball horizontally with a velocity of 10 m/s. What is the work done by the person on the ball?",
+    "question_number": 34,
+    "question": "What happens to the value of 'g' (acceleration due to gravity) for objects far from the Earth?",
     "options": {
-      "a": "-100 J",
-      "b": "100 J",
-      "c": "-500 J",
-      "d": "500 J"
+      "a": "It remains constant at 9.8 m/s\u00b2.",
+      "b": "It increases with distance.",
+      "c": "It is given by g = GM/d\u00b2, where 'd' is the distance from Earth's centre.",
+      "d": "It becomes zero."
     },
-    "answer": "b",
-    "id": 603
+    "answer": "c"
   },
   {
-    "question": "A 0.1 kg bullet is fired from a rifle with a velocity of 500 m/s. If the rifle has a mass of 5 kg, what is the kinetic energy of the rifle?",
+    "question_number": 35,
+    "question": "What is the primary reason why a sheet of paper falls slower than a stone when dropped simultaneously from a height in the open air?",
     "options": {
-      "a": "12.5 J",
-      "b": "25 J",
-      "c": "62.5 J",
-      "d": "125 J"
+      "a": "The stone has greater mass.",
+      "b": "The paper experiences more air resistance due to friction.",
+      "c": "The gravitational force on the paper is less.",
+      "d": "The paper is lighter."
     },
-    "answer": "a",
-    "id": 604
+    "answer": "b"
   },
   {
-    "question": "A 1000 kg car is moving at a speed of 20 m/s. It brakes and comes to a stop in 5 seconds. What is the power dissipated by the braking force?",
+    "question_number": 36,
+    "question": "What concept explains why a camel can run easily in a desert due to its feet structure?",
     "options": {
-      "a": "-40000 W",
-      "b": "40000 W",
-      "c": "-80000 W",
-      "d": "80000 W"
+      "a": "Buoyancy",
+      "b": "Centripetal force",
+      "c": "Pressure",
+      "d": "Inertia"
     },
-    "answer": "a",
-    "id": 605
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is moving with a velocity of 4 m/s. It experiences a constant force of -2 N for 2 seconds. What is the power delivered by the force?",
+    "question_number": 37,
+    "question": "How does the pressure in any confined mass of fluid transmit?",
     "options": {
-      "a": "-8 W",
-      "b": "8 W",
-      "c": "-16 W",
-      "d": "16 W"
+      "a": "Only downwards",
+      "b": "Only sideways",
+      "c": "Undiminished in all directions",
+      "d": "Only upwards"
     },
-    "answer": "a",
-    "id": 606
+    "answer": "c"
   },
   {
-    "question": "A 0.5 kg ball is thrown vertically upwards with an initial velocity of 10 m/s. What is its power at the highest point of its trajectory?",
+    "question_number": 38,
+    "question": "When a plastic bottle is pushed deeper into water, what happens to the upward force exerted by the water on the bottle?",
     "options": {
-      "a": "0 W",
-      "b": "25 W",
-      "c": "50 W",
-      "d": "100 W"
+      "a": "It decreases.",
+      "b": "It remains constant.",
+      "c": "It increases until the bottle is completely immersed, then remains constant.",
+      "d": "It increases continuously."
     },
-    "answer": "a",
-    "id": 607
+    "answer": "c"
   },
   {
-    "question": "A 10 kg object is at rest on a frictionless surface. A force of 5 N is applied to it for 4 seconds. What is the average power delivered by the force?",
+    "question_number": 39,
+    "question": "Why does an iron nail sink in water?",
     "options": {
-      "a": "5 W",
-      "b": "10 W",
-      "c": "20 W",
-      "d": "25 W"
+      "a": "Its mass is too large.",
+      "b": "Its volume is too small.",
+      "c": "The upthrust of water on the nail is less than the weight of the nail.",
+      "d": "The upthrust of water on the nail is greater than the weight of the nail."
     },
-    "answer": "b",
-    "id": 608
+    "answer": "c"
   },
   {
-    "question": "A 2 kg object is moving with a velocity of 4 m/s. It collides with a stationary 1 kg object. If the two objects stick together after the collision, what is the power dissipated in the collision?",
+    "question_number": 40,
+    "question": "Why does a cork float on water?",
     "options": {
-      "a": "-5.33 W",
-      "b": "5.33 W",
-      "c": "-10.67 W",
-      "d": "10.67 W"
+      "a": "Its weight is less than that of the water.",
+      "b": "Its volume is large.",
+      "c": "Its density is less than the density of water.",
+      "d": "Its shape allows it to float."
     },
-    "answer": "a",
-    "id": 609
+    "answer": "c"
+  },
+  {
+    "question_number": 41,
+    "question": "When a stone is slowly dipped into water, how does the reading on a spring balance holding the stone change?",
+    "options": {
+      "a": "It increases.",
+      "b": "It remains the same.",
+      "c": "It decreases.",
+      "d": "It first increases then decreases."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 42,
+    "question": "What does it mean when the elongation of a spring balance decreases as a stone is lowered into water?",
+    "options": {
+      "a": "The stone's mass has decreased.",
+      "b": "Some force acts on the stone in the downward direction.",
+      "c": "Some force acts on the stone in the upward direction.",
+      "d": "The spring balance is faulty."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 43,
+    "question": "The law of gravitation is called universal because:",
+    "options": {
+      "a": "It applies only to celestial bodies like planets and stars.",
+      "b": "It was discovered by Isaac Newton, a universal genius.",
+      "c": "It is applicable to all bodies, big or small, celestial or terrestrial, anywhere in the universe.",
+      "d": "It only applies to objects on Earth."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 44,
+    "question": "What is meant by a 'tangent to a circle'?",
+    "options": {
+      "a": "A straight line that passes through the center of the circle.",
+      "b": "A straight line that intersects the circle at two points.",
+      "c": "A straight line that meets the circle at one and only one point.",
+      "d": "A curved line that follows the circumference of the circle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 45,
+    "question": "What causes the motion of the moon around the earth?",
+    "options": {
+      "a": "The moon's own inertia.",
+      "b": "The centripetal force provided by the Earth's gravitational attraction.",
+      "c": "The Sun's gravitational pull.",
+      "d": "Tidal forces from the oceans."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 46,
+    "question": "What is the direction of weight of an object?",
+    "options": {
+      "a": "Horizontally towards the observer.",
+      "b": "Vertically upwards.",
+      "c": "Vertically downwards.",
+      "d": "It has magnitude but no specific direction."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 47,
+    "question": "What does a high value of 'g' at the poles compared to the equator indicate about the Earth's shape?",
+    "options": {
+      "a": "Earth is a perfect sphere.",
+      "b": "Earth's radius is smaller at the poles than at the equator.",
+      "c": "Earth's radius is larger at the poles than at the equator.",
+      "d": "Earth's mass is concentrated at the poles."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 48,
+    "question": "Which of the following is an application of Archimedes' principle?",
+    "options": {
+      "a": "Measuring time with a pendulum.",
+      "b": "Designing optical lenses.",
+      "c": "Operating a hydraulic lift.",
+      "d": "Determining the purity of milk using a lactometer."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 49,
+    "question": "When a solid exerts pressure on a surface, what is the primary cause?",
+    "options": {
+      "a": "Its temperature.",
+      "b": "Its weight.",
+      "c": "Its volume.",
+      "d": "Its density."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 50,
+    "question": "If the distance 'd' between two objects in the universal law of gravitation becomes bigger by a factor of 6, how does the force 'F' change?",
+    "options": {
+      "a": "F becomes 6 times smaller.",
+      "b": "F becomes 36 times smaller.",
+      "c": "F becomes 6 times bigger.",
+      "d": "F becomes 36 times bigger."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 51,
+    "question": "The mass of a car is 1000 kg. If it falls off a ledge and takes 0.5 s to hit the ground, what is its speed on striking the ground? (Take g = 10 m s\u207b\u00b2 for calculations).",
+    "options": {
+      "a": "2.5 m s\u207b\u00b9",
+      "b": "5 m s\u207b\u00b9",
+      "c": "10 m s\u207b\u00b9",
+      "d": "50 m s\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 52,
+    "question": "An object is thrown vertically upwards and rises to a height of 10 m. What was the initial velocity with which the object was thrown upwards? (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "9.8 m s\u207b\u00b9",
+      "b": "14 m s\u207b\u00b9",
+      "c": "19.6 m s\u207b\u00b9",
+      "d": "20 m s\u207b\u00b9"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "If an object is thrown vertically upwards with an initial velocity of 14 m/s (as calculated in Q2), how much time did it take to reach the highest point? (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "0.5 s",
+      "b": "1.0 s",
+      "c": "1.43 s",
+      "d": "2.0 s"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 54,
+    "question": "The mass of an object is 10 kg. What is its weight on the earth? (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "9.8 N",
+      "b": "10 N",
+      "c": "98 N",
+      "d": "1 N"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 55,
+    "question": "An object weighs 10 N on the surface of the Earth. What would be its weight when measured on the surface of the Moon?",
+    "options": {
+      "a": "60 N",
+      "b": "10 N",
+      "c": "1.67 N",
+      "d": "0.6 N"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 56,
+    "question": "A block of wood with a mass of 5 kg is placed on a tabletop. What is the thrust exerted by the wooden block on the tabletop? (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "0.5 N",
+      "b": "5 N",
+      "c": "49 N",
+      "d": "98 N"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 57,
+    "question": "A wooden block has dimensions 40 cm \u00d7 20 cm \u00d7 10 cm and a mass of 5 kg. If it is made to lie on the tabletop with its side of dimensions 20 cm \u00d7 10 cm, what pressure does it exert? (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "24.5 Pa",
+      "b": "245 Pa",
+      "c": "2450 Pa",
+      "d": "612.5 Pa"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 58,
+    "question": "Using the same wooden block from Q7 (mass 5 kg, dimensions 40 cm \u00d7 20 cm \u00d7 10 cm), what pressure does it exert if it lies on the tabletop with its side of dimensions 40 cm \u00d7 20 cm? (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "2450 Pa",
+      "b": "612.5 Pa",
+      "c": "1225 Pa",
+      "d": "4900 Pa"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 59,
+    "question": "Calculate the acceleration due to gravity (g) on the surface of the Earth, given:\nG = 6.7 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2\nMass of Earth (M) = 6 \u00d7 10\u00b2\u2074 kg\nRadius of Earth (R) = 6.4 \u00d7 10\u2076 m",
+    "options": {
+      "a": "6.4 m s\u207b\u00b2",
+      "b": "9.8 m s\u207b\u00b2",
+      "c": "10.2 m s\u207b\u00b2",
+      "d": "12.5 m s\u207b\u00b2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "A stone is released from the top of a tower of height 19.6 m. Calculate its final velocity just before touching the ground. (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "9.8 m/s",
+      "b": "19.6 m/s",
+      "c": "29.4 m/s",
+      "d": "39.2 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 61,
+    "question": "An object with mass 500 g has a volume of 350 cm\u00b3. What is its density?",
+    "options": {
+      "a": "1.43 g cm\u207b\u00b3",
+      "b": "0.7 g cm\u207b\u00b3",
+      "c": "1.0 g cm\u207b\u00b3",
+      "d": "500 g cm\u207b\u00b3"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 62,
+    "question": "A ball is thrown vertically upwards with a velocity of 49 m/s. Calculate the maximum height to which it rises. (Take g = 9.8 m/s\u00b2).",
+    "options": {
+      "a": "49 m",
+      "b": "98 m",
+      "c": "122.5 m",
+      "d": "245 m"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 63,
+    "question": "An object has a mass of 100 kg. If the distance between the object and the Earth's center is doubled, what happens to the gravitational force acting on it?",
+    "options": {
+      "a": "It becomes half.",
+      "b": "It becomes one-fourth.",
+      "c": "It becomes double.",
+      "d": "It remains the same."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 64,
+    "question": "A stone is thrown vertically upward with an initial velocity of 40 m/s. Taking g = 10 m/s\u00b2, what is the maximum height reached by the stone?",
+    "options": {
+      "a": "40 m",
+      "b": "80 m",
+      "c": "100 m",
+      "d": "160 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 65,
+    "question": "A ball thrown up vertically returns to the thrower after 6 s. What was the velocity with which it was thrown up? (Take g = 10 m/s\u00b2).",
+    "options": {
+      "a": "20 m/s",
+      "b": "30 m/s",
+      "c": "40 m/s",
+      "d": "60 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 67,
+    "question": "Calculate the force of gravitation between the Earth and the Sun, given:\nMass of Earth = 6 \u00d7 10\u00b2\u2074 kg\nMass of Sun = 2 \u00d7 10\u00b3\u2070 kg\nAverage distance = 1.5 \u00d7 10\u00b9\u00b9 m\nG = 6.7 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2",
+    "options": {
+      "a": "3.56 \u00d7 10\u00b2\u00b2 N",
+      "b": "2.67 \u00d7 10\u00b2\u2075 N",
+      "c": "1.78 \u00d7 10\u00b3\u2070 N",
+      "d": "5.34 \u00d7 10\u00b3\u00b3 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 68,
+    "question": "What is the weight in newtons of a 10 kg object on the Earth? (Take g = 9.8 m/s\u00b2).",
+    "options": {
+      "a": "10 N",
+      "b": "1 N",
+      "c": "98 N",
+      "d": "9.8 N"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 69,
+    "question": "A 10 kg object is on the Moon. What is its weight in newtons on the Moon, given that gravitational force on the surface of the moon is 1/6 as strong as on Earth? (Take g_earth = 9.8 m/s\u00b2).",
+    "options": {
+      "a": "98 N",
+      "b": "16.33 N",
+      "c": "1.63 N",
+      "d": "6 N"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 70,
+    "question": "The volume of 50 g of a substance is 20 cm\u00b3. If the density of water is 1 g cm\u207b\u00b3, what is the density of the substance?",
+    "options": {
+      "a": "2.5 g cm\u207b\u00b3",
+      "b": "0.4 g cm\u207b\u00b3",
+      "c": "1.0 g cm\u207b\u00b3",
+      "d": "50 g cm\u207b\u00b3"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 71,
+    "question": "The volume of a 500 g sealed packet is 350 cm\u00b3. If the density of water is 1 g cm\u207b\u00b3, what will be the mass of the water displaced by this packet if it sinks?",
+    "options": {
+      "a": "500 g",
+      "b": "350 g",
+      "c": "1 g",
+      "d": "150 g"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 72,
+    "question": "A stone is allowed to fall from the top of a tower 100 m high. How long does it take to reach the ground? (Take g = 10 m/s\u00b2).",
+    "options": {
+      "a": "2 s",
+      "b": "3 s",
+      "c": "4 s",
+      "d": "5 s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 74,
+    "question": "The mass of the Earth is 6 \u00d7 10\u00b2\u2074 kg, and the mass of the Moon is 7.4 \u00d7 10\u00b2\u00b2 kg. If the distance between them is 3.84 \u00d7 10\u2075 km, what is this distance in meters?",
+    "options": {
+      "a": "3.84 \u00d7 10\u2075 m",
+      "b": "3.84 \u00d7 10\u2078 m",
+      "c": "3.84 \u00d7 10\u00b2 m",
+      "d": "3.84 \u00d7 10\u00b9\u00b9 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 75,
+    "question": "Using the data from Q24, and G = 6.7 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2, calculate the force exerted by the Earth on the Moon.",
+    "options": {
+      "a": "2.02 \u00d7 10\u00b2\u2070 N",
+      "b": "3.57 \u00d7 10\u00b2\u00b2 N",
+      "c": "6.7 \u00d7 10\u00b9\u2070 N",
+      "d": "7.4 \u00d7 10\u00b9\u2075 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 76,
+    "question": "An object has a mass of 42 kg. What is its weight on Earth? (Take g = 9.8 m/s\u00b2).",
+    "options": {
+      "a": "42 N",
+      "b": "411.6 N",
+      "c": "4.2 N",
+      "d": "9.8 N"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 77,
+    "question": "Two objects, each with a mass of 1 kg, are placed 1 meter apart. Calculate the gravitational force between them. (G = 6.673 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2).",
+    "options": {
+      "a": "6.673 \u00d7 10\u207b\u00b9\u00b9 N",
+      "b": "1 N",
+      "c": "9.8 N",
+      "d": "6.673 \u00d7 10\u00b9\u00b9 N"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 78,
+    "question": "An object is dropped from a height. If it takes 2 seconds to reach the ground, what is the height from which it was dropped? (Neglect air resistance, take g = 9.8 m/s\u00b2).",
+    "options": {
+      "a": "9.8 m",
+      "b": "19.6 m",
+      "c": "39.2 m",
+      "d": "4.9 m"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "If the mass of one object is doubled, and the distance between two objects remains the same, how does the gravitational force between them change?",
+    "options": {
+      "a": "It becomes half.",
+      "b": "It becomes one-fourth.",
+      "c": "It doubles.",
+      "d": "It remains the same."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "If the masses of both objects are doubled, and the distance between them remains the same, how does the gravitational force between them change?",
+    "options": {
+      "a": "It doubles.",
+      "b": "It quadruples.",
+      "c": "It becomes half.",
+      "d": "It remains the same."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 81,
+    "question": "The mass of a celestial body is 7.36 \u00d7 10\u00b2\u00b2 kg and its radius is 1.74 \u00d7 10\u2076 m. If G = 6.7 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2, what is the approximate value of 'g' on its surface?",
+    "options": {
+      "a": "1.63 m s\u207b\u00b2",
+      "b": "9.8 m s\u207b\u00b2",
+      "c": "3.7 m s\u207b\u00b2",
+      "d": "0.61 m s\u207b\u00b2"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 82,
+    "question": "If a 50 g substance has a volume of 20 cm\u00b3, what is the volume of water it displaces when fully immersed?",
+    "options": {
+      "a": "50 cm\u00b3",
+      "b": "20 cm\u00b3",
+      "c": "100 cm\u00b3",
+      "d": "25 cm\u00b3"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 83,
+    "question": "A block of wood with a mass of 5 kg is kept on a tabletop. If the area of contact is 0.05 m\u00b2, what is the pressure exerted on the table? (Take g = 9.8 m s\u207b\u00b2).",
+    "options": {
+      "a": "980 Pa",
+      "b": "490 Pa",
+      "c": "245 Pa",
+      "d": "98 Pa"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 84,
+    "question": "A ball is thrown vertically upwards and reaches a maximum height. Its velocity at the highest point is:",
+    "options": {
+      "a": "Maximum",
+      "b": "Half of initial velocity",
+      "c": "Zero",
+      "d": "Equal to initial velocity"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "A truck has a mass of 2000 kg. If it has 8 tyres and each tyre has a contact area of 0.2 m\u00b2, what is the total contact area with the ground?",
+    "options": {
+      "a": "0.2 m\u00b2",
+      "b": "1.6 m\u00b2",
+      "c": "2.0 m\u00b2",
+      "d": "16 m\u00b2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 86,
+    "question": "For the truck in Q35, calculate the pressure exerted on the ground if its mass is 2000 kg. (Take g = 10 m/s\u00b2 for simplicity).",
+    "options": {
+      "a": "12500 Pa",
+      "b": "1250 Pa",
+      "c": "20000 Pa",
+      "d": "2000 Pa"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 87,
+    "question": "An object has a mass of 60 kg. Its weight on a planet where g = 5 m/s\u00b2 would be:",
+    "options": {
+      "a": "60 N",
+      "b": "300 N",
+      "c": "6 N",
+      "d": "12 N"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "If the distance between two objects is halved, by what factor does the gravitational force between them increase?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "1/2",
+      "d": "1/4"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 89,
+    "question": "An object falls freely from a height of 45 m. What is its speed just before hitting the ground? (Take g = 10 m/s\u00b2).",
+    "options": {
+      "a": "15 m/s",
+      "b": "30 m/s",
+      "c": "45 m/s",
+      "d": "90 m/s"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "A stone is thrown vertically upwards with initial velocity 'u'. It reaches a height 'h'. If it were thrown with initial velocity '2u', what maximum height would it reach (neglecting air resistance)?",
+    "options": {
+      "a": "h/2",
+      "b": "2h",
+      "c": "4h",
+      "d": "h"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 91,
+    "question": "Why does an apple fall towards the Earth, rather than floating away or moving sideways?",
+    "options": {
+      "a": "It is less dense than air.",
+      "b": "The Earth's rotation pulls it down.",
+      "c": "There is a gravitational force of attraction between the Earth and the apple.",
+      "d": "The apple has no inertia."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 92,
+    "question": "If a space probe is launched from Earth and travels far into space, what happens to its mass and weight?",
+    "options": {
+      "a": "Both its mass and weight decrease.",
+      "b": "Its mass changes, but its weight remains constant.",
+      "c": "Its mass remains constant, but its weight decreases.",
+      "d": "Both its mass and weight remain constant."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "Why do trucks and motorbuses have much wider tyres?",
+    "options": {
+      "a": "To increase friction for better grip.",
+      "b": "To reduce the pressure exerted on the ground by distributing the weight over a larger area.",
+      "c": "To increase the vehicle's speed.",
+      "d": "To make steering easier."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "Why do cutting tools like knives and axes have sharp edges?",
+    "options": {
+      "a": "To make them aesthetically pleasing.",
+      "b": "To reduce the force required to cut.",
+      "c": "To increase the pressure applied on a small area, making cutting easier.",
+      "d": "To prevent rusting."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "When a person stands on loose sand, their feet go deep into the sand. However, if the same person lies down on the sand, their body does not go as deep. Why?",
+    "options": {
+      "a": "The person's weight decreases when lying down.",
+      "b": "The force exerted on the sand is distributed over a larger area when lying down, reducing pressure.",
+      "c": "The sand becomes denser when someone lies on it.",
+      "d": "Standing increases the gravitational force."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 96,
+    "question": "Why is it difficult to hold a school bag having a strap made of a thin and strong string?",
+    "options": {
+      "a": "The thin string is too heavy.",
+      "b": "The thin string distributes the weight over a larger area, causing less pressure.",
+      "c": "The thin string applies a large pressure on a small area of the shoulder.",
+      "d": "The string is not strong enough."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "You have a bag of cotton and an iron bar, each indicating a mass of 100 kg when measured on a weighing machine. In reality, which one is heavier and why, when measured in air?",
+    "options": {
+      "a": "The cotton bag, because its mass is inherently greater.",
+      "b": "The iron bar, because it displaces less air than the cotton, thus experiencing less upthrust.",
+      "c": "The cotton bag, because it displaces more air than the iron, thus experiencing greater upthrust.",
+      "d": "They are both exactly the same weight."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 98,
+    "question": "Why does a ship made of iron and steel not sink in sea water, while a small piece of iron sinks?",
+    "options": {
+      "a": "The ship is hollow, which makes its average density less than that of water.",
+      "b": "The ship's weight is less than the buoyant force of the water it displaces.",
+      "c": "Iron and steel are buoyant in salt water.",
+      "d": "Both A and B."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 99,
+    "question": "When you draw water from a well, why does the bucket of water feel heavier when it is out of the water compared to when it is submerged?",
+    "options": {
+      "a": "The bucket absorbs water when out of the well.",
+      "b": "The gravitational force increases outside the water.",
+      "c": "Water exerts an upward buoyant force on the bucket when submerged, making it feel lighter.",
+      "d": "Air resistance adds to the weight outside water."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 100,
+    "question": "Why is it that paper reaches the ground a little later than a stone when dropped simultaneously from a height in the air?",
+    "options": {
+      "a": "The gravitational force on paper is weaker.",
+      "b": "Paper has less mass.",
+      "c": "Air offers more resistance to the paper due to its larger surface area relative to its mass.",
+      "d": "The paper is lighter, so it's affected more by wind."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "If the Earth suddenly stopped attracting the moon, what would happen to the moon's motion?",
+    "options": {
+      "a": "It would fall towards the Earth.",
+      "b": "It would stop moving.",
+      "c": "It would fly off along a straight line tangential to its orbit.",
+      "d": "It would continue to orbit the Earth in a smaller circle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 102,
+    "question": "You find your mass to be 42 kg on a weighing machine. Is your true mass more or less than 42 kg, assuming the weighing machine measures apparent mass in air?",
+    "options": {
+      "a": "More than 42 kg.",
+      "b": "Less than 42 kg.",
+      "c": "Exactly 42 kg.",
+      "d": "It depends on the altitude."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "A nail has a pointed tip. This design is primarily used to:",
+    "options": {
+      "a": "Make the nail look aesthetically better.",
+      "b": "Reduce the material needed for manufacturing.",
+      "c": "Allow the force applied to be concentrated over a small area, resulting in high pressure for easy penetration.",
+      "d": "Increase the overall strength of the nail."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 104,
+    "question": "Why does a block of plastic released under water come up to the surface of water?",
+    "options": {
+      "a": "Plastic is lighter than water.",
+      "b": "The density of plastic is less than the density of water.",
+      "c": "The buoyant force on the plastic is greater than its weight.",
+      "d": "All of the above."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 105,
+    "question": "Why are buildings constructed with wide foundations?",
+    "options": {
+      "a": "To make them look grander.",
+      "b": "To reduce the total mass of the building.",
+      "c": "To increase the area of contact with the ground, thereby reducing the pressure exerted by the building.",
+      "d": "To absorb more water."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 106,
+    "question": "Why do planets revolve around the Sun in elliptical orbits instead of moving off in straight lines?",
+    "options": {
+      "a": "They are held by magnetic forces.",
+      "b": "They are constantly pushed by solar winds.",
+      "c": "The Sun exerts a gravitational force on them, providing the necessary centripetal force.",
+      "d": "They possess inherent circular motion."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 107,
+    "question": "An astronaut experiences \"weightlessness\" in orbit. This is because:",
+    "options": {
+      "a": "There is no gravity in space.",
+      "b": "The astronaut's mass becomes zero.",
+      "c": "The astronaut and the spaceship are in a continuous state of free fall around the Earth.",
+      "d": "The astronaut is beyond the Earth's gravitational pull."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 108,
+    "question": "Why do tides occur in oceans?",
+    "options": {
+      "a": "Due to Earth's rotation.",
+      "b": "Due to the gravitational force exerted by the Moon and the Sun on Earth's water bodies.",
+      "c": "Due to changing atmospheric pressure.",
+      "d": "Due to underwater volcanic activity."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 109,
+    "question": "If you drop a feather and a hammer on the moon (which has no atmosphere), what would happen?",
+    "options": {
+      "a": "The feather would fall slower due to its lighter mass.",
+      "b": "The hammer would fall faster due to its heavier mass.",
+      "c": "Both would fall at the same rate and hit the surface simultaneously.",
+      "d": "The feather would float away."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 110,
+    "question": "Why is it easier to lift an object when it is immersed in water compared to lifting it in air?",
+    "options": {
+      "a": "The object loses mass in water.",
+      "b": "Water provides a lubricating effect.",
+      "c": "The buoyant force exerted by water reduces the object's apparent weight.",
+      "d": "The object's density changes in water."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 111,
+    "question": "Consider two hypothetical objects A and B. Object A has a mass of 100 kg and object B has a mass of 1000 kg. If they are the same distance from a third object C, which object (A or B) will exert a greater gravitational force on object C, and why?",
+    "options": {
+      "a": "Object A, because smaller objects have stronger gravitational fields.",
+      "b": "Object B, because gravitational force is directly proportional to the product of masses.",
+      "c": "Both A and B will exert the same force, as distance is constant.",
+      "d": "Neither, as gravitational force depends only on the mass of object C."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 112,
+    "question": "Imagine an experiment where a feather and a stone are dropped simultaneously in a long, evacuated glass tube. What observation would confirm Galileo's deduction about falling objects?",
+    "options": {
+      "a": "The feather falls slower than the stone.",
+      "b": "The stone falls slower than the feather.",
+      "c": "Both the feather and the stone hit the bottom at the same time.",
+      "d": "The feather floats due to lack of air."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 113,
+    "question": "If the universal gravitational constant G were to suddenly become twice its current value, how would the weight of an object on Earth change, assuming Earth's mass and radius remain constant?",
+    "options": {
+      "a": "It would halve.",
+      "b": "It would double.",
+      "c": "It would remain the same.",
+      "d": "It would quadruple."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 114,
+    "question": "Two identical satellites are orbiting Earth. Satellite X is orbiting at a higher altitude than Satellite Y. Which satellite experiences a weaker gravitational force from Earth?",
+    "options": {
+      "a": "Satellite X, because gravitational force decreases with increasing distance.",
+      "b": "Satellite Y, because it is closer to Earth.",
+      "c": "Both experience the same force as their masses are identical.",
+      "d": "The force is independent of altitude."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 115,
+    "question": "A person measures their mass as 60 kg on Earth. If this person goes to the Moon, what would be the most significant difference in their physical state, assuming they don't wear a space suit?",
+    "options": {
+      "a": "Their mass would be less, but their weight would be the same.",
+      "b": "Their mass would be the same, but they would feel lighter due to less weight.",
+      "c": "Both their mass and weight would be significantly less.",
+      "d": "They would feel heavier due to stronger gravity."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 116,
+    "question": "If you threw an object vertically upwards with an initial velocity that is exactly half of the escape velocity from Earth, what would happen to the object?",
+    "options": {
+      "a": "It would reach an infinite height and never return.",
+      "b": "It would reach a certain height and then fall back to Earth.",
+      "c": "It would orbit the Earth.",
+      "d": "It would instantly disintegrate."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 117,
+    "question": "A large hot air balloon floats in the atmosphere. Which principle best explains why it floats?",
+    "options": {
+      "a": "Universal Law of Gravitation.",
+      "b": "Newton's Third Law of Motion.",
+      "c": "Archimedes' Principle.",
+      "d": "Conservation of Momentum."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 118,
+    "question": "Why do objects of different masses, when dropped from the same height in a vacuum, hit the ground at the same time?",
+    "options": {
+      "a": "The gravitational force is stronger on lighter objects.",
+      "b": "The acceleration due to gravity (g) is independent of the object's mass.",
+      "c": "Air resistance is zero in a vacuum.",
+      "d": "All objects have the same weight in a vacuum."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 119,
+    "question": "If you were to drop a very light, strong, and highly porous sponge and a small, heavy, solid lead ball in the open air from the same height, and they hit the ground at different times, what would be the primary reason for the difference in their fall times?",
+    "options": {
+      "a": "The sponge has less mass, so gravity pulls it less strongly.",
+      "b": "The lead ball has more mass, so gravity pulls it more strongly.",
+      "c": "The sponge's large volume and porous structure lead to significantly more air resistance.",
+      "d": "The lead ball's shape is more aerodynamic."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 120,
+    "question": "Consider two planets of the same radius. Planet X has twice the mass of Planet Y. If you weigh 500 N on Planet Y, what would be your weight on Planet X?",
+    "options": {
+      "a": "250 N",
+      "b": "500 N",
+      "c": "1000 N",
+      "d": "2000 N"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 121,
+    "question": "If an object is thrown vertically upwards, what is the direction of the acceleration due to gravity acting on it during its entire flight (upward and downward motion, neglecting air resistance)?",
+    "options": {
+      "a": "Always upwards.",
+      "b": "Always downwards.",
+      "c": "Upwards during ascent, downwards during descent.",
+      "d": "Zero at the peak of its flight."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 122,
+    "question": "An astronaut on the International Space Station (ISS) orbiting Earth experiences \"weightlessness.\" This means:",
+    "options": {
+      "a": "There is no gravitational force acting on the astronaut.",
+      "b": "The astronaut's mass has become zero.",
+      "c": "The gravitational force acting on the astronaut is balanced by an equal and opposite force from the ISS structure.",
+      "d": "The astronaut is continuously accelerating towards the Earth along with the ISS, leading to an apparent absence of weight."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 123,
+    "question": "Why would a hydrometer float higher in a denser liquid compared to a less dense liquid?",
+    "options": {
+      "a": "Denser liquids exert less buoyant force.",
+      "b": "Hydrometers are designed to sink less in denser liquids.",
+      "c": "To displace a weight of liquid equal to its own weight, the hydrometer needs to submerge less volume in a denser liquid.",
+      "d": "Denser liquids have a lower pressure."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 124,
+    "question": "If the Earth suddenly shrank to half its current radius while its mass remained constant, how would the acceleration due to gravity (g) on its surface change?",
+    "options": {
+      "a": "It would halve.",
+      "b": "It would double.",
+      "c": "It would quadruple.",
+      "d": "It would remain the same."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 125,
+    "question": "Consider two objects, A and B, of equal mass. Object A is on the surface of the Earth, and object B is at a height equal to the Earth's radius above the surface. Which object experiences a stronger gravitational force from the Earth?",
+    "options": {
+      "a": "Object A, because gravitational force decreases with distance.",
+      "b": "Object B, because it is further from the Earth's center.",
+      "c": "Both experience the same force as their masses are identical.",
+      "d": "The force is zero for object B."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 126,
+    "question": "A person jumps from a high-diving board into a pool. Why do they feel an immediate slowing down upon entering the water, even before hitting the bottom?",
+    "options": {
+      "a": "The water instantly evaporates.",
+      "b": "The water's viscosity creates friction, and there's an upward buoyant force.",
+      "c": "Gravity reverses its direction in water.",
+      "d": "The person's mass increases in water."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 127,
+    "question": "A certain liquid has a density of 0.8 g/cm\u00b3. If an object floats in this liquid, what can be concluded about the object's density?",
+    "options": {
+      "a": "Its density is greater than 0.8 g/cm\u00b3.",
+      "b": "Its density is exactly 0.8 g/cm\u00b3.",
+      "c": "Its density is less than 0.8 g/cm\u00b3.",
+      "d": "Its density cannot be determined without knowing its volume."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 128,
+    "question": "If the Earth were suddenly compressed to half its volume while retaining its mass, what would happen to your weight on its surface? (Assume uniform density before and after).",
+    "options": {
+      "a": "It would halve.",
+      "b": "It would double.",
+      "c": "It would decrease to 1/2^(2/3) times.",
+      "d": "It would increase to 2^(2/3) times."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 129,
+    "question": "An object is dropped from a height. If air resistance is considered, how would its actual fall time compare to the fall time calculated assuming free fall (no air resistance)?",
+    "options": {
+      "a": "The actual fall time would be shorter.",
+      "b": "The actual fall time would be longer.",
+      "c": "The actual fall time would be the same.",
+      "d": "It cannot be determined without specific values."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 130,
+    "question": "An astronaut drops a hammer and a feather on the Moon. Both objects hit the lunar surface simultaneously. This observation contradicts popular intuition and illustrates that:",
+    "options": {
+      "a": "The Moon has a very strong gravitational field.",
+      "b": "Objects in a vacuum fall at the same rate regardless of their mass.",
+      "c": "The Moon has no atmosphere.",
+      "d": "Both B and C."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 131,
+    "question": "Assertion (A): The motion of the moon around the earth is due to centripetal force.\nReason (R): The centripetal force is provided by the force of attraction of the earth.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 132,
+    "question": "Assertion (A): If there were no gravitational force, the moon would pursue a uniform straight line motion.\nReason (R): In the absence of centripetal force, an object flies off along a straight line tangential to the circular path.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 133,
+    "question": "Assertion (A): The value of acceleration due to gravity (g) is greater at the poles than at the equator.\nReason (R): The radius of the earth increases from the poles to the equator.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 135,
+    "question": "Assertion (A): The weight of an object on the moon is approximately 1/6th of its weight on the earth.\nReason (R): The moon exerts lesser force of attraction on objects due to its smaller mass compared to Earth.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 136,
+    "question": "Assertion (A): Cutting tools have sharp edges.\nReason (R): The same force acting on a smaller area exerts a larger pressure.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 137,
+    "question": "Assertion (A): An iron nail sinks in water.\nReason (R): The density of an iron nail is more than the density of water.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 138,
+    "question": "Assertion (A): A cork floats on water.\nReason (R): The upthrust of water on the cork is greater than the weight of the cork.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 139,
+    "question": "Assertion (A): When a stone is immersed in water, the reading on a spring balance decreases.\nReason (R): Water exerts an upward buoyant force on the stone.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 140,
+    "question": "Assertion (A): All objects, hollow or solid, big or small, fall from a height at the same rate in a vacuum.\nReason (R): The acceleration experienced by an object during free fall is independent of its mass.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 141,
+    "question": "Assertion (A): According to Newton's third law of motion, a falling apple also attracts the Earth.\nReason (R): We do not see the Earth moving towards the apple because the mass of the apple is negligibly small compared to that of the Earth.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 142,
+    "question": "Assertion (A): The universal law of gravitation is applicable to all bodies in the universe.\nReason (R): Gravitation is a weak force unless large masses are involved.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 144,
+    "question": "Assertion (A): Fluids (liquids and gases) exert pressure on the walls of the container.\nReason (R): Fluids have weight.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 145,
+    "question": "Assertion (A): An object feels lighter when immersed in water.\nReason (R): All objects experience a force of buoyancy when they are immersed in a fluid.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 146,
+    "question": "Assertion (A): For an object thrown vertically upwards, the acceleration 'a' is taken as negative.\nReason (R): The acceleration due to gravity opposes the upward motion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 147,
+    "question": "Assertion (A): The density of a substance is defined as mass per unit volume.\nReason (R): Objects of density less than that of a liquid sink in the liquid.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 148,
+    "question": "Assertion (A): The gravitational force between two objects is attractive in nature.\nReason (R): This force is responsible for planets going around the Sun.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 149,
+    "question": "Assertion (A): The value of G (universal gravitational constant) was found out by Henry Cavendish.\nReason (R): G is a universal constant and its value is 6.673 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2 kg\u207b\u00b2.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 150,
+    "question": "Assertion (A): We can use the weight of an object as a measure of its mass at a given place.\nReason (R): At a given place, the value of g is constant, making weight directly proportional to mass.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 151,
+    "question": "Assertion (A): The SI unit of weight is Newton (N).\nReason (R): Weight is a force acting vertically downwards.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 152,
+    "question": "Assertion (A): The motion of all planets around the Sun is due to gravitational force.\nReason (R): The gravitational force is always along the line joining the centers of two objects.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 153,
+    "question": "Assertion (A): For an object on or near the surface of the Earth, the distance 'd' in the gravitational force equation can be approximated as the Earth's radius 'R'.\nReason (R): The size of the object is negligibly small compared to the Earth's radius.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 154,
+    "question": "Assertion (A): The greater the mass of an object, the greater is its inertia.\nReason (R): Mass is the measure of inertia.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 155,
+    "question": "Assertion (A): The gravitational force between any two objects on Earth is rarely experienced.\nReason (R): The gravitational force is a weak force unless very large masses are involved.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 156,
+    "question": "Assertion (A): The universal law of gravitation helps to explain the occurrence of tides.\nReason (R): Tides are caused by the gravitational forces of the moon and the sun on the Earth's oceans.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 157,
+    "question": "Assertion (A): In a glass jar from which air has been sucked out, a paper and a stone would fall at the same rate.\nReason (R): Air resistance is significantly greater for paper than for a stone of the same mass.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 158,
+    "question": "Assertion (A): Pressure exerted in any confined mass of fluid is transmitted undiminished in all directions.\nReason (R): This principle is fundamental to the working of hydraulic systems.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 159,
+    "question": "Assertion (A): The acceleration due to gravity (g) is more or less constant on or near the Earth's surface for calculations.\nReason (R): The Earth is a perfect sphere, ensuring uniform radius and mass distribution.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 160,
+    "question": "Assertion (A): The maximum height reached by an object thrown vertically upwards is independent of its initial velocity.\nReason (R): The final velocity at the highest point of its trajectory is zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 161,
+    "question": "Assertion (A): The unit of g is the same as that of acceleration.\nReason (R): Acceleration due to gravity is caused by the Earth's gravitational force.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 162,
+    "question": "Assertion (A): The value of G is 6.7 x 10^-11 N m^2 kg^-2.\nReason (R): The value of G is constant everywhere in the universe.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 163,
+    "question": "Assertion (A): When pushing a drawing pin with your thumb, the force acts on a smaller area at the tip of the pin.\nReason (R): This helps to create a larger pressure at the tip, enabling the pin to penetrate the board.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 164,
+    "question": "Assertion (A): The mass of a body remains the same on Earth and on any planet.\nReason (R): Mass is the force with which the Earth attracts the body.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 165,
+    "question": "Assertion (A): The force of gravity decreases with altitude.\nReason (R): Gravitational force is inversely proportional to the square of the distance between objects.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 167,
+    "question": "Assertion (A): All liquids and gases are called fluids.\nReason (R): They can flow.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 168,
+    "question": "Assertion (A): The SI unit of pressure is Pascal (Pa).\nReason (R): It is named in honor of scientist Blaise Pascal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 169,
+    "question": "Assertion (A): Archimedes shouted \"Eureka!\" upon discovering his principle.\nReason (R): This knowledge helped him determine the purity of gold in a king's crown.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
   }
 ]

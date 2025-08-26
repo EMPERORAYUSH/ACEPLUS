@@ -1,552 +1,1102 @@
 [
   {
-    "question": "Which of these is NOT a congruence criterion?",
+    "question_number": 1,
+    "question": "Which of the following defines a triangle based on the introduction to the chapter?",
     "options": {
-      "a": "SAS",
-      "b": "ASA",
-      "c": "AAA",
-      "d": "SSS"
+      "a": "A closed figure formed by four intersecting lines.",
+      "b": "An open figure formed by three intersecting lines.",
+      "c": "A closed figure formed by three intersecting lines.",
+      "d": "A collection of three non-collinear points."
     },
-    "answer": "c",
-    "id": 226
+    "answer": "c"
   },
   {
-    "question": "CPCT stands for:",
+    "question_number": 2,
+    "question": "In a triangle denoted as \u2206 ABC, what are AB, BC, and CA?",
+    "options": {
+      "a": "Angles",
+      "b": "Vertices",
+      "c": "Sides",
+      "d": "Medians"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 3,
+    "question": "What does the term 'congruent' mean in the context of geometric figures?",
+    "options": {
+      "a": "Having the same shape but different sizes.",
+      "b": "Having different shapes but the same size.",
+      "c": "Equal in all respects, or having both the same shape and size.",
+      "d": "Being reflections of each other."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 4,
+    "question": "Which of the following pairs of figures are generally considered congruent?",
+    "options": {
+      "a": "Two squares with different side measures.",
+      "b": "Two circles with different radii.",
+      "c": "Two one rupee coins minted in the same year.",
+      "d": "Two different sized photographs of the same person."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "In congruent triangles, what does \u2018CPCT\u2019 stand for?",
     "options": {
       "a": "Corresponding Parts of Congruent Triangles",
-      "b": "Congruent Parts of Corresponding Triangles",
-      "c": "Corresponding Parts of Congruent Trapeziums",
-      "d": "Congruent Pairs of Corresponding Triangles"
+      "b": "Common Parts of Congruent Triangles",
+      "c": "Corresponding Points of Congruent Triangles",
+      "d": "Congruent Parts Corresponding to Triangles"
     },
-    "answer": "a",
-    "id": 227
+    "answer": "a"
   },
   {
-    "question": "In ≅ ∆s, corresponding angles are:",
+    "question_number": 6,
+    "question": "Which of the following is an axiom for congruence of triangles?",
     "options": {
-      "a": "equal",
-      "b": "supplementary",
-      "c": "complementary",
-      "d": "unequal"
+      "a": "ASA congruence rule",
+      "b": "SSS congruence rule",
+      "c": "SAS congruence rule",
+      "d": "RHS congruence rule"
     },
-    "answer": "a",
-    "id": 228
+    "answer": "c"
   },
   {
-    "question": "If ∆ABC ≅ ∆PQR, then BC corresponds to:",
+    "question_number": 7,
+    "question": "According to the SAS congruence rule, what specific characteristic must the equal angle have relative to the two equal sides?",
     "options": {
-      "a": "PQ",
-      "b": "QR",
-      "c": "PR",
-      "d": "None"
+      "a": "It must be opposite one of the equal sides.",
+      "b": "It must be the largest angle in the triangle.",
+      "c": "It must be the included angle between the two sides.",
+      "d": "It can be any angle in the triangle."
     },
-    "answer": "b",
-    "id": 229
+    "answer": "c"
   },
   {
-    "question": "The RHS criterion applies to:",
+    "question_number": 8,
+    "question": "Is the ASS (Angle-Side-Side) or SSA congruence rule valid for proving triangle congruence?",
     "options": {
-      "a": "all ∆s",
-      "b": "isosceles ∆s",
-      "c": "right ∆s",
-      "d": "equilateral ∆s"
+      "a": "Yes, it is always valid.",
+      "b": "Yes, but only for acute triangles.",
+      "c": "No, it is not generally valid.",
+      "d": "Yes, if the angle is obtuse."
     },
-    "answer": "c",
-    "id": 230
+    "answer": "c"
   },
   {
-    "question": "Which criterion requires two sides and an included angle?",
+    "question_number": 9,
+    "question": "What is Theorem 7.1 primarily about?",
     "options": {
-      "a": "SSS",
-      "b": "SAS",
-      "c": "ASA",
-      "d": "RHS"
+      "a": "SSS congruence rule",
+      "b": "RHS congruence rule",
+      "c": "ASA congruence rule",
+      "d": "Angles opposite equal sides"
     },
-    "answer": "b",
-    "id": 231
+    "answer": "c"
   },
   {
-    "question": "Which criterion requires all three sides of the triangle to be congruent?",
+    "question_number": 10,
+    "question": "Which criterion for congruence states that two triangles are congruent if two angles and one side of one triangle are equal to two angles and the corresponding side of the other triangle, where the side is not necessarily included?",
+    "options": {
+      "a": "SAS congruence rule",
+      "b": "ASA congruence rule",
+      "c": "AAS congruence rule",
+      "d": "SSS congruence rule"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 11,
+    "question": "Is equality of three angles (AAA) sufficient for the congruence of two triangles?",
+    "options": {
+      "a": "Yes, always.",
+      "b": "No, because it only guarantees similarity.",
+      "c": "Yes, but only for equilateral triangles.",
+      "d": "No, for congruence, at least one side must be equal."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 12,
+    "question": "What is a triangle called if two of its sides are equal?",
+    "options": {
+      "a": "Equilateral triangle",
+      "b": "Scalene triangle",
+      "c": "Isosceles triangle",
+      "d": "Right triangle"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 13,
+    "question": "What does Theorem 7.2 state about an isosceles triangle?",
+    "options": {
+      "a": "All angles are 60\u00b0.",
+      "b": "The angles opposite to the equal sides are equal.",
+      "c": "The sum of any two sides is greater than the third side.",
+      "d": "The medians to the equal sides are perpendicular."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 14,
+    "question": "What is the converse of Theorem 7.2 (Angles opposite to equal sides are equal)?",
+    "options": {
+      "a": "If two angles of a triangle are equal, then the sides opposite to them are also equal.",
+      "b": "If two sides of a triangle are equal, then the angles opposite to them are also equal.",
+      "c": "If all angles of a triangle are equal, then all sides are equal.",
+      "d": "If an angle bisector is perpendicular to the opposite side, the triangle is isosceles."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 15,
+    "question": "Which congruence rule is used to prove Theorem 7.3 (Sides opposite to equal angles of a triangle are equal)?",
+    "options": {
+      "a": "SAS rule",
+      "b": "SSS rule",
+      "c": "RHS rule",
+      "d": "ASA rule"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 16,
+    "question": "What is Theorem 7.4 known as?",
+    "options": {
+      "a": "SAS congruence rule",
+      "b": "ASA congruence rule",
+      "c": "SSS congruence rule",
+      "d": "AAS congruence rule"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 17,
+    "question": "The RHS congruence rule is specifically applicable to which type of triangles?",
+    "options": {
+      "a": "Equilateral triangles",
+      "b": "Isosceles triangles",
+      "c": "Acute-angled triangles",
+      "d": "Right triangles"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 18,
+    "question": "In the RHS congruence rule, what does 'H' stand for?",
+    "options": {
+      "a": "Height",
+      "b": "Hypotenuse",
+      "c": "Horizontal",
+      "d": "Half-side"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 19,
+    "question": "If \u2206 PQR \u2245 \u2206 ABC, which of the following correspondences is NOT correct?",
+    "options": {
+      "a": "P \u2194 A",
+      "b": "Q \u2194 B",
+      "c": "R \u2194 C",
+      "d": "P \u2194 B"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 20,
+    "question": "What is the sum of the three angles of a triangle?",
+    "options": {
+      "a": "90\u00b0",
+      "b": "120\u00b0",
+      "c": "180\u00b0",
+      "d": "360\u00b0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 21,
+    "question": "If two sides and the included angle of one triangle are equal to two sides and the included angle of another triangle, the triangles are congruent by which rule?",
+    "options": {
+      "a": "AAS",
+      "b": "ASA",
+      "c": "SAS",
+      "d": "SSS"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "If two angles and the included side of one triangle are equal to two angles and the included side of the other triangle, the triangles are congruent by which rule?",
+    "options": {
+      "a": "AAS",
+      "b": "ASA",
+      "c": "SAS",
+      "d": "SSS"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 23,
+    "question": "If three sides of one triangle are equal to the three sides of another triangle, the two triangles are congruent by which rule?",
+    "options": {
+      "a": "AAS",
+      "b": "ASA",
+      "c": "SAS",
+      "d": "SSS"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 24,
+    "question": "What can be concluded about the angles of an equilateral triangle based on the properties discussed in the chapter?",
+    "options": {
+      "a": "Each angle is 90\u00b0.",
+      "b": "Each angle is 60\u00b0.",
+      "c": "Angles can vary but are always equal.",
+      "d": "Two angles are 45\u00b0 and one is 90\u00b0."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 25,
+    "question": "What is the primary characteristic of a perpendicular bisector of a line segment?",
+    "options": {
+      "a": "It passes through one endpoint.",
+      "b": "It forms a 45-degree angle with the segment.",
+      "c": "It is perpendicular to the segment and passes through its midpoint.",
+      "d": "It is parallel to the segment."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 26,
+    "question": "If two triangles ABC and PQR are congruent under the correspondence A \u2194 P, B \u2194 Q and C \u2194 R, how is it expressed symbolically?",
+    "options": {
+      "a": "\u2206 QPR \u2245 \u2206 ABC",
+      "b": "\u2206 ABC \u2245 \u2206 PQR",
+      "c": "\u2206 BCA \u2245 \u2206 QRP",
+      "d": "\u2206 CBA \u2245 \u2206 RQP"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 27,
+    "question": "In the proof of ASA congruence rule (Theorem 7.1), when AB > DE, a point P is taken on AB such that PB = DE. Which rule is then used to conclude \u2206 PBC \u2245 \u2206 DEF?",
+    "options": {
+      "a": "AAS rule",
+      "b": "SSS rule",
+      "c": "RHS rule",
+      "d": "SAS rule"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 28,
+    "question": "What property makes \u2220 AOD and \u2220 BOC equal in Example 1, where lines AD and BC intersect at O?",
+    "options": {
+      "a": "Alternate interior angles",
+      "b": "Corresponding angles",
+      "c": "Vertically opposite angles",
+      "d": "Linear pair angles"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 29,
+    "question": "When a point P lies on the perpendicular bisector of a line segment AB, what is its relationship to points A and B?",
+    "options": {
+      "a": "P is closer to A than to B.",
+      "b": "P is closer to B than to A.",
+      "c": "P is equidistant from A and B.",
+      "d": "P forms a right angle with A and B."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 30,
+    "question": "Which of the following rules for congruence of triangles is NOT always valid?",
     "options": {
       "a": "SAS",
-      "b": "SSS",
-      "c": "RHS",
-      "d": "ASA"
+      "b": "RHS",
+      "c": "SSS",
+      "d": "SSA"
     },
-    "answer": "b",
-    "id": 232
+    "answer": "d"
   },
   {
-    "question": "If two triangles are congruent, their corresponding altitudes are:",
+    "question_number": 31,
+    "question": "In quadrilateral ACBD, AC = AD and AB bisects \u2220 A. If \u2220CAB = 30\u00b0, what is the measure of \u2220DAB?",
     "options": {
-      "a": "congruent",
-      "b": "similar",
-      "c": "unequal",
-      "d": "parallel"
+      "a": "15\u00b0",
+      "b": "30\u00b0",
+      "c": "45\u00b0",
+      "d": "60\u00b0"
     },
-    "answer": "a",
-    "id": 233
+    "answer": "b"
   },
   {
-    "question": "If two triangles are congruent, are their perimeters equal?",
+    "question_number": 32,
+    "question": "In Figure 7.8 (Example 1), OA = OB and OD = OC. If AD = 5 cm, what is the length of BC?",
     "options": {
-      "a": "Always",
-      "b": "Sometimes",
-      "c": "Never",
-      "d": "Cannot determine"
+      "a": "2.5 cm",
+      "b": "5 cm",
+      "c": "7.5 cm",
+      "d": "10 cm"
     },
-    "answer": "a",
-    "id": 234
+    "answer": "b"
   },
   {
-    "question": "Two congruent triangles are also:",
+    "question_number": 33,
+    "question": "AB is a line segment and line l is its perpendicular bisector, passing through C which is the mid-point of AB. If PA = (3x + 2) cm and PB = (5x - 4) cm, find the value of x.",
     "options": {
-      "a": "similar",
-      "b": "equal in area",
-      "c": "Both",
-      "d": "Neither"
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
     },
-    "answer": "c",
-    "id": 235
+    "answer": "c"
   },
   {
-    "question": "∆ABC has AB=5, BC=7, ∠B=60°. ∆DEF has DE=5, EF=7, ∠E=60°. Are they congruent?",
+    "question_number": 34,
+    "question": "Line-segment AB is parallel to line-segment CD. O is the mid-point of AD. If \u2206AOB \u2245 \u2206DOC, and OB = 7 cm, what is the length of OC?",
     "options": {
-      "a": "Yes, SAS",
-      "b": "No",
-      "c": "Yes, ASA",
-      "d": "Yes, SSS"
+      "a": "3.5 cm",
+      "b": "7 cm",
+      "c": "10.5 cm",
+      "d": "14 cm"
     },
-    "answer": "a",
-    "id": 236
+    "answer": "b"
   },
   {
-    "question": "If ∆XYZ ≅ ∆RST, XY=8, YZ=6, XZ=10, find RT.",
+    "question_number": 35,
+    "question": "In \u2206 ABC, AD is the perpendicular bisector of BC. If \u2220BAD = 40\u00b0, what is the measure of \u2220CAD?",
     "options": {
-      "a": "6",
-      "b": "8",
-      "c": "10",
-      "d": "None"
+      "a": "20\u00b0",
+      "b": "40\u00b0",
+      "c": "50\u00b0",
+      "d": "80\u00b0"
     },
-    "answer": "c",
-    "id": 237
+    "answer": "b"
   },
   {
-    "question": "In ∆ABC, AB=AC, ∠B=50°. Find ∠C.",
+    "question_number": 36,
+    "question": "In an isosceles triangle ABC with AB = AC, if \u2220B = 55\u00b0, what is the measure of \u2220C?",
     "options": {
-      "a": "50°",
-      "b": "80°",
-      "c": "60°",
-      "d": "70°"
+      "a": "35\u00b0",
+      "b": "55\u00b0",
+      "c": "70\u00b0",
+      "d": "110\u00b0"
     },
-    "answer": "a",
-    "id": 238
+    "answer": "b"
   },
   {
-    "question": "∆PQR has PQ=5, QR=5, PR=8. Is it congruent to ∆LMN with LM=8, MN=5, LN=5?",
+    "question_number": 37,
+    "question": "In \u2206 ABC, AB = AC. D and E are points on BC such that BE = CD. If AE = 8 cm, what is the length of AD?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Maybe",
-      "d": "Not enough info"
+      "a": "4 cm",
+      "b": "6 cm",
+      "c": "8 cm",
+      "d": "10 cm"
     },
-    "answer": "a",
-    "id": 239
+    "answer": "c"
   },
   {
-    "question": "If two sides of a ∆ are 6 and 8, the third side CANNOT be:",
+    "question_number": 38,
+    "question": "In a right triangle ABC, right-angled at C, M is the mid-point of hypotenuse AB. If CM = 6 cm, what is the length of AB?",
     "options": {
-      "a": "10",
-      "b": "13",
-      "c": "2",
-      "d": "7"
+      "a": "3 cm",
+      "b": "6 cm",
+      "c": "12 cm",
+      "d": "18 cm"
     },
-    "answer": "b",
-    "id": 240
+    "answer": "c"
   },
   {
-    "question": "In ∆ABC, AD bisects ∠A and AD⊥BC. Then ∆ABC is:",
+    "question_number": 39,
+    "question": "In \u2206 ABC, AD is the perpendicular bisector of BC. If BC = 10 cm, what is the length of BD?",
     "options": {
-      "a": "equilateral",
-      "b": "scalene",
-      "c": "isosceles",
-      "d": "right-angled"
+      "a": "2.5 cm",
+      "b": "5 cm",
+      "c": "7.5 cm",
+      "d": "10 cm"
     },
-    "answer": "c",
-    "id": 241
+    "answer": "b"
   },
   {
-    "question": "In ∆PQR, PQ = PR. QS bisects ∠Q and meets PR at S. If PS=4, then PR:",
+    "question_number": 40,
+    "question": "ABC is a right-angled triangle in which \u2220 A = 90\u00b0 and AB = AC. Find the measure of \u2220B.",
     "options": {
-      "a": "4",
-      "b": "8",
-      "c": "2",
-      "d": "1"
+      "a": "30\u00b0",
+      "b": "45\u00b0",
+      "c": "60\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "b",
-    "id": 242
+    "answer": "b"
   },
   {
-    "question": "Two sides of a triangle are 5cm and 9cm. The third side's length must be between:",
+    "question_number": 41,
+    "question": "In \u2206 ABC and \u2206 PQR, AB = PQ, BC = QR, and \u2220B = \u2220Q. If QR = 7 cm, what is the length of BC?",
     "options": {
-      "a": "4 and 14",
-      "b": "0 and 14",
-      "c": "Greater than 4",
-      "d": "Less than 14"
-    },
-    "answer": "a",
-    "id": 243
-  },
-  {
-    "question": "If two angles of a triangle are 40° and 70°, the third angle is:",
-    "options": {
-      "a": "70°",
-      "b": "40°",
-      "c": "90°",
-      "d": "None"
-    },
-    "answer": "a",
-    "id": 244
-  },
-  {
-    "question": "The sides of a triangle are 5, 12, and 13. Is it a right triangle?",
-    "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Maybe",
-      "d": "Insufficient info"
-    },
-    "answer": "a",
-    "id": 245
-  },
-  {
-    "question": "A ladder 17ft long leans against a wall, its base 8ft from the wall. How high does it reach?",
-    "options": {
-      "a": "12ft",
-      "b": "15ft",
-      "c": "17ft",
-      "d": "20ft"
-    },
-    "answer": "b",
-    "id": 246
-  },
-  {
-    "question": "Two sides of a triangle are 7 and 10. Can the third side be 20?",
-    "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Sometimes",
-      "d": "Not enough info"
-    },
-    "answer": "b",
-    "id": 247
-  },
-  {
-    "question": "In an isosceles triangle with equal sides of 8cm and a base of 6cm, the altitude to the base is:",
-    "options": {
-      "a": "6cm",
-      "b": "8cm",
-      "c": "less than 8cm",
-      "d": "cannot be determined"
-    },
-    "answer": "c",
-    "id": 248
-  },
-  {
-    "question": "If two angles of a triangle are 30° and 60°, what type of triangle is it?",
-    "options": {
-      "a": "Acute",
-      "b": "Obtuse",
-      "c": "Right",
-      "d": "Cannot determine"
-    },
-    "answer": "c",
-    "id": 249
-  },
-  {
-    "question": "If two sides of a triangle are 3 and 4, and the included angle is 60°, another triangle with sides 3 and 4 and a *non-included* angle of 60°:",
-    "options": {
-      "a": "Must be congruent",
-      "b": "Cannot be congruent",
-      "c": "Might be congruent",
-      "d": "Not enough information"
-    },
-    "answer": "c",
-    "id": 250
-  },
-  {
-    "question": "Assertion: If two triangles have the same area, they are congruent.",
-    "options": {
-      "a": "Both A and R are true, and R is the correct explanation of A.",
-      "b": "Both A and R are true, but R is not the correct explanation of A.",
-      "c": "A is true, but R is false.",
-      "d": "A is false, but R is true."
-    },
-    "answer": "d",
-    "id": 251
-  },
-  {
-    "question": "Assertion: In an isosceles triangle, the altitude to the base bisects the base.",
-    "options": {
-      "a": "Both A and R are true, and R is the correct explanation of A.",
-      "b": "Both A and R are true, but R is not the correct explanation of A.",
-      "c": "A is true, but R is false.",
-      "d": "A is false, but R is true."
-    },
-    "answer": "a",
-    "id": 252
-  },
-  {
-    "question": "Assertion: If two triangles have two sides and a non-included angle equal, they are congruent.",
-    "options": {
-      "a": "Both A and R are true, and R is the correct explanation of A.",
-      "b": "Both A and R are true, but R is not the correct explanation of A.",
-      "c": "A is true, but R is false.",
-      "d": "A is false, but R is true."
-    },
-    "answer": "d",
-    "id": 253
-  },
-  {
-    "question": "Assertion: Two right-angled triangles are congruent if their hypotenuses and one leg are equal.",
-    "options": {
-      "a": "Both A and R are true, and R is the correct explanation of A.",
-      "b": "Both A and R are true, but R is not the correct explanation of A.",
-      "c": "A is true, but R is false.",
-      "d": "A is false, but R is true."
-    },
-    "answer": "c",
-    "id": 254
-  },
-  {
-    "question": "Assertion: If two triangles have all three angles equal, they are congruent.",
-    "options": {
-      "a": "Both A and R are true, and R is the correct explanation of A.",
-      "b": "Both A and R are true, but R is not the correct explanation of A.",
-      "c": "A is true, but R is false.",
-      "d": "A is false, but R is true."
-    },
-    "answer": "d",
-    "id": 255
-  },
-  {
-    "question": "A bridge is supported by congruent triangular structures. If one triangle has sides 5m, 5m, and 6m, what type of triangle is it?",
-    "options": {
-      "a": "Equilateral",
-      "b": "Scalene",
-      "c": "Isosceles",
-      "d": "Right-angled"
-    },
-    "answer": "c",
-    "id": 256
-  },
-  {
-    "question": "A designer wants to create identical tiles in the shape of triangles. Which congruence criterion should the designer ensure for all the tiles?",
-    "options": {
-      "a": "Just equal angles",
-      "b": "One equal side",
-      "c": "SAS, ASA, or SSS",
-      "d": "None of these"
-    },
-    "answer": "c",
-    "id": 257
-  },
-  {
-    "question": "A carpenter needs to cut two congruent triangular pieces of wood. Which tool would be MOST useful for ensuring the angles are equal?",
-    "options": {
-      "a": "Ruler",
-      "b": "Protractor",
-      "c": "Compass",
-      "d": "Measuring Tape"
-    },
-    "answer": "b",
-    "id": 258
-  },
-  {
-    "question": "Two triangular sails are congruent. If one has angles of 30°, 60°, and 90°, what type of triangle is the other sail?",
-    "options": {
-      "a": "Acute",
-      "b": "Obtuse",
-      "c": "Right-angled",
-      "d": "Isosceles"
-    },
-    "answer": "c",
-    "id": 259
-  },
-  {
-    "question": "A triangular piece of fabric is to be sewn onto a rectangular quilt. If two sides of the triangle are 4 inches and 6 inches, and the included angle is 45 degrees, can another triangular piece with sides 4 inches and 6 inches and a non-included angle of 45 degrees be congruent?",
-    "options": {
-      "a": "Yes, always",
-      "b": "No, never",
-      "c": "Sometimes",
-      "d": "Depends on the other angles"
-    },
-    "answer": "c",
-    "id": 260
-  },
-  {
-    "question": "A surveyor is mapping a triangular plot of land. If two sides of the plot are 100m and 150m, and the included angle is 60°, can another triangular plot with sides 100m and 150m and a non-included angle of 60° be congruent to the first plot?",
-    "options": {
-      "a": "Yes, always",
-      "b": "No, never",
-      "c": "Sometimes",
-      "d": "Depends on the type of land"
-    },
-    "answer": "c",
-    "id": 261
-  },
-  {
-    "question": "An architect is designing a roof in the shape of an isosceles triangle. If two sides of the roof are 12ft long, and the angle between them is 40°, what is the length of the base of the triangle?",
-    "options": {
-      "a": "12ft",
-      "b": "Cannot be determined",
-      "c": "Less than 12ft",
-      "d": "Greater than 12ft"
-    },
-    "answer": "c",
-    "id": 262
-  },
-  {
-    "question": "A boat is sailing from point A to point B across a lake. If the boat sails 5km due east and then 3km due north, what is the shortest distance between points A and B?",
-    "options": {
-      "a": "8km",
-      "b": "4km",
-      "c": "5.83km",
+      "a": "3.5 cm",
+      "b": "7 cm",
+      "c": "14 cm",
       "d": "Cannot be determined"
     },
-    "answer": "c",
-    "id": 263
+    "answer": "b"
   },
   {
-    "question": "A gardener is planting a triangular flower bed. If two sides of the flower bed are 4ft and 7ft long, and the included angle is 30°, can another triangular flower bed with sides 4ft and 7ft and a non-included angle of 30° be congruent to the first?",
+    "question_number": 42,
+    "question": "In \u2206 XYZ and \u2206 LMN, \u2220Y = \u2220M, \u2220Z = \u2220N, and YZ = MN. If \u2220L = 70\u00b0, what is the measure of \u2220X?",
     "options": {
-      "a": "Yes, always",
-      "b": "No, never",
-      "c": "Sometimes",
-      "d": "Depends on the type of flowers"
+      "a": "70\u00b0",
+      "b": "110\u00b0",
+      "c": "35\u00b0",
+      "d": "Cannot be determined"
     },
-    "answer": "c",
-    "id": 264
+    "answer": "a"
   },
   {
-    "question": "A flagpole is supported by two wires that form congruent triangles with the ground. If one wire is 10m long and makes a 45° angle with the ground, and the other wire is also 10m long, what angle must it make with the ground for the triangles to be congruent?",
+    "question_number": 43,
+    "question": "In \u2206 PQR, PQ = QR. If \u2220P = (2x + 10)\u00b0 and \u2220R = (3x - 20)\u00b0, find the value of x.",
     "options": {
-      "a": "30°",
-      "b": "45°",
-      "c": "60°",
-      "d": "90°"
+      "a": "10",
+      "b": "20",
+      "c": "30",
+      "d": "40"
     },
-    "answer": "b",
-    "id": 265
+    "answer": "c"
   },
   {
-    "question": "Two triangles are congruent by ASA. Can they also be congruent by SAS?",
+    "question_number": 44,
+    "question": "If in two right triangles, \u2206ABC (right-angled at B) and \u2206DEF (right-angled at E), AC = DF (hypotenuses) and AB = DE (one side). If BC = 12 cm, what is EF?",
     "options": {
-      "a": "Always",
-      "b": "Never",
-      "c": "Sometimes",
-      "d": "Not enough info"
+      "a": "6 cm",
+      "b": "12 cm",
+      "c": "18 cm",
+      "d": "Cannot be determined"
     },
-    "answer": "c",
-    "id": 266
+    "answer": "b"
   },
   {
-    "question": "Can two scalene ∆s be congruent?",
+    "question_number": 45,
+    "question": "In quadrilateral ABCD, AD = BC and \u2220DAB = \u2220CBA. If AB = 8 cm, AC = 10 cm, and BD = 10 cm, what can be concluded about the lengths of AC and BD?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only if right ∆s",
-      "d": "Only if obtuse ∆s"
+      "a": "AC > BD",
+      "b": "AC < BD",
+      "c": "AC = BD",
+      "d": "No relation can be established"
     },
-    "answer": "a",
-    "id": 267
+    "answer": "c"
   },
   {
-    "question": "If ∆ABC ≅ ∆DEF and ∆DEF ≅ ∆GHI, then ∆ABC and ∆GHI are:",
+    "question_number": 46,
+    "question": "AD and BC are equal perpendiculars to a line segment AB. If CD intersects AB at O, and AO = 6 cm, what is the length of BO?",
     "options": {
-      "a": "Similar",
-      "b": "Congruent",
-      "c": "Equal in area",
-      "d": "All the above"
+      "a": "3 cm",
+      "b": "6 cm",
+      "c": "9 cm",
+      "d": "12 cm"
     },
-    "answer": "b",
-    "id": 268
+    "answer": "b"
   },
   {
-    "question": "Are two triangles congruent if two angles and a non-included side of one are equal to the corresponding parts of the other?",
+    "question_number": 47,
+    "question": "Line l is the bisector of an angle \u2220 A. B is any point on l. BP and BQ are perpendiculars from B to the arms of \u2220 A. If BP = 5 cm, what is the length of BQ?",
     "options": {
-      "a": "Always",
-      "b": "Never",
-      "c": "Sometimes",
-      "d": "Only in right triangles"
+      "a": "2.5 cm",
+      "b": "5 cm",
+      "c": "7.5 cm",
+      "d": "Cannot be determined"
     },
-    "answer": "a",
-    "id": 269
+    "answer": "b"
   },
   {
-    "question": "Are two triangles congruent if two sides and a non-included angle of one triangle are congruent to two sides and the corresponding non-included angle of the other?",
+    "question_number": 48,
+    "question": "In Fig. 7.21, AC = AE, AB = AD and \u2220 BAD = \u2220 EAC. If \u2220BAC = 50\u00b0 and \u2220DAE = 30\u00b0, what is the measure of \u2220CAD?",
     "options": {
-      "a": "Always",
-      "b": "Never",
-      "c": "Sometimes",
-      "d": "Only for right triangles"
+      "a": "10\u00b0",
+      "b": "20\u00b0",
+      "c": "30\u00b0",
+      "d": "40\u00b0"
     },
-    "answer": "c",
-    "id": 270
+    "answer": "c"
   },
   {
-    "question": "If ∆ABC is isosceles with AB=AC, and D is any point on BC, must AD be perpendicular to BC?",
+    "question_number": 49,
+    "question": "In an equilateral triangle ABC, what is the measure of each angle?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only if D is the midpoint",
-      "d": "Depends on the angle at A"
+      "a": "30\u00b0",
+      "b": "45\u00b0",
+      "c": "60\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "c",
-    "id": 271
+    "answer": "c"
   },
   {
-    "question": "Can an isosceles ∆ be a right ∆?",
+    "question_number": 50,
+    "question": "P and Q are points on opposite sides of AB such that each of them is equidistant from points A and B. If AC = 7.5 cm where C is the intersection of PQ and AB, what is the length of BC?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only if equilateral",
-      "d": "Never"
+      "a": "3.75 cm",
+      "b": "7.5 cm",
+      "c": "10 cm",
+      "d": "15 cm"
     },
-    "answer": "a",
-    "id": 272
+    "answer": "b"
   },
   {
-    "question": "Two triangles with all angles equal are always:",
+    "question_number": 51,
+    "question": "P is a point equidistant from two lines l and m intersecting at point A. If \u2220PAB = 35\u00b0, what is the measure of \u2220PAC?",
     "options": {
-      "a": "Congruent",
-      "b": "Similar",
-      "c": "Equal in area",
-      "d": "None of these"
+      "a": "17.5\u00b0",
+      "b": "35\u00b0",
+      "c": "55\u00b0",
+      "d": "70\u00b0"
     },
-    "answer": "b",
-    "id": 273
+    "answer": "b"
   },
   {
-    "question": "Which congruence rule can NEVER prove two triangles are NOT congruent?",
+    "question_number": 52,
+    "question": "In \u2206 ABC and \u2206 PQR, AB = PQ = 6 cm, BC = QR = 8 cm, and AC = PR = 10 cm. Which congruence rule applies?",
     "options": {
       "a": "SAS",
       "b": "ASA",
-      "c": "SSS",
-      "d": "AAA"
+      "c": "AAS",
+      "d": "SSS"
     },
-    "answer": "d",
-    "id": 274
+    "answer": "d"
   },
   {
-    "question": "If a triangle has sides 3, 4, and 5, and another triangle has sides 5, 12, and 13, are they congruent?",
+    "question_number": 53,
+    "question": "If in \u2206ABC and \u2206DEF, \u2220B = \u2220E = 70\u00b0, \u2220C = \u2220F = 60\u00b0, and BC = EF = 5 cm, what is the value of \u2220A?",
     "options": {
-      "a": "Yes, both are right triangles",
-      "b": "No",
-      "c": "Yes, by SSS",
-      "d": "Not enough information"
+      "a": "50\u00b0",
+      "b": "60\u00b0",
+      "c": "70\u00b0",
+      "d": "80\u00b0"
     },
-    "answer": "b",
-    "id": 275
+    "answer": "a"
+  },
+  {
+    "question_number": 54,
+    "question": "In an isosceles triangle ABC, AB = AC. If AD is the bisector of \u2220A meeting BC at D, and \u2220BAD = 25\u00b0, find \u2220BAC.",
+    "options": {
+      "a": "25\u00b0",
+      "b": "50\u00b0",
+      "c": "75\u00b0",
+      "d": "100\u00b0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 55,
+    "question": "In \u2206ABF and \u2206ACE, AB = AC = 10 cm. F and E are respectively the mid-points of AC and AB. If AE = 5 cm, what is the length of AF?",
+    "options": {
+      "a": "2.5 cm",
+      "b": "5 cm",
+      "c": "7.5 cm",
+      "d": "10 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 56,
+    "question": "Two sides AB and BC and median AM of one triangle ABC are respectively equal to sides PQ and QR and median PN of \u2206 PQR. If BM = 4 cm, what is QN?",
+    "options": {
+      "a": "2 cm",
+      "b": "4 cm",
+      "c": "6 cm",
+      "d": "8 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "In \u2206 ABC, \u2220B = \u2220C. If AB = (5x - 7) cm and AC = (2x + 8) cm, find the length of AC.",
+    "options": {
+      "a": "5 cm",
+      "b": "8 cm",
+      "c": "15 cm",
+      "d": "18 cm"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 58,
+    "question": "Two parallel lines l and m are intersected by another pair of parallel lines p and q. If \u2206 ABC \u2245 \u2206 CDA, and AB = 5 cm, then what is CD?",
+    "options": {
+      "a": "2.5 cm",
+      "b": "5 cm",
+      "c": "7.5 cm",
+      "d": "10 cm"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 59,
+    "question": "If \u2206 ABD \u2245 \u2206 ACD, and \u2220ADB = 90\u00b0, and BD = CD, which congruence rule was most likely used to prove congruence if AB = AC was already known?",
+    "options": {
+      "a": "ASA",
+      "b": "SAS",
+      "c": "SSS",
+      "d": "RHS"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 60,
+    "question": "In a right triangle ABC, right-angled at C, M is the mid-point of hypotenuse AB. C is joined to M and produced to a point D such that DM = CM. Point D is joined to point B. If \u2220DBC = 90\u00b0, and CM = (x+2) cm, AB = (3x+6) cm, find the value of x.",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "2",
+      "d": "3"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 61,
+    "question": "You want to replace the refill in your pen. Based on the concept of congruence, what characteristic must the new refill have for it to fit properly?",
+    "options": {
+      "a": "It must be made of a different material.",
+      "b": "It must be shorter than the old refill.",
+      "c": "It must be identical in size and shape to the old refill.",
+      "d": "It must have a different color ink."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "In the production of identical objects like ice cubes in a tray, how is the concept of congruence applied?",
+    "options": {
+      "a": "The ice tray is heated to ensure even freezing.",
+      "b": "The moulds for making ice are all congruent.",
+      "c": "The water used for ice must be congruent.",
+      "d": "The size of the refrigerator determines the congruence."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 63,
+    "question": "A carpenter is cutting two triangular pieces of wood for a symmetric design. To ensure they are congruent without measuring all six parts, what minimal information must be identical for both pieces?",
+    "options": {
+      "a": "All three angles.",
+      "b": "Two sides and any angle.",
+      "c": "Two sides and the included angle.",
+      "d": "Only two angles."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 64,
+    "question": "If you have two triangles and you verify that two pairs of angles and one pair of corresponding sides are equal, but the side is NOT included between those angles, can they still be congruent? If so, by which rule?",
+    "options": {
+      "a": "No, they cannot be congruent without the included side.",
+      "b": "Yes, by the SAS rule.",
+      "c": "Yes, by the AAS rule.",
+      "d": "Yes, but only if they are right-angled."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "Why is it crucial to write the correspondence of vertices correctly when stating the congruence of triangles in symbolic form (e.g., \u2206 PQR \u2245 \u2206 ABC)?",
+    "options": {
+      "a": "It doesn't matter, any order is fine.",
+      "b": "It indicates which sides are longest.",
+      "c": "It ensures that corresponding equal parts are correctly identified.",
+      "d": "It makes the notation shorter."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 66,
+    "question": "You have two triangles, and you have confirmed that all three angles of the first triangle are equal to all three angles of the second triangle. Based on the chapter's content, what can you definitively say about these two triangles?",
+    "options": {
+      "a": "They are congruent.",
+      "b": "They must be isosceles.",
+      "c": "They may or may not be congruent, as side lengths are unknown.",
+      "d": "They must be equilateral."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 67,
+    "question": "If in a triangle, a line segment drawn from a vertex to the opposite side bisects the angle at the vertex and is also perpendicular to the opposite side, what kind of triangle is it?",
+    "options": {
+      "a": "Scalene triangle",
+      "b": "Equilateral triangle",
+      "c": "Isosceles triangle",
+      "d": "Right-angled triangle"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "The concept of congruence is utilized in which of the following real-world applications mentioned in the lesson?",
+    "options": {
+      "a": "Measuring the temperature of objects.",
+      "b": "Creating casts for identical objects.",
+      "c": "Determining the density of materials.",
+      "d": "Predicting weather patterns."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 69,
+    "question": "How does the ASA congruence rule relate to the AAS congruence rule?",
+    "options": {
+      "a": "They are completely unrelated.",
+      "b": "ASA is a special case of AAS.",
+      "c": "AAS can be derived from ASA using the angle sum property of a triangle.",
+      "d": "AAS is an axiom, while ASA is a theorem."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 70,
+    "question": "If a point P is equidistant from two points A and B, where does P lie?",
+    "options": {
+      "a": "On the line segment AB.",
+      "b": "On the extension of AB.",
+      "c": "On the perpendicular bisector of AB.",
+      "d": "Anywhere in the plane."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 71,
+    "question": "In an isosceles triangle ABC with AB = AC, what is the relationship between altitudes BE and CF drawn to sides AC and AB respectively?",
+    "options": {
+      "a": "BE is longer than CF.",
+      "b": "CF is longer than BE.",
+      "c": "BE is equal to CF.",
+      "d": "There is no definite relationship."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "When are two squares considered congruent to each other?",
+    "options": {
+      "a": "When they have the same perimeter.",
+      "b": "When they have the same area.",
+      "c": "When they have sides of the same measure.",
+      "d": "When one can be rotated to match the other."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 73,
+    "question": "Why is the RHS congruence rule considered a special case for right triangles rather than a general SSA rule?",
+    "options": {
+      "a": "Because it only applies to triangles with 90\u00b0 angles.",
+      "b": "Because the hypotenuse is always the longest side.",
+      "c": "Because the 90\u00b0 angle is opposite the hypotenuse, which ensures uniqueness.",
+      "d": "Because it involves only one side and the hypotenuse."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "You are given two triangles. You know that two sides of one triangle are equal to two sides of the other, and one angle is equal. What additional piece of information is critical to confirm congruence using the SAS rule?",
+    "options": {
+      "a": "The third side.",
+      "b": "The angles opposite the equal sides.",
+      "c": "The angle *included* between the two equal sides.",
+      "d": "The sum of the two known angles."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 75,
+    "question": "If two triangles have their corresponding sides equal (e.g., AB=DE, BC=EF, CA=FD), what property ensures their congruence?",
+    "options": {
+      "a": "Their areas are equal.",
+      "b": "Their perimeters are equal.",
+      "c": "Their angles are all 60 degrees.",
+      "d": "The SSS congruence rule applies."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 76,
+    "question": "A geometric figure is described as 'equal in all respects' to another. What does this imply about their shapes and sizes?",
+    "options": {
+      "a": "Same shape, different sizes.",
+      "b": "Different shapes, same size.",
+      "c": "Both shapes and sizes are the same.",
+      "d": "They are mirror images."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 77,
+    "question": "How can you demonstrate that angles opposite to equal sides of an isosceles triangle are equal without measuring them?",
+    "options": {
+      "a": "By folding the triangle along the longest side.",
+      "b": "By proving the two smaller triangles formed by an angle bisector are congruent using SAS.",
+      "c": "By rotating the triangle until angles align.",
+      "d": "By drawing a median to the base."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 78,
+    "question": "Why can't we conclude congruence simply by knowing two sides and a non-included angle (SSA/ASS)?",
+    "options": {
+      "a": "It leads to the creation of a right angle.",
+      "b": "Such triangles can have different shapes or sizes, as demonstrated by the activity with 4cm, 5cm sides and a 50\u00b0 non-included angle.",
+      "c": "This rule only works for equilateral triangles.",
+      "d": "There is no theorem to support it."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "If two pairs of angles of two triangles are equal, and one pair of corresponding sides are equal, what allows us to automatically say the third pair of angles are equal?",
+    "options": {
+      "a": "Corresponding Parts of Congruent Triangles (CPCT).",
+      "b": "The Pythagorean theorem.",
+      "c": "The sum of angles in a triangle is 180\u00b0.",
+      "d": "The definition of an isosceles triangle."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "When verifying congruence of two triangles by placing one on the other, what observation confirms their congruence?",
+    "options": {
+      "a": "They have the same perimeter.",
+      "b": "They cover each other completely.",
+      "c": "Their vertices align perfectly.",
+      "d": "They have the same area."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 81,
+    "question": "A student states, 'If two triangles have the same area, they must be congruent.' Is this statement correct based on the chapter's content?",
+    "options": {
+      "a": "Yes, because same area implies same shape and size.",
+      "b": "No, because triangles with different shapes can have the same area.",
+      "c": "Yes, but only if they are equilateral triangles.",
+      "d": "No, because only congruent triangles have the same area."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 82,
+    "question": "Consider two triangles, \u2206ABC and \u2206PQR. You are given that AB = PQ, BC = QR, and \u2220A = \u2220P. Can you definitively conclude that \u2206ABC \u2245 \u2206PQR?",
+    "options": {
+      "a": "Yes, by the SAS congruence rule.",
+      "b": "Yes, by the AAS congruence rule.",
+      "c": "No, because the angle is not necessarily included.",
+      "d": "Yes, by the SSA congruence rule."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "Why is the AAS congruence rule considered a theorem rather than an axiom in this chapter?",
+    "options": {
+      "a": "Because it is a more fundamental rule than an axiom.",
+      "b": "Because it can be logically proved using previously established axioms or theorems.",
+      "c": "Because it applies only to a specific type of triangle.",
+      "d": "Because it was discovered more recently than axioms."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 84,
+    "question": "If in \u2206ABC and \u2206DEF, \u2220A = \u2220D, \u2220B = \u2220E, and \u2220C = \u2220F, which of the following statements is true regarding their congruence?",
+    "options": {
+      "a": "They are always congruent.",
+      "b": "They are congruent only if they are equilateral.",
+      "c": "They may or may not be congruent, as side lengths can differ.",
+      "d": "They are congruent only if they are right-angled."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "In the proof of Theorem 7.1 (ASA congruence rule), Case (ii) assumes AB > DE and takes a point P on AB such that PB = DE. The argument leads to \u2220ACB = \u2220PCB. Why does this imply that P must coincide with A?",
+    "options": {
+      "a": "Because P and A are on opposite sides of BC.",
+      "b": "Because only then can \u2220PCB be equal to \u2220ACB when P is on the line segment AB.",
+      "c": "Because P and B are endpoints of the same side.",
+      "d": "Because this creates a right angle."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 86,
+    "question": "A student says, 'All isosceles triangles are congruent.' Is this statement accurate?",
+    "options": {
+      "a": "Yes, because they all have two equal sides.",
+      "b": "Yes, because their base angles are always equal.",
+      "c": "No, because their third side and angle can vary.",
+      "d": "No, only equilateral triangles are congruent."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 87,
+    "question": "You are given two right triangles. You know their hypotenuses are equal and one pair of corresponding legs (sides other than hypotenuse) are equal. Why does this guarantee congruence (RHS rule)?",
+    "options": {
+      "a": "Because a right angle is an included angle.",
+      "b": "Because the Pythagorean theorem will make the third side equal.",
+      "c": "Because it implies all angles are 60 degrees.",
+      "d": "Because hypotenuse is always the longest side."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 88,
+    "question": "If \u2206PQR is congruent to \u2206ABC, why is it incorrect to write \u2206QRP \u2245 \u2206ABC?",
+    "options": {
+      "a": "The order of vertices doesn't affect congruence.",
+      "b": "It violates the angle-side correspondence.",
+      "c": "It means the triangles are similar, not congruent.",
+      "d": "It implies a different one-one correspondence between vertices, leading to incorrect corresponding parts."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 89,
+    "question": "Two line segments AD and BC are equal and perpendicular to a common line segment AB. What can be critically inferred about the line segment CD based on the chapter's principles?",
+    "options": {
+      "a": "CD is parallel to AB.",
+      "b": "CD is longer than AB.",
+      "c": "CD bisects AB.",
+      "d": "CD forms an equilateral triangle with AB."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 90,
+    "question": "Why is it important that an axiom, like the SAS congruence rule, is accepted as true without formal proof?",
+    "options": {
+      "a": "Because proving it would be too complex.",
+      "b": "Because it is a fundamental statement from which other theorems can be proven.",
+      "c": "Because it is only approximately true.",
+      "d": "Because it applies only in specific geometric systems."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 91,
+    "question": "If in \u2206ABC, \u2220B = \u2220C, and a line segment AD is drawn such that it bisects \u2220A and meets BC at D, what can be logically deduced about the segments BD and CD?",
+    "options": {
+      "a": "BD is longer than CD.",
+      "b": "CD is longer than BD.",
+      "c": "BD = CD.",
+      "d": "They are unrelated."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 92,
+    "question": "A point P is equidistant from two intersecting lines l and m. What is the geometrical significance of the line segment AP (where A is the intersection point)?",
+    "options": {
+      "a": "AP is parallel to line l.",
+      "b": "AP is perpendicular to line m.",
+      "c": "AP bisects the angle between lines l and m.",
+      "d": "AP is longer than any other segment from A."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "Consider two triangles with angles 40\u00b0, 50\u00b0, and 90\u00b0. Is it possible to draw multiple such triangles that are NOT congruent to each other?",
+    "options": {
+      "a": "No, all such triangles must be congruent.",
+      "b": "Yes, because the side lengths can vary while angles remain the same.",
+      "c": "Only if they are right-angled isosceles triangles.",
+      "d": "Only if they are equilateral triangles."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 94,
+    "question": "What is the primary difference in applying the SAS and SSS congruence rules?",
+    "options": {
+      "a": "SAS is for right triangles only, SSS is for any triangle.",
+      "b": "SAS requires an angle, SSS requires only sides.",
+      "c": "SAS needs a common vertex, SSS does not.",
+      "d": "SAS is an axiom, SSS is a theorem."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "If in \u2206ABC, AD is an altitude and also bisects BC (meaning D is the midpoint of BC), what kind of triangle is \u2206ABC?",
+    "options": {
+      "a": "Scalene",
+      "b": "Equilateral",
+      "c": "Isosceles",
+      "d": "Right-angled at B"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 96,
+    "question": "When is it important that an angle in a congruence criterion is 'included'?",
+    "options": {
+      "a": "Only for the AAS rule.",
+      "b": "Only for the SSS rule.",
+      "c": "For the SAS and ASA rules.",
+      "d": "For all congruence rules involving angles."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "What is the logical flow used to prove the AAS congruence rule in the chapter?",
+    "options": {
+      "a": "Direct proof without any other rule.",
+      "b": "Proving it from SSS by constructing medians.",
+      "c": "Using the angle sum property to convert it into an ASA case.",
+      "d": "Relying on visual inspection."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 98,
+    "question": "If \u2206ABC \u2245 \u2206PQR, what is the significance of this congruence in terms of their corresponding altitudes?",
+    "options": {
+      "a": "The altitudes drawn to corresponding sides are equal.",
+      "b": "The altitudes bisect the angles.",
+      "c": "The altitudes are always perpendicular bisectors.",
+      "d": "The altitudes are always shorter than the medians."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 99,
+    "question": "What distinguishes an isosceles triangle from an equilateral triangle based on their definitions and properties in the chapter?",
+    "options": {
+      "a": "An isosceles triangle has two equal sides, while an equilateral triangle has three equal sides.",
+      "b": "An isosceles triangle has two equal angles, while an equilateral triangle has only one.",
+      "c": "An isosceles triangle cannot be equilateral, but an equilateral triangle can be isosceles.",
+      "d": "An isosceles triangle has no lines of symmetry, while an equilateral triangle has three."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 100,
+    "question": "If \u2206 ABC and \u2206 PQR are congruent, and their areas are found to be equal, does this fact provide *additional* evidence for their congruence according to the chapter?",
+    "options": {
+      "a": "Yes, it is another criterion for congruence.",
+      "b": "No, because congruence implies equal area; equal area does not imply congruence.",
+      "c": "Yes, because it confirms similarity.",
+      "d": "No, because area is a 2D property, not a 3D one."
+    },
+    "answer": "b"
   }
 ]

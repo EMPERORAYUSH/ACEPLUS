@@ -1,563 +1,1289 @@
 [
   {
-    "question": "An angle is one-third of its supplement. What is its measure?",
+    "question_number": 1,
+    "question": "What is a part of a line with two end points called?",
     "options": {
-      "a": "45°",
-      "b": "135°",
-      "c": "30°",
-      "d": "60°"
+      "a": "Ray",
+      "b": "Line",
+      "c": "Line-segment",
+      "d": "Angle"
     },
-    "answer": "a",
-    "id": 175
+    "answer": "c"
   },
   {
-    "question": "If two angles are complementary and one is acute, the other must be:",
+    "question_number": 2,
+    "question": "How are three or more points defined if they lie on the same line?",
     "options": {
-      "a": "Obtuse",
-      "b": "Acute",
-      "c": "Right",
-      "d": "Reflex"
+      "a": "Non-collinear points",
+      "b": "Vertex points",
+      "c": "Collinear points",
+      "d": "Intersecting points"
     },
-    "answer": "b",
-    "id": 176
+    "answer": "c"
   },
   {
-    "question": "Two angles forming a linear pair are:",
+    "question_number": 3,
+    "question": "An angle is formed when two rays originate from the same end point. What is this common end point called?",
+    "options": {
+      "a": "Arm",
+      "b": "Vertex",
+      "c": "Axis",
+      "d": "Origin"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 4,
+    "question": "What is the range of measure for an acute angle?",
+    "options": {
+      "a": "Exactly 90\u00b0",
+      "b": "Greater than 90\u00b0 but less than 180\u00b0",
+      "c": "Between 0\u00b0 and 90\u00b0",
+      "d": "Exactly 180\u00b0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "What is the measure of a straight angle?",
+    "options": {
+      "a": "90\u00b0",
+      "b": "Less than 90\u00b0",
+      "c": "180\u00b0",
+      "d": "Greater than 180\u00b0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 6,
+    "question": "What is the definition of two angles whose sum is 90\u00b0?",
+    "options": {
+      "a": "Supplementary angles",
+      "b": "Adjacent angles",
+      "c": "Linear pair angles",
+      "d": "Complementary angles"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 7,
+    "question": "What is the definition of two angles whose sum is 180\u00b0?",
+    "options": {
+      "a": "Complementary angles",
+      "b": "Supplementary angles",
+      "c": "Reflex angles",
+      "d": "Obtuse angles"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 8,
+    "question": "Which of the following conditions is NOT required for two angles to be adjacent?",
+    "options": {
+      "a": "They have a common vertex.",
+      "b": "They have a common arm.",
+      "c": "Their non-common arms must be on the same side of the common arm.",
+      "d": "Their non-common arms must be on different sides of the common arm."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 9,
+    "question": "When do two adjacent angles form a linear pair of angles?",
+    "options": {
+      "a": "When their sum is 90\u00b0.",
+      "b": "When their non-common arms are perpendicular.",
+      "c": "When their non-common arms form a line.",
+      "d": "When they are vertically opposite."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 10,
+    "question": "What is the relationship between vertically opposite angles formed when two lines intersect?",
+    "options": {
+      "a": "Their sum is 90\u00b0.",
+      "b": "Their sum is 180\u00b0.",
+      "c": "They are complementary.",
+      "d": "They are equal."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 11,
+    "question": "What defines the distance between two parallel lines?",
+    "options": {
+      "a": "The length of any line segment connecting them.",
+      "b": "The length of the common perpendiculars at different points on these lines.",
+      "c": "The angle formed between them.",
+      "d": "The point where they hypothetically intersect."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 12,
+    "question": "According to Axiom 6.1, if a ray stands on a line, what is the sum of the two adjacent angles so formed?",
+    "options": {
+      "a": "90\u00b0",
+      "b": "270\u00b0",
+      "c": "180\u00b0",
+      "d": "360\u00b0"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 13,
+    "question": "Which axiom states that if the sum of two adjacent angles is 180\u00b0, then the non-common arms of the angles form a line?",
+    "options": {
+      "a": "Axiom 6.1",
+      "b": "Axiom 5.2",
+      "c": "Axiom 6.2",
+      "d": "Linear Pair Axiom (only)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 14,
+    "question": "What is the combined name for Axiom 6.1 and Axiom 6.2?",
+    "options": {
+      "a": "Vertically Opposite Angles Theorem",
+      "b": "Adjacent Angles Axiom",
+      "c": "Linear Pair Axiom",
+      "d": "Supplementary Angles Postulate"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 15,
+    "question": "Theorem 6.1 proves a property about which type of angles?",
+    "options": {
+      "a": "Complementary angles",
+      "b": "Linear pair angles",
+      "c": "Vertically opposite angles",
+      "d": "Reflex angles"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 16,
+    "question": "If line m is parallel to line l, and line n is parallel to line l, what can be concluded about lines m and n?",
+    "options": {
+      "a": "They intersect at one point.",
+      "b": "They are perpendicular to each other.",
+      "c": "They are parallel to each other.",
+      "d": "They are transversal lines."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 17,
+    "question": "What is a part of a line with only one end point called?",
+    "options": {
+      "a": "Line-segment",
+      "b": "Line",
+      "c": "Ray",
+      "d": "Vector"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 18,
+    "question": "An angle whose measure is exactly 90\u00b0 is known as a:",
+    "options": {
+      "a": "Acute angle",
+      "b": "Obtuse angle",
+      "c": "Right angle",
+      "d": "Straight angle"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 19,
+    "question": "An angle that measures greater than 180\u00b0 but less than 360\u00b0 is called a:",
+    "options": {
+      "a": "Straight angle",
+      "b": "Reflex angle",
+      "c": "Obtuse angle",
+      "d": "Right angle"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 20,
+    "question": "In the context of adjacent angles, if \u2220ABC = \u2220ABD + \u2220DBC, what is implied about ray BD?",
+    "options": {
+      "a": "Ray BD is perpendicular to ray BC.",
+      "b": "Ray BD is the common arm of \u2220ABD and \u2220DBC.",
+      "c": "Ray BD is the non-common arm of \u2220ABC.",
+      "d": "Ray BD bisects \u2220ABC."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 21,
+    "question": "What distinguishes non-intersecting lines from intersecting lines?",
+    "options": {
+      "a": "Non-intersecting lines have different lengths of common perpendiculars.",
+      "b": "Non-intersecting lines extend indefinitely in only one direction.",
+      "c": "Non-intersecting lines never meet, and the distance between them is constant.",
+      "d": "Non-intersecting lines form angles with each other."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 22,
+    "question": "If two angles, \u2220X and \u2220Y, are adjacent and form a linear pair, what is their sum?",
+    "options": {
+      "a": "90\u00b0",
+      "b": "180\u00b0",
+      "c": "270\u00b0",
+      "d": "360\u00b0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 23,
+    "question": "Which of the following is true about non-collinear points?",
+    "options": {
+      "a": "They always form a straight line.",
+      "b": "They can be any two points on a plane.",
+      "c": "Three or more points that do not lie on the same line.",
+      "d": "They must originate from the same endpoint."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 24,
+    "question": "In which field is the refraction property of light studied using the properties of intersecting and parallel lines?",
+    "options": {
+      "a": "Architecture",
+      "b": "Engineering",
+      "c": "Science",
+      "d": "Cartography"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 25,
+    "question": "When a ray stands on a line, the angles formed are always:",
     "options": {
       "a": "Complementary",
-      "b": "Supplementary",
-      "c": "Equal",
-      "d": "Vertically opposite"
-    },
-    "answer": "b",
-    "id": 177
-  },
-  {
-    "question": "The complement of 60° is:",
-    "options": {
-      "a": "30°",
-      "b": "120°",
-      "c": "90°",
-      "d": "150°"
-    },
-    "answer": "a",
-    "id": 178
-  },
-  {
-    "question": "If two lines intersect, the sum of adjacent angles is:",
-    "options": {
-      "a": "90°",
-      "b": "180°",
-      "c": "360°",
-      "d": "Variable"
-    },
-    "answer": "b",
-    "id": 179
-  },
-  {
-    "question": "An angle which measures more than 180° but less than 360° is called:",
-    "options": {
-      "a": "Acute",
-      "b": "Obtuse",
-      "c": "Reflex",
-      "d": "Straight"
-    },
-    "answer": "c",
-    "id": 180
-  },
-  {
-    "question": "The supplement of an obtuse angle is:",
-    "options": {
-      "a": "Acute",
-      "b": "Obtuse",
-      "c": "Right",
+      "b": "Vertically opposite",
+      "c": "A linear pair",
       "d": "Reflex"
     },
-    "answer": "a",
-    "id": 181
+    "answer": "c"
   },
   {
-    "question": "Two lines in a plane that never meet are called:",
+    "question_number": 26,
+    "question": "How are rays making an angle referred to?",
     "options": {
-      "a": "Intersecting",
-      "b": "Parallel",
-      "c": "Perpendicular",
-      "d": "Coincident"
+      "a": "Vertices",
+      "b": "Arms",
+      "c": "Bisectors",
+      "d": "Segments"
     },
-    "answer": "b",
-    "id": 182
+    "answer": "b"
   },
   {
-    "question": "An angle which measures 180° is called:",
+    "question_number": 27,
+    "question": "An angle that is greater than 90\u00b0 but less than 180\u00b0 is termed as an:",
     "options": {
-      "a": "Acute",
-      "b": "Obtuse",
-      "c": "Straight",
-      "d": "Reflex"
+      "a": "Acute angle",
+      "b": "Right angle",
+      "c": "Obtuse angle",
+      "d": "Straight angle"
     },
-    "answer": "c",
-    "id": 183
+    "answer": "c"
   },
   {
-    "question": "If two complementary angles are in the ratio 4:5, find the smaller angle.",
+    "question_number": 28,
+    "question": "If \u2220P and \u2220Q are angles such that \u2220P + \u2220Q = 180\u00b0, they are called:",
     "options": {
-      "a": "40°",
-      "b": "50°",
-      "c": "80°",
-      "d": "100°"
+      "a": "Complementary angles",
+      "b": "Adjacent angles",
+      "c": "Supplementary angles",
+      "d": "Linear pair angles (necessarily)"
     },
-    "answer": "a",
-    "id": 184
+    "answer": "c"
   },
   {
-    "question": "Two supplementary angles are (3x + 17)° and (2x - 5)°. Find x.",
+    "question_number": 29,
+    "question": "Which of the following is a direct consequence of the Linear Pair Axiom?",
     "options": {
-      "a": "32",
-      "b": "34",
-      "c": "36",
-      "d": "38"
+      "a": "Vertically opposite angles are equal.",
+      "b": "The sum of angles around a point is 360\u00b0.",
+      "c": "If two lines are parallel to the same line, they are parallel to each other.",
+      "d": "Adjacent angles always sum to 90\u00b0."
     },
-    "answer": "b",
-    "id": 185
+    "answer": "a"
   },
   {
-    "question": "If two interior angles on the same side of a transversal intersecting two parallel lines are in the ratio 2:3, find the smaller angle.",
+    "question_number": 30,
+    "question": "In the proof of Theorem 6.6, what is inferred when \u22202 = \u22203, and \u22202 and \u22203 are corresponding angles?",
     "options": {
-      "a": "72°",
-      "b": "108°",
-      "c": "36°",
-      "d": "54°"
+      "a": "The lines are perpendicular.",
+      "b": "The lines are intersecting.",
+      "c": "The lines are parallel by converse of corresponding angles axiom.",
+      "d": "The lines form a linear pair."
     },
-    "answer": "a",
-    "id": 186
+    "answer": "c"
   },
   {
-    "question": "If an angle is 20° more than its complement, find its measure.",
+    "question_number": 31,
+    "question": "In Fig. 6.9, lines PQ and RS intersect at O. If \u2220POR : \u2220ROQ = 5 : 7, find the measure of \u2220POR.",
     "options": {
-      "a": "35°",
-      "b": "55°",
-      "c": "70°",
-      "d": "125°"
+      "a": "75\u00b0",
+      "b": "105\u00b0",
+      "c": "60\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "b",
-    "id": 187
+    "answer": "a"
   },
   {
-    "question": "The angles of a triangle are in the ratio 1:2:3.  Find the smallest angle.",
+    "question_number": 32,
+    "question": "In Fig. 6.9, lines PQ and RS intersect at O. If \u2220POR : \u2220ROQ = 5 : 7, find the measure of \u2220POS.",
     "options": {
-      "a": "30°",
-      "b": "60°",
-      "c": "90°",
-      "d": "120°"
+      "a": "75\u00b0",
+      "b": "105\u00b0",
+      "c": "60\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "a",
-    "id": 188
+    "answer": "b"
   },
   {
-    "question": "The bisectors of two adjacent supplementary angles form an angle of:",
+    "question_number": 33,
+    "question": "In Fig. 6.10, ray OS stands on a line POQ. Ray OR bisects \u2220POS and ray OT bisects \u2220SOQ. If \u2220POS = 60\u00b0, find \u2220ROT.",
     "options": {
-      "a": "45°",
-      "b": "90°",
-      "c": "135°",
-      "d": "180°"
+      "a": "60\u00b0",
+      "b": "75\u00b0",
+      "c": "90\u00b0",
+      "d": "120\u00b0"
     },
-    "answer": "b",
-    "id": 189
+    "answer": "c"
   },
   {
-    "question": "In a triangle, two angles are 65° and 55°.  Find the third angle.",
+    "question_number": 34,
+    "question": "If \u2220AOC and \u2220BOC form a linear pair, and \u2220AOC = 2x + 10\u00b0 and \u2220BOC = 3x - 5\u00b0, find the value of x.",
     "options": {
-      "a": "60°",
-      "b": "70°",
-      "c": "80°",
-      "d": "90°"
+      "a": "35\u00b0",
+      "b": "40\u00b0",
+      "c": "25\u00b0",
+      "d": "20\u00b0"
     },
-    "answer": "a",
-    "id": 190
+    "answer": "a"
   },
   {
-    "question": "If one angle of a linear pair is twice the other, find the smaller angle.",
+    "question_number": 35,
+    "question": "In Fig. 6.13, lines AB and CD intersect at O. If \u2220AOC + \u2220BOE = 70\u00b0 and \u2220BOD = 40\u00b0, find \u2220BOE.",
     "options": {
-      "a": "30°",
-      "b": "60°",
-      "c": "90°",
-      "d": "120°"
+      "a": "20\u00b0",
+      "b": "30\u00b0",
+      "c": "40\u00b0",
+      "d": "50\u00b0"
     },
-    "answer": "b",
-    "id": 191
+    "answer": "b"
   },
   {
-    "question": "If two lines are intersected by a transversal such that alternate interior angles are equal, then the lines are:",
+    "question_number": 36,
+    "question": "In Fig. 6.13, lines AB and CD intersect at O. If \u2220AOC + \u2220BOE = 70\u00b0 and \u2220BOD = 40\u00b0, find reflex \u2220COE.",
     "options": {
-      "a": "Perpendicular",
-      "b": "Parallel",
-      "c": "Intersecting",
-      "d": "Coincident"
+      "a": "250\u00b0",
+      "b": "280\u00b0",
+      "c": "290\u00b0",
+      "d": "310\u00b0"
     },
-    "answer": "b",
-    "id": 192
+    "answer": "a"
   },
   {
-    "question": "A: Vertically opposite angles are equal. R:  If two lines intersect, then vertically opposite angles are equal.",
+    "question_number": 37,
+    "question": "In Fig. 6.14, lines XY and MN intersect at O. If \u2220POY = 90\u00b0 and a : b = 2 : 3, find the value of angle 'a'.",
     "options": {
-      "a": "A and R are true, R explains A.",
-      "b": "A and R are true, R doesn't explain A.",
-      "c": "A is true, R is false.",
-      "d": "A is false, R is true."
+      "a": "36\u00b0",
+      "b": "54\u00b0",
+      "c": "45\u00b0",
+      "d": "30\u00b0"
     },
-    "answer": "a",
-    "id": 193
+    "answer": "a"
   },
   {
-    "question": "A: Co-interior angles are complementary. R: The sum of co-interior angles is 90°.",
+    "question_number": 39,
+    "question": "In Fig. 6.16, if x + y = w + z, and AOB is a line, what is the sum of angles x, y, w, and z?",
     "options": {
-      "a": "A and R are true, R explains A.",
-      "b": "A and R are true, R doesn't explain A.",
-      "c": "A is true, R is false.",
-      "d": "A is false, R is true."
+      "a": "180\u00b0",
+      "b": "270\u00b0",
+      "c": "360\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "d",
-    "id": 194
+    "answer": "c"
   },
   {
-    "question": "A: Adjacent angles always form a linear pair. R: Adjacent angles share a common arm and vertex.",
+    "question_number": 40,
+    "question": "In Fig. 6.22, if AB || CD and CD || EF. EA \u22a5 AB. If \u2220BEF = 55\u00b0, find the value of y.",
     "options": {
-      "a": "A and R are true, R explains A.",
-      "b": "A and R are true, R doesn't explain A.",
-      "c": "A is true, R is false.",
-      "d": "A is false, R is true."
+      "a": "55\u00b0",
+      "b": "125\u00b0",
+      "c": "90\u00b0",
+      "d": "35\u00b0"
     },
-    "answer": "d",
-    "id": 195
+    "answer": "b"
   },
   {
-    "question": "A: If two parallel lines are cut by a transversal, corresponding angles are supplementary. R: If two parallel lines are cut by a transversal, corresponding angles are equal.",
+    "question_number": 41,
+    "question": "In Fig. 6.22, if AB || CD and CD || EF. EA \u22a5 AB. If \u2220BEF = 55\u00b0, find the value of x.",
     "options": {
-      "a": "A and R are true, R explains A.",
-      "b": "A and R are true, R doesn't explain A.",
-      "c": "A is true, R is false.",
-      "d": "A is false, R is true."
+      "a": "55\u00b0",
+      "b": "125\u00b0",
+      "c": "90\u00b0",
+      "d": "35\u00b0"
     },
-    "answer": "d",
-    "id": 196
+    "answer": "b"
   },
   {
-    "question": "A: The sum of angles of a triangle is 180°. R: The exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles.",
+    "question_number": 42,
+    "question": "In Fig. 6.22, if AB || CD and CD || EF. EA \u22a5 AB. If \u2220BEF = 55\u00b0, find the value of z.",
     "options": {
-      "a": "A and R are true, R explains A.",
-      "b": "A and R are true, R doesn't explain A.",
-      "c": "A is true, R is false.",
-      "d": "A is false, R is true."
+      "a": "55\u00b0",
+      "b": "125\u00b0",
+      "c": "90\u00b0",
+      "d": "35\u00b0"
     },
-    "answer": "b",
-    "id": 197
+    "answer": "d"
   },
   {
-    "question": "A ladder leans against a wall, making a 60° angle with the ground. What angle does it make with the wall?",
+    "question_number": 43,
+    "question": "In Fig. 6.23, if AB || CD, CD || EF and y : z = 3 : 7, find x.",
     "options": {
-      "a": "30°",
-      "b": "60°",
-      "c": "90°",
-      "d": "120°"
+      "a": "126\u00b0",
+      "b": "105\u00b0",
+      "c": "75\u00b0",
+      "d": "120\u00b0"
     },
-    "answer": "a",
-    "id": 198
+    "answer": "a"
   },
   {
-    "question": "The hands of a clock form an angle of 90° at:",
+    "question_number": 44,
+    "question": "In Fig. 6.24, if AB || CD, EF \u22a5 CD and \u2220GED = 126\u00b0, find \u2220AGE.",
     "options": {
-      "a": "3 o'clock",
-      "b": "6 o'clock",
-      "c": "9 o'clock",
-      "d": "All of these"
+      "a": "126\u00b0",
+      "b": "54\u00b0",
+      "c": "36\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "d",
-    "id": 199
+    "answer": "a"
   },
   {
-    "question": "Two roads intersect, forming four angles. If one angle is 75°, what are the measures of the other three angles?",
+    "question_number": 46,
+    "question": "In Fig. 6.24, if AB || CD, EF \u22a5 CD and \u2220GED = 126\u00b0, find \u2220FGE.",
     "options": {
-      "a": "75°, 105°, 105°",
-      "b": "75°, 105°, 180°",
-      "c": "105°, 75°, 180°",
-      "d": "75°, 75°, 105°"
+      "a": "36\u00b0",
+      "b": "54\u00b0",
+      "c": "90\u00b0",
+      "d": "126\u00b0"
     },
-    "answer": "a",
-    "id": 200
+    "answer": "b"
   },
   {
-    "question": "Is it possible for two angles to be both complementary and supplementary?",
+    "question_number": 47,
+    "question": "In Fig. 6.26, if AB || CD, \u2220APQ = 50\u00b0 and \u2220PRD = 127\u00b0, find x.",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only if they are both 45°",
-      "d": "Only if they are both 90°"
+      "a": "50\u00b0",
+      "b": "77\u00b0",
+      "c": "127\u00b0",
+      "d": "60\u00b0"
     },
-    "answer": "b",
-    "id": 201
+    "answer": "a"
   },
   {
-    "question": "Can two obtuse angles form a linear pair?",
+    "question_number": 48,
+    "question": "In Fig. 6.26, if AB || CD, \u2220APQ = 50\u00b0 and \u2220PRD = 127\u00b0, find y.",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Sometimes",
-      "d": "Only if they are equal"
+      "a": "50\u00b0",
+      "b": "77\u00b0",
+      "c": "127\u00b0",
+      "d": "60\u00b0"
     },
-    "answer": "b",
-    "id": 202
+    "answer": "b"
   },
   {
-    "question": "Can two acute angles form a linear pair?",
+    "question_number": 49,
+    "question": "If an angle measures 45\u00b0, what is the measure of its complementary angle?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Sometimes",
-      "d": "Only if they are equal"
+      "a": "135\u00b0",
+      "b": "45\u00b0",
+      "c": "90\u00b0",
+      "d": "180\u00b0"
     },
-    "answer": "b",
-    "id": 203
+    "answer": "b"
   },
   {
-    "question": "Can a transversal intersect two lines at more than two points?",
+    "question_number": 50,
+    "question": "If an angle measures 110\u00b0, what is the measure of its supplementary angle?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Depends on the lines",
-      "d": "Depends on the transversal"
+      "a": "70\u00b0",
+      "b": "90\u00b0",
+      "c": "250\u00b0",
+      "d": "180\u00b0"
     },
-    "answer": "b",
-    "id": 204
+    "answer": "a"
   },
   {
-    "question": "If two lines are intersected by a transversal such that co-interior angles are supplementary, are alternate interior angles equal?",
+    "question_number": 51,
+    "question": "Two adjacent angles have measures (4a + 5)\u00b0 and (6a - 15)\u00b0. If they form a linear pair, find the value of 'a'.",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Not always",
+      "a": "10",
+      "b": "15",
+      "c": "19",
+      "d": "20"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 52,
+    "question": "Two lines intersect at a point. If one of the angles formed is 70\u00b0, what is the measure of its vertically opposite angle?",
+    "options": {
+      "a": "110\u00b0",
+      "b": "70\u00b0",
+      "c": "20\u00b0",
+      "d": "90\u00b0"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 53,
+    "question": "If a reflex angle measures 280\u00b0, what is the measure of the corresponding angle (non-reflex)?",
+    "options": {
+      "a": "80\u00b0",
+      "b": "100\u00b0",
+      "c": "180\u00b0",
+      "d": "360\u00b0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 54,
+    "question": "If \u2220A = 3x and \u2220B = 2x are complementary angles, find the value of x.",
+    "options": {
+      "a": "18\u00b0",
+      "b": "36\u00b0",
+      "c": "45\u00b0",
+      "d": "90\u00b0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 55,
+    "question": "If a ray divides an angle of 150\u00b0 into two equal parts, what is the measure of each part?",
+    "options": {
+      "a": "75\u00b0",
+      "b": "60\u00b0",
+      "c": "90\u00b0",
+      "d": "300\u00b0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 56,
+    "question": "Two angles are given as (5k - 5)\u00b0 and (3k + 25)\u00b0. If they are vertically opposite angles, find the value of k.",
+    "options": {
+      "a": "10",
+      "b": "15",
+      "c": "20",
+      "d": "30"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "A line segment AB has length 12 cm. If point C lies on the line segment such that AC = 5 cm, what is the length of CB?",
+    "options": {
+      "a": "5 cm",
+      "b": "7 cm",
+      "c": "12 cm",
       "d": "Cannot be determined"
     },
-    "answer": "a",
-    "id": 205
+    "answer": "b"
   },
   {
-    "question": "If two angles are complementary to the same angle, are they equal?",
+    "question_number": 58,
+    "question": "If \u2220PQR = \u2220PRQ, and \u2220PQR = 70\u00b0, what is the measure of \u2220PRQ?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Sometimes",
-      "d": "Only if the original angle is 45°"
+      "a": "110\u00b0",
+      "b": "70\u00b0",
+      "c": "180\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "a",
-    "id": 206
+    "answer": "b"
   },
   {
-    "question": "If two angles are supplementary to the same angle, are they equal?",
+    "question_number": 59,
+    "question": "Three points P, Q, R are collinear. If PQ = 7 cm and PR = 10 cm, and Q is between P and R, what is the length of QR?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Sometimes",
-      "d": "Only if the original angle is 90°"
+      "a": "3 cm",
+      "b": "7 cm",
+      "c": "10 cm",
+      "d": "17 cm"
     },
-    "answer": "a",
-    "id": 207
+    "answer": "a"
   },
   {
-    "question": "Can the measure of an angle be 0 degrees? What type of angle would this be?",
+    "question_number": 60,
+    "question": "An angle is such that its measure is four times its complement. What is the measure of the angle?",
     "options": {
-      "a": "Yes, zero angle",
-      "b": "No",
-      "c": "Yes, acute angle",
-      "d": "Yes, obtuse angle"
+      "a": "18\u00b0",
+      "b": "36\u00b0",
+      "c": "72\u00b0",
+      "d": "90\u00b0"
     },
-    "answer": "a",
-    "id": 208
+    "answer": "c"
   },
   {
-    "question": "Can two angles of a triangle be obtuse?",
+    "question_number": 61,
+    "question": "An architect designing a building needs to ensure two walls are perfectly parallel to each other. She uses a reference line (L) on the ground. She constructs wall A parallel to L and wall B also parallel to L. Which geometric theorem ensures that wall A and wall B are parallel to each other?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only in an obtuse triangle",
-      "d": "Only if the third angle is 0°"
+      "a": "Linear Pair Axiom",
+      "b": "Vertically Opposite Angles Theorem",
+      "c": "Lines parallel to the same line are parallel to each other.",
+      "d": "Converse of Corresponding Angles Axiom"
     },
-    "answer": "b",
-    "id": 209
+    "answer": "c"
   },
   {
-    "question": "If one angle of a triangle is equal to the sum of the other two, what type of triangle is it?",
+    "question_number": 62,
+    "question": "A person observes the top of a tower. The line of sight forms an angle with the horizontal ground. Which type of geometric concept is directly used to describe this angle in relation to finding the height of the tower?",
     "options": {
-      "a": "Acute",
-      "b": "Obtuse",
-      "c": "Right",
-      "d": "Equilateral"
+      "a": "Linear pair of angles",
+      "b": "Complementary angles",
+      "c": "Angle formed between horizontal and line of sight",
+      "d": "Vertically opposite angles"
     },
-    "answer": "c",
-    "id": 210
+    "answer": "c"
   },
   {
-    "question": "If all the angles of a quadrilateral are equal, what is the measure of each angle?",
+    "question_number": 63,
+    "question": "Imagine a straight road (represented by a line). A tree is planted on one side, and its shadow falls on the road, forming an angle with the tree. The angle between the tree (perpendicular to the ground) and the shadow on the ground is a right angle. If the sun's ray forms an angle with the tree, and this ray and the tree base form a straight line, what relationship exists between the angle of the sun's ray and the right angle of the tree to the ground, concerning a straight angle?",
     "options": {
-      "a": "45°",
-      "b": "60°",
-      "c": "90°",
-      "d": "120°"
+      "a": "They are complementary.",
+      "b": "They form a linear pair with a ray standing on a line.",
+      "c": "They are vertically opposite.",
+      "d": "They are acute angles."
     },
-    "answer": "c",
-    "id": 211
+    "answer": "b"
   },
   {
-    "question": "If two adjacent angles are equal and form a linear pair, what type of angles are they?",
+    "question_number": 64,
+    "question": "A carpenter is cutting a wooden board. He makes a cut along a line and then another cut intersecting the first one. He wants to ensure that the two pieces of wood formed opposite to each other at the intersection point are identical in terms of their angles. Which theorem guarantees this?",
     "options": {
-      "a": "Acute",
-      "b": "Obtuse",
-      "c": "Right",
-      "d": "Reflex"
+      "a": "Linear Pair Axiom",
+      "b": "Vertically Opposite Angles Theorem",
+      "c": "Corresponding Angles Axiom",
+      "d": "Parallel Lines Theorem"
     },
-    "answer": "c",
-    "id": 212
+    "answer": "b"
   },
   {
-    "question": "If two lines are perpendicular to the same line, are they parallel to each other?",
+    "question_number": 65,
+    "question": "In a game of billiards, a ball strikes a cushion (mirror surface) and reflects. The path of the incident ball and the path of the reflected ball form angles with the cushion. If the cushion can be considered a line, and the incident ray and reflected ray originate from the point of impact, which basic term describes the point of impact?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only in 3D space",
-      "d": "Only if they are the same line."
+      "a": "Arm",
+      "b": "Line-segment",
+      "c": "Vertex",
+      "d": "Collinear point"
     },
-    "answer": "a",
-    "id": 213
+    "answer": "c"
   },
   {
-    "question": "Is it possible for two intersecting lines to be perpendicular to a third line in the same plane?",
+    "question_number": 66,
+    "question": "A photographer is adjusting a tripod. The three legs touch the ground, and for stability, they must form a stable base. If the tips of the three legs on the ground are considered points, what arrangement would typically make the tripod stable, and how would these points be described geometrically?",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only if the third line bisects the angle between them",
-      "d": "Only if all three lines intersect at one point."
+      "a": "Collinear points, forming a line.",
+      "b": "Non-collinear points, forming a triangle.",
+      "c": "Intersecting points, forming an angle.",
+      "d": "Parallel points, maintaining distance."
     },
-    "answer": "b",
-    "id": 214
+    "answer": "b"
   },
   {
-    "question": "Can the bisectors of two adjacent complementary angles be perpendicular to each other?",
+    "question_number": 67,
+    "question": "A civil engineer is drawing a plan where a main water pipe (P) runs in a straight line. Two branch pipes (Q and R) are planned such that pipe Q is parallel to P, and pipe R is also parallel to P. To confirm the relationship between pipes Q and R, the engineer relies on the principle that:",
     "options": {
-      "a": "Yes",
-      "b": "No",
-      "c": "Only if the complementary angles are equal",
-      "d": "Only if one of the complementary angles is 0°"
+      "a": "The sum of angles around a point is 360\u00b0.",
+      "b": "The angles in a linear pair sum to 180\u00b0.",
+      "c": "Lines which are parallel to the same line are parallel to each other.",
+      "d": "Vertically opposite angles are equal."
     },
-    "answer": "a",
-    "id": 215
+    "answer": "c"
   },
   {
-    "question": "Line L and line M are parallel. A transversal T intersects them. If one pair of alternate interior angles is represented by (2x + 15)° and (3x - 5)°, find the value of x.",
+    "question_number": 68,
+    "question": "A student draws a straight line segment AB on a paper. Then, using a protractor, they draw a ray OC from point O on AB, such that \u2220AOC = 90\u00b0. What type of angle is \u2220BOC, and what is its measure?",
     "options": {
-      "a": "10",
-      "b": "20",
-      "c": "30",
-      "d": "40"
+      "a": "Acute, 90\u00b0",
+      "b": "Obtuse, 90\u00b0",
+      "c": "Right, 90\u00b0",
+      "d": "Straight, 180\u00b0"
     },
-    "answer": "b",
-    "id": 216
+    "answer": "c"
   },
   {
-    "question": "Ray OA and Ray OB are opposite rays. Ray OC bisects ∠AOD. Ray OE bisects ∠BOD. If ∠COD = 30°, find ∠COE.",
+    "question_number": 69,
+    "question": "In navigation, a ship's position might be determined by angles measured from two lighthouses to the ship. These angles involve the 'line of sight' from the lighthouses to the ship. Which basic geometric element describes the 'line of sight' from a lighthouse to the ship?",
     "options": {
-      "a": "30°",
-      "b": "60°",
-      "c": "90°",
-      "d": "150°"
+      "a": "Line-segment",
+      "b": "Ray",
+      "c": "Angle",
+      "d": "Vertex"
     },
-    "answer": "d",
-    "id": 217
+    "answer": "b"
   },
   {
-    "question": "Line P and line Q are intersected by a transversal R. If one pair of corresponding angles are (4y - 10)° and (2y + 30)°, find the value of y.",
+    "question_number": 70,
+    "question": "A sculptor wants to create a abstract piece using two long, thin metal rods. She joins them at a point to form an 'X' shape. She wants to ensure that the opposite openings formed by the rods are perfectly symmetrical. What mathematical property helps her achieve this?",
     "options": {
-      "a": "10",
-      "b": "20",
-      "c": "30",
-      "d": "40"
+      "a": "The sum of supplementary angles is 180\u00b0.",
+      "b": "The non-common arms of adjacent angles form a line.",
+      "c": "Vertically opposite angles are equal.",
+      "d": "Corresponding angles are equal."
     },
-    "answer": "b",
-    "id": 218
+    "answer": "c"
   },
   {
-    "question": "The angles of a triangle are in the ratio 2:3:4. Find the largest angle.",
+    "question_number": 71,
+    "question": "A clock's hands form various angles throughout the day. At 3:00 PM, the hour and minute hands form a right angle. What type of angle will be formed by the hands if one hand moves slightly past the other, resulting in an angle greater than 90\u00b0 but less than 180\u00b0?",
     "options": {
-      "a": "40°",
-      "b": "60°",
-      "c": "80°",
-      "d": "100°"
+      "a": "Acute angle",
+      "b": "Straight angle",
+      "c": "Obtuse angle",
+      "d": "Reflex angle"
     },
-    "answer": "c",
-    "id": 219
+    "answer": "c"
   },
   {
-    "question": "An exterior angle of a triangle is 120° and one of its interior opposite angles is 70°. Find the other interior opposite angle.",
+    "question_number": 72,
+    "question": "A map maker is drawing a map. Two main roads are represented as parallel lines. A connecting road acts as a transversal. The map maker needs to indicate that a specific turn angle (X) on one parallel road is the same as a corresponding turn angle (Y) on the other parallel road. Which geometric concept explains why X and Y might be equal?",
     "options": {
-      "a": "50°",
-      "b": "60°",
-      "c": "70°",
-      "d": "80°"
+      "a": "Vertically opposite angles",
+      "b": "Linear pair",
+      "c": "Alternate interior angles (implicitly)",
+      "d": "Corresponding angles axiom"
     },
-    "answer": "a",
-    "id": 220
+    "answer": "d"
   },
   {
-    "question": "Two angles of a triangle are equal and the third angle is twice their sum.  Find the measure of the third angle.",
+    "question_number": 73,
+    "question": "In a physics experiment, light rays are drawn to represent their paths. If a light ray hits a surface at 90 degrees, forming an incident ray perpendicular to the surface. Another ray, the reflected ray, goes along the path. If the incident ray and reflected ray together with the line perpendicular to the surface form a straight line, what can be said about the angle formed by the reflected ray and the perpendicular line, if the incident ray forms a right angle with the surface?",
     "options": {
-      "a": "30°",
-      "b": "60°",
-      "c": "90°",
-      "d": "120°"
+      "a": "It is complementary to the angle formed by the incident ray.",
+      "b": "It forms a linear pair with the angle formed by the incident ray and the surface.",
+      "c": "It is also a right angle.",
+      "d": "It is an obtuse angle."
     },
-    "answer": "d",
-    "id": 221
+    "answer": "c"
   },
   {
-    "question": "If one angle of a linear pair is one-third of the other, find the measure of the larger angle.",
+    "question_number": 74,
+    "question": "A person is walking around a circular park. At a certain point, they change direction abruptly. This change in direction forms an angle. If they make a complete turn to face their original starting direction, the total angle turned is 360\u00b0. Which term describes an angle that represents more than a half turn but less than a full turn?",
     "options": {
-      "a": "45°",
-      "b": "90°",
-      "c": "135°",
-      "d": "180°"
+      "a": "Acute angle",
+      "b": "Obtuse angle",
+      "c": "Straight angle",
+      "d": "Reflex angle"
     },
-    "answer": "c",
-    "id": 222
+    "answer": "d"
   },
   {
-    "question": "Three lines intersect at a point forming six angles. If two adjacent angles are 35° and 55°, find the measure of the smallest angle formed.",
+    "question_number": 75,
+    "question": "Two adjacent land plots share a common boundary fence (common arm) starting from a common corner (common vertex). If the other two fences (non-common arms) extend straight outwards from this common corner in opposite directions, forming a single straight line, what type of angle is formed by the total area covered by both plots at the corner?",
     "options": {
-      "a": "35°",
-      "b": "55°",
-      "c": "70°",
-      "d": "90°"
+      "a": "Complementary angle",
+      "b": "Supplementary angle",
+      "c": "Straight angle",
+      "d": "Right angle"
     },
-    "answer": "a",
-    "id": 223
+    "answer": "c"
   },
   {
-    "question": "Four lines intersect at a point. If three consecutive angles are 40°, 60°, and 80°, find the fourth angle.",
+    "question_number": 76,
+    "question": "A piece of a broken mirror lies on the ground. A sunlight ray hits the mirror and reflects. If the angle between the incident ray and the reflected ray is 140\u00b0, and the normal (a line perpendicular to the mirror surface at the point of incidence) is drawn, what is the measure of the angle of incidence (angle between incident ray and normal)? Assume angle of incidence equals angle of reflection.",
     "options": {
-      "a": "80°",
-      "b": "100°",
-      "c": "180°",
-      "d": "120°"
+      "a": "70\u00b0",
+      "b": "40\u00b0",
+      "c": "140\u00b0",
+      "d": "20\u00b0"
     },
-    "answer": "c",
-    "id": 224
+    "answer": "a"
   },
   {
-    "question": "Two angles are supplementary, and the larger angle is 30° less than twice the smaller angle. Find the smaller angle.",
+    "question_number": 77,
+    "question": "A construction worker lays two long pipes, A and B, in parallel trenches. He then needs to connect them with a diagonal pipe, C. He observes that the angle formed by pipe A and pipe C on one side of pipe C is 110\u00b0. What is the measure of the angle formed by pipe B and pipe C on the same side of pipe C, assuming they are interior angles on the same side of the transversal?",
     "options": {
-      "a": "30°",
-      "b": "40°",
-      "c": "50°",
-      "d": "70°"
+      "a": "110\u00b0",
+      "b": "70\u00b0",
+      "c": "90\u00b0",
+      "d": "180\u00b0"
     },
-    "answer": "d",
-    "id": 225
+    "answer": "b"
+  },
+  {
+    "question_number": 78,
+    "question": "In a game, a player throws a ball that follows a linear path. If the ball starts at point P, passes through point Q, and continues indefinitely in the same direction, which term best describes the path of the ball after Q?",
+    "options": {
+      "a": "Line segment",
+      "b": "Line",
+      "c": "Ray",
+      "d": "Curve"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 79,
+    "question": "A surveyor uses an instrument to measure angles between different landmarks. If two landmarks, A and B, are observed from a third point, C, and the angle \u2220ACB is formed, what are the 'arms' of this angle?",
+    "options": {
+      "a": "Points A and B",
+      "b": "Line segment AB",
+      "c": "Rays CA and CB",
+      "d": "Point C and line AB"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 80,
+    "question": "A person is cutting a pizza. They make one straight cut through the center. Then they make a second straight cut, also through the center, such that it intersects the first cut. If the angle formed by one slice is 45\u00b0, what is the angle of the slice directly opposite to it?",
+    "options": {
+      "a": "45\u00b0",
+      "b": "90\u00b0",
+      "c": "135\u00b0",
+      "d": "180\u00b0"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 81,
+    "question": "Consider two angles, \u2220X and \u2220Y. If \u2220X and \u2220Y are supplementary, and \u2220X and \u2220Z are also supplementary, what can be logically concluded about \u2220Y and \u2220Z?",
+    "options": {
+      "a": "\u2220Y and \u2220Z are complementary.",
+      "b": "\u2220Y and \u2220Z are vertically opposite.",
+      "c": "\u2220Y = \u2220Z.",
+      "d": "No conclusion can be drawn without more information."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 82,
+    "question": "If a ray OC stands on a line AB at point O, forming \u2220AOC and \u2220BOC. If \u2220AOC is an acute angle, what kind of angle must \u2220BOC be?",
+    "options": {
+      "a": "Acute angle",
+      "b": "Right angle",
+      "c": "Obtuse angle",
+      "d": "Reflex angle"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "Why are \u2220ABC and \u2220ABD in Fig. 6.2 NOT considered adjacent angles, even though they share a common arm BA and common vertex B?",
+    "options": {
+      "a": "Their sum is not 90\u00b0.",
+      "b": "Their sum is not 180\u00b0.",
+      "c": "Their non-common arms (BD and BC) lie on the same side of the common arm (BA).",
+      "d": "They do not form a linear pair."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "If two lines intersect, say at point O, and one of the angles formed is a right angle, what can be inferred about the other three angles formed at the intersection?",
+    "options": {
+      "a": "All are acute angles.",
+      "b": "All are obtuse angles.",
+      "c": "All are right angles.",
+      "d": "One is a right angle, and the other two form a linear pair."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 85,
+    "question": "The proof of Theorem 6.1 (Vertically Opposite Angles are Equal) relies heavily on which other axiom?",
+    "options": {
+      "a": "Axiom 6.2 (Converse of Linear Pair Axiom)",
+      "b": "The definition of supplementary angles",
+      "c": "Linear Pair Axiom (Axiom 6.1)",
+      "d": "The property that a point has 360\u00b0 around it."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 86,
+    "question": "Why is the converse of Axiom 6.1 (Axiom 6.2) important in geometry?",
+    "options": {
+      "a": "It allows us to prove that vertically opposite angles are equal.",
+      "b": "It helps define complementary angles.",
+      "c": "It provides a condition for non-common arms of adjacent angles to form a line.",
+      "d": "It explains why parallel lines never intersect."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 87,
+    "question": "If AB || CD, and a transversal t intersects them. If the alternate interior angles are equal, what can be logically deduced about the lines AB and CD?",
+    "options": {
+      "a": "They are perpendicular.",
+      "b": "They are intersecting.",
+      "c": "They must be parallel.",
+      "d": "They form a linear pair."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 88,
+    "question": "Given a ray OP, if we produce it backward to a point Q, what geometric form is created by OP and the produced part OQ?",
+    "options": {
+      "a": "A line segment",
+      "b": "An angle of 90 degrees",
+      "c": "A line",
+      "d": "A pair of intersecting rays"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 89,
+    "question": "Why is the concept of a reflex angle important, considering it measures between 180\u00b0 and 360\u00b0?",
+    "options": {
+      "a": "It defines angles within a triangle.",
+      "b": "It helps in understanding complete rotation or angles measured externally.",
+      "c": "It is always supplementary to an obtuse angle.",
+      "d": "It is only used for angles less than 90\u00b0."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "If \u2220A and \u2220B are two angles. If they are complementary, then they must be acute. If they are supplementary, then they could be obtuse. Is this statement true or false, and why?",
+    "options": {
+      "a": "True, because complementary angles are less than 90\u00b0, and supplementary angles can be greater than 90\u00b0.",
+      "b": "False, because supplementary angles must both be acute.",
+      "c": "True, but only if both complementary angles are 45\u00b0.",
+      "d": "False, because an acute angle is always greater than 90\u00b0."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 91,
+    "question": "What is the primary reason that a minimum of two points is required to draw a line?",
+    "options": {
+      "a": "To form an angle.",
+      "b": "To define its length.",
+      "c": "To determine its unique direction and position.",
+      "d": "To ensure it extends indefinitely."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 92,
+    "question": "Given lines AB and CD intersect at O. If \u2220AOC = 50\u00b0, then \u2220AOD can be determined. What property is primarily used to find \u2220AOD?",
+    "options": {
+      "a": "Vertically opposite angles",
+      "b": "Complementary angles",
+      "c": "Linear Pair Axiom",
+      "d": "Angle bisector property"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "If ray BE bisects \u2220ABQ and ray CG bisects \u2220BCS, and it is known that BE || CG, what fundamental relationship between angles allows us to prove that \u2220ABQ = \u2220BCS?",
+    "options": {
+      "a": "Vertically opposite angles are equal.",
+      "b": "Interior angles on the same side of transversal are supplementary.",
+      "c": "Corresponding angles are equal if lines are parallel.",
+      "d": "Angles in a linear pair sum to 180\u00b0."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 94,
+    "question": "If a statement is proved using deductive reasoning, as mentioned in the introduction, what does this imply about the statement?",
+    "options": {
+      "a": "It is an axiom, accepted without proof.",
+      "b": "It is a conjecture, yet to be verified.",
+      "c": "It is a theorem, logically derived from established truths.",
+      "d": "It is a definition, providing meaning to a term."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 95,
+    "question": "Consider the situation where multiple forces act on a body, and these forces are represented by directed line segments. How does the knowledge of lines and angles become essential in this scenario?",
+    "options": {
+      "a": "To find the total length of the forces.",
+      "b": "To determine the relationship between angles when line segments are parallel or intersect.",
+      "c": "To calculate the velocity of the body.",
+      "d": "To measure the mass of the body."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 96,
+    "question": "Why is it stated that \u2220ABC and \u2220ABD are not adjacent angles in Fig. 6.2, even though they share common arm BA and common vertex B?",
+    "options": {
+      "a": "Their non-common arms BD and BC are on the same side of the common arm BA.",
+      "b": "Angle ABC is greater than Angle ABD.",
+      "c": "Ray BD is not perpendicular to ray BC.",
+      "d": "They do not form a linear pair."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 97,
+    "question": "A statement says, \"If two angles are supplementary, then they must form a linear pair.\" Why is this statement false?",
+    "options": {
+      "a": "Supplementary angles always sum to 90 degrees.",
+      "b": "A linear pair requires specific conditions like adjacency and non-common arms forming a line, which are not guaranteed by merely summing to 180 degrees.",
+      "c": "All supplementary angles are vertically opposite.",
+      "d": "A linear pair can only be formed by acute angles."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "If x + y = w + z, and x, y, w, z are angles around a point O, and x + y + w + z = 360\u00b0. What does the given condition imply about the arrangement of lines forming these angles if AOB is a line (as in Fig. 6.16)?",
+    "options": {
+      "a": "It implies that the rays are perpendicular.",
+      "b": "It implies that AOB is a line because (x+y) and (w+z) are each 180\u00b0.",
+      "c": "It implies that all four angles are equal.",
+      "d": "It implies that the given condition is always true regardless of line arrangement."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "Given a line PQ and a point R not on the line. How many lines can be drawn through R that are parallel to PQ?",
+    "options": {
+      "a": "Zero",
+      "b": "One",
+      "c": "Two",
+      "d": "Infinitely many"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "Why is it important to denote lines by small letters (l, m, n) sometimes, as mentioned in Section 6.2?",
+    "options": {
+      "a": "To indicate their length.",
+      "b": "To signify that they are parallel.",
+      "c": "To avoid confusion when multiple lines are present or their endpoints are not specified.",
+      "d": "To show that they are intersecting lines."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): An obtuse angle measures 100\u00b0.\nReason (R): An obtuse angle is defined as an angle greater than 90\u00b0 but less than 180\u00b0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): If ray OS stands on line POQ, then \u2220POS and \u2220SOQ form a linear pair.\nReason (R): Angles in a linear pair are always complementary.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): If two lines intersect each other, then the vertically opposite angles are equal.\nReason (R): This statement is a theorem that can be proved using the Linear Pair Axiom.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): If \u2220X and \u2220Y are two angles such that \u2220X = 30\u00b0 and \u2220Y = 60\u00b0, then they are complementary angles.\nReason (R): Complementary angles are two angles whose sum is 90\u00b0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): A ray has two end points.\nReason (R): A ray is a part (or portion) of a line with one end point.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): If \u2220AOD and \u2220BOC are vertically opposite angles, then \u2220AOD + \u2220BOC = 180\u00b0.\nReason (R): Vertically opposite angles are always equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): If the sum of two adjacent angles is 180\u00b0, their non-common arms form a line.\nReason (R): This statement is the converse of Axiom 6.1.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): An angle measuring 90\u00b0 is a right angle.\nReason (R): An angle greater than 90\u00b0 but less than 180\u00b0 is called an obtuse angle.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): Collinear points are three or more points that do not lie on the same line.\nReason (R): An angle is formed when two rays originate from the same end point.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): The sum of angles around a point is 360\u00b0.\nReason (R): The sum of angles in a linear pair is 180\u00b0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): If two lines are parallel, the distance between them is always constant.\nReason (R): Parallel lines are lines that extend indefinitely in both directions and never intersect.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): A line segment is denoted by AB, and its length is denoted by AB.\nReason (R): Small letters l, m, n are sometimes used to denote lines for clarity.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): If \u2220PQR = \u2220PRQ, then \u2220PQS = \u2220PRT (as per Fig. 6.15 context).\nReason (R): \u2220PQR and \u2220PQS form a linear pair.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): A right angle is exactly equal to 90\u00b0.\nReason (R): An acute angle is greater than 0\u00b0 but less than 90\u00b0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): If a transversal intersects two lines such that the bisectors of a pair of corresponding angles are parallel, then the two lines are parallel.\nReason (R): The corresponding angles axiom states that if two parallel lines are intersected by a transversal, then corresponding angles are equal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): An angle measuring 300\u00b0 is a reflex angle.\nReason (R): A reflex angle is an angle which is greater than 180\u00b0 but less than 360\u00b0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): Adjacent angles always sum to 180\u00b0.\nReason (R): Linear pair angles are a specific type of adjacent angles whose non-common arms form a line, and their sum is 180\u00b0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): If x + y = w + z (as in Fig. 6.16), then AOB is a line.\nReason (R): The sum of all angles around a point is 360\u00b0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): When two lines AB and CD intersect at O, \u2220AOC and \u2220BOD are the only pair of vertically opposite angles.\nReason (R): Vertically opposite angles are formed when two lines intersect, and there are always two distinct pairs.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A",
+      "b": "Both A and R are true but R is not the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d"
   }
 ]

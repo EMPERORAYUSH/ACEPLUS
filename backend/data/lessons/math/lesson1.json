@@ -1,541 +1,1289 @@
 [
   {
-    "question": "Which of the following is an irrational number?",
+    "question_number": 1,
+    "question": "Which symbol is used to denote the collection of all natural numbers?",
     "options": {
-      "a": "0.121212...",
-      "b": "2.5",
-      "c": "√9",
-      "d": "√2"
+      "a": "W",
+      "b": "Z",
+      "c": "N",
+      "d": "Q"
     },
-    "answer": "d",
-    "id": 1
+    "answer": "c"
   },
   {
-    "question": "Express 0.666... in the form p/q, where p and q are integers and q ≠ 0.",
+    "question_number": 2,
+    "question": "What does the collection of whole numbers include, in addition to natural numbers?",
     "options": {
-      "a": "1/3",
-      "b": "2/3",
-      "c": "1/6",
-      "d": "6/10"
+      "a": "Only negative integers",
+      "b": "Zero",
+      "c": "All rational numbers",
+      "d": "All irrational numbers"
     },
-    "answer": "b",
-    "id": 2
+    "answer": "b"
   },
   {
-    "question": "If a is a rational number and b is an irrational number, then a*b is always:",
+    "question_number": 3,
+    "question": "The symbol 'Z' for integers comes from which German word?",
     "options": {
-      "a": "Rational",
-      "b": "Irrational",
-      "c": "An integer",
-      "d": "A natural number"
+      "a": "Zahlen",
+      "b": "Ziffern",
+      "c": "Zirkel",
+      "d": "Zehntel"
     },
-    "answer": "b",
-    "id": 3
+    "answer": "a"
   },
   {
-    "question": "The decimal representation of √7 will be:",
+    "question_number": 4,
+    "question": "A number 'r' is called a rational number if it can be written in the form p/q, where p and q are integers and:",
+    "options": {
+      "a": "p = 0",
+      "b": "q = 0",
+      "c": "q \u2260 0",
+      "d": "p and q have common factors other than 1"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 5,
+    "question": "Which of the following statements about rational numbers is TRUE?",
+    "options": {
+      "a": "Rational numbers have a unique representation in the form p/q.",
+      "b": "Rational numbers do not include natural numbers.",
+      "c": "Rational numbers are also called integers.",
+      "d": "Rational numbers include natural numbers, whole numbers, and integers."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 6,
+    "question": "What is the defining characteristic of an irrational number?",
+    "options": {
+      "a": "It can be written as a terminating decimal.",
+      "b": "It can be written in the form p/q where p and q are integers and q \u2260 0.",
+      "c": "It cannot be written in the form p/q where p and q are integers and q \u2260 0.",
+      "d": "It is always a negative number."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 7,
+    "question": "Which of the following is an example of an irrational number according to the text?",
+    "options": {
+      "a": "25",
+      "b": "0.875",
+      "c": "\u03c0",
+      "d": "1/2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 8,
+    "question": "The collection of all rational numbers and irrational numbers together makes up which collection of numbers?",
+    "options": {
+      "a": "Integers",
+      "b": "Whole numbers",
+      "c": "Real numbers",
+      "d": "Natural numbers"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 9,
+    "question": "What is the common characteristic of the decimal expansion of a rational number?",
+    "options": {
+      "a": "It is always non-terminating non-recurring.",
+      "b": "It is either terminating or non-terminating recurring.",
+      "c": "It is always non-recurring.",
+      "d": "It is always terminating."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 10,
+    "question": "What is the nature of the decimal expansion of an irrational number?",
     "options": {
       "a": "Terminating",
       "b": "Non-terminating recurring",
       "c": "Non-terminating non-recurring",
-      "d": "None of these"
+      "d": "Always an integer"
     },
-    "answer": "c",
-    "id": 4
+    "answer": "c"
   },
   {
-    "question": "The product of a non-zero rational number and an irrational number is always:",
+    "question_number": 11,
+    "question": "According to the lesson, how does every point on the number line correspond to a real number?",
     "options": {
-      "a": "Rational",
-      "b": "Irrational",
-      "c": "An integer",
-      "d": "A whole number"
+      "a": "Every point on the number line represents a unique real number.",
+      "b": "Every point represents multiple real numbers.",
+      "c": "Only rational numbers are represented on the number line.",
+      "d": "Only irrational numbers are represented on the number line."
     },
-    "answer": "b",
-    "id": 5
+    "answer": "a"
   },
   {
-    "question": "If x = 0.232323..., then 100x - x is equal to:",
+    "question_number": 12,
+    "question": "Who were the first to discover numbers that were not rationals, around 400 BC?",
     "options": {
-      "a": "23",
-      "b": "23.23",
-      "c": "0.23",
-      "d": "2.3"
+      "a": "Archimedes",
+      "b": "Aryabhatta",
+      "c": "Pythagoreans",
+      "d": "Dedekind"
     },
-    "answer": "a",
-    "id": 6
+    "answer": "c"
   },
   {
-    "question": "Rationalise the denominator of 1/(√3 - √2).",
+    "question_number": 13,
+    "question": "What is the value of a^0 for any real number a > 0?",
     "options": {
-      "a": "√3 + √2",
-      "b": "√3 - √2",
-      "c": "1/(√3 + √2)",
-      "d": "√2 - √3"
+      "a": "a",
+      "b": "0",
+      "c": "1",
+      "d": "Undefined"
     },
-    "answer": "a",
-    "id": 7
+    "answer": "c"
   },
   {
-    "question": "The sum of two irrational numbers is always:",
+    "question_number": 14,
+    "question": "If 'a' is a positive real number and 'n' is a positive integer, then n\u221aa = b implies what about 'b'?",
     "options": {
-      "a": "Rational",
-      "b": "Irrational",
-      "c": "A natural number",
-      "d": "Sometimes rational, sometimes irrational"
+      "a": "b is negative",
+      "b": "b^n = a and b > 0",
+      "c": "b is an integer",
+      "d": "b = a/n"
     },
-    "answer": "d",
-    "id": 8
+    "answer": "b"
   },
   {
-    "question": "Simplify (√3 + √2)(√3 - √2).",
+    "question_number": 15,
+    "question": "What is the term for the process of converting an expression with a square root in the denominator to an equivalent expression whose denominator is a rational number?",
     "options": {
-      "a": "1",
-      "b": "√6",
-      "c": "5",
-      "d": "√5"
+      "a": "Simplification",
+      "b": "Expansion",
+      "c": "Rationalising the denominator",
+      "d": "Factoring"
     },
-    "answer": "a",
-    "id": 9
+    "answer": "c"
   },
   {
-    "question": "The value of (2√3)² is:",
+    "question_number": 16,
+    "question": "Which identity is represented by (\u221aa + \u221ab)(\u221ac + \u221ad)?",
     "options": {
-      "a": "6",
-      "b": "9",
-      "c": "12",
-      "d": "36"
+      "a": "\u221aac + \u221abd",
+      "b": "\u221aac + \u221aad + \u221abc + \u221abd",
+      "c": "a + b + c + d",
+      "d": "ac + bd"
     },
-    "answer": "c",
-    "id": 10
+    "answer": "b"
   },
   {
-    "question": "Which of the following is the correct representation of 1.272727... in p/q form?",
+    "question_number": 17,
+    "question": "According to the lesson, the value of (a^m)^n is:",
     "options": {
-      "a": "127/100",
-      "b": "14/11",
-      "c": "126/99",
-      "d": "27/22"
+      "a": "a^(m+n)",
+      "b": "a^(m-n)",
+      "c": "a^(mn)",
+      "d": "a^(m/n)"
     },
-    "answer": "b",
-    "id": 11
+    "answer": "c"
   },
   {
-    "question": "Between two rational numbers, there exist:",
+    "question_number": 18,
+    "question": "What is the result of a^p / a^q, where a > 0 and p, q are rational numbers?",
     "options": {
-      "a": "No rational numbers",
-      "b": "Exactly one rational number",
-      "c": "Infinitely many rational numbers",
-      "d": "Only finitely many rational numbers"
+      "a": "a^(p+q)",
+      "b": "a^(p-q)",
+      "c": "a^(pq)",
+      "d": "a^(p/q)"
     },
-    "answer": "c",
-    "id": 12
+    "answer": "b"
   },
   {
-    "question": "Assertion: 0.1010010001... is an irrational number. Reason: Numbers with non-terminating and non-repeating decimal expansions are irrational.",
+    "question_number": 19,
+    "question": "The definition of rational numbers requires p and q to be integers and q \u2260 0. What additional assumption is typically made when representing p/q on the number line?",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
+      "a": "p and q must be positive.",
+      "b": "p and q must be co-prime.",
+      "c": "p must be greater than q.",
+      "d": "q must be an even number."
     },
-    "answer": "a",
-    "id": 13
+    "answer": "b"
   },
   {
-    "question": "A student claims that the product of two irrational numbers is always irrational. Is the student correct? If not, provide a counterexample.",
+    "question_number": 21,
+    "question": "Who were the two German mathematicians who, in the 1870s, showed the correspondence between real numbers and points on the real number line?",
     "options": {
-      "a": "Yes, the student is correct.",
-      "b": "No, for example, √2 * √2 = 2, which is rational.",
-      "c": "No, for example, π * (1/π) = 1, which is rational.",
-      "d": "No, for example, √3 * √7 = √21, which is rational."
+      "a": "Pythagoras and Theodorus",
+      "b": "Lambert and Legendre",
+      "c": "Cantor and Dedekind",
+      "d": "Archimedes and Aryabhatta"
     },
-    "answer": "b",
-    "id": 14
+    "answer": "c"
   },
   {
-    "question": "The side length of a square is √5 units. What is the area of the square?",
+    "question_number": 22,
+    "question": "What does the 'bar' notation above digits in a decimal expansion (e.g., 0.142857) indicate?",
     "options": {
-      "a": "2.5 square units",
-      "b": "5 square units",
-      "c": "10 square units",
-      "d": "25 square units"
+      "a": "The digits are terminating.",
+      "b": "The digits are not recurring.",
+      "c": "The block of digits under the bar repeats.",
+      "d": "The number is irrational."
     },
-    "answer": "b",
-    "id": 15
+    "answer": "c"
   },
   {
-    "question": "Which of the following numbers lies between 2/3 and 3/4?",
+    "question_number": 23,
+    "question": "If 'r' is a non-zero rational number and 's' is an irrational number, what can be generally said about their product 'rs'?",
     "options": {
-      "a": "5/7",
-      "b": "11/16",
-      "c": "7/10",
-      "d": "4/5"
+      "a": "It is always rational.",
+      "b": "It is always irrational.",
+      "c": "It can be either rational or irrational.",
+      "d": "It is always an integer."
     },
-    "answer": "b",
-    "id": 16
+    "answer": "b"
   },
   {
-    "question": "If √a is an irrational number, then 'a' cannot be a:",
+    "question_number": 24,
+    "question": "What is the name of the symbol '\u221a ' used in expressions like \u221a2, \u00b3\u221a8, n\u221aa?",
     "options": {
-      "a": "Prime number",
-      "b": "Composite number",
-      "c": "Perfect square",
-      "d": "Odd number"
+      "a": "Root sign",
+      "b": "Square sign",
+      "c": "Radical sign",
+      "d": "Exponent sign"
     },
-    "answer": "c",
-    "id": 17
+    "answer": "c"
   },
   {
-    "question": "The value of (5 + √3)(5 - √3) is:",
+    "question_number": 25,
+    "question": "The definition of a real number states that a real number is either:",
     "options": {
-      "a": "22",
-      "b": "28",
-      "c": "16",
-      "d": "2√3"
+      "a": "Natural or integer",
+      "b": "Whole or rational",
+      "c": "Rational or irrational",
+      "d": "Positive or negative"
     },
-    "answer": "a",
-    "id": 18
+    "answer": "c"
   },
   {
-    "question": "The decimal expansion of 2/11 is:",
-    "options": {
-      "a": "0.18",
-      "b": "0.181818...",
-      "c": "0.090909...",
-      "d": "0.22"
-    },
-    "answer": "b",
-    "id": 19
-  },
-  {
-    "question": "The simplest form of √80 is:",
-    "options": {
-      "a": "5√4",
-      "b": "4√5",
-      "c": "10√2",
-      "d": "2√20"
-    },
-    "answer": "b",
-    "id": 20
-  },
-  {
-    "question": "The value of (√8)⁻² is:",
-    "options": {
-      "a": "1/2",
-      "b": "1/4",
-      "c": "1/8",
-      "d": "1/16"
-    },
-    "answer": "c",
-    "id": 21
-  },
-  {
-    "question": "If 2ⁿ = 1/8, then the value of n is:",
+    "question_number": 26,
+    "question": "What is the maximum number of digits in the repeating block for the decimal expansion of 1/7?",
     "options": {
       "a": "3",
-      "b": "-3",
-      "c": "2",
-      "d": "-2"
-    },
-    "answer": "b",
-    "id": 22
-  },
-  {
-    "question": "Simplify: (2⁷ / 2⁵) * 2³",
-    "options": {
-      "a": "2⁴",
-      "b": "2⁵",
-      "c": "2⁸",
-      "d": "2⁹"
-    },
-    "answer": "b",
-    "id": 23
-  },
-  {
-    "question": "Express 0.125 in the form of p/q, where p and q are integers and q ≠ 0.",
-    "options": {
-      "a": "1/8",
-      "b": "125/100",
-      "c": "1/4",
-      "d": "5/4"
-    },
-    "answer": "a",
-    "id": 24
-  },
-  {
-    "question": "The product of √7 and its reciprocal is:",
-    "options": {
-      "a": "√7",
-      "b": "1/√7",
-      "c": "7",
-      "d": "1"
-    },
-    "answer": "d",
-    "id": 25
-  },
-  {
-    "question": "The number (√5 - √3)² is:",
-    "options": {
-      "a": "Rational",
-      "b": "Irrational",
-      "c": "An integer",
-      "d": "A whole number"
-    },
-    "answer": "b",
-    "id": 26
-  },
-  {
-    "question": "If √10 = 3.162, then the value of 1/√10 is approximately:",
-    "options": {
-      "a": "0.3162",
-      "b": "3.162",
-      "c": "0.1",
-      "d": "10"
-    },
-    "answer": "a",
-    "id": 27
-  },
-  {
-    "question": "Which of the following is not a rational number?",
-    "options": {
-      "a": "√(16/25)",
-      "b": "√12",
-      "c": "0",
-      "d": "-5"
-    },
-    "answer": "b",
-    "id": 28
-  },
-  {
-    "question": "Simplify: √(72/98)",
-    "options": {
-      "a": "6/7",
-      "b": "√6/√7",
-      "c": "7/6",
-      "d": "36/49"
-    },
-    "answer": "a",
-    "id": 29
-  },
-  {
-    "question": "Assertion: The number 1.414 is a rational approximation of √2. Reason: √2 is an irrational number and cannot be expressed as a terminating or repeating decimal.",
-    "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
-    },
-    "answer": "a",
-    "id": 30
-  },
-  {
-    "question": "A ribbon is √27 cm long. It is cut into three equal pieces. What is the length of each piece?",
-    "options": {
-      "a": "3 cm",
-      "b": "√3 cm",
-      "c": "9 cm",
-      "d": "3√3 cm"
-    },
-    "answer": "b",
-    "id": 31
-  },
-  {
-    "question": "Which of the following lies between 0.7 and 0.8 on the number line?",
-    "options": {
-      "a": "√0.49",
-      "b": "√0.64",
-      "c": "√0.75",
-      "d": "√0.81"
-    },
-    "answer": "c",
-    "id": 32
-  },
-  {
-    "question": "If x = (√5 + 1)/(√5 - 1) and y = (√5 - 1)/(√5 + 1), then the value of x² + y² is:",
-    "options": {
-      "a": "14",
-      "b": "16",
-      "c": "7",
-      "d": "8"
-    },
-    "answer": "a",
-    "id": 33
-  },
-  {
-    "question": "Find the value of a and b if (3 + √7)/(3 - √7) = a + b√7.",
-    "options": {
-      "a": "a = 8, b = 3",
-      "b": "a = 3, b = 8",
-      "c": "a = 8/3, b = 1",
-      "d": "a = 1, b = 8/3"
-    },
-    "answer": "c",
-    "id": 34
-  },
-  {
-    "question": "The number obtained by dividing a rational number by a non-zero rational number is always a:",
-    "options": {
-      "a": "Natural Number",
-      "b": "Whole Number",
-      "c": "Integer",
-      "d": "Rational Number"
-    },
-    "answer": "d",
-    "id": 35
-  },
-  {
-    "question": "If x = (√13 + √11)/(√13 - √11), then the value of x² - (1/x²) is:",
-    "options": {
-      "a": "48√143",
-      "b": "96√143",
-      "c": "24√143",
-      "d": "√143"
-    },
-    "answer": "a",
-    "id": 36
-  },
-  {
-    "question": "Simplify: (√5 - 2)/(√5 + 2) - (√5 + 2)/(√5 - 2)",
-    "options": {
-      "a": "-8√5",
-      "b": "8√5",
-      "c": "-16",
-      "d": "16"
-    },
-    "answer": "a",
-    "id": 37
-  },
-  {
-    "question": "The value of (1/3)⁻² + (1/4)⁻² + (1/5)⁻² is equal to:",
-    "options": {
-      "a": "50",
-      "b": "1/50",
-      "c": "29",
-      "d": "1/29"
-    },
-    "answer": "a",
-    "id": 38
-  },
-  {
-    "question": "If 3¹⁻ˣ = 27, then the value of x is:",
-    "options": {
-      "a": "-2",
-      "b": "2",
-      "c": "3",
-      "d": "-3"
-    },
-    "answer": "a",
-    "id": 39
-  },
-  {
-    "question": "If a = √3 + 1/√3 and b = √3 - 1/√3, then the value of a² - b² is:",
-    "options": {
-      "a": "4",
-      "b": "√3",
-      "c": "1/√3",
-      "d": "2"
-    },
-    "answer": "a",
-    "id": 40
-  },
-  {
-    "question": "If x = 2 + √3, then the value of x + 1/x is:",
-    "options": {
-      "a": "2√3",
       "b": "4",
-      "c": "2 - √3",
-      "d": "1"
+      "c": "6",
+      "d": "7"
     },
-    "answer": "b",
-    "id": 41
+    "answer": "c"
   },
   {
-    "question": "The rationalizing factor of 1/(√7 - √2) is:",
+    "question_number": 27,
+    "question": "According to the lesson, is \u03c0 exactly equal to 22/7?",
     "options": {
-      "a": "√7 + √2",
-      "b": "√7 - √2",
-      "c": "√7",
-      "d": "√2"
+      "a": "Yes, they are exactly equal.",
+      "b": "No, 22/7 is only an approximate value for \u03c0.",
+      "c": "Yes, \u03c0 is a rational number like 22/7.",
+      "d": "No, \u03c0 is an integer while 22/7 is a rational number."
     },
-    "answer": "a",
-    "id": 42
+    "answer": "b"
   },
   {
-    "question": "The value of (64)⁰·⁵ * (8)⁰·⁶⁶⁷ is:",
+    "question_number": 28,
+    "question": "When are p and q considered co-prime in the rational representation p/q?",
     "options": {
-      "a": "8",
-      "b": "16",
-      "c": "32",
-      "d": "64"
+      "a": "When p and q are both even.",
+      "b": "When p and q are both odd.",
+      "c": "When p and q have no common factors other than 1.",
+      "d": "When q is a prime number."
     },
-    "answer": "c",
-    "id": 43
+    "answer": "c"
   },
   {
-    "question": "The decimal representation of 7/125 will terminate after how many decimal places?",
+    "question_number": 29,
+    "question": "What does the equation b\u00b2 = a and b > 0 define when a is a natural number?",
     "options": {
-      "a": "1",
-      "b": "2",
-      "c": "3",
-      "d": "4"
+      "a": "b is the cube root of a.",
+      "b": "b is the negative square root of a.",
+      "c": "b is the positive square root of a.",
+      "d": "b is the reciprocal of a."
     },
-    "answer": "c",
-    "id": 44
+    "answer": "c"
   },
   {
-    "question": "If (2/3)ˣ * (3/2)⁻⁴ = 27/8, then the value of x is:",
+    "question_number": 30,
+    "question": "Which historical figure computed digits in the decimal expansion of \u03c0 and showed 3.140845 < \u03c0 < 3.142857?",
     "options": {
-      "a": "1",
-      "b": "-1",
-      "c": "7",
-      "d": "-7"
+      "a": "Aryabhatta",
+      "b": "Pythagoras",
+      "c": "Euclid",
+      "d": "Archimedes"
     },
-    "answer": "c",
-    "id": 45
+    "answer": "d"
   },
   {
-    "question": "Simplify: (√8 + √5)(√8 - √5)",
+    "question_number": 31,
+    "question": "Express the number 3.142678 in the form p/q.",
     "options": {
-      "a": "3",
-      "b": "√13",
-      "c": "13",
-      "d": "√3"
+      "a": "3142678/1000",
+      "b": "3142678/10000",
+      "c": "3142678/1000000",
+      "d": "3142678/100000"
     },
-    "answer": "a",
-    "id": 46
+    "answer": "c"
   },
   {
-    "question": "Assertion: Every real number is either rational or irrational. Reason: There are no other types of numbers on the number line.",
+    "question_number": 32,
+    "question": "Express 0.6 (with a bar over 6) in the form p/q, where p and q are integers and q \u2260 0.",
     "options": {
-      "a": "Both Assertion and Reason are true and Reason is the correct explanation for Assertion.",
-      "b": "Both Assertion and Reason are true but Reason is not the correct explanation for Assertion.",
-      "c": "Assertion is true but Reason is false.",
-      "d": "Assertion is false but Reason is true."
+      "a": "1/3",
+      "b": "2/3",
+      "c": "3/5",
+      "d": "6/10"
     },
-    "answer": "a",
-    "id": 47
+    "answer": "b"
   },
   {
-    "question": "The value of (256)⁰·¹⁶ * (256)⁰·⁰⁸ is equal to:",
+    "question_number": 33,
+    "question": "Express 0.47 (with a bar over 7) in the form p/q, where p and q are integers and q \u2260 0.",
+    "options": {
+      "a": "47/99",
+      "b": "43/90",
+      "c": "47/100",
+      "d": "4/7"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 34,
+    "question": "Express 0.001 (with a bar over 001) in the form p/q, where p and q are integers and q \u2260 0.",
+    "options": {
+      "a": "1/99",
+      "b": "1/100",
+      "c": "1/999",
+      "d": "1/1000"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 35,
+    "question": "Find one rational number between 1 and 2 using the method of averaging.",
+    "options": {
+      "a": "3/4",
+      "b": "3/2",
+      "c": "1/2",
+      "d": "5/2"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 37,
+    "question": "Find five rational numbers between 3/5 and 4/5.",
+    "options": {
+      "a": "16/25, 17/25, 18/25, 19/25, 20/25",
+      "b": "31/50, 32/50, 33/50, 34/50, 35/50",
+      "c": "21/30, 22/30, 23/30, 24/30, 25/30",
+      "d": "10/15, 11/15, 12/15, 13/15, 14/15"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 38,
+    "question": "Simplify the expression: (5 + \u221a7)(2 + \u221a5).",
+    "options": {
+      "a": "10 + 5\u221a5 + 2\u221a7 + \u221a35",
+      "b": "10 + \u221a35",
+      "c": "10 + 2\u221a7 + \u221a35",
+      "d": "10 + 5\u221a5 + \u221a35"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 39,
+    "question": "Simplify the expression: (5 + \u221a5)(5 - \u221a5).",
+    "options": {
+      "a": "25 + 5\u221a5",
+      "b": "20",
+      "c": "25 - 5\u221a5",
+      "d": "30"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 40,
+    "question": "Simplify the expression: (\u221a3 + \u221a7)^2.",
+    "options": {
+      "a": "10 + 2\u221a21",
+      "b": "10 + \u221a21",
+      "c": "10",
+      "d": "3 + 7"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 41,
+    "question": "Simplify the expression: (\u221a11 - \u221a7)(\u221a11 + \u221a7).",
+    "options": {
+      "a": "11 - 7",
+      "b": "4",
+      "c": "\u221a4",
+      "d": "18"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 42,
+    "question": "Add the real numbers: (2\u221a2 + 5\u221a3) and (\u221a2 - 3\u221a3).",
+    "options": {
+      "a": "3\u221a2 + 8\u221a3",
+      "b": "3\u221a2 + 2\u221a3",
+      "c": "\u221a2 + 2\u221a3",
+      "d": "\u221a2 + 8\u221a3"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 43,
+    "question": "Multiply the real numbers: 6\u221a5 by 2\u221a5.",
+    "options": {
+      "a": "12\u221a5",
+      "b": "60",
+      "c": "12\u221a25",
+      "d": "30"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 44,
+    "question": "Divide the real numbers: 8\u221a15 by 2\u221a3.",
+    "options": {
+      "a": "4\u221a5",
+      "b": "16\u221a5",
+      "c": "4\u221a3",
+      "d": "2\u221a5"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 45,
+    "question": "Rationalise the denominator of 1/\u221a2.",
+    "options": {
+      "a": "\u221a2",
+      "b": "1/2",
+      "c": "\u221a2/2",
+      "d": "2/\u221a2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 47,
+    "question": "Rationalise the denominator of 5/(\u221a3 - \u221a5).",
+    "options": {
+      "a": "5(\u221a3 + \u221a5) / (-2)",
+      "b": "5(\u221a3 - \u221a5) / 2",
+      "c": "5(\u221a3 + \u221a5) / 2",
+      "d": "\u221a3 + \u221a5"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 48,
+    "question": "Rationalise the denominator of 1/(\u221a7 + 3\u221a2).",
+    "options": {
+      "a": "(\u221a7 + 3\u221a2) / 31",
+      "b": "(\u221a7 - 3\u221a2) / 31",
+      "c": "(\u221a7 + 3\u221a2) / (-11)",
+      "d": "(\u221a7 - 3\u221a2) / (-11)"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 49,
+    "question": "Rationalise the denominator of 1/(\u221a7 - \u221a6).",
+    "options": {
+      "a": "\u221a7 - \u221a6",
+      "b": "\u221a7 + \u221a6",
+      "c": "(\u221a7 + \u221a6)/13",
+      "d": "(\u221a7 - \u221a6)/13"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 50,
+    "question": "Rationalise the denominator of 1/(\u221a5 + \u221a2).",
+    "options": {
+      "a": "(\u221a5 - \u221a2) / 3",
+      "b": "(\u221a5 + \u221a2) / 3",
+      "c": "\u221a5 - \u221a2",
+      "d": "(\u221a5 - \u221a2) / 7"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 51,
+    "question": "Rationalise the denominator of 1/(\u221a7 - 2).",
+    "options": {
+      "a": "(\u221a7 + 2) / 3",
+      "b": "(\u221a7 - 2) / 3",
+      "c": "(\u221a7 + 2) / 5",
+      "d": "(\u221a7 - 2) / 5"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 52,
+    "question": "Evaluate 64^(1/2).",
     "options": {
       "a": "4",
       "b": "8",
       "c": "16",
-      "d": "256"
+      "d": "32"
     },
-    "answer": "c",
-    "id": 48
+    "answer": "b"
   },
   {
-    "question": "The number (√3 - √2)(√3 + √2) is:",
+    "question_number": 53,
+    "question": "Evaluate 32^(1/5).",
     "options": {
-      "a": "A rational number",
-      "b": "An irrational number",
-      "c": "Zero",
-      "d": "None of these"
+      "a": "2",
+      "b": "4",
+      "c": "8",
+      "d": "16"
     },
-    "answer": "a",
-    "id": 49
+    "answer": "a"
+  },
+  {
+    "question_number": 54,
+    "question": "Evaluate 125^(1/3).",
+    "options": {
+      "a": "5",
+      "b": "15",
+      "c": "25",
+      "d": "12.5"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 55,
+    "question": "Evaluate 9^(3/2).",
+    "options": {
+      "a": "3",
+      "b": "9",
+      "c": "27",
+      "d": "81"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 56,
+    "question": "Evaluate 32^(2/5).",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "8",
+      "d": "16"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 57,
+    "question": "Evaluate 16^(3/4).",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "6",
+      "d": "8"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 58,
+    "question": "Evaluate 125^(-1/3).",
+    "options": {
+      "a": "5",
+      "b": "-5",
+      "c": "1/5",
+      "d": "-1/5"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 59,
+    "question": "Simplify: 2^(2/3) * 2^(1/5).",
+    "options": {
+      "a": "2^(2/15)",
+      "b": "2^(3/8)",
+      "c": "2^(13/15)",
+      "d": "2^(10/3)"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 60,
+    "question": "Simplify: (7^(1/5))^(1/3).",
+    "options": {
+      "a": "7^(1/15)",
+      "b": "7^(5/3)",
+      "c": "7^(3/5)",
+      "d": "7^(1/8)"
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 61,
+    "question": "Consider the numbers: \u221a3, -2/3, 0, 0.101101110..., 5. Which of these is an irrational number?",
+    "options": {
+      "a": "-2/3",
+      "b": "0",
+      "c": "0.101101110...",
+      "d": "5"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 62,
+    "question": "Which of the following numbers can be represented in the form p/q, where p and q are integers and q \u2260 0?",
+    "options": {
+      "a": "\u221a2",
+      "b": "\u03c0",
+      "c": "0.101101110...",
+      "d": "-75"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 63,
+    "question": "Why is it insisted that q \u2260 0 in the definition of a rational number p/q?",
+    "options": {
+      "a": "Because q must be a prime number.",
+      "b": "Because division by zero is undefined.",
+      "c": "Because p would always be zero if q were zero.",
+      "d": "Because it simplifies the number line representation."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 64,
+    "question": "If a decimal expansion of a number is observed to be 7.478478..., what kind of number can it be classified as?",
+    "options": {
+      "a": "Natural number",
+      "b": "Integer",
+      "c": "Rational number",
+      "d": "Irrational number"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 65,
+    "question": "If a student uses the Pythagoras theorem to locate a number on the number line by constructing a right-angled triangle with base 1 unit and perpendicular 1 unit, what number are they locating?",
+    "options": {
+      "a": "\u221a1",
+      "b": "\u221a2",
+      "c": "\u221a3",
+      "d": "\u221a5"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 66,
+    "question": "What happens if you add a non-zero rational number to an irrational number?",
+    "options": {
+      "a": "The result is always a rational number.",
+      "b": "The result is always an irrational number.",
+      "c": "The result can be either rational or irrational.",
+      "d": "The result is always an integer."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 67,
+    "question": "Consider the expressions (\u221a6 + \u221a6) and (\u221a6 - \u221a6). Based on the properties of irrational numbers, what can be concluded about the results of these operations?",
+    "options": {
+      "a": "Both results are always irrational.",
+      "b": "Both results are always rational.",
+      "c": "The sum is irrational, and the difference is rational.",
+      "d": "Both results can be either rational or irrational."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 68,
+    "question": "When finding the decimal expansion of a rational number like 10/3 or 1/7, what pattern is observed regarding the remainders?",
+    "options": {
+      "a": "Remainders always become zero immediately.",
+      "b": "Remainders are always greater than the divisor.",
+      "c": "Remainders either become zero or start repeating themselves.",
+      "d": "Remainders never become zero."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 69,
+    "question": "What does the 'square root spiral' activity demonstrate about numbers like \u221a2, \u221a3, \u221a4, etc.?",
+    "options": {
+      "a": "All square roots of positive integers are irrational.",
+      "b": "How to locate these numbers geometrically on the number line.",
+      "c": "That only integers can be represented on the number line.",
+      "d": "That there are finite numbers between any two integers."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 70,
+    "question": "If a decimal expansion is non-terminating and non-recurring, what can be concluded about the number?",
+    "options": {
+      "a": "It is a natural number.",
+      "b": "It is an integer.",
+      "c": "It is a rational number.",
+      "d": "It is an irrational number."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 71,
+    "question": "The number 0 can be written in the form p/q as 0/1. Based on this, what type of number is zero?",
+    "options": {
+      "a": "Only a whole number",
+      "b": "Only an integer",
+      "c": "A rational number",
+      "d": "An irrational number"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 72,
+    "question": "The number \u03c0 is defined as the ratio of a circle's circumference (c) to its diameter (d), i.e., \u03c0 = c/d. Despite this ratio definition, \u03c0 is irrational. How does the lesson resolve this apparent contradiction?",
+    "options": {
+      "a": "It states that c and d are not real numbers.",
+      "b": "It clarifies that c or d (or both) are irrational, so their ratio doesn't guarantee rationality.",
+      "c": "It explains that 22/7 is the actual value of \u03c0, which is rational.",
+      "d": "It implies that the definition of a rational number is only for integers."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 73,
+    "question": "What is the significance of the statement by Cantor and Dedekind regarding the real number line?",
+    "options": {
+      "a": "It proved that only rational numbers exist on the number line.",
+      "b": "It showed that there are gaps on the number line where no numbers exist.",
+      "c": "It established a unique correspondence between every real number and a point on the number line.",
+      "d": "It introduced imaginary numbers to fill the number line."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 74,
+    "question": "If a number's decimal expansion is 0.3796, what kind of number is it?",
+    "options": {
+      "a": "Irrational number",
+      "b": "Natural number",
+      "c": "Integer",
+      "d": "Rational number"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 75,
+    "question": "The value of 22/7 is often used as an approximation for \u03c0. Based on the lesson, what kind of number is 22/7?",
+    "options": {
+      "a": "An irrational number",
+      "b": "A rational number",
+      "c": "An integer",
+      "d": "A whole number"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 76,
+    "question": "If you have a square OABC with each side 1 unit in length, and you draw its diagonal OB, what number is represented by the length of OB according to the Pythagoras theorem?",
+    "options": {
+      "a": "1",
+      "b": "\u221a2",
+      "c": "2",
+      "d": "\u221a3"
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 77,
+    "question": "To locate \u221a3 on the number line after \u221a2 has been located, a perpendicular of unit length (BD) is constructed to OB. What is the length of OD (hypotenuse) in the resulting right triangle?",
+    "options": {
+      "a": "1",
+      "b": "\u221a2",
+      "c": "\u221a3",
+      "d": "2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 78,
+    "question": "What does the concept of \"equivalent rational numbers\" signify?",
+    "options": {
+      "a": "That rational numbers have a unique representation p/q.",
+      "b": "That different fractions can represent the same rational number.",
+      "c": "That only fractions with prime numerators are equivalent.",
+      "d": "That p and q must be prime for representation."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 79,
+    "question": "If 'r' is a rational number and 's' is an irrational number, what can be generally said about r - s?",
+    "options": {
+      "a": "It is always rational.",
+      "b": "It is always irrational.",
+      "c": "It can be either rational or irrational.",
+      "d": "It is always zero."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 80,
+    "question": "Which of the following numbers belongs to the set 'Z' but not 'N'?",
+    "options": {
+      "a": "5",
+      "b": "0",
+      "c": "-3",
+      "d": "1/2"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 81,
+    "question": "Which of the following statements is FALSE based on the definitions provided in the lesson?",
+    "options": {
+      "a": "Every natural number is a whole number.",
+      "b": "Every integer is a rational number.",
+      "c": "Every rational number is an integer.",
+      "d": "Every irrational number is a real number."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 82,
+    "question": "Why is 0.9999... often considered equivalent to 1, according to the mathematical reasoning similar to that in the lesson?",
+    "options": {
+      "a": "Because 0.9999... is a terminating decimal.",
+      "b": "Because subtracting 0.9999... from 1 results in a non-zero value.",
+      "c": "Because if x = 0.9999..., then 10x - x leads to 9x = 9, so x = 1.",
+      "d": "Because it is just an approximation and not exactly equal to 1."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 83,
+    "question": "If a student asserts that the square roots of all positive integers are irrational, which example from the lesson would best refute this assertion?",
+    "options": {
+      "a": "\u221a2",
+      "b": "\u221a3",
+      "c": "\u221a4",
+      "d": "\u221a5"
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 84,
+    "question": "A number 's' has a decimal expansion of 1.101001000100001..., where the number of zeros between the ones increases by one each time. What can be definitively concluded about 's'?",
+    "options": {
+      "a": "It is a terminating decimal.",
+      "b": "It is a non-terminating recurring decimal.",
+      "c": "It is a rational number.",
+      "d": "It is an irrational number."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 85,
+    "question": "Why is the number line also referred to as the 'real number line'?",
+    "options": {
+      "a": "Because only real numbers can be represented by points on it.",
+      "b": "Because it only contains positive numbers.",
+      "c": "Because it excludes irrational numbers.",
+      "d": "Because it is based on real-world measurements."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 86,
+    "question": "If you have two rational numbers, say 'r' and 's', what can you conclude about the number of rational numbers existing between them?",
+    "options": {
+      "a": "There is exactly one rational number between them.",
+      "b": "There are a finite number of rational numbers between them.",
+      "c": "There are infinitely many rational numbers between them.",
+      "d": "There are no rational numbers between them."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 87,
+    "question": "When simplifying an expression like (2\u221a2 + 5\u221a3) + (\u221a2 - 3\u221a3), why are terms like 2\u221a2 and \u221a2 combined, and 5\u221a3 and -3\u221a3 combined, but \u221a2 and \u221a3 are not?",
+    "options": {
+      "a": "Only terms with rational numbers can be combined.",
+      "b": "Only terms with integer coefficients can be combined.",
+      "c": "Only terms with the same radical part can be combined.",
+      "d": "Combining terms with different radical parts leads to irrational numbers."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 88,
+    "question": "The decimal expansion of 1/7 is 0.142857 recurring. What general observation about remainders and divisors can be made from this example, as stated in the lesson?",
+    "options": {
+      "a": "The number of entries in the repeating string of remainders is always equal to the divisor.",
+      "b": "The number of entries in the repeating string of remainders is always less than the divisor.",
+      "c": "Remainders can be zero only when the quotient is an integer.",
+      "d": "Remainders never repeat if the quotient has repeating digits."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 89,
+    "question": "If a decimal expansion is terminating, such as 3.142678, why can it be expressed in the form p/q and therefore be rational?",
+    "options": {
+      "a": "Because all terminating decimals are irrational.",
+      "b": "Because it can be written as a fraction with a power of 10 as the denominator.",
+      "c": "Because it means the division process resulted in a non-repeating remainder.",
+      "d": "Because the number of digits after the decimal point is infinite."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 90,
+    "question": "Given the law a^m . a^n = a^(m+n), what can be inferred about the base 'a' when extending this law to rational exponents (a^p . a^q)?",
+    "options": {
+      "a": "The base 'a' must be a natural number.",
+      "b": "The base 'a' must be an integer.",
+      "c": "The base 'a' must be a positive real number.",
+      "d": "The base 'a' can be any real number (positive or negative)."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 91,
+    "question": "Why are natural numbers considered a subset of integers?",
+    "options": {
+      "a": "Because integers only contain positive numbers.",
+      "b": "Because integers contain all positive whole numbers, negative whole numbers, and zero.",
+      "c": "Because natural numbers cannot be expressed as integers.",
+      "d": "Because integers are a smaller set than natural numbers."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 92,
+    "question": "Consider the numbers 1/2, 2/4, 10/20. The lesson states these are equivalent rational numbers. What is the standard practice when representing such a rational number on the number line?",
+    "options": {
+      "a": "Any of the equivalent forms can be used interchangeably.",
+      "b": "The form with the largest numerator and denominator is chosen.",
+      "c": "The form where p and q are co-prime (no common factors other than 1) is chosen.",
+      "d": "The form with the smallest prime denominator is chosen."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 93,
+    "question": "Which of the following operations on two irrational numbers will *always* result in an irrational number?",
+    "options": {
+      "a": "Addition",
+      "b": "Subtraction",
+      "c": "Multiplication",
+      "d": "None of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 94,
+    "question": "Why is \u221ax (where x > 0) guaranteed to exist as a real number, according to the lesson's geometric construction?",
+    "options": {
+      "a": "Because all positive numbers are perfect squares.",
+      "b": "Because a corresponding point can always be found on the number line for any positive 'x'.",
+      "c": "Because it will always result in an integer value.",
+      "d": "Because the Pythagorean theorem only applies to integers."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 95,
+    "question": "The ancient Indian mathematical treatise Sulbasutras approximated \u221a2. What does this indicate about the understanding of such numbers in ancient times?",
+    "options": {
+      "a": "That \u221a2 was considered a natural number.",
+      "b": "That the concept of irrational numbers was unknown in ancient India.",
+      "c": "That approximations of irrational numbers were sought and used.",
+      "d": "That \u221a2 was believed to be exactly 1.4142156."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 96,
+    "question": "When is the product of two real numbers NOT necessarily irrational?",
+    "options": {
+      "a": "When both numbers are rational.",
+      "b": "When one is rational and the other is irrational.",
+      "c": "When both numbers are irrational.",
+      "d": "When one number is zero."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 97,
+    "question": "Why are the numbers 1, 2, 3, ... called \"natural numbers\"?",
+    "options": {
+      "a": "Because they include zero.",
+      "b": "Because they are found naturally in counting objects.",
+      "c": "Because they include negative values.",
+      "d": "Because they can be written as fractions."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 98,
+    "question": "If a number is expressed as x = (\u221aa + \u221ab)^2, and it is known that a and b are distinct prime numbers, what can be concluded about the rationality of x?",
+    "options": {
+      "a": "x is always rational.",
+      "b": "x is always irrational.",
+      "c": "x is rational if a+b is even.",
+      "d": "x is rational if 2\u221aab is rational."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 99,
+    "question": "The decimal expansion of 0.235 (with a bar over 35) is 0.2353535... When converting this to p/q form, why is the first step to multiply by 100 to get 100x = 23.53535...?",
+    "options": {
+      "a": "Because there are two non-repeating digits.",
+      "b": "Because there are two repeating digits.",
+      "c": "Because 100 is the largest power of 10.",
+      "d": "Because 2 is the non-repeating digit."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 100,
+    "question": "Consider the historical discovery of irrational numbers by the Pythagoreans. Why was the discovery of \u221a2 particularly significant and controversial for them?",
+    "options": {
+      "a": "It showed that all numbers were rational.",
+      "b": "It proved that geometry was not based on numbers.",
+      "c": "It challenged their belief that all quantities could be expressed as ratios of integers.",
+      "d": "It introduced the concept of negative numbers."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 101,
+    "question": "Assertion (A): Every whole number is an integer.\nReason (R): The set of integers (Z) includes all whole numbers (W) and negative integers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 102,
+    "question": "Assertion (A): The number 0.142857 (with a bar over 142857) is a rational number.\nReason (R): Any number with a non-terminating recurring decimal expansion can be expressed in the form p/q, where p and q are integers and q \u2260 0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 103,
+    "question": "Assertion (A): The identity (\u221aa + \u221ab)(\u221aa - \u221ab) = a - b holds true for positive real numbers a and b.\nReason (R): This identity is a specific application of the algebraic identity (x + y)(x - y) = x^2 - y^2.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 104,
+    "question": "Assertion (A): The product of a non-zero rational number and an irrational number is always irrational.\nReason (R): If a rational number r (r \u2260 0) is multiplied by an irrational number s, the resulting product rs will have a non-terminating non-recurring decimal expansion.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 105,
+    "question": "Assertion (A): The decimal expansion of 10/3 is non-terminating recurring.\nReason (R): When 10 is divided by 3, the remainder 1 keeps repeating, leading to a repeating block of digits in the quotient.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "a"
+  },
+  {
+    "question_number": 106,
+    "question": "Assertion (A): Every natural number is a whole number.\nReason (R): The collection of natural numbers is denoted by N and whole numbers by W.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 107,
+    "question": "Assertion (A): Pi (\u03c0) is an irrational number.\nReason (R): Pi (\u03c0) is the ratio of the circumference of a circle to its diameter.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 108,
+    "question": "Assertion (A): There are infinitely many rational numbers between any two given rational numbers.\nReason (R): Rational numbers are numbers that can be expressed in the form p/q where p and q are integers and q \u2260 0.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 109,
+    "question": "Assertion (A): The sum of two irrational numbers can be a rational number.\nReason (R): Irrational numbers follow the associative and commutative laws of addition.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 110,
+    "question": "Assertion (A): The value of 32^(1/5) is 2.\nReason (R): The symbol n\u221aa is called the radical sign.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "b"
+  },
+  {
+    "question_number": 111,
+    "question": "Assertion (A): The decimal expansion of 0.875 is terminating.\nReason (R): In the division of 7 by 8, the remainder never becomes zero.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 112,
+    "question": "Assertion (A): The expression (\u221a5 - \u221a2)(\u221a5 + \u221a2) simplifies to an integer.\nReason (R): The identity (\u221aa - \u221ab)(\u221aa + \u221ab) simplifies to a + b.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 113,
+    "question": "Assertion (A): Any number whose decimal expansion is non-terminating non-recurring is irrational.\nReason (R): The number 0.333... is an example of a non-terminating non-recurring decimal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 114,
+    "question": "Assertion (A): The number 1.272727... is a rational number.\nReason (R): This number is an example of a terminating decimal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 115,
+    "question": "Assertion (A): The number 0.9999... is equivalent to 1.\nReason (R): This is an example of a terminating decimal.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "c"
+  },
+  {
+    "question_number": 116,
+    "question": "Assertion (A): Every integer is a whole number.\nReason (R): The set of whole numbers includes zero and all positive integers.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 117,
+    "question": "Assertion (A): Every rational number is an integer.\nReason (R): 3/5 is a rational number but not an integer.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 118,
+    "question": "Assertion (A): Every point on the number line is of the form \u221am, where m is a natural number.\nReason (R): Every point on the number line represents a unique real number.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 119,
+    "question": "Assertion (A): The value of 2^(2/3) multiplied by 2^(1/3) is 2^(2/9).\nReason (R): One of the laws of exponents states a^p * a^q = a^(p+q).",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
+  },
+  {
+    "question_number": 120,
+    "question": "Assertion (A): The collection of all rational numbers and irrational numbers only covers half of the number line.\nReason (R): Every real number corresponds to a unique point on the number line, and vice-versa.",
+    "options": {
+      "a": "Both A and R are true and R is the correct explanation of A.",
+      "b": "Both A and R are true but R is not the correct explanation of A.",
+      "c": "A is true but R is false.",
+      "d": "A is false but R is true."
+    },
+    "answer": "d"
   }
 ]
