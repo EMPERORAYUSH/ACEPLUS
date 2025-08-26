@@ -1133,12 +1133,13 @@ def upload_files():
     if not files:
         return jsonify({'message': 'No files provided'}), 400
 
-    # Enforce per-user daily upload limit (max 5 files in last 24 hours)
+    # Per-user daily data cap: 100 MB
+    BYTES_LIMIT = 100 * 1024 * 1024  # 100 MB
     now_ts = time.time()
     twenty_four_hours = 24 * 60 * 60
 
-    def count_user_uploads_last_24h(user_id: str) -> int:
-        count = 0
+    def list_user_files_last_24h(user_id: str):
+        items = []
         try:
             for fname in os.listdir(app.config['UPLOAD_FOLDER']):
                 if not fname.startswith(f"{user_id}_"):
@@ -1146,17 +1147,36 @@ def upload_files():
                 fpath = os.path.join(app.config['UPLOAD_FOLDER'], fname)
                 try:
                     ctime = os.path.getctime(fpath)
+                    if now_ts - ctime <= twenty_four_hours:
+                        size = os.path.getsize(fpath)
+                        items.append({
+                            'name': fname,
+                            'path': fpath,
+                            'ctime': ctime,
+                            'size': size
+                        })
                 except Exception:
                     continue
-                if now_ts - ctime <= twenty_four_hours:
-                    count += 1
         except Exception:
             pass
-        return count
+        # Oldest first
+        items.sort(key=lambda x: x['ctime'])
+        return items
 
-    existing_count = count_user_uploads_last_24h(current_user)
-    if existing_count + len(files) > 10:
-        return jsonify({'message': 'Daily upload limit reached (max 5 files in the last 24 hours).'}), 429
+    def enforce_user_bytes_cap(user_id: str):
+        files_24h = list_user_files_last_24h(user_id)
+        total_bytes = sum(f['size'] for f in files_24h)
+        # Delete oldest file(s) until we are within the cap
+        while total_bytes > BYTES_LIMIT and files_24h:
+            oldest = files_24h.pop(0)
+            try:
+                os.remove(oldest['path'])
+                print(f"Deleted oldest file to enforce cap: {oldest['name']}")
+                total_bytes -= oldest['size']
+            except Exception as e:
+                print(f"Error deleting oldest file {oldest['name']}: {e}")
+                # Break to avoid potential infinite loop if deletion fails
+                break
 
     # Allow images + pdf + pptx
     allowed_file_exts = set(ALLOWED_EXTENSIONS) | {'pdf', 'pptx'}
@@ -1184,6 +1204,12 @@ def upload_files():
                 previews = render_pdf_previews(filepath, app.config['UPLOAD_FOLDER'], pages=1)
             elif ftype == 'pptx':
                 previews = render_pptx_previews(filepath, app.config['UPLOAD_FOLDER'], slides=1)
+
+            # Enforce per-user 100 MB/day data cap by deleting oldest files first
+            try:
+                enforce_user_bytes_cap(current_user)
+            except Exception as e:
+                print(f"Error enforcing data cap for user {current_user}: {e}")
 
             uploaded_items.append({
                 'filename': unique_filename,
