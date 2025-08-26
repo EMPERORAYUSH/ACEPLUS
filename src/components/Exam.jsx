@@ -92,10 +92,6 @@ const Exam = () => {
       setSelectedLessons(lessons.map(l => l.value));
       // Lock body scroll
       document.body.classList.add('select-menu-open');
-      // Focus search input after animation
-      setTimeout(() => {
-        searchInputRef.current?.focus();
-      }, 150);
     } else {
       // Unlock body scroll
       document.body.classList.remove('select-menu-open');
