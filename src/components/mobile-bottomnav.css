@@ -97,14 +97,14 @@
     opacity: 1;
     transform: scale(1);
   }
-  @media (max-width: 480px) {
+  @media (max-width: 460px) {
     .mobile-back-button, .mobile-back-button.show {
       width: 40px;
       height: 40px;
     }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 340px) {
     .mobile-back-button, .mobile-back-button.show {
       width: 36px;
       height: 36px;
@@ -116,14 +116,14 @@
     height: 20px;
     transition: transform 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
   }
-  @media (max-width: 480px) {
+  @media (max-width: 460px) {
     .mobile-back-button svg {
       width: 18px;
       height: 18px;
     }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 340px) {
     .mobile-back-button svg {
       width: 16px;
       height: 16px;
@@ -206,10 +206,10 @@
     border-radius: 0 24px 24px 0;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 460px) {
     .bottom-nav {
       bottom: 12px;
-      padding: 0 8px; 
+      padding: 0 8px;
     }
 
     .bottom-nav-content {
@@ -219,13 +219,13 @@
     }
   }
 
-  @media (max-width: 421px) {
+  @media (max-width: 401px) {
     .bottom-nav-content {
       max-width: 400px;
     }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 340px) {
     .bottom-nav {
       bottom: 8px;
       padding: 0 4px;
@@ -298,7 +298,7 @@
     transition: opacity 600ms ease-out, height 400ms ease-out;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 460px) {
     .nav-item {
       padding: 4px 6px;
       font-size: 0.65rem;
@@ -317,7 +317,7 @@
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 380px) {
     .nav-item {
       max-width: 56px;
     }
@@ -326,7 +326,7 @@
     }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 340px) {
     .nav-item {
       padding: 3px 4px;
       font-size: 0.6rem;
@@ -355,14 +355,14 @@
     will-change: left, width;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 460px) {
     .nav-highlight {
         top: 6px;
         height: calc(100% - 12px);
     }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 340px) {
     .nav-highlight {
         top: 4px;
         height: calc(100% - 8px);
