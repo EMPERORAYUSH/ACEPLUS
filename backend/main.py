@@ -63,6 +63,7 @@ try:
     from utils.auth_utils import get_student_class, get_current_user_info
     from utils.job_utils import allowed_file, cleanup_old_files
     from datetime import timedelta
+    from utils.parse_files import render_pdf_previews, render_pptx_previews
 
 except ImportError as e:
     print(f"Import Error: {str(e)}")
@@ -1121,39 +1122,173 @@ def get_students_by_standard_route():
     except Exception as e:
         return jsonify({"message": f"Error fetching students: {str(e)}"}), 500
 
-@app.route("/api/upload_images", methods=["POST"])
+@app.route("/api/upload_files", methods=["POST"])
 @jwt_required()
-def upload_images():
+def upload_files():
     current_user, _ = get_current_user_info()
-    
-    # Check if any files were uploaded
-    files = []
-    for key in request.files:
-        if key.startswith('image_'):
-            files.append(request.files[key])
-    
+
+    # Collect any files (compatible with both 'file_*' and 'image_*' keys)
+    files = [request.files[key] for key in request.files]
+
     if not files:
-        return jsonify({'message': 'No images provided'}), 400
-        
-    uploaded_files = []
-    
+        return jsonify({'message': 'No files provided'}), 400
+
+    # Enforce per-user daily upload limit (max 5 files in last 24 hours)
+    now_ts = time.time()
+    twenty_four_hours = 24 * 60 * 60
+
+    def count_user_uploads_last_24h(user_id: str) -> int:
+        count = 0
+        try:
+            for fname in os.listdir(app.config['UPLOAD_FOLDER']):
+                if not fname.startswith(f"{user_id}_"):
+                    continue
+                fpath = os.path.join(app.config['UPLOAD_FOLDER'], fname)
+                try:
+                    ctime = os.path.getctime(fpath)
+                except Exception:
+                    continue
+                if now_ts - ctime <= twenty_four_hours:
+                    count += 1
+        except Exception:
+            pass
+        return count
+
+    existing_count = count_user_uploads_last_24h(current_user)
+    if existing_count + len(files) > 10:
+        return jsonify({'message': 'Daily upload limit reached (max 5 files in the last 24 hours).'}), 429
+
+    # Allow images + pdf + pptx
+    allowed_file_exts = set(ALLOWED_EXTENSIONS) | {'pdf', 'pptx'}
+
+    uploaded_items = []
     for file in files:
-        if file and allowed_file(file.filename, ALLOWED_EXTENSIONS):
-            filename = secure_filename(file.filename)
-            timestamp = int(time.time())
-            unique_filename = f"{current_user}_{timestamp}_{filename}"
-            filepath = os.path.join(app.config['UPLOAD_FOLDER'], unique_filename)
+        if not file or not file.filename:
+            continue
+        if not allowed_file(file.filename, allowed_file_exts):
+            continue
+        filename = secure_filename(file.filename)
+        timestamp = int(now_ts)
+        unique_filename = f"{current_user}_{timestamp}_{filename}"
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], unique_filename)
+        try:
             file.save(filepath)
-            uploaded_files.append(unique_filename)
-    
-    if not uploaded_files:
-        return jsonify({'message': 'No valid images uploaded'}), 400
-        
+            # Determine type and generate previews
+            ext = os.path.splitext(unique_filename)[1].lower()
+            ftype = 'image' if ext in ('.png', '.jpg', '.jpeg', '.webp', '.bmp') else ('pdf' if ext == '.pdf' else ('pptx' if ext == '.pptx' else 'file'))
+            previews = []
+            if ftype == 'image':
+                # the image itself is a preview
+                previews = [unique_filename]
+            elif ftype == 'pdf':
+                previews = render_pdf_previews(filepath, app.config['UPLOAD_FOLDER'], pages=1)
+            elif ftype == 'pptx':
+                previews = render_pptx_previews(filepath, app.config['UPLOAD_FOLDER'], slides=1)
+
+            uploaded_items.append({
+                'filename': unique_filename,
+                'type': ftype,
+                'previews': previews
+            })
+        except Exception as e:
+            print(f"Error saving file {filename}: {e}")
+            continue
+
+    if not uploaded_items:
+        return jsonify({'message': 'No valid files uploaded'}), 400
+
     return jsonify({
-        'message': 'Images uploaded successfully',
-        'files': uploaded_files
+        'message': 'Files uploaded successfully',
+        'items': uploaded_items
     }), 200
 
+@app.route("/api/generate_from_files", methods=["GET"])
+@jwt_required()
+def generate_from_files():
+    """Generate questions from uploaded files using Server-Sent Events."""
+    current_user, _ = get_current_user_info()
+    
+    # Get filenames from query parameters
+    filenames = request.args.getlist('filenames')
+    
+    if not filenames:
+        return jsonify({'message': 'No files provided'}), 400
+        
+    try:
+        # Get full paths of the files
+        file_paths = [os.path.join(app.config['UPLOAD_FOLDER'], filename) for filename in filenames]
+        
+        # Check if all files exist
+        missing_files = []
+        for path in file_paths:
+            if not os.path.exists(path):
+                missing_files.append(os.path.basename(path))
+        
+        if missing_files:
+            return jsonify({
+                'message': f'Some files were not found: {", ".join(missing_files)}'
+            }), 404
+            
+        def generate_sse():
+            """Generator function for SSE"""
+            try:
+                # Send initial message
+                yield "event: start\ndata: {\"message\": \"Starting file processing\"}\n\n"
+                
+                questions = []
+                total_count = 0
+                
+                try:
+                    for update in generate.analyze_files(file_paths):
+                        if update["type"] == "total":
+                            total_count = update["count"]
+                            yield f"event: total\ndata: {json.dumps({'count': update['count']})}\n\n"
+                        elif update["type"] == "progress":
+                            yield f"event: progress\ndata: {json.dumps({'count': update['count'], 'total': total_count})}\n\n"
+                        elif update["type"] == "result":
+                            questions = update["questions"]
+                            yield f"event: result\ndata: {json.dumps({'questions': questions})}\n\n"
+                        elif update["type"] == "error":
+                            yield f"event: error\ndata: {json.dumps({'message': update['message']})}\n\n"
+                            return
+                    
+                    # Verify we have questions
+                    if not questions:
+                        yield f"event: error\ndata: {json.dumps({'message': 'No questions could be extracted from the files'})}\n\n"
+                        return
+                    
+                    # Send completion event
+                    yield f"event: complete\ndata: {json.dumps({'message': 'Processing complete'})}\n\n"
+                    
+                except Exception as e:
+                    print(f"Error processing files: {str(e)}")
+                    print(traceback.format_exc())
+                    yield f"event: error\ndata: {json.dumps({'message': str(e)})}\n\n"
+                    
+            except Exception as e:
+                print(f"Error in SSE stream: {str(e)}")
+                print(traceback.format_exc())
+                yield f"event: error\ndata: {json.dumps({'message': str(e)})}\n\n"
+        
+        response = Response(
+            generate_sse(),
+            mimetype='text/event-stream',
+            headers={
+                'Cache-Control': 'no-cache',
+                'Content-Type': 'text/event-stream',
+                'Connection': 'keep-alive',
+                'X-Accel-Buffering': 'no',  # For NGINX compatibility
+                'Access-Control-Allow-Origin': request.headers.get('Origin', '*'),
+                'Access-Control-Allow-Credentials': 'true'
+            }
+        )
+        return response
+            
+    except Exception as e:
+        print(f"Error in generate_from_files: {str(e)}")
+        return jsonify({
+            'message': f'Error processing files: {str(e)}'
+        }), 500
 
 @app.route("/api/uploads/<filename>")
 @jwt_required()
@@ -1564,95 +1699,6 @@ cleanup_thread.start()
 # Start test expiration thread when app starts
 expiration_thread = threading.Thread(target=start_expiration_scheduler, daemon=True)
 expiration_thread.start()
-
-# Replace the generate_from_images route
-@app.route("/api/generate_from_images", methods=["GET"])
-@jwt_required()
-def generate_from_images():
-    """Generate questions from uploaded images using Server-Sent Events."""
-    current_user, _ = get_current_user_info()
-    
-    # Get filenames from query parameters
-    filenames = request.args.getlist('filenames')
-    
-    if not filenames:
-        return jsonify({'message': 'No images provided'}), 400
-        
-    try:
-        # Get full paths of the images
-        image_paths = [os.path.join(app.config['UPLOAD_FOLDER'], filename) for filename in filenames]
-        
-        # Check if all files exist
-        missing_files = []
-        for path in image_paths:
-            if not os.path.exists(path):
-                missing_files.append(os.path.basename(path))
-        
-        if missing_files:
-            return jsonify({
-                'message': f'Some images were not found: {", ".join(missing_files)}'
-            }), 404
-            
-        def generate_sse():
-            """Generator function for SSE"""
-            try:
-                # Send initial message
-                yield "event: start\ndata: {\"message\": \"Starting image processing\"}\n\n"
-                
-                questions = []
-                total_count = 0
-                
-                try:
-                    for update in generate.analyze_images(image_paths):
-                        if update["type"] == "total":
-                            total_count = update["count"]
-                            yield f"event: total\ndata: {json.dumps({'count': update['count']})}\n\n"
-                        elif update["type"] == "progress":
-                            yield f"event: progress\ndata: {json.dumps({'count': update['count'], 'total': total_count})}\n\n"
-                        elif update["type"] == "result":
-                            questions = update["questions"]
-                            yield f"event: result\ndata: {json.dumps({'questions': questions})}\n\n"
-                        elif update["type"] == "error":
-                            yield f"event: error\ndata: {json.dumps({'message': update['message']})}\n\n"
-                            return
-                    
-                    # Verify we have questions
-                    if not questions:
-                        yield f"event: error\ndata: {json.dumps({'message': 'No questions could be extracted from the images'})}\n\n"
-                        return
-                    
-                    # Send completion event
-                    yield f"event: complete\ndata: {json.dumps({'message': 'Processing complete'})}\n\n"
-                    
-                except Exception as e:
-                    print(f"Error processing images: {str(e)}")
-                    print(traceback.format_exc())
-                    yield f"event: error\ndata: {json.dumps({'message': str(e)})}\n\n"
-                    
-            except Exception as e:
-                print(f"Error in SSE stream: {str(e)}")
-                print(traceback.format_exc())
-                yield f"event: error\ndata: {json.dumps({'message': str(e)})}\n\n"
-        
-        response = Response(
-            generate_sse(),
-            mimetype='text/event-stream',
-            headers={
-                'Cache-Control': 'no-cache',
-                'Content-Type': 'text/event-stream',
-                'Connection': 'keep-alive',
-                'X-Accel-Buffering': 'no',  # For NGINX compatibility
-                'Access-Control-Allow-Origin': request.headers.get('Origin', '*'),
-                'Access-Control-Allow-Credentials': 'true'
-            }
-        )
-        return response
-            
-    except Exception as e:
-        print(f"Error in generate_from_images: {str(e)}")
-        return jsonify({
-            'message': f'Error processing images: {str(e)}'
-        }), 500
 
 if __name__ == "__main__":
     app.run(

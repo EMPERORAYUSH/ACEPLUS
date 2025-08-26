@@ -51,17 +51,17 @@ const Stepper = ({ currentStep, steps }) => {
         </div>
     );
 };
-const ImageUploadSection = ({
-    uploadedImages,
+const FileUploadSection = ({
+    uploadedFiles,
     isUploading,
     uploadProgress,
     isGenerating,
     generationProgress,
     loadingMessages,
-    handleImageUpload,
-    handleDeleteImage,
+    handleFileUpload,
+    handleDeleteFile,
     handleGenerateQuestions,
-    handleImageClick
+    handleFileClick
 }) => {
     return (
         <div className="image-upload-section">
@@ -71,8 +71,8 @@ const ImageUploadSection = ({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    <FaUpload /> Add Images
-                    <input type="file" accept="image/*" multiple onChange={handleImageUpload} disabled={isUploading || isGenerating} />
+                    <FaUpload /> Add Files (Images/PDF/PPTX)
+                    <input type="file" accept="image/*,.pdf,.pptx" multiple onChange={handleFileUpload} disabled={isUploading || isGenerating} />
                 </motion.label>
             </div>
 
@@ -87,28 +87,39 @@ const ImageUploadSection = ({
                 )}
             </AnimatePresence>
 
-            {uploadedImages.length > 0 && (
+            {uploadedFiles.length > 0 && (
                 <div className="image-preview-container">
                     <AnimatePresence>
-                        {uploadedImages.map(image => (
+                        {uploadedFiles.map(file => (
                             <motion.div
-                                key={image.filename}
+                                key={file.filename}
                                 className="image-preview"
                                 layout
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 0.8 }}
-                                onClick={() => handleImageClick(image)}
+                                onClick={() => handleFileClick(file)}
                             >
-                                <img src={image.url} alt="preview" />
-                                <button className="delete-image-btn" onClick={(e) => { e.stopPropagation(); handleDeleteImage(image.filename);}}><FaTrash /></button>
+                                {file.previewUrl ? (
+                                    <img src={file.previewUrl} alt="preview" />
+                                ) : file.type === 'image' && file.url ? (
+                                    <img src={file.url} alt="preview" />
+                                ) : (
+                                    <div className="file-preview">
+                                        <div className="file-icon">
+                                            {file.type === 'pdf' ? 'PDF' : file.type === 'pptx' ? 'PPT' : 'FILE'}
+                                        </div>
+                                        <div className="file-name">{file.filename}</div>
+                                    </div>
+                                )}
+                                <button className="delete-image-btn" onClick={(e) => { e.stopPropagation(); handleDeleteFile(file.filename);}}><FaTrash /></button>
                             </motion.div>
                         ))}
                     </AnimatePresence>
                 </div>
             )}
 
-            {uploadedImages.length > 0 && !isGenerating && (
+            {uploadedFiles.length > 0 && !isGenerating && (
                 <div style={{display: 'flex', justifyContent: 'center'}}>
                 <button onClick={handleGenerateQuestions} className="btn-primary generate-btn" disabled={isGenerating}>
                     Generate Questions
@@ -121,7 +132,7 @@ const ImageUploadSection = ({
                 <motion.div className="generation-status-container" initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
                     <div className="progress-container">
                         <div className="progress-header">
-                            {generationProgress.total > 0 ? "Generating Questions" : "Analyzing Images"}
+                            {generationProgress.total > 0 ? "Generating Questions" : "Analyzing Files"}
                         </div>
                          <AnimatePresence mode="wait">
                             {generationProgress.total === 0 && loadingMessages.map((message) => (
@@ -180,9 +191,9 @@ const CreateTest = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [openConfirm, setOpenConfirm] = useState(false);
 
-    // State for image upload and generation
-    const [questionSource, setQuestionSource] = useState('manual'); // 'manual' or 'image'
-    const [uploadedImages, setUploadedImages] = useState([]);
+    // State for file upload and generation
+    const [questionSource, setQuestionSource] = useState('manual'); // 'manual' or 'file'
+    const [uploadedFiles, setUploadedFiles] = useState([]);
     const [isUploading, setIsUploading] = useState(false);
     const [uploadProgress, setUploadProgress] = useState(0);
     const [isGenerating, setIsGenerating] = useState(false);
@@ -265,7 +276,7 @@ const CreateTest = () => {
         }
     };
 
-    const handleImageUpload = async (event) => {
+    const handleFileUpload = async (event) => {
         const files = event.target.files;
         if (!files || files.length === 0) return;
 
@@ -276,15 +287,15 @@ const CreateTest = () => {
             return;
         }
 
-        uploadFiles(Array.from(files));
+        uploadFilesToServer(Array.from(files));
         event.target.value = '';
     };
 
-    const uploadFiles = async (files) => {
+    const uploadFilesToServer = async (files) => {
         setIsUploading(true);
         setUploadProgress(0);
         const formData = new FormData();
-        
+
         for (let i = 0; i < files.length; i++) {
             const file = files[i];
             if (file.size > 16 * 1024 * 1024) { // 16MB limit
@@ -292,52 +303,100 @@ const CreateTest = () => {
                 setIsUploading(false);
                 return;
             }
-            if (!file.type.startsWith('image/')) {
-                toast.error(`File ${file.name} is not a valid image type.`);
-                setIsUploading(false);
-                return;
-            }
-            formData.append(`image_${i}`, file);
-        }
-
+            // Accept images, pdf, pptx (validated server-side too)
+            formData.append(`file_${i}`, file);
         try {
-            const response = await api.uploadImages(formData, setUploadProgress);
-            if (response?.files?.length > 0) {
-                const previews = await Promise.all(
-                    response.files.map(async (filename) => {
-                        const imageResponse = await api.getUploadedImage(filename);
-                        const imageBlob = await imageResponse.blob();
-                        return { filename, url: URL.createObjectURL(imageBlob) };
-                    })
-                );
+            const response = await api.uploadFiles(formData, setUploadProgress);
 
-                setUploadedImages(prev => [...prev, ...previews]);
-                toast.success('Images uploaded successfully!');
+            // New response format with metadata
+            if (response?.items?.length > 0) {
+                // Fetch preview blobs (if any)
+                const built = await Promise.all(response.items.map(async (item) => {
+                    const type = item.type;
+                    let previewUrl = null;
+
+                    if (item.previews && item.previews.length > 0) {
+                        // Use server-generated preview
+                        try {
+                            const r = await api.getUploadedImage(item.previews[0]);
+                            const b = await r.blob();
+                            previewUrl = URL.createObjectURL(b);
+                        } catch {
+                            previewUrl = null;
+                        }
+                    } else if (type === 'image') {
+                        // Fallback: fetch original image and create blob URL
+                        try {
+                            const r = await api.getUploadedImage(item.filename);
+                            const b = await r.blob();
+                            previewUrl = URL.createObjectURL(b);
+                        } catch {
+                            previewUrl = null;
+                        }
+                    }
+
+                    return {
+                        filename: item.filename,
+                        type,
+                        previewUrl,
+                        url: previewUrl, // fallback key used by renderer
+                        original: item.filename,
+                        previews: item.previews || []
+                    };
+                }));
+                setUploadedFiles(prev => [...prev, ...built]);
+                toast.success('Files uploaded successfully!');
+            } else if (response?.files?.length > 0) {
+                // Legacy response format: only filenames (assume images)
+                const builtLegacy = await Promise.all(response.files.map(async (filename) => {
+                    let previewUrl = null;
+                    try {
+                        const r = await api.getUploadedImage(filename);
+                        const b = await r.blob();
+                        previewUrl = URL.createObjectURL(b);
+                    } catch {
+                        previewUrl = null;
+                    }
+                    return {
+                        filename,
+                        type: 'image',
+                        previewUrl,
+                        url: previewUrl,
+                        original: filename,
+                        previews: []
+                    };
+                }));
+                setUploadedFiles(prev => [...prev, ...builtLegacy]);
+                toast.success('Files uploaded successfully!');
+            } else {
+                toast.error('No files returned from server.');
             }
         } catch (error) {
-            toast.error(error.message || 'Failed to upload images.');
+            toast.error(error.message || 'Failed to upload files.');
         } finally {
+            setIsUploading(false);
+        }
             setIsUploading(false);
         }
     };
 
-    const handleDeleteImage = (filename) => {
-        setUploadedImages(prev => prev.filter(img => img.filename !== filename));
+    const handleDeleteFile = (filename) => {
+        setUploadedFiles(prev => prev.filter(f => f.filename !== filename));
     };
 
     const handleGenerateQuestions = async () => {
-        if (uploadedImages.length === 0) {
-            toast.error('Please upload at least one image.');
+        if (uploadedFiles.length === 0) {
+            toast.error('Please upload at least one file.');
             return;
         }
 
         setIsGenerating(true);
         setGenerationProgress({ completed: 0, total: 0, message: 'Initiating generation...' });
-        setLoadingMessages(["Analyzing image structures..."]);
+        setLoadingMessages(["Analyzing files..."]);
 
         let messageIndex = 0;
         const FAKE_MESSAGES = [
-            "Analyzing image structures...",
+            "Analyzing files...",
             "Detecting question patterns...",
             "Optimizing OCR processing...",
             "Verifying answer consistency...",
@@ -350,10 +409,10 @@ const CreateTest = () => {
             setLoadingMessages([FAKE_MESSAGES[messageIndex]]);
         }, 3000);
 
-        const filenames = uploadedImages.map(img => img.filename);
+        const filenames = uploadedFiles.map(f => f.original || f.filename);
 
         try {
-            const generatedQuestions = await api.generateFromImages(filenames, {
+            const generatedQuestions = await api.generateFromFiles(filenames, {
                 onProgress: (progress) => {
                     setGenerationProgress(prev => ({ ...prev, ...progress }));
                 },
@@ -371,7 +430,7 @@ const CreateTest = () => {
                 setShowNoQuestionsDialog(true);
             }
         } catch (error) {
-            if (error.message === 'No questions could be extracted from the images') {
+            if (error.message === 'No questions could be extracted from the files') {
                 setShowNoQuestionsDialog(true);
             } else {
                 toast.error(error.message || 'Failed to generate questions.');
@@ -386,13 +445,18 @@ const CreateTest = () => {
         setHasAgreedToPrivacy(true);
         setShowPrivacyNotice(false);
         if (pendingUploadEvent) {
-            uploadFiles(pendingUploadEvent);
+            uploadFilesToServer(pendingUploadEvent);
             setPendingUploadEvent(null);
         }
     };
 
-    const handleImageClick = (image) => {
-        setSelectedImage(image);
+    const handleFileClick = (file) => {
+        const cachedUrl = file.previewUrl || file.url;
+        if (cachedUrl) {
+            setSelectedImage({ url: cachedUrl });
+            return;
+        }
+        toast.error('Preview not available. Please re-upload the file.');
     };
 
     const handleClosePopup = () => {
@@ -518,17 +582,17 @@ const CreateTest = () => {
                                 <div className="step-card">
                                     <h2>Step 3: Review & Edit Questions</h2>
                                     {isLoading ? <p>Generating questions...</p> : <p>Here are the generated questions. You can edit, delete, or add more from images.</p>}
-                                    <ImageUploadSection
-                                        uploadedImages={uploadedImages}
+                                    <FileUploadSection
+                                        uploadedFiles={uploadedFiles}
                                         isUploading={isUploading}
                                         uploadProgress={uploadProgress}
                                         isGenerating={isGenerating}
                                         generationProgress={generationProgress}
                                         loadingMessages={loadingMessages}
-                                        handleImageUpload={handleImageUpload}
-                                        handleDeleteImage={handleDeleteImage}
+                                        handleFileUpload={handleFileUpload}
+                                        handleDeleteFile={handleDeleteFile}
                                         handleGenerateQuestions={handleGenerateQuestions}
-                                        handleImageClick={handleImageClick}
+                                        handleFileClick={handleFileClick}
                                     />
                                 </div>
                                 <div className="question-list-container">

@@ -44,9 +44,12 @@ export const apiRequest = async (endpoint, options = {}) => {
       delete headers['Content-Type'];
     }
 
-    // Set default timeout to 30 seconds, but use 120 seconds for image operations
-    const isImageOperation = endpoint.includes('generate_from_images') || endpoint.includes('upload_images');
-    const timeout = isImageOperation ? 120000 : 30000;
+    // Set default timeout to 30 seconds, but use 120 seconds for file/image operations
+    const isLongOp = endpoint.includes('generate_from_images')
+      || endpoint.includes('upload_images')
+      || endpoint.includes('generate_from_files')
+      || endpoint.includes('upload_files');
+    const timeout = isLongOp ? 120000 : 30000;
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), timeout);
@@ -59,19 +62,8 @@ export const apiRequest = async (endpoint, options = {}) => {
       signal: controller.signal
     };
 
-    console.log('Making request to:', url);
-    console.log('With config:', {
-      ...config,
-      headers: { ...config.headers }
-    });
-
     const response = await fetch(url, config);
     clearTimeout(timeoutId);
-    
-    // Log response details for debugging
-    console.log('Response status:', response.status);
-    console.log('Response headers:', [...response.headers.entries()]);
-
     if (!response.ok) {
       if (response.status === 401) {
         // Don't redirect, just throw error for the component to handle
@@ -128,10 +120,11 @@ export const endpoints = {
   getOverviewStats: 'api/user_stats',
   getSubjectStats: (subject) => `api/subject_stats/${subject}`,
   reportQuestion: 'api/report',
-  uploadImages: 'api/upload_images',
+  uploadFiles: 'api/upload_files',
   getUploadedImage: (filename) => `api/uploads/${filename}`,
   fetchCoins: 'api/fetch_coins',
-  getStudentsByStandard: (isClass10) => `api/students_by_standard?class10=${isClass10}`
+  getStudentsByStandard: (isClass10) => `api/students_by_standard?class10=${isClass10}`,
+  generateFromFiles: 'api/generate_from_files'
 };
 
 // API methods for common operations
@@ -239,6 +232,7 @@ export const api = {
     method: 'POST',
     body: JSON.stringify(data)
   }),
+  // Legacy image upload kept for backwards compatibility
   uploadImages: (formData, onProgress = () => {}) => {
     return new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
@@ -276,6 +270,7 @@ export const api = {
       xhr.send(formData);
     });
   },
+  // Legacy image generation kept for backwards compatibility
   generateFromImages: async (filenames, {
     onProgress = () => {},
     onMessage = () => {},
@@ -415,6 +410,183 @@ export const api = {
       'Accept': 'image/*'
     }
   }),
+
+  // New unified files upload (images/pdf/pptx)
+  uploadFiles: (formData, onProgress = () => {}) => {
+    return new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+
+      xhr.upload.addEventListener('progress', (event) => {
+        if (event.lengthComputable) {
+          const percentComplete = (event.loaded / event.total) * 100;
+          onProgress(percentComplete);
+        }
+      });
+
+      xhr.addEventListener('load', () => {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          try {
+            resolve(JSON.parse(xhr.responseText));
+          } catch (e) {
+            reject(new Error('Invalid JSON response'));
+          }
+        } else {
+          reject(new Error(`Upload failed with status ${xhr.status}`));
+        }
+      });
+
+      xhr.addEventListener('error', () => {
+        reject(new Error('Upload failed'));
+      });
+
+      xhr.open('POST', `${API_BASE_URL}/api/upload_files`);
+
+      // Add headers from getDefaultHeaders()
+      const headers = getDefaultHeaders();
+      Object.entries(headers).forEach(([key, value]) => {
+        if (key !== 'Content-Type') { // Skip Content-Type as it's set automatically for FormData
+          xhr.setRequestHeader(key, value);
+        }
+      });
+
+      xhr.withCredentials = true;
+      xhr.send(formData);
+    });
+  },
+
+  // New unified generation from files (images/pdf/pptx)
+  generateFromFiles: async (filenames, {
+    onProgress = () => {},
+    onMessage = () => {},
+    timeout = 120000
+  } = {}) => {
+    try {
+      const params = new URLSearchParams();
+      filenames.forEach(filename => params.append('filenames', filename));
+
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeout);
+
+      const response = await fetch(`${API_BASE_URL}/api/generate_from_files?${params.toString()}`, {
+        method: 'GET',
+        credentials: 'include',
+        headers: getDefaultHeaders(),
+        signal: controller.signal
+      });
+
+      if (!response.ok) {
+        clearTimeout(timeoutId);
+        throw new Error(`Failed to generate from files: ${response.statusText}`);
+      }
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder('utf-8');
+      let buffer = '';
+      let questions = [];
+      let totalQuestions = 0;
+
+      try {
+        onMessage('Starting file processing...');
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+
+          const blocks = buffer.split("\n\n");
+          buffer = blocks.pop() || '';
+
+          for (const block of blocks) {
+            const lines = block.split("\n");
+            let eventType = '';
+            let dataLine = '';
+            for (const line of lines) {
+              if (line.startsWith('event: ')) {
+                eventType = line.replace('event: ', '').trim();
+              } else if (line.startsWith('data: ')) {
+                dataLine = line.replace('data: ', '').trim();
+              }
+            }
+
+            if (!eventType || !dataLine) continue;
+
+            try {
+              const data = JSON.parse(dataLine);
+              switch (eventType) {
+                case 'start':
+                  onMessage(data.message || 'Processing files...');
+                  break;
+
+                case 'total':
+                  totalQuestions = data.count;
+                  onProgress({
+                    completed: 0,
+                    total: totalQuestions,
+                    message: `Found ${totalQuestions} questions to process`
+                  });
+                  break;
+
+                case 'progress':
+                  onProgress({
+                    completed: data.count,
+                    total: totalQuestions || data.total || data.count,
+                    message: `Processing question ${data.count} of ${totalQuestions || data.total || data.count}`
+                  });
+                  break;
+
+                case 'result':
+                  if (data.questions && Array.isArray(data.questions)) {
+                    questions = data.questions.map((q, index) => {
+                      const optionsArray = Array.isArray(q.options);
+                      const options = {
+                        a: optionsArray ? q.options[0] : (q.options.A || q.options.a || ''),
+                        b: optionsArray ? q.options[1] : (q.options.B || q.options.b || ''),
+                        c: optionsArray ? q.options[2] : (q.options.C || q.options.c || ''),
+                        d: optionsArray ? q.options[3] : (q.options.D || q.options.d || '')
+                      };
+                      const answer = (q.correct_answer || q.correctAnswer || q.answer || '').toLowerCase();
+                      return {
+                        id: Date.now() + index,
+                        question: q.question || '',
+                        options,
+                        answer,
+                        isEditing: false
+                      };
+                    });
+                    clearTimeout(timeoutId);
+                    return questions;
+                  }
+                  break;
+
+                case 'error':
+                  throw new Error(data.message || 'Failed to process files');
+
+                default:
+                  console.warn(`Unhandled event type: ${eventType}`);
+                  break;
+              }
+            } catch (parseError) {
+              console.error('Error parsing event data:', parseError);
+              continue;
+            }
+          }
+        }
+
+        if (questions.length === 0) {
+          throw new Error('No questions could be extracted from the files');
+        }
+
+        return questions;
+      } finally {
+        clearTimeout(timeoutId);
+        reader.releaseLock();
+      }
+    } catch (error) {
+      console.error('Error in generateFromFiles:', error);
+      throw error;
+    }
+  },
+
   fetchCoins: () => apiRequest(endpoints.fetchCoins),
- getStudentsByStandard: (isClass10 = false) => apiRequest(endpoints.getStudentsByStandard(isClass10)),
+  getStudentsByStandard: (isClass10 = false) => apiRequest(endpoints.getStudentsByStandard(isClass10)),
 }

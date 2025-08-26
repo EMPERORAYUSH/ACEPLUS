@@ -22,6 +22,7 @@ from utils.prompts import (
     HINT_GENERATION_PROMPT,
 )
 from utils.validate_env import validate_env_config
+from utils.parse_files import parse_any
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
@@ -442,13 +443,35 @@ def generate_performance_analysis(results, lessons, is_class10):
         return "Unable to generate performance analysis at this time."
 
 
-def analyze_images(image_paths):
+def analyze_files(file_paths):
     """
-    Analyze multiple images containing MCQ questions using configured image model with streaming.
-    Yields progress updates and returns a list of questions extracted from the images.
+    Analyze a mixed list of files (images, PDFs, PPTX). Uses parse_any to extract:
+      - text from PDFs/PPTX (fitz/python-pptx)
+      - embedded images from PDFs/PPTX saved to upload_folder
+      - pass-through of images
+    Streams progress/events identical to analyze_images.
     """
     try:
         client, model_name, nothink_enabled = get_client_for_model("IMAGE_MODELS")
+
+        aggregated_texts = []
+        upload_folder = os.path.dirname(file_paths[0]) if file_paths else os.getcwd()
+        collected_image_paths = []
+        for p in file_paths:
+            try:
+                parsed = parse_any(p, upload_folder)
+                t = (parsed.get("text") or "").strip()
+                if t:
+                    aggregated_texts.append(t)
+                imgs = parsed.get("images") or []
+                for ip in imgs:
+                    if os.path.exists(ip):
+                        collected_image_paths.append(ip)
+            except Exception as e:
+                logging.error(f"Error parsing file {p}: {e}")
+                logging.debug(traceback.format_exc())
+                continue
+        image_paths = collected_image_paths
 
         image_contents = []
         for path in image_paths:
@@ -465,16 +488,18 @@ def analyze_images(image_paths):
                 logging.debug(traceback.format_exc())
                 continue
 
-        if not image_contents:
-            logging.warning("No valid images to process")
-            yield {"type": "error", "message": "No valid images to process"}
+        if not image_contents and not aggregated_texts:
+            logging.warning("No content (text or images) to process")
+            yield {"type": "error", "message": "No content (text or images) to process"}
             return
 
         content = [{"type": "text", "text": IMAGE_ANALYSIS_PROMPT}]
+        if aggregated_texts:
+            content.append({"type": "text", "text": "\n\n".join(aggregated_texts)})
         content.extend(image_contents)
-
-        logging.info(f"Processing {len(image_paths)} images using {model_name} with streaming...")
-
+        print(content)
+        logging.info(f"Processing {len(file_paths)} files using {model_name} with streaming...")
+        
         params = {
             "model": model_name,
             "messages": [
@@ -483,8 +508,8 @@ def analyze_images(image_paths):
                     "content": content
                 }
             ],
-            "max_tokens": 8192,
-            "temperature": 0.1,
+            "max_tokens": 65536,
+            "temperature": 1,
             "timeout": 120,
             "stream": True
         }
