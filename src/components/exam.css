@@ -670,6 +670,20 @@ body.select-menu-open {
   gap: 12px;
 }
 
+/* Mobile responsiveness for lesson items */
+@media (max-width: 768px) {
+  .lesson-item {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .lesson-item {
+    width: 100%;
+  }
+}
+
 .lessons-empty-state {
   grid-column: 1 / -1;
   text-align: center;
