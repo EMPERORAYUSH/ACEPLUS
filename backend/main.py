@@ -33,7 +33,7 @@ try:
     from utils.data_utils import load_json_file, calculate_lesson_analytics, decode_unicode
     from utils.name_utils import generate_memorable_name
     from utils.auth_utils import get_student_class, get_current_user_info
-    from utils.job_utils import allowed_file, cleanup_old_files
+    from utils.job_utils import allowed_file, cleanup_old_files, delete_unsubmitted_exams
     from utils.parse_files import render_pdf_previews, render_pptx_previews
 
 except ImportError as e:
@@ -1370,12 +1370,26 @@ def start_expiration_scheduler():
         time.sleep(86400)
 
 
+def start_unsubmitted_exams_scheduler():
+    """Periodically deletes unsubmitted exams older than 7 days."""
+    while True:
+        try:
+            delete_unsubmitted_exams(exam_repo)
+        except Exception as e:
+            print(f"Error in unsubmitted exams scheduler: {e}")
+        # Run once per day (86400 seconds)
+        time.sleep(86400)
+
+
 # Start background threads when app starts
 cleanup_thread = threading.Thread(target=start_cleanup_scheduler, daemon=True)
 cleanup_thread.start()
 
 expiration_thread = threading.Thread(target=start_expiration_scheduler, daemon=True)
 expiration_thread.start()
+
+unsubmitted_exams_thread = threading.Thread(target=start_unsubmitted_exams_scheduler, daemon=True)
+unsubmitted_exams_thread.start()
 
 if __name__ == "__main__":
     print("Preloading caches before starting server...")

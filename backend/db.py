@@ -590,6 +590,28 @@ class ExamRepository:
         self.write_queue.enqueue("exam_update_solution", callable=_op)
         return True
 
+    def delete_exam(self, exam_id: str, is_class10: Optional[bool] = None) -> bool:
+        # Remove from cache
+        std = 9  # default standard
+        with self._lock:
+            # Try to find the exam in cache to determine its standard
+            exam = self._get_cached_exam(exam_id, is_class10)
+            if exam:
+                std = int(exam.get("standard", 9))
+            elif is_class10 is not None:
+                std = 10 if is_class10 else 9
+            # Remove from appropriate cache
+            cache = self._cache_for(std == 10)
+            cache.pop(exam_id, None)
+
+        # Queue DB delete
+        def _op():
+            col = self._col_by_params(standard=std)
+            col.delete_one({"exam-id": exam_id})
+
+        self.write_queue.enqueue("exam_delete", callable=_op)
+        return True
+
 
 # -----------------------------------------------------------------------------
 # Test Repository (segregated by class DB) with RAM cache
