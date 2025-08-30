@@ -1,4 +1,6 @@
 import os
+import json
+from typing import List
 
 def lesson2filepath(subject, lesson, class10=False):
     subject_lower = subject.lower()
@@ -31,3 +33,12 @@ def lesson2filepath(subject, lesson, class10=False):
         )
 
     return os.path.normpath(path)
+
+def get_all_lessons_for_subject(subject: str, class10: bool = False) -> List[str]:
+    """Fetches all lessons for a given subject from the data files."""
+    lessons_file = "lessons10.json" if class10 else "lessons.json"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(script_dir, "..", "data")
+    with open(os.path.join(data_path, lessons_file)) as f:
+        lessons = json.load(f)
+    return lessons.get(subject, [])
