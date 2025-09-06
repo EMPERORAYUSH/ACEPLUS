@@ -29,7 +29,7 @@ try:
     )
 
     import threading
-    from utils.lesson_utils import lesson2filepath, get_all_lessons_for_subject
+    from utils.lesson_utils import lesson2filepath, get_all_lessons_for_subject, get_all_subjects
     from utils.data_utils import load_json_file, calculate_lesson_analytics, decode_unicode
     from utils.name_utils import generate_memorable_name
     from utils.auth_utils import get_student_class, get_current_user_info
@@ -1227,15 +1227,17 @@ def fetch_coins():
     })
 
     user_subjects_stats = user_repo.get_all_user_subject_stats(current_user)
+    available_subjects = get_all_subjects(is_class10)
+    user_subjects_stats = [s for s in user_subjects_stats if s.get('subject') in available_subjects]
     user_exam_history = user_repo.get_user_exams_overview(current_user)
     total_exams_attempted = len(user_exam_history)
 
     # Task 2: Give 1 exam of {subject}
-    subject_for_task2 = "Math"
+    subject_for_task2 = random.choice(available_subjects) if available_subjects else "Math"
     task2_subject_stats = [s for s in user_subjects_stats if s.get('subject') != 'English']
 
     if not task2_subject_stats:
-        subject_for_task2 = random.choice(["Math", "Science", "SS"])
+        subject_for_task2 = random.choice(available_subjects) if available_subjects else "Math"
     elif total_exams_attempted < 5:
         unattempted_subjects = [s['subject'] for s in task2_subject_stats if s['attempted'] == 0]
         if unattempted_subjects:
@@ -1260,13 +1262,13 @@ def fetch_coins():
     # Task 3: Give 1 exam of {lesson} {subject}
     unattempted_subjects = [s['subject'] for s in user_subjects_stats if s['attempted'] == 0]
     if total_exams_attempted == 0:
-        available_subjects = [s for s in ["Math", "Science", "SS"] if s != subject_for_task2]
-        random_subject = random.choice(available_subjects)
+        valid_subjects = [s for s in available_subjects if s != subject_for_task2]
+        random_subject = random.choice(valid_subjects) if valid_subjects else random.choice(available_subjects)
         first_lesson = get_all_lessons_for_subject(random_subject, is_class10)[0]
         new_tasks.append({"id": 3, "title": "New Horizons", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": first_lesson, "subject": random_subject}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": random_subject, "lessons": [first_lesson]}})
     elif len(unattempted_subjects) >= 2:
-        available_subjects = [s for s in ["Math", "Science", "SS"] if s != subject_for_task2]
-        subject_for_task3 = random.choice(available_subjects)
+        valid_subjects = [s for s in available_subjects if s != subject_for_task2]
+        subject_for_task3 = random.choice(valid_subjects) if valid_subjects else random.choice(available_subjects)
         first_lesson_for_task3 = get_all_lessons_for_subject(subject_for_task3, is_class10)[0]
         new_tasks.append({"id": 3, "title": "Explore New Topics", "details": {"text": "Give 1 exam of {lesson} from {subject}", "lesson": first_lesson_for_task3, "subject": subject_for_task3}, "completed": False, "reward": 10, "action": {"type": "exam", "subject": subject_for_task3, "lessons": [first_lesson_for_task3]}})
     else:

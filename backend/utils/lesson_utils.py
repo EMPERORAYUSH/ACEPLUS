@@ -42,3 +42,13 @@ def get_all_lessons_for_subject(subject: str, class10: bool = False) -> List[str
     with open(os.path.join(data_path, lessons_file)) as f:
         lessons = json.load(f)
     return lessons.get(subject, [])
+
+
+def get_all_subjects(class10: bool = False) -> List[str]:
+    """Fetches all subjects from the data files."""
+    lessons_file = "lessons10.json" if class10 else "lessons.json"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(script_dir, "..", "data")
+    with open(os.path.join(data_path, lessons_file)) as f:
+        lessons = json.load(f)
+    return list(lessons.keys())

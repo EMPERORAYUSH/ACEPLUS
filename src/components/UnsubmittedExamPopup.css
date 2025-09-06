@@ -1,0 +1,45 @@
+.unsubmitted-popup-enter {
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+}
+
+.unsubmitted-popup-enter-active {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.unsubmitted-popup-exit {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.unsubmitted-popup-exit-active {
+  opacity: 0;
+  transform: scale(0.95) translateY(20px);
+  transition: opacity 0.2s ease-in, transform 0.2s ease-in;
+}
+
+/* Delete confirmation animation */
+.delete-confirmation-enter {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.delete-confirmation-enter-active {
+  height: auto;
+  opacity: 1;
+  transition: height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.delete-confirmation-exit {
+  height: auto;
+  opacity: 1;
+}
+
+.delete-confirmation-exit-active {
+  height: 0;
+  opacity: 0;
+  transition: height 0.3s ease-in, opacity 0.3s ease-in;
+}

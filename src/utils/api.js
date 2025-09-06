@@ -589,4 +589,8 @@ export const api = {
 
   fetchCoins: () => apiRequest(endpoints.fetchCoins),
   getStudentsByStandard: (isClass10 = false) => apiRequest(endpoints.getStudentsByStandard(isClass10)),
+  getUnsubmittedExams: () => apiRequest('api/unsubmitted_exams'),
+  deleteUnsubmittedExam: (examId) => apiRequest(`api/delete_unsubmitted_exam/${examId}`, {
+    method: 'DELETE'
+  })
 }
