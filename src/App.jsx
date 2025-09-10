@@ -34,7 +34,7 @@ const ScrollToTop = () => {
 };
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+ const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
   const [completedTasks, setCompletedTasks] = useState([]);
   const [refreshCoins, setRefreshCoins] = useState(false);
@@ -45,9 +45,13 @@ function App() {
     setRefreshCoins(true); // Trigger coin refresh
   };
 
-  useEffect(() => {
+  const updateAuthState = () => {
     const token = localStorage.getItem("token");
     setIsAuthenticated(!!token);
+  };
+
+  useEffect(() => {
+    updateAuthState();
   }, []);
 
   const showHeader = location.pathname !== '/';
@@ -65,8 +69,8 @@ function App() {
         <Route
           path="/home"
           element={
-            <ProtectedRoute>
-              <Content />
+            <ProtectedRoute updateAuthState={updateAuthState}>
+              <Content updateAuthState={updateAuthState} />
               <ScrollToTop />
             </ProtectedRoute>
           }
@@ -82,7 +86,7 @@ function App() {
         <Route
           path="/create"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <Exam />
             </ProtectedRoute>
           }
@@ -90,7 +94,7 @@ function App() {
         <Route
           path="/analyse"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <Analysis />
             </ProtectedRoute>
           }
@@ -98,7 +102,7 @@ function App() {
         <Route
           path="/analyse/:subject"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <SubjectDetails />
             </ProtectedRoute>
           }
@@ -106,7 +110,7 @@ function App() {
         <Route
           path="/history"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <History />
             </ProtectedRoute>
           }
@@ -114,7 +118,7 @@ function App() {
         <Route
           path="/exam/g/:id"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <ExamTaking />
             </ProtectedRoute>
           }
@@ -122,7 +126,7 @@ function App() {
         <Route
           path="/exam/results/:id"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <ExamResults onTaskCompletion={handleTaskCompletion} />
             </ProtectedRoute>
           }
@@ -130,7 +134,7 @@ function App() {
         <Route
           path="/test-series"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <TestSeries />
             </ProtectedRoute>
           }
@@ -138,7 +142,7 @@ function App() {
         <Route
           path="/create-test"
           element={
-            <ProtectedRoute>
+            <ProtectedRoute updateAuthState={updateAuthState}>
               <CreateTest />
             </ProtectedRoute>
           }

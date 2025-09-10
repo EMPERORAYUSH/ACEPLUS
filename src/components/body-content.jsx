@@ -5,6 +5,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import UpdatePopup from './UpdatePopup';
 import LeaderboardPopup from './LeaderboardPopup';
+import UnsubmittedExamPopup from './UnsubmittedExamPopup';
 import { api } from '../utils/api';
 import './body-content.css';
 
@@ -53,7 +54,7 @@ const fadeTransition = {
   }
 };
 
-function Content() {
+function Content({ updateAuthState }) {
   const initialCardData = [
     { title: "Total Exams Attempted", value: "NA" },
     { title: "Total Marks Attempted", value: "NA" },
@@ -71,6 +72,9 @@ function Content() {
   const [leaderboardData, setLeaderboardData] = useState(null);
   const [animateNumbers, setAnimateNumbers] = useState(false);
   const [currentLeaderboardId, setCurrentLeaderboardId] = useState(null);
+  const [showUnsubmittedPopup, setShowUnsubmittedPopup] = useState(false);
+  const [unsubmittedExams, setUnsubmittedExams] = useState([]);
+  const [pendingAfterLeaderboard, setPendingAfterLeaderboard] = useState(false);
 
   useEffect(() => {
     const handleAnimateCards = () => {
@@ -139,17 +143,24 @@ function Content() {
         }
 
         // Call all APIs concurrently using Promise.all
-        const [userStatsResponse] = await Promise.all([
+        const [userStatsResponse, _, __, unsubmittedResponse] = await Promise.all([
           api.getOverviewStats(),
           checkForUpdates(),
-          fetchLeaderboard()
+          fetchLeaderboard(),
+          api.getUnsubmittedExams()
         ]);
+
+        setUnsubmittedExams(unsubmittedResponse.unsubmitted_exams || []);
+
 
         if (userStatsResponse && userStatsResponse.version) {
           const clientVersion = localStorage.getItem('version');
           if (clientVersion !== userStatsResponse.version) {
             localStorage.clear();
             localStorage.setItem('version', userStatsResponse.version);
+            if (updateAuthState) {
+              updateAuthState();
+            }
             navigate('/login');
             return;
           }
@@ -186,6 +197,9 @@ function Content() {
           setError(error.message);
         }
         if (error.message === 'Unauthorized access') {
+          if (updateAuthState) {
+            updateAuthState();
+          }
           navigate('/login');
         }
       } finally {
@@ -202,12 +216,31 @@ function Content() {
     };
   }, []);
 
+  // Show unsubmitted popup if available
+  useEffect(() => {
+    if (unsubmittedExams.length > 0 && !showUpdatePopup && !showLeaderboardPopup) {
+      setShowUnsubmittedPopup(true);
+    }
+  }, [unsubmittedExams, showUpdatePopup, showLeaderboardPopup]);
+
   const handleCloseLeaderboard = () => {
     setShowLeaderboardPopup(false);
     window.dispatchEvent(new Event('animateCards'));
     if (currentLeaderboardId) {
       localStorage.setItem('lastSeenLeaderboardId', currentLeaderboardId);
     }
+    if (pendingAfterLeaderboard && unsubmittedExams.length > 0) {
+      setShowUnsubmittedPopup(true);
+      setPendingAfterLeaderboard(false);
+    }
+  };
+
+  const handleCloseUnsubmitted = () => {
+    setShowUnsubmittedPopup(false);
+  };
+
+  const handleExamDeleted = (examId) => {
+    setUnsubmittedExams(prev => prev.filter(exam => exam['exam-id'] !== examId));
   };
 
   return (
@@ -229,6 +262,14 @@ function Content() {
           leaderboardData={leaderboardData}
           updatePopupOpen={showUpdatePopup}
           leaderboardId={currentLeaderboardId}
+        />
+      )}
+      {unsubmittedExams.length > 0 && (
+        <UnsubmittedExamPopup
+          isOpen={showUnsubmittedPopup}
+          onClose={handleCloseUnsubmitted}
+          unsubmittedExams={unsubmittedExams}
+          onExamDeleted={handleExamDeleted}
         />
       )}
       <motion.div

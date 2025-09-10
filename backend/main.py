@@ -1383,6 +1383,91 @@ def start_unsubmitted_exams_scheduler():
         time.sleep(86400)
 
 
+@app.route("/api/unsubmitted_exams", methods=["GET"])
+@jwt_required()
+def get_unsubmitted_exams_route():
+    current_user, is_class10 = get_current_user_info()
+    
+    # Get all unsubmitted exams from the past 7 days
+    from datetime import datetime, timedelta
+    
+    # Get collection for the user's standard
+    col = exam_repo._col_by_params(is_class10=is_class10)
+    standard = 10 if is_class10 else 9
+    
+    # Find unsubmitted exams for this user
+    unsubmitted_exams = col.find({
+        "userId": current_user,
+        "is_submitted": False
+    })
+    
+    # Filter exams from past 7 days
+    cutoff_date = datetime.now() - timedelta(days=7)
+    recent_unsubmitted = []
+    
+    for exam in unsubmitted_exams:
+        try:
+            # Parse the timestamp string
+            exam_timestamp = datetime.strptime(exam["timestamp"], "%Y-%m-%d %H:%M:%S")
+            
+            # Check if the exam is within the past 7 days
+            if exam_timestamp > cutoff_date:
+                # Add to result list
+                exam_info = {
+                    "exam-id": exam["exam-id"],
+                    "subject": exam.get("subject", "Unknown"),
+                    "lessons": exam.get("lessons", []),
+                    "timestamp": exam["timestamp"],
+                    "test": exam.get("test", False),
+                    "test_name": exam.get("test_name", None),
+                    "question_count": len(exam.get("questions", []))
+                }
+                recent_unsubmitted.append(exam_info)
+        except Exception as e:
+            print(f"Error processing exam {exam.get('exam-id', 'unknown')}: {e}")
+            continue
+    
+    # Sort by timestamp (newest first)
+    recent_unsubmitted.sort(key=lambda x: x["timestamp"], reverse=True)
+    
+    return jsonify({
+        "unsubmitted_exams": recent_unsubmitted,
+        "count": len(recent_unsubmitted)
+    }), 200
+
+
+@app.route("/api/delete_unsubmitted_exam/<exam_id>", methods=["DELETE"])
+@jwt_required()
+def delete_unsubmitted_exam_route(exam_id):
+    current_user, is_class10 = get_current_user_info()
+    
+    # Get the exam to verify ownership and status
+    exam = exam_repo.get_exam(exam_id, is_class10)
+    
+    if not exam:
+        return jsonify({"message": "Exam not found"}), 404
+    
+    # Verify the exam belongs to the current user
+    if exam["userId"] != current_user:
+        return jsonify({"message": "Unauthorized access to exam"}), 401
+    
+    # Verify the exam is not submitted (safety check)
+    if exam.get("is_submitted", False):
+        return jsonify({"message": "Cannot delete submitted exams"}), 400
+    
+    # Delete the exam
+    success = exam_repo.delete_exam(exam_id, is_class10)
+    
+    if success:
+        return jsonify({
+            "message": "Exam deleted successfully",
+            "exam_id": exam_id
+        }), 200
+    else:
+        return jsonify({"message": "Failed to delete exam"}), 500
+
+
+# Start background threads when app starts
 # Start background threads when app starts
 cleanup_thread = threading.Thread(target=start_cleanup_scheduler, daemon=True)
 cleanup_thread.start()
